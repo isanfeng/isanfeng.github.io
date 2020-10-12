@@ -1,37 +1,37 @@
-## Welcome to GitHub Pages
 
-You can use the [editor on GitHub](https://github.com/isanfeng/isanfeng.github.io/edit/main/README.md) to maintain and preview the content for your website in Markdown files.
+# Leach Chen Blog is a minimal clear theme for Jekyll
+![Leach Chen Blog - Imac](https://leach-chen.github.io/blogdemo/assets/img/adam-blog-imac.jpg)
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+## Demo
+[网站出处](https://github.com/leach-chen/blogdemo)
 
-### Markdown
+[网站参考来源](https://github.com/artemsheludko/adam-blog)
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+[网站搭建教程](https://www.jianshu.com/p/9f71e260925d)
 
-```markdown
-Syntax highlighted code block
+[网站效果预览（点击预览）](https://leach-chen.github.io/blogdemo/)
 
-# Header 1
-## Header 2
-### Header 3
+The main page would look like this:
 
-- Bulleted
-- List
+![Main page preview](https://leach-chen.github.io/blogdemo/other/img/mainpage.png)
 
-1. Numbered
-2. List
+The post page would look like this:
 
-**Bold** and _Italic_ and `Code` text
+![Post page preview](https://leach-chen.github.io/blogdemo/other/img/articlepage.png)
 
-[Link](url) and ![Image](src)
-```
+## Features
 
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
+- [Google Fonts](https://fonts.google.com/)
+- [Font Awesome](http://fontawesome.io/)
+- [Disqus](https://disqus.com/)
+- [MailChimp](https://mailchimp.com/)
+- [Analytics](https://analytics.google.com/analytics/web/)
+- [Search](https://github.com/christian-fei/Simple-Jekyll-Search)
 
-### Jekyll Themes
+## Installation:
 
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/isanfeng/isanfeng.github.io/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
+Fork the ``master`` branch and delete ``gh-pages`` branch in it. This is important because ``gh-pages`` branch is used here only to host the blog. You should be using the master branch as the source and create a fresh ``gh-pages`` branch.
 
-### Support or Contact
+### License
 
-Having trouble with Pages? Check out our [documentation](https://docs.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
+GNU General Public License v3.0
