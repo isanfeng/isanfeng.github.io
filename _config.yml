@@ -1,4 +1,4 @@
-title: Blog - isanfeng wang
+title: Blog - 流浪 * 三丰
 description: > # this means to ignore newlines until "baseurl:"
   Write an awesome description for your new site here. You can edit this
   line in _config.yml. It will appear in your document head meta (for
@@ -8,10 +8,10 @@ permalink: ':title/'
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
 
 # Author settings add your name
-author: isanfeng
+author: isanfeng wang
 
-author-pic: leach-face.jpg
-about-author: I am an Android developer.I will add description latter.
+author-pic: leach-face123.jpg
+about-author: I will add description latter.
 
 #修改成你自己的
 # Contact links
@@ -34,7 +34,7 @@ csdn:
 mailchimp: # Add your MailChimp form identifier.
 
 # Disqus修改成你自己的
-discus_identifier: isanfeng
+discus_identifier:
 # Add your discus identifier
 
 #intensedebate修改成你自己的
@@ -45,7 +45,7 @@ google-analysis:
 baidu-analysis:
 
 #youyan
-youyan-id: 2157296
+youyan-id:
 
 # Paginate
 paginate: 18
@@ -61,14 +61,17 @@ plugins:
 include: [_pages]
 exclude: ["node_modules", "gulpfile.js", "package.json", "yarn.lock"]
 
-imagepath: /blogdemo
+imagepath: /assets/img/blog
 
 links:
   - name:         Home
     url:          https://isanfeng.github.io
     external:     false
   - name:         About
-    url:          /blogdemo/about
+    url:          /about
+    external:     false
+  - name:         Test
+    url:          /about
     external:     false
 
 #添加分类步骤：
@@ -82,21 +85,26 @@ label2:  </span>
 
 links1:
   - name:         所有
-    url:          /blog
+    url:          /
     type:         recent
     external:     false
   - name:         随笔
-    url:          /blogdemo/myblog/essays
+    url:          /myblog/essays
     type:         essays
     external:     false
   - name:         Jekyll
-    url:          /blogdemo/myblog/jekyll
+    url:          /myblog/jekyll
     type:         jekyll
+    external:     false
+  - name:         test_category
+    url:          /myblog/test
+    type:         test
     external:     false
 
 blog_1:    recent
 blog_2:    essays
 blog_3:    jekyll
+blog_4:    test
 
 
 
