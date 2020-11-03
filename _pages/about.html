@@ -8,10 +8,31 @@ permalink: /about/
   <div class="about_box">
     <div class="author">
         <div class="author_image">
-          <img src="{{site.baseurl}}/assets/img/{% if site.author-pic %}{{site.author-pic}}{% endif %}" alt="Author image">
+<!--          <img src="{{site.baseurl}}/assets/img/{% if site.author-pic %}{{site.author-pic}}{% endif %}" alt="Author image">-->
+
+          <div class="ih-item circle effect right_to_left">
+            <a href="" title="前往 {{ site.title }} 的主页" class="blog-button">
+                <div class="img"><img src="{{site.baseurl}}/assets/img/{% if site.author-pic %}{{site.author-pic}}{% endif %}" alt="Author image"></div>
+                <div class="info">
+                    <div class="info-back">
+                        <h2>
+                            {% if site.avatarTitle %}
+                                {{site.avatarTitle}}
+                            {% endif %}
+                        </h2>
+                        <p>
+                           {% if site.avatarDesc %}
+                                {{site.avatarDesc}}
+                            {% endif %}
+                        </p>
+                    </div>
+                </div>
+            </a>
+          </div>
+
         </div>
         <div class="author_info">
-          <h2 class="author_title">{% if site.author-name %}{{site.author-name}}{% else %}三丰{% endif %}</h2>
+          <h2 class="author_title">{% if site.author-name %}{{site.author-name}}{% else %}三 丰{% endif %}</h2>
           <p class="author_subtitle">{% if site.about-author %}{{site.about-author}}{% else %}La croix godard blue bottle, vape iceland fingerstache cronut single-origin coffee lyft snackwave normcore small batch.{% endif %}</p>
           <p class="author_subtitle"></p>
         </div>

@@ -1,8 +1,10 @@
-title: （流浪.三丰）'s blog
-description: > # this means to ignore newlines until "baseurl:"
-  Write an awesome description for your new site here. You can edit this
-  line in _config.yml. It will appear in your document head meta (for
-  Google search results) and in your feed.xml site description.
+title: 流浪.三丰
+subtitle: 个人瞎搞站
+description: 欢迎来到我的个人瞎搞站
+avatarTitle: isanfeng
+avatarDesc:
+# 博客是否自动生成目录，false为不生成
+enableToc: true
 permalink: ':title/'
 #baseurl: "/adam-blog" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
@@ -25,7 +27,7 @@ pinterest: # Add your Pinterest handle
 #修改成你自己的
 email: wangsf927@163.com
 phone:
-github: https://github.com/isanfeng
+github: isanfeng
 jianshu:
 juejin:
 csdn:
@@ -38,7 +40,8 @@ discus_identifier:
 # Add your discus identifier
 
 #intensedebate修改成你自己的
-intensedebate_identifier:
+intensedebate_identifier: 817a70ae8b1e66f93255bb987bc33468
+intensedebate_comments: true
 
 # Tracker Google Analytics修改成你自己的
 google-analysis:
