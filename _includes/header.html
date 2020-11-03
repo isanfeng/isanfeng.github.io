@@ -18,7 +18,7 @@
 
 			 {% if link.type == site.blog_2 %}
 				 {% for post in site.posts %}
-				   {% if post.essays%}
+				   {% if post.test1%}
 						{% assign count = count | plus: 1 %}
 				   {% endif %}
 				 {% endfor %}
@@ -26,7 +26,7 @@
 
 			 {% if link.type == site.blog_3 %}
 				{% for post in site.posts %}
-				   {% if post.jekyll%}
+				   {% if post.test2%}
 						{% assign count = count | plus: 1 %}
 				   {% endif %}
 				 {% endfor %}
@@ -34,75 +34,11 @@
 
 			 {% if link.type == site.blog_4 %}
 				{% for post in site.posts %}
-				   {% if post.androidoriginal%}
+				   {% if post.test3%}
 						{% assign count = count | plus: 1 %}
 				   {% endif %}
 				 {% endfor %}
 			 {% endif %}
-
-			 {% if link.type == site.blog_5 %}
-				{% for post in site.posts %}
-				   {% if post.abouttest%}
-						{% assign count = count | plus: 1 %}
-				   {% endif %}
-				 {% endfor %}
-			 {% endif %}
-
-       {% if link.type == site.blog_6 %}
-        {% for post in site.posts %}
-           {% if post.stock%}
-            {% assign count = count | plus: 1 %}
-           {% endif %}
-         {% endfor %}
-       {% endif %}
-
-       {% if link.type == site.blog_7 %}
-        {% for post in site.posts %}
-           {% if post.other%}
-            {% assign count = count | plus: 1 %}
-           {% endif %}
-         {% endfor %}
-       {% endif %}
-
-       {% if link.type == site.blog_8 %}
-        {% for post in site.posts %}
-           {% if post.python%}
-            {% assign count = count | plus: 1 %}
-           {% endif %}
-         {% endfor %}
-       {% endif %}
-
-       {% if link.type == site.blog_9 %}
-        {% for post in site.posts %}
-           {% if post.flutter%}
-            {% assign count = count | plus: 1 %}
-           {% endif %}
-         {% endfor %}
-       {% endif %}
-
-       {% if link.type == site.blog_10 %}
-        {% for post in site.posts %}
-           {% if post.ffmpeg%}
-            {% assign count = count | plus: 1 %}
-           {% endif %}
-         {% endfor %}
-       {% endif %}
-
-       {% if link.type == site.blog_11 %}
-        {% for post in site.posts %}
-           {% if post.opengl%}
-            {% assign count = count | plus: 1 %}
-           {% endif %}
-         {% endfor %}
-       {% endif %}
-
-       {% if link.type == site.blog_12 %}
-        {% for post in site.posts %}
-           {% if post.hacker%}
-            {% assign count = count | plus: 1 %}
-           {% endif %}
-         {% endfor %}
-       {% endif %}
 
 			 <li><a  href="{{ link.url }}"  data-hover="{{link.name}}">{{ link.name }}({{count}})</a></li>
 		 {% endfor %}
