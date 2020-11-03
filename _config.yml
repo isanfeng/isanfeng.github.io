@@ -86,22 +86,22 @@ links1:
     type:         recent
     external:     false
   - name:         TEST1
-    url:          /myblog/test1
-    type:         test1
+    url:          /blog/test_a
+    type:         test_a
     external:     false
   - name:         TEST2
-    url:          /myblog/test2
-    type:         test2
+    url:          /blog/test_b
+    type:         test_b
     external:     false
   - name:         TEST3
-    url:          /myblog/test3
-    type:         test3
+    url:          /blog/test_c
+    type:         test_c
     external:     false
 
 blog_1:    recent
-blog_2:    test1
-blog_3:    test2
-blog_4:    test3
+blog_2:    test_a
+blog_3:    test_b
+blog_4:    test_c
 
 
 

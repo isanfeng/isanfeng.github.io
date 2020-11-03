@@ -6,6 +6,7 @@ description: Hello World！
 img: post-4.jpg # Add image post (optional)
 tags: [TEST2]
 author: # Add name author (optional)
+test_b: true
 ---
 
 {{site.label1}} <a href="https://isanfeng.github.io" target="\_blank">isanfeng</a> {{site.label2}}
