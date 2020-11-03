@@ -1,4 +1,4 @@
-title: Blog - 流浪 * 三丰
+title: （流浪.三丰）'s blog
 description: > # this means to ignore newlines until "baseurl:"
   Write an awesome description for your new site here. You can edit this
   line in _config.yml. It will appear in your document head meta (for
@@ -8,24 +8,24 @@ permalink: ':title/'
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
 
 # Author settings add your name
-author: isanfeng wang
+author: 流浪.三丰
 
-author-pic: leach-face123.jpg
-about-author: I will add description latter.
+author-pic: isanfeng.jpg
+about-author: Live the life you love, Love the life you lives. To be a funny wanderer.
 
 #修改成你自己的
 # Contact links
-website: # Add your website, do not add http://
+website: isanfeng.wordpress.com
 linkedin: # Add your Linkedin handle
 twitter: # Add your Twitter handle
-facebook: # Add your Facebook handle
+facebook: wangsf111@gmail.com
 instagram: # Add your Instagram handle
 pinterest: # Add your Pinterest handle
 
 #修改成你自己的
-email:
+email: wangsf927@163.com
 phone:
-github:
+github: https://github.com/isanfeng
 jianshu:
 juejin:
 csdn:
@@ -42,13 +42,13 @@ intensedebate_identifier:
 
 # Tracker Google Analytics修改成你自己的
 google-analysis:
-baidu-analysis:
+baidu-analysis: 42bccbe026e11e0ec8bcd67d40d41529
 
 #youyan
 youyan-id:
 
 # Paginate
-paginate: 18
+paginate: 9
 paginate_path: /page:num/
 
 # Build settings
@@ -70,9 +70,6 @@ links:
   - name:         About
     url:          /about
     external:     false
-  - name:         Test
-    url:          /about
-    external:     false
 
 #添加分类步骤：
 #1：在_config.yml links1及blog_中添加对应内容
@@ -88,23 +85,23 @@ links1:
     url:          /
     type:         recent
     external:     false
-  - name:         随笔
-    url:          /myblog/essays
-    type:         essays
+  - name:         TEST1
+    url:          /myblog/test1
+    type:         test1
     external:     false
-  - name:         Jekyll
-    url:          /myblog/jekyll
-    type:         jekyll
+  - name:         TEST2
+    url:          /myblog/test2
+    type:         test2
     external:     false
-  - name:         test_category
-    url:          /myblog/test
-    type:         test
+  - name:         TEST3
+    url:          /myblog/test3
+    type:         test3
     external:     false
 
 blog_1:    recent
-blog_2:    essays
-blog_3:    jekyll
-blog_4:    test
+blog_2:    test1
+blog_3:    test2
+blog_4:    test3
 
 
 

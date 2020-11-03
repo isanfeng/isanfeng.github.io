@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
 	<meta charset="utf-8">
-	<title>Hello World！我的个人网站 - （流浪.三丰）'s blog</title>
+	<title>哈哈哈哈 - （流浪.三丰）'s blog</title>
 	<meta name="description" content="Hello World！">
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
 	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
@@ -159,47 +159,69 @@
 
   <article class="article-page">
     <div class="page-image">
-      <div class="cover-image" style="background: url(/assets/img/post-4.jpg) center no-repeat; background-size: cover;"></div>
+      <div class="cover-image" style="background: url(/assets/img/post-5.jpg) center no-repeat; background-size: cover;"></div>
     </div>
     <div class="wrapper">
       <div class="page-content">
         <div class="header-page">
-          <h1 class="page-title">Hello World！我的个人网站</h1>
-          <div class="page-date"><time datetime="2018-02-07 20:16:00 +0800">2018, Feb 07</time>
+          <h1 class="page-title">哈哈哈哈</h1>
+          <div class="page-date"><time datetime="2020-11-02 20:16:00 +0800">2020, Nov 02</time>
 		  <span id="busuanzi_container_page_pv"> | 访问量：<span id="busuanzi_value_page_pv"></span> 次</span>
 		  </div>
         </div>
         <p><span style="font-size:12px">Publish by <a href="https://isanfeng.github.io" target="\_blank">isanfeng</a> </span></p>
 
-<p>Hello World！</p>
-
-<p>经过一段业余时间的修整，由我亲手修改打造的个人网站终于问世啦！特发表一篇文章记录下🙂</p>
-
-<p><strong>本网站有如下特点：</strong></p>
+<p>#Github Workflow
+###第一步：从仓库中fork项目</p>
 <ol>
-  <li>网站托管于github，免费且无限流量,可指向自己的域名；</li>
-  <li>里面所有文章，资源，源码均放在自己电脑上,发布上传到github即可；</li>
-  <li>样式、排版、功能完全都可以按照自己需求去改动，具极大的灵活性，懂web的小伙伴能打造出更酷炫属于自己的网站哦；</li>
-  <li>网站为轻量级个人网站，无需个人的服务器及数据库</li>
-  <li>网站支持百度统计、谷歌统计；</li>
-  <li>网站兼容移动端浏览；</li>
-  <li>网站支持页面回到顶部功能；</li>
-  <li>网站支持分类文章数量统计</li>
-  <li>网站首页文章支持分页查看</li>
-  <li>文章支持分类存放；</li>
-  <li>文章支持搜索功能；</li>
-  <li>文章支持留言功能；</li>
-  <li>文章支持打赏功能；</li>
-  <li>文章支持分享；</li>
-  <li>文章支持浏览数量统计；</li>
-  <li>文章支持上一篇，下一篇查看；</li>
-  <li>文章支持tag标签标记；</li>
-  <li>文章支持底部最近文章查看；</li>
-  <li>文章编写均支持markdown，基于jekyll编译可实时预览文章；</li>
-  <li>在jekyll或者hexo官网有许多个人网站模板，可找到自己喜欢的进行修改</li>
+  <li>访问目标仓库：https://</li>
+  <li>点击页面上的fork，将目标项目复制到自己的仓库中
+    <blockquote>
+      <p><strong>clone和fork的区别</strong><br />
+比如在仓库的主人（A）没有把我们添加为项目合作者的前提下，我们将A的某个仓库名为“B”的仓库clone到自己的电脑中，在自己的电脑进行修改，但是我们会发现我们没办法通过push将代码贡献到B中。所以要想将你的代码贡献到B中，
+我们应该：
+在A的仓库中fork项目B （此时我们自己的github就有一个一模一样的仓库B，但是URL不同）, 将我们修改的代码push到自己github中的仓库B中pull request ，主人就会收到请求，并决定要不要接受你的代码
+###第二步：Clone刚fork的项目到本地</p>
+    </blockquote>
+
+    <p>mkdir -p $working_dir
+ cd $working_dir
+ git clone https://github.com/$user/github-workflow.git
+ # or: git clone git@github.com:$user/github-workflow.git</p>
+
+    <p>cd $working_dir/github-workflow
+ git remote add upstream https://github.com/yangwenmai/github-workflow.git
+ # or: git remote add upstream git@github.com:yangwenmai/github-workflow.git
+ # Never push to the upstream master.
+ git remote set-url –push upstream no_push
+ # Confirm that your remotes make sense:
+ # It should look like:
+ # origin    git@github.com:$(user)/github-workflow.git (fetch)
+ # origin    git@github.com:$(user)/github-workflow.git (push)
+ # upstream  https://github.com/yangwenmai/github-workflow (fetch)
+ # upstream  no_push (push)
+ git remote -v</p>
+  </li>
 </ol>
 
-<p>本网站简约舒适，后续出將推出本站详细搭站过程及收纳优质技术类博客及自己原创博客。<br />有兴趣的小伙伴欢迎点击star<a href="https://github.com/leach-chen/blogdemo" style="text-decoration:none;" target="blank" title="本站源码，欢迎前往点击star">本站源码</a></p>
+<p>###第三步：开新分支</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>cd $working_dir/github-workflow
+git fetch upstream
+git checkout master
+git rebase upstream/master 从master分支开新的特性分支
+ 
+git checkout -b myfeature
+# or: gcb myfeature ###第四步：开发 ####编码 你可以在你新创建的 myfeature 分支下编码。 ###第五步：保持你的特性分支 myfeature 是一直同步原始仓库的最新 master 代码
+
+# While on your myfeature branch.
+git fetch upstream
+git rebase upstream/master 请不要用 git pull 代替 fetch/rebase，git pull 会创建一个 merge，并且会创建 merge commits。这些会使提交记录混乱和违反规则。你也可以考虑改变你的 .git/config 文件，通过 git config branch.autoSetupRebase 来改变 git pull 行为。 ###第六步：提交 提交你的变更
+
+git commit ###第七步：推送
+
+git push --set-upstream ${your_remote_name} myfeature ###第八步：创建一个push request 1. 访问你 fork 的项目：https://github.com/$user/github-workflow 2. 点击 Compare &amp; Pull Request 按钮，基于你的 myfeature 分支 3. 填充必要的 PR 模板信息。 *** 接下来你就只需要等待原始项目的开发人员来审核你的提交即可。 以后如果你还要再开发新的特性或者修复一些 bug，你需要先同步更新项目，然后再创建新的分支，然后都可以按照以上步骤执行。
+</code></pre></div></div>
 
         <div class="page-footer">
           <div class="page-tag">
@@ -207,12 +229,14 @@
             
             <a href="/tags#TEST2" class="tag">| TEST2</a>
             
+            <a href="/tags#TEST1" class="tag">| TEST1</a>
+            
           </div><!-- End Tags -->
           <div class="page-share">
             <span>Share:</span>
-            <a href="https://twitter.com/intent/tweet?text=Hello World！我的个人网站&url=http://localhost:4000/hello-world/" title="Share on Twitter" rel="nofollow" target="_blank"><i class="fa fa-twitter" aria-hidden="true"></i></a>
-            <a href="https://facebook.com/sharer.php?u=http://localhost:4000/hello-world/" title="Share on Facebook" rel="nofollow" target="_blank"><i class="fa fa-facebook" aria-hidden="true"></i></a>
-            <a href="https://plus.google.com/share?url=http://localhost:4000/hello-world/" title="Share on Google+" rel="nofollow" target="_blank"><i class="fa fa-google" aria-hidden="true"></i></a>
+            <a href="https://twitter.com/intent/tweet?text=哈哈哈哈&url=http://localhost:4000/github-workflow/" title="Share on Twitter" rel="nofollow" target="_blank"><i class="fa fa-twitter" aria-hidden="true"></i></a>
+            <a href="https://facebook.com/sharer.php?u=http://localhost:4000/github-workflow/" title="Share on Facebook" rel="nofollow" target="_blank"><i class="fa fa-facebook" aria-hidden="true"></i></a>
+            <a href="https://plus.google.com/share?url=http://localhost:4000/github-workflow/" title="Share on Google+" rel="nofollow" target="_blank"><i class="fa fa-google" aria-hidden="true"></i></a>
 
 			<!-- JiaThis Button BEGIN -->
 			<div class="jiathis_style_32x32">
@@ -296,14 +320,6 @@
 
        <ul class="pager">
 	    
-        <li class="previous">
-            <a href="/github-workflow/" data-toggle="tooltip" data-placement="top" title="Hello World！我的个人网站">上一篇：  <span>Hello World！我的个人网站</span>
-            </a>
-        </li>
-		
-		<br><br>
-		
-        
         
         <li class="next">
             <a href="/github-workflow/" data-toggle="tooltip" data-placement="top" title="Hello World！我的个人网站">下一篇：  <span>Hello World！我的个人网站</span>
