@@ -49,6 +49,9 @@ layout: default
 		  {% include new-old.html %}
         </div>
 
+        {% if site.intensedebate_comments %}
+            {% include intensedebate-comments.html %}
+         {% endif %}
 
         {% include author-box.html %}
         {% include recent-post.html %}
