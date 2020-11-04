@@ -7,20 +7,20 @@ var cache = require('gulp-cache');
 var cp = require('child_process');
 var browserSync = require('browser-sync');
 
-var jekyll   = process.platform === 'win32' ? 'test_b.bat' : 'test_b';
+var jekyll   = process.platform === 'win32' ? 'Essays.bat' : 'Essays';
 
 // Build the Jekyll Site
-gulp.task('test_b-build', function (done) {
+gulp.task('Essays-build', function (done) {
     return cp.spawn( jekyll , ['build'], {stdio: 'inherit'})
         .on('close', done);
 });
 
 // Rebuild Jekyll and page reload
-gulp.task('test_b-rebuild', ['jekyll-build'], function () {
+gulp.task('Essays-rebuild', ['jekyll-build'], function () {
     browserSync.reload();
 });
 
-// Wait for test_b-build, then launch the Server
+// Wait for Essays-build, then launch the Server
 gulp.task('browser-sync', ['sass', 'img', 'jekyll-build'], function() {
     browserSync({
         server: {
@@ -59,9 +59,9 @@ gulp.task('img', function() {
 // Watch scss, html, img files
 gulp.task('watch', function () {
     gulp.watch('assets/css/sass/**/*.scss', ['sass']);
-    gulp.watch('assets/js/**/*.js', ['test_b-rebuild']);
+    gulp.watch('assets/js/**/*.js', ['Essays-rebuild']);
     gulp.watch('assets/img/**/*', ['img']);
-    gulp.watch(['*.html', '_layouts/*.html', '_includes/*.html', '_pages/*.html', '_posts/*'], ['test_b-rebuild']);
+    gulp.watch(['*.html', '_layouts/*.html', '_includes/*.html', '_pages/*.html', '_posts/*'], ['Essays-rebuild']);
 });
 
 //  Default task
