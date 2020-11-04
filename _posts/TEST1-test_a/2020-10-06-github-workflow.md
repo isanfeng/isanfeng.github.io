@@ -1,17 +1,17 @@
 ---
 layout: post
 title: Hello World！我的个人网站
-date:  2018-02-07 21:16:00 +0900
+date:  2020-11-03 21:16:00 +0900
 description: Hello World！
-img: post-1.jpg # Add image post (optional)
+img: post-1.jpg
 tags: [TEST1]
 author: # Add name author (optional)
 test_a: true
 ---
-{{site.label1}} <a href="https://isanfeng.github.io" target="\_blank">isanfeng</a> {{site.label2}}
+{{site.label1}} <a href="https://isanfeng.github.io" target="\_blank">王的三丰isanfeng</a> {{site.label2}}
 
-#Github Workflow
-###第一步：从仓库中fork项目
+# Github Workflow
+### 第一步：从仓库中fork项目
 1. 访问目标仓库：https://
 2. 点击页面上的fork，将目标项目复制到自己的仓库中
 >**clone和fork的区别**<br>

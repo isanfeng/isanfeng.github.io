@@ -3,13 +3,13 @@ layout: post
 title: Hello World！我的个人网站
 date:  2018-02-07 21:16:00 +0900
 description: Hello World！
-img: post-4.jpg # Add image post (optional)
+img: post-4.jpg
 tags: [TEST2]
 author: # Add name author (optional)
 test_b: true
 ---
 
-{{site.label1}} <a href="https://isanfeng.github.io" target="\_blank">isanfeng</a> {{site.label2}}
+{{site.label1}} <a href="https://isanfeng.github.io" target="\_blank">王的三丰isanfeng</a> {{site.label2}}
 
 Hello World！
 
