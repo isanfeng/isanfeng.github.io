@@ -4,14 +4,14 @@ title: About
 permalink: /about/
 --- 
 <section class="about">
-  <a href="{{site.baseurl}}/" class="button_back"><i class="fa fa-long-arrow-left" aria-hidden="true"></i> Back</a>
+  <a href="{{site.baseurl}}/" class="button_back"><i class="fa fa-long-arrow-left" aria-hidden="true"></i>返回笔记</a>
   <div class="about_box">
     <div class="author">
         <div class="author_image">
 <!--          <img src="{{site.baseurl}}/assets/img/{% if site.author-pic %}{{site.author-pic}}{% endif %}" alt="Author image">-->
-
+<!--头像翻动开始-->
           <div class="ih-item circle effect right_to_left">
-            <a href="" title="前往 {{ site.title }} 的主页" class="blog-button">
+            <a href="/" title="{{ site.title }}" class="blog-button">
                 <div class="img"><img src="{{site.baseurl}}/assets/img/{% if site.author-pic %}{{site.author-pic}}{% endif %}" alt="Author image"></div>
                 <div class="info">
                     <div class="info-back">
@@ -29,12 +29,13 @@ permalink: /about/
                 </div>
             </a>
           </div>
+  <!--头像翻动结束-->
 
         </div>
         <div class="author_info">
-          <h2 class="author_title">{% if site.author-name %}{{site.author-name}}{% else %}三 丰{% endif %}</h2>
-          <p class="author_subtitle">{% if site.about-author %}{{site.about-author}}{% else %}La croix godard blue bottle, vape iceland fingerstache cronut single-origin coffee lyft snackwave normcore small batch.{% endif %}</p>
-          <p class="author_subtitle"></p>
+          <h2 class="author_title">{% if site.author-name %}{{site.author-name}}{% else %}三isanfeng丰{% endif %}</h2>
+          <p class="author_subtitle">{% if site.about-author %}{{site.about-author}}{% else %}{% endif %}</p>
+          <p class="author_subtitle">{% if site.about-author-detail %}{{site.about-author-detail}}{% else %}{% endif %}</p>
         </div>
       </div>
 
