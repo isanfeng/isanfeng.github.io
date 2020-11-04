@@ -51,7 +51,7 @@ baidu-analysis: 42bccbe026e11e0ec8bcd67d40d41529
 youyan-id:
 
 # Paginate
-paginate: 9
+paginate: 27
 paginate_path: /page:num/
 
 # Build settings
@@ -88,23 +88,23 @@ links1:
     url:          /
     type:         recent
     external:     false
-  - name:         TEST1
-    url:          /blog/test_a
-    type:         test_a
+  - name:         Bikepacking&Hike
+    url:          /blog/Bikepacking&Hike
+    type:         Bikepacking
     external:     false
-  - name:         TEST2
-    url:          /blog/test_b
-    type:         test_b
+  - name:         随笔
+    url:          /blog/Essays
+    type:         Essays
     external:     false
-  - name:         TEST3
-    url:          /blog/test_c
-    type:         test_c
+  - name:         阅读
+    url:          /blog/Reading
+    type:         Reading
     external:     false
 
 blog_1:    recent
-blog_2:    test_a
-blog_3:    test_b
-blog_4:    test_c
+blog_2:    Bikepacking
+blog_3:    Essays
+blog_4:    Reading
 
 
 
