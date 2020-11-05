@@ -4,7 +4,7 @@ title: “五月盛放”.红色高棉.金边篇(D1,D2)（已结束）
 date: 2018-03-31 06:30
 author: isanfeng
 description: 
-img: 
+img: post-5.jpg
 tags: [Hike]
 Bikepacking: true
 ---

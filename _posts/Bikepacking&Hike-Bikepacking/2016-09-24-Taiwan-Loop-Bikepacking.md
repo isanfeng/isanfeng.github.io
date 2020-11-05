@@ -4,7 +4,7 @@ title: 环台湾（已结束）
 date: 2016-09-24 00:08
 author: isanfeng
 description: 
-img: 
+img: post-10.jpg
 tags: [Bikepacking]
 Bikepacking: true
 ---

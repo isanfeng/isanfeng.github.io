@@ -4,7 +4,7 @@ title: 三丰来了
 date: 2015-03-31 14:10
 author: isanfeng
 description: 
-img: 
+img: posts/bizhi-2.jpg
 tags: [随笔]
 Essays: true
 ---
