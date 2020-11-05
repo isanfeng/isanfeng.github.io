@@ -4,7 +4,7 @@ title: 环济州岛（已结束）
 date: 2017-08-05 00:10
 author: isanfeng
 description: 
-img: 
+img: post-8.jpg
 tags: [Bikepacking]
 Bikepacking: true
 ---

@@ -4,7 +4,7 @@ title: 环泰北（逆）（已结束）
 date: 2015-09-25 00:09
 author: isanfeng
 description: 
-img: 
+img: post-11.jpg
 tags: [Bikepacking]
 Bikepacking: true
 ---

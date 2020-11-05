@@ -4,7 +4,7 @@ title: 环北海道（已结束）
 date: 2017-05-27 00:09
 author: isanfeng
 description: 
-img: 
+img: post-9.jpg
 tags: [Bikepacking]
 Bikepacking: true
 ---

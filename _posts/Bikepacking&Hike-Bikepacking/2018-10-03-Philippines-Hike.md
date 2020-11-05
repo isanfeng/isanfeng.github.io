@@ -4,7 +4,7 @@ title: 菲律宾之克恐之旅（已结束）
 date: 2018-10-03 20:56
 author: isanfeng
 description: 
-img: 
+img: posts/bizhi-4.jpg
 tags: [Hike]
 Bikepacking: true
 ---
