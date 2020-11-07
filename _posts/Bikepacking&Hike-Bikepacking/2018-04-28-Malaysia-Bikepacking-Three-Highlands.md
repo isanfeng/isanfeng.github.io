@@ -3,12 +3,12 @@ layout: post
 title: 马来西亚之试炼（吉隆坡-福隆港LOOP）（已结束）
 date: 2018-04-28 21:00
 author: isanfeng
-description: 
+description:
 img: post-2.jpg
 tags: [Bikepacking]
 Bikepacking: true
 ---
-{{site.label1}} <a href="https://isanfeng.github.io" target="\_blank">王的三丰isanfeng</a> {{site.label2}}
+{{site.label1}} <a href="/about">{{page.author}}</a> {{site.label2}}
 
 <h2>序（2018.4.28@上海）</h2>
 之前在fb的台湾车友中听到壮游这个词语，开始还以为是客家话，一直觉得很有power，后来在一本关于大旅行的书中，第一次了解到了这个词语的真正含义：

@@ -3,12 +3,12 @@ layout: post
 title: 环台湾（已结束）
 date: 2016-09-24 00:08
 author: isanfeng
-description: 
+description:
 img: post-10.jpg
 tags: [Bikepacking]
 Bikepacking: true
 ---
-{{site.label1}} <a href="https://isanfeng.github.io" target="\_blank">王的三丰isanfeng</a> {{site.label2}}
+{{site.label1}} <a href="/about">{{page.author}}</a> {{site.label2}}
 
 <h1>练习曲.一六</h1>
 <h2>序</h2>
