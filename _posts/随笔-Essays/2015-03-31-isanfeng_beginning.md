@@ -3,12 +3,12 @@ layout: post
 title: 三丰来了
 date: 2015-03-31 14:10
 author: isanfeng
-description: 
+description:
 img: posts/bizhi-2.jpg
 tags: [随笔]
 Essays: true
 ---
-{{site.label1}} <a href="https://isanfeng.github.io" target="\_blank">王的三丰isanfeng</a> {{site.label2}}
+{{site.label1}} <a href="/about">{{page.author}}</a> {{site.label2}}
 
 时间：2015.3.31
 地点：世界的某个地方

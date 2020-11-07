@@ -8,8 +8,7 @@ tags: [随笔]
 author: # Add name author (optional)
 Essays: true
 ---
-
-{{site.label1}} <a href="https://isanfeng.github.io" target="\_blank">王的三丰isanfeng</a> {{site.label2}}
+{{site.label1}} <a href="/about">{{page.author}}</a> {{site.label2}}
 
 Hello World！
 

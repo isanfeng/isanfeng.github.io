@@ -3,12 +3,12 @@ layout: post
 title: “五月盛放”.高棉微笑.暹粒篇（D3,D4,D5）（已结束）
 date: 2018-04-13 16:07
 author: isanfeng
-description: 
+description:
 img: post-4.jpg
 tags: [Hike]
 Bikepacking: true
 ---
-{{site.label1}} <a href="https://isanfeng.github.io" target="\_blank">王的三丰isanfeng</a> {{site.label2}}
+{{site.label1}} <a href="/about">{{page.author}}</a> {{site.label2}}
 
 <h3><a href="https://isanfeng.wordpress.com/2018/03/31/%e4%ba%94%e6%9c%88%e7%9b%9b%e6%94%be-%e7%ba%a2%e8%89%b2%e9%ab%98%e6%a3%89-%e9%87%91%e8%be%b9%e7%af%87/" target="_blank" rel="noopener">“五月盛放”.红色高棉.金边篇</a></h3>
 <h3><a href="https://isanfeng.wordpress.com/2018/04/13/%e4%ba%94%e6%9c%88%e7%9b%9b%e6%94%be-%e9%ab%98%e6%a3%89%e5%be%ae%e7%ac%91-%e6%9a%b9%e7%b2%92%e7%af%87%ef%bc%88%e5%b7%b2%e7%bb%93%e6%9d%9f%ef%bc%89/" target="_blank" rel="noopener">“五月盛放”.高棉微笑.暹粒篇</a></h3>

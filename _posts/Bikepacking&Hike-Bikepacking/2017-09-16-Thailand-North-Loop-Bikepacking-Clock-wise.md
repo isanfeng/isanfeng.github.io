@@ -3,12 +3,12 @@ layout: post
 title: 环泰北（顺）（已结束）
 date: 2017-09-16 00:11
 author: isanfeng
-description: 
+description:
 img: post-7.jpg
 tags: [Bikepacking]
 Bikepacking: true
 ---
-{{site.label1}} <a href="https://isanfeng.github.io" target="\_blank">王的三丰isanfeng</a> {{site.label2}}
+{{site.label1}} <a href="/about">{{page.author}}</a> {{site.label2}}
 
 其实每次出发的时候，都说好要每天写日志，想把看到的每一处美好的风景，遇到的每一个有趣的灵魂都记录下来，可是说真，骑行旅行有时每天真的是很累，到了目的地一心想着洗个热水澡或者泡个温泉，然后吃点美食或者当地特色的食物，最后可以躺在舒服的床上一动不动的回忆满满的一天，有时也没什么精力和一些陌生的当地人以及刚认识的朋友谈谈天，说说地，了解下同是作为地球人的想法和理想，所以更不用说能挤出时间静下来写东西，顶多能坚持每天能发发朋友圈，不是要炫耀什么，而只是另一种记录的方式，而且又是还蛮担心这种“刷屏”对别人还是蛮骚扰的，不过还是满心想着等旅行结束后，一定补上，可是可是……又可是……，回来后总有很多理由打不开编辑器再次记录下路上的种种，偶尔会翻翻照片，美好和激动就会再次油然而生，然后就会再次憧憬下次的出发，然后……
 <blockquote>
