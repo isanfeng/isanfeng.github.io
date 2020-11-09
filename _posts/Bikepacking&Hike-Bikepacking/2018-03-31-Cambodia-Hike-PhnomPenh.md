@@ -5,7 +5,7 @@ date: 2018-03-31 06:30
 author: isanfeng
 description:
 img: post-5.jpg
-tags: [Hike]
+tags: [Hike, 分时分段全球旅行]
 Bikepacking: true
 ---
 {{site.label1}} <a href="/about">{{page.author}}</a> {{site.label2}}

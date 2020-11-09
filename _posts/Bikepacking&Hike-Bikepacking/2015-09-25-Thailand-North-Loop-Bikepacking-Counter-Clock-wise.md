@@ -5,7 +5,7 @@ date: 2015-09-25 00:09
 author: isanfeng
 description:
 img: post-11.jpg
-tags: [Bikepacking]
+tags: [Bikepacking, 分时分段全球旅行]
 Bikepacking: true
 ---
 {{site.label1}} <a href="/about">{{page.author}}</a> {{site.label2}}

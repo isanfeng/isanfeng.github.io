@@ -5,7 +5,7 @@ date: 2017-08-05 00:10
 author: isanfeng
 description:
 img: post-8.jpg
-tags: [Bikepacking]
+tags: [Bikepacking, 分时分段全球旅行]
 Bikepacking: true
 ---
 {{site.label1}} <a href="/about">{{page.author}}</a> {{site.label2}}

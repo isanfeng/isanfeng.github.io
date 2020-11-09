@@ -4,8 +4,8 @@ title: 环泰北（顺）（已结束）
 date: 2017-09-16 00:11
 author: isanfeng
 description:
-img: post-7.jpg
-tags: [Bikepacking]
+img: posts/Thailand-2-0.jpg
+tags: [Bikepacking, 分时分段全球旅行]
 Bikepacking: true
 ---
 {{site.label1}} <a href="/about">{{page.author}}</a> {{site.label2}}
