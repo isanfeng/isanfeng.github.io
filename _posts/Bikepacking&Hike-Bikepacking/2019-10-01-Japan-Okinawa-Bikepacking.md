@@ -1,7 +1,7 @@
 ---
 layout: post
 title: 环冲绳（已结束）
-date: 2019-10--1 00:09
+date: 2019-10-1 00:09
 author: isanfeng
 description:
 img: posts/Okinawa-0.png
