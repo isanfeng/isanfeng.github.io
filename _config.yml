@@ -64,7 +64,7 @@ plugins:
 include: [_pages]
 exclude: ["node_modules", "gulpfile.js", "package.json", "yarn.lock"]
 
-imagepath: /assets/img/blog
+imagepath: /assets/img/posts
 
 links:
   - name:         Home
@@ -84,19 +84,19 @@ label2:  </span>
 
 
 links1:
-  - name:         所有
+  - name:         All
     url:          /
     type:         recent
     external:     false
   - name:         Bikepacking&Hike
-    url:          /blog/Bikepacking&Hike
+    url:          /blog/Bikepacking
     type:         Bikepacking
     external:     false
-  - name:         随笔
+  - name:         Essays
     url:          /blog/Essays
     type:         Essays
     external:     false
-  - name:         阅读&电影
+  - name:         Reading&Moives
     url:          /blog/Reading
     type:         Reading
     external:     false
