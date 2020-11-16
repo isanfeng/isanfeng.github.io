@@ -100,11 +100,16 @@ links1:
     url:          /blog/Reading
     type:         Reading
     external:     false
+  - name:         Python
+    url:          /blog/Python
+    type:         Python
+    external:     false
 
 blog_1:    recent
 blog_2:    Bikepacking
 blog_3:    Essays
 blog_4:    Reading
+blog_5:    Python
 
 
 
