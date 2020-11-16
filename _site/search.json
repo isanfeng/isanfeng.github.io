@@ -1,6 +1,14 @@
 [
   
     {
+      "title"    : "Pytest权威教程.官方教程翻译",
+      "category" : "",
+      "tags"     : "Python, Pytest",
+      "url"      : "/Pytest-courses/",
+      "date"     : "2020-11-16 18:09:00 +0800"
+    } ,
+  
+    {
       "title"    : "环琵琶湖（下一站）",
       "category" : "",
       "tags"     : "Bikepacking, 分时分段全球旅行",
