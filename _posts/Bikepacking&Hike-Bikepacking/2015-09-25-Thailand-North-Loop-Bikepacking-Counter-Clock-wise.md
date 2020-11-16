@@ -4,7 +4,7 @@ title: 环泰北（逆）（已结束）
 date: 2015-09-25 00:09
 author: isanfeng
 description:
-img: post-11.jpg
+img: posts/camp.jpg
 tags: [Bikepacking, 分时分段全球旅行]
 Bikepacking: true
 ---
