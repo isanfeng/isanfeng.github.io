@@ -20,7 +20,7 @@ jobs:
           destination-repo: git@gitee.com:iwangsanfeng/iwangsanfeng.git
 
       - name: Build Gitee Pages
-        uses: iwangsanfeng/gitee-pages-action@main
+        uses: yanglbme/gitee-pages-action@main
         with:
           # 注意替换为你的 Gitee 用户名
           gitee-username: iwangsanfeng
