@@ -1,6 +1,14 @@
 [
   
     {
+      "title"    : "财务自由是不可能，这辈子下辈子都不可能",
+      "category" : "",
+      "tags"     : "随笔",
+      "url"      : "/Financial-freedom-is-impossible/",
+      "date"     : "2020-11-17 20:04:00 +0800"
+    } ,
+  
+    {
       "title"    : "Pytest权威教程.官方教程翻译",
       "category" : "",
       "tags"     : "Python, Pytest",
