@@ -4,7 +4,7 @@ title: 财务自由是不可能，这辈子下辈子都不可能
 date: 2020-11-17 20:04
 author: 王三丰
 description:
-img: posts/bizhi-1.jpg
+img: posts/bizhi-5.jpg
 tags: [随笔]
 Essays: true
 ---
