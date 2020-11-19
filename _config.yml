@@ -104,12 +104,17 @@ links1:
     url:          /blog/Python
     type:         Python
     external:     false
+  - name:         必先利其器
+    url:          /blog/tools
+    type:         Tools
+    external:     false
 
 blog_1:    recent
 blog_2:    Bikepacking
 blog_3:    Essays
 blog_4:    Reading
 blog_5:    Python
+blog_6:    Tools
 
 
 
