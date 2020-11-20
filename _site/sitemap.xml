@@ -10,7 +10,7 @@
 </url>
 <url>
 <loc>http://localhost:4000/Hainandao-Bikepacking/</loc>
-<lastmod>2013-12-30T23:09:00+08:00</lastmod>
+<lastmod>2013-12-31T23:09:00+08:00</lastmod>
 </url>
 <url>
 <loc>http://localhost:4000/isanfeng_beginning/</loc>
@@ -105,6 +105,10 @@
 <lastmod>2020-11-17T20:04:00+08:00</lastmod>
 </url>
 <url>
+<loc>http://localhost:4000/PostMan-PostWoman-ApiFox-ApiPost/</loc>
+<lastmod>2020-11-19T16:09:00+08:00</lastmod>
+</url>
+<url>
 <loc>http://localhost:4000/about/</loc>
 </url>
 <url>
@@ -112,6 +116,9 @@
 </url>
 <url>
 <loc>http://localhost:4000/blog/Reading/</loc>
+</url>
+<url>
+<loc>http://localhost:4000/blog/Tools/</loc>
 </url>
 <url>
 <loc>http://localhost:4000/blog/Python/</loc>
