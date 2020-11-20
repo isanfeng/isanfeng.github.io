@@ -1,6 +1,6 @@
 title: 流浪笔记.三丰
-subtitle: 个人瞎搞站
-description: 欢迎来到我的个人瞎搞站
+subtitle:
+description:
 
 # 博客是否自动生成目录，false为不生成
 enableToc: true
@@ -13,7 +13,7 @@ author: 流浪笔记.三丰
 
 author-pic: isanfeng.jpg
 about-author: Live the life you love, Love the life you lives. To be a funny wanderer.
-about-author-detail: To be SkyTraveler.
+about-author-detail: To be a SkyTraveler.
 
 #修改成你自己的
 # Contact links
@@ -77,10 +77,10 @@ links:
 #添加分类步骤：
 #1：在_config.yml links1及blog_中添加对应内容
 #2：在_includes里面headr.html中添加对应内容
-#3：在根目录blog文件中创建对应内容
+#3：在根目录blog文件中创建对应内容并修改index文件
 
 label1: <span style="font-size:12px">撰写自：
-label2:  </span>
+label2: </span>
 
 
 links1:
@@ -115,7 +115,5 @@ blog_3:    Essays
 blog_4:    Reading
 blog_5:    Python
 blog_6:    Tools
-
-
 
 #permalink: /:year/:month/:day/:title.html
