@@ -6,7 +6,7 @@ description:
 enableToc: true
 permalink: ':title/'
 #baseurl: "/adam-blog" # the subpath of your site, e.g. /blog
-url: "" # the base hostname & protocol for your site, e.g. http://example.com
+url: "http://isanfeng.github.io/" # the base hostname & protocol for your site, e.g. http://example.com
 
 # Author settings add your name
 author: 流浪笔记.三丰
