@@ -1,6 +1,6 @@
 ---
 layout: post
-title: 环海南岛2014
+title: 环海南岛.2014
 date:  2014-01-01 00:09:00 +0900
 description:
 img: posts/Hainandao-0.jpg

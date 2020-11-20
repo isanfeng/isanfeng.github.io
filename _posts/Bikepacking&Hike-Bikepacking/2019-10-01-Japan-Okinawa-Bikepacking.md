@@ -1,6 +1,6 @@
 ---
 layout: post
-title: 环冲绳2019
+title: 环冲绳.2019
 date: 2019-10-1 00:09
 author: isanfeng
 description:

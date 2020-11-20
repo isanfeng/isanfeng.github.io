@@ -1,6 +1,6 @@
 ---
 layout: post
-title: 菲律宾之克恐之旅2018
+title: 菲律宾.克恐之旅.2018
 date: 2018-10-03 20:56
 author: isanfeng
 description:
