@@ -1,11 +1,11 @@
 ---
 layout: post
-title: “五月盛放”.独世仙境.西哈努克.离岛篇（D6,D7,D8）（已结束）
+title: “五月盛放”.独世仙境.西哈努克.离岛篇（D6,D7,D8）2018
 date: 2018-04-21 16:10
 author: isanfeng
 description:
 img: post-3.jpg
-tags: [Hike, 分时分段全球旅行]
+tags: [分时分段环游地球]
 Bikepacking: true
 ---
 {{site.label1}} <a href="/about">{{page.author}}</a> {{site.label2}}

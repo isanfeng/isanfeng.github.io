@@ -1,11 +1,11 @@
 ---
 layout: post
-title: 菲律宾之克恐之旅（已结束）
+title: 菲律宾之克恐之旅2018
 date: 2018-10-03 20:56
 author: isanfeng
 description:
 img: posts/Philippines-0.jpg
-tags: [Hike, 分时分段全球旅行]
+tags: [分时分段环游地球]
 Bikepacking: true
 ---
 {{site.label1}} <a href="/about">{{page.author}}</a> {{site.label2}}

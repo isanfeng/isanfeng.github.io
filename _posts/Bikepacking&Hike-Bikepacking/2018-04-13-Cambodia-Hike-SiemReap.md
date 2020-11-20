@@ -1,11 +1,11 @@
 ---
 layout: post
-title: “五月盛放”.高棉微笑.暹粒篇（D3,D4,D5）（已结束）
+title: “五月盛放”.高棉微笑.暹粒篇（D3,D4,D5）2018
 date: 2018-04-13 16:07
 author: isanfeng
 description:
 img: post-4.jpg
-tags: [Hike, 分时分段全球旅行]
+tags: [分时分段环游地球]
 Bikepacking: true
 ---
 {{site.label1}} <a href="/about">{{page.author}}</a> {{site.label2}}

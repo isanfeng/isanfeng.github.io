@@ -1,11 +1,11 @@
 ---
 layout: post
-title: “五月盛放”.红色高棉.金边篇(D1,D2)（已结束）
+title: “五月盛放”.红色高棉.金边篇(D1,D2)2018
 date: 2018-03-31 06:30
 author: isanfeng
 description:
 img: post-5.jpg
-tags: [Hike, 分时分段全球旅行]
+tags: [分时分段环游地球]
 Bikepacking: true
 ---
 {{site.label1}} <a href="/about">{{page.author}}</a> {{site.label2}}

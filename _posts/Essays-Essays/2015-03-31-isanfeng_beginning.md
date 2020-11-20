@@ -5,7 +5,7 @@ date: 2015-03-31 14:10
 author: isanfeng
 description:
 img: posts/bizhi-2.jpg
-tags: [随笔]
+tags: [胡思乱想]
 Essays: true
 ---
 {{site.label1}} <a href="/about">{{page.author}}</a> {{site.label2}}

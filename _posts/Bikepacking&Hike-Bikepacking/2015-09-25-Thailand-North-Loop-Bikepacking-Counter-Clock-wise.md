@@ -1,11 +1,11 @@
 ---
 layout: post
-title: 环泰北（逆）（已结束）
+title: 环泰北（逆时针）2015
 date: 2015-09-25 00:09
 author: isanfeng
 description:
 img: posts/camp.jpg
-tags: [Bikepacking, 分时分段全球旅行]
+tags: [Bikepacking, 分时分段环游地球]
 Bikepacking: true
 ---
 {{site.label1}} <a href="/about">{{page.author}}</a> {{site.label2}}

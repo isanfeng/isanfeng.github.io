@@ -1,11 +1,11 @@
 ---
 layout: post
-title: 环台湾（已结束）
+title: 环台湾2016
 date: 2016-09-24 00:08
 author: isanfeng
 description:
 img: post-10.jpg
-tags: [Bikepacking, 分时分段全球旅行]
+tags: [Bikepacking, 分时分段环游地球]
 Bikepacking: true
 ---
 {{site.label1}} <a href="/about">{{page.author}}</a> {{site.label2}}

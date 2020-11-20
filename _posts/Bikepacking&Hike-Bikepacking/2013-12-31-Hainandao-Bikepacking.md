@@ -1,10 +1,10 @@
 ---
 layout: post
-title: 环海南岛 - 骑行生活的第二弹
-date:  2013-12-31 00:09:00 +0900
+title: 环海南岛2014
+date:  2014-01-01 00:09:00 +0900
 description:
 img: posts/Hainandao-0.jpg
-tags: [Bikepacking, 分时分段全球旅行]
+tags: [Bikepacking, 分时分段环游地球]
 author: 王的三丰
 Bikepacking: true
 ---

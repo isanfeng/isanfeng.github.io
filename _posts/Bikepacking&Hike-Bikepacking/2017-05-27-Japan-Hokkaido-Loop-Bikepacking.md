@@ -1,11 +1,11 @@
 ---
 layout: post
-title: 环北海道（已结束）
+title: 环北海道2017
 date: 2017-05-27 00:09
 author: isanfeng
 description:
 img: post-9.jpg
-tags: [Bikepacking, 分时分段全球旅行]
+tags: [Bikepacking, 分时分段环游地球]
 Bikepacking: true
 ---
 {{site.label1}} <a href="/about">{{page.author}}</a> {{site.label2}}
