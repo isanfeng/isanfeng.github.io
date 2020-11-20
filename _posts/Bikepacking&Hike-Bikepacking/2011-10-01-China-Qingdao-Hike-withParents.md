@@ -1,6 +1,6 @@
 ---
 layout: post
-title: 带父母游青岛2011
+title: 带父母游青岛.2011
 date: 2011-10-01 20:56
 author: isanfeng
 description:

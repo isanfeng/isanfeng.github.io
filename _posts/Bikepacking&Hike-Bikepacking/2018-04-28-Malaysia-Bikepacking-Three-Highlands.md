@@ -1,6 +1,6 @@
 ---
 layout: post
-title: 马来西亚之试炼（吉隆坡-福隆港LOOP）2018
+title: 马来西亚.试炼.吉隆坡-福隆港LOOP.2018
 date: 2018-04-28 21:00
 author: isanfeng
 description:
