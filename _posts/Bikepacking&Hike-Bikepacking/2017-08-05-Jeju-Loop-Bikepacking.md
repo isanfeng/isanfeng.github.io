@@ -1,11 +1,11 @@
 ---
 layout: post
-title: 环济州岛（已结束）
+title: 环济州岛2018
 date: 2017-08-05 00:10
 author: isanfeng
 description:
 img: post-8.jpg
-tags: [Bikepacking, 分时分段全球旅行]
+tags: [Bikepacking, 分时分段环游地球]
 Bikepacking: true
 ---
 {{site.label1}} <a href="/about">{{page.author}}</a> {{site.label2}}

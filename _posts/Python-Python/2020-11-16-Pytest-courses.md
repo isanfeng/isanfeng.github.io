@@ -5,7 +5,7 @@ date: 2020-11-16 18:09
 author: isanfeng
 description:
 img: posts/pytest-0.png
-tags: [Python, Pytest]
+tags: [Python]
 Python: true
 ---
 {{site.label1}} <a href="/about">{{page.author}}</a> {{site.label2}}

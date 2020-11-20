@@ -1,11 +1,11 @@
 ---
 layout: post
-title: 环泰北（顺）（已结束）
+title: 环泰北（顺时针）2017
 date: 2017-09-16 00:11
 author: isanfeng
 description:
 img: posts/Thailand-2-0.jpg
-tags: [Bikepacking, 分时分段全球旅行]
+tags: [Bikepacking, 分时分段环游地球]
 Bikepacking: true
 ---
 {{site.label1}} <a href="/about">{{page.author}}</a> {{site.label2}}

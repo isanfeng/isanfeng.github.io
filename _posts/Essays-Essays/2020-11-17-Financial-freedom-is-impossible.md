@@ -5,7 +5,7 @@ date: 2020-11-17 20:04
 author: 王三丰
 description:
 img: posts/bizhi-5.jpg
-tags: [随笔]
+tags: [胡思乱想]
 Essays: true
 ---
 {{site.label1}} <a href="/about">{{page.author}}</a> {{site.label2}}
