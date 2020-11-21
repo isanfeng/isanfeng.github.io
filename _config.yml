@@ -88,32 +88,37 @@ links1:
     url:          /
     type:         recent
     external:     false
-  - name:         Bikepacking&Hike
+  - name:         分时分段环游地球
     url:          /blog/Bikepacking
     type:         Bikepacking
     external:     false
-  - name:         Essays
-    url:          /blog/Essays
-    type:         Essays
-    external:     false
-  - name:         Reading&Moives
-    url:          /blog/Reading
-    type:         Reading
-    external:     false
-  - name:         Python
-    url:          /blog/Python
-    type:         Python
+  - name:         工欲善其事-FIRE
+    url:          /blog/Fire
+    type:         Fire
     external:     false
   - name:         必先利其器
     url:          /blog/Tools
     type:         Tools
     external:     false
+  - name:         Python
+    url:          /blog/Python
+    type:         Python
+    external:     false
+  - name:         一刻
+    url:          /blog/Essays
+    type:         Essays
+    external:     false
+  - name:         七上八下
+    url:          /blog/Reading
+    type:         Reading
+    external:     false
 
 blog_1:    recent
 blog_2:    Bikepacking
-blog_3:    Essays
-blog_4:    Reading
+blog_3:    Fire
+blog_4:    Tools
 blog_5:    Python
-blog_6:    Tools
+blog_6:    Essays
+blog_7:    Reading
 
 #permalink: /:year/:month/:day/:title.html

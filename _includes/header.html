@@ -28,7 +28,7 @@
 
 			 {% if link.type == site.blog_3 %}
 				{% for post in site.posts %}
-				   {% if post.Essays %}
+				   {% if post.Fire %}
 						{% assign count = count | plus: 1 %}
 				   {% endif %}
 				 {% endfor %}
@@ -36,7 +36,7 @@
 
 			 {% if link.type == site.blog_4 %}
 				{% for post in site.posts %}
-				   {% if post.Reading %}
+				   {% if post.Tools %}
 						{% assign count = count | plus: 1 %}
 				   {% endif %}
 				 {% endfor %}
@@ -52,7 +52,15 @@
 
 			 {% if link.type == site.blog_6 %}
 				{% for post in site.posts %}
-				   {% if post.Tools %}
+				   {% if post.Essays %}
+						{% assign count = count | plus: 1 %}
+				   {% endif %}
+				 {% endfor %}
+			 {% endif %}
+
+			 {% if link.type == site.blog_7 %}
+				{% for post in site.posts %}
+				   {% if post.Reading %}
 						{% assign count = count | plus: 1 %}
 				   {% endif %}
 				 {% endfor %}
