@@ -4,7 +4,7 @@ title: 柬埔寨：高棉微笑.暹粒篇.2018
 date: 2018-04-13 16:07
 author: isanfeng
 description:
-img: post-4.jpg
+img: posts/fo-0.jpg
 tags: [分时分段环游地球]
 Bikepacking: true
 ---
