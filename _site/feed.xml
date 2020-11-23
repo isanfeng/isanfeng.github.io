@@ -1,25 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.9.0">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2020-11-21T14:24:46+08:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">流浪笔记.三丰</title><author><name>【流浪笔记】.三丰</name></author><entry><title type="html">比PostMan&amp;amp;PostWoman好用的国产利器ApiPost</title><link href="http://localhost:4000/PostMan-PostWoman-ApiFox-ApiPost/" rel="alternate" type="text/html" title="比PostMan&amp;PostWoman好用的国产利器ApiPost" /><published>2020-11-19T16:09:00+08:00</published><updated>2020-11-19T16:09:00+08:00</updated><id>http://localhost:4000/PostMan-PostWoman-ApiFox-ApiPost</id><content type="html" xml:base="http://localhost:4000/PostMan-PostWoman-ApiFox-ApiPost/">&lt;p&gt;&lt;span style=&quot;font-size:12px&quot;&gt;撰写自： &lt;a href=&quot;/about&quot;&gt;王的三丰&lt;/a&gt; &lt;/span&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;em&gt;自己在先后使用了Postman，PostWoman，ApiFox，ApiZza，ApiPost后，最后选择ApiPost作为工作的常用利器&lt;/em&gt;&lt;/p&gt;
-
-&lt;p&gt;ApiPost是一个支持团队协作，并可直接生成文档的API调试、管理工具
-支持模拟POST、GET、PUT等常见请求，是后台接口开发者或前端、接口测试人员不可多得的工具 （来自官网）&lt;/p&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;官网地址：https://www.apipost.cn/&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;p&gt;上面几款工具功能都比较类似，后面三款虽然是模仿鼻祖Postman诞生的国产工具，因为增加了不少国人喜欢的操作，所以可接受性更强，各项功能中自己最看重喜欢的就是：&lt;/p&gt;
-&lt;ul&gt;
-  &lt;li&gt;快速生成api文档&lt;/li&gt;
-  &lt;li&gt;在线模拟调试带mock功能&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;其他的功能，有兴趣的可以自己探索。&lt;/p&gt;
-
-&lt;h4 id=&quot;有图有真相软件界面一看就懂吧&quot;&gt;有图有真相，软件界面一看就懂吧&lt;/h4&gt;
-
-&lt;p&gt;&lt;a href=&quot;https://imgchr.com/i/DKnyOf&quot;&gt;&lt;img src=&quot;https://s3.ax1x.com/2020/11/19/DKnyOf.png&quot; alt=&quot;DKnyOf.png&quot; /&gt;&lt;/a&gt;&lt;/p&gt;</content><author><name>王的三丰</name></author><category term="识物" /><summary type="html">撰写自： 王的三丰</summary></entry><entry><title type="html">我对FIRE的一点理解</title><link href="http://localhost:4000/Fire-First/" rel="alternate" type="text/html" title="我对FIRE的一点理解" /><published>2020-11-17T20:04:00+08:00</published><updated>2020-11-17T20:04:00+08:00</updated><id>http://localhost:4000/Fire-First</id><content type="html" xml:base="http://localhost:4000/Fire-First/">&lt;p&gt;&lt;span style=&quot;font-size:12px&quot;&gt;撰写自： &lt;a href=&quot;/about&quot;&gt;王三丰&lt;/a&gt; &lt;/span&gt;&lt;/p&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.9.0">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2020-11-23T14:15:13+08:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">流浪笔记.三丰</title><author><name>【流浪笔记】.三丰</name></author><entry><title type="html">我对FIRE的一点理解</title><link href="http://localhost:4000/Fire-First/" rel="alternate" type="text/html" title="我对FIRE的一点理解" /><published>2020-11-17T20:04:00+08:00</published><updated>2020-11-17T20:04:00+08:00</updated><id>http://localhost:4000/Fire-First</id><content type="html" xml:base="http://localhost:4000/Fire-First/">&lt;p&gt;&lt;span style=&quot;font-size:12px&quot;&gt;撰写自： &lt;a href=&quot;/about&quot;&gt;王三丰&lt;/a&gt; &lt;/span&gt;&lt;/p&gt;
 
 &lt;p&gt;曾经上天给了我好几次可以财富“自由”的机会，我都没有把握好，但也给我几次做傻逼的机会，却每次都拿捏得稳稳的。&lt;/p&gt;
 
@@ -75,7 +54,7 @@
 
 &lt;p&gt;结合国内实际情况和通货膨胀率，也许我们可以实践一种更“温和方式”，通过这个理念去给生活做减法，以求尽快摆脱“出卖时间换金钱的工作”，走上热爱生活的路途。&lt;/p&gt;
 
-&lt;p&gt;我对自己的诉求就是走在大街上能淹没在人潮中就好，并不希望引起别人的关注。为此，后面的日子有必要为自己制定几条规则：低欲、惜物、不浪费、物以致用，少囤货，多利用公共资源，尽量做财务规划（再也不傻逼的相信任何人）。
+&lt;p&gt;我对自己的诉求就是走在大街上能淹没在人潮中就好，并不希望引起别人的关注。为此，后面的日子有必要为自己制定几条规则：低欲、惜物、不浪费、物以致用，少囤货，多利用公共资源，尽量做财务规划（再也不傻逼的相信任何人和狗日的为人民服务。）。
 培养自己做减法的消费观：不需要的不买，需要的以二手或者免费渠道能获得为先，在自己认为值得花费的地方毫不吝啬（父母，爱好，技能提升，健康，体验），并在能力内做到尽可能环保。&lt;/p&gt;
 
 &lt;p&gt;&lt;a href=&quot;https://imgchr.com/i/D1Z1O0&quot;&gt;&lt;img src=&quot;https://s3.ax1x.com/2020/11/21/D1Z1O0.jpg&quot; alt=&quot;D1Z1O0.jpg&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
@@ -129,15 +108,7 @@
   &lt;p&gt;1.《 Your Money or Your Life 》&lt;/p&gt;
 
   &lt;p&gt;2.《 The Simple Path to Wealth 》&lt;/p&gt;
-&lt;/blockquote&gt;</content><author><name>王三丰</name></author><category term="FIRE" /><summary type="html">撰写自： 王三丰</summary></entry><entry><title type="html">Pytest权威教程.官方教程翻译</title><link href="http://localhost:4000/Pytest-courses/" rel="alternate" type="text/html" title="Pytest权威教程.官方教程翻译" /><published>2020-11-16T18:09:00+08:00</published><updated>2020-11-16T18:09:00+08:00</updated><id>http://localhost:4000/Pytest-courses</id><content type="html" xml:base="http://localhost:4000/Pytest-courses/">&lt;p&gt;&lt;span style=&quot;font-size:12px&quot;&gt;撰写自： &lt;a href=&quot;/about&quot;&gt;isanfeng&lt;/a&gt; &lt;/span&gt;&lt;/p&gt;
-
-&lt;p&gt;Pytest权威教程-官方文档翻译：&lt;/p&gt;
-
-&lt;p&gt;链接：https://share.weiyun.com/gaXAxggM 密码：cjvcyi&lt;/p&gt;
-
-&lt;p&gt;官方原文：&lt;/p&gt;
-
-&lt;p&gt;地址：https://docs.pytest.org/en/latest/contents.html#toc&lt;/p&gt;</content><author><name>isanfeng</name></author><category term="Python" /><summary type="html">撰写自： isanfeng</summary></entry><entry><title type="html">环琵琶湖（下一站）</title><link href="http://localhost:4000/Japan-PipaLake-Bikepacking/" rel="alternate" type="text/html" title="环琵琶湖（下一站）" /><published>2020-11-11T00:09:00+08:00</published><updated>2020-11-11T00:09:00+08:00</updated><id>http://localhost:4000/Japan-PipaLake-Bikepacking</id><content type="html" xml:base="http://localhost:4000/Japan-PipaLake-Bikepacking/">&lt;p&gt;&lt;span style=&quot;font-size:12px&quot;&gt;撰写自： &lt;a href=&quot;/about&quot;&gt;王的三丰&lt;/a&gt; &lt;/span&gt;&lt;/p&gt;</content><author><name>王的三丰</name></author><category term="Bikepacking" /><category term="分时分段环游地球" /><summary type="html">撰写自： 王的三丰</summary></entry><entry><title type="html">独库公路（下一站）</title><link href="http://localhost:4000/China-DukuRoad-Bikepacking/" rel="alternate" type="text/html" title="独库公路（下一站）" /><published>2020-11-11T00:09:00+08:00</published><updated>2020-11-11T00:09:00+08:00</updated><id>http://localhost:4000/China-DukuRoad-Bikepacking</id><content type="html" xml:base="http://localhost:4000/China-DukuRoad-Bikepacking/">&lt;p&gt;&lt;span style=&quot;font-size:12px&quot;&gt;撰写自： &lt;a href=&quot;/about&quot;&gt;王的三丰&lt;/a&gt; &lt;/span&gt;&lt;/p&gt;</content><author><name>王的三丰</name></author><category term="Bikepacking" /><category term="分时分段环游地球" /><summary type="html">撰写自： 王的三丰</summary></entry><entry><title type="html">带父母游北京.2020</title><link href="http://localhost:4000/China-Beijing-Hike-withParents/" rel="alternate" type="text/html" title="带父母游北京.2020" /><published>2020-10-01T20:56:00+08:00</published><updated>2020-10-01T20:56:00+08:00</updated><id>http://localhost:4000/China-Beijing-Hike-withParents</id><content type="html" xml:base="http://localhost:4000/China-Beijing-Hike-withParents/">&lt;p&gt;&lt;span style=&quot;font-size:12px&quot;&gt;撰写自： &lt;a href=&quot;/about&quot;&gt;王三丰&lt;/a&gt; &lt;/span&gt;&lt;/p&gt;
+&lt;/blockquote&gt;</content><author><name>王三丰</name></author><category term="FIRE" /><summary type="html">撰写自： 王三丰</summary></entry><entry><title type="html">独库公路（下一站）</title><link href="http://localhost:4000/China-DukuRoad-Bikepacking/" rel="alternate" type="text/html" title="独库公路（下一站）" /><published>2020-11-11T00:09:00+08:00</published><updated>2020-11-11T00:09:00+08:00</updated><id>http://localhost:4000/China-DukuRoad-Bikepacking</id><content type="html" xml:base="http://localhost:4000/China-DukuRoad-Bikepacking/">&lt;p&gt;&lt;span style=&quot;font-size:12px&quot;&gt;撰写自： &lt;a href=&quot;/about&quot;&gt;王的三丰&lt;/a&gt; &lt;/span&gt;&lt;/p&gt;</content><author><name>王的三丰</name></author><category term="Bikepacking" /><category term="分时分段环游地球" /><summary type="html">撰写自： 王的三丰</summary></entry><entry><title type="html">环琵琶湖（下一站）</title><link href="http://localhost:4000/Japan-PipaLake-Bikepacking/" rel="alternate" type="text/html" title="环琵琶湖（下一站）" /><published>2020-11-11T00:09:00+08:00</published><updated>2020-11-11T00:09:00+08:00</updated><id>http://localhost:4000/Japan-PipaLake-Bikepacking</id><content type="html" xml:base="http://localhost:4000/Japan-PipaLake-Bikepacking/">&lt;p&gt;&lt;span style=&quot;font-size:12px&quot;&gt;撰写自： &lt;a href=&quot;/about&quot;&gt;王的三丰&lt;/a&gt; &lt;/span&gt;&lt;/p&gt;</content><author><name>王的三丰</name></author><category term="Bikepacking" /><category term="分时分段环游地球" /><summary type="html">撰写自： 王的三丰</summary></entry><entry><title type="html">带父母游北京.2020</title><link href="http://localhost:4000/China-Beijing-Hike-withParents/" rel="alternate" type="text/html" title="带父母游北京.2020" /><published>2020-10-01T20:56:00+08:00</published><updated>2020-10-01T20:56:00+08:00</updated><id>http://localhost:4000/China-Beijing-Hike-withParents</id><content type="html" xml:base="http://localhost:4000/China-Beijing-Hike-withParents/">&lt;p&gt;&lt;span style=&quot;font-size:12px&quot;&gt;撰写自： &lt;a href=&quot;/about&quot;&gt;王三丰&lt;/a&gt; &lt;/span&gt;&lt;/p&gt;
 
 &lt;p&gt;北京7天行 圆满结束。&lt;br /&gt;
 在这两年经历了那几个操蛋事情，稍微弄清了这十几年的丑恶，身心承受了三观几乎全部重塑的压力后，也体会到了每年带父母去旅游这件事貌似变成了人生仅存的几件最有意义的事情之一。
@@ -176,7 +147,28 @@ PS：&lt;/p&gt;
   &lt;li&gt;10.08&lt;br /&gt; 
 北京南 - 济南西：G111 08:35开&lt;br /&gt;
 济南西 - 沂源&lt;/li&gt;
-&lt;/ol&gt;</content><author><name>王三丰</name></author><category term="分时分段环游地球" /><category term="带父母游" /><summary type="html">撰写自： 王三丰</summary></entry><entry><title type="html">环冲绳.2019</title><link href="http://localhost:4000/Japan-Okinawa-Bikepacking/" rel="alternate" type="text/html" title="环冲绳.2019" /><published>2019-10-01T00:09:00+08:00</published><updated>2019-10-01T00:09:00+08:00</updated><id>http://localhost:4000/Japan-Okinawa-Bikepacking</id><content type="html" xml:base="http://localhost:4000/Japan-Okinawa-Bikepacking/">&lt;p&gt;&lt;span style=&quot;font-size:12px&quot;&gt;撰写自： &lt;a href=&quot;/about&quot;&gt;isanfeng&lt;/a&gt; &lt;/span&gt;&lt;/p&gt;</content><author><name>isanfeng</name></author><category term="Bikepacking" /><category term="分时分段环游地球" /><summary type="html">撰写自： isanfeng</summary></entry><entry><title type="html">带父母游泰北.2019</title><link href="http://localhost:4000/Thailand-Hike-withParents/" rel="alternate" type="text/html" title="带父母游泰北.2019" /><published>2019-04-01T20:56:00+08:00</published><updated>2019-04-01T20:56:00+08:00</updated><id>http://localhost:4000/Thailand-Hike-withParents</id><content type="html" xml:base="http://localhost:4000/Thailand-Hike-withParents/">&lt;p&gt;&lt;span style=&quot;font-size:12px&quot;&gt;撰写自： &lt;a href=&quot;/about&quot;&gt;王的三丰&lt;/a&gt; &lt;/span&gt;&lt;/p&gt;</content><author><name>王的三丰</name></author><category term="分时分段环游地球" /><category term="带父母游" /><summary type="html">撰写自： 王的三丰</summary></entry><entry><title type="html">带父母游西安.2019</title><link href="http://localhost:4000/Xian-Hike-withParents/" rel="alternate" type="text/html" title="带父母游西安.2019" /><published>2019-03-27T20:56:00+08:00</published><updated>2019-03-27T20:56:00+08:00</updated><id>http://localhost:4000/Xian-Hike-withParents</id><content type="html" xml:base="http://localhost:4000/Xian-Hike-withParents/">&lt;p&gt;&lt;span style=&quot;font-size:12px&quot;&gt;撰写自： &lt;a href=&quot;/about&quot;&gt;王的三丰&lt;/a&gt; &lt;/span&gt;&lt;/p&gt;</content><author><name>王的三丰</name></author><category term="分时分段环游地球" /><category term="带父母游" /><summary type="html">撰写自： 王的三丰</summary></entry><entry><title type="html">哈喽过去的2018,未来的2019</title><link href="http://localhost:4000/%E8%BF%87%E5%8E%BB%E7%9A%842018-%E6%9C%AA%E6%9D%A5%E7%9A%842019/" rel="alternate" type="text/html" title="哈喽过去的2018,未来的2019" /><published>2019-01-03T21:04:00+08:00</published><updated>2019-01-03T21:04:00+08:00</updated><id>http://localhost:4000/%E8%BF%87%E5%8E%BB%E7%9A%842018,%E6%9C%AA%E6%9D%A5%E7%9A%842019</id><content type="html" xml:base="http://localhost:4000/%E8%BF%87%E5%8E%BB%E7%9A%842018-%E6%9C%AA%E6%9D%A5%E7%9A%842019/">&lt;p&gt;&lt;span style=&quot;font-size:12px&quot;&gt;撰写自： &lt;a href=&quot;/about&quot;&gt;isanfeng&lt;/a&gt; &lt;/span&gt;&lt;/p&gt;
+&lt;/ol&gt;</content><author><name>王三丰</name></author><category term="分时分段环游地球" /><category term="带父母游" /><summary type="html">撰写自： 王三丰</summary></entry><entry><title type="html">比PostMan&amp;amp;PostWoman好用的国产利器ApiPost</title><link href="http://localhost:4000/PostMan-PostWoman-ApiFox-ApiPost/" rel="alternate" type="text/html" title="比PostMan&amp;PostWoman好用的国产利器ApiPost" /><published>2020-05-19T16:09:00+08:00</published><updated>2020-05-19T16:09:00+08:00</updated><id>http://localhost:4000/PostMan-PostWoman-ApiFox-ApiPost</id><content type="html" xml:base="http://localhost:4000/PostMan-PostWoman-ApiFox-ApiPost/">&lt;p&gt;&lt;span style=&quot;font-size:12px&quot;&gt;撰写自： &lt;a href=&quot;/about&quot;&gt;王的三丰&lt;/a&gt; &lt;/span&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;em&gt;自己在先后使用了Postman，PostWoman，ApiFox，ApiZza，ApiPost后，最后选择ApiPost作为工作的常用利器&lt;/em&gt;&lt;/p&gt;
+
+&lt;p&gt;ApiPost是一个支持团队协作，并可直接生成文档的API调试、管理工具
+支持模拟POST、GET、PUT等常见请求，是后台接口开发者或前端、接口测试人员不可多得的工具 （来自官网）&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;官网地址：https://www.apipost.cn/&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;上面几款工具功能都比较类似，后面三款虽然是模仿鼻祖Postman诞生的国产工具，因为增加了不少国人喜欢的操作，所以可接受性更强，各项功能中自己最看重喜欢的就是：&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;快速生成api文档&lt;/li&gt;
+  &lt;li&gt;在线模拟调试带mock功能&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;其他的功能，有兴趣的可以自己探索。&lt;/p&gt;
+
+&lt;h4 id=&quot;有图有真相软件界面一看就懂吧&quot;&gt;有图有真相，软件界面一看就懂吧&lt;/h4&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://imgchr.com/i/DKnyOf&quot;&gt;&lt;img src=&quot;https://s3.ax1x.com/2020/11/19/DKnyOf.png&quot; alt=&quot;DKnyOf.png&quot; /&gt;&lt;/a&gt;&lt;/p&gt;</content><author><name>王的三丰</name></author><category term="识物" /><summary type="html">撰写自： 王的三丰</summary></entry><entry><title type="html">环冲绳.2019</title><link href="http://localhost:4000/Japan-Okinawa-Bikepacking/" rel="alternate" type="text/html" title="环冲绳.2019" /><published>2019-10-01T00:09:00+08:00</published><updated>2019-10-01T00:09:00+08:00</updated><id>http://localhost:4000/Japan-Okinawa-Bikepacking</id><content type="html" xml:base="http://localhost:4000/Japan-Okinawa-Bikepacking/">&lt;p&gt;&lt;span style=&quot;font-size:12px&quot;&gt;撰写自： &lt;a href=&quot;/about&quot;&gt;isanfeng&lt;/a&gt; &lt;/span&gt;&lt;/p&gt;</content><author><name>isanfeng</name></author><category term="Bikepacking" /><category term="分时分段环游地球" /><summary type="html">撰写自： isanfeng</summary></entry><entry><title type="html">带父母游泰北.2019</title><link href="http://localhost:4000/Thailand-Hike-withParents/" rel="alternate" type="text/html" title="带父母游泰北.2019" /><published>2019-04-01T20:56:00+08:00</published><updated>2019-04-01T20:56:00+08:00</updated><id>http://localhost:4000/Thailand-Hike-withParents</id><content type="html" xml:base="http://localhost:4000/Thailand-Hike-withParents/">&lt;p&gt;&lt;span style=&quot;font-size:12px&quot;&gt;撰写自： &lt;a href=&quot;/about&quot;&gt;王的三丰&lt;/a&gt; &lt;/span&gt;&lt;/p&gt;</content><author><name>王的三丰</name></author><category term="分时分段环游地球" /><category term="带父母游" /><summary type="html">撰写自： 王的三丰</summary></entry><entry><title type="html">带父母游西安.2019</title><link href="http://localhost:4000/Xian-Hike-withParents/" rel="alternate" type="text/html" title="带父母游西安.2019" /><published>2019-03-27T20:56:00+08:00</published><updated>2019-03-27T20:56:00+08:00</updated><id>http://localhost:4000/Xian-Hike-withParents</id><content type="html" xml:base="http://localhost:4000/Xian-Hike-withParents/">&lt;p&gt;&lt;span style=&quot;font-size:12px&quot;&gt;撰写自： &lt;a href=&quot;/about&quot;&gt;王的三丰&lt;/a&gt; &lt;/span&gt;&lt;/p&gt;</content><author><name>王的三丰</name></author><category term="分时分段环游地球" /><category term="带父母游" /><summary type="html">撰写自： 王的三丰</summary></entry><entry><title type="html">哈喽过去的2018,未来的2019</title><link href="http://localhost:4000/%E8%BF%87%E5%8E%BB%E7%9A%842018-%E6%9C%AA%E6%9D%A5%E7%9A%842019/" rel="alternate" type="text/html" title="哈喽过去的2018,未来的2019" /><published>2019-01-03T21:04:00+08:00</published><updated>2019-01-03T21:04:00+08:00</updated><id>http://localhost:4000/%E8%BF%87%E5%8E%BB%E7%9A%842018,%E6%9C%AA%E6%9D%A5%E7%9A%842019</id><content type="html" xml:base="http://localhost:4000/%E8%BF%87%E5%8E%BB%E7%9A%842018-%E6%9C%AA%E6%9D%A5%E7%9A%842019/">&lt;p&gt;&lt;span style=&quot;font-size:12px&quot;&gt;撰写自： &lt;a href=&quot;/about&quot;&gt;isanfeng&lt;/a&gt; &lt;/span&gt;&lt;/p&gt;
 
 &lt;p&gt;作为一个传统的孩子，也许我还在期盼我的2019还未开始，因为2018还有未了的事，不过也不能不承认，时间不是我们能左右的。&lt;/p&gt;
 &lt;ul&gt;
@@ -187,4 +179,12 @@ PS：&lt;/p&gt;
   &lt;/li&gt;
   &lt;li&gt;生活&lt;/li&gt;
   &lt;li&gt;总结&lt;/li&gt;
-&lt;/ul&gt;</content><author><name>isanfeng</name></author><category term="胡思乱想" /><summary type="html">撰写自： isanfeng</summary></entry></feed>
+&lt;/ul&gt;</content><author><name>isanfeng</name></author><category term="胡思乱想" /><summary type="html">撰写自： isanfeng</summary></entry><entry><title type="html">Pytest权威教程.官方教程翻译</title><link href="http://localhost:4000/Pytest-courses/" rel="alternate" type="text/html" title="Pytest权威教程.官方教程翻译" /><published>2018-11-16T18:09:00+08:00</published><updated>2018-11-16T18:09:00+08:00</updated><id>http://localhost:4000/Pytest-courses</id><content type="html" xml:base="http://localhost:4000/Pytest-courses/">&lt;p&gt;&lt;span style=&quot;font-size:12px&quot;&gt;撰写自： &lt;a href=&quot;/about&quot;&gt;isanfeng&lt;/a&gt; &lt;/span&gt;&lt;/p&gt;
+
+&lt;p&gt;Pytest权威教程-官方文档翻译：&lt;/p&gt;
+
+&lt;p&gt;链接：https://share.weiyun.com/gaXAxggM 密码：cjvcyi&lt;/p&gt;
+
+&lt;p&gt;官方原文：&lt;/p&gt;
+
+&lt;p&gt;地址：https://docs.pytest.org/en/latest/contents.html#toc&lt;/p&gt;</content><author><name>isanfeng</name></author><category term="Python" /><summary type="html">撰写自： isanfeng</summary></entry></feed>

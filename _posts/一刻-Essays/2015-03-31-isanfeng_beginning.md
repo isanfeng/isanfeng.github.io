@@ -4,7 +4,7 @@ title: 三丰来了
 date: 2015-03-31 14:10
 author: isanfeng
 description:
-img: posts/bizhi-2.jpg
+img: posts/young-old.jpg
 tags: [胡思乱想]
 Essays: true
 ---
