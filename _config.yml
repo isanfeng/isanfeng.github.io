@@ -41,7 +41,8 @@ discus_identifier:
 
 #intensedebate修改成你自己的
 intensedebate_identifier: 817a70ae8b1e66f93255bb987bc33468
-intensedebate_comments: true
+# 开关控制是否显示
+intensedebate_comments: false
 
 # Tracker Google Analytics修改成你自己的
 google-analysis:
