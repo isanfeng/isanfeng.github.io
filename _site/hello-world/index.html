@@ -4,7 +4,7 @@
 
 <head>
 	<meta charset="utf-8">
-	<title>Hello World！我的个人网站 - 【流浪笔记】.【三丰】</title>
+	<title>Hello World！我的个人网站 - -=流浪笔记.三丰=-</title>
 	<meta name="description" content="Hello World！">
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
 	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
@@ -56,10 +56,6 @@
 
 	<!--评论系统型号1-->
     <script src="//unpkg.com/valine@latest/dist/Valine.min.js"></script>
-
-	<!--今日诗词-->
-	<script src="https://cdn.jsdelivr.net/npm/jquery@3.2.1/dist/jquery.min.js"></script>
-	<script src="https://sdk.jinrishici.com/v2/browser/jinrishici.js" charset="utf-8"></script>
 
 </head>
 
@@ -411,6 +407,7 @@
                   appKey: 'UQqz25rRuJ2V3ALSQknLsFC6',
                   placeholder: '思想需要碰撞才能产生火花。',
                   avatar: 'mp',
+                  pageSize: '9',
                   emojiCDN: '//i0.hdslb.com/bfs/emote/',
                   emojiMaps: {
                       "tv_doge": "6ea59c827c414b4a2955fe79e0f6fd3dcd515e24.png",
@@ -435,16 +432,6 @@
                       "tv_思考": "90cf159733e558137ed20aa04d09964436f618a1.png",
                       "tv_惊吓": "0d15c7e2ee58e935adc6a7193ee042388adc22af.png"}
               })
-          </script>
-          <script type="text/javascript">
-              var jrsc = '思想需要碰撞才能产生火花';
-              jinrishici.load(function (result) {
-                      // 自己的处理逻辑
-                      jrsc = result.data.content + "\n「" + result.data.origin.title + "」" + result.data.origin
-                       .dynasty + " · " + result.data.origin.author;
-                      if (jrsc != undefined)
-                        document.getElementById("vcomments").setAttribute("placeholder", jrsc);
-                  });
           </script>
         <!--end 评论系统型号1-->
         <!--评论系统型号2，可以通过config中的配置开关控制-->
