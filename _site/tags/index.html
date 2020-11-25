@@ -92,24 +92,6 @@
 <!--    <script src="//unpkg.com/valine@latest/dist/Valine.min.js"></script>-->
 	<script src="/assets/js/valine/Valine.min.js"></script>
 
-
-	<!--动态线条背景-->
-<!--	<script type="text/javascript"-->
-<!--	color="0,250,0" opacity='0.7' zIndex="-1" count="200" src="//cdn.bootcss.com/canvas-nest.js/1.0.0/canvas-nest.min.js">-->
-<!--	</script>-->
-	<script type="text/javascript"
-	color="220,220,220" opacity='0.7' zIndex="-1" count="150" src="/assets/js/canvas/canvas-nest.min.js">
-	</script>
-
-	<!--music player start-->
-	<!--https://github.com/metowolf/MetingJS, https://aplayer.js.org/#/zh-Hans-->
-	<!-- require APlayer -->
-	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/aplayer/dist/APlayer.min.css">
-	<script src="https://cdn.jsdelivr.net/npm/aplayer/dist/APlayer.min.js"></script>
-	<!-- require MetingJS -->
-	<script src="https://cdn.jsdelivr.net/npm/meting@2/dist/Meting.min.js"></script>
-	<!--music player end-->
-
 </head>
 
 <body>
@@ -587,7 +569,7 @@
 	<div class="copyright" style="font-size:12px;color:#B3B3B3;padding-bottom:30px;float:bottom">
 		<p>&copy; 2020 -=流浪笔记.三丰=-</p>
 
-	<div style="font-size:12px;color:#B3B3B3;padding-bottom:30px;float:bottom">
+	<div style="font-size:12px;color:#b3b3b3;padding-bottom:30px;float:bottom">
 		<p>【冯唐语录 - 冯唐喜欢最长时间的作家，没有之一】</p>
 		<script type="text/JavaScript" src="/yulu.js"></script>
 	</div>
@@ -626,24 +608,29 @@
 
 	<!--music player start-->
 	<!--https://github.com/metowolf/MetingJS, https://aplayer.js.org/#/zh-Hans-->
-	<div id="aplayer">
-		<meting-js
-			server="netease"
-			type="playlist"
-			id="5327906368"
-			fixed="true"
-			autoplay="true"
-			loop="all"
-			order="random"
-			mutex="true"
+	<!-- require APlayer -->
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/aplayer/dist/APlayer.min.css">
+	<script src="https://cdn.jsdelivr.net/npm/aplayer/dist/APlayer.min.js"></script>
+	<!-- require MetingJS -->
+	<script src="https://cdn.jsdelivr.net/npm/meting@2/dist/Meting.min.js"></script>
+	<meting-js
+			id="5307255753"
 			lrc-type="0"
-			list-Folded="true"
-			list-max-height="340px">
-		</meting-js>
-	</div>
+			server="netease"
+			order="list"
+			type="playlist"
+			fixed="true"
+			list-folded="true"
+			autoplay="true"
+			order="random"
+			loop="all"
+			mutex="true"
+	>
+	</meting-js>
 	<!--music player end-->
 
-</footer> <!-- End Footer -->
+</footer>
+<!-- End Footer -->
 
 </div>
 
