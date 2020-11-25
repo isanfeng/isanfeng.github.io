@@ -46,7 +46,8 @@ intensedebate_identifier: 817a70ae8b1e66f93255bb987bc33468
 intensedebate_comments: false
 
 # Tracker Google Analytics修改成你自己的
-google-analysis:
+google-analysis-gitee: G-LR2C328Y6Y
+google-analysis-github: G-0K52Q80DV8
 baidu-analysis: 42bccbe026e11e0ec8bcd67d40d41529
 
 #youyan
@@ -69,10 +70,10 @@ exclude: ["node_modules", "gulpfile.js", "package.json", "yarn.lock"]
 imagepath: /assets/img/
 
 links:
-  - name:         Home
+  - name:         首页
     url:          https://isanfeng.github.io
     external:     false
-  - name:         About
+  - name:         关于
     url:          /about
     external:     false
 
