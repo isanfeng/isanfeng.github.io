@@ -51,8 +51,27 @@
 		  s.parentNode.insertBefore(hm, s);
 		})();
 	</script>
+	<!-- Global site tag (gtag.js) - Google Analytics -->
+	<script async src="https://www.googletagmanager.com/gtag/js?id={{google-analysis-gitee}}"></script>
+	<script>
+	  window.dataLayer = window.dataLayer || [];
+	  function gtag(){dataLayer.push(arguments);}
+	  gtag('js', new Date());
+
+	  gtag('config', '{{google-analysis-gitee}}');
+	</script>
+	<!-- Global site tag (gtag.js) - Google Analytics -->
+	<script async src="https://www.googletagmanager.com/gtag/js?id={{google-analysis-github}}"></script>
+	<script>
+	  window.dataLayer = window.dataLayer || [];
+	  function gtag(){dataLayer.push(arguments);}
+	  gtag('js', new Date());
+
+	  gtag('config', '{{google-analysis-github}}');
+	</script>
 
 	<!--评论系统型号1-->
-    <script src="//unpkg.com/valine@latest/dist/Valine.min.js"></script>
+<!--    <script src="//unpkg.com/valine@latest/dist/Valine.min.js"></script>-->
+	<script src="{{site.baseurl}}/assets/js/valine/Valine.min.js"></script>
 
 </head>
