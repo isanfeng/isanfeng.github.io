@@ -18,31 +18,25 @@
 	<meta name="msapplication-navbutton-color" content="#311e3e">
 	<!-- iOS Safari -->
 	<meta name="apple-mobile-web-app-status-bar-style" content="#311e3e">
+
+	<!--baidu part start-->
 	<!--baidu site management-->
 	<meta name="baidu-site-verification" content="code-sh9EoLnxS0" />
-
-
-
-	<!-- Google Fonts 1
-	<link href="https://fonts.googleapis.com/css?family=Montserrat:300,400,700" rel="stylesheet">
-	<link href="https://fonts.googleapis.com/css?family=Lato:300,400,700" rel="stylesheet">-->
-
-
-
-	<!-- Font Awesome -->
-	<link rel="stylesheet" href="{{site.baseurl}}/assets/fonts/font-awesome/css/font-awesome.min.css">
-	<!-- Styles -->
-	<link rel="stylesheet" href="{{site.baseurl}}/assets/css/main.css">
-
-	<!--Social Share:https://cdnjs.com/libraries/social-share.js-->
-<!--	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/social-share.js/1.0.16/css/share.min.css">-->
-<!--	<script src="https://cdnjs.cloudflare.com/ajax/libs/social-share.js/1.0.16/js/social-share.min.js"></script>-->
-
-	<!--网站计数系统-->
-	<!-- <script async src="//dn-lbstatics.qbox.me/busuanzi/2.3/busuanzi.pure.mini.js"> </script> -->
-  	<script async src="//busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js"></script>
-
-
+	<!--baidu site page auto push-->
+	<script>
+	(function(){
+		var bp = document.createElement('script');
+		var curProtocol = window.location.protocol.split(':')[0];
+		if (curProtocol === 'https'){
+	   bp.src = 'https://zz.bdstatic.com/linksubmit/push.js';
+	  }
+	  else{
+	  bp.src = 'http://push.zhanzhang.baidu.com/push.js';
+	  }
+		var s = document.getElementsByTagName("script")[0];
+		s.parentNode.insertBefore(bp, s);
+	})();
+	</script>
 	<!--百度统计-->
 	<script>
 		var _hmt = _hmt || [];
@@ -53,6 +47,11 @@
 		  s.parentNode.insertBefore(hm, s);
 		})();
 	</script>
+	<!--baidu part end-->
+
+	<!--google part start-->
+	<!--google site management-->
+	<meta name="google-site-verification" content="0cF87nXXNXhpOEpq1hmSrR7KZbxzyW2vQQ7Gt8njXC4" />
 	<!-- Global site tag (gtag.js) - Google Analytics -->
 	<script async src="https://www.googletagmanager.com/gtag/js?id={{google-analysis-gitee}}"></script>
 	<script>
@@ -71,6 +70,20 @@
 
 	  gtag('config', '{{google-analysis-github}}');
 	</script>
+
+
+	<!-- Font Awesome -->
+	<link rel="stylesheet" href="{{site.baseurl}}/assets/fonts/font-awesome/css/font-awesome.min.css">
+	<!-- Styles -->
+	<link rel="stylesheet" href="{{site.baseurl}}/assets/css/main.css">
+
+	<!--Social Share:https://cdnjs.com/libraries/social-share.js-->
+<!--	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/social-share.js/1.0.16/css/share.min.css">-->
+<!--	<script src="https://cdnjs.cloudflare.com/ajax/libs/social-share.js/1.0.16/js/social-share.min.js"></script>-->
+
+	<!--网站计数系统-->
+	<!-- <script async src="//dn-lbstatics.qbox.me/busuanzi/2.3/busuanzi.pure.mini.js"> </script> -->
+  	<script async src="//busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js"></script>
 
 	<!--评论系统型号1-->
 <!--    <script src="//unpkg.com/valine@latest/dist/Valine.min.js"></script>-->
