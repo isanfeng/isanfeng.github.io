@@ -22,7 +22,7 @@
 	<meta name="apple-mobile-web-app-status-bar-style" content="#311e3e">
 
 	<!--baidu part start-->
-	<!--baidu site management-->
+	<!--baidu site management: https://ziyuan.baidu.com/site/index#/-->
 	<meta name="baidu-site-verification" content="code-sh9EoLnxS0" />
 <!--	<meta name="baidu-site-verification" content="code-2KE7juq3EN" />-->
 	<!--baidu site page auto push-->
@@ -53,7 +53,7 @@
 	<!--baidu part end-->
 
 	<!--google part start-->
-	<!--google site management-->
+	<!--google site management: https://search.google.com/search-console?resource_id=https%3A%2F%2Fisanfeng.github.io%2F-->
 	<meta name="google-site-verification" content="0cF87nXXNXhpOEpq1hmSrR7KZbxzyW2vQQ7Gt8njXC4" />
 <!--	<meta name="google-site-verification" content="Yn1Pu1ESOXQBfqt4GT42OZ106wzHXctvvB5tg-8q8ZY" />-->
 	<!-- Global site tag (gtag.js) - Google Analytics -->
@@ -91,6 +91,24 @@
 	<!--评论系统型号1-->
 <!--    <script src="//unpkg.com/valine@latest/dist/Valine.min.js"></script>-->
 	<script src="/assets/js/valine/Valine.min.js"></script>
+
+
+	<!--动态线条背景-->
+<!--	<script type="text/javascript"-->
+<!--	color="0,250,0" opacity='0.7' zIndex="-1" count="200" src="//cdn.bootcss.com/canvas-nest.js/1.0.0/canvas-nest.min.js">-->
+<!--	</script>-->
+	<script type="text/javascript"
+	color="220,220,220" opacity='0.7' zIndex="-1" count="150" src="/assets/js/canvas/canvas-nest.min.js">
+	</script>
+
+	<!--music player start-->
+	<!--https://github.com/metowolf/MetingJS, https://aplayer.js.org/#/zh-Hans-->
+	<!-- require APlayer -->
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/aplayer/dist/APlayer.min.css">
+	<script src="https://cdn.jsdelivr.net/npm/aplayer/dist/APlayer.min.js"></script>
+	<!-- require MetingJS -->
+	<script src="https://cdn.jsdelivr.net/npm/meting@2/dist/Meting.min.js"></script>
+	<!--music player end-->
 
 </head>
 
@@ -566,24 +584,64 @@
 		</div>
 	</div>
 
-	<div class="copyright">
+	<div class="copyright" style="font-size:12px;color:#B3B3B3;padding-bottom:30px;float:bottom">
 		<p>&copy; 2020 -=流浪笔记.三丰=-</p>
-		<p>【冯唐语录】</p>
+
+	<div style="font-size:12px;color:#B3B3B3;padding-bottom:30px;float:bottom">
+		<p>【冯唐语录 - 冯唐喜欢最长时间的作家，没有之一】</p>
 		<script type="text/JavaScript" src="/yulu.js"></script>
-		<p></p>
+	</div>
 
 
-	<div style="font-size:12px;color:#B3B3B3;padding-right:30px;float:bottom">
+	<div style="font-size:12px;color:#B3B3B3;padding-bottom:30px;float:bottom">
 <!--		<iframe-->
 <!--                style="margin-left: 2px; margin-bottom:-5px;"-->
 <!--                frameborder="0" scrolling="0" width="91px" height="20px"-->
 <!--                src="https://ghbtns.com/github-btn.html?user=isanfeng&repo=&type=star&count=true" >-->
 <!--		</iframe>-->
-		<span id="busuanzi_container_site_pv">总来访：<span id="busuanzi_value_site_pv"></span>人</span>
+		<span id="busuanzi_container_site_pv">本站总访客数：<span id="busuanzi_value_site_uv"></span>人</span>
 	  	<span class="division">|</span>
-		<span id="busuanzi_container_page_pv">总浏览：<span id="busuanzi_value_page_pv"></span>次</span>
+		<span id="busuanzi_container_page_pv">本站总访问量：<span id="busuanzi_value_site_pv"></span>次</span>
 	</div>
+
+	<div style="font-size:12px;color:#B3B3B3;padding-bottom:30px;float:bottom">
+		<span id="timeDate">载入天数...</span><span id="times">载入时分秒...</span>
+		<script>
+			var now = new Date();
+			function createtime() {
+				var grt= new Date("11/11/2020 00:00:00");//在此处修改你的建站时间
+				now.setTime(now.getTime()+250);
+				days = (now - grt ) / 1000 / 60 / 60 / 24; dnum = Math.floor(days);
+				hours = (now - grt ) / 1000 / 60 / 60 - (24 * dnum); hnum = Math.floor(hours);
+				if(String(hnum).length ==1 ){hnum = "0" + hnum;} minutes = (now - grt ) / 1000 /60 - (24 * 60 * dnum) - (60 * hnum);
+				mnum = Math.floor(minutes); if(String(mnum).length ==1 ){mnum = "0" + mnum;}
+				seconds = (now - grt ) / 1000 - (24 * 60 * 60 * dnum) - (60 * 60 * hnum) - (60 * mnum);
+				snum = Math.round(seconds); if(String(snum).length ==1 ){snum = "0" + snum;}
+				document.getElementById("timeDate").innerHTML = "本站已安全运行 "+dnum+" 天 ";
+				document.getElementById("times").innerHTML = hnum + " 小时 " + mnum + " 分 " + snum + " 秒";
+			}
+		setInterval("createtime()",250);
+		</script>
 	</div>
+
+	<!--music player start-->
+	<!--https://github.com/metowolf/MetingJS, https://aplayer.js.org/#/zh-Hans-->
+	<div id="aplayer">
+		<meting-js
+			server="netease"
+			type="playlist"
+			id="5327906368"
+			fixed="true"
+			autoplay="true"
+			loop="all"
+			order="random"
+			mutex="true"
+			lrc-type="0"
+			list-Folded="true"
+			list-max-height="340px">
+		</meting-js>
+	</div>
+	<!--music player end-->
 
 </footer> <!-- End Footer -->
 
