@@ -7,6 +7,7 @@ enableToc: true
 permalink: ':title/'
 #baseurl: "" # the subpath of your site, e.g. /blog
 url: 'https://isanfeng.github.io' # the base hostname & protocol for your site, e.g. http://example.com
+gitee_url: 'http://iwangsanfeng.gitee.io'
 
 # Author settings add your name
 author: -=流浪笔记.三丰=-
