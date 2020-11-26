@@ -29,47 +29,26 @@ permalink: /about/
     <script type="text/javascript" src="{{site.baseurl}}/assets/js/ripples/jquery.ripples.js"></script>
     <script type="text/javascript">
         $(document).ready(function() {
-
             try {
-
                 $('body').ripples({
-
                     resolution: 512,
-
                     dropRadius: 20, //px
-
                     perturbance: 0.04,
-
                 });
-
                 $('main').ripples({
-
                     resolution: 128,
-
                     dropRadius: 10, //px
-
                     perturbance: 0.04,
-
                 });
-
             }
-
             catch (e) {
-
                 $('.error').show().text(e);
-
             }
-
-
 
             $('.disable').show().on('click', function() {
-
                 $('body, main').ripples('destroy');
-
                 $(this).hide();
-
             });
-
         });
     </script>
 
