@@ -9,7 +9,7 @@
     } ,
   
     {
-      "title"    : "环琵琶湖（下一站）",
+      "title"    : "环琵琶湖（ns@planning）",
       "category" : "",
       "tags"     : "Bikepacking, 分时分段环游地球",
       "url"      : "/Japan-PipaLake-Bikepacking/",
@@ -17,7 +17,7 @@
     } ,
   
     {
-      "title"    : "独库公路（下一站）",
+      "title"    : "独库公路（ns@planning）",
       "category" : "",
       "tags"     : "Bikepacking, 分时分段环游地球",
       "url"      : "/China-DukuRoad-Bikepacking/",
@@ -190,6 +190,14 @@
       "tags"     : "分时分段环游地球, 带父母游",
       "url"      : "/China-Qingdao-Hike-withParents/",
       "date"     : "2011-10-01 20:56:00 +0800"
+    } ,
+  
+    {
+      "title"    : "Hello test",
+      "category" : "",
+      "tags"     : "随笔",
+      "url"      : "/bilibilitest/",
+      "date"     : "2000-11-24 17:16:00 +0800"
     } 
   
 ]
