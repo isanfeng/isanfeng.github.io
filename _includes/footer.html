@@ -2,8 +2,8 @@
 	<div class="footer-social">
 		<div class="footer-container clearfix">
 			<div class="social-list">
-				<a class="social github" target="blank" href="http://iwangsanfeng.gitee.io/">国内同步站(国内访问更迅速)</a>
-				<a class="social github" target="blank" href="https://isanfeng.github.io/">国际通用站</a>
+				<a class="social github" target="blank" href="http://iwangsanfeng.gitee.io/">镜像站(国内访问更迅速)</a>
+				<a class="social github" target="blank" href="https://isanfeng.github.io/">通用站</a>
 			</div>
 		</div>
 	</div>
@@ -41,7 +41,7 @@
 				mnum = Math.floor(minutes); if(String(mnum).length ==1 ){mnum = "0" + mnum;}
 				seconds = (now - grt ) / 1000 - (24 * 60 * 60 * dnum) - (60 * 60 * hnum) - (60 * mnum);
 				snum = Math.round(seconds); if(String(snum).length ==1 ){snum = "0" + snum;}
-				document.getElementById("timeDate").innerHTML = "本站已安全运行 "+dnum+" 天 ";
+				document.getElementById("timeDate").innerHTML = "本站已上线安全运行 "+dnum+" 天 ";
 				document.getElementById("times").innerHTML = hnum + " 小时 " + mnum + " 分 " + snum + " 秒";
 			}
 		setInterval("createtime()",250);
@@ -66,8 +66,7 @@
 			autoplay="true"
 			order="random"
 			loop="all"
-			mutex="true"
-	>
+			mutex="true">
 	</meting-js>
 	<!--music player end-->
 

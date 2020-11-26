@@ -1,6 +1,6 @@
 title: -=流浪笔记.三丰=-
 subtitle:
-description:
+description: 分时分段 单车 旅行 学习
 
 # 博客是否自动生成目录，false为不生成
 enableToc: true
@@ -13,8 +13,9 @@ gitee_url: 'http://iwangsanfeng.gitee.io'
 author: -=流浪笔记.三丰=-
 
 author-pic: isanfeng.jpg
-about-author: Live the life you love, Love the life you lives. To be a funny wanderer.
-about-author-detail: To be a SkyTraveler.
+about-author: Live the life you love, Love the life you lives.
+about-author-detail-0: To be a funny wanderer.
+about-author-detail-1: To be a SkyTraveler.
 
 #修改成你自己的
 # Contact links
@@ -50,9 +51,6 @@ google-analysis-gitee: G-LR2C328Y6Y
 google-analysis-github: G-0K52Q80DV8
 baidu-analysis: 42bccbe026e11e0ec8bcd67d40d41529
 
-#youyan
-youyan-id:
-
 # Paginate
 paginate: 27
 paginate_path: /page:num/
@@ -70,10 +68,10 @@ exclude: ["node_modules", "gulpfile.js", "package.json", "yarn.lock"]
 imagepath: /assets/img/
 
 links:
-  - name:         首页
+  - name:         HOME
     url:          https://isanfeng.github.io
     external:     false
-  - name:         关于
+  - name:         ABOUT
     url:          /about
     external:     false
 
@@ -82,12 +80,12 @@ links:
 #2：在_includes里面headr.html中添加对应内容
 #3：在根目录blog文件中创建对应内容并修改index文件
 
-label1: <span style="font-size:12px">撰写自：
+label1: <span style="font-size:12px">小主大名：
 label2: </span>
 
 
 links1:
-  - name:         All
+  - name:         全部
     url:          /
     type:         recent
     external:     false
