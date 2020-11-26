@@ -9,11 +9,7 @@
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
 	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
 	<meta property="og:image" content="">
-<!--	<link rel="shortcut icon" href="/assets/img/favicon.ico" type="image/x-icon">-->
 	<link rel="shortcut icon" href="/assets/img/favicon.ico" type="image/x-icon">
-<!--	<link rel="apple-touch-icon" href="/assets/img/favicon/apple-touch-icon.png">-->
-<!--	<link rel="apple-touch-icon" sizes="72x72" href="/assets/img/favicon/apple-touch-icon-72x72.png">-->
-<!--	<link rel="apple-touch-icon" sizes="114x114" href="/assets/img/favicon/apple-touch-icon-114x114.png">-->
 	<!-- Chrome, Firefox OS and Opera -->
 	<meta name="theme-color" content="#311e3e">
 	<!-- Windows Phone -->
@@ -77,6 +73,9 @@
 
 	<!-- Font Awesome -->
 	<link rel="stylesheet" href="/assets/fonts/font-awesome/css/font-awesome.min.css">
+<!--	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">-->
+	<!--在线引用google字体-->
+	<link rel="stylesheet" type="text/css" href="http://fonts.googleapis.com/css?family=Play|Texturina|Goldman|Orbitron">
 	<!-- Styles -->
 	<link rel="stylesheet" href="/assets/css/main.css">
 
@@ -124,7 +123,7 @@
 
 			 
 
-			 <li><a  href="/"  data-hover="All">All(24)</a></li>
+			 <li><a  href="/"  data-hover="全部">全部(24)</a></li>
 		 
 			 
 			 
@@ -240,11 +239,11 @@
 
 			<div class="navbar-menu">
 			   
-				<a href="https://isanfeng.github.io"  data-hover="Home">Home</a>  <!--title="访问 Home"-->
-				<!--<a href="https://isanfeng.github.io">Home</a>-->
+				<a href="https://isanfeng.github.io"  data-hover="HOME">HOME</a>  <!--title="访问 HOME"-->
+				<!--<a href="https://isanfeng.github.io">HOME</a>-->
 				
-				<a href="/about"  data-hover="About">About</a>  <!--title="访问 About"-->
-				<!--<a href="/about">About</a>-->
+				<a href="/about"  data-hover="ABOUT">ABOUT</a>  <!--title="访问 ABOUT"-->
+				<!--<a href="/about">ABOUT</a>-->
 				
 			</div>
 
@@ -253,11 +252,11 @@
 				<span class="icon-menu cross"><span class="middle"></span></span>
 				<ul>
 				   
-					 <li><a href="https://isanfeng.github.io"data-hover="Home">Home</a></li>  <!--title="访问 Home"-->
-					 <!--<li><a href="https://isanfeng.github.io">Home</a></li>-->
+					 <li><a href="https://isanfeng.github.io"data-hover="HOME">HOME</a></li>  <!--title="访问 HOME"-->
+					 <!--<li><a href="https://isanfeng.github.io">HOME</a></li>-->
 				   
-					 <li><a href="/about"data-hover="About">About</a></li>  <!--title="访问 About"-->
-					 <!--<li><a href="/about">About</a></li>-->
+					 <li><a href="/about"data-hover="ABOUT">ABOUT</a></li>  <!--title="访问 ABOUT"-->
+					 <!--<li><a href="/about">ABOUT</a></li>-->
 				   
 				</ul>
 			</div>
@@ -282,7 +281,7 @@
   <h1>404</h1>
 
   <p><strong>Page not found :(</strong></p>
-  <p>The requested page could not be found.</p>
+  <p>You are lost in the dark, the requested page could not be found.</p>
 </div>
 
 
@@ -312,8 +311,8 @@
 	<div class="footer-social">
 		<div class="footer-container clearfix">
 			<div class="social-list">
-				<a class="social github" target="blank" href="http://iwangsanfeng.gitee.io/">国内同步站(国内访问更迅速)</a>
-				<a class="social github" target="blank" href="https://isanfeng.github.io/">国际通用站</a>
+				<a class="social github" target="blank" href="http://iwangsanfeng.gitee.io/">镜像站(国内访问更迅速)</a>
+				<a class="social github" target="blank" href="https://isanfeng.github.io/">通用站</a>
 			</div>
 		</div>
 	</div>
@@ -351,7 +350,7 @@
 				mnum = Math.floor(minutes); if(String(mnum).length ==1 ){mnum = "0" + mnum;}
 				seconds = (now - grt ) / 1000 - (24 * 60 * 60 * dnum) - (60 * 60 * hnum) - (60 * mnum);
 				snum = Math.round(seconds); if(String(snum).length ==1 ){snum = "0" + snum;}
-				document.getElementById("timeDate").innerHTML = "本站已安全运行 "+dnum+" 天 ";
+				document.getElementById("timeDate").innerHTML = "本站已上线安全运行 "+dnum+" 天 ";
 				document.getElementById("times").innerHTML = hnum + " 小时 " + mnum + " 分 " + snum + " 秒";
 			}
 		setInterval("createtime()",250);
@@ -366,7 +365,7 @@
 	<!-- require MetingJS -->
 	<script src="https://cdn.jsdelivr.net/npm/meting@2/dist/Meting.min.js"></script>
 	<meting-js
-			id="5307255753"
+			id="5350933644"
 			lrc-type="0"
 			server="netease"
 			order="list"
@@ -376,8 +375,7 @@
 			autoplay="true"
 			order="random"
 			loop="all"
-			mutex="true"
-	>
+			mutex="true">
 	</meting-js>
 	<!--music player end-->
 

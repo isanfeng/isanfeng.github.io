@@ -1,10 +1,10 @@
 ---
 layout: default
-title: About
+title: 关于
 permalink: /about/
 --- 
 <section class="about">
-  <a href="{{site.baseurl}}/" class="button_back"><i class="fa fa-long-arrow-left" aria-hidden="true"></i>返回笔记</a>
+  <a href="{{site.baseurl}}/" class="button_back"><i class="fa fa-long-arrow-left" aria-hidden="true"></i>BACK</a>
   <div class="about_box">
     <div class="author">
         <div class="author_image">
@@ -12,9 +12,10 @@ permalink: /about/
 
         </div>
         <div class="author_info">
-          <h2 class="author_title">{% if site.author-name %}{{site.author-name}}{% else %}三isanfeng丰{% endif %}</h2>
+          <h2 class="author_title">{% if site.author-name %}{{site.author-name}}{% else %}三 丰{% endif %}</h2>
           <p class="author_subtitle">{% if site.about-author %}{{site.about-author}}{% else %}{% endif %}</p>
-          <p class="author_subtitle">{% if site.about-author-detail %}{{site.about-author-detail}}{% else %}{% endif %}</p>
+          <p class="author_subtitle">{% if site.about-author-detail-0 %}{{site.about-author-detail-0}}{% else %}{% endif %}</p>
+          <p class="author_subtitle">{% if site.about-author-detail-1 %}{{site.about-author-detail-1}}{% else %}{% endif %}</p>
         </div>
       </div>
 
@@ -22,4 +23,54 @@ permalink: /about/
         {% include social_footer.html %}
       </div>
     </div> <!-- End Section Author -->
+
+    <!--水纹效果-->
+    <script type="text/javascript" src="{{site.baseurl}}/assets/js/ripples/jquery.min.js"></script>
+    <script type="text/javascript" src="{{site.baseurl}}/assets/js/ripples/jquery.ripples.js"></script>
+    <script type="text/javascript">
+        $(document).ready(function() {
+
+            try {
+
+                $('body').ripples({
+
+                    resolution: 512,
+
+                    dropRadius: 20, //px
+
+                    perturbance: 0.04,
+
+                });
+
+                $('main').ripples({
+
+                    resolution: 128,
+
+                    dropRadius: 10, //px
+
+                    perturbance: 0.04,
+
+                });
+
+            }
+
+            catch (e) {
+
+                $('.error').show().text(e);
+
+            }
+
+
+
+            $('.disable').show().on('click', function() {
+
+                $('body, main').ripples('destroy');
+
+                $(this).hide();
+
+            });
+
+        });
+    </script>
+
 </section>
