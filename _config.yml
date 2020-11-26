@@ -101,7 +101,7 @@ links1:
     url:          /blog/Tools
     type:         Tools
     external:     false
-  - name:         Python
+  - name:         PythonStudy
     url:          /blog/Python
     type:         Python
     external:     false
