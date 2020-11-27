@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Hello test
+title: Hello test player
 date:  2000-11-24 18:16:00 +0900
 description:
 img: post-1.jpg

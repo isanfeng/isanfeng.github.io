@@ -2,7 +2,7 @@
 layout: post
 title: 柬埔寨：五月盛放.金边篇.2018
 date: 2018-03-31 06:30
-author: isanfeng
+author: 三丰
 description:
 img: post-5.jpg
 tags: [分时分段环游地球]
@@ -10,10 +10,6 @@ Bikepacking: true
 ---
 {{site.label1}} <a href="/about">{{page.author}}</a> {{site.label2}}
 
-<h3><a href="https://isanfeng.wordpress.com/2018/03/31/%e4%ba%94%e6%9c%88%e7%9b%9b%e6%94%be-%e7%ba%a2%e8%89%b2%e9%ab%98%e6%a3%89-%e9%87%91%e8%be%b9%e7%af%87/" target="_blank" rel="noopener">“五月盛放”.红色高棉.金边篇</a></h3>
-<h3><a href="https://isanfeng.wordpress.com/2018/04/13/%e4%ba%94%e6%9c%88%e7%9b%9b%e6%94%be-%e9%ab%98%e6%a3%89%e5%be%ae%e7%ac%91-%e6%9a%b9%e7%b2%92%e7%af%87%ef%bc%88%e5%b7%b2%e7%bb%93%e6%9d%9f%ef%bc%89/" target="_blank" rel="noopener">“五月盛放”.高棉微笑.暹粒篇</a></h3>
-<h3><a href="https://isanfeng.wordpress.com/2018/04/21/%e4%ba%94%e6%9c%88%e7%9b%9b%e6%94%be-%e7%8b%ac%e4%b8%96%e4%bb%99%e5%a2%83-%e8%a5%bf%e5%93%88%e5%8a%aa%e5%85%8b-%e7%a6%bb%e5%b2%9b%e7%af%87/" target="_blank" rel="noopener">“五月盛放”.独世仙境.西哈努克-离岛篇</a></h3>
-<h3></h3>
 <h2>出发（2018.3.31）</h2>
 <div>
 <div>Hello, Cambodia. 在我的印象中，每次听到柬埔寨第一想到的一定是吴哥窟，一个没有石窟的吴哥窟，实际上如果叫它吴哥寺应该能让中国人更好的理解和想象。吴哥寺基本也就成了柬埔寨的另外一个代名词，蕴藏着的神秘和伟大，足以让任何人心生敬畏，另外每个角落都能看到的高棉微笑和真腊文明，又让你那么神往，着急想将这个古老王国的繁荣兴衰凝固成的永恒风景看个究竟。正好这个不长不短的假期，去看看千年的文明，去摸摸吴哥的古迹，就像我们会慢慢老去一样，吴哥也会有老去的一天，还是早早去吧。</div>

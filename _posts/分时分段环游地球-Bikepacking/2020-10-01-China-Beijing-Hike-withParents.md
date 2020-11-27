@@ -2,7 +2,7 @@
 layout: post
 title: 带父母游北京.2020
 date: 2020-10-01 20:56
-author: 王三丰
+author: 三丰
 description:
 img: posts/Beijing-0.jpg
 tags: [分时分段环游地球, 带父母游]

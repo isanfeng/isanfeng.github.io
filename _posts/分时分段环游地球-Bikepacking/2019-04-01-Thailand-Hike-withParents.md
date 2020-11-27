@@ -2,7 +2,7 @@
 layout: post
 title: 带父母游泰北.2019
 date: 2019-04-01 20:56
-author: 王的三丰
+author: 三丰
 description:
 img: posts/thailand-3.jpg
 tags: [分时分段环游地球, 带父母游]

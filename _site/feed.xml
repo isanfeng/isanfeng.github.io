@@ -1,237 +1,328 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.1.1">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2020-11-27T00:22:14+08:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">-=流浪笔记.三丰=-</title><subtitle>分时分段 单车 旅行 学习</subtitle><author><name>=流浪笔记.三丰=</name></author><entry><title type="html">我对FIRE的一点理解</title><link href="http://localhost:4000/Fire-First/" rel="alternate" type="text/html" title="我对FIRE的一点理解" /><published>2020-11-17T20:04:00+08:00</published><updated>2020-11-17T20:04:00+08:00</updated><id>http://localhost:4000/Fire-First</id><content type="html" xml:base="http://localhost:4000/Fire-First/">{{site.label1}} &lt;a href=&quot;/about&quot;&gt;{{page.author}}&lt;/a&gt; {{site.label2}}
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.9.0">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2020-11-27T17:19:16+08:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">-=流浪笔记.三丰=-</title><subtitle>分时分段 单车 旅行 学习</subtitle><author><name>=流浪笔记.三丰=</name></author><entry><title type="html">我对FIRE的一点理解</title><link href="http://localhost:4000/Fire-First/" rel="alternate" type="text/html" title="我对FIRE的一点理解" /><published>2020-11-17T20:04:00+08:00</published><updated>2020-11-17T20:04:00+08:00</updated><id>http://localhost:4000/Fire-First</id><content type="html" xml:base="http://localhost:4000/Fire-First/">&lt;p&gt;&lt;span style=&quot;font-size:12px&quot;&gt;小主： &lt;a href=&quot;/about&quot;&gt;三丰&lt;/a&gt; &lt;/span&gt;&lt;/p&gt;
 
-曾经上天给了我好几次可以财富“自由”的机会，我都没有把握好，但也给我几次做傻逼的机会，却每次都拿捏得稳稳的。
+&lt;p&gt;曾经上天给了我好几次可以财富“自由”的机会，我都没有把握好，但也给我几次做傻逼的机会，却每次都拿捏得稳稳的。&lt;/p&gt;
 
-最近有一位前前同事，现在已经是蚂蚁金服的员工。
+&lt;p&gt;最近有一位前前同事，现在已经是蚂蚁金服的员工。&lt;/p&gt;
 
-他说蚂蚁上市被紧急叫停，落差最大的是他们这些人，大概P7P8的样子，那本来是他们离财务自由最近的一步。但如今只能继续等待了，财务自由看起来并没有那么近。
+&lt;p&gt;他说蚂蚁上市被紧急叫停，落差最大的是他们这些人，大概P7P8的样子，那本来是他们离财务自由最近的一步。但如今只能继续等待了，财务自由看起来并没有那么近。&lt;/p&gt;
 
-唉，有点羡慕也有点为这位兄弟感到惋惜。
+&lt;p&gt;唉，有点羡慕也有点为这位兄弟感到惋惜。&lt;/p&gt;
 
-这几年，财富自由的故事愈发层出不穷。这个社会，鼓吹挣快钱渲染财务自由，某音上日入几万月入几百万都是稀松平常的事情，有时确实让我们这些有点敏感有点懵逼的家伙徒增焦虑。
+&lt;p&gt;这几年，财富自由的故事愈发层出不穷。这个社会，鼓吹挣快钱渲染财务自由，某音上日入几万月入几百万都是稀松平常的事情，有时确实让我们这些有点敏感有点懵逼的家伙徒增焦虑。&lt;/p&gt;
 
-幻想年少成名，或者自己遇上科技独角兽的幸存者，拿着期权，假以时日一夜暴富。我想这样的人，终究是极少数，小概率的事件吧。
+&lt;p&gt;幻想年少成名，或者自己遇上科技独角兽的幸存者，拿着期权，假以时日一夜暴富。我想这样的人，终究是极少数，小概率的事件吧。&lt;/p&gt;
 
-其实很多年以来，我们也渐渐看清楚，决定你是否赚大钱的逻辑，已不再是勤奋，不再是坚持，而是运气。
+&lt;p&gt;其实很多年以来，我们也渐渐看清楚，决定你是否赚大钱的逻辑，已不再是勤奋，不再是坚持，而是运气。&lt;/p&gt;
 
-能拿到蚂蚁期权是一种运气，但蚂蚁IPO被搁浅，也是谁都没有想到的，算的上是一只超级黑天鹅了。
+&lt;p&gt;能拿到蚂蚁期权是一种运气，但蚂蚁IPO被搁浅，也是谁都没有想到的，算的上是一只超级黑天鹅了。&lt;/p&gt;
 
-这个世界，赚小钱靠能力，赚大钱其实是靠命的。（赔钱的逻辑其实确不是一样，有些人凭不凭实力赚的钱都可以凭实力还回去。）
+&lt;p&gt;这个世界，赚小钱靠能力，赚大钱其实是靠命的。（赔钱的逻辑其实确不是一样，有些人凭不凭实力赚的钱都可以凭实力还回去。）&lt;/p&gt;
 
-你努力勤奋，能让你过上比较好的生活。但是，并不是努力勤奋就能让你成为马云马化腾的，才气和命格不在，想也没用。
+&lt;p&gt;你努力勤奋，能让你过上比较好的生活。但是，并不是努力勤奋就能让你成为马云马化腾的，才气和命格不在，想也没用。&lt;/p&gt;
 
-更何况，怎么才算财务自由呢？
+&lt;p&gt;更何况，怎么才算财务自由呢？&lt;/p&gt;
 
-一个亿的钱？
+&lt;p&gt;一个亿的钱？&lt;/p&gt;
 
-[![DZI9YD.jpg](https://s3.ax1x.com/2020/11/17/DZI9YD.jpg)](https://imgchr.com/i/DZI9YD)
+&lt;p&gt;&lt;a href=&quot;https://imgchr.com/i/DZI9YD&quot;&gt;&lt;img src=&quot;https://s3.ax1x.com/2020/11/17/DZI9YD.jpg&quot; alt=&quot;DZI9YD.jpg&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
 
-也许这只是别人的一个小目标，但遗憾的是，大部分人一辈子不吃不喝都达不到这个数字。
+&lt;p&gt;也许这只是别人的一个小目标，但遗憾的是，大部分人一辈子不吃不喝都达不到这个数字。&lt;/p&gt;
 
-负责任地说，这个社会的现实是，并不存在财务自由这种事，大多数人只能实现财务平衡。对，财务平衡这个概念更为重要。
+&lt;p&gt;负责任地说，这个社会的现实是，并不存在财务自由这种事，大多数人只能实现财务平衡。对，财务平衡这个概念更为重要。&lt;/p&gt;
 
-人的一生，约束我们的其实就8个字：生老病死，衣食住行。生死是硬约束，不能自由；衣、食、行的自由不算太贵，很容易得到。
+&lt;p&gt;人的一生，约束我们的其实就8个字：生老病死，衣食住行。生死是硬约束，不能自由；衣、食、行的自由不算太贵，很容易得到。&lt;/p&gt;
 
-财务自由最难解决的是3个字：住、老、病。
+&lt;p&gt;财务自由最难解决的是3个字：住、老、病。&lt;/p&gt;
 
-为了解决这3大难题，有很多人把希望寄托在了投资上，想走捷径。但最后的结果往往不如人意，小到落空、亏损、大到破产，家庭破裂。
+&lt;p&gt;为了解决这3大难题，有很多人把希望寄托在了投资上，想走捷径。但最后的结果往往不如人意，小到落空、亏损、大到破产，家庭破裂。&lt;/p&gt;
 
-走过了这么多坑之后，自己也慢慢明白了一些道理：
+&lt;p&gt;走过了这么多坑之后，自己也慢慢明白了一些道理：&lt;/p&gt;
 
-- 工薪阶层不要去幻想所谓的财务自由，目标小一点，把自己的工作做好，有一份稳定的现金流，把老婆孩子父母照顾好，就已经是一种幸福。
+&lt;ul&gt;
+  &lt;li&gt;
+    &lt;p&gt;工薪阶层不要去幻想所谓的财务自由，目标小一点，把自己的工作做好，有一份稳定的现金流，把老婆孩子父母照顾好，就已经是一种幸福。&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;多读书，增强工作技能，努力奋斗，这是一条虽然有点漫长、但大概率可行的小财富积累之路。&lt;/p&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
 
-- 多读书，增强工作技能，努力奋斗，这是一条虽然有点漫长、但大概率可行的小财富积累之路。
+&lt;p&gt;至于创业成功、拿到期权、投资发财等等，都是额外财富，这是靠运气和命的，得之幸也，失之命也。&lt;/p&gt;
 
-至于创业成功、拿到期权、投资发财等等，都是额外财富，这是靠运气和命的，得之幸也，失之命也。
+&lt;p&gt;可能绝望到底之后，就会再一次慢慢搞清楚状况：&lt;/p&gt;
 
-可能绝望到底之后，就会再一次慢慢搞清楚状况：
+&lt;blockquote&gt;
+  &lt;p&gt;没有人是谁比谁差，每个人想要的，追求的都不一样，我干嘛他妈的在乎别人有什么，我比别人多或者少，有什么关系，每个人只管做好自己，越在意别人的成就，这就已经是失败的开端了，我必须先抛弃这种心理，才能更专注于自己的事情。&lt;/p&gt;
+&lt;/blockquote&gt;
 
-&gt; 没有人是谁比谁差，每个人想要的，追求的都不一样，我干嘛他妈的在乎别人有什么，我比别人多或者少，有什么关系，每个人只管做好自己，越在意别人的成就，这就已经是失败的开端了，我必须先抛弃这种心理，才能更专注于自己的事情。
+&lt;p&gt;最近比较感兴趣一种新的运动FIRE（the Financial Independence, Retire Early movement 的缩写），它的兴起源于美国，愿望是“财务独立，提早退休”。这个运动的一个核心法则是：降低物欲、过极简的生活，来迅速攒够一年生活费的25倍。&lt;/p&gt;
 
+&lt;p&gt;结合国内实际情况和通货膨胀率，也许我们可以实践一种更“温和方式”，通过这个理念去给生活做减法，以求尽快摆脱“出卖时间换金钱的工作”，走上热爱生活的路途。&lt;/p&gt;
 
-最近比较感兴趣一种新的运动FIRE（the Financial Independence, Retire Early movement 的缩写），它的兴起源于美国，愿望是“财务独立，提早退休”。这个运动的一个核心法则是：降低物欲、过极简的生活，来迅速攒够一年生活费的25倍。
+&lt;p&gt;我对自己的诉求就是走在大街上能淹没在人潮中就好，并不希望引起别人的关注。为此，后面的日子有必要为自己制定几条规则：低欲、惜物、不浪费、物以致用，少囤货，多利用公共资源，尽量做财务规划（再也不傻逼的相信任何人和狗日的为人民服务。）。
+培养自己做减法的消费观：不需要的不买，需要的以二手或者免费渠道能获得为先，在自己认为值得花费的地方毫不吝啬（父母，爱好，技能提升，健康，体验），并在能力内做到尽可能环保。&lt;/p&gt;
 
-结合国内实际情况和通货膨胀率，也许我们可以实践一种更“温和方式”，通过这个理念去给生活做减法，以求尽快摆脱“出卖时间换金钱的工作”，走上热爱生活的路途。
+&lt;p&gt;&lt;a href=&quot;https://imgchr.com/i/D1Z1O0&quot;&gt;&lt;img src=&quot;https://s3.ax1x.com/2020/11/21/D1Z1O0.jpg&quot; alt=&quot;D1Z1O0.jpg&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
 
-我对自己的诉求就是走在大街上能淹没在人潮中就好，并不希望引起别人的关注。为此，后面的日子有必要为自己制定几条规则：低欲、惜物、不浪费、物以致用，少囤货，多利用公共资源，尽量做财务规划（再也不傻逼的相信任何人和狗日的为人民服务。）。
-培养自己做减法的消费观：不需要的不买，需要的以二手或者免费渠道能获得为先，在自己认为值得花费的地方毫不吝啬（父母，爱好，技能提升，健康，体验），并在能力内做到尽可能环保。
+&lt;hr /&gt;
+&lt;p&gt;FIRE的解释&lt;/p&gt;
+&lt;blockquote&gt;
+  &lt;p&gt;FIRE 最早起源于 1992 年出版的一本名为《 Your Money or Your Life 》的畅销书。2011 年，博主 Mr.Money Moustache 开始围绕这个话题输出优质内容，并带动了一众热衷于这种方式的博主共同将其打造成了一个具有相当数量群众基础的亚文化圈子。2018 年，随着《 Your Money or Your Life 》的再版和多家主流媒体的报道，FIRE 更是逐渐走入了大众人群的视野。&lt;/p&gt;
 
-[![D1Z1O0.jpg](https://s3.ax1x.com/2020/11/21/D1Z1O0.jpg)](https://imgchr.com/i/D1Z1O0)
+  &lt;p&gt;那么到底什么样的生活方式才算是 FIRE 呢？维基百科这样写道：&lt;/p&gt;
 
-***
-FIRE的解释
-&gt; FIRE 最早起源于 1992 年出版的一本名为《 Your Money or Your Life 》的畅销书。2011 年，博主 Mr.Money Moustache 开始围绕这个话题输出优质内容，并带动了一众热衷于这种方式的博主共同将其打造成了一个具有相当数量群众基础的亚文化圈子。2018 年，随着《 Your Money or Your Life 》的再版和多家主流媒体的报道，FIRE 更是逐渐走入了大众人群的视野。
-&gt;
-&gt;那么到底什么样的生活方式才算是 FIRE 呢？维基百科这样写道：
-&gt;
-&gt;The objective is to accumulate assets until the resulting passive income provides enough money for living expenses in perpetuity. Proponents of the FIRE movement suggest the 4% rule as a guide, thus setting a goal of at least 25 times estimated annual living expenses. 
-&gt;
-&gt;译：FIRE 的目标是储蓄足够的资产，使得资产产生的被动收益永远高于日常开销。在 FIRE 圈有一条有名的“ 4%”原则，即储蓄至少 25 倍于日常年开销的资产即可达到 FIRE 状态。
-&gt;
-&gt;上面提到的 4%原则，也被称作“ Trinity Study ”，它始于 1998 年美国 Trinity 大学三位教授的一项研究，研究结果表明如果一个人能把年花销比例控制在个人总资产的 4%以下，那么无论市场如何波动，或者通货膨胀（当然恶性通货膨胀不在考虑范围之内），这个人的生活状态都不会受到太大的影响，这时候他就可以停止工作，提前退休了。
-因此 4%原则也就构成了 FIRE 生活方式设计的基础，一个人若要达到 FIRE，就需要在年轻时候尽量多赚钱，少花钱，当自己攒够的钱能让自己在比较舒服的状态下生活 25 年，那么他就可以考虑炒老板鱿鱼了。
-&gt;
-&gt;一个人何时能够达到 FIRE 跟自己的赚钱的能力，攒钱的能力以及消费水平都是息息相关的，普通人的年储蓄率在 10%到 15%左右，如果要达到 FIRE，就需要将储蓄比例大幅度提高。简单算术，如果你每年只存 10%，那么你需要 9 年的时间才能攒够一年的退休金，这其实也就是普通人上班等 60 岁退休的节奏，但是假如你能够每年把一半甚至更多的钱都攒下来，那么你很有可能在 40 岁左右就能达到 FIRE 的目标。
-简而言之，FIRE 人群就是要对传统的 60 岁（或者更老？）退休模式发起挑战，通过极为富有纪律性的规划和设计，让自己能够领先于绝大多数人，提前过上“退休”生活。其实与其说是“退休”生活，不如说是自己想要的生活，因为你会发现，很多 FIRE 生活方式践行者在达到所谓的退休状态后仍然在工作，只不过这些工作都是以兴趣和自我价值实现为导向的，而不仅仅是为了养家糊口。
+  &lt;p&gt;The objective is to accumulate assets until the resulting passive income provides enough money for living expenses in perpetuity. Proponents of the FIRE movement suggest the 4% rule as a guide, thus setting a goal of at least 25 times estimated annual living expenses.&lt;/p&gt;
 
-***
-MADFIENTIST
-&gt;在众多 FIRE 为主题的自媒体中，我比较喜欢的是 Madfientist，博主 Brandon 曾经是一名普通的码农。2011 年他通过 Mr Money Moustache 了解了 FIRE，产生了极大的兴趣，并在 2012 年开始了自己的 FIRE 主题博客 Madfientist，希望借此记录并分享自己达成 FIRE 的全过程。
-&gt;在接下来的几年中，他不但通过不断的学习和输出成为了一名 FIRE 专家，同时也攒够了自己的 FIRE 基金。2016 年，他炒了老板鱿鱼，在人生 34 岁就达到了自由状态。
-&gt;
-&gt;Brandon 通过一篇题为“ Valuable Lessons from My First Year of Freedom ”的博文分享了自己第一年 FIRE 生活的感悟，在文章中，他写道，在 34 岁就退休，让他能享受比常人多几倍的自由人生，但是于此同时，工作这个生活中重要元素的突然缺失，也让自己感到了突如其来的空虚，不过还好他在离职之前就创建 Madfientist 这个内容品牌，达到 FIRE 之后，他能够花更多的时间在这上面，通过自身的实际体验输出更多高质量的内容。
-同时他也提到 4%的取款率虽然看似不高，但是依然不可避免会让很多人产生本金迟早会花光的焦虑。但是他发现自己从原来工作离职后，来自自媒体和自己之前创建的各种 app 工具产生的被动收入已经可以支持自己的日常开销了。这也凸显了在达到 FIRE 之后，甚至之前就拥有一个 side project 的重要性。
-&gt;
-&gt;很多人的梦想都是退休以后去周游世界，Brandon 自己也不能免俗，他和妻子 Jill 在 FIRE 的第一年曾经花 3 个月时间囊括四大洲 14 个国家的环球旅行，但是他们意识到，无休止的旅行生活固然很有意思，但是并不是他们理想的生活状态。他说，很多人都在自己正常上班的时候幻想自己成为一个全职旅行家，包括他自己，但是当你达到 FIRE 后就会发现，产生那种幻想的主要原因是自己之前的生活太过枯燥无聊了。
-&gt;获得 FIRE 后，当你的日常生活就已经变得丰富有趣的时候，你对旅行的欲望也就不会那么强烈了。这佐证了他在 FIRE 之前和 FIRE 之后 Mindset 的剧变。
-&gt;
-&gt;现在，他跟妻子长居在他们最喜欢的城市，苏格兰的爱丁堡。
+  &lt;p&gt;译：FIRE 的目标是储蓄足够的资产，使得资产产生的被动收益永远高于日常开销。在 FIRE 圈有一条有名的“ 4%”原则，即储蓄至少 25 倍于日常年开销的资产即可达到 FIRE 状态。&lt;/p&gt;
 
----
-优质FIRE内容：
-&gt;博客：
-&gt;
-&gt;1.Mad Fientist
-&gt;
-&gt;2.Mr Money Moustache
-&gt;
-&gt;3.JL Collins
-&gt;
-&gt;书籍：
-&gt;
-&gt;1.《 Your Money or Your Life 》
-&gt;
-&gt;2.《 The Simple Path to Wealth 》</content><author><name>三丰</name></author><category term="FIRE" /><summary type="html">小主： 三丰 曾经上天给了我好几次可以财富“自由”的机会，我都没有把握好，但也给我几次做傻逼的机会，却每次都拿捏得稳稳的。 最近有一位前前同事，现在已经是蚂蚁金服的员工。 他说蚂蚁上市被紧急叫停，落差最大的是他们这些人，大概P7P8的样子，那本来是他们离财务自由最近的一步。但如今只能继续等待了，财务自由看起来并没有那么近。 唉，有点羡慕也有点为这位兄弟感到惋惜。 这几年，财富自由的故事愈发层出不穷。这个社会，鼓吹挣快钱渲染财务自由，某音上日入几万月入几百万都是稀松平常的事情，有时确实让我们这些有点敏感有点懵逼的家伙徒增焦虑。 幻想年少成名，或者自己遇上科技独角兽的幸存者，拿着期权，假以时日一夜暴富。我想这样的人，终究是极少数，小概率的事件吧。 其实很多年以来，我们也渐渐看清楚，决定你是否赚大钱的逻辑，已不再是勤奋，不再是坚持，而是运气。 能拿到蚂蚁期权是一种运气，但蚂蚁IPO被搁浅，也是谁都没有想到的，算的上是一只超级黑天鹅了。 这个世界，赚小钱靠能力，赚大钱其实是靠命的。（赔钱的逻辑其实确不是一样，有些人凭不凭实力赚的钱都可以凭实力还回去。） 你努力勤奋，能让你过上比较好的生活。但是，并不是努力勤奋就能让你成为马云马化腾的，才气和命格不在，想也没用。 更何况，怎么才算财务自由呢？ 一个亿的钱？ 也许这只是别人的一个小目标，但遗憾的是，大部分人一辈子不吃不喝都达不到这个数字。 负责任地说，这个社会的现实是，并不存在财务自由这种事，大多数人只能实现财务平衡。对，财务平衡这个概念更为重要。 人的一生，约束我们的其实就8个字：生老病死，衣食住行。生死是硬约束，不能自由；衣、食、行的自由不算太贵，很容易得到。 财务自由最难解决的是3个字：住、老、病。 为了解决这3大难题，有很多人把希望寄托在了投资上，想走捷径。但最后的结果往往不如人意，小到落空、亏损、大到破产，家庭破裂。 走过了这么多坑之后，自己也慢慢明白了一些道理： 工薪阶层不要去幻想所谓的财务自由，目标小一点，把自己的工作做好，有一份稳定的现金流，把老婆孩子父母照顾好，就已经是一种幸福。 多读书，增强工作技能，努力奋斗，这是一条虽然有点漫长、但大概率可行的小财富积累之路。 至于创业成功、拿到期权、投资发财等等，都是额外财富，这是靠运气和命的，得之幸也，失之命也。 可能绝望到底之后，就会再一次慢慢搞清楚状况： 没有人是谁比谁差，每个人想要的，追求的都不一样，我干嘛他妈的在乎别人有什么，我比别人多或者少，有什么关系，每个人只管做好自己，越在意别人的成就，这就已经是失败的开端了，我必须先抛弃这种心理，才能更专注于自己的事情。 最近比较感兴趣一种新的运动FIRE（the Financial Independence, Retire Early movement 的缩写），它的兴起源于美国，愿望是“财务独立，提早退休”。这个运动的一个核心法则是：降低物欲、过极简的生活，来迅速攒够一年生活费的25倍。 结合国内实际情况和通货膨胀率，也许我们可以实践一种更“温和方式”，通过这个理念去给生活做减法，以求尽快摆脱“出卖时间换金钱的工作”，走上热爱生活的路途。 我对自己的诉求就是走在大街上能淹没在人潮中就好，并不希望引起别人的关注。为此，后面的日子有必要为自己制定几条规则：低欲、惜物、不浪费、物以致用，少囤货，多利用公共资源，尽量做财务规划（再也不傻逼的相信任何人和狗日的为人民服务。）。 培养自己做减法的消费观：不需要的不买，需要的以二手或者免费渠道能获得为先，在自己认为值得花费的地方毫不吝啬（父母，爱好，技能提升，健康，体验），并在能力内做到尽可能环保。 FIRE的解释 FIRE 最早起源于 1992 年出版的一本名为《 Your Money or Your Life 》的畅销书。2011 年，博主 Mr.Money Moustache 开始围绕这个话题输出优质内容，并带动了一众热衷于这种方式的博主共同将其打造成了一个具有相当数量群众基础的亚文化圈子。2018 年，随着《 Your Money or Your Life 》的再版和多家主流媒体的报道，FIRE 更是逐渐走入了大众人群的视野。 那么到底什么样的生活方式才算是 FIRE 呢？维基百科这样写道： The objective is to accumulate assets until the resulting passive income provides enough money for living expenses in perpetuity. Proponents of the FIRE movement suggest the 4% rule as a guide, thus setting a goal of at least 25 times estimated annual living expenses. 译：FIRE 的目标是储蓄足够的资产，使得资产产生的被动收益永远高于日常开销。在 FIRE 圈有一条有名的“ 4%”原则，即储蓄至少 25 倍于日常年开销的资产即可达到 FIRE 状态。 上面提到的 4%原则，也被称作“ Trinity Study ”，它始于 1998 年美国 Trinity 大学三位教授的一项研究，研究结果表明如果一个人能把年花销比例控制在个人总资产的 4%以下，那么无论市场如何波动，或者通货膨胀（当然恶性通货膨胀不在考虑范围之内），这个人的生活状态都不会受到太大的影响，这时候他就可以停止工作，提前退休了。 因此 4%原则也就构成了 FIRE 生活方式设计的基础，一个人若要达到 FIRE，就需要在年轻时候尽量多赚钱，少花钱，当自己攒够的钱能让自己在比较舒服的状态下生活 25 年，那么他就可以考虑炒老板鱿鱼了。 一个人何时能够达到 FIRE 跟自己的赚钱的能力，攒钱的能力以及消费水平都是息息相关的，普通人的年储蓄率在 10%到 15%左右，如果要达到 FIRE，就需要将储蓄比例大幅度提高。简单算术，如果你每年只存 10%，那么你需要 9 年的时间才能攒够一年的退休金，这其实也就是普通人上班等 60 岁退休的节奏，但是假如你能够每年把一半甚至更多的钱都攒下来，那么你很有可能在 40 岁左右就能达到 FIRE 的目标。 简而言之，FIRE 人群就是要对传统的 60 岁（或者更老？）退休模式发起挑战，通过极为富有纪律性的规划和设计，让自己能够领先于绝大多数人，提前过上“退休”生活。其实与其说是“退休”生活，不如说是自己想要的生活，因为你会发现，很多 FIRE 生活方式践行者在达到所谓的退休状态后仍然在工作，只不过这些工作都是以兴趣和自我价值实现为导向的，而不仅仅是为了养家糊口。 MADFIENTIST 在众多 FIRE 为主题的自媒体中，我比较喜欢的是 Madfientist，博主 Brandon 曾经是一名普通的码农。2011 年他通过 Mr Money Moustache 了解了 FIRE，产生了极大的兴趣，并在 2012 年开始了自己的 FIRE 主题博客 Madfientist，希望借此记录并分享自己达成 FIRE 的全过程。 在接下来的几年中，他不但通过不断的学习和输出成为了一名 FIRE 专家，同时也攒够了自己的 FIRE 基金。2016 年，他炒了老板鱿鱼，在人生 34 岁就达到了自由状态。 Brandon 通过一篇题为“ Valuable Lessons from My First Year of Freedom ”的博文分享了自己第一年 FIRE 生活的感悟，在文章中，他写道，在 34 岁就退休，让他能享受比常人多几倍的自由人生，但是于此同时，工作这个生活中重要元素的突然缺失，也让自己感到了突如其来的空虚，不过还好他在离职之前就创建 Madfientist 这个内容品牌，达到 FIRE 之后，他能够花更多的时间在这上面，通过自身的实际体验输出更多高质量的内容。 同时他也提到 4%的取款率虽然看似不高，但是依然不可避免会让很多人产生本金迟早会花光的焦虑。但是他发现自己从原来工作离职后，来自自媒体和自己之前创建的各种 app 工具产生的被动收入已经可以支持自己的日常开销了。这也凸显了在达到 FIRE 之后，甚至之前就拥有一个 side project 的重要性。 很多人的梦想都是退休以后去周游世界，Brandon 自己也不能免俗，他和妻子 Jill 在 FIRE 的第一年曾经花 3 个月时间囊括四大洲 14 个国家的环球旅行，但是他们意识到，无休止的旅行生活固然很有意思，但是并不是他们理想的生活状态。他说，很多人都在自己正常上班的时候幻想自己成为一个全职旅行家，包括他自己，但是当你达到 FIRE 后就会发现，产生那种幻想的主要原因是自己之前的生活太过枯燥无聊了。 获得 FIRE 后，当你的日常生活就已经变得丰富有趣的时候，你对旅行的欲望也就不会那么强烈了。这佐证了他在 FIRE 之前和 FIRE 之后 Mindset 的剧变。 现在，他跟妻子长居在他们最喜欢的城市，苏格兰的爱丁堡。 优质FIRE内容： 博客： 1.Mad Fientist 2.Mr Money Moustache 3.JL Collins 书籍： 1.《 Your Money or Your Life 》 2.《 The Simple Path to Wealth 》</summary></entry><entry><title type="html">独库公路（ns@planning）</title><link href="http://localhost:4000/China-DukuRoad-Bikepacking/" rel="alternate" type="text/html" title="独库公路（ns@planning）" /><published>2020-11-11T00:09:00+08:00</published><updated>2020-11-11T00:09:00+08:00</updated><id>http://localhost:4000/China-DukuRoad-Bikepacking</id><content type="html" xml:base="http://localhost:4000/China-DukuRoad-Bikepacking/">{{site.label1}} &lt;a href=&quot;/about&quot;&gt;{{page.author}}&lt;/a&gt; {{site.label2}}</content><author><name>王的三丰</name></author><category term="Bikepacking" /><category term="分时分段环游地球" /><summary type="html">小主： 王的三丰</summary></entry><entry><title type="html">环琵琶湖（ns@planning）</title><link href="http://localhost:4000/Japan-PipaLake-Bikepacking/" rel="alternate" type="text/html" title="环琵琶湖（ns@planning）" /><published>2020-11-11T00:09:00+08:00</published><updated>2020-11-11T00:09:00+08:00</updated><id>http://localhost:4000/Japan-PipaLake-Bikepacking</id><content type="html" xml:base="http://localhost:4000/Japan-PipaLake-Bikepacking/">{{site.label1}} &lt;a href=&quot;/about&quot;&gt;{{page.author}}&lt;/a&gt; {{site.label2}}</content><author><name>王的三丰</name></author><category term="Bikepacking" /><category term="分时分段环游地球" /><summary type="html">小主： 王的三丰</summary></entry><entry><title type="html">带父母游北京.2020</title><link href="http://localhost:4000/China-Beijing-Hike-withParents/" rel="alternate" type="text/html" title="带父母游北京.2020" /><published>2020-10-01T20:56:00+08:00</published><updated>2020-10-01T20:56:00+08:00</updated><id>http://localhost:4000/China-Beijing-Hike-withParents</id><content type="html" xml:base="http://localhost:4000/China-Beijing-Hike-withParents/">{{site.label1}} &lt;a href=&quot;/about&quot;&gt;{{page.author}}&lt;/a&gt; {{site.label2}}
+  &lt;p&gt;上面提到的 4%原则，也被称作“ Trinity Study ”，它始于 1998 年美国 Trinity 大学三位教授的一项研究，研究结果表明如果一个人能把年花销比例控制在个人总资产的 4%以下，那么无论市场如何波动，或者通货膨胀（当然恶性通货膨胀不在考虑范围之内），这个人的生活状态都不会受到太大的影响，这时候他就可以停止工作，提前退休了。
+因此 4%原则也就构成了 FIRE 生活方式设计的基础，一个人若要达到 FIRE，就需要在年轻时候尽量多赚钱，少花钱，当自己攒够的钱能让自己在比较舒服的状态下生活 25 年，那么他就可以考虑炒老板鱿鱼了。&lt;/p&gt;
 
-北京7天行 圆满结束。&lt;br&gt;
+  &lt;p&gt;一个人何时能够达到 FIRE 跟自己的赚钱的能力，攒钱的能力以及消费水平都是息息相关的，普通人的年储蓄率在 10%到 15%左右，如果要达到 FIRE，就需要将储蓄比例大幅度提高。简单算术，如果你每年只存 10%，那么你需要 9 年的时间才能攒够一年的退休金，这其实也就是普通人上班等 60 岁退休的节奏，但是假如你能够每年把一半甚至更多的钱都攒下来，那么你很有可能在 40 岁左右就能达到 FIRE 的目标。
+简而言之，FIRE 人群就是要对传统的 60 岁（或者更老？）退休模式发起挑战，通过极为富有纪律性的规划和设计，让自己能够领先于绝大多数人，提前过上“退休”生活。其实与其说是“退休”生活，不如说是自己想要的生活，因为你会发现，很多 FIRE 生活方式践行者在达到所谓的退休状态后仍然在工作，只不过这些工作都是以兴趣和自我价值实现为导向的，而不仅仅是为了养家糊口。&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;hr /&gt;
+&lt;p&gt;MADFIENTIST&lt;/p&gt;
+&lt;blockquote&gt;
+  &lt;p&gt;在众多 FIRE 为主题的自媒体中，我比较喜欢的是 Madfientist，博主 Brandon 曾经是一名普通的码农。2011 年他通过 Mr Money Moustache 了解了 FIRE，产生了极大的兴趣，并在 2012 年开始了自己的 FIRE 主题博客 Madfientist，希望借此记录并分享自己达成 FIRE 的全过程。
+在接下来的几年中，他不但通过不断的学习和输出成为了一名 FIRE 专家，同时也攒够了自己的 FIRE 基金。2016 年，他炒了老板鱿鱼，在人生 34 岁就达到了自由状态。&lt;/p&gt;
+
+  &lt;p&gt;Brandon 通过一篇题为“ Valuable Lessons from My First Year of Freedom ”的博文分享了自己第一年 FIRE 生活的感悟，在文章中，他写道，在 34 岁就退休，让他能享受比常人多几倍的自由人生，但是于此同时，工作这个生活中重要元素的突然缺失，也让自己感到了突如其来的空虚，不过还好他在离职之前就创建 Madfientist 这个内容品牌，达到 FIRE 之后，他能够花更多的时间在这上面，通过自身的实际体验输出更多高质量的内容。
+同时他也提到 4%的取款率虽然看似不高，但是依然不可避免会让很多人产生本金迟早会花光的焦虑。但是他发现自己从原来工作离职后，来自自媒体和自己之前创建的各种 app 工具产生的被动收入已经可以支持自己的日常开销了。这也凸显了在达到 FIRE 之后，甚至之前就拥有一个 side project 的重要性。&lt;/p&gt;
+
+  &lt;p&gt;很多人的梦想都是退休以后去周游世界，Brandon 自己也不能免俗，他和妻子 Jill 在 FIRE 的第一年曾经花 3 个月时间囊括四大洲 14 个国家的环球旅行，但是他们意识到，无休止的旅行生活固然很有意思，但是并不是他们理想的生活状态。他说，很多人都在自己正常上班的时候幻想自己成为一个全职旅行家，包括他自己，但是当你达到 FIRE 后就会发现，产生那种幻想的主要原因是自己之前的生活太过枯燥无聊了。
+获得 FIRE 后，当你的日常生活就已经变得丰富有趣的时候，你对旅行的欲望也就不会那么强烈了。这佐证了他在 FIRE 之前和 FIRE 之后 Mindset 的剧变。&lt;/p&gt;
+
+  &lt;p&gt;现在，他跟妻子长居在他们最喜欢的城市，苏格兰的爱丁堡。&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;hr /&gt;
+&lt;p&gt;优质FIRE内容：&lt;/p&gt;
+&lt;blockquote&gt;
+  &lt;p&gt;博客：&lt;/p&gt;
+
+  &lt;p&gt;1.Mad Fientist&lt;/p&gt;
+
+  &lt;p&gt;2.Mr Money Moustache&lt;/p&gt;
+
+  &lt;p&gt;3.JL Collins&lt;/p&gt;
+
+  &lt;p&gt;书籍：&lt;/p&gt;
+
+  &lt;p&gt;1.《 Your Money or Your Life 》&lt;/p&gt;
+
+  &lt;p&gt;2.《 The Simple Path to Wealth 》&lt;/p&gt;
+&lt;/blockquote&gt;</content><author><name>三丰</name></author><category term="FIRE" /><summary type="html">小主： 三丰</summary></entry><entry><title type="html">独库公路（ns@planning）</title><link href="http://localhost:4000/China-DukuRoad-Bikepacking/" rel="alternate" type="text/html" title="独库公路（ns@planning）" /><published>2020-11-11T00:09:00+08:00</published><updated>2020-11-11T00:09:00+08:00</updated><id>http://localhost:4000/China-DukuRoad-Bikepacking</id><content type="html" xml:base="http://localhost:4000/China-DukuRoad-Bikepacking/">&lt;p&gt;&lt;span style=&quot;font-size:12px&quot;&gt;小主： &lt;a href=&quot;/about&quot;&gt;三丰&lt;/a&gt; &lt;/span&gt;&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;疫情当道，不给任何人增加任何麻烦，暂停跑路，收集各处情报，一切尽在计划中……&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;The next station is being planned.&lt;/p&gt;
+&lt;/blockquote&gt;</content><author><name>三丰</name></author><category term="Bikepacking" /><category term="分时分段环游地球" /><summary type="html">小主： 三丰</summary></entry><entry><title type="html">环琵琶湖（ns@planning）</title><link href="http://localhost:4000/Japan-PipaLake-Bikepacking/" rel="alternate" type="text/html" title="环琵琶湖（ns@planning）" /><published>2020-11-11T00:09:00+08:00</published><updated>2020-11-11T00:09:00+08:00</updated><id>http://localhost:4000/Japan-PipaLake-Bikepacking</id><content type="html" xml:base="http://localhost:4000/Japan-PipaLake-Bikepacking/">&lt;p&gt;&lt;span style=&quot;font-size:12px&quot;&gt;小主： &lt;a href=&quot;/about&quot;&gt;三丰&lt;/a&gt; &lt;/span&gt;&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;疫情当道，不给任何人增加任何麻烦，暂停跑路，收集各处情报，一切尽在计划中……&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;The next station is being planned.&lt;/p&gt;
+&lt;/blockquote&gt;</content><author><name>三丰</name></author><category term="Bikepacking" /><category term="分时分段环游地球" /><summary type="html">小主： 三丰</summary></entry><entry><title type="html">带父母游北京.2020</title><link href="http://localhost:4000/China-Beijing-Hike-withParents/" rel="alternate" type="text/html" title="带父母游北京.2020" /><published>2020-10-01T20:56:00+08:00</published><updated>2020-10-01T20:56:00+08:00</updated><id>http://localhost:4000/China-Beijing-Hike-withParents</id><content type="html" xml:base="http://localhost:4000/China-Beijing-Hike-withParents/">&lt;p&gt;&lt;span style=&quot;font-size:12px&quot;&gt;小主： &lt;a href=&quot;/about&quot;&gt;三丰&lt;/a&gt; &lt;/span&gt;&lt;/p&gt;
+
+&lt;p&gt;北京7天行 圆满结束。&lt;br /&gt;
 在这两年经历了那几个操蛋事情，稍微弄清了这十几年的丑恶，身心承受了三观几乎全部重塑的压力后，也体会到了每年带父母去旅游这件事貌似变成了人生仅存的几件最有意义的事情之一。
 对大多数人来说，从长大成人那一刻开始，梦想和家就逐渐成了磁极的两端，永远无法共存。自己总有很多事情要做，很多梦想要追，努力工作，努力生活，就为了能背起行囊去看那四方天地，多年后，自己不断向前跑，梦想也越来越照进现实，确在偶尔的那么一瞬间，蓦然回首时，发现从出生一起生活了二十几年的那两个人，却依然还是站在原地，不同的是身影早已模糊了踪迹。有时感觉越长大，越害怕与长辈父母相处，害怕那种相互无法沟通，害怕那种无法理解，但……但世上又有哪两个人能真正相互理解彼此，父母，子女，恋人，应该绝大多数都不是彼此的知己，只是选择成为了彼此的后盾，想通这点就明白了，所谓和长辈父母之间的那条无法逾越的沟壑，何尝不是自己亲手挖下的。
 渴望总有实现的那天，期待却往往会落空，不想让那种期待成为一种奢侈，选择每年带父母去旅游，目的地不是重点，再次重新认识父母，年过花甲的年纪，一出门体力比年轻人还足，大街上卖萌撒娇拍游客照，只关心把自己拍的清不清楚，行程要天明到天黑那种，景点正门一定要合影……万变中唯一不变的就是生活还是那么节俭。
-很多人说旅游的意义，不过是去不同的地方过相似的生活，带父母旅游，确是相似的人到不同的地方，也许这就是不同吧。&lt;br&gt;
-和父母去旅游，用他们的方式，用他们的眼光去再看一次这个世界，慢慢感受那个自己已经很陌生的淳朴实在的空间。&lt;br&gt;
-和父母去旅游，在自己眼里很无趣的事情对他们来说都是第一次经历，而用他们的角度去看这个世界对自己来说却也都是新鲜的，也是自己应该不会主动去体验的经历，两种视角算是给我们的收获，而整个旅程中最大的收获，确是父母脸上的天真笑容和爽朗孩童般的声音，这应该也是旅游的最大意义。&lt;br&gt;
-PS：
-- 无论发生什么事情，都不会是末日，总能继续下去
-- 看着挺困难的事情，静下来慢下来，总能做出来
-- 看着蛮复杂的事情，用不同的角度，总会有一个角度可以解决
-- 无论多么绝望时候，减弱自己的欲望，总能产生一种希望
-- 北京除了吃的和周围的大山，其他还是大上海比较好
+很多人说旅游的意义，不过是去不同的地方过相似的生活，带父母旅游，确是相似的人到不同的地方，也许这就是不同吧。&lt;br /&gt;
+和父母去旅游，用他们的方式，用他们的眼光去再看一次这个世界，慢慢感受那个自己已经很陌生的淳朴实在的空间。&lt;br /&gt;
+和父母去旅游，在自己眼里很无趣的事情对他们来说都是第一次经历，而用他们的角度去看这个世界对自己来说却也都是新鲜的，也是自己应该不会主动去体验的经历，两种视角算是给我们的收获，而整个旅程中最大的收获，确是父母脸上的天真笑容和爽朗孩童般的声音，这应该也是旅游的最大意义。&lt;br /&gt;
+PS：&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;无论发生什么事情，都不会是末日，总能继续下去&lt;/li&gt;
+  &lt;li&gt;看着挺困难的事情，静下来慢下来，总能做出来&lt;/li&gt;
+  &lt;li&gt;看着蛮复杂的事情，用不同的角度，总会有一个角度可以解决&lt;/li&gt;
+  &lt;li&gt;无论多么绝望时候，减弱自己的欲望，总能产生一种希望&lt;/li&gt;
+  &lt;li&gt;北京除了吃的和周围的大山，其他还是大上海比较好&lt;/li&gt;
+&lt;/ul&gt;
 
----
-附加大概行程：&lt;br&gt;
-时间：2020.10.02 - 10.08 共7天
-1. 10.02&lt;br&gt;
-沂源 - 淄博&lt;br&gt;
-淄博 - 北京南：G182 10:09开 （办理市政一卡通，超级有用）&lt;br&gt;
-大概行程：前门大街，八大胡同，大栅栏，鲜鱼口，天安门广场（晚上：天安门广场，小巨蛋）&lt;br&gt;
-2. 10.03&lt;br&gt;
-大概行程：升旗，故宫，景山公园，北海公园
-3. 10.04&lt;br&gt;
-大概行程：天坛公园（南门进、北门出）、斋宫，恭王府，什刹海，烟袋斜街，钟鼓楼，南锣鼓巷，雍和宫，孔庙国子监，簋街（晚上：南锣鼓巷，簋街美食街）（机动灵活可以拆分成两天，10.7）&lt;br&gt;
-4. 10.05&lt;br&gt;
-大概行程：颐和园（晚上：自由休息）&lt;br&gt;
-5. 10.06&lt;br&gt;
-大概行程：北京 - 八达岭：赞巴士，登长城，八达岭 - 北京（晚上：鸟巢，水立方）
-6. 10.07&lt;br&gt;
-（北京大学，清华大学疫情期间貌似已暂停参观，到时再确认），毛主席纪念堂，自然博物馆，放松活动（奥林匹克公园，或者其他周边未到过的地方），准备回家（晚上：王府井，东安，）&lt;br&gt;
-7. 10.08&lt;br&gt; 
-北京南 - 济南西：G111 08:35开&lt;br&gt;
-济南西 - 沂源</content><author><name>王三丰</name></author><category term="分时分段环游地球" /><category term="带父母游" /><summary type="html">小主： 王三丰 北京7天行 圆满结束。 在这两年经历了那几个操蛋事情，稍微弄清了这十几年的丑恶，身心承受了三观几乎全部重塑的压力后，也体会到了每年带父母去旅游这件事貌似变成了人生仅存的几件最有意义的事情之一。 对大多数人来说，从长大成人那一刻开始，梦想和家就逐渐成了磁极的两端，永远无法共存。自己总有很多事情要做，很多梦想要追，努力工作，努力生活，就为了能背起行囊去看那四方天地，多年后，自己不断向前跑，梦想也越来越照进现实，确在偶尔的那么一瞬间，蓦然回首时，发现从出生一起生活了二十几年的那两个人，却依然还是站在原地，不同的是身影早已模糊了踪迹。有时感觉越长大，越害怕与长辈父母相处，害怕那种相互无法沟通，害怕那种无法理解，但……但世上又有哪两个人能真正相互理解彼此，父母，子女，恋人，应该绝大多数都不是彼此的知己，只是选择成为了彼此的后盾，想通这点就明白了，所谓和长辈父母之间的那条无法逾越的沟壑，何尝不是自己亲手挖下的。 渴望总有实现的那天，期待却往往会落空，不想让那种期待成为一种奢侈，选择每年带父母去旅游，目的地不是重点，再次重新认识父母，年过花甲的年纪，一出门体力比年轻人还足，大街上卖萌撒娇拍游客照，只关心把自己拍的清不清楚，行程要天明到天黑那种，景点正门一定要合影……万变中唯一不变的就是生活还是那么节俭。 很多人说旅游的意义，不过是去不同的地方过相似的生活，带父母旅游，确是相似的人到不同的地方，也许这就是不同吧。 和父母去旅游，用他们的方式，用他们的眼光去再看一次这个世界，慢慢感受那个自己已经很陌生的淳朴实在的空间。 和父母去旅游，在自己眼里很无趣的事情对他们来说都是第一次经历，而用他们的角度去看这个世界对自己来说却也都是新鲜的，也是自己应该不会主动去体验的经历，两种视角算是给我们的收获，而整个旅程中最大的收获，确是父母脸上的天真笑容和爽朗孩童般的声音，这应该也是旅游的最大意义。 PS： 无论发生什么事情，都不会是末日，总能继续下去 看着挺困难的事情，静下来慢下来，总能做出来 看着蛮复杂的事情，用不同的角度，总会有一个角度可以解决 无论多么绝望时候，减弱自己的欲望，总能产生一种希望 北京除了吃的和周围的大山，其他还是大上海比较好 附加大概行程： 时间：2020.10.02 - 10.08 共7天 10.02 沂源 - 淄博 淄博 - 北京南：G182 10:09开 （办理市政一卡通，超级有用） 大概行程：前门大街，八大胡同，大栅栏，鲜鱼口，天安门广场（晚上：天安门广场，小巨蛋） 10.03 大概行程：升旗，故宫，景山公园，北海公园 10.04 大概行程：天坛公园（南门进、北门出）、斋宫，恭王府，什刹海，烟袋斜街，钟鼓楼，南锣鼓巷，雍和宫，孔庙国子监，簋街（晚上：南锣鼓巷，簋街美食街）（机动灵活可以拆分成两天，10.7） 10.05 大概行程：颐和园（晚上：自由休息） 10.06 大概行程：北京 - 八达岭：赞巴士，登长城，八达岭 - 北京（晚上：鸟巢，水立方） 10.07 （北京大学，清华大学疫情期间貌似已暂停参观，到时再确认），毛主席纪念堂，自然博物馆，放松活动（奥林匹克公园，或者其他周边未到过的地方），准备回家（晚上：王府井，东安，） 10.08 北京南 - 济南西：G111 08:35开 济南西 - 沂源</summary></entry><entry><title type="html">环冲绳.2019</title><link href="http://localhost:4000/Japan-Okinawa-Bikepacking/" rel="alternate" type="text/html" title="环冲绳.2019" /><published>2019-10-01T00:09:00+08:00</published><updated>2019-10-01T00:09:00+08:00</updated><id>http://localhost:4000/Japan-Okinawa-Bikepacking</id><content type="html" xml:base="http://localhost:4000/Japan-Okinawa-Bikepacking/">{{site.label1}} &lt;a href=&quot;/about&quot;&gt;{{page.author}}&lt;/a&gt; {{site.label2}}</content><author><name>isanfeng</name></author><category term="Bikepacking" /><category term="分时分段环游地球" /><summary type="html">小主： isanfeng</summary></entry><entry><title type="html">带父母游泰北.2019</title><link href="http://localhost:4000/Thailand-Hike-withParents/" rel="alternate" type="text/html" title="带父母游泰北.2019" /><published>2019-04-01T20:56:00+08:00</published><updated>2019-04-01T20:56:00+08:00</updated><id>http://localhost:4000/Thailand-Hike-withParents</id><content type="html" xml:base="http://localhost:4000/Thailand-Hike-withParents/">{{site.label1}} &lt;a href=&quot;/about&quot;&gt;{{page.author}}&lt;/a&gt; {{site.label2}}</content><author><name>王的三丰</name></author><category term="分时分段环游地球" /><category term="带父母游" /><summary type="html">小主： 王的三丰</summary></entry><entry><title type="html">带父母游西安.2019</title><link href="http://localhost:4000/Xian-Hike-withParents/" rel="alternate" type="text/html" title="带父母游西安.2019" /><published>2019-03-27T20:56:00+08:00</published><updated>2019-03-27T20:56:00+08:00</updated><id>http://localhost:4000/Xian-Hike-withParents</id><content type="html" xml:base="http://localhost:4000/Xian-Hike-withParents/">{{site.label1}} &lt;a href=&quot;/about&quot;&gt;{{page.author}}&lt;/a&gt; {{site.label2}}</content><author><name>王的三丰</name></author><category term="分时分段环游地球" /><category term="带父母游" /><summary type="html">小主： 王的三丰</summary></entry><entry><title type="html">哈喽过去的2018,未来的2019</title><link href="http://localhost:4000/%E8%BF%87%E5%8E%BB%E7%9A%842018-%E6%9C%AA%E6%9D%A5%E7%9A%842019/" rel="alternate" type="text/html" title="哈喽过去的2018,未来的2019" /><published>2019-01-03T21:04:00+08:00</published><updated>2019-01-03T21:04:00+08:00</updated><id>http://localhost:4000/%E8%BF%87%E5%8E%BB%E7%9A%842018,%E6%9C%AA%E6%9D%A5%E7%9A%842019</id><content type="html" xml:base="http://localhost:4000/%E8%BF%87%E5%8E%BB%E7%9A%842018-%E6%9C%AA%E6%9D%A5%E7%9A%842019/">{{site.label1}} &lt;a href=&quot;/about&quot;&gt;{{page.author}}&lt;/a&gt; {{site.label2}}
+&lt;hr /&gt;
+&lt;p&gt;附加大概行程：&lt;br /&gt;
+时间：2020.10.02 - 10.08 共7天&lt;/p&gt;
+&lt;ol&gt;
+  &lt;li&gt;10.02&lt;br /&gt;
+沂源 - 淄博&lt;br /&gt;
+淄博 - 北京南：G182 10:09开 （办理市政一卡通，超级有用）&lt;br /&gt;
+大概行程：前门大街，八大胡同，大栅栏，鲜鱼口，天安门广场（晚上：天安门广场，小巨蛋）&lt;br /&gt;&lt;/li&gt;
+  &lt;li&gt;10.03&lt;br /&gt;
+大概行程：升旗，故宫，景山公园，北海公园&lt;/li&gt;
+  &lt;li&gt;10.04&lt;br /&gt;
+大概行程：天坛公园（南门进、北门出）、斋宫，恭王府，什刹海，烟袋斜街，钟鼓楼，南锣鼓巷，雍和宫，孔庙国子监，簋街（晚上：南锣鼓巷，簋街美食街）（机动灵活可以拆分成两天，10.7）&lt;br /&gt;&lt;/li&gt;
+  &lt;li&gt;10.05&lt;br /&gt;
+大概行程：颐和园（晚上：自由休息）&lt;br /&gt;&lt;/li&gt;
+  &lt;li&gt;10.06&lt;br /&gt;
+大概行程：北京 - 八达岭：赞巴士，登长城，八达岭 - 北京（晚上：鸟巢，水立方）&lt;/li&gt;
+  &lt;li&gt;10.07&lt;br /&gt;
+（北京大学，清华大学疫情期间貌似已暂停参观，到时再确认），毛主席纪念堂，自然博物馆，放松活动（奥林匹克公园，或者其他周边未到过的地方），准备回家（晚上：王府井，东安，）&lt;br /&gt;&lt;/li&gt;
+  &lt;li&gt;10.08&lt;br /&gt; 
+北京南 - 济南西：G111 08:35开&lt;br /&gt;
+济南西 - 沂源&lt;/li&gt;
+&lt;/ol&gt;</content><author><name>三丰</name></author><category term="分时分段环游地球" /><category term="带父母游" /><summary type="html">小主： 三丰</summary></entry><entry><title type="html">网站的前生今世</title><link href="http://localhost:4000/hello-world/" rel="alternate" type="text/html" title="网站的前生今世" /><published>2020-04-01T20:16:00+08:00</published><updated>2020-04-01T20:16:00+08:00</updated><id>http://localhost:4000/hello-world</id><content type="html" xml:base="http://localhost:4000/hello-world/">&lt;p&gt;&lt;span style=&quot;font-size:12px&quot;&gt;小主： &lt;a href=&quot;/about&quot;&gt;&lt;/a&gt; &lt;/span&gt;&lt;/p&gt;
 
-作为一个传统的孩子，也许我还在期盼我的2019还未开始，因为2018还有未了的事，不过也不能不承认，时间不是我们能左右的。
-- 工作
+&lt;h2 id=&quot;前生&quot;&gt;前生&lt;/h2&gt;
+&lt;p&gt;先是使用二级域名成品网站，后又折腾过wordpress和ghost之后，最后选择了专一的静态站点。&lt;/p&gt;
 
-	算是比较平庸的一年，工作时间长了，也是“看开”了，也许是“堕落”了，越来越不想放更多的心思的在工作上，以前那个很有想法的boy故意走丢了。
-- 生活
-- 总结</content><author><name>isanfeng</name></author><category term="胡思乱想" /><summary type="html">小主： isanfeng 作为一个传统的孩子，也许我还在期盼我的2019还未开始，因为2018还有未了的事，不过也不能不承认，时间不是我们能左右的。 工作 算是比较平庸的一年，工作时间长了，也是“看开”了，也许是“堕落”了，越来越不想放更多的心思的在工作上，以前那个很有想法的boy故意走丢了。 生活 总结</summary></entry><entry><title type="html">菲律宾.克恐之旅.2018</title><link href="http://localhost:4000/Philippines-Hike/" rel="alternate" type="text/html" title="菲律宾.克恐之旅.2018" /><published>2018-10-03T20:56:00+08:00</published><updated>2018-10-03T20:56:00+08:00</updated><id>http://localhost:4000/Philippines-Hike</id><content type="html" xml:base="http://localhost:4000/Philippines-Hike/">{{site.label1}} &lt;a href=&quot;/about&quot;&gt;{{page.author}}&lt;/a&gt; {{site.label2}}
+&lt;h2 id=&quot;今世&quot;&gt;今世&lt;/h2&gt;
+&lt;p&gt;我想人最终还是要找一个宣泄情感的出口吧，记录下一点点的感受，让时间来见证一些东西，看惯了哪些国家特色的媒体工具，最后只能选择自己自立更生。
+后续本站主要作为旅行日志及心情发泄主要工具。&lt;/p&gt;
 
-&lt;img class=&quot;alignnone size-full wp-image-927&quot; src=&quot;https://isanfeng.files.wordpress.com/2019/01/路线.png&quot; alt=&quot;路线&quot; width=&quot;895&quot; height=&quot;734&quot; /&gt;</content><author><name>isanfeng</name></author><category term="分时分段环游地球" /><summary type="html">小主： isanfeng</summary></entry><entry><title type="html">马来西亚.试炼.吉隆坡-福隆港LOOP.2018</title><link href="http://localhost:4000/Malaysia-Bikepacking-Three-Highlands/" rel="alternate" type="text/html" title="马来西亚.试炼.吉隆坡-福隆港LOOP.2018" /><published>2018-04-28T21:00:00+08:00</published><updated>2018-04-28T21:00:00+08:00</updated><id>http://localhost:4000/Malaysia-Bikepacking-Three-Highlands</id><content type="html" xml:base="http://localhost:4000/Malaysia-Bikepacking-Three-Highlands/">{{site.label1}} &lt;a href=&quot;/about&quot;&gt;{{page.author}}&lt;/a&gt; {{site.label2}}
+&lt;blockquote&gt;
+  &lt;p&gt;部分内容是从之前的wordpress和ghost中迁移过来，有些数据丢失的问题，后面需慢慢修复。&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;&lt;strong&gt;本网站特色及可操作功能：&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;网站托管于github（https://isanfeng.github.io）同时为了提高国内访问体验，基于gitee做了镜像(http://iwangsanfeng.gitee.io)可大大提高访问速度。&lt;/li&gt;
+  &lt;li&gt;此二级域名永久有效，同时可以使用便于记忆的一级域名（.ml/.tk/.ga/.cf/.gq）进行访问，如（http://isanfeng.ml 其中ml的含义为“美丽”）&lt;/li&gt;
+  &lt;li&gt;基于jekyll配置及编译生成，文章可使用markdown和html生成&lt;/li&gt;
+  &lt;li&gt;加入百度统计谷歌统计；&lt;/li&gt;
+  &lt;li&gt;兼容移动端浏览；&lt;/li&gt;
+  &lt;li&gt;加入分类功能&lt;/li&gt;
+  &lt;li&gt;加入搜索功能&lt;/li&gt;
+  &lt;li&gt;加入评论留言功能&lt;/li&gt;
+  &lt;li&gt;加入分享功能&lt;/li&gt;
+  &lt;li&gt;基于网易云音乐，加入自己的歌单播放功能&lt;/li&gt;
+  &lt;li&gt;加入冯唐语录功能&lt;/li&gt;
+  &lt;li&gt;加入上线总运行时间计算功能&lt;/li&gt;
+  &lt;li&gt;加入访问统计功能&lt;/li&gt;
+  &lt;li&gt;加入font-awesome和font-google定制图标和字体&lt;/li&gt;
+&lt;/ul&gt;</content><author><name>=流浪笔记.三丰=</name></author><category term="一刻" /><summary type="html">小主：</summary></entry><entry><title type="html">环冲绳.2019</title><link href="http://localhost:4000/Japan-Okinawa-Bikepacking/" rel="alternate" type="text/html" title="环冲绳.2019" /><published>2019-10-01T00:09:00+08:00</published><updated>2019-10-01T00:09:00+08:00</updated><id>http://localhost:4000/Japan-Okinawa-Bikepacking</id><content type="html" xml:base="http://localhost:4000/Japan-Okinawa-Bikepacking/">&lt;p&gt;&lt;span style=&quot;font-size:12px&quot;&gt;小主： &lt;a href=&quot;/about&quot;&gt;三丰&lt;/a&gt; &lt;/span&gt;&lt;/p&gt;
+
+&lt;h1 id=&quot;day-0&quot;&gt;Day-0&lt;/h1&gt;
+&lt;p&gt;没有了前些年年轻时要花一两个月准备攻略的激情，虽不至于说是说走就走，临行前一晚才匆匆打包完毕，最小化收纳，行程也是简易化，计划四天骑行环岛，三个半天参加和参观当地的活动和庆典，两个半天海洋公园和城迹，一天潜水（距离上次潜水整整一年了，想想心里还慌，登机时恶补基础知识），下午到达那霸，做了日本最西端的单轨，一下车直奔最有名的海盐冰激凌，虽然没有北海道那种纯自然的奶香，但甜里透着咸也别有滋味，来日本第一餐当然是ramen，日本著名的暖暮拉面，自己也没想到排了一个小时队才吃上，点了半熟玉子葱香豚肉拉面，浓郁的汤汁逛了半天的国际通还口留余香，三线，是琉球群岛特有的拨弦乐器，听着用它演艺的岛歌岛呗，似乎很熟悉的旋律对于我们常年漂泊在外的人们有没有一股思乡的暖流。&lt;/p&gt;
+&lt;h1 id=&quot;day-1&quot;&gt;Day-1&lt;/h1&gt;
+&lt;p&gt;琉球王国行的第二天，算是正式第一天，当然以熟悉当地市区环境为主，第一站波上宫，是从前人们向Nirai Kanai（极乐世界）祈祷的圣地，当国第一神社，我不求别的只求后面几天能不下雨，也学会了手水舍的正确用法，不过说实话，那些祈祷板上，几乎已经被香港银占领，祈求香港革命成功香港自由，我不说什么。在日本，还有一个我很喜欢的地方，日本的博物馆和图书馆，为什么没有说国内的呢，我不说什么。在去漫画仓库的路上，偶然经过的一个公园，园中山丘上的冲宫（祈祷运气最佳赶走厄运的圣地），还有一群老头老太玩的抛球，看了两局看明白了，其实就是我们小时候的弹玻璃球，他们换成了苹果大小的钢球，他们的规则简单，操作简单，在那节日暴晒下，行动都蹒跚的年纪，玩的确实开心，而且还是在比赛，旁边的横幅和教练都很到位，其实刚来这两天，有时会想，日本人的思维和习惯是我们要学习的，心态也一样可贵。然后来着重推荐漫画仓库了，虽叫漫画仓库，其实是二手outlet，虽叫二手，八成以上是未拆封的，漫画手办珍藏限量版新老CDDVD二手数码，柯南高达全系列等还有不知到名字的都是可随便看，衣服鞋子很多也都是不多见的珍藏版……，隔一条马路是它的别馆，主要是一些二手运动相关的器材和装备，几乎是什么珍贵的个性的实用的，如果你爱你需要，基本都能找到，而且价格真的是二，我不再多说什么。最后在仓库逛的实在太累，首里城随便瞄了一眼打了个卡，虽然它代表了琉球的历史，应该要好好观摩的。最后一张国际通的白天和黑夜。&lt;/p&gt;
+&lt;h1 id=&quot;day-2&quot;&gt;Day-2&lt;/h1&gt;
+&lt;p&gt;可能期望太高，青之洞窟没有想象中的惊艳，不多说了，本篇主要总结下在日本做公车的流程，以后再也不慌了，以前下车时总是为一遍看车费指示器一遍翻零钱而心慌慌，今天熟悉以后才发现日本公车乘坐起来是如此的方便和高性价比。1.首先找到目的地的线路。2.站牌上详细标明了每一路车节假日平常日土戳日火戳日的到站时刻，两天看下来误车一分钟内，比某大国使用GPS定位到站还准时，这就是伟大。3.车来后，司机总是会等人上车大家看起来都不急，上车后拿着机器吐一张整理券，是你上车站点的编号，后面你只要一直关注前面屏幕上这个编号对应的车费，每一站都会更新，快到目的地前的两三站开始准备零钱就好了。4.每个座位都对应一个下车按钮，要下车的人就按一下，所有的灯都会亮起来，司机就会知道有人下车，如果到站无人下车，并且无人等车的话，就直接跳过这一站。5.你可以注意前方有屏幕显示站点名称，不用担心不会日语，站点名称用日文中文韩文英文西班牙文轮播显示，你结合谷歌地图实时位置总能看懂。6.按下红灯准备下车，车停住后人才好离座下车，大家会一直等你，如果没零钱，前方有零钱兑换机器最大貌似1000面值，投进去出来零钱后再把零钱车费投进去，所以那个机器基本不会出现咩有零钱的情况，有任何问题大家都会等你，司机也会耐心帮助你，排队下车，大家看起来都不急。7.每当有人上车和下车，司机也会礼貌的说一句话，听不懂说什么，应该是注意安全之类的。这些规则貌似全日本做公车都通用，总之，乘坐公车体验很好。（最后上一张等公车是旁边停放的一辆道奇）&lt;/p&gt;
+
+&lt;p&gt;琉球九月最后的庆典，一件浴衣引发的羽衣大典（因为要回市区还要装车准备明天正式出发，遗憾放弃了晚上的烟火大会，我离开时不少日本家庭穿着和服开始入场，很遗憾还没看过一场日本的烟火。）&lt;/p&gt;
+&lt;h1 id=&quot;day-3&quot;&gt;Day-3&lt;/h1&gt;
+&lt;p&gt;正式之旅，虽然单车在日本属于轻机动，要和机动车共用机动道，但这里的路况之好再加上日本司机的礼貌，整体骑行体验出乎意料，道路也是全部沿海设计，眼中全是海。打卡美国村，嘉手那空军基地，在青之海参观制盐工厂，体验制作玻璃工艺，只是因为时间太早，没到午饭点，海岸食堂的元祖海葡萄dong饭没有吃上，下午赶上琉球村的传统舞蹈表演，多花点时间也要看完，下次来猴年马月。&lt;/p&gt;
+
+&lt;p&gt;眼中一片海，我也要变蓝么？也许人生最大的勇敢之一，就是在经历了被信任的政府欺骗和伤害后，还要保持信任和爱么？&lt;/p&gt;
+&lt;h1 id=&quot;day-4&quot;&gt;Day-4&lt;/h1&gt;
+&lt;p&gt;第一次在日本酒驾，路上一直看到酒驾犯罪的标识牌，好慌。早上预定了冲绳最有名的啤酒工厂参观行程，预定时就要根据访问者到达的交通方式来准备最后环节的有酒精和无酒精饮料，规定单车前往的话也是不能饮用酒精的，不过可以体验下从产线上刚下来的啤酒，机会难得，so,我告诉人家，i can walk back心想两杯啤酒算什么还不能骑车了，就撒个小慌吧，最后的结果好了，两杯下肚，人直接飘起来了，看来是不让我撒谎，幸好住的近，只能推着车走着walk back。缓了半小时才落地，濑底大桥，濑底海滩打卡。后面就是计划花费一下午的美丽海水族馆，不多说太震撼。&lt;/p&gt;
+
+&lt;p&gt;足迹与我，印记和海&lt;/p&gt;
+&lt;h1 id=&quot;day-5&quot;&gt;Day-5&lt;/h1&gt;
+&lt;p&gt;至最北端，北部属于山区，道路很像苏花公路，一面大海一面高山不时的要穿越s隧道，但路况和风景不输甚胜于苏花，苏花确胜在它的险峻。路上参观了长寿之乡大宜村的香檬乐园，整个柠檬汁的榨取过程，以及免费品尝实时产线的柠檬汁（就这个梦的蛇口，不限量纯正柠檬汁太喜欢了，还有服务人员送上清水），大宜味村有人口3300多人，其中80~89岁老人有335人，90～99岁143人百岁以上13人，除了常年饮用这种果汁，再就是充满活力。因为北部的偏僻，在路程一半左右，会看到一个全家，这是最北部的便利店，一定要在这里各种补给，否则，不多说很严重。这六天每天都是35~40的高温，好的是路上便利店补给和冷气很方便而且能随时下水给双脚spa，最后就来到最北端边户岬，这些天可能审美疲劳了，倒不如在路上探索未知有意思。一个人吃饭就很简单，晚餐和早餐准备好了，泡汤去了。&lt;/p&gt;
+
+&lt;p&gt;这些天每天被亲爱的同袍们的“爱国”声惊醒，先是@整个朋友圈要小红旗，平时文具店就几毛钱也见买过或者路上人家送个小红旗还随手扔掉，现在又是大庆典，喊着祖国生快，我想除非戏精上身，要不怎么才能瞬间激发出这么多和强烈的“爱国”心，爱国没错，但是发自内心的还是在凑热闹？如果是后者，只能让现在越来越弥足珍贵的爱国心更苍白。
+祖国，号称有五千年文明史（学术界认可的有三千多年）。至于，几千年前的哪一天是它的生日，可能谁也弄不准。所以，祖国没有生日。若非说祖国七十岁，那么按照这个逻辑：七十年以前的这片土地将不能算作是祖国，那么，八九十岁的老人们，都是生在哪个国？他们的祖国又在哪里？过生日的，其实是政府政权，它成立了七十年，独党执政了七十年，所以你祝福生日快乐的时候，应该把“祖国”二字换成“政权”，这样在语法上就不是病句了。
+名义搞庆典，劳民伤财，全城禁严，舆论一致赞美，政治各种屏蔽……这种庆典只是让自己看上去好看一些，和那阳光下或永久“爱国”或间歇“爱国”的一部分老百姓一起欢乐吧。台面上的国泰民安一片祥和，现实是这样么，只要稍微提提神，全国至少一半以上的百姓是怨声载道，只是被各种维稳销声匿迹罢了，有些人的”祖国”七十岁，有些人的祖国几干年，就像陈丹青说的，爱国和爱政府是两个概念，搞清楚你爱的是国还是政府。&lt;/p&gt;
+&lt;h1 id=&quot;day-6&quot;&gt;Day-6&lt;/h1&gt;
+&lt;p&gt;有些路，就必须我自己一个人走完，这不是孤独，而是一种选择，经历种种事事，我更愿蓬勃的生活在此时此刻，无所畏去哪，无所畏见谁，那些我就要去的地方，也许是我未曾谋面的故乡，以前是以前，现在是现在，将来也是将来，我我不能选择怎么生，怎么死，但我能选择怎么活，怎么爱。（翻过高山大海，蹬了一天，就为了图8的烤龙虾定食，虽然有些小贵，不过就像一路上的各种体验，我只把它们当做最后一餐，最后一别来感受。下午运气也不错，路上偶然找到的这家resort，今年6月份刚开业的，房间大的过分，每个房间进门都是两层，长度能有18米，宽度至少6米，卫生间和汤室也够大，提供免费制冰，免费洗衣……）&lt;/p&gt;
+&lt;h1 id=&quot;day-7&quot;&gt;Day-7&lt;/h1&gt;
+&lt;p&gt;终点也即起点。&lt;/p&gt;
+&lt;h1 id=&quot;day-8&quot;&gt;Day-8&lt;/h1&gt;
+&lt;p&gt;物理第九天，さようなら，okinawa。&lt;/p&gt;
+
+&lt;p&gt;九九归一，环冲绳圆满收官，从一条路上暂时拐到另一条路上，然后再次返回原来的路上，只要好好的记得何时开关转向灯就不会迷路。Okinawa，除了有会变色的七色海，更多的还是日本人礼貌，专注，严谨，细致，坚毅，守时守信，开放，老年人的上进心，乐观……这也是期望自己以后要有的品质。感谢自己的坚持和勇敢，分时分段环球旅行，下一段再见，さようなら。&lt;/p&gt;
+&lt;h1 id=&quot;day-9&quot;&gt;Day-9&lt;/h1&gt;
+&lt;p&gt;番外.有些事要亲自到那个环境中貌似才能真正体会孕育它的条件，我们习惯了被告诉，被记住，有时生活在一种环境中却缺懒于主动去看看别的环境，于是我们就想相信我们眼睛看到的一切，也许那只是水面上的一小块冰，每个人，每个地方，每个国家都有自己的特色，我要亲身感受看一看，十一打卡HK.&lt;/p&gt;</content><author><name>三丰</name></author><category term="Bikepacking" /><category term="分时分段环游地球" /><summary type="html">小主： 三丰</summary></entry><entry><title type="html">带父母游泰北.2019</title><link href="http://localhost:4000/Thailand-Hike-withParents/" rel="alternate" type="text/html" title="带父母游泰北.2019" /><published>2019-04-01T20:56:00+08:00</published><updated>2019-04-01T20:56:00+08:00</updated><id>http://localhost:4000/Thailand-Hike-withParents</id><content type="html" xml:base="http://localhost:4000/Thailand-Hike-withParents/">&lt;p&gt;&lt;span style=&quot;font-size:12px&quot;&gt;小主： &lt;a href=&quot;/about&quot;&gt;三丰&lt;/a&gt; &lt;/span&gt;&lt;/p&gt;</content><author><name>三丰</name></author><category term="分时分段环游地球" /><category term="带父母游" /><summary type="html">小主： 三丰</summary></entry><entry><title type="html">带父母游西安.2019</title><link href="http://localhost:4000/Xian-Hike-withParents/" rel="alternate" type="text/html" title="带父母游西安.2019" /><published>2019-03-27T20:56:00+08:00</published><updated>2019-03-27T20:56:00+08:00</updated><id>http://localhost:4000/Xian-Hike-withParents</id><content type="html" xml:base="http://localhost:4000/Xian-Hike-withParents/">&lt;p&gt;&lt;span style=&quot;font-size:12px&quot;&gt;小主： &lt;a href=&quot;/about&quot;&gt;三丰&lt;/a&gt; &lt;/span&gt;&lt;/p&gt;</content><author><name>三丰</name></author><category term="分时分段环游地球" /><category term="带父母游" /><summary type="html">小主： 三丰</summary></entry><entry><title type="html">菲律宾.克恐之旅.2018</title><link href="http://localhost:4000/Philippines-Hike/" rel="alternate" type="text/html" title="菲律宾.克恐之旅.2018" /><published>2018-10-03T20:56:00+08:00</published><updated>2018-10-03T20:56:00+08:00</updated><id>http://localhost:4000/Philippines-Hike</id><content type="html" xml:base="http://localhost:4000/Philippines-Hike/">&lt;p&gt;&lt;span style=&quot;font-size:12px&quot;&gt;小主： &lt;a href=&quot;/about&quot;&gt;三丰&lt;/a&gt; &lt;/span&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img class=&quot;alignnone size-full wp-image-927&quot; src=&quot;https://isanfeng.files.wordpress.com/2019/01/路线.png&quot; alt=&quot;路线&quot; width=&quot;895&quot; height=&quot;734&quot; /&gt;&lt;/p&gt;</content><author><name>三丰</name></author><category term="分时分段环游地球" /><summary type="html">小主： 三丰</summary></entry><entry><title type="html">马来西亚.试炼.吉隆坡-福隆港LOOP.2018</title><link href="http://localhost:4000/Malaysia-Bikepacking-Three-Highlands/" rel="alternate" type="text/html" title="马来西亚.试炼.吉隆坡-福隆港LOOP.2018" /><published>2018-04-28T21:00:00+08:00</published><updated>2018-04-28T21:00:00+08:00</updated><id>http://localhost:4000/Malaysia-Bikepacking-Three-Highlands</id><content type="html" xml:base="http://localhost:4000/Malaysia-Bikepacking-Three-Highlands/">&lt;p&gt;&lt;span style=&quot;font-size:12px&quot;&gt;小主： &lt;a href=&quot;/about&quot;&gt;三丰&lt;/a&gt; &lt;/span&gt;&lt;/p&gt;
 
 &lt;h2&gt;序（2018.4.28@上海）&lt;/h2&gt;
-之前在fb的台湾车友中听到壮游这个词语，开始还以为是客家话，一直觉得很有power，后来在一本关于大旅行的书中，第一次了解到了这个词语的真正含义：
+&lt;p&gt;之前在fb的台湾车友中听到壮游这个词语，开始还以为是客家话，一直觉得很有power，后来在一本关于大旅行的书中，第一次了解到了这个词语的真正含义：&lt;/p&gt;
 &lt;blockquote&gt;关于壮游，早在17世界，游历欧洲就是贵族子弟所受教育的一个组成部分，他们参观博物馆、欣赏画作、更重要的是，品尝仅在课堂与书本中学习过的葡萄酒。他们会花上几个月的时间在欧洲大陆旅行，尽管大多数人最远只到达意大利（可能会葡萄酒有关系），但是最后他们都带着受益终身的故事、纪念品和伤痛满载而归。&lt;/blockquote&gt;
-自此我不太敢使用壮游作为自己旅行的标签，虽然在去一个新的地方时，会对它历史预先进行学习，以便让自己身临其境时能更加融入到文化和风俗中，会去最喜欢的博物馆和农贸市场，一个可以博古一个可以知今，而且也会乐于体验当地独有的活动和生活中。虽然也蛮符合壮游的概念，但总有一种感觉让我自己也说不清楚，总觉得还是少点什么似的……
+&lt;p&gt;自此我不太敢使用壮游作为自己旅行的标签，虽然在去一个新的地方时，会对它历史预先进行学习，以便让自己身临其境时能更加融入到文化和风俗中，会去最喜欢的博物馆和农贸市场，一个可以博古一个可以知今，而且也会乐于体验当地独有的活动和生活中。虽然也蛮符合壮游的概念，但总有一种感觉让我自己也说不清楚，总觉得还是少点什么似的……&lt;/p&gt;
 
-自己的单车旅行每次到一个新的地方，总会有个不成文的仪式，就是一定要登顶单车能到达的最高点（目前去过的地方中已经包含3个国家的最高点），因为这次计划的大马行时间又是不长不短，再加上大马本身是一个多文化，多民族的多元国家，出行前10天才开始准备这趟旅程。所以这次会将范围尽量缩小，除了选择了一个山峦重叠，林木苍翠，花草繁茂，空气清新怡人，登山公路曲折迂回的避暑高原仙境福隆港外，另外还将体验首都吉隆坡，榴莲（猫山王）之乡劳勿，双溪兰等，老城文冬的风俗和美食，珍德拜热带森林中豪华露营，远看云顶高原……（在这么短的时间收集这么多信息要感谢当地的朋友&lt;i&gt;Teh An Qiao&lt;/i&gt;）。
+&lt;p&gt;自己的单车旅行每次到一个新的地方，总会有个不成文的仪式，就是一定要登顶单车能到达的最高点（目前去过的地方中已经包含3个国家的最高点），因为这次计划的大马行时间又是不长不短，再加上大马本身是一个多文化，多民族的多元国家，出行前10天才开始准备这趟旅程。所以这次会将范围尽量缩小，除了选择了一个山峦重叠，林木苍翠，花草繁茂，空气清新怡人，登山公路曲折迂回的避暑高原仙境福隆港外，另外还将体验首都吉隆坡，榴莲（猫山王）之乡劳勿，双溪兰等，老城文冬的风俗和美食，珍德拜热带森林中豪华露营，远看云顶高原……（在这么短的时间收集这么多信息要感谢当地的朋友&lt;i&gt;Teh An Qiao&lt;/i&gt;）。&lt;/p&gt;
 
-在马来西亚其实有三大避暑高原胜地（云顶高原，福隆港，金马伦高原），尤其时云顶高原应该是整个东南亚海拔最高的避暑胜地，本来最开始这次旅程是计划骑行云顶高原的，在世界第一酒店住一晚的，可以咨询了多个当地骑友，通往云顶的公路为私人公路，checkpoint有警察检查，不允许单车骑士同行（除非在特定单车赛事中）所以放弃了云顶高原的计划。至于金马伦高原，纯属距离太远，行程时间不够而放弃。最终在Qiao的建议下选择了福隆港。
+&lt;p&gt;在马来西亚其实有三大避暑高原胜地（云顶高原，福隆港，金马伦高原），尤其时云顶高原应该是整个东南亚海拔最高的避暑胜地，本来最开始这次旅程是计划骑行云顶高原的，在世界第一酒店住一晚的，可以咨询了多个当地骑友，通往云顶的公路为私人公路，checkpoint有警察检查，不允许单车骑士同行（除非在特定单车赛事中）所以放弃了云顶高原的计划。至于金马伦高原，纯属距离太远，行程时间不够而放弃。最终在Qiao的建议下选择了福隆港。&lt;/p&gt;
 &lt;h3&gt;PS：（三大高原简介以及海拔、坡度对比图）
 1. 福隆港（此次骑行的高原）&lt;/h3&gt;
 &lt;blockquote&gt;
 &lt;div class=&quot;lemma-summary&quot;&gt;
 &lt;div class=&quot;para&quot;&gt;福隆港，英语：Fraser Hill，一座叫港不是港的山，马来西亚的三大著名避暑高原之一，位于彭亨州与雪兰莪州交界附近，属彭亨州界内中央山脉范围，海拔高度1260米。这里的环境风凉气爽，被誉为马来西亚最美和最自然的山区度假地。位于中心的环岛钟楼，是一个仿造英国伦敦大笨钟的钟楼，和背后的福隆港邮政局相映成趣，是福隆港的标志。“福隆港”这座山的华文名称，念起来益显俗气，弗雷泽山（Fraser Hill）的英文原名，反而浪漫许多。它是英殖民政府开发的度假胜地。1880年代，英国商旅路易士占姆士弗雷泽与他的驴队，是活跃在马来亚主干山脉的矿业交易人。都赖通往古毛的栈道间，他的踪影总是教人那么的熟悉，直到有一天，他与整个驴队突然消失，蒸发在空气里。多年来，没人知晓他是在何时何地为何而失踪，此后，弗雷泽成了山中传奇。所以保留很多英式建筑。另外这里有全世界最多品种的鸟类居住，约有230多种，所以也是一个观鸟胜地。&lt;/div&gt;
 &lt;/div&gt;&lt;/blockquote&gt;
-&lt;img class=&quot;alignnone size-full wp-image-817&quot; src=&quot;https://isanfeng.files.wordpress.com/2018/04/img_5611.jpg&quot; alt=&quot;img_5611&quot; width=&quot;2878&quot; height=&quot;1532&quot; /&gt;
+&lt;p&gt;&lt;img class=&quot;alignnone size-full wp-image-817&quot; src=&quot;https://isanfeng.files.wordpress.com/2018/04/img_5611.jpg&quot; alt=&quot;img_5611&quot; width=&quot;2878&quot; height=&quot;1532&quot; /&gt;&lt;/p&gt;
 
-&lt;img class=&quot;alignnone wp-image-818 size-full&quot; src=&quot;https://isanfeng.files.wordpress.com/2018/04/img_5613.jpg&quot; alt=&quot;img_5613&quot; width=&quot;2001&quot; height=&quot;1125&quot; /&gt;
+&lt;p&gt;&lt;img class=&quot;alignnone wp-image-818 size-full&quot; src=&quot;https://isanfeng.files.wordpress.com/2018/04/img_5613.jpg&quot; alt=&quot;img_5613&quot; width=&quot;2001&quot; height=&quot;1125&quot; /&gt;&lt;/p&gt;
 
-2. 云顶高原
+&lt;ol&gt;
+  &lt;li&gt;云顶高原&lt;/li&gt;
+&lt;/ol&gt;
 &lt;blockquote&gt;&lt;a href=&quot;https://www.wikiwand.com/zh-hans/%E9%9B%B2%E9%A0%82%E9%AB%98%E5%8E%9F&quot;&gt;云顶高原&lt;/a&gt;，英语：&lt;span lang=&quot;en&quot;&gt;Genting Highlands&lt;/span&gt;在山上建一座度假胜地这个想法是已故丹斯里林梧桐在1964年前往&lt;a class=&quot;mw-redirect int-link&quot; title=&quot;&quot; href=&quot;https://www.wikiwand.com/zh-hans/%E9%87%91%E9%A9%AC%E4%BB%91%E9%AB%98%E5%8E%9F&quot;&gt;金马仑高原&lt;/a&gt;谈生意时突然涌起的念头。在金马仑高原享受高原上那清新凉快的气候时，林梧桐就想到，马来西亚是热带国家，那么如果在山上建一座度假胜地，那势必会成为大家避暑的好去处。为了实现这个想法，林梧桐马上翻阅地图希望能够在吉隆坡附近找到一个可以兴建度假村的适合地点。最后，林梧桐在距离吉隆坡58公里处一座高1,800米的乌鲁加里山看见了理想地点。因此开启了林梧桐将偏僻并且充斥着原始热带雨林的山区转变成一个度假胜地的过程。&lt;/blockquote&gt;
-&lt;img src=&quot;https://i0.wp.com/isanfeng.files.wordpress.com/2018/02/e4ba91e9a1b6e9ab98e58e9fe8b7afe4b9a61.png&quot; /&gt;
+&lt;p&gt;&lt;img src=&quot;https://i0.wp.com/isanfeng.files.wordpress.com/2018/02/e4ba91e9a1b6e9ab98e58e9fe8b7afe4b9a61.png&quot; /&gt;&lt;/p&gt;
 
-&lt;img src=&quot;https://i2.wp.com/isanfeng.files.wordpress.com/2018/02/e4ba91e9a1b6e9ab98e58e9fe6b5b7e68b94e59da1e5baa6e59bbe1.png&quot; /&gt;
+&lt;p&gt;&lt;img src=&quot;https://i2.wp.com/isanfeng.files.wordpress.com/2018/02/e4ba91e9a1b6e9ab98e58e9fe6b5b7e68b94e59da1e5baa6e59bbe1.png&quot; /&gt;&lt;/p&gt;
 
-&lt;img class=&quot;alignnone size-full wp-image-819&quot; src=&quot;https://isanfeng.files.wordpress.com/2018/04/img_5614.jpg&quot; alt=&quot;img_5614&quot; width=&quot;2001&quot; height=&quot;1125&quot; /&gt;
+&lt;p&gt;&lt;img class=&quot;alignnone size-full wp-image-819&quot; src=&quot;https://isanfeng.files.wordpress.com/2018/04/img_5614.jpg&quot; alt=&quot;img_5614&quot; width=&quot;2001&quot; height=&quot;1125&quot; /&gt;&lt;/p&gt;
 
-&lt;i&gt;HC&lt;/i&gt;的爬坡，虽然两次环泰北时，经历了好几个&lt;i&gt;HC&lt;/i&gt;爬坡，爽到哭，时间久了难免怀念，这次的未成行留下一些遗憾。
+&lt;p&gt;&lt;i&gt;HC&lt;/i&gt;的爬坡，虽然两次环泰北时，经历了好几个&lt;i&gt;HC&lt;/i&gt;爬坡，爽到哭，时间久了难免怀念，这次的未成行留下一些遗憾。&lt;/p&gt;
 
-3. 金马伦高原
+&lt;ol&gt;
+  &lt;li&gt;金马伦高原&lt;/li&gt;
+&lt;/ol&gt;
 &lt;blockquote&gt;&lt;a href=&quot;https://www.wikiwand.com/zh-hans/%E9%87%91%E9%A6%AC%E5%B4%99%E9%AB%98%E5%8E%9F&quot;&gt;金马伦高原&lt;/a&gt;，英语：&lt;span lang=&quot;en&quot;&gt;Cameron Highlands&lt;/span&gt;&lt;span lang=&quot;en&quot;&gt;，地处马来半岛主干山脉蒂迪旺沙山脉东麓，海拔约&lt;/span&gt;&lt;span lang=&quot;en&quot;&gt;1500&lt;/span&gt;&lt;span lang=&quot;en&quot;&gt;米左右，是马来西亚最大的高原度假胜地。金马伦高原是&lt;/span&gt;&lt;span lang=&quot;en&quot;&gt;1885&lt;/span&gt;&lt;span lang=&quot;en&quot;&gt;年英国探测家金马伦爵士在一个测图行动中所发现而命名的。&lt;/span&gt;&lt;span lang=&quot;en&quot;&gt;1925&lt;/span&gt;&lt;span lang=&quot;en&quot;&gt;年，佐治&lt;/span&gt;&lt;span lang=&quot;en&quot;&gt;·&lt;/span&gt;&lt;span lang=&quot;en&quot;&gt;玛史威爵士（&lt;/span&gt;&lt;span lang=&quot;en&quot;&gt;Sir George Maxwell) &lt;/span&gt;&lt;span lang=&quot;en&quot;&gt;参观这里后，将其发展为避暑胜地，完成了一条通往打巴的公路。公路通车后，英国的高官显要都在此建筑别墅，一些还定居并开发此高原。不久后，一个永久的英军军营在此成立。它最吸引人之处在于其井然有序青翠的茶园，梯田式的花园，新鲜的蔬菜园，可随手栽食的草莓园，还有蜜蜂园，蝴蝶园和仙人掌世界。另外喜欢探险的可以进行森林探险之旅和看日出，森林里有全世界最大的花&lt;/span&gt;&lt;span lang=&quot;en&quot;&gt;(rafflesia flower)&lt;/span&gt;&lt;span lang=&quot;en&quot;&gt;大王花。&lt;/span&gt;&lt;/blockquote&gt;
-行程资料参考：
+&lt;p&gt;行程资料参考：
 &lt;a href=&quot;http://www.cameron-highlands.com/&quot;&gt;http://www.cameron-highlands.com/&lt;/a&gt;
 &lt;a href=&quot;http://www.cameronhighlandsinfo.com/&quot;&gt;http://www.cameronhighlandsinfo.com/&lt;/a&gt;
 &lt;a href=&quot;http://www.cameron.com.my/&quot;&gt;http://www.cameron.com.my/&lt;/a&gt;
-&lt;a href=&quot;http://www.cameron-highland-destination.com/&quot;&gt;http://www.cameron-highland-destination.com/&lt;/a&gt;
+&lt;a href=&quot;http://www.cameron-highland-destination.com/&quot;&gt;http://www.cameron-highland-destination.com/&lt;/a&gt;&lt;/p&gt;
 
-&lt;img src=&quot;https://i2.wp.com/isanfeng.files.wordpress.com/2018/02/e98791e9a9ace4bca6e9ab98e58e9fe8b7afe4b9a6.png&quot; /&gt;
+&lt;p&gt;&lt;img src=&quot;https://i2.wp.com/isanfeng.files.wordpress.com/2018/02/e98791e9a9ace4bca6e9ab98e58e9fe8b7afe4b9a6.png&quot; /&gt;&lt;/p&gt;
 
-&lt;img src=&quot;https://i0.wp.com/isanfeng.files.wordpress.com/2018/02/e98791e9a9ace4bca6e9ab98e58e9fe6b5b7e68b94e59da1e5baa6e59bbe.png&quot; /&gt;
+&lt;p&gt;&lt;img src=&quot;https://i0.wp.com/isanfeng.files.wordpress.com/2018/02/e98791e9a9ace4bca6e9ab98e58e9fe6b5b7e68b94e59da1e5baa6e59bbe.png&quot; /&gt;&lt;/p&gt;
 
-&lt;img class=&quot;alignnone size-full wp-image-820&quot; src=&quot;https://isanfeng.files.wordpress.com/2018/04/img_5615.jpg&quot; alt=&quot;img_5615&quot; width=&quot;2001&quot; height=&quot;1125&quot; /&gt;
+&lt;p&gt;&lt;img class=&quot;alignnone size-full wp-image-820&quot; src=&quot;https://isanfeng.files.wordpress.com/2018/04/img_5615.jpg&quot; alt=&quot;img_5615&quot; width=&quot;2001&quot; height=&quot;1125&quot; /&gt;&lt;/p&gt;
 
-全是&lt;i&gt;1-2&lt;/i&gt;级爬坡也是蛮恐怖的。
+&lt;p&gt;全是&lt;i&gt;1-2&lt;/i&gt;级爬坡也是蛮恐怖的。&lt;/p&gt;
 
 &lt;hr /&gt;
 
 &lt;h2&gt;第一天（2018.4.29@上海-香港，夜宿香港机场）&lt;/h2&gt;
-第一天，21点上海出发，23点30分到达香港国际机场，等转机明天早上8点30分飞吉隆坡，所以要在香港机场过夜，至于在机场过夜对我来说是第一次，以前看到有人各大机场过夜的经历有时觉得蛮酷的，所以有这么一次经历我也倒不发愁，犯贱似的蛮喜欢在旅行的过程中有各种不同的体验，不管是吃苦还是受累，其实每次回忆的时候，这些才是记忆的最深点，所以我会想着给每次自己的旅行多一些不同的体验，《朗读者》中有这么一句话：“生命不是你活了多少日子，而是你记住了多少日子，要使你过的每一天都值得记忆。” 我想我的这些也是一种另外的形式吧。
+&lt;p&gt;第一天，21点上海出发，23点30分到达香港国际机场，等转机明天早上8点30分飞吉隆坡，所以要在香港机场过夜，至于在机场过夜对我来说是第一次，以前看到有人各大机场过夜的经历有时觉得蛮酷的，所以有这么一次经历我也倒不发愁，犯贱似的蛮喜欢在旅行的过程中有各种不同的体验，不管是吃苦还是受累，其实每次回忆的时候，这些才是记忆的最深点，所以我会想着给每次自己的旅行多一些不同的体验，《朗读者》中有这么一句话：“生命不是你活了多少日子，而是你记住了多少日子，要使你过的每一天都值得记忆。” 我想我的这些也是一种另外的形式吧。&lt;/p&gt;
 
-其实今天一天基本都在收拾行李，一是之前没太准备，而是bikepackaging就是要让带的行李最少最轻以达到单车旅行的最好体验，然后另外一个最主要的就是打包车子，因为之前的经验，其实已经轻车熟路了。
+&lt;p&gt;其实今天一天基本都在收拾行李，一是之前没太准备，而是bikepackaging就是要让带的行李最少最轻以达到单车旅行的最好体验，然后另外一个最主要的就是打包车子，因为之前的经验，其实已经轻车熟路了。&lt;/p&gt;
 
-&lt;img class=&quot;size-full wp-image-838&quot; src=&quot;https://isanfeng.files.wordpress.com/2018/04/img_56081.jpg&quot; width=&quot;960&quot; height=&quot;1280&quot; /&gt;&lt;img class=&quot;wp-image-840 size-full&quot; src=&quot;https://isanfeng.files.wordpress.com/2018/04/img_5609.jpg&quot; width=&quot;960&quot; height=&quot;1280&quot; /&gt;&lt;img class=&quot;size-full wp-image-841&quot; src=&quot;https://isanfeng.files.wordpress.com/2018/04/img_5620.jpg&quot; width=&quot;1500&quot; height=&quot;1124&quot; /&gt;&lt;img class=&quot;wp-image-839 size-full&quot; src=&quot;https://isanfeng.files.wordpress.com/2018/04/img_5621.jpg&quot; width=&quot;1500&quot; height=&quot;1124&quot; /&gt;&lt;img class=&quot;wp-image-842 size-full&quot; src=&quot;https://isanfeng.files.wordpress.com/2018/04/img_56241.jpg&quot; width=&quot;1500&quot; height=&quot;1124&quot; /&gt;&lt;img class=&quot;size-full wp-image-843&quot; src=&quot;https://isanfeng.files.wordpress.com/2018/04/img_5646.jpg&quot; width=&quot;1124&quot; height=&quot;1498&quot; /&gt;今天已经算是错峰出行，值机安检人流非常的稀少，连整个登机口都没几个人，不过谁想没一会来一批香港人，从以前看不上香港人的拽到今天看到香港人的各种劣性（在朋友圈里已经吐过槽了），突然对香港人的印象彻底翻车，不过仔细想想也倒没必要，每个地方都有不同的人群，人群不同的特点，好的坏的善的恶的，我们不能改变人们什么，能做的只能是去影响，或者包容，所以不再谈昨天见到的香港人留下的劣性，我说这就发现写日志比发朋友圈的好处，发朋友圈很大时候是一种冲动，吐槽，发牢骚，而写日志很多时候是要经过脑子的，莫名的就会有一种上帝视角，多了一些包容，谅解等，而再想到关于香港人的什么，则比较多的是在日本一起骑车的香港俩兄弟的美好时光。所以万事不要冲动，像泰国人的口头禅一样，อย่างช้าๆ，慢慢来，其实这是一种态度，可以多一些思考的时间，放在佛教里，应该就是所谓的禅吧。
+&lt;p&gt;&lt;img class=&quot;size-full wp-image-838&quot; src=&quot;https://isanfeng.files.wordpress.com/2018/04/img_56081.jpg&quot; width=&quot;960&quot; height=&quot;1280&quot; /&gt;&lt;img class=&quot;wp-image-840 size-full&quot; src=&quot;https://isanfeng.files.wordpress.com/2018/04/img_5609.jpg&quot; width=&quot;960&quot; height=&quot;1280&quot; /&gt;&lt;img class=&quot;size-full wp-image-841&quot; src=&quot;https://isanfeng.files.wordpress.com/2018/04/img_5620.jpg&quot; width=&quot;1500&quot; height=&quot;1124&quot; /&gt;&lt;img class=&quot;wp-image-839 size-full&quot; src=&quot;https://isanfeng.files.wordpress.com/2018/04/img_5621.jpg&quot; width=&quot;1500&quot; height=&quot;1124&quot; /&gt;&lt;img class=&quot;wp-image-842 size-full&quot; src=&quot;https://isanfeng.files.wordpress.com/2018/04/img_56241.jpg&quot; width=&quot;1500&quot; height=&quot;1124&quot; /&gt;&lt;img class=&quot;size-full wp-image-843&quot; src=&quot;https://isanfeng.files.wordpress.com/2018/04/img_5646.jpg&quot; width=&quot;1124&quot; height=&quot;1498&quot; /&gt;今天已经算是错峰出行，值机安检人流非常的稀少，连整个登机口都没几个人，不过谁想没一会来一批香港人，从以前看不上香港人的拽到今天看到香港人的各种劣性（在朋友圈里已经吐过槽了），突然对香港人的印象彻底翻车，不过仔细想想也倒没必要，每个地方都有不同的人群，人群不同的特点，好的坏的善的恶的，我们不能改变人们什么，能做的只能是去影响，或者包容，所以不再谈昨天见到的香港人留下的劣性，我说这就发现写日志比发朋友圈的好处，发朋友圈很大时候是一种冲动，吐槽，发牢骚，而写日志很多时候是要经过脑子的，莫名的就会有一种上帝视角，多了一些包容，谅解等，而再想到关于香港人的什么，则比较多的是在日本一起骑车的香港俩兄弟的美好时光。所以万事不要冲动，像泰国人的口头禅一样，อย่างช้าๆ，慢慢来，其实这是一种态度，可以多一些思考的时间，放在佛教里，应该就是所谓的禅吧。&lt;/p&gt;
 
-两个来小时，上海到香港，国泰的航班上的设施确实不错，收集了最新的电影，飞一趟正好看一部在家下了好久都没看的电影&lt;img class=&quot;wp-image-844 size-full&quot; src=&quot;https://isanfeng.files.wordpress.com/2018/04/img_5651.jpg&quot; width=&quot;1500&quot; height=&quot;1124&quot; /&gt;
+&lt;p&gt;两个来小时，上海到香港，国泰的航班上的设施确实不错，收集了最新的电影，飞一趟正好看一部在家下了好久都没看的电影&lt;img class=&quot;wp-image-844 size-full&quot; src=&quot;https://isanfeng.files.wordpress.com/2018/04/img_5651.jpg&quot; width=&quot;1500&quot; height=&quot;1124&quot; /&gt;&lt;/p&gt;
 
-还要提下餐食，居然有哈根达斯，哈根达斯，哈根达斯，我觉得任何时候都受不了冰激凌的诱惑，日本骑车基本是每天五六支，听说马来西亚文冬的冰激凌很有名哦……
+&lt;p&gt;还要提下餐食，居然有哈根达斯，哈根达斯，哈根达斯，我觉得任何时候都受不了冰激凌的诱惑，日本骑车基本是每天五六支，听说马来西亚文冬的冰激凌很有名哦……&lt;/p&gt;
 
-&lt;img class=&quot;wp-image-846 size-full&quot; src=&quot;https://isanfeng.files.wordpress.com/2018/04/img_5649-1.jpg&quot; width=&quot;1500&quot; height=&quot;1124&quot; /&gt;下飞机后，就要在香港机场过夜了，来之前是查过香港机场过夜攻罗的，很多信息还都是不准确的，所以还是得现场靠自己，不过有一点是准确的，机场的座位基本都是两连坐，你知道即使再短的人，躺在上面腿也是伸不直的，会非常不舒服，不过使劲找的话，还是能找到这种三连坐的，我不会告诉你在T1 46号登机口附近有不少。&lt;img class=&quot;wp-image-847 size-full&quot; src=&quot;https://isanfeng.files.wordpress.com/2018/04/img_5653.jpg&quot; width=&quot;1500&quot; height=&quot;1124&quot; /&gt;
+&lt;p&gt;&lt;img class=&quot;wp-image-846 size-full&quot; src=&quot;https://isanfeng.files.wordpress.com/2018/04/img_5649-1.jpg&quot; width=&quot;1500&quot; height=&quot;1124&quot; /&gt;下飞机后，就要在香港机场过夜了，来之前是查过香港机场过夜攻罗的，很多信息还都是不准确的，所以还是得现场靠自己，不过有一点是准确的，机场的座位基本都是两连坐，你知道即使再短的人，躺在上面腿也是伸不直的，会非常不舒服，不过使劲找的话，还是能找到这种三连坐的，我不会告诉你在T1 46号登机口附近有不少。&lt;img class=&quot;wp-image-847 size-full&quot; src=&quot;https://isanfeng.files.wordpress.com/2018/04/img_5653.jpg&quot; width=&quot;1500&quot; height=&quot;1124&quot; /&gt;&lt;/p&gt;
 
-今天过夜的装备就是这个轻量睡袋，600克，收纳起来也不大，然后忘记带充气枕头了，就用颈枕凑合一下。&lt;img class=&quot;size-full wp-image-857&quot; src=&quot;https://isanfeng.files.wordpress.com/2018/04/img_56631.jpg&quot; width=&quot;1500&quot; height=&quot;1124&quot; /&gt;&lt;img class=&quot;wp-image-848 size-full&quot; src=&quot;https://isanfeng.files.wordpress.com/2018/04/img_56541.jpg&quot; width=&quot;1500&quot; height=&quot;1124&quot; /&gt;经实验，三连坐对于172的人来说正好，伸直腿还空余一点，脚底就是大飞机。&lt;img class=&quot;size-full wp-image-858&quot; src=&quot;https://isanfeng.files.wordpress.com/2018/04/img_5662.jpg&quot; width=&quot;1500&quot; height=&quot;1124&quot; /&gt;&lt;img class=&quot;wp-image-850 size-full&quot; src=&quot;https://isanfeng.files.wordpress.com/2018/04/img_5655.jpg&quot; width=&quot;1124&quot; height=&quot;1500&quot; /&gt;&lt;img class=&quot;wp-image-854 size-full&quot; src=&quot;https://isanfeng.files.wordpress.com/2018/04/img_56601.jpg&quot; width=&quot;1498&quot; height=&quot;1124&quot; /&gt;好了，现在凌晨2点钟了，晚安。
+&lt;p&gt;今天过夜的装备就是这个轻量睡袋，600克，收纳起来也不大，然后忘记带充气枕头了，就用颈枕凑合一下。&lt;img class=&quot;size-full wp-image-857&quot; src=&quot;https://isanfeng.files.wordpress.com/2018/04/img_56631.jpg&quot; width=&quot;1500&quot; height=&quot;1124&quot; /&gt;&lt;img class=&quot;wp-image-848 size-full&quot; src=&quot;https://isanfeng.files.wordpress.com/2018/04/img_56541.jpg&quot; width=&quot;1500&quot; height=&quot;1124&quot; /&gt;经实验，三连坐对于172的人来说正好，伸直腿还空余一点，脚底就是大飞机。&lt;img class=&quot;size-full wp-image-858&quot; src=&quot;https://isanfeng.files.wordpress.com/2018/04/img_5662.jpg&quot; width=&quot;1500&quot; height=&quot;1124&quot; /&gt;&lt;img class=&quot;wp-image-850 size-full&quot; src=&quot;https://isanfeng.files.wordpress.com/2018/04/img_5655.jpg&quot; width=&quot;1124&quot; height=&quot;1500&quot; /&gt;&lt;img class=&quot;wp-image-854 size-full&quot; src=&quot;https://isanfeng.files.wordpress.com/2018/04/img_56601.jpg&quot; width=&quot;1498&quot; height=&quot;1124&quot; /&gt;好了，现在凌晨2点钟了，晚安。&lt;/p&gt;
 
 &lt;hr /&gt;
 
 &lt;h2&gt;第二天（2018.4.30一早@香港）&lt;/h2&gt;
-&lt;img class=&quot;size-full wp-image-860&quot; src=&quot;https://isanfeng.files.wordpress.com/2018/04/img_5664.jpg&quot; width=&quot;1920&quot; height=&quot;1440&quot; /&gt;
+&lt;p&gt;&lt;img class=&quot;size-full wp-image-860&quot; src=&quot;https://isanfeng.files.wordpress.com/2018/04/img_5664.jpg&quot; width=&quot;1920&quot; height=&quot;1440&quot; /&gt;&lt;/p&gt;
 
-早安，香港。昨晚睡的还算舒服，也许是睡的太晚了，一觉到天亮，发现已经有很多人在move了。
+&lt;p&gt;早安，香港。昨晚睡的还算舒服，也许是睡的太晚了，一觉到天亮，发现已经有很多人在move了。&lt;/p&gt;
 
-时间，步履匆忙。
+&lt;p&gt;时间，步履匆忙。&lt;/p&gt;
 
-人在时间中穿梭，留下倒影。在现实的时间空间中奔波，就像昨天在飞机上看的寻梦环游记，说不定真有另外一个空间，究竟哪个是现实，哪个是虚幻。在某一瞬间，真的不得而知。整个候机楼就像一个巨大的牢笼。人们在等待。人们在期待。人们在打发时间。人们在无所事事。但是，人们都有自己的目的地。不同的目的地。
+&lt;p&gt;人在时间中穿梭，留下倒影。在现实的时间空间中奔波，就像昨天在飞机上看的寻梦环游记，说不定真有另外一个空间，究竟哪个是现实，哪个是虚幻。在某一瞬间，真的不得而知。整个候机楼就像一个巨大的牢笼。人们在等待。人们在期待。人们在打发时间。人们在无所事事。但是，人们都有自己的目的地。不同的目的地。&lt;/p&gt;
 
 &lt;hr /&gt;
 
 &lt;h2&gt;第二天（2018.4.30@吉隆坡）&lt;/h2&gt;
-算是正式行程的一天，在机场过夜后早上早早的醒来，洗手间简单的洗漱擦澡，赶往登机口，也许时间太早，也没什么胃口，平时都是10点吃早饭，还是登机后享用我的哈根达斯吧，哈哈哈…&lt;img class=&quot;size-full wp-image-875&quot; src=&quot;https://isanfeng.files.wordpress.com/2018/04/img_5670-1.jpg&quot; width=&quot;1500&quot; height=&quot;1124&quot; /&gt;香港不愧为国泰的大本营，不仅贵宾室多，来到登机口，一堆的国泰和港龙的大飞机，卖铁应该好几顿吧。&lt;img class=&quot;size-full wp-image-876&quot; src=&quot;https://isanfeng.files.wordpress.com/2018/04/img_5668-1.jpg&quot; width=&quot;1500&quot; height=&quot;1124&quot; /&gt;&lt;img class=&quot;wp-image-879 size-full&quot; src=&quot;https://isanfeng.files.wordpress.com/2018/04/img_5676-11.jpg&quot; width=&quot;1124&quot; height=&quot;1500&quot; /&gt;&lt;img class=&quot;size-full wp-image-877&quot; src=&quot;https://isanfeng.files.wordpress.com/2018/04/img_5678-11.jpg&quot; width=&quot;1124&quot; height=&quot;1500&quot; /&gt;&lt;img class=&quot;size-full wp-image-878&quot; src=&quot;https://isanfeng.files.wordpress.com/2018/04/img_5680-1.jpg&quot; width=&quot;1124&quot; height=&quot;1500&quot; /&gt;经过3个半小时，提前10分钟到达吉隆坡国际机场KLIA M航站楼，刚开始订机票时显示M航站楼，还是有点懵的，这里科普一下，吉隆坡国际机场为KLIA，这是一开始建设时的简称，后来不仅外国人就连国内人也来这里转机，规模逐渐增大，新建了KLIA2，也就是廉价航空的聚集地，相应的便于叫法上的区别，KLIA习惯性的被叫做KLIA1，那M航站楼是1的为卫星楼，也属于KLIA1，只不过需要做很远的摆渡车。&lt;img class=&quot;size-full wp-image-881&quot; src=&quot;https://isanfeng.files.wordpress.com/2018/04/img_5686-11.jpg&quot; width=&quot;1500&quot; height=&quot;1124&quot; /&gt;入境，这里是我经历的唯一不用写入境卡的国家，入境时会简单问下目的离镜时间居住地址等等，但英文像阿三一样严重的口音话，其实就是阿三的同胞，仔细听还好，超大行李也顺利领取，国泰啊，30公斤不限尺寸，豪气，不过对于国泰有一点必须说一下，空姐的颜值都不高，而且服务态度也没有其它航空到位，不过也就算了，吐槽下，生活都不易。
+&lt;p&gt;算是正式行程的一天，在机场过夜后早上早早的醒来，洗手间简单的洗漱擦澡，赶往登机口，也许时间太早，也没什么胃口，平时都是10点吃早饭，还是登机后享用我的哈根达斯吧，哈哈哈…&lt;img class=&quot;size-full wp-image-875&quot; src=&quot;https://isanfeng.files.wordpress.com/2018/04/img_5670-1.jpg&quot; width=&quot;1500&quot; height=&quot;1124&quot; /&gt;香港不愧为国泰的大本营，不仅贵宾室多，来到登机口，一堆的国泰和港龙的大飞机，卖铁应该好几顿吧。&lt;img class=&quot;size-full wp-image-876&quot; src=&quot;https://isanfeng.files.wordpress.com/2018/04/img_5668-1.jpg&quot; width=&quot;1500&quot; height=&quot;1124&quot; /&gt;&lt;img class=&quot;wp-image-879 size-full&quot; src=&quot;https://isanfeng.files.wordpress.com/2018/04/img_5676-11.jpg&quot; width=&quot;1124&quot; height=&quot;1500&quot; /&gt;&lt;img class=&quot;size-full wp-image-877&quot; src=&quot;https://isanfeng.files.wordpress.com/2018/04/img_5678-11.jpg&quot; width=&quot;1124&quot; height=&quot;1500&quot; /&gt;&lt;img class=&quot;size-full wp-image-878&quot; src=&quot;https://isanfeng.files.wordpress.com/2018/04/img_5680-1.jpg&quot; width=&quot;1124&quot; height=&quot;1500&quot; /&gt;经过3个半小时，提前10分钟到达吉隆坡国际机场KLIA M航站楼，刚开始订机票时显示M航站楼，还是有点懵的，这里科普一下，吉隆坡国际机场为KLIA，这是一开始建设时的简称，后来不仅外国人就连国内人也来这里转机，规模逐渐增大，新建了KLIA2，也就是廉价航空的聚集地，相应的便于叫法上的区别，KLIA习惯性的被叫做KLIA1，那M航站楼是1的为卫星楼，也属于KLIA1，只不过需要做很远的摆渡车。&lt;img class=&quot;size-full wp-image-881&quot; src=&quot;https://isanfeng.files.wordpress.com/2018/04/img_5686-11.jpg&quot; width=&quot;1500&quot; height=&quot;1124&quot; /&gt;入境，这里是我经历的唯一不用写入境卡的国家，入境时会简单问下目的离镜时间居住地址等等，但英文像阿三一样严重的口音话，其实就是阿三的同胞，仔细听还好，超大行李也顺利领取，国泰啊，30公斤不限尺寸，豪气，不过对于国泰有一点必须说一下，空姐的颜值都不高，而且服务态度也没有其它航空到位，不过也就算了，吐槽下，生活都不易。&lt;/p&gt;
 
-机场到市区的地铁有两种，一种express 一种transit 前者直达没有停站速度快28分钟，后者多停站速度慢，但两者的票价是一样的，55RM, 官网预定9折，这个月使用visa卡支付，再折上折，这种小便宜让我全薅了，关于票价相同这件事，是不是看出大马人“很笨”，在我大中华，高铁动车普通车分名字收费是不是中国人的“聪明”？单车必要要有遮盖才能上车，基础设施使用很方便，有lift有elevator，就是指示不人性，你需要使劲仔细寻找分析然后敢问，大马人还是很热情的。&lt;img class=&quot;wp-image-882 size-full&quot; src=&quot;https://isanfeng.files.wordpress.com/2018/05/img_5688-1.jpg&quot; width=&quot;1500&quot; height=&quot;1124&quot; /&gt;&lt;img class=&quot;size-full wp-image-883&quot; src=&quot;https://isanfeng.files.wordpress.com/2018/05/img_5689-1.jpg&quot; width=&quot;1500&quot; height=&quot;1124&quot; /&gt;&lt;img class=&quot;size-full wp-image-884&quot; src=&quot;https://isanfeng.files.wordpress.com/2018/05/img_5690-1.jpg&quot; width=&quot;1500&quot; height=&quot;1124&quot; /&gt;需要提一下的是，他们提供免费的人工手推车服务，一下车就有人在你的车厢门口等你帮你，完全不让你动手还不要小费，受宠若惊。轻轨的话基本类似&lt;img class=&quot;size-full wp-image-885&quot; src=&quot;https://isanfeng.files.wordpress.com/2018/05/img_5774-1.jpg&quot; width=&quot;1500&quot; height=&quot;1124&quot; /&gt;&lt;img class=&quot;wp-image-886 size-full&quot; src=&quot;https://isanfeng.files.wordpress.com/2018/05/img_5771-1.jpg&quot; width=&quot;1500&quot; height=&quot;1124&quot; /&gt;atm取钱，吐的票额有大有小便于使用，马币林吉特的质感怎么和塑料一样呢，may bank 是暂时还不收当地手续费的银行。&lt;img class=&quot;size-full wp-image-887&quot; src=&quot;https://isanfeng.files.wordpress.com/2018/05/img_5769-1.jpg&quot; width=&quot;4032&quot; height=&quot;3024&quot; /&gt;吉隆坡也是我见到的唯一没有oppo vivo 手机广告的城市，逛了半下午也没看到一个，到时华为的旗帜到处漂洋&lt;img class=&quot;size-full wp-image-888&quot; src=&quot;https://isanfeng.files.wordpress.com/2018/05/img_5693-1.jpg&quot; width=&quot;1500&quot; height=&quot;1124&quot; /&gt;来之前大概看了这里的天气，反正显示都是雷暴天气，飞的过程还高兴，到处都晴空万里的，谁知在轻轨上两声雷巨响，车窗上就是豌豆粒大小的雨点瞬间打击，没有任何一点点准备。&lt;img class=&quot;size-full wp-image-889&quot; src=&quot;https://isanfeng.files.wordpress.com/2018/05/img_5775-1.jpg&quot; width=&quot;1125&quot; height=&quot;2001&quot; /&gt;来到住的地方，问了下，原来是这个季节每天都在这个点下个半小时到一小时的雨，才放心，要不一直下下去，骑行就泡汤了，虽有plan B，但还没太细化。&lt;img class=&quot;size-full wp-image-890&quot; src=&quot;https://isanfeng.files.wordpress.com/2018/05/img_5779-1.jpg&quot; width=&quot;1500&quot; height=&quot;1124&quot; /&gt;&lt;img class=&quot;size-full wp-image-891&quot; src=&quot;https://isanfeng.files.wordpress.com/2018/05/img_5780-1.jpg&quot; width=&quot;1124&quot; height=&quot;1500&quot; /&gt;&lt;img class=&quot;wp-image-892 size-full&quot; src=&quot;https://isanfeng.files.wordpress.com/2018/05/img_5781-1.jpg&quot; width=&quot;1500&quot; height=&quot;1124&quot; /&gt;洗去国内灰尘，轻装上身后，就是吃货时间，因为时间还早，所以要吃东西，只能去唐人街&lt;img class=&quot;size-full wp-image-901&quot; src=&quot;https://isanfeng.files.wordpress.com/2018/05/img_5790-1.jpg&quot; width=&quot;4032&quot; height=&quot;3024&quot; /&gt;&lt;img class=&quot;size-full wp-image-893&quot; src=&quot;https://isanfeng.files.wordpress.com/2018/05/img_5787-1.jpg&quot; width=&quot;1124&quot; height=&quot;1500&quot; /&gt;&lt;img class=&quot;wp-image-894 size-full&quot; src=&quot;https://isanfeng.files.wordpress.com/2018/05/img_5788-1.jpg&quot; width=&quot;1124&quot; height=&quot;1500&quot; /&gt;&lt;img class=&quot;size-full wp-image-895&quot; src=&quot;https://isanfeng.files.wordpress.com/2018/05/img_5798-1.jpg&quot; width=&quot;1500&quot; height=&quot;1124&quot; /&gt;&lt;img class=&quot;wp-image-899 size-full&quot; src=&quot;https://isanfeng.files.wordpress.com/2018/05/img_5799-1.jpg&quot; width=&quot;1124&quot; height=&quot;1500&quot; /&gt;&lt;img class=&quot;size-full wp-image-898&quot; src=&quot;https://isanfeng.files.wordpress.com/2018/05/img_5801-1.jpg&quot; width=&quot;1500&quot; height=&quot;1124&quot; /&gt;&lt;img class=&quot;size-full wp-image-900&quot; src=&quot;https://isanfeng.files.wordpress.com/2018/05/img_5802-1.jpg&quot; width=&quot;1500&quot; height=&quot;1124&quot; /&gt;&lt;img class=&quot;size-full wp-image-897&quot; src=&quot;https://isanfeng.files.wordpress.com/2018/05/img_5803-1.jpg&quot; width=&quot;1500&quot; height=&quot;1124&quot; /&gt;&lt;img class=&quot;size-full wp-image-896&quot; src=&quot;https://isanfeng.files.wordpress.com/2018/05/img_5804-1.jpg&quot; width=&quot;1500&quot; height=&quot;1124&quot; /&gt;吃完东西，主要是熟悉下周边道路，实践下免费巴士的搭乘及换乘，以便为明天的“打卡一日游”做准备。&lt;img class=&quot;size-full wp-image-902&quot; src=&quot;https://isanfeng.files.wordpress.com/2018/05/img_5805-1.jpg&quot; width=&quot;1500&quot; height=&quot;1124&quot; /&gt;&lt;img class=&quot;size-full wp-image-904&quot; src=&quot;https://isanfeng.files.wordpress.com/2018/05/img_5807-1.jpg&quot; width=&quot;1124&quot; height=&quot;1500&quot; /&gt;&lt;img class=&quot;wp-image-903 size-full&quot; src=&quot;https://isanfeng.files.wordpress.com/2018/05/img_5809-1.jpg&quot; width=&quot;1500&quot; height=&quot;1124&quot; /&gt;&lt;img class=&quot;wp-image-905 size-full&quot; src=&quot;https://isanfeng.files.wordpress.com/2018/05/img_5810-1.jpg&quot; width=&quot;1500&quot; height=&quot;1124&quot; /&gt;今天很自豪刚到第一天，以我黑的程度，已经有三个半人直接把我认为大马人，竟然有马来人在公交站大概是问我这个来车是来往哪里的吧，上来就说马来语，我当然听不懂，回一些简单英语，他（她）都自然的一懵，我们默默的彼此互看，相互都笑了，笑中略有尴尬。
+&lt;p&gt;机场到市区的地铁有两种，一种express 一种transit 前者直达没有停站速度快28分钟，后者多停站速度慢，但两者的票价是一样的，55RM, 官网预定9折，这个月使用visa卡支付，再折上折，这种小便宜让我全薅了，关于票价相同这件事，是不是看出大马人“很笨”，在我大中华，高铁动车普通车分名字收费是不是中国人的“聪明”？单车必要要有遮盖才能上车，基础设施使用很方便，有lift有elevator，就是指示不人性，你需要使劲仔细寻找分析然后敢问，大马人还是很热情的。&lt;img class=&quot;wp-image-882 size-full&quot; src=&quot;https://isanfeng.files.wordpress.com/2018/05/img_5688-1.jpg&quot; width=&quot;1500&quot; height=&quot;1124&quot; /&gt;&lt;img class=&quot;size-full wp-image-883&quot; src=&quot;https://isanfeng.files.wordpress.com/2018/05/img_5689-1.jpg&quot; width=&quot;1500&quot; height=&quot;1124&quot; /&gt;&lt;img class=&quot;size-full wp-image-884&quot; src=&quot;https://isanfeng.files.wordpress.com/2018/05/img_5690-1.jpg&quot; width=&quot;1500&quot; height=&quot;1124&quot; /&gt;需要提一下的是，他们提供免费的人工手推车服务，一下车就有人在你的车厢门口等你帮你，完全不让你动手还不要小费，受宠若惊。轻轨的话基本类似&lt;img class=&quot;size-full wp-image-885&quot; src=&quot;https://isanfeng.files.wordpress.com/2018/05/img_5774-1.jpg&quot; width=&quot;1500&quot; height=&quot;1124&quot; /&gt;&lt;img class=&quot;wp-image-886 size-full&quot; src=&quot;https://isanfeng.files.wordpress.com/2018/05/img_5771-1.jpg&quot; width=&quot;1500&quot; height=&quot;1124&quot; /&gt;atm取钱，吐的票额有大有小便于使用，马币林吉特的质感怎么和塑料一样呢，may bank 是暂时还不收当地手续费的银行。&lt;img class=&quot;size-full wp-image-887&quot; src=&quot;https://isanfeng.files.wordpress.com/2018/05/img_5769-1.jpg&quot; width=&quot;4032&quot; height=&quot;3024&quot; /&gt;吉隆坡也是我见到的唯一没有oppo vivo 手机广告的城市，逛了半下午也没看到一个，到时华为的旗帜到处漂洋&lt;img class=&quot;size-full wp-image-888&quot; src=&quot;https://isanfeng.files.wordpress.com/2018/05/img_5693-1.jpg&quot; width=&quot;1500&quot; height=&quot;1124&quot; /&gt;来之前大概看了这里的天气，反正显示都是雷暴天气，飞的过程还高兴，到处都晴空万里的，谁知在轻轨上两声雷巨响，车窗上就是豌豆粒大小的雨点瞬间打击，没有任何一点点准备。&lt;img class=&quot;size-full wp-image-889&quot; src=&quot;https://isanfeng.files.wordpress.com/2018/05/img_5775-1.jpg&quot; width=&quot;1125&quot; height=&quot;2001&quot; /&gt;来到住的地方，问了下，原来是这个季节每天都在这个点下个半小时到一小时的雨，才放心，要不一直下下去，骑行就泡汤了，虽有plan B，但还没太细化。&lt;img class=&quot;size-full wp-image-890&quot; src=&quot;https://isanfeng.files.wordpress.com/2018/05/img_5779-1.jpg&quot; width=&quot;1500&quot; height=&quot;1124&quot; /&gt;&lt;img class=&quot;size-full wp-image-891&quot; src=&quot;https://isanfeng.files.wordpress.com/2018/05/img_5780-1.jpg&quot; width=&quot;1124&quot; height=&quot;1500&quot; /&gt;&lt;img class=&quot;wp-image-892 size-full&quot; src=&quot;https://isanfeng.files.wordpress.com/2018/05/img_5781-1.jpg&quot; width=&quot;1500&quot; height=&quot;1124&quot; /&gt;洗去国内灰尘，轻装上身后，就是吃货时间，因为时间还早，所以要吃东西，只能去唐人街&lt;img class=&quot;size-full wp-image-901&quot; src=&quot;https://isanfeng.files.wordpress.com/2018/05/img_5790-1.jpg&quot; width=&quot;4032&quot; height=&quot;3024&quot; /&gt;&lt;img class=&quot;size-full wp-image-893&quot; src=&quot;https://isanfeng.files.wordpress.com/2018/05/img_5787-1.jpg&quot; width=&quot;1124&quot; height=&quot;1500&quot; /&gt;&lt;img class=&quot;wp-image-894 size-full&quot; src=&quot;https://isanfeng.files.wordpress.com/2018/05/img_5788-1.jpg&quot; width=&quot;1124&quot; height=&quot;1500&quot; /&gt;&lt;img class=&quot;size-full wp-image-895&quot; src=&quot;https://isanfeng.files.wordpress.com/2018/05/img_5798-1.jpg&quot; width=&quot;1500&quot; height=&quot;1124&quot; /&gt;&lt;img class=&quot;wp-image-899 size-full&quot; src=&quot;https://isanfeng.files.wordpress.com/2018/05/img_5799-1.jpg&quot; width=&quot;1124&quot; height=&quot;1500&quot; /&gt;&lt;img class=&quot;size-full wp-image-898&quot; src=&quot;https://isanfeng.files.wordpress.com/2018/05/img_5801-1.jpg&quot; width=&quot;1500&quot; height=&quot;1124&quot; /&gt;&lt;img class=&quot;size-full wp-image-900&quot; src=&quot;https://isanfeng.files.wordpress.com/2018/05/img_5802-1.jpg&quot; width=&quot;1500&quot; height=&quot;1124&quot; /&gt;&lt;img class=&quot;size-full wp-image-897&quot; src=&quot;https://isanfeng.files.wordpress.com/2018/05/img_5803-1.jpg&quot; width=&quot;1500&quot; height=&quot;1124&quot; /&gt;&lt;img class=&quot;size-full wp-image-896&quot; src=&quot;https://isanfeng.files.wordpress.com/2018/05/img_5804-1.jpg&quot; width=&quot;1500&quot; height=&quot;1124&quot; /&gt;吃完东西，主要是熟悉下周边道路，实践下免费巴士的搭乘及换乘，以便为明天的“打卡一日游”做准备。&lt;img class=&quot;size-full wp-image-902&quot; src=&quot;https://isanfeng.files.wordpress.com/2018/05/img_5805-1.jpg&quot; width=&quot;1500&quot; height=&quot;1124&quot; /&gt;&lt;img class=&quot;size-full wp-image-904&quot; src=&quot;https://isanfeng.files.wordpress.com/2018/05/img_5807-1.jpg&quot; width=&quot;1124&quot; height=&quot;1500&quot; /&gt;&lt;img class=&quot;wp-image-903 size-full&quot; src=&quot;https://isanfeng.files.wordpress.com/2018/05/img_5809-1.jpg&quot; width=&quot;1500&quot; height=&quot;1124&quot; /&gt;&lt;img class=&quot;wp-image-905 size-full&quot; src=&quot;https://isanfeng.files.wordpress.com/2018/05/img_5810-1.jpg&quot; width=&quot;1500&quot; height=&quot;1124&quot; /&gt;今天很自豪刚到第一天，以我黑的程度，已经有三个半人直接把我认为大马人，竟然有马来人在公交站大概是问我这个来车是来往哪里的吧，上来就说马来语，我当然听不懂，回一些简单英语，他（她）都自然的一懵，我们默默的彼此互看，相互都笑了，笑中略有尴尬。&lt;/p&gt;
 
-今天最后一站双子塔，因为明天晚上计划要装车，就不能再去了。&lt;img class=&quot;wp-image-906&quot; src=&quot;https://isanfeng.files.wordpress.com/2018/05/img_5612-2.jpg&quot; width=&quot;622&quot; height=&quot;931&quot; /&gt;&lt;img class=&quot;size-full wp-image-907&quot; src=&quot;https://isanfeng.files.wordpress.com/2018/05/img_5821-1.jpg&quot; width=&quot;1124&quot; height=&quot;1458&quot; /&gt;&lt;img class=&quot;wp-image-909 size-full&quot; src=&quot;https://isanfeng.files.wordpress.com/2018/05/img_5813-1.jpg&quot; width=&quot;3024&quot; height=&quot;4032&quot; /&gt;双子塔，到此一游。&lt;img class=&quot;wp-image-914 size-full&quot; src=&quot;https://isanfeng.files.wordpress.com/2018/05/img_5830-3.jpg&quot; width=&quot;4032&quot; height=&quot;3024&quot; /&gt;夜宵，Japanese Poast Pork
+&lt;p&gt;今天最后一站双子塔，因为明天晚上计划要装车，就不能再去了。&lt;img class=&quot;wp-image-906&quot; src=&quot;https://isanfeng.files.wordpress.com/2018/05/img_5612-2.jpg&quot; width=&quot;622&quot; height=&quot;931&quot; /&gt;&lt;img class=&quot;size-full wp-image-907&quot; src=&quot;https://isanfeng.files.wordpress.com/2018/05/img_5821-1.jpg&quot; width=&quot;1124&quot; height=&quot;1458&quot; /&gt;&lt;img class=&quot;wp-image-909 size-full&quot; src=&quot;https://isanfeng.files.wordpress.com/2018/05/img_5813-1.jpg&quot; width=&quot;3024&quot; height=&quot;4032&quot; /&gt;双子塔，到此一游。&lt;img class=&quot;wp-image-914 size-full&quot; src=&quot;https://isanfeng.files.wordpress.com/2018/05/img_5830-3.jpg&quot; width=&quot;4032&quot; height=&quot;3024&quot; /&gt;夜宵，Japanese Poast Pork&lt;/p&gt;
 
 &lt;hr /&gt;
 
-&amp;nbsp;
+&lt;p&gt; &lt;/p&gt;
 
-接下去的日子原谅我没有坚持记录下来……
+&lt;p&gt;接下去的日子原谅我没有坚持记录下来……&lt;/p&gt;
 
-&amp;nbsp;</content><author><name>isanfeng</name></author><category term="Bikepacking" /><category term="分时分段环游地球" /><summary type="html">小主： isanfeng 序（2018.4.28@上海） 之前在fb的台湾车友中听到壮游这个词语，开始还以为是客家话，一直觉得很有power，后来在一本关于大旅行的书中，第一次了解到了这个词语的真正含义： 关于壮游，早在17世界，游历欧洲就是贵族子弟所受教育的一个组成部分，他们参观博物馆、欣赏画作、更重要的是，品尝仅在课堂与书本中学习过的葡萄酒。他们会花上几个月的时间在欧洲大陆旅行，尽管大多数人最远只到达意大利（可能会葡萄酒有关系），但是最后他们都带着受益终身的故事、纪念品和伤痛满载而归。 自此我不太敢使用壮游作为自己旅行的标签，虽然在去一个新的地方时，会对它历史预先进行学习，以便让自己身临其境时能更加融入到文化和风俗中，会去最喜欢的博物馆和农贸市场，一个可以博古一个可以知今，而且也会乐于体验当地独有的活动和生活中。虽然也蛮符合壮游的概念，但总有一种感觉让我自己也说不清楚，总觉得还是少点什么似的…… 自己的单车旅行每次到一个新的地方，总会有个不成文的仪式，就是一定要登顶单车能到达的最高点（目前去过的地方中已经包含3个国家的最高点），因为这次计划的大马行时间又是不长不短，再加上大马本身是一个多文化，多民族的多元国家，出行前10天才开始准备这趟旅程。所以这次会将范围尽量缩小，除了选择了一个山峦重叠，林木苍翠，花草繁茂，空气清新怡人，登山公路曲折迂回的避暑高原仙境福隆港外，另外还将体验首都吉隆坡，榴莲（猫山王）之乡劳勿，双溪兰等，老城文冬的风俗和美食，珍德拜热带森林中豪华露营，远看云顶高原……（在这么短的时间收集这么多信息要感谢当地的朋友Teh An Qiao）。 在马来西亚其实有三大避暑高原胜地（云顶高原，福隆港，金马伦高原），尤其时云顶高原应该是整个东南亚海拔最高的避暑胜地，本来最开始这次旅程是计划骑行云顶高原的，在世界第一酒店住一晚的，可以咨询了多个当地骑友，通往云顶的公路为私人公路，checkpoint有警察检查，不允许单车骑士同行（除非在特定单车赛事中）所以放弃了云顶高原的计划。至于金马伦高原，纯属距离太远，行程时间不够而放弃。最终在Qiao的建议下选择了福隆港。 PS：（三大高原简介以及海拔、坡度对比图） 1. 福隆港（此次骑行的高原） 福隆港，英语：Fraser Hill，一座叫港不是港的山，马来西亚的三大著名避暑高原之一，位于彭亨州与雪兰莪州交界附近，属彭亨州界内中央山脉范围，海拔高度1260米。这里的环境风凉气爽，被誉为马来西亚最美和最自然的山区度假地。位于中心的环岛钟楼，是一个仿造英国伦敦大笨钟的钟楼，和背后的福隆港邮政局相映成趣，是福隆港的标志。“福隆港”这座山的华文名称，念起来益显俗气，弗雷泽山（Fraser Hill）的英文原名，反而浪漫许多。它是英殖民政府开发的度假胜地。1880年代，英国商旅路易士占姆士弗雷泽与他的驴队，是活跃在马来亚主干山脉的矿业交易人。都赖通往古毛的栈道间，他的踪影总是教人那么的熟悉，直到有一天，他与整个驴队突然消失，蒸发在空气里。多年来，没人知晓他是在何时何地为何而失踪，此后，弗雷泽成了山中传奇。所以保留很多英式建筑。另外这里有全世界最多品种的鸟类居住，约有230多种，所以也是一个观鸟胜地。 云顶高原 云顶高原，英语：Genting Highlands在山上建一座度假胜地这个想法是已故丹斯里林梧桐在1964年前往金马仑高原谈生意时突然涌起的念头。在金马仑高原享受高原上那清新凉快的气候时，林梧桐就想到，马来西亚是热带国家，那么如果在山上建一座度假胜地，那势必会成为大家避暑的好去处。为了实现这个想法，林梧桐马上翻阅地图希望能够在吉隆坡附近找到一个可以兴建度假村的适合地点。最后，林梧桐在距离吉隆坡58公里处一座高1,800米的乌鲁加里山看见了理想地点。因此开启了林梧桐将偏僻并且充斥着原始热带雨林的山区转变成一个度假胜地的过程。 HC的爬坡，虽然两次环泰北时，经历了好几个HC爬坡，爽到哭，时间久了难免怀念，这次的未成行留下一些遗憾。 金马伦高原 金马伦高原，英语：Cameron Highlands，地处马来半岛主干山脉蒂迪旺沙山脉东麓，海拔约1500米左右，是马来西亚最大的高原度假胜地。金马伦高原是1885年英国探测家金马伦爵士在一个测图行动中所发现而命名的。1925年，佐治·玛史威爵士（Sir George Maxwell) 参观这里后，将其发展为避暑胜地，完成了一条通往打巴的公路。公路通车后，英国的高官显要都在此建筑别墅，一些还定居并开发此高原。不久后，一个永久的英军军营在此成立。它最吸引人之处在于其井然有序青翠的茶园，梯田式的花园，新鲜的蔬菜园，可随手栽食的草莓园，还有蜜蜂园，蝴蝶园和仙人掌世界。另外喜欢探险的可以进行森林探险之旅和看日出，森林里有全世界最大的花(rafflesia flower)大王花。 行程资料参考： http://www.cameron-highlands.com/ http://www.cameronhighlandsinfo.com/ http://www.cameron.com.my/ http://www.cameron-highland-destination.com/ 全是1-2级爬坡也是蛮恐怖的。 第一天（2018.4.29@上海-香港，夜宿香港机场） 第一天，21点上海出发，23点30分到达香港国际机场，等转机明天早上8点30分飞吉隆坡，所以要在香港机场过夜，至于在机场过夜对我来说是第一次，以前看到有人各大机场过夜的经历有时觉得蛮酷的，所以有这么一次经历我也倒不发愁，犯贱似的蛮喜欢在旅行的过程中有各种不同的体验，不管是吃苦还是受累，其实每次回忆的时候，这些才是记忆的最深点，所以我会想着给每次自己的旅行多一些不同的体验，《朗读者》中有这么一句话：“生命不是你活了多少日子，而是你记住了多少日子，要使你过的每一天都值得记忆。” 我想我的这些也是一种另外的形式吧。 其实今天一天基本都在收拾行李，一是之前没太准备，而是bikepackaging就是要让带的行李最少最轻以达到单车旅行的最好体验，然后另外一个最主要的就是打包车子，因为之前的经验，其实已经轻车熟路了。 今天已经算是错峰出行，值机安检人流非常的稀少，连整个登机口都没几个人，不过谁想没一会来一批香港人，从以前看不上香港人的拽到今天看到香港人的各种劣性（在朋友圈里已经吐过槽了），突然对香港人的印象彻底翻车，不过仔细想想也倒没必要，每个地方都有不同的人群，人群不同的特点，好的坏的善的恶的，我们不能改变人们什么，能做的只能是去影响，或者包容，所以不再谈昨天见到的香港人留下的劣性，我说这就发现写日志比发朋友圈的好处，发朋友圈很大时候是一种冲动，吐槽，发牢骚，而写日志很多时候是要经过脑子的，莫名的就会有一种上帝视角，多了一些包容，谅解等，而再想到关于香港人的什么，则比较多的是在日本一起骑车的香港俩兄弟的美好时光。所以万事不要冲动，像泰国人的口头禅一样，อย่างช้าๆ，慢慢来，其实这是一种态度，可以多一些思考的时间，放在佛教里，应该就是所谓的禅吧。 两个来小时，上海到香港，国泰的航班上的设施确实不错，收集了最新的电影，飞一趟正好看一部在家下了好久都没看的电影 还要提下餐食，居然有哈根达斯，哈根达斯，哈根达斯，我觉得任何时候都受不了冰激凌的诱惑，日本骑车基本是每天五六支，听说马来西亚文冬的冰激凌很有名哦…… 下飞机后，就要在香港机场过夜了，来之前是查过香港机场过夜攻罗的，很多信息还都是不准确的，所以还是得现场靠自己，不过有一点是准确的，机场的座位基本都是两连坐，你知道即使再短的人，躺在上面腿也是伸不直的，会非常不舒服，不过使劲找的话，还是能找到这种三连坐的，我不会告诉你在T1 46号登机口附近有不少。 今天过夜的装备就是这个轻量睡袋，600克，收纳起来也不大，然后忘记带充气枕头了，就用颈枕凑合一下。经实验，三连坐对于172的人来说正好，伸直腿还空余一点，脚底就是大飞机。好了，现在凌晨2点钟了，晚安。 第二天（2018.4.30一早@香港） 早安，香港。昨晚睡的还算舒服，也许是睡的太晚了，一觉到天亮，发现已经有很多人在move了。 时间，步履匆忙。 人在时间中穿梭，留下倒影。在现实的时间空间中奔波，就像昨天在飞机上看的寻梦环游记，说不定真有另外一个空间，究竟哪个是现实，哪个是虚幻。在某一瞬间，真的不得而知。整个候机楼就像一个巨大的牢笼。人们在等待。人们在期待。人们在打发时间。人们在无所事事。但是，人们都有自己的目的地。不同的目的地。 第二天（2018.4.30@吉隆坡） 算是正式行程的一天，在机场过夜后早上早早的醒来，洗手间简单的洗漱擦澡，赶往登机口，也许时间太早，也没什么胃口，平时都是10点吃早饭，还是登机后享用我的哈根达斯吧，哈哈哈…香港不愧为国泰的大本营，不仅贵宾室多，来到登机口，一堆的国泰和港龙的大飞机，卖铁应该好几顿吧。经过3个半小时，提前10分钟到达吉隆坡国际机场KLIA M航站楼，刚开始订机票时显示M航站楼，还是有点懵的，这里科普一下，吉隆坡国际机场为KLIA，这是一开始建设时的简称，后来不仅外国人就连国内人也来这里转机，规模逐渐增大，新建了KLIA2，也就是廉价航空的聚集地，相应的便于叫法上的区别，KLIA习惯性的被叫做KLIA1，那M航站楼是1的为卫星楼，也属于KLIA1，只不过需要做很远的摆渡车。入境，这里是我经历的唯一不用写入境卡的国家，入境时会简单问下目的离镜时间居住地址等等，但英文像阿三一样严重的口音话，其实就是阿三的同胞，仔细听还好，超大行李也顺利领取，国泰啊，30公斤不限尺寸，豪气，不过对于国泰有一点必须说一下，空姐的颜值都不高，而且服务态度也没有其它航空到位，不过也就算了，吐槽下，生活都不易。 机场到市区的地铁有两种，一种express 一种transit 前者直达没有停站速度快28分钟，后者多停站速度慢，但两者的票价是一样的，55RM, 官网预定9折，这个月使用visa卡支付，再折上折，这种小便宜让我全薅了，关于票价相同这件事，是不是看出大马人“很笨”，在我大中华，高铁动车普通车分名字收费是不是中国人的“聪明”？单车必要要有遮盖才能上车，基础设施使用很方便，有lift有elevator，就是指示不人性，你需要使劲仔细寻找分析然后敢问，大马人还是很热情的。需要提一下的是，他们提供免费的人工手推车服务，一下车就有人在你的车厢门口等你帮你，完全不让你动手还不要小费，受宠若惊。轻轨的话基本类似atm取钱，吐的票额有大有小便于使用，马币林吉特的质感怎么和塑料一样呢，may bank 是暂时还不收当地手续费的银行。吉隆坡也是我见到的唯一没有oppo vivo 手机广告的城市，逛了半下午也没看到一个，到时华为的旗帜到处漂洋来之前大概看了这里的天气，反正显示都是雷暴天气，飞的过程还高兴，到处都晴空万里的，谁知在轻轨上两声雷巨响，车窗上就是豌豆粒大小的雨点瞬间打击，没有任何一点点准备。来到住的地方，问了下，原来是这个季节每天都在这个点下个半小时到一小时的雨，才放心，要不一直下下去，骑行就泡汤了，虽有plan B，但还没太细化。洗去国内灰尘，轻装上身后，就是吃货时间，因为时间还早，所以要吃东西，只能去唐人街吃完东西，主要是熟悉下周边道路，实践下免费巴士的搭乘及换乘，以便为明天的“打卡一日游”做准备。今天很自豪刚到第一天，以我黑的程度，已经有三个半人直接把我认为大马人，竟然有马来人在公交站大概是问我这个来车是来往哪里的吧，上来就说马来语，我当然听不懂，回一些简单英语，他（她）都自然的一懵，我们默默的彼此互看，相互都笑了，笑中略有尴尬。 今天最后一站双子塔，因为明天晚上计划要装车，就不能再去了。双子塔，到此一游。夜宵，Japanese Poast Pork   接下去的日子原谅我没有坚持记录下来……  </summary></entry></feed>
+&lt;p&gt; &lt;/p&gt;</content><author><name>三丰</name></author><category term="Bikepacking" /><category term="分时分段环游地球" /><summary type="html">小主： 三丰</summary></entry></feed>
