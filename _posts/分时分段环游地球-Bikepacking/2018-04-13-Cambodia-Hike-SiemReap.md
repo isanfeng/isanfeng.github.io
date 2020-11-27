@@ -2,7 +2,7 @@
 layout: post
 title: 柬埔寨：高棉微笑.暹粒篇.2018
 date: 2018-04-13 16:07
-author: isanfeng
+author: 三丰
 description:
 img: posts/fo-0.jpg
 tags: [分时分段环游地球]
@@ -10,9 +10,6 @@ Bikepacking: true
 ---
 {{site.label1}} <a href="/about">{{page.author}}</a> {{site.label2}}
 
-<h3><a href="https://isanfeng.wordpress.com/2018/03/31/%e4%ba%94%e6%9c%88%e7%9b%9b%e6%94%be-%e7%ba%a2%e8%89%b2%e9%ab%98%e6%a3%89-%e9%87%91%e8%be%b9%e7%af%87/" target="_blank" rel="noopener">“五月盛放”.红色高棉.金边篇</a></h3>
-<h3><a href="https://isanfeng.wordpress.com/2018/04/13/%e4%ba%94%e6%9c%88%e7%9b%9b%e6%94%be-%e9%ab%98%e6%a3%89%e5%be%ae%e7%ac%91-%e6%9a%b9%e7%b2%92%e7%af%87%ef%bc%88%e5%b7%b2%e7%bb%93%e6%9d%9f%ef%bc%89/" target="_blank" rel="noopener">“五月盛放”.高棉微笑.暹粒篇</a></h3>
-<h3><a href="https://isanfeng.wordpress.com/2018/04/21/%e4%ba%94%e6%9c%88%e7%9b%9b%e6%94%be-%e7%8b%ac%e4%b8%96%e4%bb%99%e5%a2%83-%e8%a5%bf%e5%93%88%e5%8a%aa%e5%85%8b-%e7%a6%bb%e5%b2%9b%e7%af%87/">“五月盛放”.独世仙境.西哈努克.离岛篇</a></h3>
 <h2>第三天(2018.4.2)</h2>
 金边到暹粒，沿着柬埔寨著名的6号公路，距离约为320公里，可以做巴士前往，大约历时6个半小时，也有飞机通行，为了体验一把世界上最槽糕的国际公路和神风司机的瘾，我选择乘坐从金边出发的夜行巴士，早上6点钟左右到达暹粒，不会耽误第二天的旅程的情况下，从一个城市移动到另外一个城市，还是蛮不错，另外主要是巴士的费用比飞机低很多。
 <blockquote>【6号公路】
