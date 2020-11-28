@@ -275,7 +275,7 @@
 			var winWidth = parElement.innerWidth();
 			var winHeight = parElement.innerHeight();
 
-			// TODO: background-clip
+			
 			if (backgroundSize == 'cover') {
 				var scale = Math.max(winWidth / this.backgroundWidth, winHeight / this.backgroundHeight);
 				

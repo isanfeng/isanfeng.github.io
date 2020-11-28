@@ -85,6 +85,13 @@ layout: default
             {% include disqus.html %}
         {% endif %}
 
+        <div class="toc-mask" onclick="TOC.close();"></div>
+        <div aria-label="文章目录" class="TOC"></div>
+        <style>
+        #toggle-toc { display: block; }
+        </style>
+        </div>
+
         {% include author-box.html %}
         {% include recent-post.html %}
         {% include newsletter.html %}

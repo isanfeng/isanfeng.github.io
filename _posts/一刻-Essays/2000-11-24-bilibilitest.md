@@ -10,6 +10,7 @@ Essays: true
 ---
 {{site.label1}} <a href="/about">{{page.author}}</a> {{site.label2}}
 
+
    <div class="article-entry" itemprop="articleBody">
 
   <h3 id="aplayer："><a href="#aplayer：" class="headerlink" title="aplayer演示："></a>aplayer：</h3>
@@ -27,5 +28,17 @@ Essays: true
 
 <br />
 
-<h3 id="acfun："><a href="#acfun：" class="headerlink" title="acfun："></a>acfun：</h3><iframe src="https://www.acfun.cn/player/ac12945786" style="width:100%;height:500px;min-width:375px;min-height:200px" id="ACPlayer-re"  scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true"></iframe>
-      <!-- reward -->
+<h，3 id="acfun："><a href="#acfun：" class="headerlink" title="acfun："></a>acfun：</h3><iframe src="https://www.acfun.cn/player/ac12945786" style="width:100%;height:500px;min-width:375px;min-height:200px" id="ACPlayer-re"  scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true"></iframe>
+
+
+> 有意思
+>
+
+<ruby>
+后翼弃兵
+  <rp>(</rp>
+    <rt>hòu yì qì bīng</rt>
+  <rp>)</rp>
+</ruby>
+
+竟然是这个

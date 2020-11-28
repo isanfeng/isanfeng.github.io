@@ -56,8 +56,7 @@ Fire: true
 
 可能绝望到底之后，就会再一次慢慢搞清楚状况：
 
-> 没有人是谁比谁差，每个人想要的，追求的都不一样，我干嘛他妈的在乎别人有什么，我比别人多或者少，有什么关系，每个人只管做好自己，越在意别人的成就，这就已经是失败的开端了，我必须先抛弃这种心理，才能更专注于自己的事情。
-
+>没有人是谁比谁差，每个人想要的，追求的都不一样，我干嘛他妈的在乎别人有什么，我比别人多或者少，有什么关系，每个人只管做好自己，越在意别人的成就，这就已经是失败的开端了，我必须先抛弃这种心理，才能更专注于自己的事情。
 
 最近比较感兴趣一种新的运动FIRE（the Financial Independence, Retire Early movement 的缩写），它的兴起源于美国，愿望是“财务独立，提早退休”。这个运动的一个核心法则是：降低物欲、过极简的生活，来迅速攒够一年生活费的25倍。
 
@@ -74,7 +73,7 @@ FIRE的解释
 >
 >那么到底什么样的生活方式才算是 FIRE 呢？维基百科这样写道：
 >
->The objective is to accumulate assets until the resulting passive income provides enough money for living expenses in perpetuity. Proponents of the FIRE movement suggest the 4% rule as a guide, thus setting a goal of at least 25 times estimated annual living expenses. 
+>The objective is to accumulate assets until the resulting passive income provides enough money for living expenses in perpetuity. Proponents of the FIRE movement suggest the 4% rule as a guide, thus setting a goal of at least 25 times estimated annual living expenses.
 >
 >译：FIRE 的目标是储蓄足够的资产，使得资产产生的被动收益永远高于日常开销。在 FIRE 圈有一条有名的“ 4%”原则，即储蓄至少 25 倍于日常年开销的资产即可达到 FIRE 状态。
 >
@@ -97,7 +96,7 @@ MADFIENTIST
 >
 >现在，他跟妻子长居在他们最喜欢的城市，苏格兰的爱丁堡。
 
----
+***
 优质FIRE内容：
 >博客：
 >
