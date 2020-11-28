@@ -91,6 +91,7 @@
 <!--    <script src="//unpkg.com/valine@latest/dist/Valine.min.js"></script>-->
 	<script src="/assets/js/valine/Valine.min.js"></script>
 
+
 </head>
 
 <body>
@@ -230,7 +231,7 @@
           <!--<li style="margin-bottom:200px;"><a href="/about">About(0)</a></li>-->
         </ul>
       </nav>
-      <p class="logo"><a href="/">=流浪笔记.三丰=</a></p>
+      <p class="logo"><a href="/">流浪笔记.三丰</a></p>
 
 
 		<div class="navbar-container">
@@ -334,7 +335,7 @@
             <a href="https://twitter.com/intent/tweet?text=网站的前生今世&url=http://localhost:4000/hello-world/" title="Share on Twitter" rel="nofollow" target="_blank"><i class="fa fa-twitter" aria-hidden="true"></i></a>
             <a href="https://facebook.com/sharer.php?u=http://localhost:4000/hello-world/" title="Share on Facebook" rel="nofollow" target="_blank"><i class="fa fa-facebook" aria-hidden="true"></i></a>
             <a href="https://plus.google.com/share?url=http://localhost:4000/hello-world/" title="Share on Google+" rel="nofollow" target="_blank"><i class="fa fa-google" aria-hidden="true"></i></a>
-            <a href="https://service.weibo.com/share/share.php?url=http://iwangsanfeng.gitee.io/hello-world/&title=网站的前生今世&pic=http://localhost:4000/assets/img/posts/one_person.jpg" title="Share on Weibo" rel="nofollow" target="_blank"><i class="fa fa-weibo" aria-hidden="true"></i></a>
+            <a href="https://service.weibo.com/share/share.php?url=https://iwangsanfeng.gitee.io/hello-world/&title=网站的前生今世&pic=http://localhost:4000/assets/img/posts/one_person.jpg" title="Share on Weibo" rel="nofollow" target="_blank"><i class="fa fa-weibo" aria-hidden="true"></i></a>
           </div>
           <!-- End Share -->
 
@@ -471,12 +472,19 @@
         <!--评论系统型号2，可以通过config中的配置开关控制-->
         
 
+        <div class="toc-mask" onclick="TOC.close();"></div>
+        <div aria-label="文章目录" class="TOC"></div>
+        <style>
+        #toggle-toc { display: block; }
+        </style>
+        </div>
+
         <!--每个page底部的作者展示信息-->
 
 <section class="author-box">
-  <img src="/assets/img/isanfeng.jpg" alt="=流浪笔记.三丰=" class="author-img">
+  <img src="/assets/img/isanfeng.jpg" alt="流浪笔记.三丰" class="author-img">
   <div class="author-desc">
-    <h2>=流浪笔记.三丰=</h2>
+    <h2>流浪笔记.三丰</h2>
     <p>Live the life you love, Love the life you lives.</p>
     <p></p>
     <ul>
@@ -573,14 +581,14 @@
 	<div class="footer-social">
 		<div class="footer-container clearfix">
 			<div class="social-list">
-				<a class="social github" target="blank" href="http://iwangsanfeng.gitee.io/">镜像站(国内访问更迅速)</a>
+				<a class="social github" target="blank" href="https://iwangsanfeng.gitee.io/">镜像站(国内访问更迅速)</a>
 				<a class="social github" target="blank" href="https://isanfeng.github.io/">通用站</a>
 			</div>
 		</div>
 	</div>
 
 	<div class="copyright" style="font-size:12px;color:#B3B3B3;padding-bottom:30px;float:bottom">
-		<p>&copy; 2020 =流浪笔记.三丰=</p>
+		<p>&copy; 2020 流浪笔记.三丰</p>
 
 	<div style="font-size:12px;color:#b3b3b3;padding-bottom:30px;float:bottom">
 		<p>【冯唐语录 - 冯唐喜欢最长时间的作家，没有之一】</p>
@@ -604,7 +612,7 @@
 		<script>
 			var now = new Date();
 			function createtime() {
-				var grt= new Date("04/01/2020 00:00:00");//在此处修改你的建站时间
+				var grt= new Date("11/01/2020 00:00:00");//在此处修改你的建站时间
 				now.setTime(now.getTime()+250);
 				days = (now - grt ) / 1000 / 60 / 60 / 24; dnum = Math.floor(days);
 				hours = (now - grt ) / 1000 / 60 / 60 - (24 * dnum); hnum = Math.floor(hours);
@@ -612,7 +620,7 @@
 				mnum = Math.floor(minutes); if(String(mnum).length ==1 ){mnum = "0" + mnum;}
 				seconds = (now - grt ) / 1000 - (24 * 60 * 60 * dnum) - (60 * 60 * hnum) - (60 * mnum);
 				snum = Math.round(seconds); if(String(snum).length ==1 ){snum = "0" + snum;}
-				document.getElementById("timeDate").innerHTML = "本站已上线安全运行 "+dnum+" 天 ";
+				document.getElementById("timeDate").innerHTML = "已辛苦陪伴： "+dnum+" 天 ";
 				document.getElementById("times").innerHTML = hnum + " 小时 " + mnum + " 分 " + snum + " 秒";
 			}
 		setInterval("createtime()",250);
@@ -627,7 +635,7 @@
 	<!-- require MetingJS -->
 	<script src="https://cdn.jsdelivr.net/npm/meting@2/dist/Meting.min.js"></script>
 	<meting-js
-			id="5350933644"
+			id="5350939993"
 			lrc-type="0"
 			server="netease"
 			order="list"
@@ -646,6 +654,18 @@
 
 </div>
 
+  <!-- <ul>
+  <li>网站的前生今世
+    <ul>
+      <li><a href="#前生">前生</a></li>
+      <li><a href="#今世">今世</a></li>
+      <li>流浪笔记.三丰</li>
+      <li>Recent Post</li>
+      <li>Newsletter</li>
+    </ul>
+  </li>
+</ul>
+ -->
   
 <div class="top" title="Top"><i class="fa fa-chevron-up" aria-hidden="true"></i></div>
 <!-- End Top Scroll -->
