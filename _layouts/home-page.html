@@ -4,10 +4,10 @@ layout: default
 <div class="flex-container">
   {% include header.html %}
   <div class="content wrapper">
-    {{ content }}
-    <!-- {% include toc.html html=content %} -->
-  {% include search.html %}
-  {% include pagination.html %}
+    <!-- {{ content }} -->
+    {% include toc.html html=content %}
+    {% include search.html %}
+    {% include pagination.html %}
   </div>
   {% include footer.html %}
 </div>
