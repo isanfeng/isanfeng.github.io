@@ -1,0 +1,33 @@
+I"4<p><span style="font-size:12px">小主： <a href="/about">三丰</a> </span></p>
+
+<div class="article-entry" itemprop="articleBody">
+
+  <h3 id="aplayer："><a href="#aplayer：" class="headerlink" title="aplayer演示："></a>aplayer：</h3>
+    <div id="aplayer-oKBlYTYc" class="aplayer aplayer-tag-marker meting-tag-marker" data-id="2121130123" data-server="netease" data-type="playlist" data-mode="circulation" data-autoplay="false" data-mutex="true" data-listmaxheight="340px" data-preload="auto" data-theme="#555"></div>
+
+<br />
+
+<h3 id="dplayer："><a href="#dplayer：" class="headerlink" title="dplayer演示："></a>dplayer：</h3><div id="dplayer0" class="dplayer hexo-tag-dplayer-mark" style="margin-bottom: 20px;"></div><script>(function(){var player = new DPlayer({"container":document.getElementById("dplayer0"),"video":{"url":"https://cdn.jsdelivr.net/gh/Shen-Yu/cdn/mp4/mp4_demo.mp4"}});window.dplayers||(window.dplayers=[]);window.dplayers.push(player);})()</script>
+
+<br />
+
+<h3 id="bilibili："><a href="#bilibili：" class="headerlink" title="bilibili："></a>bilibili：</h3><iframe src="//player.bilibili.com/player.html?aid=75285353&amp;bvid=BV16E411Y74Q&amp;cid=128777597&amp;page=1" style="width:100%;height:500px;min-width:375px;min-height:200px" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true"> </iframe>
+
+<br />
+
+&lt;h，3 id="acfun："&gt;<a href="#acfun：" class="headerlink" title="acfun："></a>acfun：&lt;/h3&gt;<iframe src="https://www.acfun.cn/player/ac12945786" style="width:100%;height:500px;min-width:375px;min-height:200px" id="ACPlayer-re" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true"></iframe>
+
+
+&gt; 有意思
+&gt;
+
+<ruby>
+后翼弃兵
+  <rp>(</rp>
+    <rt>hòu yì qì bīng</rt>
+  <rp>)</rp>
+</ruby>
+
+竟然是这个
+</div>
+:ET
