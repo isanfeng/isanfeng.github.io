@@ -5,7 +5,7 @@ date: 2018-04-21 16:10
 author: 三丰
 description:
 img: posts/life-good.jpg
-tags: [分时分段环游地球]
+tags: [Hike, 分时分段环游地球]
 Bikepacking: true
 ---
 {{site.label1}} <a href="/about">{{page.author}}</a> {{site.label2}}
