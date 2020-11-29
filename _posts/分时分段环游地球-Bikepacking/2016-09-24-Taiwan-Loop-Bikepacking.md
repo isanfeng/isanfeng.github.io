@@ -4,7 +4,7 @@ title: 环台湾.2016
 date: 2016-09-24 00:08
 author: 三丰
 description:
-img: post-10.jpg
+img: posts/taiwan.webp
 tags: [Bikepacking, 分时分段环游地球]
 Bikepacking: true
 ---

@@ -4,7 +4,7 @@ title: 环济州岛.2018
 date: 2017-08-05 00:10
 author: 三丰
 description:
-img: post-8.jpg
+img: posts/jeju-1-0.jpg
 tags: [Bikepacking, 分时分段环游地球]
 Bikepacking: true
 ---
