@@ -1,10 +1,10 @@
 ---
 layout: post
-title: Hello test player
+title: Hello test
 date:  2000-11-24 18:16:00 +0900
 description:
 img: post-1.jpg
-tags: [随笔]
+tags: [测试]
 author: 三丰
 Essays: true
 ---

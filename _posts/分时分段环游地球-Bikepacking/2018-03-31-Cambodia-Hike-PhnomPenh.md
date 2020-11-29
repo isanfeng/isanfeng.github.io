@@ -5,7 +5,7 @@ date: 2018-03-31 06:30
 author: 三丰
 description:
 img: post-5.jpg
-tags: [分时分段环游地球]
+tags: [Hike, 分时分段环游地球]
 Bikepacking: true
 ---
 {{site.label1}} <a href="/about">{{page.author}}</a> {{site.label2}}
