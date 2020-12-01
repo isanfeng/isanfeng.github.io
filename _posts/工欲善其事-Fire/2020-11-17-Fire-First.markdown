@@ -1,6 +1,6 @@
 ---
 layout: post
-title: 我对FIRE的一点理解
+title: 我谈谈FIRE
 date: 2020-11-17 20:04
 author: 三丰
 description:

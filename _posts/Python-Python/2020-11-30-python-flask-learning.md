@@ -1,0 +1,15 @@
+---
+layout: post
+title: 进入Flask的世界
+date: 2020-11-30 20:04
+author: 三丰
+description:
+img: posts/flask-0-0.jpg
+tags: [特训]
+Python: true
+---
+{{site.label1}} <a href="/about">{{page.author}}</a> {{site.label2}}
+
+- 实践一个简单Flask程序：[开始吧](https://read.helloflask.com)
+
+- 详尽探索Flask：[Flask Web 开发实战 - 入门、进阶与原理解析，PDF下载](https://share.weiyun.com/5h4ce8wG) 密码：cthbp3
