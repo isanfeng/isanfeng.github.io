@@ -3,7 +3,7 @@ layout: post
 title: 网站的前生今世
 date:  2020-04-01 21:16:00 +0900
 description: Hello World！
-img: posts/one_person.jpg
+img: posts/fo-0.jpg
 tags: [一刻]
 author: # Add name author (optional)
 Essays: true
