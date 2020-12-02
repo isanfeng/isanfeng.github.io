@@ -1,16 +1,3 @@
-## Ref
+## 声明
 
-[网站参考来源](https://github.com/artemsheludko/adam-blog)
-
-## Features
-
-- [Google Fonts](https://fonts.google.com/)
-- [Font Awesome](http://fontawesome.io/)
-- [Disqus](https://disqus.com/)
-- [MailChimp](https://mailchimp.com/)
-- [Analytics](https://analytics.google.com/analytics/web/)
-- [Search](https://github.com/christian-fei/Simple-Jekyll-Search)
-
-### License
-
-GNU General Public License v3.0
+未经允许，不得转载，违者必究。

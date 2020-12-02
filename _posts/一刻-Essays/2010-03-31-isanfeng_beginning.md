@@ -4,7 +4,7 @@ title: 三丰来了
 date: 2010-03-31 14:10
 author: 三丰
 description:
-img: posts/young-old.jpg
+img: posts/isanfeng-banch.jpg
 tags: [一刻]
 Essays: true
 ---
