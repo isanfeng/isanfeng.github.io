@@ -1,9 +1,9 @@
 [
   
     {
-      "title"    : "进入Flask的世界",
+      "title"    : "学学Flask",
       "category" : "",
-      "tags"     : "特训",
+      "tags"     : "特训, Python",
       "url"      : "/python-flask-learning/",
       "date"     : "2020-11-30 20:04:00 +0800"
     } ,
@@ -17,7 +17,7 @@
     } ,
   
     {
-      "title"    : "我谈谈FIRE",
+      "title"    : "聊聊FIRE",
       "category" : "",
       "tags"     : "FIRE",
       "url"      : "/Fire-First/",

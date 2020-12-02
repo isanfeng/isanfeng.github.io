@@ -4,7 +4,7 @@ title: 柬埔寨：独世仙境.西哈努克.离岛篇.2018
 date: 2018-04-21 16:10
 author: 三丰
 description:
-img: posts/life-good.jpg
+img: posts/cambodia-3-0.jpg
 tags: [Hike, 分时分段环游地球]
 Bikepacking: true
 ---

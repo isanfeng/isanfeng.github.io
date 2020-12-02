@@ -1,6 +1,6 @@
 ---
 layout: post
-title: 我谈谈FIRE
+title: 聊聊FIRE
 date: 2020-11-17 20:04
 author: 三丰
 description:
