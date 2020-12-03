@@ -4,7 +4,7 @@ title: 带父母去旅游.北京.2020
 date: 2020-10-01 20:56
 author: 三丰
 description:
-img: posts/Beijing-0.jpg
+img: posts/Beijing-0.webp
 tags: [带父母去旅游, 分时分段环游地球]
 Bikepacking: true
 ---

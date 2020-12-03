@@ -4,7 +4,7 @@ title: 独库公路（ns@planning）
 date: 2020-11-11 00:09
 author: 三丰
 description:
-img: posts/DukuRoad-0.jpeg
+img: posts/DukuRoad-0.webp
 tags: [Bikepacking, 分时分段环游地球]
 Bikepacking: true
 ---

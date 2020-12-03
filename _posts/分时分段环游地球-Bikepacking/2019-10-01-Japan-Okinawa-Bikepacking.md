@@ -4,7 +4,7 @@ title: 环冲绳.2019
 date: 2019-10-1 00:09
 author: 三丰
 description:
-img: posts/Okinawa-0.png
+img: posts/Okinawa-0.webp
 tags: [Bikepacking, 分时分段环游地球]
 Bikepacking: true
 ---

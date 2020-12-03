@@ -4,7 +4,7 @@ title: 柬埔寨：五月盛放.金边篇.2018
 date: 2018-03-31 06:30
 author: 三丰
 description:
-img: posts/cambodia-1-0.jpg
+img: posts/cambodia-1-0.webp
 tags: [Hike, 分时分段环游地球]
 Bikepacking: true
 ---

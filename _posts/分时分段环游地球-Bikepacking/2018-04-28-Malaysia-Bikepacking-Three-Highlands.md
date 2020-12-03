@@ -4,7 +4,7 @@ title: 马来西亚.试炼.吉隆坡-福隆港LOOP.2018
 date: 2018-04-28 21:00
 author: 三丰
 description:
-img: posts/Grey_Load.jpg
+img: posts/Grey_Load.webp
 tags: [Bikepacking, 分时分段环游地球]
 Bikepacking: true
 ---

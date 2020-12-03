@@ -4,7 +4,7 @@ title: 菲律宾.克恐之旅.2018
 date: 2018-10-03 20:56
 author: 三丰
 description:
-img: posts/Philippines-0.jpg
+img: posts/Philippines-0.webp
 tags: [Hike, 分时分段环游地球]
 Bikepacking: true
 ---

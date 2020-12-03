@@ -4,7 +4,7 @@ title: 环泰北.顺时针LOOP.2017
 date: 2017-09-16 00:11
 author: 三丰
 description:
-img: posts/Thailand-2-0.jpg
+img: posts/Thailand-2-0.webp
 tags: [Bikepacking, 分时分段环游地球]
 Bikepacking: true
 ---

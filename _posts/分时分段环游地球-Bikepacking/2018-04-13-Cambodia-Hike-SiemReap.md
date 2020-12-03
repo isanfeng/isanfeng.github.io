@@ -4,7 +4,7 @@ title: 柬埔寨：高棉微笑.暹粒篇.2018
 date: 2018-04-13 16:07
 author: 三丰
 description:
-img: posts/cambodia-2-0.jpg
+img: posts/cambodia-2-0.webp
 tags: [Hike, 分时分段环游地球]
 Bikepacking: true
 ---
