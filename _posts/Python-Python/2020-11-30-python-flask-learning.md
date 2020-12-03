@@ -4,7 +4,7 @@ title: 学学Flask
 date: 2020-11-30 20:04
 author: 三丰
 description:
-img: posts/flask-0-0.jpg
+img: posts/flask-0-0.webp
 tags: [特训, Python]
 Python: true
 ---

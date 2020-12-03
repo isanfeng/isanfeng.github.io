@@ -4,7 +4,7 @@ title: 环泰北.逆时针LOOP.2015
 date: 2015-09-25 00:09
 author: 三丰
 description:
-img: posts/thailand-1-0.jpg
+img: posts/thailand-1-0.webp
 tags: [Bikepacking, 分时分段环游地球]
 Bikepacking: true
 ---

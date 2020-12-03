@@ -4,7 +4,7 @@ title: 环北海道.2017
 date: 2017-05-27 00:09
 author: 三丰
 description:
-img: posts/Hokkaido-1-0.jpg
+img: posts/Hokkaido-1-0.webp
 tags: [Bikepacking, 分时分段环游地球]
 Bikepacking: true
 ---

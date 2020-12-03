@@ -4,7 +4,7 @@ title: 学学English
 date: 2020-12-01 20:04
 author: 三丰
 description:
-img: posts/retro-cycling.jpg
+img: posts/retro-cycling.webp
 tags: [特训, English]
 Fire: true
 ---
