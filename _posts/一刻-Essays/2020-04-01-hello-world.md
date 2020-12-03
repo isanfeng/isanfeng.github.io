@@ -23,14 +23,21 @@ Essays: true
 * 网站托管于github（https://isanfeng.github.io）同时为了提高国内访问体验，基于gitee做了镜像(http://iwangsanfeng.gitee.io)可大大提高访问速度。
 * 此二级域名永久有效，同时可以使用便于记忆的一级域名（.ml/.tk/.ga/.cf/.gq）进行访问，如（http://isanfeng.ml 其中ml的含义为“美丽”）
 * 基于jekyll配置及编译生成，文章可使用markdown和html生成
-* 加入百度统计谷歌统计；
 * 兼容移动端浏览；
-* 加入分类功能
-* 加入搜索功能
-* 加入评论留言功能
-* 加入分享功能
-* 基于网易云音乐，加入自己的歌单播放功能
-* 加入冯唐语录功能
-* 加入上线总运行时间计算功能
-* 加入访问统计功能
-* 加入font-awesome和font-google定制图标和字体
+* 支持分类，TAGS的功能
+* 支持搜索的功能
+* 支持评论留言的功能
+* 支持分享（国内限定为Weibo及国外的fb，twitter）的功能
+* 基于网易云音乐，支持播放自己的定制歌单播放的功能
+* 支持冯唐语录的功能
+* 支持上线总运行时间计算的功能
+* 支持访问统计功能
+* 支持font-awesome和font-google定制图标和字体
+
+**针对前端做了部分的性能优化**
+* 使用google的[PageSpeed](https://developers.google.cn/speed/pagespeed/insights) 进行分析，参考建议优化。
+* 使用CDN， 对于公有的静态资源，比如jquery.min.js、highlight.min.js等文件全部使用CDN，提高网站的访问速度。
+* 合并静态文件
+* 压缩静态文件
+* 使用浏览器缓存
+
