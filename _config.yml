@@ -7,7 +7,7 @@ enableToc: true
 permalink: ':title/'
 #baseurl: "" # the subpath of your site, e.g. /blog
 url: 'https://isanfeng.github.io' # the base hostname & protocol for your site, e.g. http://example.com
-gitee_url: 'https://iwangsanfeng.gitee.io'
+gitee_url: 'http://iwangsanfeng.gitee.io'
 
 # Author settings add your name
 author: 流浪笔记.三丰
@@ -15,7 +15,7 @@ author: 流浪笔记.三丰
 author-pic: isanfeng.jpg
 about-author: Live the life you love, Love the life you lives.
 about-author-detail-0: 侠之大者，四海为家；一人一驹，浪迹天涯。
-about-author-detail-1: To be a SkyTraveler，人不知道什么时候会生命停止，也许了解之后就会发现人生的意义是什么。
+about-author-detail-1: To be a SkyTraveler.<br>人不知道什么时候会生命停止，也许了解之后就会发现人生的意义是什么。
 
 #修改成你自己的
 # Contact links
