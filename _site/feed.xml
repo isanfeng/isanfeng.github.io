@@ -1,20 +1,82 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.9.0">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2020-12-02T12:28:09+08:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">-=流浪笔记.三丰=-</title><subtitle>分时分段 单车 旅行 学习</subtitle><author><name>流浪笔记.三丰</name></author><entry><title type="html">学学Flask</title><link href="http://localhost:4000/python-flask-learning/" rel="alternate" type="text/html" title="学学Flask" /><published>2020-11-30T20:04:00+08:00</published><updated>2020-11-30T20:04:00+08:00</updated><id>http://localhost:4000/python-flask-learning</id><content type="html" xml:base="http://localhost:4000/python-flask-learning/">&lt;p&gt;&lt;span style=&quot;font-size:12px&quot;&gt;小主： &lt;a href=&quot;/about&quot;&gt;三丰&lt;/a&gt; &lt;/span&gt;&lt;/p&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.9.0">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2020-12-04T15:48:54+08:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">-=流浪笔记.三丰=-</title><subtitle>分时分段 单车 旅行 学习</subtitle><author><name>流浪笔记.三丰</name></author><entry><title type="html">本尊孤独终老</title><link href="http://localhost:4000/gone-alone/" rel="alternate" type="text/html" title="本尊孤独终老" /><published>2020-12-01T20:16:00+08:00</published><updated>2020-12-01T20:16:00+08:00</updated><id>http://localhost:4000/gone-alone</id><content type="html" xml:base="http://localhost:4000/gone-alone/">&lt;p&gt;&lt;span style=&quot;font-size:12px&quot;&gt;小主： &lt;a href=&quot;/about&quot;&gt;&lt;/a&gt; &lt;/span&gt;&lt;/p&gt;
 
-&lt;h3 id=&quot;学习路线资料&quot;&gt;学习路线资料&lt;/h3&gt;
+&lt;p&gt;可笑吧，我终于一个人孤独终老了&lt;/p&gt;</content><author><name>流浪笔记.三丰</name></author><category term="一刻" /><summary type="html">小主：</summary></entry><entry><title type="html">English</title><link href="http://localhost:4000/English-Study/" rel="alternate" type="text/html" title="English" /><published>2020-12-01T20:04:00+08:00</published><updated>2020-12-01T20:04:00+08:00</updated><id>http://localhost:4000/English-Study</id><content type="html" xml:base="http://localhost:4000/English-Study/">&lt;p&gt;&lt;span style=&quot;font-size:12px&quot;&gt;小主： &lt;a href=&quot;/about&quot;&gt;三丰&lt;/a&gt; &lt;/span&gt;&lt;/p&gt;
+
+&lt;p&gt;##必要且充分
+以前觉得出国旅游会需要很好的英文或当地语言，但是当我开始Bikepacking或者Hike到了其他国家，靠著科技之便利，事前做好功课，参考前人纪录，买票可以网络买，旅馆可以网络订，其实也不需要用到太多英文。更何况骑车在路上，很少有机会与人说话。
+然而这样的旅行，似乎少了点什么。仔细想想，我在中文环境的旅行地旅行的时候，除了风景，能和当地人，尤其是原住民，顺畅的沟通是一件多么有意义的事情，他们经常能带给我许多精彩的故事。这些与人的交流，反而是我在旅行过后最珍贵的回忆。&lt;/p&gt;
+
+&lt;p&gt;由于单车旅行大部分是一个人骑在路上，睡在帐篷中，很少搭乘大众交通工具。和人交流的机会，几乎只有在城镇中的青年旅馆。我并不是一个很喜欢与人搭讪聊天的人，除了本身有点内向之外，
+另一个最大的原因就是英文不够好。我英文也不算太差，简单的沟通是没问题的，但是要生动描述自己过去旅行的经历，或者听清楚他人的故事，就还差了很多，每次聊天没多久，彼此就只能以尴尬却不失礼仪的微笑作为ending.&lt;/p&gt;
+
+&lt;p&gt;##知耻而后勇
+不过几次的经验下来，也证实了那么个道理，只有和人的沟通才是学习语言的最快方式。&lt;/p&gt;
+
+&lt;p&gt;不过这不平凡的一年，注定让这仅有的一点点机会都奢侈的被剥夺了，现在的我们如何学习英语？背单词增加词汇量，看英文电影培养语境，用英文系统养成习惯……貌似都可以，做了总比不做好，对自己最困难的是要坚持，坚持，坚持下去。&lt;/p&gt;</content><author><name>三丰</name></author><category term="自强不息" /><category term="English" /><summary type="html">小主： 三丰</summary></entry><entry><title type="html">Flask &amp;amp; Django</title><link href="http://localhost:4000/python-flask-learning/" rel="alternate" type="text/html" title="Flask &amp; Django" /><published>2020-11-30T20:04:00+08:00</published><updated>2020-11-30T20:04:00+08:00</updated><id>http://localhost:4000/python-flask-learning</id><content type="html" xml:base="http://localhost:4000/python-flask-learning/">&lt;p&gt;&lt;span style=&quot;font-size:12px&quot;&gt;小主： &lt;a href=&quot;/about&quot;&gt;三丰&lt;/a&gt; &lt;/span&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;前言&quot;&gt;前言&lt;/h2&gt;
+
+&lt;p&gt;很早之前工作中接触了一个cms的web框架，不过也仅算太了解，毕竟工作中都是以应用为主，后来接触python之后，对django有了大概了解，不过也是没有深入研究，直到这次迁移站点，切换为本静态站点，通过渲染模板知识点开始逐步了解python的web框架。
+在Flask和Django中的选择中纠结了好久，最后先选择了比较灵活的Flask开始，事实证明这个思路也是正确的，Flask构建站点几乎是一砖一瓦的，基本都是自己从零开始造轮子，和Django一站式开始有着天壤的差别。&lt;/p&gt;
+
+&lt;h2 id=&quot;两者的区别&quot;&gt;两者的区别&lt;/h2&gt;
+
+&lt;h3 id=&quot;flask&quot;&gt;Flask&lt;/h3&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Flask确实很“轻”，不愧是Micro Framework，从Django转向Flask的开发者一定会如此感慨，除非二者均为深入使用过&lt;/li&gt;
+  &lt;li&gt;Flask自由、灵活，可扩展性强，第三方库的选择面广，开发时可以结合自己最喜欢用的轮子，也能结合最流行最强大的Python库&lt;/li&gt;
+  &lt;li&gt;入门简单，即便没有多少web开发经验，也能很快做出网站&lt;/li&gt;
+  &lt;li&gt;非常适用于小型网站&lt;/li&gt;
+  &lt;li&gt;非常适用于开发web服务的API&lt;/li&gt;
+  &lt;li&gt;开发大型网站无压力，但代码架构需要自己设计，开发成本取决于开发者的能力和经验&lt;/li&gt;
+  &lt;li&gt;各方面性能均等于或优于Django&lt;/li&gt;
+  &lt;li&gt;Django自带的或第三方的好评如潮的功能，Flask上总会找到与之类似第三方库&lt;/li&gt;
+  &lt;li&gt;Flask灵活开发，Python高手基本都会喜欢Flask，但对Django却可能褒贬不一&lt;/li&gt;
+  &lt;li&gt;Flask与关系型数据库的配合使用不弱于Django，而其与NoSQL数据库的配合远远优于Django&lt;/li&gt;
+  &lt;li&gt;Flask比Django更加Pythonic，与Python的philosophy更加吻合&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;django&quot;&gt;Django&lt;/h3&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Django太重了，除了web框架，自带ORM和模板引擎，灵活和自由度不够高&lt;/li&gt;
+  &lt;li&gt;Django能开发小应用，但总会有“杀鸡焉用牛刀”的感觉&lt;/li&gt;
+  &lt;li&gt;Django的自带ORM非常优秀，综合评价略高于SQLAlchemy&lt;/li&gt;
+  &lt;li&gt;Django自带的模板引擎简单好用，但其强大程度和综合评价略低于Jinja&lt;/li&gt;
+  &lt;li&gt;Django自带ORM也使Django与关系型数据库耦合度过高，如果想使用MongoDB等NoSQL数据，需要选取合适的第三方库，且总感觉Django+SQL才是天生一对的搭配，Django+NoSQL砍掉了Django的半壁江山&lt;/li&gt;
+  &lt;li&gt;Django目前支持Jinja等非官方模板引擎&lt;/li&gt;
+  &lt;li&gt;Django自带的数据库管理app好评如潮&lt;/li&gt;
+  &lt;li&gt;Django非常适合企业级网站的开发：快速、靠谱、稳定&lt;/li&gt;
+  &lt;li&gt;Django成熟、稳定、完善，但相比于Flask，Django的整体生态相对封闭&lt;/li&gt;
+  &lt;li&gt;Django是Python web框架的先驱，用户多，第三方库最丰富，最好的Python库，如果不能直接用到Django中，也一定能找到与之对应的移植&lt;/li&gt;
+  &lt;li&gt;Django上手也比较容易，开发文档详细、完善，相关资料丰富&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;学习路线资料&quot;&gt;学习路线资料&lt;/h2&gt;
+
+&lt;h3 id=&quot;flask-1&quot;&gt;Flask&lt;/h3&gt;
 
 &lt;ul&gt;
   &lt;li&gt;
-    &lt;p&gt;小试牛刀：完整实践一个简单Flask Web程序：&lt;a href=&quot;https://read.helloflask.com&quot;&gt;开始吧&lt;/a&gt;&lt;/p&gt;
+    &lt;p&gt;小试牛刀：完整实践一个简单Flask Web程序：&lt;a href=&quot;https://read.helloflask.com&quot;&gt;在线阅读&lt;/a&gt;， &lt;a href=&quot;https://github.com/greyli/watchlist&quot;&gt;书中示例程序源码&lt;/a&gt;&lt;/p&gt;
   &lt;/li&gt;
   &lt;li&gt;
-    &lt;p&gt;庖丁解牛：从基础循序渐进详尽探索Flask框架：&lt;a href=&quot;https://share.weiyun.com/5h4ce8wG&quot;&gt;Flask Web 开发实战 - 入门、进阶与原理解析，PDF下载&lt;/a&gt; 密码：cthbp3&lt;/p&gt;
+    &lt;p&gt;庖丁解牛：从基础循序渐进详尽探索Flask框架：&lt;a href=&quot;https://share.weiyun.com/5h4ce8wG&quot;&gt;Flask Web 开发实战 - 入门、进阶与原理解析，PDF下载&lt;/a&gt; 密码：cthbp3,
+&lt;a href=&quot;https://github.com/greyli/helloflask&quot;&gt;书中示例源码&lt;/a&gt;,
+&lt;a href=&quot;https://github.com/greyli/bluelog&quot;&gt;个人博客源码&lt;/a&gt;&lt;/p&gt;
   &lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;hr /&gt;
+&lt;blockquote&gt;
+  &lt;p&gt;如果能把上面的源码都照着手动打一遍，基本上就可以和Flask进行愉快地玩耍了。&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;h3 id=&quot;django-1&quot;&gt;Django&lt;/h3&gt;
+
 &lt;ul&gt;
-  &lt;li&gt;&lt;a href=&quot;https://flask.palletsprojects.com/en/1.1.x/&quot;&gt;Flask官网&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;</content><author><name>三丰</name></author><category term="特训" /><category term="Python" /><summary type="html">小主： 三丰</summary></entry><entry><title type="html">Bikepacking的装备 - 关于包</title><link href="http://localhost:4000/Bikepacking-introduce/" rel="alternate" type="text/html" title="Bikepacking的装备 - 关于包" /><published>2020-11-28T20:56:00+08:00</published><updated>2020-11-28T20:56:00+08:00</updated><id>http://localhost:4000/Bikepacking-introduce</id><content type="html" xml:base="http://localhost:4000/Bikepacking-introduce/">&lt;p&gt;&lt;span style=&quot;font-size:12px&quot;&gt;小主： &lt;a href=&quot;/about&quot;&gt;三丰&lt;/a&gt; &lt;/span&gt;&lt;/p&gt;
+  &lt;li&gt;&lt;a href=&quot;https://docs.djangoproject.com/zh-hans/3.1&quot;&gt;官方文档&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;</content><author><name>三丰</name></author><category term="自强不息" /><category term="Python" /><summary type="html">小主： 三丰</summary></entry><entry><title type="html">Bikepacking - Packages</title><link href="http://localhost:4000/Bikepacking-introduce/" rel="alternate" type="text/html" title="Bikepacking - Packages" /><published>2020-11-28T20:56:00+08:00</published><updated>2020-11-28T20:56:00+08:00</updated><id>http://localhost:4000/Bikepacking-introduce</id><content type="html" xml:base="http://localhost:4000/Bikepacking-introduce/">&lt;p&gt;&lt;span style=&quot;font-size:12px&quot;&gt;小主： &lt;a href=&quot;/about&quot;&gt;三丰&lt;/a&gt; &lt;/span&gt;&lt;/p&gt;
 
 &lt;h2 id=&quot;bikepacking的装备&quot;&gt;Bikepacking的装备&lt;/h2&gt;
 
@@ -31,7 +93,7 @@
 &lt;iframe src=&quot;//player.bilibili.com/player.html?aid=927965863&amp;amp;bvid=BV11K4y1f7eC&amp;amp;cid=260836369&amp;amp;page=1&quot; style=&quot;width:100%;height:500px;min-width:375px;min-height:200px&quot; scrolling=&quot;no&quot; border=&quot;0&quot; frameborder=&quot;no&quot; framespacing=&quot;0&quot; allowfullscreen=&quot;true&quot;&gt;&lt;/iframe&gt;
 
 &lt;p&gt;第三部分：车尾包的设置，主要放置我们的保暖防湿的衣物以及餐饮系统。&lt;/p&gt;
-&lt;iframe src=&quot;//player.bilibili.com/player.html?aid=245487998&amp;amp;bvid=BV1wv411b7ya&amp;amp;cid=260836452&amp;amp;page=1&quot; style=&quot;width:100%;height:500px;min-width:375px;min-height:200px&quot; scrolling=&quot;no&quot; border=&quot;0&quot; frameborder=&quot;no&quot; framespacing=&quot;0&quot; allowfullscreen=&quot;true&quot;&gt;&lt;/iframe&gt;</content><author><name>三丰</name></author><category term="Bikepacking" /><summary type="html">小主： 三丰</summary></entry><entry><title type="html">聊聊FIRE</title><link href="http://localhost:4000/Fire-First/" rel="alternate" type="text/html" title="聊聊FIRE" /><published>2020-11-17T20:04:00+08:00</published><updated>2020-11-17T20:04:00+08:00</updated><id>http://localhost:4000/Fire-First</id><content type="html" xml:base="http://localhost:4000/Fire-First/">&lt;p&gt;&lt;span style=&quot;font-size:12px&quot;&gt;小主： &lt;a href=&quot;/about&quot;&gt;三丰&lt;/a&gt; &lt;/span&gt;&lt;/p&gt;
+&lt;iframe src=&quot;//player.bilibili.com/player.html?aid=245487998&amp;amp;bvid=BV1wv411b7ya&amp;amp;cid=260836452&amp;amp;page=1&quot; style=&quot;width:100%;height:500px;min-width:375px;min-height:200px&quot; scrolling=&quot;no&quot; border=&quot;0&quot; frameborder=&quot;no&quot; framespacing=&quot;0&quot; allowfullscreen=&quot;true&quot;&gt;&lt;/iframe&gt;</content><author><name>三丰</name></author><category term="Bikepacking" /><summary type="html">小主： 三丰</summary></entry><entry><title type="html">FIRE</title><link href="http://localhost:4000/Fire-First/" rel="alternate" type="text/html" title="FIRE" /><published>2020-11-17T20:04:00+08:00</published><updated>2020-11-17T20:04:00+08:00</updated><id>http://localhost:4000/Fire-First</id><content type="html" xml:base="http://localhost:4000/Fire-First/">&lt;p&gt;&lt;span style=&quot;font-size:12px&quot;&gt;小主： &lt;a href=&quot;/about&quot;&gt;三丰&lt;/a&gt; &lt;/span&gt;&lt;/p&gt;
 
 &lt;p&gt;曾经上天给了我好几次可以财富“自由”的机会，我都没有把握好，但也给我几次做傻逼的机会，却每次都拿捏得稳稳的。&lt;/p&gt;
 
@@ -146,7 +208,15 @@
   &lt;p&gt;1.《 Your Money or Your Life 》&lt;/p&gt;
 
   &lt;p&gt;2.《 The Simple Path to Wealth 》&lt;/p&gt;
-&lt;/blockquote&gt;</content><author><name>三丰</name></author><category term="FIRE" /><summary type="html">小主： 三丰</summary></entry><entry><title type="html">环琵琶湖（ns@planning）</title><link href="http://localhost:4000/Japan-PipaLake-Bikepacking/" rel="alternate" type="text/html" title="环琵琶湖（ns@planning）" /><published>2020-11-11T00:09:00+08:00</published><updated>2020-11-11T00:09:00+08:00</updated><id>http://localhost:4000/Japan-PipaLake-Bikepacking</id><content type="html" xml:base="http://localhost:4000/Japan-PipaLake-Bikepacking/">&lt;p&gt;&lt;span style=&quot;font-size:12px&quot;&gt;小主： &lt;a href=&quot;/about&quot;&gt;三丰&lt;/a&gt; &lt;/span&gt;&lt;/p&gt;
+&lt;/blockquote&gt;</content><author><name>三丰</name></author><category term="FIRE" /><summary type="html">小主： 三丰</summary></entry><entry><title type="html">岛波海道+四国（ns@planning）</title><link href="http://localhost:4000/Japan-Kaido-siguo-Bikepacking/" rel="alternate" type="text/html" title="岛波海道+四国（ns@planning）" /><published>2020-11-11T00:09:00+08:00</published><updated>2020-11-11T00:09:00+08:00</updated><id>http://localhost:4000/Japan-Kaido-siguo-Bikepacking</id><content type="html" xml:base="http://localhost:4000/Japan-Kaido-siguo-Bikepacking/">&lt;p&gt;&lt;span style=&quot;font-size:12px&quot;&gt;小主： &lt;a href=&quot;/about&quot;&gt;三丰&lt;/a&gt; &lt;/span&gt;&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;疫情当道，不给任何人增加任何麻烦，暂停跑路，收集各处情报，一切尽在计划中……&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;The next station is being planned.&lt;/p&gt;
+&lt;/blockquote&gt;</content><author><name>三丰</name></author><category term="Bikepacking" /><category term="分时分段环游地球" /><summary type="html">小主： 三丰</summary></entry><entry><title type="html">环琵琶湖（ns@planning）</title><link href="http://localhost:4000/Japan-PipaLake-Bikepacking/" rel="alternate" type="text/html" title="环琵琶湖（ns@planning）" /><published>2020-11-11T00:09:00+08:00</published><updated>2020-11-11T00:09:00+08:00</updated><id>http://localhost:4000/Japan-PipaLake-Bikepacking</id><content type="html" xml:base="http://localhost:4000/Japan-PipaLake-Bikepacking/">&lt;p&gt;&lt;span style=&quot;font-size:12px&quot;&gt;小主： &lt;a href=&quot;/about&quot;&gt;三丰&lt;/a&gt; &lt;/span&gt;&lt;/p&gt;
 
 &lt;blockquote&gt;
   &lt;p&gt;疫情当道，不给任何人增加任何麻烦，暂停跑路，收集各处情报，一切尽在计划中……&lt;/p&gt;
@@ -201,17 +271,17 @@ PS：&lt;/p&gt;
   &lt;li&gt;10.08&lt;br /&gt; 
 北京南 - 济南西：G111 08:35开&lt;br /&gt;
 济南西 - 沂源&lt;/li&gt;
-&lt;/ol&gt;</content><author><name>三丰</name></author><category term="带父母去旅游" /><category term="分时分段环游地球" /><summary type="html">小主： 三丰</summary></entry><entry><title type="html">网站的前生今世</title><link href="http://localhost:4000/hello-world/" rel="alternate" type="text/html" title="网站的前生今世" /><published>2020-04-01T20:16:00+08:00</published><updated>2020-04-01T20:16:00+08:00</updated><id>http://localhost:4000/hello-world</id><content type="html" xml:base="http://localhost:4000/hello-world/">&lt;p&gt;&lt;span style=&quot;font-size:12px&quot;&gt;小主： &lt;a href=&quot;/about&quot;&gt;&lt;/a&gt; &lt;/span&gt;&lt;/p&gt;
+&lt;/ol&gt;</content><author><name>三丰</name></author><category term="带父母去旅游" /><category term="分时分段环游地球" /><summary type="html">小主： 三丰</summary></entry><entry><title type="html">笔记的前生今世</title><link href="http://localhost:4000/hello-world/" rel="alternate" type="text/html" title="笔记的前生今世" /><published>2020-04-01T20:16:00+08:00</published><updated>2020-04-01T20:16:00+08:00</updated><id>http://localhost:4000/hello-world</id><content type="html" xml:base="http://localhost:4000/hello-world/">&lt;p&gt;&lt;span style=&quot;font-size:12px&quot;&gt;小主： &lt;a href=&quot;/about&quot;&gt;三丰&lt;/a&gt; &lt;/span&gt;&lt;/p&gt;
 
 &lt;h2 id=&quot;前生&quot;&gt;前生&lt;/h2&gt;
-&lt;p&gt;先是使用二级域名成品网站，后又折腾过wordpress和ghost之后，最后选择了专一的静态站点。&lt;/p&gt;
+&lt;p&gt;先前博客还流行的时候，使用过二级域名成品网站，折腾过wordpress和ghost之后，不过浮躁的都没有好好的去记录，终究失去了学生时代认真记笔记，写读后感的能力，用微信，微博零碎的记录着只言片语，后来慢慢发现没有任何积累。
+再加上这个被控制的媒体工具有时根本不是让自己说一些实话，为了不再受寄人篱下之苦，也是再找一个新的自由的宣泄情感的出口，记录下余生的点点滴滴，让时间来见证一些东西。&lt;/p&gt;
 
 &lt;h2 id=&quot;今世&quot;&gt;今世&lt;/h2&gt;
-&lt;p&gt;我想人最终还是要找一个宣泄情感的出口吧，记录下一点点的感受，让时间来见证一些东西，看惯了哪些国家特色的媒体工具，最后只能选择自己自立更生。
-后续本站主要作为旅行日志及心情发泄主要工具。&lt;/p&gt;
+&lt;p&gt;自力更生，自强不息，不需要繁琐的部署维护，不需要严谨的后端，少量的前端工程，全部聚焦在内容的输出（markdown文件内容），所有的资料都能自己掌握，这基本是选择github pages的原因。&lt;/p&gt;
 
 &lt;blockquote&gt;
-  &lt;p&gt;部分内容是从之前的wordpress和ghost中迁移过来，有些数据丢失的问题，后面需慢慢修复。&lt;/p&gt;
+  &lt;p&gt;部分内容是从之前的wordpress和ghost中迁移过来，有部分数据丢失的问题，后面需慢慢修复。&lt;/p&gt;
 &lt;/blockquote&gt;
 
 &lt;p&gt;&lt;strong&gt;本网站特色及可操作功能：&lt;/strong&gt;&lt;/p&gt;
@@ -219,67 +289,24 @@ PS：&lt;/p&gt;
   &lt;li&gt;网站托管于github（https://isanfeng.github.io）同时为了提高国内访问体验，基于gitee做了镜像(http://iwangsanfeng.gitee.io)可大大提高访问速度。&lt;/li&gt;
   &lt;li&gt;此二级域名永久有效，同时可以使用便于记忆的一级域名（.ml/.tk/.ga/.cf/.gq）进行访问，如（http://isanfeng.ml 其中ml的含义为“美丽”）&lt;/li&gt;
   &lt;li&gt;基于jekyll配置及编译生成，文章可使用markdown和html生成&lt;/li&gt;
-  &lt;li&gt;加入百度统计谷歌统计；&lt;/li&gt;
   &lt;li&gt;兼容移动端浏览；&lt;/li&gt;
-  &lt;li&gt;加入分类功能&lt;/li&gt;
-  &lt;li&gt;加入搜索功能&lt;/li&gt;
-  &lt;li&gt;加入评论留言功能&lt;/li&gt;
-  &lt;li&gt;加入分享功能&lt;/li&gt;
-  &lt;li&gt;基于网易云音乐，加入自己的歌单播放功能&lt;/li&gt;
-  &lt;li&gt;加入冯唐语录功能&lt;/li&gt;
-  &lt;li&gt;加入上线总运行时间计算功能&lt;/li&gt;
-  &lt;li&gt;加入访问统计功能&lt;/li&gt;
-  &lt;li&gt;加入font-awesome和font-google定制图标和字体&lt;/li&gt;
-&lt;/ul&gt;</content><author><name>流浪笔记.三丰</name></author><category term="一刻" /><summary type="html">小主：</summary></entry><entry><title type="html">环冲绳.2019</title><link href="http://localhost:4000/Japan-Okinawa-Bikepacking/" rel="alternate" type="text/html" title="环冲绳.2019" /><published>2019-10-01T00:09:00+08:00</published><updated>2019-10-01T00:09:00+08:00</updated><id>http://localhost:4000/Japan-Okinawa-Bikepacking</id><content type="html" xml:base="http://localhost:4000/Japan-Okinawa-Bikepacking/">&lt;p&gt;&lt;span style=&quot;font-size:12px&quot;&gt;小主： &lt;a href=&quot;/about&quot;&gt;三丰&lt;/a&gt; &lt;/span&gt;&lt;/p&gt;
+  &lt;li&gt;支持分类，TAGS的功能&lt;/li&gt;
+  &lt;li&gt;支持搜索的功能&lt;/li&gt;
+  &lt;li&gt;支持评论留言的功能&lt;/li&gt;
+  &lt;li&gt;支持分享（国内限定为Weibo及国外的fb，twitter）的功能&lt;/li&gt;
+  &lt;li&gt;基于网易云音乐，支持播放自己的定制歌单播放的功能&lt;/li&gt;
+  &lt;li&gt;支持冯唐语录的功能&lt;/li&gt;
+  &lt;li&gt;支持上线总运行时间计算的功能&lt;/li&gt;
+  &lt;li&gt;支持访问统计功能&lt;/li&gt;
+  &lt;li&gt;支持font-awesome和font-google定制图标和字体&lt;/li&gt;
+&lt;/ul&gt;
 
-&lt;h2 id=&quot;day-0&quot;&gt;Day-0&lt;/h2&gt;
-
-&lt;p&gt;没有了前些年年轻时要花一两个月准备攻略的激情，虽不至于说是说走就走，临行前一晚才匆匆打包完毕，最小化收纳，行程也是简易化，计划四天骑行环岛，三个半天参加和参观当地的活动和庆典，两个半天海洋公园和城迹，一天潜水（距离上次潜水整整一年了，想想心里还慌，登机时恶补基础知识），下午到达那霸，做了日本最西端的单轨，一下车直奔最有名的海盐冰激凌，虽然没有北海道那种纯自然的奶香，但甜里透着咸也别有滋味，来日本第一餐当然是ramen，日本著名的暖暮拉面，自己也没想到排了一个小时队才吃上，点了半熟玉子葱香豚肉拉面，浓郁的汤汁逛了半天的国际通还口留余香，三线，是琉球群岛特有的拨弦乐器，听着用它演艺的岛歌岛呗，似乎很熟悉的旋律对于我们常年漂泊在外的人们有没有一股思乡的暖流。&lt;/p&gt;
-
-&lt;h2 id=&quot;day-1&quot;&gt;Day-1&lt;/h2&gt;
-
-&lt;p&gt;琉球王国行的第二天，算是正式第一天，当然以熟悉当地市区环境为主，第一站波上宫，是从前人们向Nirai Kanai（极乐世界）祈祷的圣地，当国第一神社，我不求别的只求后面几天能不下雨，也学会了手水舍的正确用法，不过说实话，那些祈祷板上，几乎已经被香港银占领，祈求香港革命成功香港自由，我不说什么。在日本，还有一个我很喜欢的地方，日本的博物馆和图书馆，为什么没有说国内的呢，我不说什么。在去漫画仓库的路上，偶然经过的一个公园，园中山丘上的冲宫（祈祷运气最佳赶走厄运的圣地），还有一群老头老太玩的抛球，看了两局看明白了，其实就是我们小时候的弹玻璃球，他们换成了苹果大小的钢球，他们的规则简单，操作简单，在那节日暴晒下，行动都蹒跚的年纪，玩的确实开心，而且还是在比赛，旁边的横幅和教练都很到位，其实刚来这两天，有时会想，日本人的思维和习惯是我们要学习的，心态也一样可贵。然后来着重推荐漫画仓库了，虽叫漫画仓库，其实是二手outlet，虽叫二手，八成以上是未拆封的，漫画手办珍藏限量版新老CDDVD二手数码，柯南高达全系列等还有不知到名字的都是可随便看，衣服鞋子很多也都是不多见的珍藏版……，隔一条马路是它的别馆，主要是一些二手运动相关的器材和装备，几乎是什么珍贵的个性的实用的，如果你爱你需要，基本都能找到，而且价格真的是二，我不再多说什么。最后在仓库逛的实在太累，首里城随便瞄了一眼打了个卡，虽然它代表了琉球的历史，应该要好好观摩的。最后一张国际通的白天和黑夜。&lt;/p&gt;
-
-&lt;h2 id=&quot;day-2&quot;&gt;Day-2&lt;/h2&gt;
-
-&lt;p&gt;可能期望太高，青之洞窟没有想象中的惊艳，不多说了，本篇主要总结下在日本做公车的流程，以后再也不慌了，以前下车时总是为一遍看车费指示器一遍翻零钱而心慌慌，今天熟悉以后才发现日本公车乘坐起来是如此的方便和高性价比。1.首先找到目的地的线路。2.站牌上详细标明了每一路车节假日平常日土戳日火戳日的到站时刻，两天看下来误车一分钟内，比某大国使用GPS定位到站还准时，这就是伟大。3.车来后，司机总是会等人上车大家看起来都不急，上车后拿着机器吐一张整理券，是你上车站点的编号，后面你只要一直关注前面屏幕上这个编号对应的车费，每一站都会更新，快到目的地前的两三站开始准备零钱就好了。4.每个座位都对应一个下车按钮，要下车的人就按一下，所有的灯都会亮起来，司机就会知道有人下车，如果到站无人下车，并且无人等车的话，就直接跳过这一站。5.你可以注意前方有屏幕显示站点名称，不用担心不会日语，站点名称用日文中文韩文英文西班牙文轮播显示，你结合谷歌地图实时位置总能看懂。6.按下红灯准备下车，车停住后人才好离座下车，大家会一直等你，如果没零钱，前方有零钱兑换机器最大貌似1000面值，投进去出来零钱后再把零钱车费投进去，所以那个机器基本不会出现咩有零钱的情况，有任何问题大家都会等你，司机也会耐心帮助你，排队下车，大家看起来都不急。7.每当有人上车和下车，司机也会礼貌的说一句话，听不懂说什么，应该是注意安全之类的。这些规则貌似全日本做公车都通用，总之，乘坐公车体验很好。（最后上一张等公车是旁边停放的一辆道奇）&lt;/p&gt;
-
-&lt;p&gt;琉球九月最后的庆典，一件浴衣引发的羽衣大典（因为要回市区还要装车准备明天正式出发，遗憾放弃了晚上的烟火大会，我离开时不少日本家庭穿着和服开始入场，很遗憾还没看过一场日本的烟火。）&lt;/p&gt;
-
-&lt;h2 id=&quot;day-3&quot;&gt;Day-3&lt;/h2&gt;
-
-&lt;p&gt;正式之旅，虽然单车在日本属于轻机动，要和机动车共用机动道，但这里的路况之好再加上日本司机的礼貌，整体骑行体验出乎意料，道路也是全部沿海设计，眼中全是海。打卡美国村，嘉手那空军基地，在青之海参观制盐工厂，体验制作玻璃工艺，只是因为时间太早，没到午饭点，海岸食堂的元祖海葡萄dong饭没有吃上，下午赶上琉球村的传统舞蹈表演，多花点时间也要看完，下次来猴年马月。&lt;/p&gt;
-
-&lt;p&gt;眼中一片海，我也要变蓝么？也许人生最大的勇敢之一，就是在经历了被信任的政府欺骗和伤害后，还要保持信任和爱么？&lt;/p&gt;
-
-&lt;h2 id=&quot;day-4&quot;&gt;Day-4&lt;/h2&gt;
-
-&lt;p&gt;第一次在日本酒驾，路上一直看到酒驾犯罪的标识牌，好慌。早上预定了冲绳最有名的啤酒工厂参观行程，预定时就要根据访问者到达的交通方式来准备最后环节的有酒精和无酒精饮料，规定单车前往的话也是不能饮用酒精的，不过可以体验下从产线上刚下来的啤酒，机会难得，so,我告诉人家，i can walk back心想两杯啤酒算什么还不能骑车了，就撒个小慌吧，最后的结果好了，两杯下肚，人直接飘起来了，看来是不让我撒谎，幸好住的近，只能推着车走着walk back。缓了半小时才落地，濑底大桥，濑底海滩打卡。后面就是计划花费一下午的美丽海水族馆，不多说太震撼。&lt;/p&gt;
-
-&lt;p&gt;足迹与我，印记和海&lt;/p&gt;
-
-&lt;h2 id=&quot;day-5&quot;&gt;Day-5&lt;/h2&gt;
-
-&lt;p&gt;至最北端，北部属于山区，道路很像苏花公路，一面大海一面高山不时的要穿越s隧道，但路况和风景不输甚胜于苏花，苏花确胜在它的险峻。路上参观了长寿之乡大宜村的香檬乐园，整个柠檬汁的榨取过程，以及免费品尝实时产线的柠檬汁（就这个梦的蛇口，不限量纯正柠檬汁太喜欢了，还有服务人员送上清水），大宜味村有人口3300多人，其中80~89岁老人有335人，90～99岁143人百岁以上13人，除了常年饮用这种果汁，再就是充满活力。因为北部的偏僻，在路程一半左右，会看到一个全家，这是最北部的便利店，一定要在这里各种补给，否则，不多说很严重。这六天每天都是35~40的高温，好的是路上便利店补给和冷气很方便而且能随时下水给双脚spa，最后就来到最北端边户岬，这些天可能审美疲劳了，倒不如在路上探索未知有意思。一个人吃饭就很简单，晚餐和早餐准备好了，泡汤去了。&lt;/p&gt;
-
-&lt;p&gt;这些天每天被亲爱的同袍们的“爱国”声惊醒，先是@整个朋友圈要小红旗，平时文具店就几毛钱也见买过或者路上人家送个小红旗还随手扔掉，现在又是大庆典，喊着祖国生快，我想除非戏精上身，要不怎么才能瞬间激发出这么多和强烈的“爱国”心，爱国没错，但是发自内心的还是在凑热闹？如果是后者，只能让现在越来越弥足珍贵的爱国心更苍白。
-祖国，号称有五千年文明史（学术界认可的有三千多年）。至于，几千年前的哪一天是它的生日，可能谁也弄不准。所以，祖国没有生日。若非说祖国七十岁，那么按照这个逻辑：七十年以前的这片土地将不能算作是祖国，那么，八九十岁的老人们，都是生在哪个国？他们的祖国又在哪里？过生日的，其实是政府政权，它成立了七十年，独党执政了七十年，所以你祝福生日快乐的时候，应该把“祖国”二字换成“政权”，这样在语法上就不是病句了。
-名义搞庆典，劳民伤财，全城禁严，舆论一致赞美，政治各种屏蔽……这种庆典只是让自己看上去好看一些，和那阳光下或永久“爱国”或间歇“爱国”的一部分老百姓一起欢乐吧。台面上的国泰民安一片祥和，现实是这样么，只要稍微提提神，全国至少一半以上的百姓是怨声载道，只是被各种维稳销声匿迹罢了，有些人的”祖国”七十岁，有些人的祖国几干年，就像陈丹青说的，爱国和爱政府是两个概念，搞清楚你爱的是国还是政府。&lt;/p&gt;
-
-&lt;h2 id=&quot;day-6&quot;&gt;Day-6&lt;/h2&gt;
-
-&lt;p&gt;有些路，就必须我自己一个人走完，这不是孤独，而是一种选择，经历种种事事，我更愿蓬勃的生活在此时此刻，无所畏去哪，无所畏见谁，那些我就要去的地方，也许是我未曾谋面的故乡，以前是以前，现在是现在，将来也是将来，我我不能选择怎么生，怎么死，但我能选择怎么活，怎么爱。（翻过高山大海，蹬了一天，就为了图8的烤龙虾定食，虽然有些小贵，不过就像一路上的各种体验，我只把它们当做最后一餐，最后一别来感受。下午运气也不错，路上偶然找到的这家resort，今年6月份刚开业的，房间大的过分，每个房间进门都是两层，长度能有18米，宽度至少6米，卫生间和汤室也够大，提供免费制冰，免费洗衣……）&lt;/p&gt;
-
-&lt;h2 id=&quot;day-7&quot;&gt;Day-7&lt;/h2&gt;
-
-&lt;p&gt;终点也即起点。&lt;/p&gt;
-
-&lt;h2 id=&quot;day-8&quot;&gt;Day-8&lt;/h2&gt;
-
-&lt;p&gt;物理第九天，さようなら，okinawa。&lt;/p&gt;
-
-&lt;p&gt;九九归一，环冲绳圆满收官，从一条路上暂时拐到另一条路上，然后再次返回原来的路上，只要好好的记得何时开关转向灯就不会迷路。Okinawa，除了有会变色的七色海，更多的还是日本人礼貌，专注，严谨，细致，坚毅，守时守信，开放，老年人的上进心，乐观……这也是期望自己以后要有的品质。感谢自己的坚持和勇敢，分时分段环球旅行，下一段再见，さようなら。&lt;/p&gt;
-
-&lt;h2 id=&quot;day-9&quot;&gt;Day-9&lt;/h2&gt;
-
-&lt;p&gt;番外.有些事要亲自到那个环境中貌似才能真正体会孕育它的条件，我们习惯了被告诉，被记住，有时生活在一种环境中却缺懒于主动去看看别的环境，于是我们就想相信我们眼睛看到的一切，也许那只是水面上的一小块冰，每个人，每个地方，每个国家都有自己的特色，我要亲身感受看一看，十一打卡HK.&lt;/p&gt;</content><author><name>三丰</name></author><category term="Bikepacking" /><category term="分时分段环游地球" /><summary type="html">小主： 三丰</summary></entry><entry><title type="html">带父母去旅游.泰北.2019</title><link href="http://localhost:4000/Thailand-Hike-withParents/" rel="alternate" type="text/html" title="带父母去旅游.泰北.2019" /><published>2019-04-01T20:56:00+08:00</published><updated>2019-04-01T20:56:00+08:00</updated><id>http://localhost:4000/Thailand-Hike-withParents</id><content type="html" xml:base="http://localhost:4000/Thailand-Hike-withParents/">&lt;p&gt;&lt;span style=&quot;font-size:12px&quot;&gt;小主： &lt;a href=&quot;/about&quot;&gt;三丰&lt;/a&gt; &lt;/span&gt;&lt;/p&gt;</content><author><name>三丰</name></author><category term="带父母去旅游" /><category term="分时分段环游地球" /><summary type="html">小主： 三丰</summary></entry><entry><title type="html">带父母去旅游.西安.2019</title><link href="http://localhost:4000/Xian-Hike-withParents/" rel="alternate" type="text/html" title="带父母去旅游.西安.2019" /><published>2019-03-27T20:56:00+08:00</published><updated>2019-03-27T20:56:00+08:00</updated><id>http://localhost:4000/Xian-Hike-withParents</id><content type="html" xml:base="http://localhost:4000/Xian-Hike-withParents/">&lt;p&gt;&lt;span style=&quot;font-size:12px&quot;&gt;小主： &lt;a href=&quot;/about&quot;&gt;三丰&lt;/a&gt; &lt;/span&gt;&lt;/p&gt;</content><author><name>三丰</name></author><category term="带父母去旅游" /><category term="分时分段环游地球" /><summary type="html">小主： 三丰</summary></entry></feed>
+&lt;p&gt;&lt;strong&gt;针对前端做了部分的性能优化&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;使用google的&lt;a href=&quot;https://developers.google.cn/speed/pagespeed/insights&quot;&gt;PageSpeed&lt;/a&gt; 进行分析，参考建议优化。&lt;/li&gt;
+  &lt;li&gt;使用CDN， 对于公有的静态资源，比如jquery.min.js、highlight.min.js等文件全部使用CDN，提高网站的访问速度。&lt;/li&gt;
+  &lt;li&gt;图片格式全部使用webp格式&lt;/li&gt;
+  &lt;li&gt;合并静态文件&lt;/li&gt;
+  &lt;li&gt;压缩静态文件&lt;/li&gt;
+  &lt;li&gt;使用浏览器缓存&lt;/li&gt;
+&lt;/ul&gt;</content><author><name>三丰</name></author><category term="自强不息" /><category term="一刻" /><summary type="html">小主： 三丰</summary></entry></feed>

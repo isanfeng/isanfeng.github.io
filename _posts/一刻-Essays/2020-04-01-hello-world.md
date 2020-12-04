@@ -1,23 +1,23 @@
 ---
 layout: post
-title: 网站的前生今世
+title: 笔记的前生今世
 date:  2020-04-01 21:16:00 +0900
 description: Hello World！
 img: posts/fo-0.webp
-tags: [一刻]
-author: # Add name author (optional)
+tags: [自强不息, 一刻]
+author: 三丰
 Essays: true
 ---
 {{site.label1}} <a href="/about">{{page.author}}</a> {{site.label2}}
 
 ## 前生
-先是使用二级域名成品网站，后又折腾过wordpress和ghost之后，最后选择了专一的静态站点。
+先前博客还流行的时候，使用过二级域名成品网站，折腾过wordpress和ghost之后，不过浮躁的都没有好好的去记录，终究失去了学生时代认真记笔记，写读后感的能力，用微信，微博零碎的记录着只言片语，后来慢慢发现没有任何积累。
+再加上这个被控制的媒体工具有时根本不是让自己说一些实话，为了不再受寄人篱下之苦，也是再找一个新的自由的宣泄情感的出口，记录下余生的点点滴滴，让时间来见证一些东西。
 
 ## 今世
-我想人最终还是要找一个宣泄情感的出口吧，记录下一点点的感受，让时间来见证一些东西，看惯了哪些国家特色的媒体工具，最后只能选择自己自立更生。
-后续本站主要作为旅行日志及心情发泄主要工具。
+自力更生，自强不息，不需要繁琐的部署维护，不需要严谨的后端，少量的前端工程，全部聚焦在内容的输出（markdown文件内容），所有的资料都能自己掌握，这基本是选择github pages的原因。
 
-> 部分内容是从之前的wordpress和ghost中迁移过来，有些数据丢失的问题，后面需慢慢修复。
+> 部分内容是从之前的wordpress和ghost中迁移过来，有部分数据丢失的问题，后面需慢慢修复。
 
 **本网站特色及可操作功能：**
 * 网站托管于github（https://isanfeng.github.io）同时为了提高国内访问体验，基于gitee做了镜像(http://iwangsanfeng.gitee.io)可大大提高访问速度。
@@ -37,6 +37,7 @@ Essays: true
 **针对前端做了部分的性能优化**
 * 使用google的[PageSpeed](https://developers.google.cn/speed/pagespeed/insights) 进行分析，参考建议优化。
 * 使用CDN， 对于公有的静态资源，比如jquery.min.js、highlight.min.js等文件全部使用CDN，提高网站的访问速度。
+* 图片格式全部使用webp格式
 * 合并静态文件
 * 压缩静态文件
 * 使用浏览器缓存
