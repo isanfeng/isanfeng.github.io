@@ -3,7 +3,9 @@
 
 # IntelliJ project files
 .idea
+.jekyll-cache
 *.iml
 out
 gen
 /_site
+
