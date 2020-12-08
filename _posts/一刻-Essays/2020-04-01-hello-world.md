@@ -1,7 +1,7 @@
 ---
 layout: post
 title: 笔记的前生今世
-date:  2020-04-01 21:16:00 +0900
+date:  2000-04-01 21:16:00 +0900
 description: Hello World！
 img: posts/fo-0.webp
 tags: [自强不息, 一刻]

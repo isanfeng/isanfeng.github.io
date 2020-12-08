@@ -14,7 +14,7 @@ author: 流浪笔记.三丰
 
 author-pic: isanfeng.jpg
 about-author: Live the life you love, Love the life you lives.
-about-author-detail-0: 侠之大者，四海为家；一人一驹，浪迹天涯。<br>To be a SkyTraveler.<br>人不知道什么时候会生命停止，也许了解之后就会发现人生的意义是什么。
+about-author-detail-0: 侠之大者，四海为家；一人一驹，浪迹天涯。
 about-author-detail-1:
 
 #修改成你自己的
@@ -30,6 +30,8 @@ pinterest: # Add your Pinterest handle
 email: wangsf927@163.com
 phone: secret
 github: isanfeng
+gitee: iwangsanfeng
+dockhub: wangsf927
 jianshu:
 juejin:
 csdn:
