@@ -1,7 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd" xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 <url>
+<loc>http://localhost:4000/hello-world/</loc>
+<lastmod>2000-04-01T20:16:00+08:00</lastmod>
+</url>
+<url>
 <loc>http://localhost:4000/bilibilitest/</loc>
+<lastmod>2000-11-24T17:16:00+08:00</lastmod>
+</url>
+<url>
+<loc>http://localhost:4000/temp/</loc>
 <lastmod>2000-11-24T17:16:00+08:00</lastmod>
 </url>
 <url>
@@ -73,10 +81,6 @@
 <lastmod>2019-10-01T00:09:00+08:00</lastmod>
 </url>
 <url>
-<loc>http://localhost:4000/hello-world/</loc>
-<lastmod>2020-04-01T20:16:00+08:00</lastmod>
-</url>
-<url>
 <loc>http://localhost:4000/China-Beijing-Hike-withParents/</loc>
 <lastmod>2020-10-01T20:56:00+08:00</lastmod>
 </url>
@@ -110,6 +114,10 @@
 </url>
 <url>
 <loc>http://localhost:4000/get-old-alone/</loc>
+<lastmod>2020-12-01T20:16:00+08:00</lastmod>
+</url>
+<url>
+<loc>http://localhost:4000/meditation/</loc>
 <lastmod>2020-12-01T20:16:00+08:00</lastmod>
 </url>
 <url>
