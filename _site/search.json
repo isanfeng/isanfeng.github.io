@@ -217,6 +217,14 @@
     } ,
   
     {
+      "title"    : "Python Cheatsheet",
+      "category" : "",
+      "tags"     : "自强不息, Python",
+      "url"      : "/python-cheat-sheet/",
+      "date"     : "2000-11-30 20:04:00 +0800"
+    } ,
+  
+    {
       "title"    : "Hello test",
       "category" : "",
       "tags"     : "测试",
@@ -225,7 +233,7 @@
     } ,
   
     {
-      "title"    : "Hello test",
+      "title"    : "Hello test template",
       "category" : "",
       "tags"     : "测试",
       "url"      : "/bilibilitest/",

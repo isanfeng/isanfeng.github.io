@@ -10,7 +10,7 @@ url: 'https://isanfeng.github.io' # the base hostname & protocol for your site, 
 gitee_url: 'https://iwangsanfeng.gitee.io'
 
 # Author settings add your name
-author: 流浪笔记.三丰
+author: 流浪笔记☯三丰
 
 author-pic: isanfeng.jpg
 about-author: Live the life you love, Love the life you lives.
@@ -54,7 +54,7 @@ google-analysis-github: G-0K52Q80DV8
 baidu-analysis: 42bccbe026e11e0ec8bcd67d40d41529
 
 # Paginate
-paginate: 27
+paginate: 81
 paginate_path: /page:num/
 
 # Build settings
@@ -63,6 +63,7 @@ plugins:
   - jekyll-paginate
   - jekyll-feed
   - jekyll-sitemap
+  - jekyll-gist
 
 include: [_pages]
 exclude: ["node_modules", "gulpfile.js", "package.json", "yarn.lock"]
