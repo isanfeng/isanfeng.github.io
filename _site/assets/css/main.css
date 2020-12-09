@@ -778,7 +778,7 @@ html {
 }
 
 body {
-  font-family: 'Texturina', 'Orbitron',  'Microsoft YaHei', sans-serif;
+  font-family: 'Texturina', '浪漫雅圆', 'SourceHanSansCN-Normal', 'Microsoft YaHei', sans-serif;
   color: #3e3e40;
   margin: 0;
   background-color: #fff;
@@ -787,7 +787,7 @@ body {
 }
 
 h1, h2, h3, h4, h5, h6 {
-  font-family: 'Texturina', 'Orbitron',  'Microsoft YaHei', 'Lato', sans-serif;
+  font-family: 'Texturina', '浪漫雅圆',  'SourceHanSansCN-Normal', 'Microsoft YaHei', 'Lato', sans-serif;
   color: #311e3e;
   font-weight: 400;
 }
@@ -805,7 +805,7 @@ blockquote {
   border-left: 3px solid #311e3e;
   padding-left: 18px;
   margin-left: 21px;
-  font-style: italic;
+  font-style: normal;
   color: #311e3e;
 }
 
@@ -889,7 +889,7 @@ pre code {
 
 /* = = = = = = = = = = Header Styles = = = = = = = = = = */
 .main-header {
-  font-family: 'Texturina', 'Orbitron',  'Microsoft YaHei', 'Lato', sans-serif;
+  font-family: 'Texturina', '浪漫雅圆', 'SourceHanSansCN-Normal', 'Microsoft YaHei', 'Lato', sans-serif;
   padding: 15px 0;
   background-color: #fff;
   -webkit-box-shadow: 0px -5px 15px rgba(0, 0, 0, 0.3);
@@ -1125,7 +1125,7 @@ pre code {
 }
 
 .post-card .post-card-body .post-card-title {
-  font-family: 'Texturina', 'Orbitron',  'Microsoft YaHei', 'Lato', sans-serif;
+  font-family: 'Texturina', '浪漫雅圆', 'SourceHanSansCN-Normal', 'Microsoft YaHei', 'Lato', sans-serif;
   font-weight: 700;
   font-size: 18px;
   color: #fff;
@@ -1219,7 +1219,7 @@ pre code {
 }
 
 .header-page h1 {
-  font-family: 'Texturina', 'Orbitron',  'Microsoft YaHei', 'Lato', sans-serif;
+  font-family: 'Texturina', '浪漫雅圆', 'SourceHanSansCN-Normal', 'Microsoft YaHei', 'Lato', sans-serif;
   font-weight: 400;
   font-size: 36px;
   text-align: center;
@@ -1278,7 +1278,7 @@ pre code {
 }
 
 .recent-box .recent-title {
-  font-family: 'Texturina', 'Orbitron',  'Microsoft YaHei','Lato', sans-serif;
+  font-family: 'Texturina', '浪漫雅圆', 'SourceHanSansCN-Normal', 'Microsoft YaHei','Lato', sans-serif;
   font-weight: 400;
   color: #311e3e;
   text-align: center;
@@ -1542,7 +1542,7 @@ pre code {
 
 .blog-tags h1 {
   text-align: center;
-  font-family: 'Texturina', 'Orbitron',  'Microsoft YaHei', 'Lato', sans-serif;
+  font-family: 'Texturina', '浪漫雅圆', 'SourceHanSansCN-Normal', 'Microsoft YaHei', 'Lato', sans-serif;
   font-weight: 400;
   font-size: 36px;
   text-align: center;
@@ -1828,7 +1828,7 @@ pre code {
   color: #ffffff;
   font-size: 1.1rem;
   text-decoration: none;
-  font-style: italic;
+  font-style: normal;
   display: inline-block;
   margin: 0.7rem 1rem;
   padding-left: 0.5rem;
@@ -2023,7 +2023,7 @@ pre code {
 
 /*item文章摘要鼠标放入显示离开隐藏*/
 .post-card-stricp {
-  font-family: 'Texturina', 'Orbitron',  'Microsoft YaHei', 'Lato', sans-serif;
+  font-family: 'Texturina', '浪漫雅圆', 'SourceHanSansCN-Normal', 'Microsoft YaHei', 'Lato', sans-serif;
   font-weight: 500;
   font-size: 12px;
   color: #fff;
@@ -2264,85 +2264,6 @@ img::-moz-selection {
 
   /*谷歌字体定制start*/
   /*工具：https://google-webfonts-helper.herokuapp.com/fonts */
-  /* orbitron-regular - latin */
-@font-face {
-  font-family: 'Orbitron';
-  font-style: normal;
-  font-weight: 400;
-  src: url('../fonts/Orbitron/orbitron-v16-latin-regular.eot'); /* IE9 Compat Modes */
-  src: local(''),
-       url('../fonts/Orbitron/orbitron-v16-latin-regular.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
-       url('../fonts/Orbitron/orbitron-v16-latin-regular.woff2') format('woff2'), /* Super Modern Browsers */
-       url('../fonts/Orbitron/orbitron-v16-latin-regular.woff') format('woff'), /* Modern Browsers */
-       url('../fonts/Orbitron/orbitron-v16-latin-regular.ttf') format('truetype'), /* Safari, Android, iOS */
-       url('../fonts/Orbitron/orbitron-v16-latin-regular.svg#Orbitron') format('svg'); /* Legacy iOS */
-}
-/* orbitron-500 - latin */
-@font-face {
-  font-family: 'Orbitron';
-  font-style: normal;
-  font-weight: 500;
-  src: url('../fonts/Orbitron/orbitron-v16-latin-500.eot'); /* IE9 Compat Modes */
-  src: local(''),
-       url('../fonts/Orbitron/orbitron-v16-latin-500.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
-       url('../fonts/Orbitron/orbitron-v16-latin-500.woff2') format('woff2'), /* Super Modern Browsers */
-       url('../fonts/Orbitron/orbitron-v16-latin-500.woff') format('woff'), /* Modern Browsers */
-       url('../fonts/Orbitron/orbitron-v16-latin-500.ttf') format('truetype'), /* Safari, Android, iOS */
-       url('../fonts/Orbitron/orbitron-v16-latin-500.svg#Orbitron') format('svg'); /* Legacy iOS */
-}
-/* orbitron-600 - latin */
-@font-face {
-  font-family: 'Orbitron';
-  font-style: normal;
-  font-weight: 600;
-  src: url('../fonts/Orbitron/orbitron-v16-latin-600.eot'); /* IE9 Compat Modes */
-  src: local(''),
-       url('../fonts/Orbitron/orbitron-v16-latin-600.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
-       url('../fonts/Orbitron/orbitron-v16-latin-600.woff2') format('woff2'), /* Super Modern Browsers */
-       url('../fonts/Orbitron/orbitron-v16-latin-600.woff') format('woff'), /* Modern Browsers */
-       url('../fonts/Orbitron/orbitron-v16-latin-600.ttf') format('truetype'), /* Safari, Android, iOS */
-       url('../fonts/Orbitron/orbitron-v16-latin-600.svg#Orbitron') format('svg'); /* Legacy iOS */
-}
-/* orbitron-700 - latin */
-@font-face {
-  font-family: 'Orbitron';
-  font-style: normal;
-  font-weight: 700;
-  src: url('../fonts/Orbitron/orbitron-v16-latin-700.eot'); /* IE9 Compat Modes */
-  src: local(''),
-       url('../fonts/Orbitron/orbitron-v16-latin-700.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
-       url('../fonts/Orbitron/orbitron-v16-latin-700.woff2') format('woff2'), /* Super Modern Browsers */
-       url('../fonts/Orbitron/orbitron-v16-latin-700.woff') format('woff'), /* Modern Browsers */
-       url('../fonts/Orbitron/orbitron-v16-latin-700.ttf') format('truetype'), /* Safari, Android, iOS */
-       url('../fonts/Orbitron/orbitron-v16-latin-700.svg#Orbitron') format('svg'); /* Legacy iOS */
-}
-/* orbitron-900 - latin */
-@font-face {
-  font-family: 'Orbitron';
-  font-style: normal;
-  font-weight: 900;
-  src: url('../fonts/Orbitron/orbitron-v16-latin-900.eot'); /* IE9 Compat Modes */
-  src: local(''),
-       url('../fonts/Orbitron/orbitron-v16-latin-900.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
-       url('../fonts/Orbitron/orbitron-v16-latin-900.woff2') format('woff2'), /* Super Modern Browsers */
-       url('../fonts/Orbitron/orbitron-v16-latin-900.woff') format('woff'), /* Modern Browsers */
-       url('../fonts/Orbitron/orbitron-v16-latin-900.ttf') format('truetype'), /* Safari, Android, iOS */
-       url('../fonts/Orbitron/orbitron-v16-latin-900.svg#Orbitron') format('svg'); /* Legacy iOS */
-}
-/* orbitron-800 - latin */
-@font-face {
-  font-family: 'Orbitron';
-  font-style: normal;
-  font-weight: 800;
-  src: url('../fonts/Orbitron/orbitron-v16-latin-800.eot'); /* IE9 Compat Modes */
-  src: local(''),
-       url('../fonts/Orbitron/orbitron-v16-latin-800.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
-       url('../fonts/Orbitron/orbitron-v16-latin-800.woff2') format('woff2'), /* Super Modern Browsers */
-       url('../fonts/Orbitron/orbitron-v16-latin-800.woff') format('woff'), /* Modern Browsers */
-       url('../fonts/Orbitron/orbitron-v16-latin-800.ttf') format('truetype'), /* Safari, Android, iOS */
-       url('../fonts/Orbitron/orbitron-v16-latin-800.svg#Orbitron') format('svg'); /* Legacy iOS */
-}
-
 /* texturina-100 - latin */
 @font-face {
   font-family: 'Texturina';
@@ -2577,4 +2498,29 @@ img::-moz-selection {
        url('../fonts/Texturina/texturina-v2-latin-800italic.ttf') format('truetype'), /* Safari, Android, iOS */
        url('../fonts/Texturina/texturina-v2-latin-800italic.svg#Texturina') format('svg'); /* Legacy iOS */
 }
+
+@font-face {
+  font-family: 'SourceHanSansCN-Normal';
+  font-style: normal;
+  font-weight: normal;
+  src: url("../fonts/SourceHanSansCN/SourceHanSansCN-Normal.eot"); /* IE9 */
+  src: local(''),
+       url("../fonts/SourceHanSansCN/SourceHanSansCN-Normal.eot?#iefix") format("embedded-opentype"), /* IE6-IE8 */
+       url("../fonts/SourceHanSansCN/SourceHanSansCN-Normal.woff") format("woff"), /* chrome、firefox */
+       url("../fonts/SourceHanSansCN/SourceHanSansCN-Normal.ttf") format("truetype"), /* chrome、firefox、opera、Safari, Android, iOS 4.2+ */
+       url("../fonts/SourceHanSansCN/SourceHanSansCN-Normal.svg#SourceHanSansCN-Normal") format("svg"); /* iOS 4.1- */
+}
+
+@font-face {
+    font-family: "浪漫雅圆";
+    font-style: normal;
+    font-weight: normal;
+    src: url("../fonts/LangManYaYuan/浪漫雅圆.eot"); /* IE9 */
+    src: local(''),
+         url("../fonts/LangManYaYuan/浪漫雅圆.eot?#iefix") format("embedded-opentype"), /* IE6-IE8 */
+         url("../fonts/LangManYaYuan/浪漫雅圆.woff") format("woff"), /* chrome、firefox */
+         url("../fonts/LangManYaYuan/浪漫雅圆.ttf") format("truetype"), /* chrome、firefox、opera、Safari, Android, iOS 4.2+ */
+         url("../fonts/LangManYaYuan/浪漫雅圆.svg#浪漫雅圆") format("svg"); /* iOS 4.1- */
+}
+
   /*谷歌字体定制end*/
