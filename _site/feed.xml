@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.9.0">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2020-12-09T18:38:50+08:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">-=流浪笔记.三丰=-</title><subtitle>分时分段 单车 旅行 学习</subtitle><author><name>流浪笔记☯三丰</name></author><entry><title type="html">冥想.Meditation</title><link href="http://localhost:4000/meditation/" rel="alternate" type="text/html" title="冥想.Meditation" /><published>2020-12-01T20:16:00+08:00</published><updated>2020-12-01T20:16:00+08:00</updated><id>http://localhost:4000/meditation</id><content type="html" xml:base="http://localhost:4000/meditation/">&lt;p&gt;&lt;span style=&quot;font-size:12px&quot;&gt;小主： &lt;a href=&quot;/about&quot;&gt;三丰&lt;/a&gt; &lt;/span&gt;&lt;/p&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.9.0">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2020-12-09T19:41:28+08:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">-=流浪笔记.三丰=-</title><subtitle>分时分段 单车 旅行 学习</subtitle><author><name>流浪笔记☯三丰</name></author><entry><title type="html">冥想.Meditation</title><link href="http://localhost:4000/meditation/" rel="alternate" type="text/html" title="冥想.Meditation" /><published>2020-12-01T20:16:00+08:00</published><updated>2020-12-01T20:16:00+08:00</updated><id>http://localhost:4000/meditation</id><content type="html" xml:base="http://localhost:4000/meditation/">&lt;p&gt;&lt;span style=&quot;font-size:12px&quot;&gt;小主： &lt;a href=&quot;/about&quot;&gt;三丰&lt;/a&gt; &lt;/span&gt;&lt;/p&gt;
 
 &lt;p&gt;最早听到冥想这个词，应该是大学一年级看《乔布斯传》的时候。当时对它的第一感觉就是没事坐在那里干嘛，故而也提不起什么兴趣。现在回想起来，如果当时就开始修习冥想的话，说不定笔者自身的强迫症，失眠症等问题能够提前几年得到缓解。&lt;/p&gt;
 
@@ -136,7 +136,59 @@
 &lt;p&gt;##知耻而后勇
 不过几次的经验下来，也证实了那么个道理，只有和人的沟通才是学习语言的最快方式。&lt;/p&gt;
 
-&lt;p&gt;不过这不平凡的一年，注定让这仅有的一点点机会都奢侈的被剥夺了，现在的我们如何学习英语？背单词增加词汇量，看英文电影培养语境，用英文系统养成习惯……貌似都可以，做了总比不做好，对自己最困难的是要坚持，坚持，坚持下去。&lt;/p&gt;</content><author><name>三丰</name></author><category term="自强不息" /><category term="English" /><summary type="html">小主： 三丰</summary></entry><entry><title type="html">Flask &amp;amp; Django</title><link href="http://localhost:4000/python-flask-learning/" rel="alternate" type="text/html" title="Flask &amp; Django" /><published>2020-11-30T20:04:00+08:00</published><updated>2020-11-30T20:04:00+08:00</updated><id>http://localhost:4000/python-flask-learning</id><content type="html" xml:base="http://localhost:4000/python-flask-learning/">&lt;p&gt;&lt;span style=&quot;font-size:12px&quot;&gt;小主： &lt;a href=&quot;/about&quot;&gt;三丰&lt;/a&gt; &lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;不过这不平凡的一年，注定让这仅有的一点点机会都奢侈的被剥夺了，现在的我们如何学习英语？
+只能通过不断练习听力，模拟与人的沟通，转载一份比较有效的听力练习法&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;五步精听法&lt;/p&gt;
+
+  &lt;p&gt;训练分为 5 步，需要的内容有两个：听力材料，听力材料对应的准确原文。&lt;/p&gt;
+
+  &lt;p&gt;播放一遍听力材料，不看原文，认真听；&lt;/p&gt;
+
+  &lt;p&gt;打开听力原文，查找不认识的词和短语；&lt;/p&gt;
+
+  &lt;p&gt;逐字句地翻译原文——必须成文，可以写在纸上或者打字放在电脑里，但不能口头翻译（「大概是这样就行了」是不行的）；&lt;/p&gt;
+
+  &lt;p&gt;对照原文和译文，播放听力材料，落后听力原文三个单词做「影子跟读」，直到可以不看原文脱稿跟读；&lt;/p&gt;
+
+  &lt;p&gt;在当天时间内（不一定要即时，但是要当天完成），认真听材料 20 遍，尝试根据听到的声音直接反应出对应的含义。&lt;/p&gt;
+
+  &lt;p&gt;方法背后的原理&lt;/p&gt;
+
+  &lt;p&gt;听力的最终目的是「听到声音就知道意思」。这就包括了两个步骤。&lt;/p&gt;
+
+  &lt;p&gt;首先是听到声音直到对方在说什么（英语，目标语言），这属于「听得清」的范畴；其次是知道对方说什么之后反应出对应的意思（中文，母语，思维语言）。
+此外，因为听力是一个连续的过程，对这两个步骤还有「快」的要求。因为如果不够快，对方哗啦啦已经说到下一个话题了，可能我们还在反应上一个话题的内容。
+而「快」就要求对应于有一个比较大块的「意义反应单元」。什么意思呢？先以中文举例：当我们听到「我今天要去游泳」，我们理解的是整个句子，而不是逐词地理解「我、今天、要、去、游泳」。
+而放在英文中，非母语学生如果不经特别的训练，理解听力中说话人的语义往往是逐词进行的——就像后面那个例子一样。可以想见，这样去理解意思，是怎么都快不起来的。
+可见，如果只是做听写练习，或者以美剧或者 VOA 之类的材料做泛听，是不够的。前者只解决了「辨音」的问题，而且效率低下；后者只是在不断地重复强化熟悉的句式和表达方式在脑海中的印象，不熟悉的内容还是不行。
+这五步的精听练习中，&lt;/p&gt;
+
+  &lt;p&gt;第一步是模拟实际的环境（因为实际情况我们就只能听对方说一遍），&lt;/p&gt;
+
+  &lt;p&gt;第二步是辅助，&lt;/p&gt;
+
+  &lt;p&gt;第三步是建立英语到汉语的对应，&lt;/p&gt;
+
+  &lt;p&gt;第四步解决辨音的问题，&lt;/p&gt;
+
+  &lt;p&gt;第五步是在强化「声音 - 语义」的直接连接。&lt;/p&gt;
+
+  &lt;p&gt;这就是五步精听法背后的原理。&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;推荐材料:&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;老托 93 篇听力练习&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;推荐的材料是科学美国人节目的「一分钟科学（Sixty Second Science）」&lt;/p&gt;
+&lt;/blockquote&gt;</content><author><name>三丰</name></author><category term="自强不息" /><category term="English" /><summary type="html">小主： 三丰</summary></entry><entry><title type="html">Flask &amp;amp; Django</title><link href="http://localhost:4000/python-flask-learning/" rel="alternate" type="text/html" title="Flask &amp; Django" /><published>2020-11-30T20:04:00+08:00</published><updated>2020-11-30T20:04:00+08:00</updated><id>http://localhost:4000/python-flask-learning</id><content type="html" xml:base="http://localhost:4000/python-flask-learning/">&lt;p&gt;&lt;span style=&quot;font-size:12px&quot;&gt;小主： &lt;a href=&quot;/about&quot;&gt;三丰&lt;/a&gt; &lt;/span&gt;&lt;/p&gt;
 
 &lt;h2 id=&quot;前言&quot;&gt;前言&lt;/h2&gt;
 
