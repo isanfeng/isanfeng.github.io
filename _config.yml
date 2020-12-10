@@ -7,7 +7,7 @@ enableToc: true
 permalink: ':title/'
 #baseurl: "" # the subpath of your site, e.g. /blog
 url: 'https://isanfeng.github.io' # the base hostname & protocol for your site, e.g. http://example.com
-gitee_url: 'https://iwangsanfeng.gitee.io'
+gitee_url: 'http://iwangsanfeng.gitee.io'
 
 # Author settings add your name
 author: 流浪笔记☯三丰
@@ -15,9 +15,10 @@ author: 流浪笔记☯三丰
 author-pic: isanfeng.jpg
 about-author: Live the life you love, Love the life you lives.
 about-author-detail-0: 侠之大者，四海为家；一人一驹，浪迹天涯。
-about-author-detail-1: DN-L2-Ⅰ：<a href="https://isanfeng.github.io">https://isanfeng.github.io</a><br>
-  DN-L2-Ⅱ：<a href="https://iwangsanfeng.gitee.io">https://iwangsanfeng.gitee.io</a><br>
-  DN-L1：<a href="https://isanfeng.vercel.app">http://isanfeng.ml</a>『㊟ml中文代表“美丽ღ”』
+about-author-detail-1:
+  DN-L2-Ⅰ：<a href="https://iwangsanfeng.gitee.io">https://iwangsanfeng.gitee.io</a><br>
+  DN-L2-Ⅱ：<a href="https://isanfeng.github.io">https://isanfeng.github.io</a><br>
+  DN-L1：<a href="https://isanfeng.vercel.app">http://isanfeng.ml</a><br>『㊟ml中文代表“美丽ღ”』
 
 #修改成你自己的
 # Contact links
