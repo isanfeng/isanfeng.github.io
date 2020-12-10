@@ -3,7 +3,7 @@ layout: post
 title: 冥想.Meditation
 date:  2020-12-01 21:16:00 +0900
 description: 
-img: posts/get_old_alone.webp
+img: posts/Meditation.webp
 tags: [厚德载物]
 author: 三丰
 Essays: true
