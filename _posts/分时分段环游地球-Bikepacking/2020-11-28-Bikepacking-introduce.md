@@ -8,8 +8,6 @@ img: posts/bikepacking.webp
 tags: [Bikepacking]
 Bikepacking: true
 ---
-{{site.label1}} <a href="/about">{{page.author}}</a> {{site.label2}}
-
 ## Bikepacking的装备
 
 车子，包

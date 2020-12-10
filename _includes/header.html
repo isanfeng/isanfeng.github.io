@@ -12,6 +12,7 @@
         <ul>
 		 {% for link in site.links1 %}
 			 {% assign count = 0 %}
+
 			 {% if link.type == site.blog_1 %}
 				 {% for post in site.posts %}
 				   {% assign count = count | plus: 1 %}
@@ -28,7 +29,7 @@
 
 			 {% if link.type == site.blog_3 %}
 				{% for post in site.posts %}
-				   {% if post.Fire %}
+				   {% if post.Life %}
 						{% assign count = count | plus: 1 %}
 				   {% endif %}
 				 {% endfor %}
@@ -44,7 +45,7 @@
 
 			 {% if link.type == site.blog_5 %}
 				{% for post in site.posts %}
-				   {% if post.Python %}
+				   {% if post.Study %}
 						{% assign count = count | plus: 1 %}
 				   {% endif %}
 				 {% endfor %}
@@ -53,14 +54,6 @@
 			 {% if link.type == site.blog_6 %}
 				{% for post in site.posts %}
 				   {% if post.Essays %}
-						{% assign count = count | plus: 1 %}
-				   {% endif %}
-				 {% endfor %}
-			 {% endif %}
-
-			 {% if link.type == site.blog_7 %}
-				{% for post in site.posts %}
-				   {% if post.Reading %}
 						{% assign count = count | plus: 1 %}
 				   {% endif %}
 				 {% endfor %}

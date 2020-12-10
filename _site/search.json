@@ -3,7 +3,7 @@
     {
       "title"    : "冥想.Meditation",
       "category" : "",
-      "tags"     : "一刻",
+      "tags"     : "厚德载物",
       "url"      : "/meditation/",
       "date"     : "2020-12-01 20:16:00 +0800"
     } ,
@@ -11,7 +11,7 @@
     {
       "title"    : "孤独终老",
       "category" : "",
-      "tags"     : "一刻",
+      "tags"     : "厚德载物",
       "url"      : "/get-old-alone/",
       "date"     : "2020-12-01 20:16:00 +0800"
     } ,
@@ -43,7 +43,7 @@
     {
       "title"    : "FIRE",
       "category" : "",
-      "tags"     : "FIRE",
+      "tags"     : "工欲善其事, Fire",
       "url"      : "/Fire-First/",
       "date"     : "2020-11-17 20:04:00 +0800"
     } ,
@@ -211,7 +211,7 @@
     {
       "title"    : "三丰来了",
       "category" : "",
-      "tags"     : "一刻",
+      "tags"     : "厚德载物",
       "url"      : "/isanfeng_beginning/",
       "date"     : "2010-03-31 14:10:00 +0800"
     } ,
@@ -225,25 +225,9 @@
     } ,
   
     {
-      "title"    : "Hello test",
-      "category" : "",
-      "tags"     : "测试",
-      "url"      : "/temp/",
-      "date"     : "2000-11-24 17:16:00 +0800"
-    } ,
-  
-    {
-      "title"    : "Hello test template",
-      "category" : "",
-      "tags"     : "测试",
-      "url"      : "/bilibilitest/",
-      "date"     : "2000-11-24 17:16:00 +0800"
-    } ,
-  
-    {
       "title"    : "笔记的前生今世",
       "category" : "",
-      "tags"     : "自强不息, 一刻",
+      "tags"     : "自强不息",
       "url"      : "/hello-world/",
       "date"     : "2000-04-01 20:16:00 +0800"
     } 

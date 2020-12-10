@@ -79,11 +79,11 @@ links:
     external:     false
 
 #添加分类步骤：
-#1：在_config.yml links1及blog_中添加对应内容
+#1：在_config.yml links1及blog中添加对应内容
 #2：在_includes里面headr.html中添加对应内容
 #3：在根目录blog文件中创建对应内容并修改index文件
 
-label1: <span style="font-size:12px">小主：
+label1: <span style="font-size:12px">主子：
 label2: </span>
 
 
@@ -97,32 +97,31 @@ links1:
     type:         Bikepacking
     external:     false
   - name:         工欲善其事
-    url:          /blog/Fire
-    type:         Fire
+    url:          /blog/Life
+    type:         Life
     external:     false
   - name:         必先利其器
     url:          /blog/Tools
     type:         Tools
     external:     false
-  - name:         PythonStudy
-    url:          /blog/Python
-    type:         Python
+  - name:         自强不息
+    url:          /blog/Study
+    type:         Study
     external:     false
-  - name:         一刻
+  - name:         厚德载物
     url:          /blog/Essays
     type:         Essays
     external:     false
-  - name:         八两
-    url:          /blog/Reading
-    type:         Reading
-    external:     false
+  - name:         镜像
+    url:          https://iwangsanfeng.gitee.io
+    type:         site
+    external:     true
 
 blog_1:    recent
 blog_2:    Bikepacking
-blog_3:    Fire
+blog_3:    Life
 blog_4:    Tools
-blog_5:    Python
+blog_5:    Study
 blog_6:    Essays
-blog_7:    Reading
 
 #permalink: /:year/:month/:day/:title.html

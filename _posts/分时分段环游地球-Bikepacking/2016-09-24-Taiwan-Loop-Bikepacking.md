@@ -8,8 +8,6 @@ img: posts/taiwan.webp
 tags: [Bikepacking, 分时分段环游地球]
 Bikepacking: true
 ---
-{{site.label1}} <a href="/about">{{page.author}}</a> {{site.label2}}
-
 # 练习曲.一六
 
 ## 序

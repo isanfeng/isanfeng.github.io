@@ -8,8 +8,6 @@ img: posts/Hokkaido-1-0.webp
 tags: [Bikepacking, 分时分段环游地球]
 Bikepacking: true
 ---
-{{site.label1}} <a href="/about">{{page.author}}</a> {{site.label2}}
-
 # 第一次日本行 - 骑游北海道
 ## 序
 拥抱着世界那么大说走就走去看看的心，却活在朝十晚七的奔波中，不甘于此所以从三年前开始，便计划每年能进行1-2次这样的活动，然后就想出了这个分时分段的计划，当然会采用各种形式来完成，但截至目前还都是以一车一人的方式完成，

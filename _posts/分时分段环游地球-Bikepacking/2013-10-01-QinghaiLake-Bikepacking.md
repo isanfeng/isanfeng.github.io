@@ -8,6 +8,4 @@ tags: [Bikepacking, 分时分段环游地球]
 author: 三丰
 Bikepacking: true
 ---
-{{site.label1}} <a href="/about">{{page.author}}</a> {{site.label2}}
-
 第一次用车轮丈量这个世界，从此爱上无可救药。

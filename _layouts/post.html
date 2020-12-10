@@ -12,7 +12,9 @@ layout: default
       <div class="page-content">
         <div class="header-page">
           <h1 class="page-title">{{page.title}}</h1>
-          <div class="page-date"><time datetime="{{page.date}}">{{page.date | date: '%Y, %b %d'}}</time>
+          <div class="page-date">
+            <time datetime="{{page.date}}">{{page.date | date: '%Y, %b %d'}}</time>
+            <span id="author"> | {{site.label1}}<a href="/about">{{page.author}}</a>{{site.label2}}</span>
 		  <!-- <span id="busuanzi_container_page_pv"> | 来访：<span id="busuanzi_value_page_pv"></span>人</span> -->
 		  </div>
         </div>
