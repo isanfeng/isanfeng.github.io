@@ -8,6 +8,4 @@ img: posts/thailand-1-0.webp
 tags: [Bikepacking, 分时分段环游地球]
 Bikepacking: true
 ---
-{{site.label1}} <a href="/about">{{page.author}}</a> {{site.label2}}
-
 第一次出国长途骑行，选择了泰北小环线。

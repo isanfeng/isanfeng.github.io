@@ -8,6 +8,4 @@ tags: [Bikepacking, 分时分段环游地球]
 author: 三丰
 Bikepacking: true
 ---
-{{site.label1}} <a href="/about">{{page.author}}</a> {{site.label2}}
-
 青海湖后再出发，又一次长途旅行。

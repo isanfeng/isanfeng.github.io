@@ -8,4 +8,3 @@ img: posts/Xian-0.webp
 tags: [带父母去旅游, 分时分段环游地球]
 Bikepacking: true
 ---
-{{site.label1}} <a href="/about">{{page.author}}</a> {{site.label2}}
