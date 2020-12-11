@@ -1,7 +1,7 @@
 ---
 layout: post
 title: 冥想.Meditation
-date:  2020-12-01 21:16:00 +0900
+date:  2020-12-08 21:16:00 +0900
 description: 
 img: posts/Meditation.webp
 tags: [厚德载物]
