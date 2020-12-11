@@ -2499,6 +2499,7 @@ img::-moz-selection {
        url('../fonts/Texturina/texturina-v2-latin-800italic.svg#Texturina') format('svg'); /* Legacy iOS */
 }
 
+/* 针对中文字体优化：http://ecomfe.github.io/fontmin/ */
 @font-face {
   font-family: 'SourceHanSansCN-Normal';
   font-style: normal;
