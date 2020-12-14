@@ -16,9 +16,10 @@ author-pic: isanfeng.jpg
 about-author: Live the life you love, Love the life you lives.
 about-author-detail-0: 侠之大者，四海为家；一人一驹，浪迹天涯。
 about-author-detail-1:
-  DN-L1-Ⅰ：<a href="https://iwangsanfeng.gitee.io">http://isanfeng.cf</a>『㊟cf中文代表“出发✈”』<br>
-  DN-L1-Ⅱ：<a href="https://isanfeng.vercel.app">http://isanfeng.ml</a>『㊟ml中文代表“美丽ღ”』<br>
-  DN-L1-Ⅲ：<a href="https://iwangsanfeng.gitee.io">http://isanfeng.tk</a>『㊟tk中文代表“天空☀”』<br>
+  DN-L1-Ⅰ：<a href="https://iwangsanfeng.gitee.io">http://isanfeng.cf</a>  『㊟cf中文代表“出发✈”』<br>
+  DN-L1-Ⅱ：<a href="https://isanfeng.vercel.app">http://isanfeng.ml</a>  『㊟ml中文代表“美丽ღ”』<br>
+  DN-L1-Ⅲ：<a href="https://iwangsanfeng.gitee.io">http://isanfeng.tk</a>  『㊟tk中文代表“天空☀”』<br>
+  【永久二级域名】<br>
   DN-L2-Ⅰ：<a href="https://iwangsanfeng.gitee.io">https://iwangsanfeng.gitee.io</a><br>
   DN-L2-Ⅱ：<a href="https://isanfeng.vercel.app">https://isanfeng.vercel.app</a><br>
   DN-L2-Ⅲ：<a href="https://isanfeng.github.io">https://isanfeng.github.io</a><br>
@@ -88,7 +89,7 @@ links:
 #2：在_includes里面headr.html中添加对应内容
 #3：在根目录blog文件中创建对应内容并修改index文件
 
-label1: <span style="font-size:12px">主子：
+label1: <span style="font-size:12px">Author：
 label2: </span>
 
 
