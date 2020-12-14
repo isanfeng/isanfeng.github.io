@@ -2,7 +2,7 @@
 layout: post
 title: English
 date: 2020-12-01 20:04
-author: 三丰
+author: isanfeng
 description:
 img: posts/retro-cycling.webp
 tags: [自强不息, English]
