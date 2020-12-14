@@ -2,7 +2,7 @@
 layout: post
 title: FIRE
 date: 2020-11-17 20:04
-author: 三丰
+author: isanfeng
 description:
 img: posts/jijian.jpeg
 tags: [工欲善其事, Fire]
