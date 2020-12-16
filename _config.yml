@@ -78,13 +78,13 @@ exclude: ["node_modules", "gulpfile.js", "package.json", "yarn.lock"]
 imagepath: /assets/img/
 
 links:
-  - name:         首页
+  - name:         <i class="fa fa-thermometer-full"></i> 首页
     url:          /
     external:     false
-  - name:         旅行地图
+  - name:         <i class="fa fa-thermometer-half"></i> 旅行地图
     url:          /travel_map
     external:     false
-  - name:         关于
+  - name:         <i class="fa fa-thermometer-quarter"></i> 关于
     url:          /about
     external:     false
 

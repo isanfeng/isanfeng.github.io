@@ -1843,7 +1843,8 @@ pre code {
   position: relative;
   width: 100%;
   max-width: 100%;
-  top: 25px;
+  height: 500px;
+  top: 30px;
   overflow: hidden;
 }
 
