@@ -96,6 +96,33 @@
 <!--    <script src="//unpkg.com/valine@latest/dist/Valine.min.js"></script>-->
 	<script src="/assets/js/valine/Valine.min.js"></script>
 
+	<!--禁止查看网页源码-->
+	<script type="text/javascript">
+        window.onload = function(){
+            //屏蔽键盘事件
+            document.onkeydown = function (){
+                var e = window.event || arguments[0];
+                //F12
+                if(e.keyCode == 123){
+                    return false;
+                //Ctrl+Shift+I
+                }else if((e.ctrlKey) && (e.shiftKey) && (e.keyCode == 73)){
+                    return false;
+                //Shift+F10
+                }else if((e.shiftKey) && (e.keyCode == 121)){
+                    return false;
+                //Ctrl+U
+                }else if((e.ctrlKey) && (e.keyCode == 85)){
+                    return false;
+                }
+            };
+            //屏蔽鼠标右键
+            document.oncontextmenu = function (){
+                return false;
+            }
+        }
+	</script>
+
 </head>
 
 <body>
@@ -374,10 +401,10 @@
           <!--Start Share-->
           <div class="page-share">
             <span>SHARE:</span>
-            <a href="https://twitter.com/intent/tweet?text=Flask & Django&url=https://isanfeng.github.io/python-flask-learning/" title="Share on Twitter" rel="nofollow" target="_blank"><i class="fa fa-twitter" aria-hidden="true"></i></a>
-            <a href="https://facebook.com/sharer.php?u=https://isanfeng.github.io/python-flask-learning/" title="Share on Facebook" rel="nofollow" target="_blank"><i class="fa fa-facebook" aria-hidden="true"></i></a>
-            <a href="https://plus.google.com/share?url=https://isanfeng.github.io/python-flask-learning/" title="Share on Google+" rel="nofollow" target="_blank"><i class="fa fa-google" aria-hidden="true"></i></a>
-            <a href="https://service.weibo.com/share/share.php?url=https://iwangsanfeng.gitee.io/python-flask-learning/&title=Flask & Django&pic=https://isanfeng.github.io/assets/img/posts/flask-0-0.webp" title="Share on Weibo" rel="nofollow" target="_blank"><i class="fa fa-weibo" aria-hidden="true"></i></a>
+            <a href="https://twitter.com/intent/tweet?text=Flask & Django&url=http://localhost:4000/python-flask-learning/" title="Share on Twitter" rel="nofollow" target="_blank"><i class="fa fa-twitter" aria-hidden="true"></i></a>
+            <a href="https://facebook.com/sharer.php?u=http://localhost:4000/python-flask-learning/" title="Share on Facebook" rel="nofollow" target="_blank"><i class="fa fa-facebook" aria-hidden="true"></i></a>
+            <a href="https://plus.google.com/share?url=http://localhost:4000/python-flask-learning/" title="Share on Google+" rel="nofollow" target="_blank"><i class="fa fa-google" aria-hidden="true"></i></a>
+            <a href="https://service.weibo.com/share/share.php?url=https://iwangsanfeng.gitee.io/python-flask-learning/&title=Flask & Django&pic=http://localhost:4000/assets/img/posts/flask-0-0.webp" title="Share on Weibo" rel="nofollow" target="_blank"><i class="fa fa-weibo" aria-hidden="true"></i></a>
           </div>
           <!-- End Share -->
 
