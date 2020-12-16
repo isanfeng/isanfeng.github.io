@@ -251,6 +251,7 @@
 
 </head>
 
+
 <!--左侧文档分类 和 页面导航-->
 
 <header class="main-header">
@@ -432,11 +433,13 @@
   </div>
 </header> <!-- End Header -->
 
+
 <div>
-    <p></p>
+    <h2 align="center"><i class="fa fa-bicycle" aria-hidden="true"></i>用车轮丈量距离，用热情点亮世界<i class="fa fa-bicycle" aria-hidden="true"></i></h2>
+    <p align="center"></p>
 </div>
 
-<section class="travel_map">
+<section class="travel_map_box">
     <!-- Styles -->
     <style>
         #chartdiv {
@@ -779,10 +782,86 @@
     <div id="chartdiv"></div>
 </section>
 
-<div>
-    <h2 align="center">用车轮丈量距离，用热情点亮世界</h2>
-    <p align="center"></p>
-</div>
+<footer class="main-footer">
+	<div class="footer-social">
+		<div class="footer-container clearfix">
+			<div class="social-list">
+				<a class="social gitee" target="blank" href="https://iwangsanfeng.gitee.io"><i class="fa fa-home" aria-hidden="true"></i>国内镜像站A➲</a>
+				<a class="social vercel" target="blank" href="https://isanfeng.vercel.app"><i class="fa fa-home" aria-hidden="true"></i>国内镜像站B➲</a>
+				<a class="social github" target="blank" href="https://isanfeng.github.io"><i class="fa fa-home" aria-hidden="true"></i>全球通用站➲</a>
+			</div>
+		</div>
+	</div>
+
+	<div class="copyright" style="font-size:12px;color:#B3B3B3;padding-bottom:30px;float:bottom">
+		<p><i class="fa fa-copyright" aria-hidden="true"></i>	2020	|	<i class="fa fa-user-circle-o" aria-hidden="true"></i>	流浪笔记<i class="fa fa-bicycle" aria-hidden="true"></i>三丰</p>
+
+	<div style="font-size:12px;color:#B3B3B3;padding-bottom:30px;float:bottom">
+<!--		<iframe-->
+<!--                style="margin-left: 2px; margin-bottom:-5px;"-->
+<!--                frameborder="0" scrolling="0" width="91px" height="20px"-->
+<!--                src="https://ghbtns.com/github-btn.html?user=isanfeng&repo=&type=star&count=true" >-->
+<!--		</iframe>-->
+		<span id="busuanzi_container_site_pv"><i class="fa fa-users" aria-hidden="true"></i>本站总访客数：<span id="busuanzi_value_site_uv"></span>人</span>
+	  	<span class="division">|</span>
+		<span id="busuanzi_container_page_pv"><i class="fa fa-users" aria-hidden="true"></i>本站总访问量：<span id="busuanzi_value_site_pv"></span>次</span>
+	</div>
+
+	<div style="font-size:12px;color:#B3B3B3;padding-bottom:30px;float:bottom">
+		<span id="timeDate">载入天数...</span><span id="times">载入时分秒...</span>
+		<script>
+			var now = new Date();
+			function createtime() {
+				var grt= new Date("11/01/2020 00:00:00");//在此处修改你的建站时间
+				now.setTime(now.getTime()+250);
+				days = (now - grt ) / 1000 / 60 / 60 / 24; dnum = Math.floor(days);
+				hours = (now - grt ) / 1000 / 60 / 60 - (24 * dnum); hnum = Math.floor(hours);
+				if(String(hnum).length ==1 ){hnum = "0" + hnum;} minutes = (now - grt ) / 1000 /60 - (24 * 60 * dnum) - (60 * hnum);
+				mnum = Math.floor(minutes); if(String(mnum).length ==1 ){mnum = "0" + mnum;}
+				seconds = (now - grt ) / 1000 - (24 * 60 * 60 * dnum) - (60 * 60 * hnum) - (60 * mnum);
+				snum = Math.round(seconds); if(String(snum).length ==1 ){snum = "0" + snum;}
+				document.getElementById("timeDate").innerHTML = "<i class=\"fa fa-bicycle\" aria-hidden=\"true\"></i>已陪伴： "+dnum+" 天 ";
+				document.getElementById("times").innerHTML = hnum + " 小时 " + mnum + " 分 " + snum + " 秒";
+			}
+		setInterval("createtime()",250);
+		</script>
+	</div>
+
+	<div style="font-size:12px;color:#b3b3b3;padding-bottom:30px;float:bottom">
+		<p>【冯唐语录 - 喜欢最长时间的作家】</p>
+		<script type="text/JavaScript" src="/yulu.js"></script>
+	</div>
+
+	<!--开往 友链接力：https://github.com/volfclub/travellings-->
+	<div>
+		<a href="https://travellings.now.sh/" target="blank" title="开往-友链接力"><img src="https://travellings.now.sh/assets/logo.gif" alt="开往-友链接力" width="66"></a>
+	</div>
+
+	<!--music player start-->
+	<!--https://github.com/metowolf/MetingJS, https://aplayer.js.org/#/zh-Hans-->
+	<!-- require APlayer -->
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/aplayer/dist/APlayer.min.css">
+	<script src="https://cdn.jsdelivr.net/npm/aplayer/dist/APlayer.min.js"></script>
+	<!-- require MetingJS -->
+	<script src="https://cdn.jsdelivr.net/npm/meting@2/dist/Meting.min.js"></script>
+	<meting-js
+			id="5350939993"
+			lrc-type="0"
+			server="netease"
+			order="list"
+			type="playlist"
+			fixed="true"
+			list-folded="true"
+			autoplay="true"
+			order="random"
+			loop="all"
+			mutex="true">
+	</meting-js>
+	<!--music player end-->
+
+</footer>
+<!-- End Footer -->
+
 
   <!-- <ul>
   <li>用车轮丈量距离，用热情点亮世界</li>
