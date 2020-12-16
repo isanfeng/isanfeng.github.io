@@ -41,6 +41,13 @@ Essays: true
   <rp>)</rp>
 </ruby>
 
+<ruby>
+留下足迹才美丽
+  <rp>(</rp>
+    <rt>liú xià zú jì cái měi lì</rt>
+  <rp>)</rp>
+</ruby>
+
 竟然是这个
 
 
