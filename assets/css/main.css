@@ -1839,6 +1839,13 @@ pre code {
   text-decoration: underline;
 }
 
+.travel_map_box {
+  position: relative;
+  width: 100%;
+  max-width: 100%;
+  top: 25px;
+  overflow: hidden;
+}
 
 .about_box {
   position: absolute;
