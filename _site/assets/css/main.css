@@ -1126,7 +1126,7 @@ pre code {
 
 .post-card .post-card-body .post-card-title {
   font-family: 'Texturina', 'SourceHanSansCN-Normal', 'Microsoft YaHei', 'Lato', sans-serif;
-  font-weight: 700;
+  font-weight: 400;
   font-size: 18px;
   color: #fff;
   margin: 0 0 10px;
@@ -1768,17 +1768,9 @@ pre code {
 }
 
 
-
-
-
-
 /*底部链接*/
 .footer-social{border-bottom:1px solid rgba(184,197,214,.2);    box-shadow: 0 -2px 8px 0 rgba(239, 241, 243, 0.59);text-align:center;padding-top:10px;padding-bottom:10px;}
 .footer-social .social-list a{font-size:13px;padding:0 25px;text-decoration:none;color:#5f5f5f;}
-
-
-
-
 
 
 
@@ -2032,7 +2024,7 @@ pre code {
 /*item文章摘要鼠标放入显示离开隐藏*/
 .post-card-stricp {
   font-family: 'Texturina', 'SourceHanSansCN-Normal', 'Microsoft YaHei', 'Lato', sans-serif;
-  font-weight: 500;
+  font-weight: 400;
   font-size: 12px;
   color: #fff;
   margin-top: 0;

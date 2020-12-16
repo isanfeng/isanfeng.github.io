@@ -13,17 +13,18 @@ gitee_url: 'https://iwangsanfeng.gitee.io'
 author: 流浪笔记<i class="fa fa-bicycle" aria-hidden="true"></i>三丰
 
 author-pic: isanfeng.jpg
-about-author: Live the life you love, Love the life you lives.
-about-author-detail-0: 侠之大者，四海为家；一人一驹，浪迹天涯。
+about-author: 侠之大者，四海为家；一人一驹，浪迹天涯
+about-author-detail-0: Live the life you love, Love the life you lives.
 about-author-detail-1:
-  ☛易记一级域名☚<br>
-  DN-L1-Ⅰ：<a href="https://iwangsanfeng.gitee.io">http://isanfeng.cf</a>    ▶㊟"cf"中文代表“出发”<br>
-  DN-L1-Ⅱ：<a href="https://isanfeng.vercel.app">http://isanfeng.ml</a>    ▶㊟"ml"中文代表“美丽”<br>
-  DN-L1-Ⅲ：<a href="https://iwangsanfeng.gitee.io">http://isanfeng.tk</a>    ▶㊟"tk"中文代表“天空”<br>
-  ☛永久二级域名☚<br>
-  DN-L2-Ⅰ：<a href="https://iwangsanfeng.gitee.io">https://iwangsanfeng.gitee.io</a><br>
-  DN-L2-Ⅱ：<a href="https://isanfeng.vercel.app">https://isanfeng.vercel.app</a><br>
-  DN-L2-Ⅲ：<a href="https://isanfeng.github.io">https://isanfeng.github.io</a><br>
+  <i class="fa fa-bicycle" aria-hidden="true"></i>易记一级域名<i class="fa fa-bicycle fa-flip-horizontal" aria-hidden="true"></i><br>
+  <a href="https://iwangsanfeng.gitee.io">http://isanfeng.cf</a><br>▶㊟"cf"中文代表“出发”<br>
+  <a href="https://isanfeng.vercel.app">http://isanfeng.ml</a><br>▶㊟"ml"中文代表“美丽”<br>
+  <a href="https://iwangsanfeng.gitee.io">http://isanfeng.tk</a><br>▶㊟"tk"中文代表“天空”<br>
+  ∷∷∷∷∷∷∷∷∷<br>
+  <i class="fa fa-bicycle" aria-hidden="true"></i>永久二级域名<i class="fa fa-bicycle fa-flip-horizontal" aria-hidden="true"></i><br>
+  <a href="https://iwangsanfeng.gitee.io">https://iwangsanfeng.gitee.io</a><br>
+  <a href="https://isanfeng.vercel.app">https://isanfeng.vercel.app</a><br>
+  <a href="https://isanfeng.github.io">https://isanfeng.github.io</a><br>
 
 #修改成你自己的
 # Contact links
@@ -78,10 +79,10 @@ exclude: ["node_modules", "gulpfile.js", "package.json", "yarn.lock"]
 imagepath: /assets/img/
 
 links:
-  - name:         <i class="fa fa-thermometer-full"></i> 首页
+  - name:         <i class="fa fa-thermometer-half"></i> 首页
     url:          /
     external:     false
-  - name:         <i class="fa fa-thermometer-half"></i> 旅行地图
+  - name:         <i class="fa fa-thermometer-full"></i> 旅行地图
     url:          /travel_map
     external:     false
   - name:         <i class="fa fa-thermometer-quarter"></i> 关于
