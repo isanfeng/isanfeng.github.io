@@ -14,4 +14,4 @@ jobs:
           target_repo_url:
             git@gitee.com:iwangsanfeng/iwangsanfeng.git
           ssh_private_key:
-            ${{ GITEE_PRIVATE_KEY }}
+            ${{ secrets.GITEE_KEY }}
