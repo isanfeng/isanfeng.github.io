@@ -1,4 +1,4 @@
-name: 'sync2gitee'
+name: 'mirror_to_gitee'
 
 on: [push, delete]
 

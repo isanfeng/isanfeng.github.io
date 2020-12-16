@@ -390,11 +390,11 @@
 
 			<div class="navbar-menu">
 			   
-<!--					<a href="/"  data-hover="<i class="fa fa-thermometer-full"></i> 首页"><i class="fa fa-thermometer-full"></i> 首页</a>-->
-					<a href="/"><i class="fa fa-thermometer-full"></i> 首页</a>
+<!--					<a href="/"  data-hover="<i class="fa fa-thermometer-half"></i> 首页"><i class="fa fa-thermometer-half"></i> 首页</a>-->
+					<a href="/"><i class="fa fa-thermometer-half"></i> 首页</a>
 				
-<!--					<a href="/travel_map"  data-hover="<i class="fa fa-thermometer-half"></i> 旅行地图"><i class="fa fa-thermometer-half"></i> 旅行地图</a>-->
-					<a href="/travel_map"><i class="fa fa-thermometer-half"></i> 旅行地图</a>
+<!--					<a href="/travel_map"  data-hover="<i class="fa fa-thermometer-full"></i> 旅行地图"><i class="fa fa-thermometer-full"></i> 旅行地图</a>-->
+					<a href="/travel_map"><i class="fa fa-thermometer-full"></i> 旅行地图</a>
 				
 <!--					<a href="/about"  data-hover="<i class="fa fa-thermometer-quarter"></i> 关于"><i class="fa fa-thermometer-quarter"></i> 关于</a>-->
 					<a href="/about"><i class="fa fa-thermometer-quarter"></i> 关于</a>
@@ -407,11 +407,11 @@
 				<span class="icon-menu cross"><span class="middle"></span></span>
 				<ul>
 				   
-					 <li><a href="/"data-hover="<i class="fa fa-thermometer-full"></i> 首页"><i class="fa fa-thermometer-full"></i> 首页</a></li>  <!--title="访问 <i class="fa fa-thermometer-full"></i> 首页"-->
-					 <!--<li><a href="/"><i class="fa fa-thermometer-full"></i> 首页</a></li>-->
+					 <li><a href="/"data-hover="<i class="fa fa-thermometer-half"></i> 首页"><i class="fa fa-thermometer-half"></i> 首页</a></li>  <!--title="访问 <i class="fa fa-thermometer-half"></i> 首页"-->
+					 <!--<li><a href="/"><i class="fa fa-thermometer-half"></i> 首页</a></li>-->
 				   
-					 <li><a href="/travel_map"data-hover="<i class="fa fa-thermometer-half"></i> 旅行地图"><i class="fa fa-thermometer-half"></i> 旅行地图</a></li>  <!--title="访问 <i class="fa fa-thermometer-half"></i> 旅行地图"-->
-					 <!--<li><a href="/travel_map"><i class="fa fa-thermometer-half"></i> 旅行地图</a></li>-->
+					 <li><a href="/travel_map"data-hover="<i class="fa fa-thermometer-full"></i> 旅行地图"><i class="fa fa-thermometer-full"></i> 旅行地图</a></li>  <!--title="访问 <i class="fa fa-thermometer-full"></i> 旅行地图"-->
+					 <!--<li><a href="/travel_map"><i class="fa fa-thermometer-full"></i> 旅行地图</a></li>-->
 				   
 					 <li><a href="/about"data-hover="<i class="fa fa-thermometer-quarter"></i> 关于"><i class="fa fa-thermometer-quarter"></i> 关于</a></li>  <!--title="访问 <i class="fa fa-thermometer-quarter"></i> 关于"-->
 					 <!--<li><a href="/about"><i class="fa fa-thermometer-quarter"></i> 关于</a></li>-->
@@ -626,10 +626,10 @@
         <!--每个page底部的作者展示信息-->
 
 <section class="author-box">
-  <img src="/assets/img/isanfeng.jpg" alt="流浪笔记<i class="fa fa-bicycle" aria-hidden="true"></i>三丰" class="author-img">
+  <img src="/assets/img/isanfeng.jpg" alt="三丰" class="author-img">
   <div class="author-desc">
     <h2>流浪笔记<i class="fa fa-bicycle" aria-hidden="true"></i>三丰</h2>
-    <p>Live the life you love, Love the life you lives.</p>
+    <p>侠之大者，四海为家；一人一驹，浪迹天涯</p>
     <p></p>
     <ul>
       
@@ -732,19 +732,8 @@
 		</div>
 	</div>
 
-	<div class="copyright" style="font-size:12px;color:#B3B3B3;padding-bottom:30px;float:bottom">
+	<div class="copyright" style="font-size:13px;color:#B3B3B3;padding-bottom:30px;float:bottom">
 		<p><i class="fa fa-copyright" aria-hidden="true"></i>	2020	|	<i class="fa fa-user-circle-o" aria-hidden="true"></i>	流浪笔记<i class="fa fa-bicycle" aria-hidden="true"></i>三丰</p>
-
-	<div style="font-size:12px;color:#B3B3B3;padding-bottom:30px;float:bottom">
-<!--		<iframe-->
-<!--                style="margin-left: 2px; margin-bottom:-5px;"-->
-<!--                frameborder="0" scrolling="0" width="91px" height="20px"-->
-<!--                src="https://ghbtns.com/github-btn.html?user=isanfeng&repo=&type=star&count=true" >-->
-<!--		</iframe>-->
-		<span id="busuanzi_container_site_pv"><i class="fa fa-users" aria-hidden="true"></i>本站总访客数：<span id="busuanzi_value_site_uv"></span>人</span>
-	  	<span class="division">|</span>
-		<span id="busuanzi_container_page_pv"><i class="fa fa-users" aria-hidden="true"></i>本站总访问量：<span id="busuanzi_value_site_pv"></span>次</span>
-	</div>
 
 	<div style="font-size:12px;color:#B3B3B3;padding-bottom:30px;float:bottom">
 		<span id="timeDate">载入天数...</span><span id="times">载入时分秒...</span>
@@ -759,15 +748,26 @@
 				mnum = Math.floor(minutes); if(String(mnum).length ==1 ){mnum = "0" + mnum;}
 				seconds = (now - grt ) / 1000 - (24 * 60 * 60 * dnum) - (60 * 60 * hnum) - (60 * mnum);
 				snum = Math.round(seconds); if(String(snum).length ==1 ){snum = "0" + snum;}
-				document.getElementById("timeDate").innerHTML = "<i class=\"fa fa-bicycle\" aria-hidden=\"true\"></i>已陪伴： "+dnum+" 天 ";
-				document.getElementById("times").innerHTML = hnum + " 小时 " + mnum + " 分 " + snum + " 秒";
+				document.getElementById("timeDate").innerHTML = "<i class=\"fa fa-bicycle\" aria-hidden=\"true\"></i>   "+dnum+" 天";
+				document.getElementById("times").innerHTML = hnum + " 小时 " + mnum + " 分 " + snum + " 秒   <i class=\"fa fa-bicycle fa-flip-horizontal\" aria-hidden=\"true\"></i>";
 			}
 		setInterval("createtime()",250);
 		</script>
 	</div>
 
+	<div style="font-size:13px;color:#B3B3B3;padding-bottom:30px;float:bottom">
+<!--		<iframe-->
+<!--                style="margin-left: 2px; margin-bottom:-5px;"-->
+<!--                frameborder="0" scrolling="0" width="91px" height="20px"-->
+<!--                src="https://ghbtns.com/github-btn.html?user=isanfeng&repo=&type=star&count=true" >-->
+<!--		</iframe>-->
+		<span id="busuanzi_container_site_pv">本站总访客数：<span id="busuanzi_value_site_uv"></span>人</span>
+		<span class="division">|</span>
+		<span id="busuanzi_container_page_pv">本站总访问量：<span id="busuanzi_value_site_pv"></span>次</span>
+	</div>
+
 	<div style="font-size:12px;color:#b3b3b3;padding-bottom:30px;float:bottom">
-		<p>【冯唐语录 - 喜欢最长时间的作家】</p>
+		<p>【冯唐语录 - 喜欢最久的作家】</p>
 		<script type="text/JavaScript" src="/yulu.js"></script>
 	</div>
 
