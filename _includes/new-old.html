@@ -64,22 +64,18 @@
 
     <!--打赏模块结束-->
 
-<ul class="pager">
-{% if page.next.url %}
-<li class="previous">
-    <a href="{{ page.next.url | prepend: site.baseurl | replace: '//', '/' }}" data-toggle="tooltip" data-placement="top" title="{{page.next.title}}">Previous:<span>{{page.next.title}}</span>
-    </a>
-</li>
-
-<br>
-<br>
-
-{% endif %}
-{% if page.previous.url %}
-<li class="next">
-    <a href="{{ page.previous.url | prepend: site.baseurl | replace: '//', '/' }}" data-toggle="tooltip" data-placement="top" title="{{page.previous.title}}">Next:<span>{{page.previous.title}}</span>
-    </a>
-</li>
-{% endif %}
-</ul>
+    <div class="pager">
+        {% if page.next.url %}
+        <div class="previous">
+            <a href="{{ page.next.url | prepend: site.baseurl | replace: '//', '/' }}" data-toggle="tooltip" data-placement="top" title="{{page.next.title}}"><i class="fa fa-arrow-left"></i> Previous: <span>{{page.next.title}}</span>
+            </a>
+        </div>
+        {% endif %}
+        {% if page.previous.url %}
+        <div class="next">
+            <a href="{{ page.previous.url | prepend: site.baseurl | replace: '//', '/' }}" data-toggle="tooltip" data-placement="top" title="{{page.previous.title}}">Next: <span>{{page.previous.title}}</span> <i class="fa fa-arrow-right"></i>
+            </a>
+        </div>
+        {% endif %}
+    </div>
 </section>

@@ -1272,9 +1272,9 @@ pre code {
 }
 
 .recent-box {
-  margin-top: 30px;
-  padding-bottom: 30px;
-  border-bottom: 1px solid #d9d9d9;
+  margin-top: 10px;
+  padding-bottom: 10px;
+  border-bottom: 0 solid #d9d9d9;
 }
 
 .recent-box .recent-title {
@@ -1995,7 +1995,7 @@ pre code {
   font-size: 1.75rem;
   -webkit-border-radius: 0.3rem;
   border-radius: 0.3rem;
-  background-color: #262626;
+  background-color: #ffffff;
   -webkit-transition: all .35s ease-in-out;
   transition: all .35s ease-in-out;
 }
@@ -2161,54 +2161,27 @@ a:focus::before {
 
   width:48%
 }
-/*.next{
+.next{
 
   float:right
-}*/
+}
 .previous{
 
   float:left
 }
 
-/*.pager li>a{
-  width:100%;
-  padding: 10px 10px;
+.pager .previous, .pager .next {
+  text-decoration: none;
+  text-transform: uppercase;
+  font-size: 15px;
+  color: #3e3e40;
 }
 
-.pager li>a>span{
-  padding-right: 10px;
-  color:gray;
-  padding: 10px 10px;
-}*/
-
-.pager li>a>span{
-
-  color:gray;
-
+.pager .previous:hover, .pager .next:hover {
+  opacity: .8;
+  color: #663399;
 }
 
-.pager li>span {
-  margin-top: 40px;
-  line-height:1.7;
-  text-transform:uppercase;
-  font-size:13px;
-  font-weight:800;
-  padding:10px;
-  background-color:#fff;
-  border-radius:0;
-}
-.pager li>a {
-  color:#404040
-}
-.pager li>a:hover,
-.pager li>a:focus {
-  color:#fff;
-  background-color:#B9D3EE;
-}
-.pager li>a:hover>span,
-.pager li>a:focus>span{
-  color:#fff;
-}
 ::-moz-selection {
   color:#fff;
   text-shadow:none;
@@ -2229,9 +2202,9 @@ img::-moz-selection {
 }
 
 @media all and (max-width: 600px) {
-  /*.next{
+  .next{
     float:left;
-  }*/
+  }
   .previous{
     float:left;
   }
