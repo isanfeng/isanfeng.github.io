@@ -1968,6 +1968,7 @@ pre code {
 .social_footer a {
     padding: 0.5rem 1rem;
     font-size: 1.35rem;
+    font-family: 'Texturina', sans-serif;
     -webkit-border-radius: 0.3rem;
             border-radius: 0.3rem;
   }
@@ -1977,7 +1978,7 @@ pre code {
   list-style: none;
   margin: 0;
   text-align: center;
-  border-bottom: 1px solid #333333;
+  border-bottom: 0 solid #333333;
 }
 
 .social_footer li {

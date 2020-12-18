@@ -1,4 +1,4 @@
-title: 流浪笔记.三丰™
+title: 流浪笔记™.三丰
 subtitle: 水唯善下方成海,山不衿高自极天， 随意记录点点滴滴……
 description: Bikepacking 单车 旅行 学习 Fire Python
 
@@ -16,10 +16,9 @@ author-pic: isanfeng.jpg
 about-author: 侠之大者，四海为家；一人一驹，浪迹天涯
 about-author-detail-0: Live the life you love, Love the life you lives.
 about-author-detail-1:
-  <i class="fa fa-bicycle" aria-hidden="true"></i>易记一级域名<i class="fa fa-bicycle fa-flip-horizontal" aria-hidden="true"></i><br>
-  <a href="https://iwangsanfeng.gitee.io">http://isanfeng.cf</a><br>▶㊟"cf"中文代表“出发”<br>
-  <a href="https://isanfeng.vercel.app">http://isanfeng.ml</a><br>▶㊟"ml"中文代表“美丽”<br>
-  <a href="https://iwangsanfeng.gitee.io">http://isanfeng.tk</a><br>▶㊟"tk"中文代表“天空”<br>
+  <a href="https://iwangsanfeng.gitee.io">http://isanfeng.cf</a><br>㊟"cf"=“出发”<br>
+  <a href="https://isanfeng.vercel.app">http://isanfeng.ml</a><br>㊟"ml"=“美丽”<br>
+  <a href="https://iwangsanfeng.gitee.io">http://isanfeng.tk</a><br>㊟"tk"=“天空”<br>
   ∷∷∷∷∷∷∷∷∷<br>
   <i class="fa fa-bicycle" aria-hidden="true"></i>永久二级域名<i class="fa fa-bicycle fa-flip-horizontal" aria-hidden="true"></i><br>
   <a href="https://iwangsanfeng.gitee.io">https://iwangsanfeng.gitee.io</a><br>
@@ -28,12 +27,15 @@ about-author-detail-1:
 
 #修改成你自己的
 # Contact links
-website: isanfeng.github.io
+website_github: isanfeng.github.io
+website_gitee: iwangsanfeng.gitee.io
+website_vercel: isanfeng.vercel.app
 linkedin: # Add your Linkedin handle
 twitter: wangsf111
 facebook: iwangsanfeng
 instagram: # Add your Instagram handle
 pinterest: # Add your Pinterest handle
+bilibili: 64878769
 
 #修改成你自己的
 email: wangsf927@163.com
@@ -41,9 +43,6 @@ phone: secret
 github: isanfeng
 gitee: iwangsanfeng
 dockhub: wangsf927
-jianshu:
-juejin:
-csdn:
 
 # Newsletter
 mailchimp: # Add your MailChimp form identifier.
@@ -103,7 +102,7 @@ links1:
     url:          /
     type:         recent
     external:     false
-  - name:         分时分段环游地球
+  - name:         <i class="fa fa-diamond" aria-hidden="true"></i>分时分段环游地球
     url:          /blog/Bikepacking
     type:         Bikepacking
     external:     false
@@ -123,7 +122,7 @@ links1:
     url:          /blog/Essays
     type:         Essays
     external:     false
-  - name:         镜像
+  - name:         <i class="fa fa-share-alt" aria-hidden="true"></i>镜像
     url:          https://iwangsanfeng.gitee.io
     type:         site
     external:     true
