@@ -345,6 +345,9 @@
         </ruby>
         <i class="fa fa-bicycle fa-flip-horizontal" aria-hidden="true"></i>
     </h2>
+    <h3 align="center">
+        曾经到的过这些地方，回忆中保留着美好的事物和美好的人，俱往矣，未来还有很多的路要去探索。
+    </h3>
 </div>
 
 <section class="travel_map_box">
@@ -433,16 +436,53 @@
 
     var colorSet = new am4core.ColorSet();
 
-    imageSeries.data = [ {
+    imageSeries.data = [
+    // China
+    {
       "title": "Shanghai",
       "latitude": 31.40527,
       "longitude": 121.48941,
+      "url": "https://j.map.baidu.com/06/-yd",
+      "color":colorSet.next()
+    }, {
+      "title": "Beijing",
+      "latitude": 39.907569170348715,
+      "longitude": 116.40706125,
+      "color":colorSet.next()
+    }, {
+      "title": "Jinan",
+      "latitude": 36.67647,
+      "longitude": 116.897008,
+      "color":colorSet.next()
+    }, {
+      "title": "Zhuhai",
+      "latitude": 22.25034,
+      "longitude": 113.545762,
+      "color":colorSet.next()
+    }, {
+      "title": "Xian",
+      "latitude": 34.2251,
+      "longitude": 108.971043,
+      "color":colorSet.next()
+    }, {
+      "title": "Qingdao",
+      "latitude": 36.082262,
+      "longitude": 120.423162,
+      "color":colorSet.next()
+    }, {
+      "title": "Quzhou",
+      "latitude": 28.604291,
+      "longitude": 118.74644,
+      "color":colorSet.next()
+    },{
+      "title": "Lishui",
+      "latitude": 27.817658,
+      "longitude": 119.602444,
       "color":colorSet.next()
     }, {
       "title": "Anji",
       "latitude": 30.464809226762224,
       "longitude": 119.5954499721724,
-      "url": "http://www.google.co.uk",
       "color":colorSet.next()
     }, {
       "title": "Yuyao",
@@ -475,26 +515,48 @@
       "longitude": 100.1378793782544,
       "color":colorSet.next()
     }, {
-      "title": "Hainan Island",
+      "title": "Sanya",
       "latitude": 18.256093040178694,
       "longitude": 109.51418206716458,
       "color":colorSet.next()
     }, {
-      "title": "Taiwan Island",
-      "latitude": 24.16317856925525,
-      "longitude": 121.0917242473288,
+      "title": "Hainan Island",
+      "latitude": 19.943141,
+      "longitude": 110.469452,
       "color":colorSet.next()
     }, {
+      "title": "Taibei",
+      "latitude": 25.105981,
+      "longitude": 121.557866,
+      "color":colorSet.next()
+    }, {
+      "title": "Taizhong",
+      "latitude": 24.348722,
+      "longitude": 120.63342,
+      "color":colorSet.next()
+    }, {
+      "title": "The Southest of Taiwan",
+      "latitude": 21.905467,
+      "longitude": 120.862879,
+      "color":colorSet.next()
+    }, {
+      "title": "Hualian",
+      "latitude": 24.041921,
+      "longitude": 121.634831,
+      "color":colorSet.next()
+    },
+    // Japan
+    {
       "title": "Okinawa",
       "latitude": 26.139609508228432,
       "longitude": 127.70566743964918,
       "color":colorSet.next()
     }, {
-      "title": "Jeju",
-      "latitude": 33.50696890967099,
-      "longitude": 126.49250379432974,
+      "title": "Notsuke",
+      "latitude": 43.563668,
+      "longitude": 145.347627,
       "color":colorSet.next()
-    }, {
+    },{
       "title": "Sapporo",
       "latitude": 43.04705101585279,
       "longitude": 141.27288599794304,
@@ -510,6 +572,36 @@
       "longitude": 145.23941696870114,
       "color":colorSet.next()
     }, {
+      "title": "Tokyo",
+      "latitude": 35.6785,
+      "longitude": 139.6823,
+      "url": "http://www.google.co.jp",
+      "color":colorSet.next()
+    }, {
+      "title": "Ehime",
+      "latitude": 33.827133,
+      "longitude": 132.701562,
+      "color":colorSet.next()
+    }, {
+      "title": "Shimanami Kaido",
+      "latitude": 34.293683,
+      "longitude": 133.175647,
+      "color":colorSet.next()
+    }, {
+      "title": "Lake Biwa",
+      "latitude": 35.345776,
+      "longitude": 136.170948,
+      "color":colorSet.next()
+    },
+    // South Korea
+    {
+      "title": "Jeju",
+      "latitude": 33.50696890967099,
+      "longitude": 126.49250379432974,
+      "color":colorSet.next()
+    },
+    // The Philippines
+    {
       "title": "Manila",
       "latitude": 14.60031644011943,
       "longitude": 120.98282056232121,
@@ -525,6 +617,13 @@
       "longitude": 124.21509302324634,
       "color":colorSet.next()
     }, {
+      "title": "Siquijor",
+      "latitude": 9.200338,
+      "longitude": 123.595239,
+      "color":colorSet.next()
+    },
+    // Malaysia
+    {
       "title": "Kuala Lumpur",
       "latitude": 3.1389529175162996,
       "longitude": 101.68210508159925,
@@ -534,7 +633,9 @@
       "latitude": 3.522155253008705,
       "longitude": 101.91227025191382,
       "color":colorSet.next()
-    }, {
+    },
+    // Cambodia
+    {
       "title": "Phnom Penh",
       "latitude": 11.561840619672434,
       "longitude": 104.9533450937808,
@@ -549,7 +650,9 @@
       "latitude": 10.738650896308272,
       "longitude": 103.22972002047425,
       "color":colorSet.next()
-    }, {
+    },
+    // Thailand
+    {
       "title": "Chiang Mai",
       "latitude": 18.789886762851545,
       "longitude": 98.98550229247509,
@@ -679,12 +782,6 @@
       "latitude": 24.16317856925525,
       "longitude": 121.0917242473288,
       "color":colorSet.next()
-    }, {
-      "title": "Tokyo",
-      "latitude": 35.6785,
-      "longitude": 139.6823,
-      "url": "http://www.google.co.jp",
-      "color":colorSet.next()
     } ];
 
     }); // end am4core.ready()
@@ -700,7 +797,9 @@
 			<div class="social-list">
 				<a class="social gitee" href="https://iwangsanfeng.gitee.io"><i class="fa fa-chrome"></i>.国内镜像站A<i class="fa fa-play-circle"></i></a>
 				<a class="social vercel" href="https://isanfeng.vercel.app"><i class="fa fa-chrome"></i>.国内镜像站B<i class="fa fa-play-circle"></i></a>
-				<a class="social github" href="https://isanfeng.github.io"><i class="fa fa-chrome"></i>.全球通用站<i class="fa fa-play-circle"></i></a>
+				<a class="social github" href="https://isanfeng.github.io"><i class="fa fa-chrome"></i>.全球通用站C<i class="fa fa-play-circle"></i></a>
+				<br>
+				<span style="font-size:5px;color:#B3B3B3;float:bottom">(三者互为备份镜像，A国内访问速度最佳，更新速度略落后BC，BC保持最新的版本)</span>
 			</div>
 		</div>
 	</div>
@@ -782,6 +881,10 @@
         liú xià zú jì cái měi lì
     )
 </code></pre></div>    </div>
+
+    <ul>
+      <li>曾经到的过这些地方，回忆中保留着美好的事物和美好的人，俱往矣，未来还有很多的路要去探索。</li>
+    </ul>
   </li>
 </ul>
  -->
