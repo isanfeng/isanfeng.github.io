@@ -1997,7 +1997,7 @@ pre code {
   border-radius: 0.3rem;
   background-color: #ffffff;
   -webkit-transition: all .35s ease-in-out;
-  transition: all .35s ease-in-out;
+  transition: all .35s ease-in-out
 }
 
 .social_footer a:hover {
