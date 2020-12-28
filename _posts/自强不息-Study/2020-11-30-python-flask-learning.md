@@ -58,3 +58,5 @@ Study: true
 ### Django
 
 - [官方文档](https://docs.djangoproject.com/zh-hans/3.1)
+
+<img src="https://api.dujin.org/bing/1920.php" alt="Bing每日图片超高清">

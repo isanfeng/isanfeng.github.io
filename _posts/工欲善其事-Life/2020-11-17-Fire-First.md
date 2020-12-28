@@ -109,3 +109,5 @@ MADFIENTIST
 >1.《 Your Money or Your Life 》
 >
 >2.《 The Simple Path to Wealth 》
+
+<img src="https://api.dujin.org/bing/1920.php" alt="Bing每日图片超高清">

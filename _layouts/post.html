@@ -4,6 +4,7 @@ layout: default
 <div class="flex-container">
   {% include header.html %}
   <article class="article-page">
+
     <div class="page-image">
       <div class="cover-image" style="background: url({{"/assets/img/" | prepend: site.baseurl | append : page.img}}) center no-repeat; background-size: cover;"></div>
     </div>
@@ -89,7 +90,7 @@ layout: default
       </div>
 
     </div> <!-- End Wrapper -->
+    {% include search.html %}
+    {% include footer.html %}
   </article>
-  {% include search.html %}
-  {% include footer.html %}
 </div>
