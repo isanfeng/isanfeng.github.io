@@ -8,4 +8,4 @@ img: posts/jeju-1-0.webp
 tags: [Bikepacking, 分时分段环游地球]
 Bikepacking: true
 ---
-希望还有机会能把之前的回忆拾起……不过懒癌患者晚期的三丰此时正在忙于拯救世界，所以……嗯!后面如果……（待续）
+数据修复中……

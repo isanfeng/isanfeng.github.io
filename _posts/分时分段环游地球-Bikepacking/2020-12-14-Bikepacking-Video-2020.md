@@ -4,7 +4,7 @@ title: Bikepacking Video 2020
 date: 2020-12-14 12:45
 author: isanfeng
 description:
-img: posts/Bikepacking-101.webp
+img: posts/Bikepacking-000.webp
 tags: [Bikepacking]
 Bikepacking: true
 ---

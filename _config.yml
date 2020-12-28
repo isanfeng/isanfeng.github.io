@@ -1,5 +1,5 @@
-title: 流浪.异想世界™.三丰
-subtitle: 水唯善下方成海,山不衿高自极天， 随意记录点点滴滴……
+title: 流浪.𝓲三丰⬝异想世界
+subtitle: 水唯善下方成海,山不衿高自极天
 description: Bikepacking 单车 旅行 学习 Fire Python
 
 # 博客是否自动生成目录，false为不生成
@@ -10,7 +10,7 @@ url: 'https://isanfeng.github.io' # the base hostname & protocol for your site, 
 gitee_url: 'https://iwangsanfeng.gitee.io'
 
 # Author settings add your name
-author: 流浪.异想世界<i class="fa fa-bicycle" aria-hidden="true"></i>三丰
+author: 流浪.𝓲三丰<i class="fa fa-bicycle" aria-hidden="true"></i>异想世界
 
 author-pic: isanfeng.jpg
 about-author: 侠之大者，四海为家；一人一驹，浪迹天涯
@@ -81,7 +81,7 @@ links:
   - name:         <i class="fa fa-thermometer-half"></i> 首页
     url:          /
     external:     false
-  - name:         <i class="fa fa-thermometer-full"></i> 旅行地图
+  - name:         <i class="fa fa-thermometer-full"></i> 旅行地图 <i class="fa fa-diamond" aria-hidden="true"></i>
     url:          /travel_map
     external:     false
   - name:         <i class="fa fa-thermometer-quarter"></i> 关于
@@ -102,7 +102,7 @@ links1:
     url:          /
     type:         recent
     external:     false
-  - name:         <i class="fa fa-diamond" aria-hidden="true"></i>分时分段环游地球
+  - name:         分时分段环游地球<i class="fa fa-diamond" aria-hidden="true"></i><i class="fa fa-diamond" aria-hidden="true"></i>
     url:          /blog/Bikepacking
     type:         Bikepacking
     external:     false
@@ -118,14 +118,10 @@ links1:
     url:          /blog/Study
     type:         Study
     external:     false
-  - name:         厚德载物
+  - name:         厚德载物<i class="fa fa-diamond" aria-hidden="true"></i>
     url:          /blog/Essays
     type:         Essays
     external:     false
-  - name:         <i class="fa fa-share-alt" aria-hidden="true"></i>镜像
-    url:          https://iwangsanfeng.gitee.io
-    type:         site
-    external:     true
 
 blog_1:    recent
 blog_2:    Bikepacking

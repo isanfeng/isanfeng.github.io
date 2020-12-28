@@ -59,3 +59,7 @@ Bikepacking: true
 ## Day-9
 
 番外.有些事要亲自到那个环境中貌似才能真正体会孕育它的条件，我们习惯了被告诉，被记住，有时生活在一种环境中却缺懒于主动去看看别的环境，于是我们就想相信我们眼睛看到的一切，也许那只是水面上的一小块冰，每个人，每个地方，每个国家都有自己的特色，我要亲身感受看一看，十一打卡HK.
+
+## Route(如果你看不到任何内容，不要慌张，你应该被墙了。)
+
+<iframe src="https://ridewithgps.com/embeds?type=route&id=29119524&title=Okinawa%20Loop.iSanfeng.2019&metricUnits=true&sampleGraph=true&privacyCode=EgryiXFCu1LWtIvI" style="width: 1px; min-width: 100%; height: 700px; border: none;" scrolling="no"></iframe>

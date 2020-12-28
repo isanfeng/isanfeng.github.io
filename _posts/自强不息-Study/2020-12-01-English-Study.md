@@ -63,3 +63,5 @@ Study: true
 >老托 93 篇听力练习
 >
 >推荐的材料是科学美国人节目的「一分钟科学（Sixty Second Science）」
+
+<img src="https://api.dujin.org/bing/1920.php" alt="Bing每日图片超高清">
