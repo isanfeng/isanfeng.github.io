@@ -59,7 +59,8 @@ intensedebate_comments: false
 # Tracker Google Analytics修改成你自己的
 google-analysis-gitee: G-LR2C328Y6Y
 google-analysis-github: G-0K52Q80DV8
-baidu-analysis: 42bccbe026e11e0ec8bcd67d40d41529
+baidu-analysis-github: 42bccbe026e11e0ec8bcd67d40d41529
+baidu-analysis-gitee: c1cc63cef10ce15edf05b9fcab36e06b
 
 # Paginate
 paginate: 81
@@ -78,13 +79,13 @@ exclude: ["node_modules", "gulpfile.js", "package.json", "yarn.lock"]
 imagepath: /assets/img/
 
 links:
-  - name:         <i class="fa fa-thermometer-half"></i> 首页
+  - name:         <i class="fa fa-thermometer-half"></i> Home
     url:          /
     external:     false
-  - name:         <i class="fa fa-thermometer-full"></i> 旅行地图 <i class="fa fa-diamond" aria-hidden="true"></i>
+  - name:         <i class="fa fa-thermometer-full"></i> Travel Map <i class="fa fa-diamond" aria-hidden="true"></i>
     url:          /travel_map
     external:     false
-  - name:         <i class="fa fa-thermometer-quarter"></i> 关于
+  - name:         <i class="fa fa-thermometer-quarter"></i> About
     url:          /about
     external:     false
 

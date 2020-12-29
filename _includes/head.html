@@ -44,11 +44,22 @@
 		var _hmt = _hmt || [];
 		(function() {
 		  var hm = document.createElement("script");
-		  hm.src = "https://hm.baidu.com/hm.js?{{ site.baidu-analysis }}";
+		  hm.src = "https://hm.baidu.com/hm.js?{{ site.baidu-analysis-github }}";
 		  var s = document.getElementsByTagName("script")[0];
 		  s.parentNode.insertBefore(hm, s);
 		})();
 	</script>
+
+    <script>
+        var _hmt = _hmt || [];
+        (function() {
+          var hm = document.createElement("script");
+          hm.src = "https://hm.baidu.com/hm.js?{{ site.baidu-analysis-gitee }}";
+          var s = document.getElementsByTagName("script")[0];
+          s.parentNode.insertBefore(hm, s);
+        })();
+    </script>
+
 	<!--baidu part end-->
 
 	<!--google part start-->
