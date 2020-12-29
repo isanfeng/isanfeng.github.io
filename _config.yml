@@ -79,13 +79,13 @@ exclude: ["node_modules", "gulpfile.js", "package.json", "yarn.lock"]
 imagepath: /assets/img/
 
 links:
-  - name:         <i class="fa fa-thermometer-half"></i> Home
+  - name:         Home
     url:          /
     external:     false
-  - name:         <i class="fa fa-thermometer-full"></i> Travel Map <i class="fa fa-diamond" aria-hidden="true"></i>
+  - name:         Travel Map <i class="fa fa-bell-o"></i>
     url:          /travel_map
     external:     false
-  - name:         <i class="fa fa-thermometer-quarter"></i> About
+  - name:         About
     url:          /about
     external:     false
 
