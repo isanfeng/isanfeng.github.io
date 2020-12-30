@@ -922,7 +922,7 @@ pre code {
   text-decoration: none;
   text-transform: uppercase;
   font-size: 27px;
-  font-weight: 300;
+  font-weight: 500;
   color: #311e3e;
 }
 
@@ -1128,8 +1128,8 @@ pre code {
 
 .post-card .post-card-body .post-card-title {
   font-family: 'Texturina', 'SourceHanSansCN-Normal', 'Microsoft YaHei', 'Lato', sans-serif;
-  font-weight: 400;
-  font-size: 18px;
+  font-weight: 900;
+  font-size: 20px;
   color: #fff;
   margin: 0 0 10px;
 }
@@ -1141,7 +1141,8 @@ pre code {
 
 .post-card .post-card-body .tag {
   text-decoration: none;
-  font-size: 10px;
+  font-size: 12px;
+  font-weight: 700;
   color: #fff;
 }
 /*text-transform: uppercase;*/
@@ -1236,7 +1237,7 @@ pre code {
   text-align: center;
   font-size: 14px;
   text-transform: uppercase;
-  font-weight: 300;
+  font-weight: 400;
 }
 
 .page-footer {
@@ -1503,7 +1504,7 @@ pre code {
 
 .about-header .subtitle {
   color: #311e3e;
-  font-weight: 300;
+  font-weight: 400;
   margin: 0;
 }
 
@@ -1776,45 +1777,6 @@ pre code {
 /*底部链接*/
 .footer-social{border-bottom:1px solid rgba(184,197,214,.2);    box-shadow: 0 -2px 8px 0 rgba(239, 241, 243, 0.59);text-align:center;padding-top:10px;padding-bottom:10px;}
 .footer-social .social-list a{font-size:13px;padding:0 25px;text-decoration:none;color:#5f5f5f;}
-
-
-
-/*滚动到顶部*/
-.top {
-  position: fixed;
-  bottom: 25px;
-  background-color: #333333;
-  -webkit-border-radius: 0.3rem;
-  border-radius: 0.3rem;
-  color: #ffffff;
-  font-size: 25px;
-  width: 50px;
-  height: 50px;
-  line-height: 47px;
-  text-align: center;
-  cursor: pointer;
-  -webkit-transition: all .25s ease;
-  transition: all .25s ease;
-  right: -100px;
-  z-index: 10;
-  opacity: .5;
-}
-
-.top i {
-  line-height: 0;
-}
-
-.top.up {
-  right: 30px;
-}
-
-.top:hover {
-  color: #ffffff;
-  background-color: #c0334a;
-  opacity: .8;
-}
-
-
 
 
 
@@ -2155,8 +2117,40 @@ a:focus::before {
 }
 
 
+/*滚动到顶部*/
+.top {
+  position: fixed;
+  bottom: 25px;
+  background-color: #333333;
+  -webkit-border-radius: 0.3rem;
+  border-radius: 0.3rem;
+  color: #ffffff;
+  font-size: 25px;
+  width: 50px;
+  height: 50px;
+  line-height: 47px;
+  text-align: center;
+  cursor: pointer;
+  -webkit-transition: all .25s ease;
+  transition: all .25s ease;
+  right: -100px;
+  z-index: 10;
+  opacity: .5;
+}
 
+.top i {
+  line-height: 0;
+}
 
+.top.up {
+  right: 30px;
+}
+
+.top:hover {
+  color: #ffffff;
+  background-color: #c0334a;
+  opacity: .8;
+}
 
 
 /*上一页下一页*/
@@ -2482,7 +2476,7 @@ img::-moz-selection {
 @font-face {
   font-family: 'SourceHanSansCN-Normal';
   font-style: normal;
-  font-weight: normal;
+  font-weight: 400;
   src: url("../fonts/SourceHanSansCN/SourceHanSansCN-Normal.eot"); /* IE9 */
   src: local(''),
        url("../fonts/SourceHanSansCN/SourceHanSansCN-Normal.eot?#iefix") format("embedded-opentype"), /* IE6-IE8 */
