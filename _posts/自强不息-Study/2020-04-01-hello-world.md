@@ -1,6 +1,6 @@
 ---
 layout: post
-title: 笔记的前生今世
+title: 我的前生今世
 date:  2000-04-01 21:16:00 +0900
 description: Hello World！
 img: posts/fo-0.webp
@@ -35,15 +35,18 @@ Study: true
 
 自力更生，自强不息
 
-这个博客于20200401初迁移完成，使用Github托管，同时为了提高国内的访问体验，将站点同步镜像存放在Gitee上。
+其他不多讲，要 坚持坚持坚持 下去。
 
-因为不想过多得操心博客本身的事情，也不想因为迫于外界因素的影响放过多精力在这里（本质上就是全部以免费为主），所以一切以简洁方便效率为主，采用免费域名.cf/.ml/.tk，不用刻意维护，也方便同志们访问。
+## 优化记录
 
 对前端UI和性能做了部分优化：
-- 支持font-awesome和font-google定制图标和字体
-- 使用CDN， 对于公有的静态资源，比如jquery.min.js、highlight.min.js等文件全部使用CDN，提高网站的访问速度。
-- 图片格式全部使用webp格式
+- 优化font-awesome，mdx-icons和font-google定制图标和字体
+- 使用CDN， 对于公有的静态资源，比如jquery.min.js、highlight.min.js等文件全部使用CDN，提高网站的访问速度。（现已全部修改为本地服务）
+- 图片格式全部优化为webp格式
 - 使用google的[PageSpeed](https://developers.google.cn/speed/pagespeed/insights) 进行分析，参考建议优化。
+- 增加百度统计
+- 优化发布流程，代码提交github后，自动部署镜像站gitee和vencel.
+- 借鉴旅行青蛙游戏增加定制页面：旅行地图
 
 > 部分内容是从之前的wordpress和ghost中迁移过来，有部分数据丢失的问题，后面还需慢慢修复。
 

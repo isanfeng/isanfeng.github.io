@@ -63,17 +63,16 @@
     </script>
 	<!--baidu part end-->
 
-	<!-- Font Awesome -->
+	<!-- icons part 1: Font Awesome -->
 	<link rel="stylesheet" href="/assets/fonts/font-awesome/css/font-awesome.min.css">
 <!--	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">-->
+    <!-- icons part 2: Font mdx -->
+    <link rel="stylesheet" href="/assets/css/mdx-icons.css" />
+
 	<!--在线引用google字体-->
 	<link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Texturina|Orbitron|Teko|Play">
 	<!-- Styles -->
 	<link rel="stylesheet" href="/assets/css/main.css">
-
-	<!--Social Share:https://cdnjs.com/libraries/social-share.js-->
-<!--	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/social-share.js/1.0.16/css/share.min.css">-->
-<!--	<script src="https://cdnjs.cloudflare.com/ajax/libs/social-share.js/1.0.16/js/social-share.min.js"></script>-->
 
 	<!--网站计数系统-->
 <!--  	<script async src="//busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js"></script>-->
@@ -110,14 +109,12 @@
         }
 	</script>
 
-    <link rel="stylesheet" href="//static.llilii.cn/css/other/mdx-icons.css" />
-
 </head>
 
 <body>
   <div class="flex-container">
-  <!--左侧文档分类 和 页面导航-->
-
+  
+<!--左侧文档分类 和 页面导航-->
 <header class="main-header">
   <div class="wrapper">
     <div class="header-flex">
@@ -264,8 +261,6 @@
 				   
 				</ul>
 			</div>
-
-
 
 		</div>
 
@@ -628,7 +623,7 @@
 			<script>
 				var now = new Date();
 				function createtime() {
-					var grt= new Date("11/01/2020 00:00:00");//在此处修改你的建站时间
+					var grt= new Date("11/11/2020 00:00:00");//在此处修改你的建站时间
 					now.setTime(now.getTime()+250);
 					days = (now - grt ) / 1000 / 60 / 60 / 24; dnum = Math.floor(days);
 					hours = (now - grt ) / 1000 / 60 / 60 - (24 * dnum); hnum = Math.floor(hours);
@@ -682,6 +677,7 @@
 		</meting-js>
 		<!--music player end-->
 	</div>
+
 </footer>
 <!-- End Footer -->
 
@@ -718,7 +714,7 @@
 <!-- End Top Scroll -->
 
   <!-- JS -->
-<script src="/assets/js/jquery-3.2.1.min.js"></script>
+<script src="/assets/js/jquery.min.js"></script>
 <script src="/assets/js/jekyll-search.js"></script>
 <script>
   SimpleJekyllSearch({
@@ -744,6 +740,7 @@
 </script>
 -->
 <!-- End Analytics -->
+
 
 </body>
 </html>
