@@ -9,10 +9,10 @@ from selenium.webdriver.firefox.options import Options
 
 def deploy_gitee():
     # 模拟浏览器打开到gitee登录界面
-    Chrome_options = Options()
-    Chrome_options.add_argument("--headless")
-    Chrome_options.add_argument("window-size=1366x768")
-    driver = webdriver.Chrome(options=Chrome_options)
+    firefox_options = Options()
+    firefox_options.add_argument("--headless")
+    firefox_options.add_argument("window-size=1366x768")
+    driver = webdriver.Firefox(options=firefox_options)
     # driver = webdriver.Firefox()
     driver.get('https://gitee.com/login')
     # 将窗口最大化 无头浏览器无法最大化，需要在配置中设置窗口大小
@@ -31,9 +31,6 @@ def deploy_gitee():
 
     # 进入pages部署页
     driver.get("https://gitee.com/iwangsanfeng/iwangsanfeng/pages")
-
-    ad_btn = driver.find_element_by_class_name("close-icon")
-    ad_btn.click()
 
     update_deploy_btn = driver.find_element_by_class_name("update_deploy")
     update_deploy_btn.click()

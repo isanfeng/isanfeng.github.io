@@ -1,6 +1,6 @@
 ---
 layout: post
-title: 我的前生今世
+title: WO的前生今世
 date:  2000-04-01 21:16:00 +0900
 description: Hello World！
 img: posts/fo-0.webp
