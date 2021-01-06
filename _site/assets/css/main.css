@@ -803,11 +803,15 @@ a {
 }
 
 blockquote {
-  border-left: 3px solid #311e3e;
-  padding-left: 18px;
-  margin-left: 21px;
+  border-left: 5px solid #f5e94d;
+  padding-left: 5px;
+  padding-right: 5px;
+  margin-left: 5px;
+  margin-right: 5px;
   font-style: normal;
-  color: #311e3e;
+  color: #939597;
+  font-size: 14px;
+  font-weight: 400;
 }
 
 pre {
@@ -2236,8 +2240,7 @@ img::-moz-selection {
 
 
   /*谷歌字体定制start*/
-  /*工具：https://google-webfonts-helper.herokuapp.com/fonts */
-
+  /*工具：https://google-webfonts-helper.herokuapp.com/font
 /* 针对中文字体优化：http://ecomfe.github.io/fontmin/ */
 @font-face {
   font-family: 'SourceHanSansCN-Normal';

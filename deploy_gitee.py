@@ -32,6 +32,12 @@ def deploy_gitee():
     # 进入pages部署页
     driver.get("https://gitee.com/iwangsanfeng/iwangsanfeng/pages")
 
+    try:
+        ad_btn = driver.find_element_by_class_name("close-icon")
+        ad_btn.click()
+    except:
+        pass
+
     update_deploy_btn = driver.find_element_by_class_name("update_deploy")
     update_deploy_btn.click()
 

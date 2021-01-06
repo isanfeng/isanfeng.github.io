@@ -10,7 +10,9 @@ Bikepacking: true
 ---
 ## Bikepacking Featured Video 2020
 
-平时收藏的几个关于Bikepacking的很不错的视频。更多相关视频请移步<a href="https://space.bilibili.com/{{site.bilibili}}" target="_blank">我的视频</a>
+去年收藏的几个关于Bikepacking的视频。
+
+更多相关视频请移步<a href="https://space.bilibili.com/{{site.bilibili}}" target="_blank">我的视频</a>
 
 ### A Line In The Sand
 
