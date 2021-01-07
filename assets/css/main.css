@@ -1,4 +1,6 @@
 .highlight {
+  font-family: 'Orbitron',  'SourceHanSansCN-Normal', 'Microsoft YaHei', sans-serif;
+  font-weight: normal;
   background-color: #faf9f9;
   -webkit-border-radius: 3px;
           border-radius: 3px;
