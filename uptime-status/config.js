@@ -24,15 +24,15 @@ window.Config = {
   // 导航栏菜单
   Navi: [
     {
-      text: 'Home',
+      text: '主页',
       url: '/'
     },
     {
-      text: 'Travel Map',
+      text: '旅行地图',
       url: '/travel_map'
     },
 	{
-      text: 'About',
+      text: '关于',
       url: '/about'
     }
   ]
