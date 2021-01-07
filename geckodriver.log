@@ -97,3 +97,11 @@ JavaScript error: , line 0: AbortError: A request was aborted, for example throu
 JavaScript error: , line 0: uncaught exception: null
 JavaScript error: , line 0: uncaught exception: null
 1609408273188	Marionette	INFO	Stopped listening on port 59065
+1609983168032	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "-marionette" "--headless" "window-size=1366x768" "-foreground" "-no-remote" "-profile" "C:\\Users\\wangshf\\AppData\\Local\\Temp\\rust_mozprofilenF1YlB"
+*** You are running in headless mode.
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1609983174210	Marionette	INFO	Listening on port 50641
+1609983174401	Marionette	WARN	TLS certificate errors will be ignored for this session
+1609983192113	Marionette	INFO	Stopped listening on port 50641
+JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 573: NotFoundError: No such JSWindowActor 'MarionetteCommands'
