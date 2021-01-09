@@ -8,8 +8,8 @@
 }
 
 .highlighter-rouge {
-  color: #410273;
-  font-weight: 400;
+  color: #939597;
+  font-weight: 500;
   border: 1px solid #607D8B;
   -webkit-border-radius: 3px;
           border-radius: 3px;
@@ -414,7 +414,7 @@ hr {
  * 2. Correct the odd `em` font sizing in all browsers.
  */
 pre {
-  font-family: 'Orbitron', monospace;
+    font-family: 'Orbitron', 'SourceHanSansCN-Normal', 'Microsoft YaHei', monospace, sans-serif;
   /* 1 */
   font-size: 1em;
   /* 2 */
@@ -469,7 +469,7 @@ strong {
 code,
 kbd,
 samp {
-  font-family: 'Orbitron', monospace;
+  font-family: 'Orbitron', 'SourceHanSansCN-Normal', 'Microsoft YaHei', monospace, sans-serif;
   /* 1 */
   font-size: 1em;
   /* 2 */
@@ -781,7 +781,7 @@ html {
 }
 
 body {
-  font-family: 'Orbitron', 'Texturina', 'SourceHanSansCN-Normal', 'Microsoft YaHei', sans-serif;
+  font-family: 'Orbitron', 'SourceHanSansCN-Normal', 'Microsoft YaHei', sans-serif;
   color: #3e3e40;
   margin: 0;
   background-color: #fff;
@@ -790,7 +790,7 @@ body {
 }
 
 h1, h2, h3, h4, h5, h6 {
-  font-family: 'Orbitron', 'Texturina', 'SourceHanSansCN-Normal', 'Microsoft YaHei', 'Lato', sans-serif;
+  font-family: 'Orbitron', 'SourceHanSansCN-Normal', 'Microsoft YaHei', 'Lato', sans-serif;
   color: #311e3e;
   font-weight: 400;
 }
@@ -896,7 +896,7 @@ pre code {
 
 /* = = = = = = = = = = Header Styles = = = = = = = = = = */
 .main-header {
-  font-family: 'Orbitron', 'Texturina', 'SourceHanSansCN-Normal', 'Microsoft YaHei', 'Lato', sans-serif;
+  font-family: 'Orbitron', 'SourceHanSansCN-Normal', 'Microsoft YaHei', 'Lato', sans-serif;
   padding: 15px 0;
   background-color: #fff;
   background-image: url(/assets/img/bg_site.png);
@@ -1134,7 +1134,7 @@ pre code {
 }
 
 .post-card .post-card-body .post-card-title {
-  font-family: 'Orbitron', 'Texturina', 'SourceHanSansCN-Normal', 'Microsoft YaHei', 'Lato', sans-serif;
+  font-family: 'Orbitron', 'SourceHanSansCN-Normal', 'Microsoft YaHei', 'Lato', sans-serif;
   font-weight: 500;
   font-size: 25px;
   width: 450px;   /* 设置卡片上标题文本的显示长度*/
@@ -1233,7 +1233,7 @@ pre code {
 }
 
 .header-page h1 {
-  font-family: 'Orbitron', 'Texturina', 'SourceHanSansCN-Normal', 'Microsoft YaHei', 'Lato', sans-serif;
+  font-family: 'Orbitron', 'SourceHanSansCN-Normal', 'Microsoft YaHei', 'Lato', sans-serif;
   font-weight: 400;
   font-size: 33px;
   text-align: center;
@@ -1292,7 +1292,7 @@ pre code {
 }
 
 .recent-box .recent-title {
-  font-family: 'Orbitron', 'Texturina', 'SourceHanSansCN-Normal', 'Microsoft YaHei','Lato', sans-serif;
+  font-family: 'Orbitron', 'SourceHanSansCN-Normal', 'Microsoft YaHei','Lato', sans-serif;
   font-weight: 400;
   color: #311e3e;
   text-align: center;
@@ -1557,7 +1557,7 @@ pre code {
 
 .blog-tags h1 {
   text-align: center;
-  font-family: 'Orbitron', 'Texturina', 'SourceHanSansCN-Normal', 'Microsoft YaHei', 'Lato', sans-serif;
+  font-family: 'Orbitron', 'SourceHanSansCN-Normal', 'Microsoft YaHei', 'Lato', sans-serif;
   font-weight: 400;
   font-size: 36px;
   text-align: center;
@@ -1944,7 +1944,7 @@ pre code {
 .social_footer a {
     padding: 0.5rem 1rem;
     font-size: 1.35rem;
-    font-family: 'Orbitron', 'Texturina', sans-serif;
+    font-family: 'Orbitron', 'Texturina', 'SourceHanSansCN-Normal', 'Microsoft YaHei', monospace, sans-serif;
     -webkit-border-radius: 0.3rem;
             border-radius: 0.3rem;
   }
@@ -2000,7 +2000,7 @@ pre code {
 
 /*item文章摘要鼠标放入显示离开隐藏*/
 .post-card-stricp {
-  font-family: 'Orbitron', 'Texturina', 'SourceHanSansCN-Normal', 'Microsoft YaHei', 'Lato', sans-serif;
+  font-family: 'Orbitron', 'SourceHanSansCN-Normal', 'Microsoft YaHei', 'Lato', sans-serif;
   font-weight: 400;
   font-size: 15px;
   color: #fff;
