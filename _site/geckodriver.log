@@ -130,3 +130,13 @@ console.warn: SearchSettings: "get: No settings file exists, new profile?" (new 
 1610006317209	Marionette	INFO	Stopped listening on port 57296
 JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 573: NotFoundError: No such JSWindowActor 'MarionetteCommands'
 [Child 54784, Chrome_ChildThread] WARNING: pipe error: 232: file /builds/worker/checkouts/gecko/ipc/chromium/src/chrome/common/ipc_channel_win.cc:545
+1610173010728	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "-marionette" "--headless" "window-size=1366x768" "-foreground" "-no-remote" "-profile" "C:\\Users\\wangshf\\AppData\\Local\\Temp\\rust_mozprofiletERJSI"
+*** You are running in headless mode.
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+1610173017336	Marionette	INFO	Listening on port 51351
+1610173017750	Marionette	WARN	TLS certificate errors will be ignored for this session
+1610173039479	Marionette	INFO	Stopped listening on port 51351
