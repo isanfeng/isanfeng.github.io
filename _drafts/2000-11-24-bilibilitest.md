@@ -34,12 +34,7 @@ Essays: true
 > 有意思
 >
 
-<ruby>
-后翼弃兵
-  <rp>(</rp>
-    <rt>hòu yì qì bīng</rt>
-  <rp>)</rp>
-</ruby>
+<ruby>后翼弃兵<rp>(</rp><rt>hòu yì qì bīng</rt><rp>)</rp></ruby>
 
 <ruby>
 留下足迹才美丽
