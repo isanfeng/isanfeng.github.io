@@ -140,3 +140,11 @@ console.warn: SearchSettings: "get: No settings file exists, new profile?" (new 
 1610173017336	Marionette	INFO	Listening on port 51351
 1610173017750	Marionette	WARN	TLS certificate errors will be ignored for this session
 1610173039479	Marionette	INFO	Stopped listening on port 51351
+1610174527287	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "-marionette" "--headless" "window-size=1366x768" "-foreground" "-no-remote" "-profile" "C:\\Users\\wangshf\\AppData\\Local\\Temp\\rust_mozprofile7Ozb0q"
+*** You are running in headless mode.
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1610174531351	Marionette	INFO	Listening on port 52282
+1610174531553	Marionette	WARN	TLS certificate errors will be ignored for this session
+1610174552067	Marionette	INFO	Stopped listening on port 52282
+JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 573: NotFoundError: No such JSWindowActor 'MarionetteCommands'
