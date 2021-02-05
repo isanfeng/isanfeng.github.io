@@ -109,6 +109,11 @@
         }
 	</script>
 
+	<!-- 网页鼠标点击特效（爱心）-->
+	<script type="text/javascript">
+        !function (e, t, a) {function r() {for (var e = 0; e < s.length; e++) s[e].alpha <= 0 ? (t.body.removeChild(s[e].el), s.splice(e, 1)) : (s[e].y--, s[e].scale += .004, s[e].alpha -= .013, s[e].el.style.cssText = "left:" + s[e].x + "px;top:" + s[e].y + "px;opacity:" + s[e].alpha + ";transform:scale(" + s[e].scale + "," + s[e].scale + ") rotate(45deg);background:" + s[e].color + ";z-index:99999");requestAnimationFrame(r)}function n() {var t = "function" == typeof e.onclick && e.onclick;e.onclick = function (e) {t && t(), o(e)}}function o(e) {var a = t.createElement("div");a.className = "heart", s.push({el: a,x: e.clientX - 5,y: e.clientY - 5,scale: 1,alpha: 1,color: c()}), t.body.appendChild(a)}function i(e) {var a = t.createElement("style");a.type = "text/css";try {a.appendChild(t.createTextNode(e))} catch (t) {a.styleSheet.cssText = e}t.getElementsByTagName("head")[0].appendChild(a)}function c() {return "rgb(" + ~~(255 * Math.random()) + "," + ~~(255 * Math.random()) + "," + ~~(255 * Math.random()) + ")"}var s = [];e.requestAnimationFrame = e.requestAnimationFrame || e.webkitRequestAnimationFrame || e.mozRequestAnimationFrame || e.oRequestAnimationFrame || e.msRequestAnimationFrame || function (e) {setTimeout(e, 1e3 / 60)}, i(".heart{width: 10px;height: 10px;position: fixed;background: #f00;transform: rotate(45deg);-webkit-transform: rotate(45deg);-moz-transform: rotate(45deg);}.heart:after,.heart:before{content: '';width: inherit;height: inherit;background: inherit;border-radius: 50%;-webkit-border-radius: 50%;-moz-border-radius: 50%;position: fixed;}.heart:after{top: -5px;}.heart:before{left: -5px;}"), n(), r()}(window, document);
+	</script>
+
 </head>
 
 <body>
@@ -286,7 +291,31 @@
 		  <!-- <span id="busuanzi_container_page_pv"> | 来访：<span id="busuanzi_value_page_pv"></span>人</span> -->
 		  </div>
         </div>
-        
+        <script>
+    function password()
+    {
+        var i=1;
+            var passwd=prompt('亲爱滴，这个页面需要信任密码哦:','');//这是输入密码的提示语，可以改为你想要显示的内容，比如本站地址之类的
+        while(i<3)
+        {
+            if(passwd=="sanfeng's world")//这是密码
+            {
+            alert('恭喜你！');//这是输入正确后的提示，可以改为自己想要的提示语
+            break;
+            }
+            i++;
+            var passwd=prompt('密码错误!请重新输入:\n你还有'+(4-i)+'次机会。');
+        }
+        if(password!="vip.zan.smarted"&&i==3)
+        {
+            alert('亲爱滴，信任是交流的第一步。');
+            location.href="https://iwangsanfeng.gitee.io";//这是密码输入错误超过3次后转到的错误页面，也可设为别的页面
+        }
+        return "";
+    }
+        password();
+</script>
+
 
         <div class="page-footer">
           <div class="page-tag">
