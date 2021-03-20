@@ -131,7 +131,7 @@ PS：绩溪家朋除了水包还有一些当地的特色食物，像早上吃的
 洞内漆黑一篇，大概纵深有两三百米，在一端只能看到另一端洞口微微的弱光，一个人身处黑暗也许是人类能想到的最恐怖几个场景之一吧。
 [![6RJ0qf.jpg](https://s3.ax1x.com/2021/03/18/6RJ0qf.jpg)](https://imgtu.com/i/6RJ0qf)
 幸好这次第一探路梯队中还有两个小伙伴，三个傻子纯真又好奇的光着脚在黑暗洞中扛着车趟水前行，进入一段时间后，眼睛会慢慢适应黑暗，说说笑笑乱咋呼着自己最后的崛强，
-[![6RJdMt.jpg](https://s3.ax1x.com/2021/03/18/6RJdMt.jpg)](https://imgtu.com/i/6RJdMt
+[![6RJdMt.jpg](https://s3.ax1x.com/2021/03/18/6RJdMt.jpg)](https://imgtu.com/i/6RJdMt)
 这种野趣只有在意外时才能相遇，随意一点，也许另有洞天。
 [![6RGbKP.jpg](https://s3.ax1x.com/2021/03/18/6RGbKP.jpg)](https://imgtu.com/i/6RGbKP)
 重见天日的庆幸，让我们了解自己的能量超乎自己的箱箱。
