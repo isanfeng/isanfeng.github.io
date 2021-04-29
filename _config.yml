@@ -107,6 +107,10 @@ links1:
     url:          /blog/Bikepacking
     type:         Bikepacking
     external:     false
+  - name:         环游国内
+    url:          /blog/Bikepacking-domestic
+    type:         Bikepacking-domestic
+    external:     false    
   - name:         工欲善其事
     url:          /blog/Life
     type:         Life
@@ -130,5 +134,6 @@ blog_3:    Life
 blog_4:    Tools
 blog_5:    Study
 blog_6:    Essays
+blog_7:    Bikepacking-domestic
 
 #permalink: /:year/:month/:day/:title.html

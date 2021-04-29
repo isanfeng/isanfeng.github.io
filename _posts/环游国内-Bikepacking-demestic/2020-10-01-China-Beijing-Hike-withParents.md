@@ -5,8 +5,8 @@ date: 2020-10-01 20:56
 author: 三丰
 description:
 img: posts/Beijing-0.webp
-tags: [带父母去旅游, 分时分段环游地球]
-Bikepacking: true
+tags: [带父母去旅游, 环游国内]
+Bikepacking-domestic: true
 ---
 北京7天行 圆满结束。<br>
 在这两年经历了那几个操蛋事情，稍微弄清了这十几年的丑恶，身心承受了三观几乎全部重塑的压力后，也体会到了每年带父母去旅游这件事貌似变成了人生仅存的几件最有意义的事情之一。

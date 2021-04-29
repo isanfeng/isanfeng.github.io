@@ -5,8 +5,8 @@ date: 2021-1-9
 author: isanfeng
 description:
 img: posts/VictoryRoad-0.webp
-tags: [Bikepacking, 分时分段环游地球]
-Bikepacking: true
+tags: [Bikepacking, 环游国内]
+Bikepacking-domestic: true
 ---
 > 封面地点：华东天路 [胜利之路] .墩头段
 

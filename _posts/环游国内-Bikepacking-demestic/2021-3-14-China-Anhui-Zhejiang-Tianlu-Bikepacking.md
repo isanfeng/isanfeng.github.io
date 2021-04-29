@@ -5,8 +5,8 @@ date: 2021-3-14
 author: isanfeng
 description:
 img: posts/wanzhe-road.jpg
-tags: [Bikepacking, 分时分段环游地球]
-Bikepacking: true
+tags: [Bikepacking, 环游国内]
+Bikepacking-domestic: true
 ---
 还记得，那是一方山峦，流淌着春色，牵引着愁绪；
 
