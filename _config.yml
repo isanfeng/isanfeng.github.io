@@ -1,4 +1,4 @@
-title: 流浪⬝𝓲三丰⬝苦行志
+title: 𝓲三丰⬝流浪
 subtitle: 水唯善下方成海,山不衿高自极天
 description: Bikepacking 单车 旅行 学习 Fire Python
 
@@ -10,7 +10,7 @@ url: 'https://isanfeng.github.io' # the base hostname & protocol for your site, 
 gitee_url: 'https://iwangsanfeng.gitee.io'
 
 # Author settings add your name
-author: 流浪⬝𝓲三丰<i class="fa fa-bicycle" aria-hidden="true"></i>苦行志
+author: 𝓲三丰<i class="fa fa-bicycle" aria-hidden="true"></i>流浪
 
 author-pic: isanfeng.jpg
 about-author: 侠之大者，四海为家；一人一驹，浪迹天涯
@@ -63,7 +63,7 @@ baidu-analysis-github: 42bccbe026e11e0ec8bcd67d40d41529
 baidu-analysis-gitee: c1cc63cef10ce15edf05b9fcab36e06b
 
 # Paginate
-paginate: 81
+paginate: 99
 paginate_path: /page:num/
 
 # Build settings
@@ -91,7 +91,7 @@ links:
 
 #添分类步骤：
 #1：在_config.yml links1及blog中添加对应内容
-#2：在_includes里面headr.html中添加对应内容
+#2：在_includes里面header.html中添加对应内容
 #3：在根目录blog文件中创建对应内容并修改index文件
 
 label1: <i class="fa fa-pencil-square-o" aria-hidden="true"></i>
@@ -107,10 +107,10 @@ links1:
     url:          /blog/Bikepacking
     type:         Bikepacking
     external:     false
-  - name:         环游国内
+  - name:         分时分段漫游国内
     url:          /blog/Bikepacking-domestic
     type:         Bikepacking-domestic
-    external:     false    
+    external:     false
   - name:         工欲善其事
     url:          /blog/Life
     type:         Life
@@ -135,5 +135,6 @@ blog_4:    Tools
 blog_5:    Study
 blog_6:    Essays
 blog_7:    Bikepacking-domestic
+
 
 #permalink: /:year/:month/:day/:title.html

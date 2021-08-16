@@ -1,289 +1,165 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<urlset
-    xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
-    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-    xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9
-       http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd"
->
-
+<urlset xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd" xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 <url>
- <loc>https://iwangsanfeng.gitee.io/meditation</loc>
- <priority>0.3</priority>
- <lastmod>2020-12-21</lastmod>
- <changefreq>daily</changefreq>
+<loc>https://isanfeng.github.io/hello-world/</loc>
+<lastmod>2000-04-01T20:16:00+08:00</lastmod>
 </url>
-
 <url>
- <loc>https://iwangsanfeng.gitee.io/China-Qingdao-Hike-withParents</loc>
- <priority>0.3</priority>
- <lastmod>2020-12-21</lastmod>
- <changefreq>daily</changefreq>
+<loc>https://isanfeng.github.io/python-cheat-sheet/</loc>
+<lastmod>2000-11-30T20:04:00+08:00</lastmod>
 </url>
-
 <url>
- <loc>https://iwangsanfeng.gitee.io/python-cheat-sheet</loc>
- <priority>0.3</priority>
- <lastmod>2020-12-21</lastmod>
- <changefreq>daily</changefreq>
+<loc>https://isanfeng.github.io/isanfeng_beginning/</loc>
+<lastmod>2010-03-31T14:10:00+08:00</lastmod>
 </url>
-
 <url>
- <loc>https://iwangsanfeng.gitee.io/Thailand-Hike-withParents</loc>
- <priority>0.3</priority>
- <lastmod>2020-12-21</lastmod>
- <changefreq>daily</changefreq>
+<loc>https://isanfeng.github.io/China-Qingdao-Hike-withParents/</loc>
+<lastmod>2011-10-01T20:56:00+08:00</lastmod>
 </url>
-
 <url>
- <loc>https://iwangsanfeng.gitee.io/Philippines-Hike</loc>
- <priority>0.3</priority>
- <lastmod>2020-12-21</lastmod>
- <changefreq>daily</changefreq>
+<loc>https://isanfeng.github.io/QinghaiLake-Bikepacking/</loc>
+<lastmod>2013-09-30T23:09:00+08:00</lastmod>
 </url>
-
 <url>
- <loc>https://iwangsanfeng.gitee.io/China-DukuRoad-Bikepacking</loc>
- <priority>0.3</priority>
- <lastmod>2020-12-21</lastmod>
- <changefreq>daily</changefreq>
+<loc>https://isanfeng.github.io/Hainandao-Bikepacking/</loc>
+<lastmod>2013-12-31T23:09:00+08:00</lastmod>
 </url>
-
 <url>
- <loc>https://iwangsanfeng.gitee.io/Japan-Okinawa-Bikepacking</loc>
- <priority>0.3</priority>
- <lastmod>2020-12-21</lastmod>
- <changefreq>daily</changefreq>
+<loc>https://isanfeng.github.io/Thailand-North-Loop-Bikepacking-Counter-Clock-wise/</loc>
+<lastmod>2015-09-25T00:09:00+08:00</lastmod>
 </url>
-
 <url>
- <loc>https://iwangsanfeng.gitee.io/Malaysia-Bikepacking-Three-Highlands</loc>
- <priority>0.3</priority>
- <lastmod>2020-12-21</lastmod>
- <changefreq>daily</changefreq>
+<loc>https://isanfeng.github.io/Taiwan-Loop-Bikepacking/</loc>
+<lastmod>2016-09-24T00:08:00+08:00</lastmod>
 </url>
-
 <url>
- <loc>https://iwangsanfeng.gitee.io/Xian-Hike-withParents</loc>
- <priority>0.3</priority>
- <lastmod>2020-12-21</lastmod>
- <changefreq>daily</changefreq>
+<loc>https://isanfeng.github.io/Japan-Hokkaido-Loop-Bikepacking/</loc>
+<lastmod>2017-05-27T00:09:00+08:00</lastmod>
 </url>
-
 <url>
- <loc>https://iwangsanfeng.gitee.io/Bikepacking-Video-2020</loc>
- <priority>0.3</priority>
- <lastmod>2020-12-21</lastmod>
- <changefreq>daily</changefreq>
+<loc>https://isanfeng.github.io/Jeju-Loop-Bikepacking/</loc>
+<lastmod>2017-08-05T00:10:00+08:00</lastmod>
 </url>
-
 <url>
- <loc>https://iwangsanfeng.gitee.io/Cambodia-Hike-PhnomPenh</loc>
- <priority>0.3</priority>
- <lastmod>2020-12-21</lastmod>
- <changefreq>daily</changefreq>
+<loc>https://isanfeng.github.io/Thailand-North-Loop-Bikepacking-Clock-wise/</loc>
+<lastmod>2017-09-16T00:11:00+08:00</lastmod>
 </url>
-
 <url>
- <loc>https://iwangsanfeng.gitee.io/blog/Bikepacking</loc>
- <priority>0.3</priority>
- <lastmod>2020-12-21</lastmod>
- <changefreq>daily</changefreq>
+<loc>https://isanfeng.github.io/Cambodia-Hike-PhnomPenh/</loc>
+<lastmod>2018-03-31T06:30:00+08:00</lastmod>
 </url>
-
 <url>
- <loc>https://iwangsanfeng.gitee.io/Hainandao-Bikepacking</loc>
- <priority>0.3</priority>
- <lastmod>2020-12-21</lastmod>
- <changefreq>daily</changefreq>
+<loc>https://isanfeng.github.io/Cambodia-Hike-SiemReap/</loc>
+<lastmod>2018-04-13T16:07:00+08:00</lastmod>
 </url>
-
 <url>
- <loc>https://iwangsanfeng.gitee.io/Cambodia-Hike-SiemReap</loc>
- <priority>0.3</priority>
- <lastmod>2020-12-21</lastmod>
- <changefreq>daily</changefreq>
+<loc>https://isanfeng.github.io/Cambodia-Hike-Sihanouk/</loc>
+<lastmod>2018-04-21T16:10:00+08:00</lastmod>
 </url>
-
 <url>
- <loc>https://iwangsanfeng.gitee.io/</loc>
- <priority>0.3</priority>
- <lastmod>2020-12-21</lastmod>
- <changefreq>daily</changefreq>
+<loc>https://isanfeng.github.io/Malaysia-Bikepacking-Three-Highlands/</loc>
+<lastmod>2018-04-28T21:00:00+08:00</lastmod>
 </url>
-
 <url>
- <loc>https://iwangsanfeng.gitee.io/Japan-PipaLake-Bikepacking</loc>
- <priority>0.3</priority>
- <lastmod>2020-12-21</lastmod>
- <changefreq>daily</changefreq>
+<loc>https://isanfeng.github.io/meditation/</loc>
+<lastmod>2018-09-12T20:16:00+08:00</lastmod>
 </url>
-
 <url>
- <loc>https://iwangsanfeng.gitee.io/Thailand-North-Loop-Bikepacking-Counter-Clock-wise</loc>
- <priority>0.3</priority>
- <lastmod>2020-12-21</lastmod>
- <changefreq>daily</changefreq>
+<loc>https://isanfeng.github.io/Philippines-Hike/</loc>
+<lastmod>2018-10-03T20:56:00+08:00</lastmod>
 </url>
-
 <url>
- <loc>https://iwangsanfeng.gitee.io/Thailand-North-Loop-Bikepacking-Clock-wise</loc>
- <priority>0.3</priority>
- <lastmod>2020-12-21</lastmod>
- <changefreq>daily</changefreq>
+<loc>https://isanfeng.github.io/Xian-Hike-withParents/</loc>
+<lastmod>2019-03-27T20:56:00+08:00</lastmod>
 </url>
-
 <url>
- <loc>https://iwangsanfeng.gitee.io/isanfeng_beginning</loc>
- <priority>0.3</priority>
- <lastmod>2020-12-21</lastmod>
- <changefreq>daily</changefreq>
+<loc>https://isanfeng.github.io/Thailand-Hike-withParents/</loc>
+<lastmod>2019-04-01T20:56:00+08:00</lastmod>
 </url>
-
 <url>
- <loc>https://iwangsanfeng.gitee.io/China-Beijing-Hike-withParents</loc>
- <priority>0.3</priority>
- <lastmod>2020-12-21</lastmod>
- <changefreq>daily</changefreq>
+<loc>https://isanfeng.github.io/China-DukuRoad-Bikepacking/</loc>
+<lastmod>2019-05-01T00:09:00+08:00</lastmod>
 </url>
-
 <url>
- <loc>https://iwangsanfeng.gitee.io/Taiwan-Loop-Bikepacking</loc>
- <priority>0.3</priority>
- <lastmod>2020-12-21</lastmod>
- <changefreq>daily</changefreq>
+<loc>https://isanfeng.github.io/Japan-Okinawa-Bikepacking/</loc>
+<lastmod>2019-10-01T00:09:00+08:00</lastmod>
 </url>
-
 <url>
- <loc>https://iwangsanfeng.gitee.io/blog/Essays</loc>
- <priority>0.3</priority>
- <lastmod>2020-12-21</lastmod>
- <changefreq>daily</changefreq>
+<loc>https://isanfeng.github.io/Japan-PipaLake-Bikepacking/</loc>
+<lastmod>2020-04-01T00:09:00+08:00</lastmod>
 </url>
-
 <url>
- <loc>https://iwangsanfeng.gitee.io/blog/Study</loc>
- <priority>0.3</priority>
- <lastmod>2020-12-21</lastmod>
- <changefreq>daily</changefreq>
+<loc>https://isanfeng.github.io/China-Beijing-Hike-withParents/</loc>
+<lastmod>2020-10-01T20:56:00+08:00</lastmod>
 </url>
-
 <url>
- <loc>https://iwangsanfeng.gitee.io/about</loc>
- <priority>0.3</priority>
- <lastmod>2020-12-21</lastmod>
- <changefreq>daily</changefreq>
+<loc>https://isanfeng.github.io/Japan-Kaido-siguo-Bikepacking/</loc>
+<lastmod>2020-11-11T00:09:00+08:00</lastmod>
 </url>
-
 <url>
- <loc>https://iwangsanfeng.gitee.io/travel_map</loc>
- <priority>0.3</priority>
- <lastmod>2020-12-21</lastmod>
- <changefreq>daily</changefreq>
+<loc>https://isanfeng.github.io/Fire-First/</loc>
+<lastmod>2020-11-17T20:04:00+08:00</lastmod>
 </url>
-
 <url>
- <loc>https://iwangsanfeng.gitee.io/blog/Life</loc>
- <priority>0.3</priority>
- <lastmod>2020-12-21</lastmod>
- <changefreq>daily</changefreq>
+<loc>https://isanfeng.github.io/Bikepacking-introduce-package/</loc>
+<lastmod>2020-11-28T20:56:00+08:00</lastmod>
 </url>
-
 <url>
- <loc>https://iwangsanfeng.gitee.io/QinghaiLake-Bikepacking</loc>
- <priority>0.3</priority>
- <lastmod>2020-12-21</lastmod>
- <changefreq>daily</changefreq>
+<loc>https://isanfeng.github.io/get-old-alone/</loc>
+<lastmod>2020-12-12T20:16:00+08:00</lastmod>
 </url>
-
 <url>
- <loc>https://iwangsanfeng.gitee.io/blog/Tools</loc>
- <priority>0.3</priority>
- <lastmod>2020-12-21</lastmod>
- <changefreq>daily</changefreq>
+<loc>https://isanfeng.github.io/Bikepacking-Video-2020/</loc>
+<lastmod>2020-12-14T12:45:00+08:00</lastmod>
 </url>
-
 <url>
- <loc>https://iwangsanfeng.gitee.io/get-old-alone</loc>
- <priority>0.3</priority>
- <lastmod>2020-12-21</lastmod>
- <changefreq>daily</changefreq>
+<loc>https://isanfeng.github.io/China-VictoryRoad-Bikepacking/</loc>
+<lastmod>2021-01-09T00:00:00+08:00</lastmod>
 </url>
-
 <url>
- <loc>https://iwangsanfeng.gitee.io/Cambodia-Hike-Sihanouk</loc>
- <priority>0.3</priority>
- <lastmod>2020-12-21</lastmod>
- <changefreq>daily</changefreq>
+<loc>https://isanfeng.github.io/China-Anhui-Zhejiang-Tianlu-Bikepacking/</loc>
+<lastmod>2021-03-14T00:00:00+08:00</lastmod>
 </url>
-
 <url>
- <loc>https://iwangsanfeng.gitee.io/python-flask-learning</loc>
- <priority>0.3</priority>
- <lastmod>2020-12-21</lastmod>
- <changefreq>daily</changefreq>
+<loc>https://isanfeng.github.io/China-Zhejiang-Wenzhou-YandangMtn-Bikepacking/</loc>
+<lastmod>2021-04-02T00:00:00+08:00</lastmod>
 </url>
-
 <url>
- <loc>https://iwangsanfeng.gitee.io/hello-world</loc>
- <priority>0.3</priority>
- <lastmod>2020-12-21</lastmod>
- <changefreq>daily</changefreq>
+<loc>https://isanfeng.github.io/China-Zhejiang-Lishui-BaishanZu-Bikepacking/</loc>
+<lastmod>2021-05-01T00:00:00+08:00</lastmod>
 </url>
-
 <url>
- <loc>https://iwangsanfeng.gitee.io/Fire-First</loc>
- <priority>0.3</priority>
- <lastmod>2020-12-21</lastmod>
- <changefreq>daily</changefreq>
+<loc>https://isanfeng.github.io/about/</loc>
 </url>
-
 <url>
- <loc>https://iwangsanfeng.gitee.io/Japan-Kaido-siguo-Bikepacking</loc>
- <priority>0.3</priority>
- <lastmod>2020-12-21</lastmod>
- <changefreq>daily</changefreq>
+<loc>https://isanfeng.github.io/blog/Tools/</loc>
 </url>
-
 <url>
- <loc>https://iwangsanfeng.gitee.io/tags</loc>
- <priority>0.3</priority>
- <lastmod>2020-12-21</lastmod>
- <changefreq>daily</changefreq>
+<loc>https://isanfeng.github.io/blog/Bikepacking-domestic/</loc>
 </url>
-
 <url>
- <loc>https://iwangsanfeng.gitee.io/Japan-Hokkaido-Loop-Bikepacking</loc>
- <priority>0.3</priority>
- <lastmod>2020-12-21</lastmod>
- <changefreq>daily</changefreq>
+<loc>https://isanfeng.github.io/blog/Life/</loc>
 </url>
-
 <url>
- <loc>https://iwangsanfeng.gitee.io</loc>
- <priority>0.3</priority>
- <lastmod>2020-12-21</lastmod>
- <changefreq>daily</changefreq>
+<loc>https://isanfeng.github.io/blog/Bikepacking/</loc>
 </url>
-
 <url>
- <loc>https://iwangsanfeng.gitee.io/English-Study</loc>
- <priority>0.3</priority>
- <lastmod>2020-12-21</lastmod>
- <changefreq>daily</changefreq>
+<loc>https://isanfeng.github.io/blog/Essays/</loc>
 </url>
-
 <url>
- <loc>https://iwangsanfeng.gitee.io/Jeju-Loop-Bikepacking</loc>
- <priority>0.3</priority>
- <lastmod>2020-12-21</lastmod>
- <changefreq>daily</changefreq>
+<loc>https://isanfeng.github.io/blog/Study/</loc>
 </url>
-
 <url>
- <loc>https://iwangsanfeng.gitee.io/Bikepacking-introduce</loc>
- <priority>0.3</priority>
- <lastmod>2020-12-21</lastmod>
- <changefreq>daily</changefreq>
+<loc>https://isanfeng.github.io/</loc>
 </url>
-
+<url>
+<loc>https://isanfeng.github.io/tags/</loc>
+</url>
+<url>
+<loc>https://isanfeng.github.io/travel_map/</loc>
+</url>
+<url>
+<loc>https://isanfeng.github.io/uptime-status/</loc>
+<lastmod>2021-04-09T17:52:38+08:00</lastmod>
+</url>
 </urlset>

@@ -60,12 +60,12 @@
 			 {% endif %}
 
 			 {% if link.type == site.blog_7 %}
-				{% for post in site.posts %}
-				   {% if post.Bikepacking-domestic %}
-						{% assign count = count | plus: 1 %}
-				   {% endif %}
-				 {% endfor %}
-			 {% endif %}			 
+			 {% for post in site.posts %}
+				{% if post.Bikepacking-domestic %}
+					 {% assign count = count | plus: 1 %}
+				{% endif %}
+			  {% endfor %}
+		  	 {% endif %}
 
 			 <li><a  href="{{ link.url }}">{{ link.name }}({{count}})</a></li>
 		 {% endfor %}
