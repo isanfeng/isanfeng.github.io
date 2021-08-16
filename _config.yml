@@ -82,10 +82,10 @@ links:
 #  - name:         Home
 #    url:          /
 #    external:     false
-  - name:         Travel Map <i class="fa fa-bell-o"></i>
+  - name:         <i class="fa fa-map-marker"></i> Travel Map
     url:          /travel_map
     external:     false
-  - name:         About
+  - name:         <i class="fa fa-info"></i> About
     url:          /about
     external:     false
 
