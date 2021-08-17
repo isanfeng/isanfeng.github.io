@@ -3,7 +3,7 @@
     {
       "title"    : "丽水庆元百山之祖.2021.五一",
       "category" : "",
-      "tags"     : "Bikepacking, 环游国内",
+      "tags"     : "Bikepacking, 分时分段漫游中国, 浙江",
       "url"      : "/China-Zhejiang-Lishui-BaishanZu-Bikepacking/",
       "date"     : "2021-05-01 00:00:00 +0800"
     } ,
@@ -11,7 +11,7 @@
     {
       "title"    : "雁荡留声.2021.清明",
       "category" : "",
-      "tags"     : "Bikepacking, 环游国内",
+      "tags"     : "Bikepacking, 分时分段漫游中国, 浙江",
       "url"      : "/China-Zhejiang-Wenzhou-YandangMtn-Bikepacking/",
       "date"     : "2021-04-02 00:00:00 +0800"
     } ,
@@ -19,7 +19,7 @@
     {
       "title"    : "皖浙天路.2021.清明前夕",
       "category" : "",
-      "tags"     : "Bikepacking, 环游国内",
+      "tags"     : "Bikepacking, 分时分段漫游中国, 安徽, 浙江",
       "url"      : "/China-Anhui-Zhejiang-Tianlu-Bikepacking/",
       "date"     : "2021-03-14 00:00:00 +0800"
     } ,
@@ -27,7 +27,7 @@
     {
       "title"    : "胜利之路.2021.元旦",
       "category" : "",
-      "tags"     : "Bikepacking, 环游国内",
+      "tags"     : "Bikepacking, 分时分段漫游中国, 浙江",
       "url"      : "/China-VictoryRoad-Bikepacking/",
       "date"     : "2021-01-09 00:00:00 +0800"
     } ,
@@ -35,7 +35,7 @@
     {
       "title"    : "Bikepacking Video 2020",
       "category" : "",
-      "tags"     : "Bikepacking",
+      "tags"     : "Bikepacking, 装备及路线规划",
       "url"      : "/Bikepacking-Video-2020/",
       "date"     : "2020-12-14 12:45:00 +0800"
     } ,
@@ -43,7 +43,7 @@
     {
       "title"    : "孤独终老",
       "category" : "",
-      "tags"     : "厚德载物",
+      "tags"     : "",
       "url"      : "/get-old-alone/",
       "date"     : "2020-12-12 20:16:00 +0800"
     } ,
@@ -51,7 +51,7 @@
     {
       "title"    : "Bikepacking - Packages",
       "category" : "",
-      "tags"     : "Bikepacking",
+      "tags"     : "Bikepacking, 装备及路线规划",
       "url"      : "/Bikepacking-introduce-package/",
       "date"     : "2020-11-28 20:56:00 +0800"
     } ,
@@ -59,7 +59,7 @@
     {
       "title"    : "FIRE",
       "category" : "",
-      "tags"     : "工欲善其事, Fire",
+      "tags"     : "Fire",
       "url"      : "/Fire-First/",
       "date"     : "2020-11-17 20:04:00 +0800"
     } ,
@@ -67,7 +67,7 @@
     {
       "title"    : "岛波海道+四国（ns@planning）",
       "category" : "",
-      "tags"     : "Bikepacking, 分时分段环游地球",
+      "tags"     : "Bikepacking, 分时分段环游地球, Japan",
       "url"      : "/Japan-Kaido-siguo-Bikepacking/",
       "date"     : "2020-11-11 00:09:00 +0800"
     } ,
@@ -75,7 +75,7 @@
     {
       "title"    : "带父母去旅游.北京.2020",
       "category" : "",
-      "tags"     : "带父母去旅游, 环游国内",
+      "tags"     : "Hike, 带父母去旅游, 分时分段漫游中国, 北京",
       "url"      : "/China-Beijing-Hike-withParents/",
       "date"     : "2020-10-01 20:56:00 +0800"
     } ,
@@ -83,7 +83,7 @@
     {
       "title"    : "环琵琶湖（ns@planning）",
       "category" : "",
-      "tags"     : "Bikepacking, 分时分段环游地球",
+      "tags"     : "Bikepacking, 分时分段环游地球, Japan",
       "url"      : "/Japan-PipaLake-Bikepacking/",
       "date"     : "2020-04-01 00:09:00 +0800"
     } ,
@@ -91,23 +91,15 @@
     {
       "title"    : "环冲绳.2019",
       "category" : "",
-      "tags"     : "Bikepacking, 分时分段环游地球",
+      "tags"     : "Bikepacking, 分时分段环游地球, Japan",
       "url"      : "/Japan-Okinawa-Bikepacking/",
       "date"     : "2019-10-01 00:09:00 +0800"
     } ,
   
     {
-      "title"    : "独库公路（ns@planning）",
-      "category" : "",
-      "tags"     : "Bikepacking, 分时分段环游地球",
-      "url"      : "/China-DukuRoad-Bikepacking/",
-      "date"     : "2019-05-01 00:09:00 +0800"
-    } ,
-  
-    {
       "title"    : "带父母去旅游.泰北.2019",
       "category" : "",
-      "tags"     : "带父母去旅游, 分时分段环游地球",
+      "tags"     : "Hike, 带父母去旅游, 分时分段环游地球, Thailand",
       "url"      : "/Thailand-Hike-withParents/",
       "date"     : "2019-04-01 20:56:00 +0800"
     } ,
@@ -115,7 +107,7 @@
     {
       "title"    : "带父母去旅游.西安.2019",
       "category" : "",
-      "tags"     : "带父母去旅游, 环游国内",
+      "tags"     : "Hike, 带父母去旅游, 分时分段漫游中国, 西安",
       "url"      : "/Xian-Hike-withParents/",
       "date"     : "2019-03-27 20:56:00 +0800"
     } ,
@@ -123,7 +115,7 @@
     {
       "title"    : "菲律宾.克恐之旅.2018",
       "category" : "",
-      "tags"     : "Hike, 分时分段环游地球",
+      "tags"     : "Hike, 分时分段环游地球, Philippines",
       "url"      : "/Philippines-Hike/",
       "date"     : "2018-10-03 20:56:00 +0800"
     } ,
@@ -131,7 +123,7 @@
     {
       "title"    : "冥想.Meditation",
       "category" : "",
-      "tags"     : "厚德载物",
+      "tags"     : "",
       "url"      : "/meditation/",
       "date"     : "2018-09-12 20:16:00 +0800"
     } ,
@@ -139,7 +131,7 @@
     {
       "title"    : "马来西亚.试炼.吉隆坡-福隆港LOOP.2018",
       "category" : "",
-      "tags"     : "Bikepacking, 分时分段环游地球",
+      "tags"     : "Bikepacking, 分时分段环游地球, Malaysia",
       "url"      : "/Malaysia-Bikepacking-Three-Highlands/",
       "date"     : "2018-04-28 21:00:00 +0800"
     } ,
@@ -147,7 +139,7 @@
     {
       "title"    : "柬埔寨：独世仙境.西哈努克.离岛篇.2018",
       "category" : "",
-      "tags"     : "Hike, 分时分段环游地球",
+      "tags"     : "Hike, 分时分段环游地球, Cambodia",
       "url"      : "/Cambodia-Hike-Sihanouk/",
       "date"     : "2018-04-21 16:10:00 +0800"
     } ,
@@ -155,7 +147,7 @@
     {
       "title"    : "柬埔寨：高棉微笑.暹粒篇.2018",
       "category" : "",
-      "tags"     : "Hike, 分时分段环游地球",
+      "tags"     : "Hike, 分时分段环游地球, Cambodia",
       "url"      : "/Cambodia-Hike-SiemReap/",
       "date"     : "2018-04-13 16:07:00 +0800"
     } ,
@@ -163,7 +155,7 @@
     {
       "title"    : "柬埔寨：五月盛放.金边篇.2018",
       "category" : "",
-      "tags"     : "Hike, 分时分段环游地球",
+      "tags"     : "Hike, 分时分段环游地球, Cambodia",
       "url"      : "/Cambodia-Hike-PhnomPenh/",
       "date"     : "2018-03-31 06:30:00 +0800"
     } ,
@@ -171,7 +163,7 @@
     {
       "title"    : "环泰北.顺时针LOOP.2017",
       "category" : "",
-      "tags"     : "Bikepacking, 分时分段环游地球",
+      "tags"     : "Bikepacking, 分时分段环游地球, Thailand",
       "url"      : "/Thailand-North-Loop-Bikepacking-Clock-wise/",
       "date"     : "2017-09-16 00:11:00 +0800"
     } ,
@@ -179,7 +171,7 @@
     {
       "title"    : "环济州岛.2017",
       "category" : "",
-      "tags"     : "Bikepacking, 分时分段环游地球",
+      "tags"     : "Bikepacking, 分时分段环游地球, South Korea",
       "url"      : "/Jeju-Loop-Bikepacking/",
       "date"     : "2017-08-05 00:10:00 +0800"
     } ,
@@ -187,7 +179,7 @@
     {
       "title"    : "环北海道.2017",
       "category" : "",
-      "tags"     : "Bikepacking, 分时分段环游地球",
+      "tags"     : "Bikepacking, 分时分段环游地球, Japan",
       "url"      : "/Japan-Hokkaido-Loop-Bikepacking/",
       "date"     : "2017-05-27 00:09:00 +0800"
     } ,
@@ -195,7 +187,7 @@
     {
       "title"    : "环台湾.2016",
       "category" : "",
-      "tags"     : "Bikepacking, 分时分段环游地球",
+      "tags"     : "Bikepacking, 分时分段环游地球, Taiwan",
       "url"      : "/Taiwan-Loop-Bikepacking/",
       "date"     : "2016-09-24 00:08:00 +0800"
     } ,
@@ -203,7 +195,7 @@
     {
       "title"    : "环泰北.逆时针LOOP.2015",
       "category" : "",
-      "tags"     : "Bikepacking, 分时分段环游地球",
+      "tags"     : "Bikepacking, 分时分段环游地球, Thailand",
       "url"      : "/Thailand-North-Loop-Bikepacking-Counter-Clock-wise/",
       "date"     : "2015-09-25 00:09:00 +0800"
     } ,
@@ -211,7 +203,7 @@
     {
       "title"    : "环海南岛.2014",
       "category" : "",
-      "tags"     : "Bikepacking, 分时分段环游地球",
+      "tags"     : "Bikepacking, 分时分段漫游中国, 海南",
       "url"      : "/Hainandao-Bikepacking/",
       "date"     : "2013-12-31 23:09:00 +0800"
     } ,
@@ -219,7 +211,7 @@
     {
       "title"    : "环青海湖.2013",
       "category" : "",
-      "tags"     : "Bikepacking, 分时分段环游地球",
+      "tags"     : "Bikepacking, 分时分段漫游中国, 甘肃",
       "url"      : "/QinghaiLake-Bikepacking/",
       "date"     : "2013-09-30 23:09:00 +0800"
     } ,
@@ -227,7 +219,7 @@
     {
       "title"    : "带父母去旅游.青岛.2011",
       "category" : "",
-      "tags"     : "带父母去旅游, 环游国内",
+      "tags"     : "Hike, 带父母去旅游, 分时分段漫游中国, 山东",
       "url"      : "/China-Qingdao-Hike-withParents/",
       "date"     : "2011-10-01 20:56:00 +0800"
     } ,
@@ -235,7 +227,7 @@
     {
       "title"    : "三丰来了",
       "category" : "",
-      "tags"     : "厚德载物",
+      "tags"     : "",
       "url"      : "/isanfeng_beginning/",
       "date"     : "2010-03-31 14:10:00 +0800"
     } ,
@@ -243,7 +235,7 @@
     {
       "title"    : "Python Cheatsheet",
       "category" : "",
-      "tags"     : "自强不息, Python",
+      "tags"     : "Python",
       "url"      : "/python-cheat-sheet/",
       "date"     : "2000-11-30 20:04:00 +0800"
     } ,
@@ -251,7 +243,7 @@
     {
       "title"    : "WO的前生今世",
       "category" : "",
-      "tags"     : "自强不息",
+      "tags"     : "",
       "url"      : "/hello-world/",
       "date"     : "2000-04-01 20:16:00 +0800"
     } 

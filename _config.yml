@@ -1,4 +1,4 @@
-title: 𝓲三丰⬝流浪
+title: 𝓲三丰🚲流浪²⁰²¹
 subtitle: 水唯善下方成海,山不衿高自极天
 description: Bikepacking 单车 旅行 学习 Fire Python
 
@@ -13,17 +13,17 @@ gitee_url: 'https://iwangsanfeng.gitee.io'
 author: 𝓲三丰<i class="fa fa-bicycle" aria-hidden="true"></i>流浪
 
 author-pic: isanfeng.jpg
-about-author: 侠之大者，四海为家；一人一驹，浪迹天涯
+about-author: <ruby>侠 之 大 者，四 海 为 家；一 人 一 驹，浪 迹 天 涯<rp>(</rp><rt>xiá zhī dà zhě, sì hǎi wéi jiā; yī rén yī jū, làng jì tiān yá</rt><rp>)</rp></ruby>
 about-author-detail-0: Live the life you love, Love the life you lives.
 about-author-detail-1:
-  <a href="https://iwangsanfeng.gitee.io">http://isanfeng.cf</a><br>㊟"cf"=“出发”<br>
-  <a href="https://isanfeng.vercel.app">http://isanfeng.ml</a><br>㊟"ml"=“美丽”<br>
-  <a href="https://iwangsanfeng.gitee.io">http://isanfeng.tk</a><br>㊟"tk"=“天空”<br>
+  <a href="https://iwangsanfeng.gitee.io">http://isanfeng.cf</a><i class="fa fa-bicycle" aria-hidden="true"></i>"cf"=“出发”<br>
+  <a href="https://isanfeng.vercel.app">http://isanfeng.ml</a><i class="fa fa-bicycle" aria-hidden="true"></i>"ml"=“美丽”<br>
+  <a href="https://iwangsanfeng.gitee.io">http://isanfeng.tk</a><i class="fa fa-bicycle" aria-hidden="true"></i>"tk"=“天空”<br>
   ∷∷∷∷∷∷∷∷∷<br>
-  <i class="fa fa-bicycle" aria-hidden="true"></i>永久二级域名<i class="fa fa-bicycle fa-flip-horizontal" aria-hidden="true"></i><br>
-  <a href="https://iwangsanfeng.gitee.io">https://iwangsanfeng.gitee.io</a><br>
-  <a href="https://isanfeng.vercel.app">https://isanfeng.vercel.app</a><br>
-  <a href="https://isanfeng.github.io">https://isanfeng.github.io</a><br>
+  # <i class="fa fa-bicycle" aria-hidden="true"></i>永久二级域名<i class="fa fa-bicycle fa-flip-horizontal" aria-hidden="true"></i><br>
+  # <a href="https://iwangsanfeng.gitee.io">https://iwangsanfeng.gitee.io</a><br>
+  # <a href="https://isanfeng.vercel.app">https://isanfeng.vercel.app</a><br>
+  # <a href="https://isanfeng.github.io">https://isanfeng.github.io</a><br>
 
 #修改成你自己的
 # Contact links
@@ -97,44 +97,43 @@ links:
 label1: <i class="fa fa-pencil-square-o" aria-hidden="true"></i>
 label2:
 
-
 links1:
   - name:         全部
     url:          /
     type:         recent
     external:     false
-  - name:         分时分段环游地球<i class="fa fa-diamond" aria-hidden="true"></i><i class="fa fa-diamond" aria-hidden="true"></i>
-    url:          /blog/Bikepacking
-    type:         Bikepacking
+  - name:         Ⅰ.分时分段环游地球<i class="fa fa-diamond" aria-hidden="true"></i><i class="fa fa-diamond" aria-hidden="true"></i>
+    url:          /blog/Bikepacking-Hike-Abroad
+    type:         Bikepacking-Hike-Abroad
     external:     false
-  - name:         分时分段漫游国内
-    url:          /blog/Bikepacking-domestic
-    type:         Bikepacking-domestic
+  - name:         Ⅱ.分时分段漫游中国
+    url:          /blog/Bikepacking-Hike-Demestic
+    type:         Bikepacking-Hike-Demestic
     external:     false
-  - name:         工欲善其事
-    url:          /blog/Life
-    type:         Life
-    external:     false
-  - name:         必先利其器
-    url:          /blog/Tools
-    type:         Tools
-    external:     false
-  - name:         自强不息
-    url:          /blog/Study
-    type:         Study
-    external:     false
-  - name:         厚德载物<i class="fa fa-diamond" aria-hidden="true"></i>
+  - name:         Ⅲ.厚德载物<i class="fa fa-diamond" aria-hidden="true"></i>
     url:          /blog/Essays
     type:         Essays
     external:     false
+  - name:         Ⅳ.自强不息
+    url:          /blog/Study
+    type:         Study
+    external:     false
+  - name:         Ⅴ.工欲善其事
+    url:          /blog/Life
+    type:         Life
+    external:     false
+  - name:         Ⅵ.必先利其器
+    url:          /blog/Tools
+    type:         Tools
+    external:     false
+
 
 blog_1:    recent
-blog_2:    Bikepacking
-blog_3:    Life
-blog_4:    Tools
+blog_2:    Bikepacking-Hike-Abroad
+blog_3:    Bikepacking-Hike-Demestic
+blog_4:    Essays
 blog_5:    Study
-blog_6:    Essays
-blog_7:    Bikepacking-domestic
-
+blog_6:    Life
+blog_7:    Tools
 
 #permalink: /:year/:month/:day/:title.html
