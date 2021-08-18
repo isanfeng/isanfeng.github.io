@@ -905,6 +905,7 @@ pre code {
 }
 
 .main-header .header-flex {
+  margin: 0 -200px 0;
   display: -webkit-box;
   display: -webkit-flex;
   display: -ms-flexbox;
@@ -1074,7 +1075,7 @@ pre code {
 
 /* = = = = = = = = = = Post-Card Styles = = = = = = = = = = */
 .post-card-box {
-  margin: 20px 0 20px;
+  margin: 20px -200px 20px;
   padding: 0;
 }
 
@@ -1082,7 +1083,7 @@ pre code {
   position: relative;
   list-style: none;
   float: left;
-  width: 50%;   /* 设置每行显示卡片的数量*/
+  width: 33%;   /* 设置每行显示卡片的数量*/
   -webkit-transition: all .3s;
   transition: all .3s;
 }
@@ -1214,8 +1215,10 @@ pre code {
 }
 
 .page-content {
-  margin-top: -80px;
-  margin-bottom: 100px;
+  margin-top: -90px;
+  margin-bottom: 50px;
+  margin-left: -150px;
+  margin-right: -150px;
   background-color: #fff;
   background-image: url(/assets/img/bg_site.png);
   padding: 20px;
