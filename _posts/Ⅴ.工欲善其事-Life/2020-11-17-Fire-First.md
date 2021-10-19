@@ -1,6 +1,6 @@
 ---
 layout: post
-title: FIRE
+title: ABOUT FIRE
 date: 2020-11-17 20:04
 author: isanfeng
 description:

@@ -1,6 +1,6 @@
 ---
 layout: post
-title: 孤独终老
+title: 关于终老
 date:  2020-12-12 21:16:00 +0900
 description: 
 img: posts/get_old_alone.webp

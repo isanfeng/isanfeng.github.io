@@ -1,6 +1,6 @@
 ---
 layout: post
-title: 冥想.Meditation
+title: 关于冥想.Meditation
 date:  2018-09-12 21:16:00 +0900
 description: 
 img: posts/Meditation.webp

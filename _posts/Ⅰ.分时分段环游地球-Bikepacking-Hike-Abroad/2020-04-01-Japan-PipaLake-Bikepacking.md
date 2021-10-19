@@ -1,6 +1,6 @@
 ---
 layout: post
-title: 环琵琶湖（ns@planning）
+title: 环琵琶湖.NS
 date: 2020-04-01 00:09
 author: 三丰
 description:

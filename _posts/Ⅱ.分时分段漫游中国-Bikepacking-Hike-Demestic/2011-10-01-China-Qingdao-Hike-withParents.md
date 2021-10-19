@@ -1,6 +1,6 @@
 ---
 layout: post
-title: 带父母去旅游.青岛.2011
+title: 陪父母去旅游.青岛.2011
 date: 2011-10-01 20:56
 author: 三丰
 description:

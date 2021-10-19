@@ -1,6 +1,6 @@
 ---
 layout: post
-title: 带父母去旅游.泰北.2019
+title: 陪父母去旅游.泰北.2019
 date: 2019-04-01 20:56
 author: 三丰
 description:
