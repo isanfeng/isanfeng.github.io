@@ -5,7 +5,7 @@ date: 2016-09-24 00:08
 author: 三丰
 description:
 img: posts/taiwan.webp
-tags: [Bikepacking, 分时分段环游地球, Taiwan]
+tags: [Bikepacking, 分时分段环游地球, 台湾]
 Bikepacking-Hike-Abroad: true
 ---
 # 练习曲.一六

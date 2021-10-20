@@ -1,11 +1,11 @@
 ---
 layout: post
-title: 陪父母去旅游.青岛.2011
+title: 陪父母逛逛.青岛.2011
 date: 2011-10-01 20:56
 author: 三丰
 description:
 img: posts/Qingdao-0.webp
-tags: [Hike, 带父母去旅游, 分时分段漫游中国, 山东]
+tags: [Hike, 陪父母逛逛, 分时分段漫游中国, 山东]
 Bikepacking-Hike-Demestic: true
 ---
 <script>
