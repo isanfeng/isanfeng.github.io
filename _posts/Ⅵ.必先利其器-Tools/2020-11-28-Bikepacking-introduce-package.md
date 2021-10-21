@@ -24,4 +24,3 @@ Bikepacking中包基本有车把包，车梁包，车尾包，当然还可以根
 
 第三部分：车尾包的设置，主要放置我们的保暖防湿的衣物以及餐饮系统。
 <iframe src="//player.bilibili.com/player.html?aid=245487998&bvid=BV1wv411b7ya&cid=260836452&page=1" style="width:100%;height:500px;min-width:375px;min-height:200px" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true"></iframe>
-我觉得没有特别需要备注的原因，属于正常范围内的延期，测试估期包含了，测试过程中未知的链路上涉及其他业务环境问题阻塞和滞留，各种发布占用
