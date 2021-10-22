@@ -1,10 +1,10 @@
 ---
 layout: post
-title: 关于终老
+title: 终老
 date:  2020-12-12 21:16:00 +0900
 description: 
 img: posts/get_old_alone.webp
-tags: []
+tags: [余生可期]
 author: isanfeng
 Life: true
 ---

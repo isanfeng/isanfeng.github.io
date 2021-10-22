@@ -1,11 +1,11 @@
 ---
 layout: post
-title: ABOUT FIRE
+title: 对FIRE的一点理解
 date: 2020-11-17 20:04
 author: isanfeng
 description:
 img: posts/jijian.jpeg
-tags: [Fire]
+tags: [余生可期, Fire]
 Life: true
 ---
 曾经上天给了我好几次可以财富“自由”的机会，我都没有把握好，但也给我几次做傻逼的机会，却每次都拿捏得稳稳的。

@@ -1,6 +1,6 @@
 ---
 layout: post
-title: 柬埔寨：五月盛放.金边篇.2018
+title: 柬埔寨.五月盛放.金边篇.2018
 date: 2018-03-31 06:30
 author: 三丰
 description:

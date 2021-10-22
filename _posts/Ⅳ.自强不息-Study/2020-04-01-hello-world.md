@@ -4,7 +4,7 @@ title: WO的前生今世
 date:  2000-04-01 21:16:00 +0900
 description: Hello World！
 img: posts/fo-0.webp
-tags: []
+tags: [余生可期]
 author: 三丰
 Study: true
 ---

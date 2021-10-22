@@ -1,10 +1,10 @@
 ---
 layout: post
-title: 关于冥想.Meditation
+title: 关于冥想
 date:  2018-09-12 21:16:00 +0900
 description: 
 img: posts/Meditation.webp
-tags: []
+tags: [余生可期, Meditation]
 author: isanfeng
 Essays: true
 ---
