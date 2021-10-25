@@ -106,11 +106,11 @@ links1:
     url:          /blog/Bikepacking-Hike-Abroad
     type:         Bikepacking-Hike-Abroad
     external:     false
-  - name:         Ⅱ.分时分段漫游中国
+  - name:         Ⅱ.分时分段漫游中国<i class="fa fa-diamond" aria-hidden="true"></i>
     url:          /blog/Bikepacking-Hike-Demestic
     type:         Bikepacking-Hike-Demestic
     external:     false
-  - name:         Ⅲ.厚德载物<i class="fa fa-diamond" aria-hidden="true"></i>
+  - name:         Ⅲ.厚德载物
     url:          /blog/Essays
     type:         Essays
     external:     false
