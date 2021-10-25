@@ -5,7 +5,7 @@ date: 2015-09-25 00:09
 author: 三丰
 description:
 img: posts/thailand-1-0.webp
-tags: [Bikepacking, 分时分段环游地球, Thailand]
+tags: [Bikepacking, 分时分段环游地球, Thailand, 『㊕🚲㊙』]
 Bikepacking-Hike-Abroad: true
 ---
 

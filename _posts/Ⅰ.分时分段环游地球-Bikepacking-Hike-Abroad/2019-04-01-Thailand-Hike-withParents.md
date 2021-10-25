@@ -5,7 +5,7 @@ date: 2019-04-01 20:56
 author: 三丰
 description:
 img: posts/thailand-3.webp
-tags: [Hike, 陪父母逛逛, 分时分段环游地球, Thailand]
+tags: [Hike, 陪父母逛逛, 分时分段环游地球, Thailand, 『㊕🚲㊙』]
 Bikepacking-Hike-Abroad: true
 ---
 

@@ -5,7 +5,7 @@ date: 2018-10-03 20:56
 author: 三丰
 description:
 img: posts/Philippines-0.webp
-tags: [Hike, 分时分段环游地球, Philippines]
+tags: [Hike, 分时分段环游地球, Philippines, 『㊕🚲㊙』]
 Bikepacking-Hike-Abroad: true
 ---
 
