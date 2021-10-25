@@ -5,7 +5,7 @@ date: 2021-10-1
 author: isanfeng
 description:
 img: posts/chuanxixiaohuanxian.jpg
-tags: [Bikepacking, 分时分段漫游中国, 四川, 『㊕🚲㊙』]
+tags: [Bikepacking, 分时分段漫游中国, 四川, 〔㊕༄㊙〕]
 Bikepacking-Hike-Demestic: true
 ---
 
@@ -33,4 +33,3 @@ Bikepacking-Hike-Demestic: true
     }
         password();
 </script>
-
