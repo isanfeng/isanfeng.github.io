@@ -1,0 +1,26 @@
+/* Contact Page */
+.form__group {
+  margin-bottom: 20px;
+}
+
+.form__input {
+  width: 100%;
+  padding: 16px;
+  font-family: $heading-font-family;
+  font-weight: 600;
+  border: 1.5px solid darken($gray-lighter, 4%);
+  outline: none;
+  transition: $global-transition;
+
+  &::placeholder {
+    color: darken($gray-lighter, 20%);
+  }
+
+  &:focus {
+    border-color: $brand-color;
+  }
+}
+
+textarea.form__input {
+  resize: vertical;
+}

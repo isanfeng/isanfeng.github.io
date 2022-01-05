@@ -1,0 +1,31 @@
+---
+layout: default
+---
+
+{% if page.image %}
+<!-- begin hero -->
+<div class="hero">
+
+  <div class="hero__image">
+    <img class="lazy" data-src="{{site.baseurl}}{{page.image}}" alt="{{page.title}}">
+  </div>
+
+</div>
+<!-- begin hero -->
+{% endif %}
+
+{% include header.html %}
+
+<div class="container">
+  <article class="page">
+
+    <div class="page-head">
+      <h1 class="page-title">{{ page.title | escape }}</h1>
+    </div>
+
+    <div class="page__content">
+      {{ content }}
+    </div>
+
+  </article>
+</div>

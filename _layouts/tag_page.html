@@ -1,0 +1,39 @@
+---
+layout: default
+---
+{% assign tag_name = page.tag %}
+
+<!-- begin hero -->
+<div class="hero">
+  <div class="hero__image">
+  {% for post in site.tags[tag_name] %}
+    {% if forloop.index == 1 and post.image %}
+      <img class="lazy" data-src="{{site.baseurl}}{{post.image}}" alt="{{post.title}}">
+    {% endif %}
+  {% endfor %}
+  </div>
+  
+  <div class="hero__inner">
+    <div class="hero__content">
+      <span class="tag-meta">{{ site.tags[page.tag].size }} {% if site.tags[page.tag].size < 2 %}post {% else %}posts{% endif %} tagged</span>
+      <h1 class="tag-title">{{ page.tag }}</h1>
+    </div>
+  </div>
+</div>
+<!-- begin hero -->
+
+{% include header.html %}
+
+<div class="container-big">
+  <div class="row">
+    <div class="col col-12">
+      <div class="contaniner__inner">
+        <div class="row grid">
+          {% for post in page.posts %}
+            {% include article-content.html %}
+          {% endfor %}
+        </div>
+      </div>
+    </div>
+  </div>
+</div>

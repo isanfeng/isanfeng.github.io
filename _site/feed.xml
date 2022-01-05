@@ -1,4 +1,17 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.2.1">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2021-10-25T15:50:07+08:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">𝓲三丰🚲流浪</title><subtitle>Bikepacking 单车 旅行 学习 Fire Python</subtitle><author><name>𝓲三丰&lt;i class=&quot;fa fa-bicycle&quot; aria-hidden=&quot;true&quot;&gt;&lt;/i&gt;流浪</name></author><entry><title type="html">川西小环线.2021.国庆节</title><link href="http://localhost:4000/China-Sichuan-chuanxixiaohuanxian-Bikepacking/" rel="alternate" type="text/html" title="川西小环线.2021.国庆节" /><published>2021-10-01T00:00:00+08:00</published><updated>2021-10-01T00:00:00+08:00</updated><id>http://localhost:4000/China-Sichuan-chuanxixiaohuanxian-Bikepacking</id><content type="html" xml:base="http://localhost:4000/China-Sichuan-chuanxixiaohuanxian-Bikepacking/">&lt;script&gt;
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>𝓲三丰🚲流浪</title>
+    <description>&lt;ruby&gt;侠   之   大   者，四   海   为   家&lt;rp&gt;(&lt;/rp&gt;&lt;rt&gt;xiá zhī dà zhě, sì hǎi wéi jiā&lt;/rt&gt;&lt;rp&gt;)&lt;/rp&gt;&lt;/ruby&gt;&lt;br&gt;&lt;br&gt;&lt;ruby&gt;一   人   一   驹，浪   迹   天   涯&lt;rp&gt;(&lt;/rp&gt;&lt;rt&gt;yī rén yī jū, làng jì tiān yá&lt;/rt&gt;&lt;rp&gt;)&lt;/rp&gt;&lt;/ruby&gt;</description>
+    <link>http://localhost:4000/</link>
+    <atom:link href="http://localhost:4000/feed.xml" rel="self" type="application/rss+xml"/>
+    <pubDate>Wed, 05 Jan 2022 19:30:02 +0800</pubDate>
+    <lastBuildDate>Wed, 05 Jan 2022 19:30:02 +0800</lastBuildDate>
+    <generator>Jekyll v4.2.1</generator>
+    
+      <item>
+        <title>在北海等风来待花开.2021</title>
+        <description>&lt;script&gt;
     function password()
     {
         var i=1;
@@ -21,7 +34,27 @@
         return &quot;&quot;;
     }
         password();
-&lt;/script&gt;</content><author><name>isanfeng</name></author><category term="Bikepacking" /><category term="分时分段漫游中国" /><category term="四川" /><category term="〔㊕༄㊙〕" /><summary type="html"></summary></entry><entry><title type="html">风车公路.2021.端午节</title><link href="http://localhost:4000/China-Zhejiang-Nibong-FengcheRoad-Bikepacking/" rel="alternate" type="text/html" title="风车公路.2021.端午节" /><published>2021-05-21T00:00:00+08:00</published><updated>2021-05-21T00:00:00+08:00</updated><id>http://localhost:4000/China-Zhejiang-Nibong-FengcheRoad-Bikepacking</id><content type="html" xml:base="http://localhost:4000/China-Zhejiang-Nibong-FengcheRoad-Bikepacking/">&lt;script&gt;
+&lt;/script&gt;
+
+</description>
+        <pubDate>Wed, 01 Dec 2021 00:00:00 +0800</pubDate>
+        <link>http://localhost:4000/China-Guangxi-BeihaiCity-Hike</link>
+        <guid isPermaLink="true">http://localhost:4000/China-Guangxi-BeihaiCity-Hike</guid>
+        
+        <category>Bikepacking</category>
+        
+        <category>分时分段漫游中国</category>
+        
+        <category>广西</category>
+        
+        <category>〔㊕༄㊙〕</category>
+        
+        
+      </item>
+    
+      <item>
+        <title>沿边公路&amp;中国第一路.2021</title>
+        <description>&lt;script&gt;
     function password()
     {
         var i=1;
@@ -44,7 +77,114 @@
         return &quot;&quot;;
     }
         password();
-&lt;/script&gt;</content><author><name>isanfeng</name></author><category term="Bikepacking" /><category term="分时分段漫游中国" /><category term="浙江" /><category term="〔㊕༄㊙〕" /><summary type="html"></summary></entry><entry><title type="html">百山祖行.2021.劳动节</title><link href="http://localhost:4000/China-Zhejiang-Lishui-BaishanZu-Bikepacking/" rel="alternate" type="text/html" title="百山祖行.2021.劳动节" /><published>2021-05-01T00:00:00+08:00</published><updated>2021-05-01T00:00:00+08:00</updated><id>http://localhost:4000/China-Zhejiang-Lishui-BaishanZu-Bikepacking</id><content type="html" xml:base="http://localhost:4000/China-Zhejiang-Lishui-BaishanZu-Bikepacking/">&lt;h3 id=&quot;序&quot;&gt;序&lt;/h3&gt;
+&lt;/script&gt;
+
+</description>
+        <pubDate>Mon, 15 Nov 2021 00:00:00 +0800</pubDate>
+        <link>http://localhost:4000/China-Guangxi-YanbianRoad-Bikepacking</link>
+        <guid isPermaLink="true">http://localhost:4000/China-Guangxi-YanbianRoad-Bikepacking</guid>
+        
+        <category>Bikepacking</category>
+        
+        <category>分时分段漫游中国</category>
+        
+        <category>广西</category>
+        
+        <category>〔㊕༄㊙〕</category>
+        
+        
+      </item>
+    
+      <item>
+        <title>川西小环线.2021.国庆节</title>
+        <description>&lt;script&gt;
+    function password()
+    {
+        var i=1;
+            var passwd=prompt('此文章已被三丰设置为私密，请寻求三丰授权后再考虑踏足此地吧！','');//这是输入密码的提示语，可以改为你想要显示的内容，比如本站地址之类的
+        while(i&lt;3)
+        {
+            if(passwd==&quot;i love isanfeng&quot;)//这是密码
+            {
+            alert('已被授权，请进！');//这是输入正确后的提示，可以改为自己想要的提示语
+            break;
+            }
+            i++;
+            var passwd=prompt('未被授权!请重新输入:\n你还有'+(4-i)+'次机会。');
+        }
+        if(password!=&quot;vip.zan.smarted&quot;&amp;&amp;i==3)
+        {
+            alert('看来此处不值得踏足，再见喽，亲爱滴，希望你能有更美好的发现。');
+            location.href=&quot;/&quot;;//这是密码输入错误超过3次后转到的错误页面，也可设为别的页面
+        }
+        return &quot;&quot;;
+    }
+        password();
+&lt;/script&gt;
+
+&lt;p&gt;作为四川经典的骑行路线，川西小环线浓缩展示了川藏地区的雪山草原、蓝天白云、淳朴藏味，特别是能够欣赏到四姑娘山，亚拉雪山，贡嘎雪山三座雪山的绝美风光。全程接近1000公里，是一处绝佳的骑行圣地。&lt;/p&gt;
+</description>
+        <pubDate>Fri, 01 Oct 2021 00:00:00 +0800</pubDate>
+        <link>http://localhost:4000/China-Sichuan-chuanxixiaohuanxian-Bikepacking</link>
+        <guid isPermaLink="true">http://localhost:4000/China-Sichuan-chuanxixiaohuanxian-Bikepacking</guid>
+        
+        <category>Bikepacking</category>
+        
+        <category>分时分段漫游中国</category>
+        
+        <category>四川</category>
+        
+        <category>〔㊕༄㊙〕</category>
+        
+        
+      </item>
+    
+      <item>
+        <title>风车公路.2021.端午节</title>
+        <description>&lt;script&gt;
+    function password()
+    {
+        var i=1;
+            var passwd=prompt('此文章已被三丰设置为私密，请寻求三丰授权后再考虑踏足此地吧！','');//这是输入密码的提示语，可以改为你想要显示的内容，比如本站地址之类的
+        while(i&lt;3)
+        {
+            if(passwd==&quot;i love isanfeng&quot;)//这是密码
+            {
+            alert('已被授权，请进！');//这是输入正确后的提示，可以改为自己想要的提示语
+            break;
+            }
+            i++;
+            var passwd=prompt('未被授权!请重新输入:\n你还有'+(4-i)+'次机会。');
+        }
+        if(password!=&quot;vip.zan.smarted&quot;&amp;&amp;i==3)
+        {
+            alert('看来此处不值得踏足，再见喽，亲爱滴，希望你能有更美好的发现。');
+            location.href=&quot;/&quot;;//这是密码输入错误超过3次后转到的错误页面，也可设为别的页面
+        }
+        return &quot;&quot;;
+    }
+        password();
+&lt;/script&gt;
+
+</description>
+        <pubDate>Fri, 21 May 2021 00:00:00 +0800</pubDate>
+        <link>http://localhost:4000/China-Zhejiang-Nibong-FengcheRoad-Bikepacking</link>
+        <guid isPermaLink="true">http://localhost:4000/China-Zhejiang-Nibong-FengcheRoad-Bikepacking</guid>
+        
+        <category>Bikepacking</category>
+        
+        <category>分时分段漫游中国</category>
+        
+        <category>浙江</category>
+        
+        <category>〔㊕༄㊙〕</category>
+        
+        
+      </item>
+    
+      <item>
+        <title>百山祖行.2021.劳动节</title>
+        <description>&lt;h3 id=&quot;序&quot;&gt;序&lt;/h3&gt;
 
 &lt;p&gt;如果有机会，不管骑车，自驾还是徒步，一定要到浙江来一次，“全域旅游”的理念在浙江展现的淋漓尽致，每个村落，每条巷子，每条公路都是一个景点，而丽水就更像一个带着仙气的地方，苍山碧水，山多水多，方言更多，大多时候是我们是听不懂的，甚至有时还因为这份“陌生”，有时还会像两个异域人一样不好沟通。可就是这样一个看上去很“奇怪”的地方，只要你呆上一天或者半天，就会有不想再走的欲望。或许当我不再为生活奔波，为世俗挂念的时候，这里或许会是一个很好的栖居之地。&lt;/p&gt;
 
@@ -142,7 +282,24 @@
 &lt;a href=&quot;https://imgtu.com/i/2Ey1aT&quot;&gt;&lt;img src=&quot;https://z3.ax1x.com/2021/05/30/2Ey1aT.jpg&quot; alt=&quot;2Ey1aT.jpg&quot; /&gt;&lt;/a&gt;
 &lt;a href=&quot;https://imgtu.com/i/2EylZV&quot;&gt;&lt;img src=&quot;https://z3.ax1x.com/2021/05/30/2EylZV.jpg&quot; alt=&quot;2EylZV.jpg&quot; /&gt;&lt;/a&gt;
 &lt;a href=&quot;https://imgtu.com/i/2EyMq0&quot;&gt;&lt;img src=&quot;https://z3.ax1x.com/2021/05/30/2EyMq0.jpg&quot; alt=&quot;2EyMq0.jpg&quot; /&gt;&lt;/a&gt;
-&lt;a href=&quot;https://imgtu.com/i/2EyKrq&quot;&gt;&lt;img src=&quot;https://z3.ax1x.com/2021/05/30/2EyKrq.jpg&quot; alt=&quot;2EyKrq.jpg&quot; /&gt;&lt;/a&gt;&lt;/p&gt;</content><author><name>isanfeng</name></author><category term="Bikepacking" /><category term="分时分段漫游中国" /><category term="浙江" /><summary type="html">序</summary></entry><entry><title type="html">雁荡留声.2021.清明节</title><link href="http://localhost:4000/China-Zhejiang-Wenzhou-YandangMtn-Bikepacking/" rel="alternate" type="text/html" title="雁荡留声.2021.清明节" /><published>2021-04-02T00:00:00+08:00</published><updated>2021-04-02T00:00:00+08:00</updated><id>http://localhost:4000/China-Zhejiang-Wenzhou-YandangMtn-Bikepacking</id><content type="html" xml:base="http://localhost:4000/China-Zhejiang-Wenzhou-YandangMtn-Bikepacking/">&lt;h2 id=&quot;题外话&quot;&gt;题外话&lt;/h2&gt;
+&lt;a href=&quot;https://imgtu.com/i/2EyKrq&quot;&gt;&lt;img src=&quot;https://z3.ax1x.com/2021/05/30/2EyKrq.jpg&quot; alt=&quot;2EyKrq.jpg&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
+</description>
+        <pubDate>Sat, 01 May 2021 00:00:00 +0800</pubDate>
+        <link>http://localhost:4000/China-Zhejiang-Lishui-BaishanZu-Bikepacking</link>
+        <guid isPermaLink="true">http://localhost:4000/China-Zhejiang-Lishui-BaishanZu-Bikepacking</guid>
+        
+        <category>Bikepacking</category>
+        
+        <category>分时分段漫游中国</category>
+        
+        <category>浙江</category>
+        
+        
+      </item>
+    
+      <item>
+        <title>雁荡留声.2021.清明节</title>
+        <description>&lt;h2 id=&quot;题外话&quot;&gt;题外话&lt;/h2&gt;
 
 &lt;blockquote&gt;
   &lt;p&gt;我冷眼向过去稍稍回顾，只见它曲折灌溉的悲喜都消失在一片亘古的荒漠中，&lt;/p&gt;
@@ -303,7 +460,24 @@
 &lt;/blockquote&gt;
 
 &lt;p&gt;此次雁荡之行，算是比较匆匆，不过还算收获比较多惊喜，一过匆匆，二来再探。
-&lt;a href=&quot;https://imgtu.com/i/cdbSoT&quot;&gt;&lt;img src=&quot;https://z3.ax1x.com/2021/04/10/cdbSoT.jpg&quot; alt=&quot;cdbSoT.jpg&quot; /&gt;&lt;/a&gt;&lt;/p&gt;</content><author><name>isanfeng</name></author><category term="Bikepacking" /><category term="分时分段漫游中国" /><category term="浙江" /><summary type="html">题外话</summary></entry><entry><title type="html">皖浙天路.2021.清明前夕</title><link href="http://localhost:4000/China-Anhui-Zhejiang-Tianlu-Bikepacking/" rel="alternate" type="text/html" title="皖浙天路.2021.清明前夕" /><published>2021-03-14T00:00:00+08:00</published><updated>2021-03-14T00:00:00+08:00</updated><id>http://localhost:4000/China-Anhui-Zhejiang-Tianlu-Bikepacking</id><content type="html" xml:base="http://localhost:4000/China-Anhui-Zhejiang-Tianlu-Bikepacking/">&lt;p&gt;还记得，那是一方山峦，流淌着春色，牵引着愁绪；&lt;/p&gt;
+&lt;a href=&quot;https://imgtu.com/i/cdbSoT&quot;&gt;&lt;img src=&quot;https://z3.ax1x.com/2021/04/10/cdbSoT.jpg&quot; alt=&quot;cdbSoT.jpg&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
+</description>
+        <pubDate>Fri, 02 Apr 2021 00:00:00 +0800</pubDate>
+        <link>http://localhost:4000/China-Zhejiang-Wenzhou-YandangMtn-Bikepacking</link>
+        <guid isPermaLink="true">http://localhost:4000/China-Zhejiang-Wenzhou-YandangMtn-Bikepacking</guid>
+        
+        <category>Bikepacking</category>
+        
+        <category>分时分段漫游中国</category>
+        
+        <category>浙江</category>
+        
+        
+      </item>
+    
+      <item>
+        <title>皖浙天路.2021.清明前夕</title>
+        <description>&lt;p&gt;还记得，那是一方山峦，流淌着春色，牵引着愁绪；&lt;/p&gt;
 
 &lt;p&gt;难忘却，那是一抔花海，酿满了芬芳，捻碎了情丝。&lt;/p&gt;
 
@@ -454,7 +628,27 @@ PS：绩溪家朋除了水包还有一些当地的特色食物，像早上吃的
 
 &lt;p&gt;践行自己的坚守，或与钟爱同样口味的小伙伴同行，&lt;/p&gt;
 
-&lt;p&gt;对“在路上”的热爱，会一直像腹泻一样，终将无法控制。&lt;/p&gt;</content><author><name>isanfeng</name></author><category term="Bikepacking" /><category term="分时分段漫游中国" /><category term="浙江" /><category term="安徽" /><summary type="html">还记得，那是一方山峦，流淌着春色，牵引着愁绪；</summary></entry><entry><title type="html">胜利之路.2021.元旦</title><link href="http://localhost:4000/China-VictoryRoad-Bikepacking/" rel="alternate" type="text/html" title="胜利之路.2021.元旦" /><published>2021-01-09T00:00:00+08:00</published><updated>2021-01-09T00:00:00+08:00</updated><id>http://localhost:4000/China-VictoryRoad-Bikepacking</id><content type="html" xml:base="http://localhost:4000/China-VictoryRoad-Bikepacking/">&lt;blockquote&gt;
+&lt;p&gt;对“在路上”的热爱，会一直像腹泻一样，终将无法控制。&lt;/p&gt;
+
+</description>
+        <pubDate>Sun, 14 Mar 2021 00:00:00 +0800</pubDate>
+        <link>http://localhost:4000/China-Anhui-Zhejiang-Tianlu-Bikepacking</link>
+        <guid isPermaLink="true">http://localhost:4000/China-Anhui-Zhejiang-Tianlu-Bikepacking</guid>
+        
+        <category>Bikepacking</category>
+        
+        <category>分时分段漫游中国</category>
+        
+        <category>浙江</category>
+        
+        <category>安徽</category>
+        
+        
+      </item>
+    
+      <item>
+        <title>胜利之路.2021.元旦</title>
+        <description>&lt;blockquote&gt;
   &lt;p&gt;封面地点：华东天路 [胜利之路] .墩头段&lt;/p&gt;
 &lt;/blockquote&gt;
 
@@ -791,11 +985,28 @@ PS：绩溪家朋除了水包还有一些当地的特色食物，像早上吃的
 
 &lt;p&gt;其实只要采取科学的穿搭，冬季骑行是可以做到完全不冷，又能享受别的季节不同的体验的，下面给分享一段视频，讲述了冬季Bikepacking的10个技巧，感兴趣的可以根据自己的实际情况和骑行环境的恶劣程度择优借鉴或者采纳。
 再看之前分享我自己的几个关键诀窍 [1. 洋葱式穿法 2. 四肢束口保证不漏风 3. 脚步保暖 4. 颈部防风 5. 让身体快速变暖的东西（热饮，热饭，暖宝宝等等）] 在实践中也有验证证实，做好了这5点，就可以愉快骑行了。&lt;/p&gt;
-&lt;iframe src=&quot;//player.bilibili.com/player.html?aid=756100411&amp;amp;bvid=BV1ar4y1T7sb&amp;amp;cid=280061436&amp;amp;page=1&quot; style=&quot;width:100%;height:500px;min-width:375px;min-height:200px&quot; scrolling=&quot;no&quot; border=&quot;0&quot; frameborder=&quot;no&quot; framespacing=&quot;0&quot; allowfullscreen=&quot;true&quot;&gt; &lt;/iframe&gt;</content><author><name>isanfeng</name></author><category term="Bikepacking" /><category term="分时分段漫游中国" /><category term="浙江" /><summary type="html">封面地点：华东天路 [胜利之路] .墩头段 序 2021年开年这个霸王寒潮的突袭，的确给这次行程带来了一点点阻碍，出行一个星期前开始这次路线的构想，然后气温降到零下9°时内心产生了一点动摇，出行当日早上定了三个闹钟，四点半时的温度是零下4°， 最终是强行起来了，也算履行了自己的承诺，新得一年做个好一点的开端终究是没错的，事后的今天来看，还是那句话，万事开头难，只要迈开步。 [如果你感觉现在的自己超级幸福，请不要点击【这里】，请务必略过这段来自一个悲伤许久的人所发出略带悲观的文字] 这次能这么顺利的成行，另一个决定性原因其实也是想给自己一次小小的救赎， 本该早点结束这因为别人错误而惩罚自己的操蛋过活了，算算整整快三年的时间了， 我差点都忘了自己曾经也是一个有趣的人，爱笑爱乐且有时没心没肺的， 可就因为这段过话，三观尽毁，性情改变，面目全非…… 曾经一直相信热爱着这个国家，不曾有过任何怀疑， 也一直被灌输(xǐ nǎo)了中华民族是世界上最勤劳的民族，劳动应是最光荣的。 可现实是，一个最勤劳的民族，绝大部分人辛苦一辈子最后还是只能无奈的努力的活着， 还被另一部分人通过某些方式或手段玩弄，唯一追求的一点点幸福感，确是自我麻痹的安慰， 所有的一切，有时看着无比丰满，但实则背后充满了肮脏和龌龊， 努力大半生，最终不过还是别人(quán guì)的搬运工。 说是一个社会问题，我觉得更像是一个由隐藏在背后且左右着社会的人们或者组织的问题？！ 一个存活了几千年的社会被无辜躺枪，这就是一个希特勒杀了本拉登后喊毛主席万岁的世道。 前几日，身为同行的PDD员工猝死的事情，官方扭捏的发表声明， 意思大概就是这个时代，这个社会你不拼命死了活该，拼命死了也应该。 病态的世道，自己有多少的百姓吃不饱饭，看不起病，上不起学，却还供养那么多骗吃骗喝骗女人的“外籍人才”， 还要把那么多的资金强制输出给外人来帮助人家实现全民免费医疗，免费教育。 每年支出的维稳经费，拿出四分之一就能简单实现全民免费医疗，都吝啬给于贱民，说出来也是讽刺。 还是前几日某公司的CEO去世，公司给他发的悼文是， 你，看透不美好却依旧相信美好，见过不善良却依旧善良。 看上去这是一种多么伟大的英雄主义，可有多少人能看到背后是多么无奈与无助。 但生逢此世，尽然有诸多不公和不平，独裁的天空下一个人又能做什么呢，最后只是无能的吐槽罢了， 继而为人，就还是先努力的活着吧，不动声色的走下去，放下过去， 时不时说一声，这天气真好，风又轻柔，人生也极平凡。 做好那个曾经的『少年』，你说你的，我活我的，只留下真正有意义的，怦然心动的人和东西，随遇而安吧。 心底也没想活太久，断舍离不必要的羁绊，送走父母，再多做些自己喜欢的事情，就可以考虑考虑收队了， 人生其实没有多大意义，大多数的时候只是尽那份责任而已罢了。 再见，那个“过去”，再也不见。 [悲伤暂停，正片开始] The first flag in 2021： 贯彻极简主义，断舍离，万象更新。 摘抄《后浪》的演讲稿： 科技繁荣、文化繁茂、城市繁华，欣赏一部电影，去遥远的地方旅行。很多人，自由探索自己的兴趣；很多人不惑于自己喜欢什么， 不喜欢什么。人与人之间的壁垒被打破，你们只凭相同的爱好，就能结交千万个值得干杯的朋友。拥有了梦寐以求的权利 这是选择的权利。 前言 没去过金华前，对它的印象就是金华火腿，这次去了金华后，能想到的又多了那里的山，那里的水，那里的山和水。 曾梦想仗剑走天涯，看一看世界的繁华；没有什么能过阻挡，我对自由的向往。 为什么喜欢山，我想最好的解释，也许是 在山上能够释放真正的自我，也许是在山里愿意接纳真正的自己。 图片由遂昌旅游局提供 这就是第一天的必经之路，华东天路. 最开始计划时，本想沿着浙西小川藏 [华东天路，南尖岩，王村口，独山，大柯村，焦滩，江南丙察察，{姚岭，焦滩，湖山，红星坪，苦竹岭，高坪，蜈蚣岭}] 行进的， 但有第一天的经验后，在平均气温0°左右的天气下，额外的消耗会比平时更多，尤其像从上海出发的童鞋，头尾两天还要从金华市区出发和返回衢州市区，较费时间， 进入正式形成已近中午，所以临时决定修正路线。 这条浙西小川藏线路，平常普通情况下，骑完这条虐线至少5天的时间会比较适宜。 修正后： 路线：『华东天路，大拓，石练，湖山，红星坪，苦竹岭，高坪，蜈蚣岭，大洲』 时间：『2021.1.1 - 2021.1.3』 Day-1 华东天路起于遂昌云峰街道最偏远得行政村门阵村终于墩头村，门阵位于遂昌，金华，武义三地交界处，古时由于地理位置的重要性，故取名“门阵”， 这里是国共合作抗日和谈旧址所在地，曾在浙江革命史上留下了浓墨重彩的一笔，这条道路也彻底解决了过去百姓要到遂昌需要3个小时徒步翻越海拔1060米的郑岗岭的困难。 华东天路也叫“胜利之路”，是为了纪念粟裕将军和其长子为当地所做贡献命名，道路全长25.75公里，共拥有600多个弯道（对一个曾经获得骑行泰国夜丰颂到拜县1864个弯道加上拜县到清迈762个弯道证书的人来说可以敬畏但不可以怂）， 道路最高点位于海拔1060的郑岗岭，上立有一个刻着“天桥墩”的巨石，从巨石到墩头一段，就是可见的五线重叠，蜿蜒曲折的天路了。 [门阵村被称为空中村落，我猜测天路的名字应该是这么来的吧] 骑行后感受： 考虑这条道路的初衷并不是为了出行体验，就像先有温饱才有小康，天路的整体路况对骑士来说并不是十分美好（相对于浙江其他的道路来说）， 门阵段由于修建时间久远，大部分的路面铺装为小石子路且部分路段坡度较大，建议为爬坡段； 墩头段为新修建，铺砖稍好，应该是修建成本大的困难，多为水泥混土路面，因为山体较陡，采用了多层迂回的设计，让整体坡度减缓不少，但盘山而建，落石很多，并且路窄，建议为下坡段，定要控制好车速。 [跟随我多年的卡文迪什签名版oakley应该是过度留恋此地，下坡过程中，偷偷溜走，永远的呆(diū)在了那里，55555，祝福你。] 去天路，从金华市区出发会经过一个叫琅琊镇的地方，曾经一部《琅琊榜》引发了人们对“琅琊”的无限遐想，历史上叫琅琊的地方很多，现在主要是指的山东东南沿海地区。 琅琊两个字除了是指地名以外，而且都是王字旁，一般都应该是与玉石有关东西吧，有趣的是，这两个字的声部，一个是良，表示善；一个是邪，表示恶，不管善恶，有了这个王字旁就都表示良才美玉，是有本领之人。 良善之人，邪恶之辈，混迹一堂，逐鹿天下，才是一场大戏。 那今天金华的琅琊也是有属于它自己的历史人文故事的。时间充分的话，可以进入参观一下了解下历史。 [三天下来，发现沿路的居民对自己当地的历史人物事迹，使用过的器物，住的地方等都保存或者修复的很好，可以也是为招揽旅游的目的吧。] 公元27年前后，东汉有个大将军卢文台，也是后来百姓常称呼的白沙老爷，退役后隐居在琅琊镇进去一个叫沙畈的地方，这一带，经常会有洪水发生，大将军就带着乡亲们在这条白沙溪建了三十六道堰， 这些堰造福了一方百姓，此后白沙溪两岸成了金华的重要粮仓。 在琅琊镇入口，有后人为了缅怀他的功绩为他建立的石雕纪念碑，还有横跨在白沙溪上的琅琊阁。 离开琅琊镇，沿着白门线（白沙溪-门阵），会经过金兰水库，沙畈水库两个水库，沙畈水库是地方居民的灌溉和自来水主要水源， 所以周边都受到了很好的保护，水库不允许游泳和钓鱼避免污染，这样就更有大自然的味道，山青水绿，夏季避暑的胜地。 正常情况下，中午时分应该能到达芝肚坑村，可以在这里补充能量，从这里7公里后就是门阵村， 路边可见一块写有“丽水市十大抗战遗址”的石碑，而其背后的小山坡上屹然耸立着的正是门阵国共合作抗日和平谈判纪念碑（亭）。 走近纪念碑（亭），可看到一个约高5米的亭子，正中间竖立一块青石碑。其碑高2.12米，宽0.98米，厚0.15米， 正面阳刻叶飞题写的“遂昌门阵国共合作抗日和谈纪念碑”字样，背面阴刻门阵国共合作抗日和谈史实，共计14行460个字。 时间充裕的，可以在村内多转转，此处位于遂昌、宣平、汤溪三县的结合部，是遂（昌）宣（平）汤（溪）游击根据地的中心，建立了共产党组织同时也保留下了很多的红色故事， 国共谈判旧址-张氏民宅、红军挺进师军民联欢旧址-白沙庙、民众夜校、粟裕将军与门阵和谈历史陈列室、挺进师练兵营寨遗址-白（石玄）岗等， 从国共合作抗日和谈旧址出来，沿着白沙溪顺流而下，步行约3分钟，便能看见一座石砌的桥-苏群桥。 桥名来历： 苏群桥是一座水泥平板桥，长25米、宽5米、高3.5米，桥的底座是4根石砌方形桥墩，钢筋水泥的桥面，桥上是木结构的亭子，亭子左右两侧各有7根木柱子连接着，每根柱子之间都摆放着长石凳。 这座桥修建于1986年，桥上的亭子建于15年前。该桥所在的位置刚好是门阵村的中心位置，人员相对密集，是村子里最早建立的一座桥，也是该村最重要的桥。 据说，当年打游击时，要到溪对岸，得用五六根木头架成一座木桥。 因为门阵是粟裕率领红军挺进师建立的遂（昌）宣（平）汤（溪）游击根据地的中心，也是粟裕部与国民党遂昌县当局举行合作抗日和谈，结束三年游击战争之地， 当年粟裕在此地的化名为“苏群”。为了表达老根据地人民对粟裕将军及红军壮士的缅怀之情，2009年，老区人民将此桥命名为“苏群桥”。 友情tips： 如果到达此地时过了14点钟，不管冬季还是夏季，建议就在门阵村住宿，前面说过上坡路段路况并不是很好，所以爬坡要比平时上坡费力， 到达郑岗岭山顶天桥墩后，山地气温较低，下山比较冷，夏季的话，即使气温不是问题，由于天色渐晚，你可能会错过欣赏五线层叠盘山公路的壮观和 留下美好照片(zhuāng bī)回忆的机会。 出村后就正式开始门阵段爬坡了，路面铺装多为小石子路面， 经过漫长的爬坡，看到郑岗岭上的天桥墩巨大石头后 [此时的你应该身心俱疲，渴望着下坡，实际上这之后还有两段小上坡，不要气馁，马上就可以看见曙光了]， 真正的开始下坡前可以看到路两边立有华东天路的路牌和胜利之路的路碑。 然后就是要绷紧神经的一路急下坡，600多道弯后直到墩头村，然后经过几个传统村落到云峰， 晚上可以在云峰好好住下了。（这里的特产是柑橘和地瓜干。） Day-2 吃完早餐 [遂昌小笼包]，离开遂昌“粮仓”云峰， 今天的路线 [三际线：起于三仁畲族乡，终于柘岱口乡际下村，全长109.8公里，是横跨长度最长的县道，也是最为亮眼的美丽乡村风景线之一]， 贯穿了遂昌的多个腹地，遂昌很多当地的地灵人杰和物华天宝，都汇聚在这条线上。 大田的好川陶器文化 龙谷茶叶（茶都大拓镇） 文照竹炭 牡丹亭，遂昌各地村出了不少历史有名的人物，最熟悉的莫过于汤显祖，有着“东方的莎士比亚”美称，时任遂昌县县令，著名的牡丹亭据传就是在此时创作 此处位于石练乡非遗古街街口 遗爱亭，当时汤显祖虽然算是被贬于此，但是确做了很多造福百姓的事迹，所以在遂昌很多地方保存着纪念汤显祖的遗爱亭。 此处遗爱亭位于遂昌妙高山 遂昌金矿矿山， 石练菊米，过年时节，石练居民家家户户用它加工黄米果，形式应该就像北方过去过年家家户户做豆腐吧，流动拖拉机的加工机器也是从白天到黑夜忙的不亦乐乎，据说从11月中旬开始，每天要流动50个点左右，加工上万斤的黄米果。 黄米果是遂昌百姓过年时的一种传统食品，采用上等粳米，加入草木灰汁浸至橙黄，冲净蒸熟，置石臼中捣成团 [现在基本都是机器加工，之前在高坪见过用石臼中捣成团的]，然后分切小块，趁热将其揉压成扁圆或长条形。 黄米粿黄中透绿，色泽晶莹，清香宜人，柔嫩可口。用肉丝、青菜、冬笋等爆炒，色味更佳，为松阳、遂昌、龙泉、庆元、景宁等县民间传统节庆或待贵宾之食物。 刚出炉的黄米果散发着浓郁的米香，在当地人的极力推荐下品尝一下，吃的时候要沾他们调制好的辣椒酱（说实话除了米香，没有特别喜欢~~） 石练镇地处遂昌腹地，东北靠大柘镇，东南连垵口乡，西南毗王村口镇，西接焦滩乡，北邻大柘镇、湖山乡，地理条件较好，练溪盆地地势平坦，土地肥沃，盆地周边的丘陵土层深厚，当地居民以粮食种茶为主要经济收入来源， 这次居住的民宿在非遗古街上， 民宿老板上面几代也是从闽南那块迁徙而来，定居下来后，除了开着民宿，平时主要还是种经济作物，茶叶，高山蔬菜等。 古街上的非遗广场用墙画的形式，除了形象的描述了当地各族辈出的名人轶事，共出了十位进士， 古街上还散落着，以及正在施工修复着各族的祠堂，古街非物质文化遗产的活动有，遂昌昆曲十番，七月会，茶灯，神龙飞舞，台阁，木偶戏，遂昌火花等， 石练镇[村]本身地方不大，即使平时游客也不是很多，民宿老板带着边逛古街边娓娓的介绍着非遗文化， 回到民宿，还拿出自己的书籍分享，今天记录的这些知识很多还都是从这本书上了解的，文明社会就应该保护好这些非遗文化资产，让每个人了解祖国的文化，修身养性， 才不至于让如今这个生活一群内心虚浮以金钱至上的社会再堕落下去。 Day-3 今天还是7点准时出发，温度基本都是零下3°到4°，阳光大概会在9点30左右才能完全散落下来，之后才能感到温暖，这几天的感受是从没有如此渴望爬坡(qǔ nuǎn)…… 早饭吃的是江浙宁皖一带有名的梅干菜烧饼。 饭后一开始的一段道路就是“湖光山色”精品道路，峡北线 [起于大拓镇峡口门终于湖山乡“天工之城”] 全长11.3公里，群山环抱着村庄，宁静优美，环水而行，湖光掠影中渔船星星点点， 既能领略山水林田湖草一体风光，又能体验“天工之城”乡村建设的未来之路。 经过几个隧道群后，到达“天工之城”湖山乡，一个有着美丽湖泊的地方。 附近有湖山国家森林公园，夏季都是避暑胜地，欣赏云雾缭绕的湖山湖后，有两条路线可以选择离开遂昌 [后面经过苦竹岭后才了解到的信息]，一条是“传统村落保护区+高山避暑旅游区”，另一条是“山海协作农旅养生区+高山避暑旅游区”， 鉴于是行程的最后一天，稳妥起见，能保证时间按时到达市区返回上海，选择了应该成熟一点的后者。这条路经过金竹村 [看名字就能想到，路上能看到不少竹海，竹子也是当地居民的经济收入，它可以加工能很多的工艺品] 上村落也很多，而且人烟兴旺，路上农户用石块开垦搭建的梯田状农田美观实用。 从金竹村一直沿着大杨线爬坡，这段的山体算是这三天中比较野的，巨大无比，嶙峋陡立，在蜿蜒曲折的爬山路上还可以远眺高坪的石姆岩，最后一天来了个视觉盛宴。 历史故事：石姆岩的传说 石姆岩矗立在遂昌县高坪乡海拔1000多米的山峰之巅，垂直高度达260余米，其形如柱，突兀峥嵘，蔚然壮观，旁边有两块岩石寿星岩、金钟岩。 传说，天上有石母和石公两位仙人，他俩感情很好，就私逃下凡间，结成夫妻。玉皇帝十分恼怒，派了天兵天将带上金钟，赶到人间捉拿。 石母和石公逃呀逃，眼看就要被天将赶上了，石母就叫石公快逃，自己故意落在后面，在遂昌地面一座山上停下来，化成了一块大石岩，这就是石母岩。 天兵看见石母变成了石岩，怕它再变化逃走，就把金钟放在石母身旁压住。不久金钟也化成一座金钟岩。石公逃到江山，回头一看， 石母已变成了石岩，自己也望着遂昌，化成一座石岩，人们称为石公岩。石母非常想念在江山的石公。 所以，常常流泪，在石母岩顶下有一股清泉流下来，尝过的人都说那水是咸的，原来就是石母想念石公时流下的眼泪啊！ 相传大明天子朱元璋同国师刘伯温，没有统一天下之前，曾在遂昌避过难，现在建立王朝，回想起遂昌地方，山水秀丽，风景如画，当年没有心思观赏， 如今天下太平，要好好到遂昌游玩一番。当下，带着随着官员，从京城来到了遂昌，爬过妙高山，钻了含晖洞，又来到高坪的石母岩。 那石岩高有千丈，峰顶屹立着高高石母，面向西边，好像在呼唤那远在江山县“江郎山”，石母身边有只形如飞凤展翅的山岩，好像要冲天而去。朱元璋看后， 赞不绝口，忙叫题诗纪念。刘伯温取过笔来，在岩壁上写了首诗： 石母东来石公西，凤凰展翅无人知。谁人能得此风水，代代儿孙穿朝衣。 从此，这首诗就在民间传诵开来。这地方成了风景胜地，吸引了不少游人登山观景，人来的太多，惊动那只凤凰，据说已飞往龙游东阁桥去了。 还在享受连续爬坡的时候，已经来到了老虎岩，此处有一观景台，就在这吃吃午饭吧（虽然还不到午餐时间，早上带的梅干菜烧饼，尽管凉了，还是真香） 简单温饱解决稍事休息后，再继续爬一段坡就可以到达蜈蚣岭，这里是上面说的两条分叉路交汇的地方，然后统一沿着大杨线一路下坡。道路都是翻新的柏油路铺装， 但是落石很多，而且是一直落，连续的陡坡，这时点刹已经不存在了，死死把控着刹车，还生怕把碳圈捏爆，手脚凉的有些麻木，只能下坡过程中间歇找机会休息缓和一下。 冬季骑行本来水分补给不多，带的日常水壶完全没有用到，从第二天开始就完全空杯状态，感觉这次最明智的是带了保温杯，随时可以喝上一杯热茶。 独自骑行在群山中，有时有点声响，有点音乐还是蛮不错的。 一路下坡下到一半路程的时候会有一个类似休息站的地方（夏季应该在那边露营） 休息站对面的村落入口 再继续越往下走，感觉越来越熟悉周围的环境，貌似几年前刚参与到骑行活动时就已经来过这里了，再仔细想，慢慢所有回忆模糊的有了个全貌。如果当时自己有自己的话，不就相当于自己记忆的延长么。 The second flag in 2021： 记录美好生活，手不停毫。 一路下坡到大洲镇，路两旁多是当地盛产的柑橘。比较显眼是有一块地，不知道地主发生了什么事，其他果农都已采摘干净，只有这块地里完全没有采摘，柑橘长了一树快落了，落了一地都烂了， 看着眼馋，应该是没人要了，算是犒劳下自己辛苦的三天，未经许可就像猴哥来到了蟠桃园，多吃几个应该没关系吧，行程最后做了一件“坏事”。 吃完柑橘，精力恢复，一路到达本次的重点，衢州市区。 尾声 繁华落尽终归尘，花自飘零水自流。 三天的时光还是过的挺快的，喜欢一个人的出行，独自翻越一座座山，独自穿梭一条条峡谷，随便的走街串巷，天马行空，也不会给任何人添加麻烦，带着那种不合群的标签， 不过我并不觉得合群应该是一个人人都要做到的标准规范，我喜欢与人保持强烈的边界感，你邀请我我可能会和你多聊聊，你不邀请我我也会在自己的世界里自在的活着， 不是故作清高，人生短短急个球，不一定非要让别人接受自己，证明自己，甚至掺和到别人的生活中，人远远没有自己的想象的那么重要和有趣，遇不到那么多可以一起走下去的人， 完全可以独自去寻找一些真正有趣的事情，走一条不完整但有精彩人生的个人道路。 真正的幸福感从来是源于人的内心，而不是过多的物质和世俗的成功(suān de yá kuài diào le)。 人行高处水流低，享受这久违的宁静，与山为伴，与水为友，山水相看两不厌，亦如初见亦如初心；相看山水两不厌，山水化境山水缘；厌不水山两相看，山亦水来水亦山； 在这种环境中，胡思乱想的思考的人生。人不可以选择怎么生与死，但可以选择怎么爱与活。 渐悟也好，顿悟也罢，世间事除了生死哪一件不是闲事，人生本就一场空，身处群山，仅仅只是多了一个我，我终究会消失，终究会被遗忘，而只有自己记得，我曾来过。 路书 地图绘制使用的是Google Map [个别浏览系统会自动转换map]，如果你看到大片的留白，是没有问题的，你只是无法访问国际互联网并且你的浏览系统又没有帮你自动转换map，无法显示地图而已。 最后的最后 关于在气温低的冬季骑行，很多人都会说，看，那个傻子是有多想不开。 别人笑我太疯癫，我笑别人看不穿 其实只要采取科学的穿搭，冬季骑行是可以做到完全不冷，又能享受别的季节不同的体验的，下面给分享一段视频，讲述了冬季Bikepacking的10个技巧，感兴趣的可以根据自己的实际情况和骑行环境的恶劣程度择优借鉴或者采纳。 再看之前分享我自己的几个关键诀窍 [1. 洋葱式穿法 2. 四肢束口保证不漏风 3. 脚步保暖 4. 颈部防风 5. 让身体快速变暖的东西（热饮，热饭，暖宝宝等等）] 在实践中也有验证证实，做好了这5点，就可以愉快骑行了。</summary></entry><entry><title type="html">Bikepacking Video 2020</title><link href="http://localhost:4000/Bikepacking-Video-2020/" rel="alternate" type="text/html" title="Bikepacking Video 2020" /><published>2020-12-14T12:45:00+08:00</published><updated>2020-12-14T12:45:00+08:00</updated><id>http://localhost:4000/Bikepacking-Video-2020</id><content type="html" xml:base="http://localhost:4000/Bikepacking-Video-2020/">&lt;h2 id=&quot;bikepacking-featured-video-2020&quot;&gt;Bikepacking Featured Video 2020&lt;/h2&gt;
+&lt;iframe src=&quot;//player.bilibili.com/player.html?aid=756100411&amp;amp;bvid=BV1ar4y1T7sb&amp;amp;cid=280061436&amp;amp;page=1&quot; style=&quot;width:100%;height:500px;min-width:375px;min-height:200px&quot; scrolling=&quot;no&quot; border=&quot;0&quot; frameborder=&quot;no&quot; framespacing=&quot;0&quot; allowfullscreen=&quot;true&quot;&gt; &lt;/iframe&gt;
+</description>
+        <pubDate>Sat, 09 Jan 2021 00:00:00 +0800</pubDate>
+        <link>http://localhost:4000/China-VictoryRoad-Bikepacking</link>
+        <guid isPermaLink="true">http://localhost:4000/China-VictoryRoad-Bikepacking</guid>
+        
+        <category>Bikepacking</category>
+        
+        <category>分时分段漫游中国</category>
+        
+        <category>浙江</category>
+        
+        
+      </item>
+    
+      <item>
+        <title>Bikepacking Video 2020</title>
+        <description>&lt;h2 id=&quot;bikepacking-featured-video-2020&quot;&gt;Bikepacking Featured Video 2020&lt;/h2&gt;
 
 &lt;p&gt;去年收藏的几个关于Bikepacking的视频。&lt;/p&gt;
 
-&lt;p&gt;更多相关视频请移步&lt;a href=&quot;https://space.bilibili.com/64878769&quot; target=&quot;_blank&quot;&gt;我的视频&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;更多相关视频请移步&lt;a href=&quot;https://space.bilibili.com/&quot; target=&quot;_blank&quot;&gt;我的视频&lt;/a&gt;&lt;/p&gt;
 
 &lt;h3 id=&quot;a-line-in-the-sand&quot;&gt;A Line In The Sand&lt;/h3&gt;
 
@@ -835,7 +1046,22 @@ PS：绩溪家朋除了水包还有一些当地的特色食物，像早上吃的
   &lt;p&gt;一個女生獨自騎乘尼泊爾的ACT的故事。&lt;/p&gt;
 &lt;/blockquote&gt;
 
-&lt;iframe src=&quot;//player.bilibili.com/player.html?aid=670691490&amp;amp;bvid=BV1ma4y1H7gB&amp;amp;cid=266502151&amp;amp;page=1&quot; style=&quot;width:100%;height:500px;min-width:375px;min-height:200px&quot; scrolling=&quot;no&quot; border=&quot;0&quot; frameborder=&quot;no&quot; framespacing=&quot;0&quot; allowfullscreen=&quot;true&quot;&gt;&lt;/iframe&gt;</content><author><name>isanfeng</name></author><category term="Bikepacking" /><category term="装备及路线规划" /><summary type="html">Bikepacking Featured Video 2020 去年收藏的几个关于Bikepacking的视频。 更多相关视频请移步我的视频 A Line In The Sand 平时我们看到的大部分冰岛骑行都是环岛路线，这一次他们展现的是纵贯冰岛。 MATTY &amp;amp; CLARE_ LOST CAPTURES 两个人一起在挪威骑乘寻找Marty的爷爷在1950骑乘时拍下的老照片场景的故事。 REI Presents_ Pedal Through 几个女生为了挑战自己，首次尝试Bikepacking所经历的一些点滴，第一次要修理爆胎，搭帐篷等等许多有趣的问题，让我想起刚开始Bikepacking的自己，许多画面都会令人会心一笑，推荐给那些还在考虑踏出第一步的人。 Choosing to Live - Presented by Salsa Cycles 除了Pedal through之外，还有另一部影片是描述新手Bikepacking的，但是内容稍微沉重一点。Choosing to live中Sarah的丈夫热爱自行车，但却不幸因癌症离去，离开前他写了本Bikepacking的旅游书。没有Bikepacking经验的Sarah照著这本书骑过一条条丈夫生前规划的路线，在骑乘的过程了解了活著的意义。 Go Solo - You’ve Got This (Bikepacking Nepal by Jenny Tough) 一個女生獨自騎乘尼泊爾的ACT的故事。</summary></entry><entry><title type="html">终老</title><link href="http://localhost:4000/get-old-alone/" rel="alternate" type="text/html" title="终老" /><published>2020-12-12T20:16:00+08:00</published><updated>2020-12-12T20:16:00+08:00</updated><id>http://localhost:4000/get-old-alone</id><content type="html" xml:base="http://localhost:4000/get-old-alone/">&lt;blockquote&gt;
+&lt;iframe src=&quot;//player.bilibili.com/player.html?aid=670691490&amp;amp;bvid=BV1ma4y1H7gB&amp;amp;cid=266502151&amp;amp;page=1&quot; style=&quot;width:100%;height:500px;min-width:375px;min-height:200px&quot; scrolling=&quot;no&quot; border=&quot;0&quot; frameborder=&quot;no&quot; framespacing=&quot;0&quot; allowfullscreen=&quot;true&quot;&gt;&lt;/iframe&gt;
+</description>
+        <pubDate>Mon, 14 Dec 2020 12:45:00 +0800</pubDate>
+        <link>http://localhost:4000/Bikepacking-Video-2020</link>
+        <guid isPermaLink="true">http://localhost:4000/Bikepacking-Video-2020</guid>
+        
+        <category>Bikepacking</category>
+        
+        <category>装备及路线规划</category>
+        
+        
+      </item>
+    
+      <item>
+        <title>终老</title>
+        <description>&lt;blockquote&gt;
   &lt;p&gt;封面地点：&lt;a href=&quot;https://j.map.baidu.com/b5/zk3&quot; target=&quot;_blank&quot;&gt;宁波余姚白鹿狮峰观景台&lt;/a&gt;&lt;/p&gt;
 &lt;/blockquote&gt;
 
@@ -861,142 +1087,16 @@ PS：绩溪家朋除了水包还有一些当地的特色食物，像早上吃的
 
 &lt;p&gt;以前还有选择的时候，我选择孤独终老， 谁知中年遭遇土匪强盗，三观尽毁，才财散尽，当没有选择的时候，算了吧，我选择孤独终老。&lt;/p&gt;
 
-&lt;p&gt;可笑吧，我终于要一个人孤独终老了。&lt;/p&gt;</content><author><name>isanfeng</name></author><category term="余生可期" /><summary type="html">封面地点：宁波余姚白鹿狮峰观景台 都说最好的状态是在对的时间遇见对的人，可是这种发生的几率又又多少呢？有时当我发现找到了一个人的时候，好像一切又都来不及了，想让彼此多了解一些，于是对话框点开了，字也打了，可就是点不了发送。 我不敢了，因为我不确定了，孤独终老算了吧 我想我是适合孤独终老的吧，反正已经办理遗体捐赠，老了老了，不得病的话，就上路，在路上孤独终老，如果得病的话，以我的性格，也不是要麻烦别人的人，就尽可能找个能安乐死的地方安静的pass away， 【119%《无缘社会》NHK特别节目录制组】 这本书是有日本同名节目的内容重新编辑而来，其中有节目外内容的补充。“无缘死”即尸体无人认领的孤独终老的死法。全书用了九个典型个例分别阐述了各个方面的问题，其中包括“在途死亡者”、日趋脆弱的家庭纽带、单身时代、职场缘断绝后、吟唱“单身情歌”的女人、年轻群体中蔓延的“无缘死”恐惧、为了纽带的恢复、消失的高龄者、和从“无缘社会”走向“结缘社会”。 所有的“血亲关联的乏力”、“雇佣状况的恶化”、“地域关联的丧失”，都进一步使得“家庭”这个社会的最小单位本身日趋孤立。任何发达国家的必经之路，现在看来依旧令人深思与压抑 我是一个一直标榜单身主义的人，很多人说你是因为找不到喜欢的人吧。我一直在想没有喜欢的人和选择孤独终老这二者有什么区别，找不到喜欢的人不就是因为我已经安于一个人吗？ 其实我们可以大大方方承认，在现代社会爱情早就像阳光下的一滩水渍那样消失得无影无踪了，剩下的就是所谓责任带来的惯性。 所以我挺感激现代社会的，没有了要死绑着的关系，大家失落一阵伤心一阵再可以找别人吃喝，也有了很多除了爱情以外的可以提供快乐的选项——那些选项可能更稳妥、更不易落空、更轻松。 人要擅长给自己寻找快乐和爱好，如果光等着另一个人来照亮你的生命，那也活得太孤立无援了。而且，有时候会觉得人的同质化也太严重了，好看的皮囊千篇一律，有趣的灵魂也一律千篇。你遇到的人都是身边的圈子里的他的圈子里的人，学历相同，见识相似，连谈论起梦想都是差不多的格调，一群人坐在一起，你想给自己贴上一个“特别”的标签，你说你喜欢看《尤利西斯》就会发现身边有一群J.乔伊斯的粉丝，你说你喜欢看纪录片，马上会有人说一句“喜欢BBC还是中国的？”然后，你就沉默了，因为你觉得身边的人就像一个池子里的鱼， 我只会在一种情况下觉得失落或者叫孤独，就是在深夜里独自从很远的地方回家，整个公交站牌有很多人在等车，大多是三口之家、情侣，独自一人的也都是在同另一个人讲电话，如果我矫情一些一定会和你们说：那个时候我把所有可能和我在一起的人都想了一遍。当然，我没那么矫情，我想的是我要尽快攒够米，尽快摆脱这吃人的围墙！ 长期的独自一人，每天反反复复的生活节奏，会把人的心肠磨得很硬的。 以前还有选择的时候，我选择孤独终老， 谁知中年遭遇土匪强盗，三观尽毁，才财散尽，当没有选择的时候，算了吧，我选择孤独终老。 可笑吧，我终于要一个人孤独终老了。</summary></entry><entry><title type="html">对FIRE的一点理解</title><link href="http://localhost:4000/Fire-First/" rel="alternate" type="text/html" title="对FIRE的一点理解" /><published>2020-11-17T20:04:00+08:00</published><updated>2020-11-17T20:04:00+08:00</updated><id>http://localhost:4000/Fire-First</id><content type="html" xml:base="http://localhost:4000/Fire-First/">&lt;p&gt;曾经上天给了我好几次可以财富“自由”的机会，我都没有把握好，但也给我几次做傻逼的机会，却每次都拿捏得稳稳的。&lt;/p&gt;
-
-&lt;p&gt;最近有一位前前同事，现在已经是蚂蚁金服的员工。&lt;/p&gt;
-
-&lt;p&gt;他说蚂蚁上市被紧急叫停，落差最大的是他们这些人，大概P7P8的样子，那本来是他们离财务自由最近的一步。但如今只能继续等待了，财务自由看起来并没有那么近。&lt;/p&gt;
-
-&lt;p&gt;唉，有点羡慕也有点为这位兄弟感到惋惜。&lt;/p&gt;
-
-&lt;p&gt;这几年，财富自由的故事愈发层出不穷。这个社会，鼓吹挣快钱渲染财务自由，某音上日入几万月入几百万都是稀松平常的事情，有时确实让我们这些有点敏感有点懵逼的家伙徒增焦虑。&lt;/p&gt;
-
-&lt;p&gt;幻想年少成名，或者自己遇上科技独角兽的幸存者，拿着期权，假以时日一夜暴富。我想这样的人，终究是极少数，小概率的事件吧。&lt;/p&gt;
-
-&lt;p&gt;其实很多年以来，我们也渐渐看清楚，决定你是否赚大钱的逻辑，已不再是勤奋，不再是坚持，而是运气。&lt;/p&gt;
-
-&lt;p&gt;能拿到蚂蚁期权是一种运气，但蚂蚁IPO被搁浅，也是谁都没有想到的，算的上是一只超级黑天鹅了。&lt;/p&gt;
-
-&lt;p&gt;这个世界，赚小钱靠能力，赚大钱其实是靠命的。（赔钱的逻辑其实确不是一样，有些人凭不凭实力赚的钱都可以凭实力还回去。）&lt;/p&gt;
-
-&lt;p&gt;你努力勤奋，能让你过上比较好的生活。但是，并不是努力勤奋就能让你成为马云马化腾的，才气和命格不在，想也没用。&lt;/p&gt;
-
-&lt;p&gt;更何况，怎么才算财务自由呢？&lt;/p&gt;
-
-&lt;p&gt;一个亿的钱？&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&quot;https://imgchr.com/i/DZI9YD&quot;&gt;&lt;img src=&quot;https://s3.ax1x.com/2020/11/17/DZI9YD.jpg&quot; alt=&quot;DZI9YD.jpg&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;也许这只是别人的一个小目标，但遗憾的是，大部分人一辈子不吃不喝都达不到这个数字。&lt;/p&gt;
-
-&lt;p&gt;负责任地说，这个社会的现实是，并不存在财务自由这种事，大多数人只能实现财务平衡。对，财务平衡这个概念更为重要。&lt;/p&gt;
-
-&lt;p&gt;人的一生，约束我们的其实就8个字：生老病死，衣食住行。生死是硬约束，不能自由；衣、食、行的自由不算太贵，很容易得到。&lt;/p&gt;
-
-&lt;p&gt;财务自由最难解决的是3个字：住、老、病。&lt;/p&gt;
-
-&lt;p&gt;为了解决这3大难题，有很多人把希望寄托在了投资上，想走捷径。但最后的结果往往不如人意，小到落空、亏损、大到破产，家庭破裂。&lt;/p&gt;
-
-&lt;p&gt;走过了这么多坑之后，自己也慢慢明白了一些道理：&lt;/p&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;
-    &lt;p&gt;工薪阶层不要去幻想所谓的财务自由，目标小一点，把自己的工作做好，有一份稳定的现金流，把老婆孩子父母照顾好，就已经是一种幸福。&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;多读书，增强工作技能，努力奋斗，这是一条虽然有点漫长、但大概率可行的小财富积累之路。&lt;/p&gt;
-  &lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;至于创业成功、拿到期权、投资发财等等，都是额外财富，这是靠运气和命的，得之幸也，失之命也。&lt;/p&gt;
-
-&lt;p&gt;可能绝望到底之后，就会再一次慢慢搞清楚状况：&lt;/p&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;没有人是谁比谁差，每个人想要的，追求的都不一样，我干嘛他妈的在乎别人有什么，我比别人多或者少，有什么关系，每个人只管做好自己，越在意别人的成就，这就已经是失败的开端了，我必须先抛弃这种心理，才能更专注于自己的事情。&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;p&gt;最近比较感兴趣一种新的运动FIRE（the Financial Independence, Retire Early movement 的缩写），它的兴起源于美国，愿望是“财务独立，提早退休”。这个运动的一个核心法则是：降低物欲、过极简的生活，来迅速攒够一年生活费的25倍。&lt;/p&gt;
-
-&lt;p&gt;结合国内实际情况和通货膨胀率，也许我们可以实践一种更“温和方式”，通过这个理念去给生活做减法，以求尽快摆脱“出卖时间换金钱的工作”，走上热爱生活的路途。&lt;/p&gt;
-
-&lt;p&gt;我对自己的诉求就是走在大街上能淹没在人潮中就好，并不希望引起别人的关注。为此，后面的日子有必要为自己制定几条规则：低欲、惜物、不浪费、物以致用，少囤货，多利用公共资源，尽量做财务规划（再也不傻逼的相信任何人和狗日的为人民服务。）。
-培养自己做减法的消费观：不需要的不买，需要的以二手或者免费渠道能获得为先，在自己认为值得花费的地方毫不吝啬（父母，爱好，技能提升，健康，体验），并在能力内做到尽可能环保。&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&quot;https://imgchr.com/i/D1Z1O0&quot;&gt;&lt;img src=&quot;https://s3.ax1x.com/2020/11/21/D1Z1O0.jpg&quot; alt=&quot;D1Z1O0.jpg&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
-
-&lt;hr /&gt;
-&lt;p&gt;FIRE的解释&lt;/p&gt;
-&lt;blockquote&gt;
-  &lt;p&gt;FIRE 最早起源于 1992 年出版的一本名为《 Your Money or Your Life 》的畅销书。2011 年，博主 Mr.Money Moustache 开始围绕这个话题输出优质内容，并带动了一众热衷于这种方式的博主共同将其打造成了一个具有相当数量群众基础的亚文化圈子。2018 年，随着《 Your Money or Your Life 》的再版和多家主流媒体的报道，FIRE 更是逐渐走入了大众人群的视野。&lt;/p&gt;
-
-  &lt;p&gt;那么到底什么样的生活方式才算是 FIRE 呢？维基百科这样写道：&lt;/p&gt;
-
-  &lt;p&gt;The objective is to accumulate assets until the resulting passive income provides enough money for living expenses in perpetuity. Proponents of the FIRE movement suggest the 4% rule as a guide, thus setting a goal of at least 25 times estimated annual living expenses.&lt;/p&gt;
-
-  &lt;p&gt;译：FIRE 的目标是储蓄足够的资产，使得资产产生的被动收益永远高于日常开销。在 FIRE 圈有一条有名的“ 4%”原则，即储蓄至少 25 倍于日常年开销的资产即可达到 FIRE 状态。&lt;/p&gt;
-
-  &lt;p&gt;上面提到的 4%原则，也被称作“ Trinity Study ”，它始于 1998 年美国 Trinity 大学三位教授的一项研究，研究结果表明如果一个人能把年花销比例控制在个人总资产的 4%以下，那么无论市场如何波动，或者通货膨胀（当然恶性通货膨胀不在考虑范围之内），这个人的生活状态都不会受到太大的影响，这时候他就可以停止工作，提前退休了。
-因此 4%原则也就构成了 FIRE 生活方式设计的基础，一个人若要达到 FIRE，就需要在年轻时候尽量多赚钱，少花钱，当自己攒够的钱能让自己在比较舒服的状态下生活 25 年，那么他就可以考虑炒老板鱿鱼了。&lt;/p&gt;
-
-  &lt;p&gt;一个人何时能够达到 FIRE 跟自己的赚钱的能力，攒钱的能力以及消费水平都是息息相关的，普通人的年储蓄率在 10%到 15%左右，如果要达到 FIRE，就需要将储蓄比例大幅度提高。简单算术，如果你每年只存 10%，那么你需要 9 年的时间才能攒够一年的退休金，这其实也就是普通人上班等 60 岁退休的节奏，但是假如你能够每年把一半甚至更多的钱都攒下来，那么你很有可能在 40 岁左右就能达到 FIRE 的目标。
-简而言之，FIRE 人群就是要对传统的 60 岁（或者更老？）退休模式发起挑战，通过极为富有纪律性的规划和设计，让自己能够领先于绝大多数人，提前过上“退休”生活。其实与其说是“退休”生活，不如说是自己想要的生活，因为你会发现，很多 FIRE 生活方式践行者在达到所谓的退休状态后仍然在工作，只不过这些工作都是以兴趣和自我价值实现为导向的，而不仅仅是为了养家糊口。&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;hr /&gt;
-&lt;p&gt;MADFIENTIST&lt;/p&gt;
-&lt;blockquote&gt;
-  &lt;p&gt;在众多 FIRE 为主题的自媒体中，我比较喜欢的是 Madfientist，博主 Brandon 曾经是一名普通的码农。2011 年他通过 Mr Money Moustache 了解了 FIRE，产生了极大的兴趣，并在 2012 年开始了自己的 FIRE 主题博客 Madfientist，希望借此记录并分享自己达成 FIRE 的全过程。
-在接下来的几年中，他不但通过不断的学习和输出成为了一名 FIRE 专家，同时也攒够了自己的 FIRE 基金。2016 年，他炒了老板鱿鱼，在人生 34 岁就达到了自由状态。&lt;/p&gt;
-
-  &lt;p&gt;Brandon 通过一篇题为“ Valuable Lessons from My First Year of Freedom ”的博文分享了自己第一年 FIRE 生活的感悟，在文章中，他写道，在 34 岁就退休，让他能享受比常人多几倍的自由人生，但是于此同时，工作这个生活中重要元素的突然缺失，也让自己感到了突如其来的空虚，不过还好他在离职之前就创建 Madfientist 这个内容品牌，达到 FIRE 之后，他能够花更多的时间在这上面，通过自身的实际体验输出更多高质量的内容。
-同时他也提到 4%的取款率虽然看似不高，但是依然不可避免会让很多人产生本金迟早会花光的焦虑。但是他发现自己从原来工作离职后，来自自媒体和自己之前创建的各种 app 工具产生的被动收入已经可以支持自己的日常开销了。这也凸显了在达到 FIRE 之后，甚至之前就拥有一个 side project 的重要性。&lt;/p&gt;
-
-  &lt;p&gt;很多人的梦想都是退休以后去周游世界，Brandon 自己也不能免俗，他和妻子 Jill 在 FIRE 的第一年曾经花 3 个月时间囊括四大洲 14 个国家的环球旅行，但是他们意识到，无休止的旅行生活固然很有意思，但是并不是他们理想的生活状态。他说，很多人都在自己正常上班的时候幻想自己成为一个全职旅行家，包括他自己，但是当你达到 FIRE 后就会发现，产生那种幻想的主要原因是自己之前的生活太过枯燥无聊了。
-获得 FIRE 后，当你的日常生活就已经变得丰富有趣的时候，你对旅行的欲望也就不会那么强烈了。这佐证了他在 FIRE 之前和 FIRE 之后 Mindset 的剧变。&lt;/p&gt;
-
-  &lt;p&gt;现在，他跟妻子长居在他们最喜欢的城市，苏格兰的爱丁堡。&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;hr /&gt;
-&lt;p&gt;优质FIRE内容：&lt;/p&gt;
-&lt;blockquote&gt;
-  &lt;p&gt;博客：&lt;/p&gt;
-
-  &lt;p&gt;1.Mad Fientist&lt;/p&gt;
-
-  &lt;p&gt;2.Mr Money Moustache&lt;/p&gt;
-
-  &lt;p&gt;3.JL Collins&lt;/p&gt;
-
-  &lt;p&gt;书籍：&lt;/p&gt;
-
-  &lt;p&gt;1.《 Your Money or Your Life 》&lt;/p&gt;
-
-  &lt;p&gt;2.《 The Simple Path to Wealth 》&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;p&gt;&lt;img src=&quot;https://api.dujin.org/bing/1920.php&quot; alt=&quot;Bing每日图片超高清&quot; /&gt;&lt;/p&gt;</content><author><name>isanfeng</name></author><category term="余生可期" /><category term="Fire" /><summary type="html">曾经上天给了我好几次可以财富“自由”的机会，我都没有把握好，但也给我几次做傻逼的机会，却每次都拿捏得稳稳的。</summary></entry><entry><title type="html">岛波海道+四国.NS</title><link href="http://localhost:4000/Japan-Kaido-siguo-Bikepacking/" rel="alternate" type="text/html" title="岛波海道+四国.NS" /><published>2020-11-11T00:09:00+08:00</published><updated>2020-11-11T00:09:00+08:00</updated><id>http://localhost:4000/Japan-Kaido-siguo-Bikepacking</id><content type="html" xml:base="http://localhost:4000/Japan-Kaido-siguo-Bikepacking/">&lt;script&gt;
-    function password()
-    {
-        var i=1;
-            var passwd=prompt('此文章已被三丰设置为私密，请寻求三丰授权后再考虑踏足此地吧！','');//这是输入密码的提示语，可以改为你想要显示的内容，比如本站地址之类的
-        while(i&lt;3)
-        {
-            if(passwd==&quot;i love isanfeng&quot;)//这是密码
-            {
-            alert('已被授权，请进！');//这是输入正确后的提示，可以改为自己想要的提示语
-            break;
-            }
-            i++;
-            var passwd=prompt('未被授权!请重新输入:\n你还有'+(4-i)+'次机会。');
-        }
-        if(password!=&quot;vip.zan.smarted&quot;&amp;&amp;i==3)
-        {
-            alert('看来此处不值得踏足，再见喽，亲爱滴，希望你能有更美好的发现。');
-            location.href=&quot;/&quot;;//这是密码输入错误超过3次后转到的错误页面，也可设为别的页面
-        }
-        return &quot;&quot;;
-    }
-        password();
-&lt;/script&gt;</content><author><name>三丰</name></author><category term="Bikepacking" /><category term="分时分段环游地球" /><category term="Japan" /><category term="〔㊕༄㊙〕" /><summary type="html"></summary></entry></feed>
+&lt;p&gt;可笑吧，我终于要一个人孤独终老了。&lt;/p&gt;
+</description>
+        <pubDate>Sat, 12 Dec 2020 20:16:00 +0800</pubDate>
+        <link>http://localhost:4000/get-old-alone</link>
+        <guid isPermaLink="true">http://localhost:4000/get-old-alone</guid>
+        
+        <category>余生可期</category>
+        
+        
+      </item>
+    
+  </channel>
+</rss>

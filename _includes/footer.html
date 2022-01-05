@@ -1,90 +1,23 @@
-<footer class="main-footer">
-	<div class="footer-social">
-		<div class="footer-container clearfix">
-			<div class="social-list">
-				<p>
-					<span style="font-size:5px;color:#B3B3B3;float:bottom"><a href="/uptime-status/index.html"><i class="fa fa-desktop" aria-hidden="true"></i>.主站及镜像站状态监控</a></span>
-				</p>
-				<a class="social gitee" href="https://iwangsanfeng.gitee.io"><i class="fa fa-edge" aria-hidden="true"></i>.国内镜像站点一</a>
-				<a class="social vercel" href="https://isanfeng.vercel.app"><i class="fa fa-chrome" aria-hidden="true"></i>.国内镜像站点二</a>
-				<a class="social github" href="https://isanfeng.github.io"><i class="fa fa-firefox" aria-hidden="true"></i>.全球通用站点三</a>
-				<!-- <span style="font-size:5px;color:#B3B3B3;float:bottom">(三者互为备份镜像，A国内访问速度最佳，更新速度略落后BC，BC保持最新的版本)</span> -->
-			</div>
-		</div>
-	</div>
+<!-- begin footer-widgets -->
+<div class="footer-widgets">
+  <div class="container">
+    <div class="row">
+      {% include footer-widgets/widget-info.html %}
+      {% include footer-widgets/widget-tag-cloud.html %}
+      {% include footer-widgets/widget-subscribe.html %}
+    </div>
+  </div>
+</div>
+<!-- end footer-widgets -->
 
-	<div class="copyright" style="font-size:12px;color:#B3B3B3;padding-bottom:30px;float:bottom">
-		<p>
-			<i class="fa fa-copyright" aria-hidden="true"></i>	{{site.time | date: '%Y'}}	|	<i class="fa fa-user-circle-o" aria-hidden="true"></i>	{{site.author}}
-		</p>
-		<p>
-			<i class="fa fa-quote-left" aria-hidden="true"></i> <ruby>
-				好好生活
-				<rp>(</rp>
-					<rt>hǎo hǎo qí chē</rt>
-				<rp>)</rp>
-			</ruby> <i class="fa fa-heartbeat" aria-hidden="true"></i> <ruby>
-				慢慢老去
-				<rp>(</rp>
-					<rt>kuài lè lǎo qù</rt>
-				<rp>)</rp>
-			</ruby> <i class="fa fa-quote-right" aria-hidden="true"></i>
-		</p>
-
-		<p>
-			<span id="timeDate">载入天数...</span><span id="times">载入时分秒...</span>
-			<script>
-				var now = new Date();
-				function createtime() {
-					var grt= new Date("1/1/2021 00:00:00");//在此处修改你的建站时间
-					now.setTime(now.getTime()+250);
-					days = (now - grt ) / 1000 / 60 / 60 / 24; dnum = Math.floor(days);
-					hours = (now - grt ) / 1000 / 60 / 60 - (24 * dnum); hnum = Math.floor(hours);
-					if(String(hnum).length ==1 ){hnum = "0" + hnum;} minutes = (now - grt ) / 1000 /60 - (24 * 60 * dnum) - (60 * hnum);
-					mnum = Math.floor(minutes); if(String(mnum).length ==1 ){mnum = "0" + mnum;}
-					seconds = (now - grt ) / 1000 - (24 * 60 * 60 * dnum) - (60 * 60 * hnum) - (60 * mnum);
-					snum = Math.round(seconds); if(String(snum).length ==1 ){snum = "0" + snum;}
-					document.getElementById("timeDate").innerHTML = "<i class=\"fa fa-bicycle\" aria-hidden=\"true\"></i>   "+dnum+" 天";
-					document.getElementById("times").innerHTML = hnum + " 小时 " + mnum + " 分 " + snum + " 秒   <i class=\"fa fa-bicycle fa-flip-horizontal\" aria-hidden=\"true\"></i>";
-				}
-			setInterval("createtime()",250);
-			</script>
-		</p>
-		<p>
-			<span id="busuanzi_container_site_pv">本站总访客数：<span id="busuanzi_value_site_uv"></span>人</span>
-			<span class="division">|</span>
-			<span id="busuanzi_container_page_pv">本站总访问量：<span id="busuanzi_value_site_pv"></span>次</span>
-		</p>
-	</div>
-
-	<div class="copyright" style="font-size:12px;color:#b3b3b3;padding-bottom:30px;float:bottom">
-		<p>【冯唐语录】</p>
-		<script type="text/JavaScript" src="{{site.baseurl}}/yulu.js"></script>
-	</div>
-
-		<!--music player start-->
-	<div>
-		<!--https://github.com/metowolf/MetingJS, https://aplayer.js.org/#/zh-Hans-->
-		<!-- require APlayer -->
-		<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/aplayer/dist/APlayer.min.css">
-		<script src="https://cdn.jsdelivr.net/npm/aplayer/dist/APlayer.min.js"></script>
-		<!-- require MetingJS -->
-		<script src="https://cdn.jsdelivr.net/npm/meting@2/dist/Meting.min.js"></script>
-		<meting-js
-				id="5350939993"
-				lrc-type="0"
-				server="netease"
-				order="list"
-				type="playlist"
-				fixed="true"
-				list-folded="true"
-				autoplay="true"
-				order="random"
-				loop="all"
-				mutex="true">
-		</meting-js>
-		<!--music player end-->
-	</div>
-
+<!-- begin footer -->
+<footer class="footer">
+  <div class="container">
+    <div class="row">
+      <div class="col col-12">
+        <div class="copyright">{{site.time | date: '%Y'}} &copy; <a href="/">{{site.title}}</a>. Crafted & Designed by <a href="https://jekyllthemes.io/developers/artem-sheludko" rel="noopener" target="_blank">Artem Sheludko</a>.</div>
+      </div>
+    </div>
+  </div>
 </footer>
-<!-- End Footer -->
+<!-- end footer -->

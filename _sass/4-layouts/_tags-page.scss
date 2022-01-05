@@ -1,0 +1,21 @@
+/* Tags Page */
+.tag-meta {
+  display: inline-block;
+  margin-bottom: 8px;
+  font-family: $heading-font-family;
+  font-size: 15px;
+  line-height: 20px;
+  text-transform: uppercase;
+  font-weight: 700;
+  color: $white;
+}
+
+.tag-title {
+  position: relative;
+  margin: 0;
+  font-size: 76px;
+  line-height: 0.85;
+  font-weight: 700;
+  text-transform: capitalize;
+  color: $white;
+}
