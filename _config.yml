@@ -1,6 +1,6 @@
 #-------------------------------
 # General Site Settings
-title: 𝓲三丰🚲流浪
+title: 𝓲三丰🚵流浪
 logo: # You can add own logo. For example '/images/logo.png'.
 description: <ruby>侠   之   大   者，四   海   为   家<rp>(</rp><rt>xiá zhī dà zhě, sì hǎi wéi jiā</rt><rp>)</rp></ruby><br><br><ruby>一   人   一   驹，浪   迹   天   涯<rp>(</rp><rt>yī rén yī jū, làng jì tiān yá</rt><rp>)</rp></ruby>
 # baseurl: "/saranatheme" # The subpath of your site, e.g. /blog
@@ -9,13 +9,13 @@ url: 'https://isanfeng.github.io' # The base hostname & protocol for your site, 
 
 #-------------------------------
 # Author Settings
-author-name: 𝓲三丰<i class="fa fa-bicycle" aria-hidden="true"></i>流浪
+author-name: 𝓲三丰🚴流浪
 
 #-------------------------------
 # Hero Settings
 hero:
   image: '/images/banner.jpg'
-  title: ༺࿅࿆三🚴丰࿅࿆༻
+  title: ༺三丰🚴笔记༻
   description: Thoughts, stories and ideas.
 
 social:

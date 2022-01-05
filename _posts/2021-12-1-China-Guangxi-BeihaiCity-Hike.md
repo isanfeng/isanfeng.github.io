@@ -1,6 +1,6 @@
 ---
 layout: post
-title: 在北海等风来待花开.2021
+title: 北海.等风来.2021
 date: 2021-12-1
 author: isanfeng
 description:
