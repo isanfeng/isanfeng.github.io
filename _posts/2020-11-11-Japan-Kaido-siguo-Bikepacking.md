@@ -1,11 +1,11 @@
 ---
 layout: post
-title: 岛波海道+四国.NS
-date: 2020-11-11 00:09
+title: 岛波海道+四国
+date: 2020-11-11
 author: 三丰
 description:
 image: '/images/posts/Shimanami-Kaido-0.webp'
-tags: [Bikepacking, 分时分段环游地球, Japan, 〔㊕༄㊙〕]
+tags: [Bikepacking, 环游地球, Japan, 路线, NS]
 Bikepacking-Hike-Abroad: true
 ---
 

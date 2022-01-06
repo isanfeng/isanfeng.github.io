@@ -1,11 +1,11 @@
 ---
 layout: post
-title: 川西小环线.2021.国庆节
+title: 川西小环线.国庆节
 date: 2021-10-1
 author: isanfeng
 description:
 image: '/images/posts/chuanxixiaohuanxian.jpg'
-tags: [Bikepacking, 分时分段漫游中国, 四川, 〔㊕༄㊙〕]
+tags: [Bikepacking, 漫游中国, 四川, 路线,〔㊕༄㊙〕]
 Bikepacking-Hike-Demestic: true
 ---
 

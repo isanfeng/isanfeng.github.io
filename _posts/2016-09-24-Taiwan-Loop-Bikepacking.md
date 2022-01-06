@@ -1,11 +1,11 @@
 ---
 layout: post
-title: 环台湾.2016
+title: 环台湾
 date: 2016-09-24 00:08
 author: 三丰
 description:
-img: posts/taiwan.webp
-tags: [Bikepacking, 分时分段环游地球, 台湾]
+image: 'images/posts/taiwan.webp'
+tags: [Bikepacking, 环游地球, 台湾, 路线]
 Bikepacking-Hike-Abroad: true
 ---
 # 练习曲.一六

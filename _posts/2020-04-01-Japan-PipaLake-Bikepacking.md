@@ -1,11 +1,11 @@
 ---
 layout: post
-title: 环琵琶湖.NS
+title: 环琵琶湖
 date: 2020-04-01 00:09
 author: 三丰
 description:
 image: '/images/posts/PipaLake-0.webp'
-tags: [Bikepacking, 分时分段环游地球, Japan, 〔㊕༄㊙〕]
+tags: [Bikepacking, 环游地球, Japan, 路线, NS]
 Bikepacking-Hike-Abroad: true
 ---
 

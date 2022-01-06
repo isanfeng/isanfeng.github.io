@@ -1,11 +1,11 @@
 ---
 layout: post
-title: 环冲绳.2019
+title: 环冲绳
 date: 2019-10-1 00:09
 author: 三丰
 description:
 image: '/images/posts/Okinawa-0.webp'
-tags: [Bikepacking, 分时分段环游地球, Japan]
+tags: [Bikepacking, 环游地球, Japan, 路线]
 Bikepacking-Hike-Abroad: true
 ---
 ## Day-0

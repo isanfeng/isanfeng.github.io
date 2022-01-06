@@ -1,7 +1,7 @@
 ---
 layout: post
 title: 终老
-date:  2020-12-12 21:16:00 +0900
+date:  2020-12-12
 description: 
 image: '/images/posts/get_old_alone.webp'
 tags: [余生可期]

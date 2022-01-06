@@ -1,11 +1,11 @@
 ---
 layout: post
-title: 柬埔寨.独世仙境.西哈努克离岛篇.2018
+title: 柬埔寨.独世仙境.西哈努克
 date: 2018-04-21 16:10
 author: 三丰
 description:
-img: posts/cambodia-3-0.webp
-tags: [Hike, 分时分段环游地球, Cambodia]
+image: 'images/posts/cambodia-3-0.webp'
+tags: [Hike, 环游地球, Cambodia,  路线]
 Bikepacking-Hike-Abroad: true
 ---
 我走了一万里的长路才遇见了你，见到又伤别离，怕以后不与离人遇；我做了一万里的长梦才梦到了你，梦到底，缘分是顺流游走的锦鲤。---引用这个语录，表达当我离开高龙时的感受。

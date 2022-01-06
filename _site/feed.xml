@@ -5,12 +5,12 @@
     <description>&lt;ion-icon name=&quot;chevron-back-outline&quot;&gt;&lt;/ion-icon&gt;&lt;ruby&gt;侠   之   大   者，四   海   为   家&lt;rp&gt;(&lt;/rp&gt;&lt;rt&gt;xiá zhī dà zhě, sì hǎi wéi jiā&lt;/rt&gt;&lt;rp&gt;)&lt;/rp&gt;&lt;/ruby&gt;&lt;ion-icon name=&quot;chevron-forward-outline&quot;&gt;&lt;/ion-icon&gt;&lt;br&gt;&lt;br&gt;&lt;ion-icon name=&quot;chevron-back-outline&quot;&gt;&lt;/ion-icon&gt;&lt;ruby&gt;一   人   一   驹，浪   迹   天   涯&lt;rp&gt;(&lt;/rp&gt;&lt;rt&gt;yī rén yī jū, làng jì tiān yá&lt;/rt&gt;&lt;rp&gt;)&lt;/rp&gt;&lt;/ruby&gt;&lt;ion-icon name=&quot;chevron-forward-outline&quot;&gt;&lt;/ion-icon&gt;</description>
     <link>http://localhost:4000/</link>
     <atom:link href="http://localhost:4000/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Thu, 06 Jan 2022 16:51:38 +0800</pubDate>
-    <lastBuildDate>Thu, 06 Jan 2022 16:51:38 +0800</lastBuildDate>
+    <pubDate>Thu, 06 Jan 2022 21:44:35 +0800</pubDate>
+    <lastBuildDate>Thu, 06 Jan 2022 21:44:35 +0800</lastBuildDate>
     <generator>Jekyll v4.2.1</generator>
     
       <item>
-        <title>北海.等风来.2021</title>
+        <title>北海.等风来</title>
         <description>&lt;script&gt;
     function password()
     {
@@ -37,13 +37,13 @@
 &lt;/script&gt;
 
 </description>
-        <pubDate>Wed, 01 Dec 2021 00:00:00 +0800</pubDate>
+        <pubDate>Thu, 09 Dec 2021 00:00:00 +0800</pubDate>
         <link>http://localhost:4000/China-Guangxi-BeihaiCity-Hike</link>
         <guid isPermaLink="true">http://localhost:4000/China-Guangxi-BeihaiCity-Hike</guid>
         
-        <category>Bikepacking</category>
+        <category>Hike</category>
         
-        <category>分时分段漫游中国</category>
+        <category>漫游中国</category>
         
         <category>广西</category>
         
@@ -53,7 +53,7 @@
       </item>
     
       <item>
-        <title>沿边公路.2021</title>
+        <title>沿边公路&amp;中国第一路</title>
         <description>&lt;script&gt;
     function password()
     {
@@ -86,9 +86,11 @@
         
         <category>Bikepacking</category>
         
-        <category>分时分段漫游中国</category>
+        <category>漫游中国</category>
         
         <category>广西</category>
+        
+        <category>路线</category>
         
         <category>〔㊕༄㊙〕</category>
         
@@ -96,7 +98,7 @@
       </item>
     
       <item>
-        <title>川西小环线.2021.国庆节</title>
+        <title>川西小环线.国庆节</title>
         <description>&lt;script&gt;
     function password()
     {
@@ -130,9 +132,11 @@
         
         <category>Bikepacking</category>
         
-        <category>分时分段漫游中国</category>
+        <category>漫游中国</category>
         
         <category>四川</category>
+        
+        <category>路线</category>
         
         <category>〔㊕༄㊙〕</category>
         
@@ -140,7 +144,7 @@
       </item>
     
       <item>
-        <title>风车公路.2021.端午节</title>
+        <title>风车公路.端午节</title>
         <description>&lt;script&gt;
     function password()
     {
@@ -173,9 +177,11 @@
         
         <category>Bikepacking</category>
         
-        <category>分时分段漫游中国</category>
+        <category>漫游中国</category>
         
         <category>浙江</category>
+        
+        <category>路线</category>
         
         <category>〔㊕༄㊙〕</category>
         
@@ -183,7 +189,7 @@
       </item>
     
       <item>
-        <title>百山祖行.2021.劳动节</title>
+        <title>百山祖行.劳动节</title>
         <description>&lt;h3 id=&quot;序&quot;&gt;序&lt;/h3&gt;
 
 &lt;p&gt;如果有机会，不管骑车，自驾还是徒步，一定要到浙江来一次，“全域旅游”的理念在浙江展现的淋漓尽致，每个村落，每条巷子，每条公路都是一个景点，而丽水就更像一个带着仙气的地方，苍山碧水，山多水多，方言更多，大多时候是我们是听不懂的，甚至有时还因为这份“陌生”，有时还会像两个异域人一样不好沟通。可就是这样一个看上去很“奇怪”的地方，只要你呆上一天或者半天，就会有不想再走的欲望。或许当我不再为生活奔波，为世俗挂念的时候，这里或许会是一个很好的栖居之地。&lt;/p&gt;
@@ -290,15 +296,17 @@
         
         <category>Bikepacking</category>
         
-        <category>分时分段漫游中国</category>
+        <category>漫游中国</category>
         
         <category>浙江</category>
+        
+        <category>路线</category>
         
         
       </item>
     
       <item>
-        <title>雁荡留声.2021.清明节</title>
+        <title>雁荡留声.清明节</title>
         <description>&lt;h2 id=&quot;题外话&quot;&gt;题外话&lt;/h2&gt;
 
 &lt;blockquote&gt;
@@ -468,15 +476,17 @@
         
         <category>Bikepacking</category>
         
-        <category>分时分段漫游中国</category>
+        <category>漫游中国</category>
         
         <category>浙江</category>
+        
+        <category>路线</category>
         
         
       </item>
     
       <item>
-        <title>皖浙天路.2021.清明前夕</title>
+        <title>皖浙天路.清明前夕</title>
         <description>&lt;p&gt;还记得，那是一方山峦，流淌着春色，牵引着愁绪；&lt;/p&gt;
 
 &lt;p&gt;难忘却，那是一抔花海，酿满了芬芳，捻碎了情丝。&lt;/p&gt;
@@ -637,17 +647,19 @@ PS：绩溪家朋除了水包还有一些当地的特色食物，像早上吃的
         
         <category>Bikepacking</category>
         
-        <category>分时分段漫游中国</category>
+        <category>漫游中国</category>
         
         <category>浙江</category>
         
         <category>安徽</category>
         
+        <category>路线</category>
+        
         
       </item>
     
       <item>
-        <title>胜利之路.2021.元旦</title>
+        <title>胜利之路.元旦</title>
         <description>&lt;blockquote&gt;
   &lt;p&gt;封面地点：华东天路 [胜利之路] .墩头段&lt;/p&gt;
 &lt;/blockquote&gt;
@@ -993,15 +1005,17 @@ PS：绩溪家朋除了水包还有一些当地的特色食物，像早上吃的
         
         <category>Bikepacking</category>
         
-        <category>分时分段漫游中国</category>
+        <category>漫游中国</category>
         
         <category>浙江</category>
+        
+        <category>路线</category>
         
         
       </item>
     
       <item>
-        <title>Bikepacking Video 2020</title>
+        <title>Bikepacking.Video.2020</title>
         <description>&lt;h2 id=&quot;bikepacking-featured-video-2020&quot;&gt;Bikepacking Featured Video 2020&lt;/h2&gt;
 
 &lt;p&gt;去年收藏的几个关于Bikepacking的视频。&lt;/p&gt;
@@ -1048,13 +1062,13 @@ PS：绩溪家朋除了水包还有一些当地的特色食物，像早上吃的
 
 &lt;iframe src=&quot;//player.bilibili.com/player.html?aid=670691490&amp;amp;bvid=BV1ma4y1H7gB&amp;amp;cid=266502151&amp;amp;page=1&quot; style=&quot;width:100%;height:500px;min-width:375px;min-height:200px&quot; scrolling=&quot;no&quot; border=&quot;0&quot; frameborder=&quot;no&quot; framespacing=&quot;0&quot; allowfullscreen=&quot;true&quot;&gt;&lt;/iframe&gt;
 </description>
-        <pubDate>Mon, 14 Dec 2020 12:45:00 +0800</pubDate>
+        <pubDate>Mon, 14 Dec 2020 00:00:00 +0800</pubDate>
         <link>http://localhost:4000/Bikepacking-Video-2020</link>
         <guid isPermaLink="true">http://localhost:4000/Bikepacking-Video-2020</guid>
         
         <category>Bikepacking</category>
         
-        <category>装备及路线规划</category>
+        <category>介绍&amp;装备</category>
         
         
       </item>
@@ -1089,7 +1103,7 @@ PS：绩溪家朋除了水包还有一些当地的特色食物，像早上吃的
 
 &lt;p&gt;可笑吧，我终于要一个人孤独终老了。&lt;/p&gt;
 </description>
-        <pubDate>Sat, 12 Dec 2020 20:16:00 +0800</pubDate>
+        <pubDate>Sat, 12 Dec 2020 00:00:00 +0800</pubDate>
         <link>http://localhost:4000/get-old-alone</link>
         <guid isPermaLink="true">http://localhost:4000/get-old-alone</guid>
         

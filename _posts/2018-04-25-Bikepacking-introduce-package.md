@@ -1,11 +1,11 @@
 ---
 layout: post
-title: Bikepacking - Packages
+title: Bikepacking.Packages
 date: 2018-04-25 20:56
 author: 三丰
 description:
-img: posts/Bikepacking-001.webp
-tags: [Bikepacking-Guide]
+image: 'images/posts/Bikepacking-001.webp'
+tags: [介绍&装备]
 Study: true
 ---
 ## Bikepacking的装备

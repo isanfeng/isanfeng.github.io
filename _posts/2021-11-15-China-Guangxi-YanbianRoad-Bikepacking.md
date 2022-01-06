@@ -1,11 +1,11 @@
 ---
 layout: post
-title: 沿边公路.2021
+title: 沿边公路&中国第一路
 date: 2021-11-15
 author: isanfeng
 description:
 image: '/images/posts/YanbianRoadS325-0-725.jpg'
-tags: [Bikepacking, 分时分段漫游中国, 广西, 〔㊕༄㊙〕]
+tags: [Bikepacking, 漫游中国, 广西, 路线,〔㊕༄㊙〕]
 Bikepacking-Hike-Demestic: true
 ---
 

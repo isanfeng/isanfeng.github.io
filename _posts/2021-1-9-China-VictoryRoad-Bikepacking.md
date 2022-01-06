@@ -1,11 +1,11 @@
 ---
 layout: post
-title: 胜利之路.2021.元旦
+title: 胜利之路.元旦
 date: 2021-1-9
 author: isanfeng
 description:
 image: '/images/posts/VictoryRoad-0.webp'
-tags: [Bikepacking, 分时分段漫游中国, 浙江]
+tags: [Bikepacking, 漫游中国, 浙江, 路线]
 Bikepacking-Hike-Demestic: true
 ---
 > 封面地点：华东天路 [胜利之路] .墩头段

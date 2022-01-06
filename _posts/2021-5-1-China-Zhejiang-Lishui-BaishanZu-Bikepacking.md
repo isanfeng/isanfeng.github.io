@@ -1,11 +1,11 @@
 ---
 layout: post
-title: 百山祖行.2021.劳动节
+title: 百山祖行.劳动节
 date: 2021-5-1
 author: isanfeng
 description:
 image: '/images/posts/BaishanZu.jpg'
-tags: [Bikepacking, 分时分段漫游中国, 浙江]
+tags: [Bikepacking, 漫游中国, 浙江, 路线]
 Bikepacking-Hike-Demestic: true
 ---
 ### 序

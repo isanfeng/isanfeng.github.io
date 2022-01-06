@@ -1,11 +1,11 @@
 ---
 layout: post
-title: 柬埔寨.五月盛放.金边篇.2018
+title: 柬埔寨.五月盛放.金边篇
 date: 2018-03-31 06:30
 author: 三丰
 description:
-img: posts/cambodia-1-0.webp
-tags: [Hike, 分时分段环游地球, Cambodia]
+image: 'images/posts/cambodia-1-0.webp'
+tags: [Hike, 环游地球, Cambodia, 路线]
 Bikepacking-Hike-Abroad: true
 ---
 <h2>出发（2018.3.31）</h2>

@@ -1,11 +1,11 @@
 ---
 layout: post
-title: 菲律宾.克恐之旅.2018
+title: 菲律宾.克恐之旅
 date: 2018-10-03 20:56
 author: 三丰
 description:
 image: '/images/posts/Philippines-0.webp'
-tags: [Hike, 分时分段环游地球, Philippines, 〔㊕༄㊙〕]
+tags: [Hike, 环游地球, Philippines, 路线,〔㊕༄㊙〕]
 Bikepacking-Hike-Abroad: true
 ---
 

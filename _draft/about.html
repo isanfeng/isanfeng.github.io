@@ -1,0 +1,25 @@
+---
+layout: page
+title: ABOUT.ME
+permalink: /about/
+image: '/images/nav_about_me.jpg'
+---
+<section class="about">
+  <a href="{{site.baseurl}}/" class="button_back"><i class="fa fa-arrow-circle-left" aria-hidden="true"></i>BACK</a>
+  <div class="about_box">
+    <div class="author">
+        <div class="author_image">
+          <img src="{{site.baseurl}}/assets/img/{% if site.author-pic %}{{site.author-pic}}{% endif %}" alt="Author image">
+        </div>
+        <div class="author_info">
+          <h2 class="author_title">{% if site.author-name %}{{site.author-name}}{% else %}<i class="fa fa-bicycle" aria-hidden="true"></i> 三   丰 <i class="fa fa-bicycle fa-flip-horizontal" aria-hidden="true"></i>{% endif %}</h2>
+          <h3 class="author_subtitle">{% if site.about-author-sayings-1 %}{{site.about-author-sayings-1}}{% else %}{% endif %}</h3>
+          <h3 class="author_subtitle">{% if site.about-author-sayings-2 %}{{site.about-author-sayings-2}}{% else %}{% endif %}</h3>
+          <h3 class="author_subtitle">{% if site.about-author-sayings-3 %}{{site.about-author-sayings-3}}{% else %}{% endif %}</h3>
+          <h3 class="author_subtitle">{% if site.about-author-sayings-4 %}{{site.about-author-sayings-4}}{% else %}{% endif %}</h3>
+        </div>
+      </div>
+
+    </div> <!-- End Section Author -->
+
+</section>

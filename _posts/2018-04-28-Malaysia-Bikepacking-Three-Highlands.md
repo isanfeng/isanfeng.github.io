@@ -1,11 +1,11 @@
 ---
 layout: post
-title: 马来西亚.吉隆坡-福隆港环线.2018
+title: 马来西亚.吉隆坡-福隆港
 date: 2018-04-28 21:00
 author: 三丰
 description:
-img: posts/Grey_Load.webp
-tags: [Bikepacking, 分时分段环游地球, Malaysia]
+image: 'images/posts/Grey_Load.webp'
+tags: [Bikepacking, 环游地球, Malaysia, 路线]
 Bikepacking-Hike-Abroad: true
 ---
 <h2>序（2018.4.28@上海）</h2>

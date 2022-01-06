@@ -4,8 +4,8 @@ title: 三丰来了
 date: 2010-03-31 14:10
 author: 三丰
 description:
-img: posts/isanfeng-banch.webp
-tags: []
+image: 'images/posts/isanfeng-banch.webp'
+tags: [余生可期]
 Essays: true
 ---
 > 时间：2010.3.31
