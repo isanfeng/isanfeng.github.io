@@ -1,10 +1,13 @@
+
+{% include head.html %}
+
 <!-- begin footer-widgets -->
 <div class="footer-widgets">
   <div class="container">
     <div class="row">
       {% include footer-widgets/widget-info.html %}
       {% include footer-widgets/widget-tag-cloud.html %}
-      {% include footer-widgets/widget-subscribe.html %}
+      <!-- {% include footer-widgets/widget-subscribe.html %} -->
     </div>
   </div>
 </div>
@@ -15,9 +18,95 @@
   <div class="container">
     <div class="row">
       <div class="col col-12">
-        <div class="copyright">{{site.time | date: '%Y'}} &copy; <a href="/">{{site.title}}</a>. Crafted & Designed by <a href="https://jekyllthemes.io/developers/artem-sheludko" rel="noopener" target="_blank">Artem Sheludko</a>.</div>
+
+        <div class="copyright">{{site.time | date: '%Y'}} &copy; <a href="/">{{site.title}}</a></div>
+        <p></p>
+
+        <div class="below_copyright" >
+          <div>
+            <a href="/uptime-status/index.html">
+              <i class="fa fa-quote-left" aria-hidden="true"></i> <ruby>
+                好好生活
+                <rp>(</rp>
+                  <rt>hǎo hǎo qí chē</rt>
+                <rp>)</rp>
+              </ruby> <i class="fa fa-heartbeat" aria-hidden="true"></i> <ruby>
+                慢慢老去
+                <rp>(</rp>
+                  <rt>kuài lè lǎo qù</rt>
+                <rp>)</rp>
+              </ruby> <i class="fa fa-quote-right" aria-hidden="true"></i>
+            </a>
+          </div>
+
+          <div>
+            <p>
+              <span id="timeDate">载入天数...</span><span id="times">载入时分秒...</span>
+              <script>
+                var now = new Date();
+                function createtime() {
+                  var grt= new Date("1/1/2021 00:00:00");//在此处修改你的建站时间
+                  now.setTime(now.getTime()+250);
+                  days = (now - grt ) / 1000 / 60 / 60 / 24; dnum = Math.floor(days);
+                  hours = (now - grt ) / 1000 / 60 / 60 - (24 * dnum); hnum = Math.floor(hours);
+                  if(String(hnum).length ==1 ){hnum = "0" + hnum;} minutes = (now - grt ) / 1000 /60 - (24 * 60 * dnum) - (60 * hnum);
+                  mnum = Math.floor(minutes); if(String(mnum).length ==1 ){mnum = "0" + mnum;}
+                  seconds = (now - grt ) / 1000 - (24 * 60 * 60 * dnum) - (60 * 60 * hnum) - (60 * mnum);
+                  snum = Math.round(seconds); if(String(snum).length ==1 ){snum = "0" + snum;}
+                  document.getElementById("timeDate").innerHTML = "<i class=\"fa fa-bicycle\" aria-hidden=\"true\"></i>   "+dnum+" 天";
+                  document.getElementById("times").innerHTML = hnum + " 小时 " + mnum + " 分 " + snum + " 秒   <i class=\"fa fa-bicycle fa-flip-horizontal\" aria-hidden=\"true\"></i>";
+                }
+              setInterval("createtime()",250);
+              </script>
+            </p>
+            
+            <p>
+              <span id="busuanzi_container_site_pv">本站总访客数：<span id="busuanzi_value_site_uv"></span>人</span>
+              <ion-icon name="infinite"></ion-icon>
+              <span id="busuanzi_container_page_pv">本站总访问量：<span id="busuanzi_value_site_pv"></span>次</span>
+            </p>
+          </div>
+
+          <div>
+
+          </div>
+
+          <div>
+            <p>
+              <ion-icon name="caret-back"></ion-icon><ion-icon name="reorder-four"></ion-icon>这里是最底部啦<ion-icon name="reorder-four"></ion-icon><ion-icon name="caret-forward"></ion-icon><br>
+              <ion-icon name="caret-back"></ion-icon><ion-icon name="reorder-four"></ion-icon>更多的精彩等待我们一起探索<ion-icon name="reorder-four"></ion-icon><ion-icon name="caret-forward"></ion-icon>
+            </p>
+          </div>
+
+        </div>
+    
       </div>
     </div>
   </div>
+
 </footer>
 <!-- end footer -->
+
+<!--music player start-->
+<div>
+  <!--https://github.com/metowolf/MetingJS, https://aplayer.js.org/#/zh-Hans-->
+  <!-- require APlayer -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/aplayer/dist/APlayer.min.css">
+  <script src="https://cdn.jsdelivr.net/npm/aplayer/dist/APlayer.min.js"></script>
+  <!-- require MetingJS -->
+  <script src="https://cdn.jsdelivr.net/npm/meting@2/dist/Meting.min.js"></script>
+  <meting-js
+      id="5350939993"
+      lrc-type="0"
+      server="netease"
+      order="list"
+      type="playlist"
+      fixed="true"
+      list-folded="true"
+      autoplay="true"
+      order="random"
+      loop="all"
+      mutex="true">
+  </meting-js>
+</div>
+  <!--music player end-->

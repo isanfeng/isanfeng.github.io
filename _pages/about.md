@@ -1,8 +1,8 @@
 ---
 layout: page
-title: About
+title: ABOUT.ME
 permalink: /about/
-image: '/images/60.jpg'
+image: '/images/nav_about_me.jpg'
 ---
 
 Hi, my name is Nick Adams. I’m a Product Designer and Photographer based in NY. I like being at the center of events, being free and enjoying every moment. Serpere anguiculos, nare anaticulas, evolare merulas, cornibus uti videmus boves, nepas aculeis. Conferam tecum, quam cuique verso rem subicias; Si longus, levis. In qua quid est boni praeter summam voluptatem, et eam cur post. Tarentum ad Archytam? Qua ex cognitione facilior facta est investigatio rerum occultissimarum. Natura sic ab iis investigata est, ut nulla.
