@@ -5,7 +5,7 @@ date: 2020-04-01 00:09
 author: 三丰
 description:
 image: '/images/posts/PipaLake-0.webp'
-tags: [Bikepacking, 环游地球, Japan, 路线, NS]
+tags: [Bikepacking, 环游地球, Japan, 🔖🔜, 🔐🚳]
 Bikepacking-Hike-Abroad: true
 ---
 

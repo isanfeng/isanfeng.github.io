@@ -5,7 +5,7 @@ date: 2018-04-25 20:56
 author: 三丰
 description:
 image: 'images/posts/Bikepacking-001.webp'
-tags: [介绍&装备]
+tags: [介绍.装备]
 Study: true
 ---
 ## Bikepacking的装备

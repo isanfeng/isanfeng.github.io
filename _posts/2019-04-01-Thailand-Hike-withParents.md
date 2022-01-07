@@ -5,7 +5,7 @@ date: 2019-04-01 20:56
 author: 三丰
 description:
 image: '/images/posts/thailand-3.webp'
-tags: [Hike, 陪爸妈, 环游地球, Thailand,  路线,〔㊕༄㊙〕]
+tags: [Hike, 陪爸妈, 环游地球, Thailand, 🔐🚳]
 Bikepacking-Hike-Abroad: true
 ---
 

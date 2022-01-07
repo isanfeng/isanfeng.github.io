@@ -23,8 +23,8 @@ social:
 - {icon: "ion-logo-facebook", link: "https://facebook.com/iwangsanfeng"}
 - {icon: "ion-logo-twitch", link: "https://space.bilibili.com/64878769"}
 - {icon: "ion-logo-github", link: "https://isanfeng.github.io"}
-- {icon: "ion-logo-gitlab", link: "https://iwangsanfeng.gitee.io"}
-- {icon: "ion-logo-electron", link: "https://isanfeng.vercel.app"}
+- {icon: "ion-logo-octocat", link: "https://iwangsanfeng.gitee.io"}
+- {icon: "ion-logo-vimeo", link: "https://isanfeng.vercel.app"}
 
 
 # Example of adding a new link to the author section and footer - {icon: "ion-logo-pinterest", link: "https://pinterest.com"}

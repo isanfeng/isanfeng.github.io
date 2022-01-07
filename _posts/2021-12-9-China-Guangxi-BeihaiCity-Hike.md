@@ -5,7 +5,7 @@ date: 2021-12-9
 author: isanfeng
 description:
 image: '/images/posts/Beihai.jpg'
-tags: [Hike, 漫游中国, 广西, 〔㊕༄㊙〕]
+tags: [Hike, 漫游中国, 广西, 🔐🚳]
 Bikepacking-Hike-Demestic: true
 ---
 

@@ -5,7 +5,7 @@ date: 2018-04-13 16:07
 author: 三丰
 description:
 image: 'images/posts/cambodia-2-0.webp'
-tags: [Hike, 环游地球, Cambodia, 路线]
+tags: [Hike, 环游地球, Cambodia]
 Bikepacking-Hike-Abroad: true
 ---
 <h2>第三天(2018.4.2)</h2>

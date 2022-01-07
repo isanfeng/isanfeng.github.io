@@ -5,7 +5,7 @@ date: 2015-09-25 00:09
 author: 三丰
 description:
 image: 'images/posts/thailand-1-0.webp'
-tags: [Bikepacking, 环游地球, Thailand, 路线]
+tags: [Bikepacking, 环游地球, Thailand, 🔐🚳]
 Bikepacking-Hike-Abroad: true
 ---
 

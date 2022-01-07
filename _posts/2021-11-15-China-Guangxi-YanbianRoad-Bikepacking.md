@@ -5,7 +5,7 @@ date: 2021-11-15
 author: isanfeng
 description:
 image: '/images/posts/YanbianRoadS325-0-725.jpg'
-tags: [Bikepacking, 漫游中国, 广西, 路线,〔㊕༄㊙〕]
+tags: [Bikepacking, 漫游中国, 广西, 🔐🚳]
 Bikepacking-Hike-Demestic: true
 ---
 

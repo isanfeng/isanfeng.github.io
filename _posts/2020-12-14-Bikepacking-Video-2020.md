@@ -5,7 +5,7 @@ date: 2020-12-14
 author: isanfeng
 description:
 image: '/images/posts/Bikepacking-000.webp'
-tags: [Bikepacking, 介绍&装备]
+tags: [Bikepacking, 介绍.装备]
 Life: true
 ---
 ## Bikepacking Featured Video 2020

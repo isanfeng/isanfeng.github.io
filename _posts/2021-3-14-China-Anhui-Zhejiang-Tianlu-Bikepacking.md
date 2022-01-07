@@ -5,7 +5,7 @@ date: 2021-3-14
 author: isanfeng
 description:
 image: '/images/posts/wanzhe-road.jpg'
-tags: [Bikepacking, 漫游中国, 浙江, 安徽, 路线]
+tags: [Bikepacking, 漫游中国, 浙江, 安徽]
 Bikepacking-Hike-Demestic: true
 ---
 还记得，那是一方山峦，流淌着春色，牵引着愁绪；

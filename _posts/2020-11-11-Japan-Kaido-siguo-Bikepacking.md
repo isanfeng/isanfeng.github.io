@@ -5,7 +5,7 @@ date: 2020-11-11
 author: 三丰
 description:
 image: '/images/posts/Shimanami-Kaido-0.webp'
-tags: [Bikepacking, 环游地球, Japan, 路线, NS]
+tags: [Bikepacking, 环游地球, Japan, 🔖🔜, 🔐🚳]
 Bikepacking-Hike-Abroad: true
 ---
 

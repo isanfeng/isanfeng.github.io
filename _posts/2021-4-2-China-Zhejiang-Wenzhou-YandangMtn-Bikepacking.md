@@ -5,7 +5,7 @@ date: 2021-4-2
 author: isanfeng
 description:
 image: '/images/posts/Yandang-Mtn.jpg'
-tags: [Bikepacking, 漫游中国, 浙江, 路线]
+tags: [Bikepacking, 漫游中国, 浙江]
 Bikepacking-Hike-Demestic: true
 ---
 ## 题外话

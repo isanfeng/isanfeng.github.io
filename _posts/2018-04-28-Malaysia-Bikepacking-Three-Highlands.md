@@ -5,7 +5,7 @@ date: 2018-04-28 21:00
 author: 三丰
 description:
 image: 'images/posts/Grey_Load.webp'
-tags: [Bikepacking, 环游地球, Malaysia, 路线]
+tags: [Bikepacking, 环游地球, Malaysia]
 Bikepacking-Hike-Abroad: true
 ---
 <h2>序（2018.4.28@上海）</h2>

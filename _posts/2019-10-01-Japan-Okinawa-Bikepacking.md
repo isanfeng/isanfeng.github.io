@@ -5,7 +5,7 @@ date: 2019-10-1 00:09
 author: 三丰
 description:
 image: '/images/posts/Okinawa-0.webp'
-tags: [Bikepacking, 环游地球, Japan, 路线]
+tags: [Bikepacking, 环游地球, Japan]
 Bikepacking-Hike-Abroad: true
 ---
 ## Day-0

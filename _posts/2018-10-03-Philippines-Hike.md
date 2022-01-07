@@ -5,7 +5,7 @@ date: 2018-10-03 20:56
 author: 三丰
 description:
 image: '/images/posts/Philippines-0.webp'
-tags: [Hike, 环游地球, Philippines, 路线,〔㊕༄㊙〕]
+tags: [Hike, 环游地球, Philippines, 🔐🚳]
 Bikepacking-Hike-Abroad: true
 ---
 

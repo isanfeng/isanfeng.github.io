@@ -1,13 +1,13 @@
 ---
 layout: post
 title: 三丰来了
-date: 2010-03-31 14:10
+date: 2010-03-31
 author: 三丰
 description:
-image: 'images/posts/isanfeng-banch.webp'
+image: 'images/posts/banch.webp'
 tags: [余生可期]
-Essays: true
 ---
+
 > 时间：2010.3.31
 >
 >地点：世界的某个地方

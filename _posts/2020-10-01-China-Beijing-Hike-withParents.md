@@ -5,7 +5,7 @@ date: 2020-10-01 20:56
 author: 三丰
 description:
 image: '/images/posts/Beijing-0.webp'
-tags: [Hike, 陪爸妈, 漫游中国, 北京,  路线]
+tags: [Hike, 陪爸妈, 漫游中国, 北京]
 Bikepacking-Hike-Demestic: true
 ---
 北京7天行 圆满结束。<br>

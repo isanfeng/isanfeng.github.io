@@ -5,7 +5,7 @@ date: 2017-05-27 00:09
 author: 三丰
 description:
 image: 'images/posts/Hokkaido-1-0.webp'
-tags: [Bikepacking, 环游地球, Japan, 路线]
+tags: [Bikepacking, 环游地球, Japan]
 Bikepacking-Hike-Abroad: true
 ---
 # 第一次日本行 - 骑游北海道

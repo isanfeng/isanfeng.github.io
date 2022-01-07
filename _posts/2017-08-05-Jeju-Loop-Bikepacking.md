@@ -5,7 +5,7 @@ date: 2017-08-05 00:10
 author: 三丰
 description:
 image: 'images/posts/jeju-1-0.webp'
-tags: [Bikepacking, 环游地球, South Korea, 路线]
+tags: [Bikepacking, 环游地球, South Korea, 🔐🚳]
 Bikepacking-Hike-Abroad: true
 ---
 

@@ -4,7 +4,7 @@ title: 环青海湖
 date:  2013-10-01 00:09:00 +0900
 description:
 image: 'images/posts/QinghaiLake-0.webp'
-tags: [Bikepacking, 漫游中国, 青海, 路线, 〔㊕༄㊙〕]
+tags: [Bikepacking, 漫游中国, 青海, 🔐🚳]
 author: 三丰
 Bikepacking-Hike-Demestic: true
 ---

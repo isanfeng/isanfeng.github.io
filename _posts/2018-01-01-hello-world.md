@@ -1,12 +1,11 @@
 ---
 layout: post
 title: WO的前生今世
-date: 2018-1-1 00:09
+date: 2018-01-01
 author: 三丰
 description:
 image: '/images/posts/fo-0.webp'
 tags: [余生可期]
-Study: true
 ---
 ## WO的定义
 

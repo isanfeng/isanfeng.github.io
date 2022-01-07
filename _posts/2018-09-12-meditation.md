@@ -1,7 +1,7 @@
 ---
 layout: post
 title: 关于冥想
-date:  2018-09-12 21:16
+date:  2018-09-12
 description: 
 image: 'images/posts/Meditation.webp'
 tags: [余生可期, Meditation]
