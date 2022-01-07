@@ -2,7 +2,7 @@
 window.Config = {
 
   // 站点名
-  SiteName: '流浪⬝𝓲三丰⬝苦行志',
+  SiteName: '𝓲三丰🚵去流浪',
 
   // 站点链接
   SiteUrl: '/',
@@ -30,10 +30,6 @@ window.Config = {
     {
       text: '旅行地图',
       url: '/travel_map'
-    },
-	{
-      text: '关于',
-      url: '/about'
     }
   ]
 };
