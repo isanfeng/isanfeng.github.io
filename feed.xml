@@ -5,8 +5,8 @@
     <description>&lt;ion-icon name=&quot;chevron-back-outline&quot;&gt;&lt;/ion-icon&gt;&lt;ruby&gt;侠   之   大   者，四   海   为   家&lt;rp&gt;(&lt;/rp&gt;&lt;rt&gt;xiá zhī dà zhě, sì hǎi wéi jiā&lt;/rt&gt;&lt;rp&gt;)&lt;/rp&gt;&lt;/ruby&gt;&lt;ion-icon name=&quot;chevron-forward-outline&quot;&gt;&lt;/ion-icon&gt;&lt;br&gt;&lt;br&gt;&lt;ion-icon name=&quot;chevron-back-outline&quot;&gt;&lt;/ion-icon&gt;&lt;ruby&gt;一   人   一   車，浪   迹   天   涯&lt;rp&gt;(&lt;/rp&gt;&lt;rt&gt;yī rén yī jū, làng jì tiān yá&lt;/rt&gt;&lt;rp&gt;)&lt;/rp&gt;&lt;/ruby&gt;&lt;ion-icon name=&quot;chevron-forward-outline&quot;&gt;&lt;/ion-icon&gt;</description>
     <link>http://localhost:4000/</link>
     <atom:link href="http://localhost:4000/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Sun, 16 Jan 2022 11:47:55 +0800</pubDate>
-    <lastBuildDate>Sun, 16 Jan 2022 11:47:55 +0800</lastBuildDate>
+    <pubDate>Mon, 17 Jan 2022 09:21:50 +0800</pubDate>
+    <lastBuildDate>Mon, 17 Jan 2022 09:21:50 +0800</lastBuildDate>
     <generator>Jekyll v4.2.1</generator>
     
       <item>
@@ -142,8 +142,10 @@
       <item>
         <title>风车公路.端午节</title>
         <description>&lt;script&gt;
+    
     function password()
     {
+        swal(&quot;Hello world!&quot;);
         var i=1;
             var passwd=prompt('此文章已被三丰设置为私密，请寻求三丰授权后再考虑踏足此地吧！','');//这是输入密码的提示语，可以改为你想要显示的内容，比如本站地址之类的
         while(i&lt;3)
