@@ -5,10 +5,10 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
-  <title>Bikepacking.Packages</title>
+  <title>TRAVEL.MAP</title>
   <meta name='description' content='<ion-icon name="chevron-back-outline"></ion-icon><ruby>侠   之   大   者，四   海   为   家<rp>(</rp><rt>xiá zhī dà zhě, sì hǎi wéi jiā</rt><rp>)</rp></ruby><ion-icon name="chevron-forward-outline"></ion-icon><br><br><ion-icon name="chevron-back-outline"></ion-icon><ruby>一   人   一   車，浪   迹   天   涯<rp>(</rp><rt>yī rén yī jū, làng jì tiān yá</rt><rp>)</rp></ruby><ion-icon name="chevron-forward-outline"></ion-icon><br><br>To see a world in a grain of sand<br><br>And a heaven in a wild flower<br><br>Hold infinity in the palm of your hand<br><br>And eternity in an hour'>
 
-  <link rel="canonical" href="https://iwangsanfeng.githee.io/Bikepacking-introduce-package">
+  <link rel="canonical" href="https://iwangsanfeng.githee.io/travel_map.html">
   <link rel="alternate" type="application/rss+xml" title="𝓲三丰🚵去流浪" href="/feed.xml">
   <link rel="shortcut icon" href="/images/favicon.ico" type="image/x-icon">
 
@@ -98,7 +98,7 @@
 <div class="hero">
 
   <div class="hero__image">
-    <img class="lazy" data-src="images/posts/Bikepacking-001.webp" alt="Bikepacking.Packages">
+    <img class="lazy" data-src="/images/nav_footprint.jpg" alt="TRAVEL.MAP">
   </div>
 
 </div>
@@ -495,472 +495,669 @@
 </div>
 
 <div class="container">
+  <article class="page">
 
-  <div class="post-head">
-
-    <!-- <div class="post__author">
-      <a href="/about/" class="post__author-link">𝓲三丰🚴流浪</a>
-    </div> -->
-
-    <h1 class="post-title">Bikepacking.Packages</h1>
-
-    <div class="post__meta">
-      
-      <div class="post-tags">
-        
-          <a href="/tag/介绍.装备" class="post-tags__tag">介绍.装备</a>
-        
-      </div>
-      
-      <span class="post__date">
-        <time datetime="2018-04-25T20:56:00+08:00">Apr 25, 2018</time>
-      </span>
+    <div class="page-head">
+      <h1 class="page-title">TRAVEL.MAP</h1>
     </div>
 
-  </div>
+    <div class="page__content">
+      <section>
+    <!-- Styles -->
+    <style>
+        #chartdiv {
+          width: 100%;
+          height: 385px;
+          overflow: hidden;
+        }
+    </style>
 
-  <!-- begin post -->
-  <article class="post">
+    <!-- Resources -->
+<!--    <script src="https://cdn.amcharts.com/lib/4/core.js"></script>-->
+<!--    <script src="https://cdn.amcharts.com/lib/4/maps.js"></script>-->
+<!--    <script src="https://cdn.amcharts.com/lib/4/geodata/worldLow.js"></script>-->
+<!--    <script src="https://cdn.amcharts.com/lib/4/themes/animated.js"></script>-->
+    <script src="/js/amcharts/4/core.js"></script>
+    <script src="/js/amcharts/4/maps.js"></script>
+    <script src="/js/amcharts/4/geodata/worldLow.js"></script>
+    <script src="/js/amcharts/4/themes/animated.js"></script>
 
-    <div class="post__content">
-      <h2 id="bikepacking的装备">Bikepacking的装备</h2>
+    <!-- Chart code -->
+    <script>
+    am4core.ready(function() {
 
-<p>车子，包</p>
+    // Themes begin
+    am4core.useTheme(am4themes_animated);
+    // Themes end
 
-<h2 id="关于包">关于包</h2>
+    // Create map instance
+    var chart = am4core.create("chartdiv", am4maps.MapChart);
 
-<p>Bikepacking中包基本有车把包，车梁包，车尾包，当然还可以根据单车车架上的挂空扩展不同挂上前叉包，车梁上包，车把小包等，不过基本配置就是前面三者。转发了在YouTube上看到一个大神的总结，主要针对前三者做了比较详细的说明。</p>
+    // Set map definition
+    chart.geodata = am4geodata_worldLow;
 
-<p>第一部分：车把包的设置，主要放置我们的睡眠系统。</p>
-<iframe src="//player.bilibili.com/player.html?aid=415402587&amp;bvid=BV1QV411a7vb&amp;cid=260836098&amp;page=1" style="width:100%;height:500px;min-width:375px;min-height:200px" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true"></iframe>
+    // Set projection
+    chart.projection = new am4maps.projections.Miller();
 
-<p>第二部分：车梁包的设置，主要放置我们的零食，修复系统以及多媒体部分。</p>
-<iframe src="//player.bilibili.com/player.html?aid=927965863&amp;bvid=BV11K4y1f7eC&amp;cid=260836369&amp;page=1" style="width:100%;height:500px;min-width:375px;min-height:200px" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true"></iframe>
+    // Create map polygon series
+    var polygonSeries = chart.series.push(new am4maps.MapPolygonSeries());
 
-<p>第三部分：车尾包的设置，主要放置我们的保暖防湿的衣物以及餐饮系统。</p>
-<iframe src="//player.bilibili.com/player.html?aid=245487998&amp;bvid=BV1wv411b7ya&amp;cid=260836452&amp;page=1" style="width:100%;height:500px;min-width:375px;min-height:200px" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true"></iframe>
+    // Exclude Antartica
+    polygonSeries.exclude = ["AQ"];
 
-    </div>
+    // Make map load polygon (like country names) data from GeoJSON
+    polygonSeries.useGeodata = true;
 
-    <!-- 文章分享功能 -->
-    <!-- <div class="post__share">
-      <ul class="share__list list-reset">
+    // Configure series
+    var polygonTemplate = polygonSeries.mapPolygons.template;
+    polygonTemplate.tooltipText = "{name}";
+    polygonTemplate.polygon.fillOpacity = 0.8;
 
-        <li class="share__item">
-          <a class="share__link share__facebook" href="https://www.facebook.com/sharer/sharer.php?u=https://iwangsanfeng.githee.io/Bikepacking-introduce-package"
-            onclick="window.open(this.href, 'pop-up', 'left=20,top=20,width=500,height=500,toolbar=1,resizable=0'); return false;"
-            title="Share on Facebook" rel="nofollow"><i class="ion ion-logo-facebook"></i></a>
-        </li>
 
-        <li class="share__item">
-          <a class="share__link share__twitter" href="https://twitter.com/intent/tweet?text=Bikepacking.Packages&url=https://iwangsanfeng.githee.io/Bikepacking-introduce-package"
-            onclick="window.open(this.href, 'pop-up', 'left=20,top=20,width=500,height=500,toolbar=1,resizable=0'); return false;"
-            title="Share on Twitter" rel="nofollow"><i class="ion ion-logo-twitter"></i></a>
-        </li>
+    // Create hover state and set alternative fill color
+    var hs = polygonTemplate.states.create("hover");
+    hs.properties.fill = chart.colors.getIndex(0);
 
-        <li class="share__item">
-          <a class="share__link share__pinterest" href="http://pinterest.com/pin/create/button/?url=https://iwangsanfeng.githee.io/Bikepacking-introduce-package&amp;media=https://iwangsanfeng.githee.ioimages/posts/Bikepacking-001.webp&amp;description=Bikepacking.Packages"
-          onclick="window.open(this.href, 'pop-up', 'left=20,top=20,width=900,height=500,toolbar=1,resizable=0'); return false;" title="Share on Pinterest"
-          rel="nofollow"><i class="ion ion-logo-pinterest"></i></a>
-        </li>
-        
-      </ul>
-    </div> -->
+    // Add image series
+    var imageSeries = chart.series.push(new am4maps.MapImageSeries());
+    imageSeries.mapImages.template.propertyFields.longitude = "longitude";
+    imageSeries.mapImages.template.propertyFields.latitude = "latitude";
+    imageSeries.mapImages.template.tooltipText = "{title}";
+    imageSeries.mapImages.template.propertyFields.url = "url";
 
-  </article>
-  <!-- end post -->
+    var circle = imageSeries.mapImages.template.createChild(am4core.Circle);
+    circle.radius = 3;
+    circle.propertyFields.fill = "color";
 
-  <!--start 评论系统型号: https://valine.js.org/-->
-  <div id="vcomments"></div>
-  <script>
-      new Valine({
-          el: '#vcomments',
-          appId: '6ISOmGAiqwM5tusFRGy3rzac-gzGzoHsz',
-          appKey: 'UQqz25rRuJ2V3ALSQknLsFC6',
-          placeholder: '思想需要碰撞才能产生火花。',
-          avatar: 'robohash',
-          pageSize: '9',
-          emojiCDN: '//i0.hdslb.com/bfs/emote/',
-          emojiMaps: {
-              "tv_doge": "6ea59c827c414b4a2955fe79e0f6fd3dcd515e24.png",
-              "tv_亲亲": "a8111ad55953ef5e3be3327ef94eb4a39d535d06.png",
-              "tv_偷笑": "bb690d4107620f1c15cff29509db529a73aee261.png",
-              "tv_再见": "180129b8ea851044ce71caf55cc8ce44bd4a4fc8.png",
-              "tv_冷漠": "b9cbc755c2b3ee43be07ca13de84e5b699a3f101.png",
-              "tv_发怒": "34ba3cd204d5b05fec70ce08fa9fa0dd612409ff.png",
-              "tv_发财": "34db290afd2963723c6eb3c4560667db7253a21a.png",
-              "tv_可爱": "9e55fd9b500ac4b96613539f1ce2f9499e314ed9.png",
-              "tv_吐血": "09dd16a7aa59b77baa1155d47484409624470c77.png",
-              "tv_呆": "fe1179ebaa191569b0d31cecafe7a2cd1c951c9d.png",
-              "tv_呕吐": "9f996894a39e282ccf5e66856af49483f81870f3.png",
-              "tv_困": "241ee304e44c0af029adceb294399391e4737ef2.png",
-              "tv_坏笑": "1f0b87f731a671079842116e0991c91c2c88645a.png",
-              "tv_大佬": "093c1e2c490161aca397afc45573c877cdead616.png",
-              "tv_大哭": "23269aeb35f99daee28dda129676f6e9ea87934f.png",
-              "tv_委屈": "d04dba7b5465779e9755d2ab6f0a897b9b33bb77.png",
-              "tv_害羞": "a37683fb5642fa3ddfc7f4e5525fd13e42a2bdb1.png",
-              "tv_尴尬": "7cfa62dafc59798a3d3fb262d421eeeff166cfa4.png",
-              "tv_微笑": "70dc5c7b56f93eb61bddba11e28fb1d18fddcd4c.png",
-              "tv_思考": "90cf159733e558137ed20aa04d09964436f618a1.png",
-              "tv_惊吓": "0d15c7e2ee58e935adc6a7193ee042388adc22af.png"}
-      })
-  </script>
-<!--end 评论系统型号1-->
+    var circle2 = imageSeries.mapImages.template.createChild(am4core.Circle);
+    circle2.radius = 3;
+    circle2.propertyFields.fill = "color";
+
+
+    circle2.events.on("inited", function(event){
+      animateBullet(event.target);
+    })
+
+
+    function animateBullet(circle) {
+        var animation = circle.animate([{ property: "scale", from: 1, to: 5 }, { property: "opacity", from: 1, to: 0 }], 1000, am4core.ease.circleOut);
+        animation.events.on("animationended", function(event){
+          animateBullet(event.target.object);
+        })
+    }
+
+    var colorSet = new am4core.ColorSet();
+
+    imageSeries.data = [
+    // China
+    {
+      "title": "Shanghai",
+      "latitude": 31.40527,
+      "longitude": 121.48941,
+      "url": "https://j.map.baidu.com/06/-yd",
+      "color":colorSet.next()
+    }, {
+      "title": "Beijing",
+      "latitude": 39.907569170348715,
+      "longitude": 116.40706125,
+      "color":colorSet.next()
+    }, {
+      "title": "Jinan",
+      "latitude": 36.67647,
+      "longitude": 116.897008,
+      "color":colorSet.next()
+    }, {
+      "title": "Zhuhai",
+      "latitude": 22.25034,
+      "longitude": 113.545762,
+      "color":colorSet.next()
+    }, {
+      "title": "Xian",
+      "latitude": 34.2251,
+      "longitude": 108.971043,
+      "color":colorSet.next()
+    }, {
+      "title": "Qingdao",
+      "latitude": 36.082262,
+      "longitude": 120.423162,
+      "color":colorSet.next()
+    }, {
+      "title": "Quzhou",
+      "latitude": 28.604291,
+      "longitude": 118.74644,
+      "color":colorSet.next()
+    },{
+      "title": "Lishui",
+      "latitude": 27.817658,
+      "longitude": 119.602444,
+      "color":colorSet.next()
+    }, {
+      "title": "Anji",
+      "latitude": 30.464809226762224,
+      "longitude": 119.5954499721724,
+      "color":colorSet.next()
+    }, {
+      "title": "Yuyao",
+      "latitude": 29.75378634631443,
+      "longitude": 121.0982581732141,
+      "color":colorSet.next()
+    }, {
+      "title": "Ningguo",
+      "latitude": 30.584572634228802,
+      "longitude": 118.8848981421425,
+      "color":colorSet.next()
+    }, {
+      "title": "Chongming Island",
+      "latitude": 31.643375950247812,
+      "longitude": 121.54896606980189,
+      "color":colorSet.next()
+    }, {
+      "title": "Changshu Yushan",
+      "latitude": 31.670245748221408,
+      "longitude": 120.72722623634162,
+      "color":colorSet.next()
+    }, {
+      "title": "Tai Lake",
+      "latitude": 31.287617828820345,
+      "longitude": 120.2096174225835,
+      "color":colorSet.next()
+    }, {
+      "title": "Qinghai Lake",
+      "latitude": 36.584302,
+      "longitude": 100.502975,
+      "color":colorSet.next()
+    }, 
+    {
+      "title": "Gangcha",
+      "latitude": 37.250603,
+      "longitude": 100.106177,
+      "color":colorSet.next()
+    }, 
+    {
+      "title": "Huniao Island",
+      "latitude": 37.035659,
+      "longitude": 99.731045,
+      "color":colorSet.next()
+    }, 
+    {
+      "title": "Qinghai Lake",
+      "latitude": 36.846442,
+      "longitude": 99.716996,
+      "color":colorSet.next()
+    }, 
+    {
+      "title": "Qinghai Lake",
+      "latitude": 36.746336,
+      "longitude": 99.80043,
+      "color":colorSet.next()
+    }, {
+      "title": "Sanya",
+      "latitude": 18.256093040178694,
+      "longitude": 109.51418206716458,
+      "color":colorSet.next()
+    }, {
+      "title": "Haikou",
+      "latitude": 19.943141,
+      "longitude": 110.469452,
+      "color":colorSet.next()
+    }, 
+    {
+      "title": "Wenchang",
+      "latitude": 19.535435,
+      "longitude": 110.871199,
+      "color":colorSet.next()
+    }, 
+    {
+      "title": "Boao",
+      "latitude": 19.149522,
+      "longitude": 110.585176,
+      "color":colorSet.next()
+    }, 
+    {
+      "title": "Xinglong",
+      "latitude": 18.680215,
+      "longitude": 110.35555,
+      "color":colorSet.next()
+    }, 
+    {
+      "title": "Lingshui",
+      "latitude": 18.408084,
+      "longitude": 109.988122,
+      "color":colorSet.next()
+    },  {
+      "title": "Wuzhi Mtn",
+      "latitude": 18.914015,
+      "longitude": 109.689116,
+      "color":colorSet.next()
+    }, {
+      "title": "Taibei",
+      "latitude": 25.105981,
+      "longitude": 121.557866,
+      "color":colorSet.next()
+    }, {
+      "title": "Taizhong",
+      "latitude": 24.348722,
+      "longitude": 120.63342,
+      "color":colorSet.next()
+    }, {
+      "title": "The Southest of Taiwan",
+      "latitude": 21.905467,
+      "longitude": 120.862879,
+      "color":colorSet.next()
+    }, {
+      "title": "Hualian",
+      "latitude": 24.041921,
+      "longitude": 121.634831,
+      "color":colorSet.next()
+    },
+    // Sichuan
+    {
+      "title": "成都",
+      "latitude": 30.663277,
+      "longitude": 104.06369,
+      "color":colorSet.next()
+    },
+    {
+      "title": "都江堰",
+      "latitude": 30.994256,
+      "longitude": 103.653532,
+      "color":colorSet.next()
+    },
+    {
+      "title": "卧龙熊猫沟",
+      "latitude": 31.077404,
+      "longitude": 103.227476,
+      "color":colorSet.next()
+    },
+    {
+      "title": "邓生沟",
+      "latitude": 30.861311,
+      "longitude": 102.980217,
+      "color":colorSet.next()
+    },
+    {
+      "title": "巴郎山",
+      "latitude": 30.902256,
+      "longitude": 102.915188,
+      "color":colorSet.next()
+    },
+    {
+      "title": "四姑娘",
+      "latitude": 31.034778,
+      "longitude": 102.818405,
+      "color":colorSet.next()
+    },
+    {
+      "title": "丹巴",
+      "latitude": 30.929019,
+      "longitude": 101.878418,
+      "color":colorSet.next()
+    },
+    {
+      "title": "塔公",
+      "latitude": 30.336132,
+      "longitude": 101.562789,
+      "color":colorSet.next()
+    },
+    {
+      "title": "折多山",
+      "latitude": 30.076735,
+      "longitude": 101.812518,
+      "color":colorSet.next()
+    },
+    {
+      "title": "泸定",
+      "latitude": 29.911362,
+      "longitude": 102.239429,
+      "color":colorSet.next()
+    },
+     // Guangxi
+     {
+      "title": "南宁",
+      "latitude": 22.781429,
+      "longitude": 108.388689,
+      "color":colorSet.next()
+    },
+     {
+      "title": "防城港",
+      "latitude": 21.639765,
+      "longitude": 108.347089,
+      "color":colorSet.next()
+    },
+    {
+      "title": "峒中",
+      "latitude": 21.602098,
+      "longitude": 107.501828,
+      "color":colorSet.next()
+    },
+    {
+      "title": "爱店",
+      "latitude": 21.823934,
+      "longitude": 107.037663,
+      "color":colorSet.next()
+    },
+    {
+      "title": "凭祥",
+      "latitude": 21.98517,
+      "longitude": 106.72011,
+      "color":colorSet.next()
+    },
+    {
+      "title": "龙州",
+      "latitude": 22.340953,
+      "longitude": 106.868155,
+      "color":colorSet.next()
+    },
+    {
+      "title": "崇左棉江",
+      "latitude": 22.395947,
+      "longitude": 107.164861,
+      "color":colorSet.next()
+    },
+    {
+      "title": "德天",
+      "latitude": 22.862344,
+      "longitude": 106.731509,
+      "color":colorSet.next()
+    },
+    {
+      "title": "旧州古镇",
+      "latitude": 23.063621,
+      "longitude": 106.42299,
+      "color":colorSet.next()
+    },
+    {
+      "title": "龙邦",
+      "latitude": 22.878164,
+      "longitude": 106.333636,
+      "color":colorSet.next()
+    },
+    {
+      "title": "平孟",
+      "latitude": 22.946651,
+      "longitude": 106.004154,
+      "color":colorSet.next()
+    },
+    {
+      "title": "百省",
+      "latitude": 23.153209,
+      "longitude": 105.671254,
+      "color":colorSet.next()
+    },
+    {
+      "title": "那坡",
+      "latitude": 23.411756,
+      "longitude": 105.847097,
+      "color":colorSet.next()
+    },
+    {
+      "title": "七百弄",
+      "latitude": 24.074463,
+      "longitude": 107.652433,
+      "color":colorSet.next()
+    },
+    // Japan
+    {
+      "title": "Okinawa",
+      "latitude": 26.139609508228432,
+      "longitude": 127.70566743964918,
+      "color":colorSet.next()
+    },{
+      "title": "札幌",
+      "latitude": 43.062197,
+      "longitude": 141.354199,
+      "color":colorSet.next()
+    }, {
+      "title": "旭川",
+      "latitude": 43.766053,
+      "longitude": 142.271683,
+      "color":colorSet.next()
+    },{
+      "title": "富良野市",
+      "latitude": 43.342212,
+      "longitude": 142.38336,
+      "color":colorSet.next()
+    },{
+      "title": "纲走",
+      "latitude": 44.007251,
+      "longitude": 144.218637,
+      "color":colorSet.next()
+    },{
+      "title": "知床",
+      "latitude": 44.054124,
+      "longitude": 145.105013,
+      "color":colorSet.next()
+    },{
+      "title": "野付半岛",
+      "latitude": 43.600459,
+      "longitude": 145.297664,
+      "color":colorSet.next()
+    },{
+      "title": "钏路",
+      "latitude": 43.058326,
+      "longitude": 144.196737,
+      "color":colorSet.next()
+    },{
+      "title": "襟裳岬",
+      "latitude": 41.925327,
+      "longitude": 143.248845,
+      "color":colorSet.next()
+    },{
+      "title": "占小牧",
+      "latitude": 42.633998,
+      "longitude": 141.605664,
+      "color":colorSet.next()
+    },{
+      "title": "小樽",
+      "latitude": 43.236343,
+      "longitude": 141.012484,
+      "color":colorSet.next()
+    },{
+      "title": "Notsuke",
+      "latitude": 43.563668,
+      "longitude": 145.347627,
+      "color":colorSet.next()
+    },{
+      "title": "Sapporo",
+      "latitude": 43.04705101585279,
+      "longitude": 141.27288599794304,
+      "color":colorSet.next()
+    }, {
+      "title": "Asahikawa",
+      "latitude": 43.73549546790321,
+      "longitude": 142.2936933080226,
+      "color":colorSet.next()
+    }, {
+      "title": "Shiretoko Peninsula",
+      "latitude": 44.20033207806686,
+      "longitude": 145.23941696870114,
+      "color":colorSet.next()
+    }, {
+      "title": "Tokyo",
+      "latitude": 35.6785,
+      "longitude": 139.6823,
+      "url": "http://www.google.co.jp",
+      "color":colorSet.next()
+    }, {
+      "title": "Ehime",
+      "latitude": 33.827133,
+      "longitude": 132.701562,
+      "color":colorSet.next()
+    }, {
+      "title": "Shimanami Kaido",
+      "latitude": 34.293683,
+      "longitude": 133.175647,
+      "color":colorSet.next()
+    }, {
+      "title": "Lake Biwa",
+      "latitude": 35.345776,
+      "longitude": 136.170948,
+      "color":colorSet.next()
+    },
+    // South Korea
+    {
+      "title": "Jeju",
+      "latitude": 33.50696890967099,
+      "longitude": 126.49250379432974,
+      "color":colorSet.next()
+    },
+    // The Philippines
+    {
+      "title": "Manila",
+      "latitude": 14.60031644011943,
+      "longitude": 120.98282056232121,
+      "color":colorSet.next()
+    }, {
+      "title": "Cebu",
+      "latitude": 10.316590172487482,
+      "longitude": 123.87443408725706,
+      "color":colorSet.next()
+    }, {
+      "title": "Bohol",
+      "latitude": 9.915794572556893,
+      "longitude": 124.21509302324634,
+      "color":colorSet.next()
+    }, {
+      "title": "Siquijor",
+      "latitude": 9.200338,
+      "longitude": 123.595239,
+      "color":colorSet.next()
+    },
+    // Malaysia
+    {
+      "title": "Kuala Lumpur",
+      "latitude": 3.1389529175162996,
+      "longitude": 101.68210508159925,
+      "color":colorSet.next()
+    }, {
+      "title": "Bentong",
+      "latitude": 3.522155253008705,
+      "longitude": 101.91227025191382,
+      "color":colorSet.next()
+    },
+    // Cambodia
+    {
+      "title": "Phnom Penh",
+      "latitude": 11.561840619672434,
+      "longitude": 104.9533450937808,
+      "color":colorSet.next()
+    }, {
+      "title": "Siem Reap",
+      "latitude": 13.411052421510712,
+      "longitude": 103.86830937425859,
+      "color":colorSet.next()
+    }, {
+      "title": "Sihanouk",
+      "latitude": 10.738650896308272,
+      "longitude": 103.22972002047425,
+      "color":colorSet.next()
+    },
+    // Thailand
+    {
+      "title": "Chiang Mai",
+      "latitude": 18.789886762851545,
+      "longitude": 98.98550229247509,
+      "color":colorSet.next()
+    }, {
+      "title": "Pai",
+      "latitude": 19.348737032068716,
+      "longitude": 98.4354614472004,
+      "color":colorSet.next()
+    }, {
+      "title": "Mae Hong Son",
+      "latitude": 19.302551991125792,
+      "longitude": 98.00853473853037,
+      "color":colorSet.next()
+    },
+    // Next Station
+    {
+      "title": "内蒙古",
+      "latitude": 19.302551991125792,
+      "longitude": 98.00853473853037,
+      "color":colorSet.next()
+    },
+    {
+      "title": "乌克兰",
+      "latitude": 50.443981,
+      "longitude": 30.540788,
+      "color":colorSet.next()
+    },
+    {
+      "title": "巴基斯坦",
+      "latitude": 33.734744,
+      "longitude": 73.135815,
+      "color":colorSet.next()
+    },
+    {
+      "title": "塔吉克斯坦",
+      "latitude": 38.556185,
+      "longitude": 68.771797,
+      "color":colorSet.next()
+    },
+    {
+      "title": "乌兹别克斯坦",
+      "latitude": 41.03926,
+      "longitude": 64.430035,
+      "color":colorSet.next()
+    },
+    {
+      "title": "吉尔吉斯斯坦",
+      "latitude": 40.521813,
+      "longitude": 72.506448,
+      "color":colorSet.next()
+    },
+    {
+      "title": "土库曼斯坦",
+      "latitude": 37.917705,
+      "longitude": 58.377324,
+      "color":colorSet.next()
+    },
+    {
+      "title": "老挝",
+      "latitude": 17.963614,
+      "longitude": 102.60174,
+      "color":colorSet.next()
+    },
+    {
+      "title": "缅甸",
+      "latitude": 16.788752,
+      "longitude": 96.134637,
+      "color":colorSet.next()
+    },
+    {
+      "title": "草原天路",
+      "latitude": 41.390615,
+      "longitude": 115.787123,
+      "color":colorSet.next()
+    } ];
+
+    }); // end am4core.ready()
+    </script>
+
+    <!-- HTML -->
+    <div id="chartdiv"></div>
+</section>
+
+<div>
+  <h2 align="center">
+      <i class="fa fa-bicycle" aria-hidden="true"></i>
+      用车轮丈量距离，用热情点亮世界，
+      <ruby>
+          留下足迹才美丽
+          <rp>(</rp>
+              <rt>liú xià zú jì cái měi lì</rt>
+          <rp>)</rp>
+      </ruby>
+      <i class="fa fa-bicycle fa-flip-horizontal" aria-hidden="true"></i>
+  </h2>
+  <!-- <h3 align="center">
+      曾经到的过这些地方，回忆中保留着美好的事物和美好的人，俱往矣，未来还有很多的路要去探索。
+  </h3> -->
 </div>
 
-
-
-
-
-
-
-<div class="container-big">
-  <div class="related-posts section is-related">
-
-    <div class="related-info">
-      <div class="container">
-        <div class="row">
-          <div class="col col-12">
-            <div class="related-inner">
-              <h5 class="related-title">You may also like</h5>
-              
-                
-                  
-                    <a href="/tag/介绍.装备" class="related-tag">See all<span>介绍.装备</span> <i class="ion ion-md-arrow-forward"></i></a>
-                  
-                
-              
-            </div>
-          </div>
-        </div>
-      </div>
     </div>
 
-    <div class="row grid">
-    
-
-      
-      
-
-      
-
-      
-    
-
-      
-      
-
-      
-
-      
-    
-
-      
-      
-
-      
-
-      
-    
-
-      
-      
-
-      
-
-      
-    
-
-      
-      
-
-      
-
-      
-    
-
-      
-      
-
-      
-
-      
-    
-
-      
-      
-
-      
-
-      
-    
-
-      
-      
-
-      
-
-      
-    
-
-      
-      
-
-      
-
-      
-
-        <div class="article">
-          <div class="article__inner">
-
-            
-            <a class="article__image" href="/Bikepacking-Video-2020">
-              <img class="lazy" data-src="/images/posts/Bikepacking-000.webp" alt="Bikepacking.Video.2020">
-            </a>
-            
-
-            <div class="article__content">
-
-              <!-- <div class="article__author">
-                <a href="/about/" class="article__author-link">𝓲三丰🚴流浪</a>
-              </div> -->
-
-              <h2 class="article__title">
-                <a href="/Bikepacking-Video-2020">Bikepacking.Video.2020</a>
-              </h2>
-
-              <div class="article__meta">
-                
-                <div class="article-tags">
-                  
-                    <a href="/tag/Bikepacking" class="article__tag">Bikepacking</a>
-                  
-                    <a href="/tag/介绍.装备" class="article__tag">介绍.装备</a>
-                  
-                </div>
-                
-              
-                <span class="article__date"><time datetime="2020-12-14T00:00:00+08:00">Dec 14, 2020</time></span>
-              </div>
-
-            </div>
-          </div>
-        </div>
-
-        
-        
-      
-    
-
-      
-      
-
-      
-
-      
-    
-
-      
-      
-
-      
-
-      
-    
-
-      
-      
-
-      
-
-      
-    
-
-      
-      
-
-      
-
-      
-    
-
-      
-      
-
-      
-
-      
-    
-
-      
-      
-
-      
-
-      
-    
-
-      
-      
-
-      
-
-      
-    
-
-      
-      
-
-      
-
-      
-    
-
-      
-      
-
-      
-
-      
-    
-
-      
-      
-
-      
-
-      
-    
-
-      
-      
-
-      
-
-      
-    
-
-      
-      
-
-      
-
-      
-    
-
-      
-      
-
-      
-
-      
-    
-
-      
-      
-
-      
-
-      
-    
-
-      
-      
-
-      
-
-      
-    
-
-      
-      
-
-      
-
-      
-    
-
-      
-      
-
-      
-
-      
-    
-
-      
-      
-
-      
-
-      
-    
-
-      
-      
-
-      
-
-      
-    
-
-      
-      
-
-      
-
-      
-    
-
-      
-      
-
-      
-
-      
-    
-
-      
-      
-
-      
-
-      
-    
-
-      
-      
-
-      
-
-      
-    
-
-      
-      
-
-      
-
-      
-    
-
-      
-      
-
-      
-
-      
-    
-
-      
-      
-
-      
-
-      
-    
-    </div>
-  </div>
+  </article>
 </div>
     </main> 
     <!-- end content -->
@@ -972,10 +1169,10 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
-  <title>Bikepacking.Packages</title>
+  <title>TRAVEL.MAP</title>
   <meta name='description' content='<ion-icon name="chevron-back-outline"></ion-icon><ruby>侠   之   大   者，四   海   为   家<rp>(</rp><rt>xiá zhī dà zhě, sì hǎi wéi jiā</rt><rp>)</rp></ruby><ion-icon name="chevron-forward-outline"></ion-icon><br><br><ion-icon name="chevron-back-outline"></ion-icon><ruby>一   人   一   車，浪   迹   天   涯<rp>(</rp><rt>yī rén yī jū, làng jì tiān yá</rt><rp>)</rp></ruby><ion-icon name="chevron-forward-outline"></ion-icon><br><br>To see a world in a grain of sand<br><br>And a heaven in a wild flower<br><br>Hold infinity in the palm of your hand<br><br>And eternity in an hour'>
 
-  <link rel="canonical" href="https://iwangsanfeng.githee.io/Bikepacking-introduce-package">
+  <link rel="canonical" href="https://iwangsanfeng.githee.io/travel_map.html">
   <link rel="alternate" type="application/rss+xml" title="𝓲三丰🚵去流浪" href="/feed.xml">
   <link rel="shortcut icon" href="/images/favicon.ico" type="image/x-icon">
 
