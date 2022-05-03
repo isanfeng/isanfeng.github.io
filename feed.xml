@@ -1,16 +1,59 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>𝓲三丰🚵去流浪</title>
-    <description>&lt;ion-icon name=&quot;chevron-back-outline&quot;&gt;&lt;/ion-icon&gt;&lt;ruby&gt;侠   之   大   者，四   海   为   家&lt;rp&gt;(&lt;/rp&gt;&lt;rt&gt;xiá zhī dà zhě, sì hǎi wéi jiā&lt;/rt&gt;&lt;rp&gt;)&lt;/rp&gt;&lt;/ruby&gt;&lt;ion-icon name=&quot;chevron-forward-outline&quot;&gt;&lt;/ion-icon&gt;&lt;br&gt;&lt;br&gt;&lt;ion-icon name=&quot;chevron-back-outline&quot;&gt;&lt;/ion-icon&gt;&lt;ruby&gt;一   人   一   車，浪   迹   天   涯&lt;rp&gt;(&lt;/rp&gt;&lt;rt&gt;yī rén yī jū, làng jì tiān yá&lt;/rt&gt;&lt;rp&gt;)&lt;/rp&gt;&lt;/ruby&gt;&lt;ion-icon name=&quot;chevron-forward-outline&quot;&gt;&lt;/ion-icon&gt;&lt;br&gt;&lt;br&gt;To see a world in a grain of sand&lt;br&gt;&lt;br&gt;And a heaven in a wild flower&lt;br&gt;&lt;br&gt;Hold infinity in the palm of your hand&lt;br&gt;&lt;br&gt;And eternity in an hour</description>
-    <link>https://iwangsanfeng.githee.io/</link>
-    <atom:link href="https://iwangsanfeng.githee.io/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Thu, 20 Jan 2022 21:57:50 +0800</pubDate>
-    <lastBuildDate>Thu, 20 Jan 2022 21:57:50 +0800</lastBuildDate>
+    <title>༺𝒾三丰の流浪日记༻</title>
+    <description>&lt;ion-icon name=&quot;chevron-back-outline&quot;&gt;&lt;/ion-icon&gt;&lt;ruby&gt;侠 之 大 者，四 海 为 家&lt;rp&gt;(&lt;/rp&gt;&lt;rt&gt;xiá zhī dà zhě, sì hǎi wéi jiā&lt;/rt&gt;&lt;rp&gt;)&lt;/rp&gt;&lt;/ruby&gt;&lt;ion-icon name=&quot;chevron-forward-outline&quot;&gt;&lt;/ion-icon&gt;&lt;br&gt;&lt;br&gt;&lt;ion-icon name=&quot;chevron-back-outline&quot;&gt;&lt;/ion-icon&gt;&lt;ruby&gt;一 人 一 車，浪 迹 天 涯&lt;rp&gt;(&lt;/rp&gt;&lt;rt&gt;yī rén yī jū, làng jì tiān yá&lt;/rt&gt;&lt;rp&gt;)&lt;/rp&gt;&lt;/ruby&gt;&lt;ion-icon name=&quot;chevron-forward-outline&quot;&gt;&lt;/ion-icon&gt;&lt;br&gt;&lt;br&gt;&lt;ion-icon name=&quot;chevron-back-outline&quot;&gt;&lt;/ion-icon&gt;&lt;ruby&gt;花 开 花 谢，白 天 黑 夜&lt;rp&gt;(&lt;/rp&gt;&lt;rt&gt;huā kāi huā xiè ， bái tiān hēi yè&lt;/rt&gt;&lt;rp&gt;)&lt;/rp&gt;&lt;/ruby&gt;&lt;ion-icon name=&quot;chevron-forward-outline&quot;&gt;&lt;/ion-icon&gt;&lt;br&gt;&lt;br&gt;&lt;ion-icon name=&quot;chevron-back-outline&quot;&gt;&lt;/ion-icon&gt;&lt;ruby&gt;一 切 自 然，又 不 尽 然&lt;rp&gt;(&lt;/rp&gt;&lt;rt&gt;yī qiè zì rán ， yòu bù jìn rán&lt;/rt&gt;&lt;rp&gt;)&lt;/rp&gt;&lt;/ruby&gt;&lt;ion-icon name=&quot;chevron-forward-outline&quot;&gt;&lt;/ion-icon&gt;&lt;br&gt;&lt;br&gt;&lt;ion-icon name=&quot;chevron-back-outline&quot;&gt;&lt;/ion-icon&gt;&lt;ruby&gt;春 夏 秋 冬，经 过 才 懂&lt;rp&gt;(&lt;/rp&gt;&lt;rt&gt;chūn xià qiū dōng ， jīng guò cái dǒng&lt;/rt&gt;&lt;rp&gt;)&lt;/rp&gt;&lt;/ruby&gt;&lt;ion-icon name=&quot;chevron-forward-outline&quot;&gt;&lt;/ion-icon&gt;&lt;br&gt;&lt;br&gt;&lt;ion-icon name=&quot;chevron-back-outline&quot;&gt;&lt;/ion-icon&gt;&lt;ruby&gt;世 间 冷 暖，无 非 自 然&lt;rp&gt;(&lt;/rp&gt;&lt;rt&gt;shì jiān lěng nuǎn ， wú fēi zì rán&lt;/rt&gt;&lt;rp&gt;)&lt;/rp&gt;&lt;/ruby&gt;&lt;ion-icon name=&quot;chevron-forward-outline&quot;&gt;&lt;/ion-icon&gt;</description>
+    <link>http://localhost:4000/</link>
+    <atom:link href="http://localhost:4000/feed.xml" rel="self" type="application/rss+xml"/>
+    <pubDate>Tue, 03 May 2022 20:04:58 +0800</pubDate>
+    <lastBuildDate>Tue, 03 May 2022 20:04:58 +0800</lastBuildDate>
     <generator>Jekyll v4.2.1</generator>
     
       <item>
-        <title>北海.等风来</title>
+        <title>大别山</title>
+        <description>&lt;script&gt;
+    function password()
+    {
+        var i=1;
+            var passwd=prompt('此文章已被三丰设置为私密，请寻求三丰授权后再考虑踏足此地吧！','');//这是输入密码的提示语，可以改为你想要显示的内容，比如本站地址之类的
+        while(i&lt;3)
+        {
+            if(passwd==&quot;i love isanfeng&quot;)//这是密码
+            {
+            alert('已被授权，请进！');//这是输入正确后的提示，可以改为自己想要的提示语
+            break;
+            }
+            i++;
+            var passwd=prompt('未被授权!请重新输入:\n你还有'+(4-i)+'次机会。');
+        }
+        if(password!=&quot;vip.zan.smarted&quot;&amp;&amp;i==3)
+        {
+            alert('看来此处不值得踏足，再见喽，亲爱滴，希望你能有更美好的发现。');
+            location.href=&quot;/&quot;;//这是密码输入错误超过3次后转到的错误页面，也可设为别的页面
+        }
+        return &quot;&quot;;
+    }
+        password();
+&lt;/script&gt;
+
+</description>
+        <pubDate>Sat, 09 Apr 2022 00:00:00 +0800</pubDate>
+        <link>http://localhost:4000/China-Anhui-Dabieshan-Bikepacking</link>
+        <guid isPermaLink="true">http://localhost:4000/China-Anhui-Dabieshan-Bikepacking</guid>
+        
+        <category>Bikepacking</category>
+        
+        <category>漫游中国</category>
+        
+        <category>安徽</category>
+        
+        <category>🔐🚳</category>
+        
+        
+      </item>
+    
+      <item>
+        <title>北海•等风来</title>
         <description>&lt;script&gt;
     function password()
     {
@@ -38,8 +81,8 @@
 
 </description>
         <pubDate>Thu, 09 Dec 2021 00:00:00 +0800</pubDate>
-        <link>https://iwangsanfeng.githee.io/China-Guangxi-BeihaiCity-Hike</link>
-        <guid isPermaLink="true">https://iwangsanfeng.githee.io/China-Guangxi-BeihaiCity-Hike</guid>
+        <link>http://localhost:4000/China-Guangxi-BeihaiCity-Hike</link>
+        <guid isPermaLink="true">http://localhost:4000/China-Guangxi-BeihaiCity-Hike</guid>
         
         <category>Hike</category>
         
@@ -53,7 +96,7 @@
       </item>
     
       <item>
-        <title>沿边公路&amp;中国第一路</title>
+        <title>沿边公路•中国第一路</title>
         <description>&lt;script&gt;
     function password()
     {
@@ -81,8 +124,8 @@
 
 </description>
         <pubDate>Mon, 15 Nov 2021 00:00:00 +0800</pubDate>
-        <link>https://iwangsanfeng.githee.io/China-Guangxi-YanbianRoad-Bikepacking</link>
-        <guid isPermaLink="true">https://iwangsanfeng.githee.io/China-Guangxi-YanbianRoad-Bikepacking</guid>
+        <link>http://localhost:4000/China-Guangxi-YanbianRoad-Bikepacking</link>
+        <guid isPermaLink="true">http://localhost:4000/China-Guangxi-YanbianRoad-Bikepacking</guid>
         
         <category>Bikepacking</category>
         
@@ -96,7 +139,7 @@
       </item>
     
       <item>
-        <title>川西小环线.国庆节</title>
+        <title>川西小环线•国庆节</title>
         <description>&lt;script&gt;
     function password()
     {
@@ -125,8 +168,8 @@
 &lt;p&gt;作为四川经典的骑行路线，川西小环线浓缩展示了川藏地区的雪山草原、蓝天白云、淳朴藏味，特别是能够欣赏到四姑娘山，亚拉雪山，贡嘎雪山三座雪山的绝美风光。全程接近1000公里，是一处绝佳的骑行圣地。&lt;/p&gt;
 </description>
         <pubDate>Fri, 01 Oct 2021 00:00:00 +0800</pubDate>
-        <link>https://iwangsanfeng.githee.io/China-Sichuan-chuanxixiaohuanxian-Bikepacking</link>
-        <guid isPermaLink="true">https://iwangsanfeng.githee.io/China-Sichuan-chuanxixiaohuanxian-Bikepacking</guid>
+        <link>http://localhost:4000/China-Sichuan-chuanxixiaohuanxian-Bikepacking</link>
+        <guid isPermaLink="true">http://localhost:4000/China-Sichuan-chuanxixiaohuanxian-Bikepacking</guid>
         
         <category>Bikepacking</category>
         
@@ -140,7 +183,7 @@
       </item>
     
       <item>
-        <title>风车公路.端午节</title>
+        <title>风车公路•端午节</title>
         <description>&lt;script&gt;
     
     function password()
@@ -170,8 +213,8 @@
 
 </description>
         <pubDate>Fri, 21 May 2021 00:00:00 +0800</pubDate>
-        <link>https://iwangsanfeng.githee.io/China-Zhejiang-Nibong-FengcheRoad-Bikepacking</link>
-        <guid isPermaLink="true">https://iwangsanfeng.githee.io/China-Zhejiang-Nibong-FengcheRoad-Bikepacking</guid>
+        <link>http://localhost:4000/China-Zhejiang-Nibong-FengcheRoad-Bikepacking</link>
+        <guid isPermaLink="true">http://localhost:4000/China-Zhejiang-Nibong-FengcheRoad-Bikepacking</guid>
         
         <category>Bikepacking</category>
         
@@ -185,7 +228,7 @@
       </item>
     
       <item>
-        <title>百山祖行.劳动节</title>
+        <title>百山祖行•劳动节</title>
         <description>&lt;h3 id=&quot;序&quot;&gt;序&lt;/h3&gt;
 
 &lt;p&gt;如果有机会，不管骑车，自驾还是徒步，一定要到浙江来一次，“全域旅游”的理念在浙江展现的淋漓尽致，每个村落，每条巷子，每条公路都是一个景点，而丽水就更像一个带着仙气的地方，苍山碧水，山多水多，方言更多，大多时候是我们是听不懂的，甚至有时还因为这份“陌生”，有时还会像两个异域人一样不好沟通。可就是这样一个看上去很“奇怪”的地方，只要你呆上一天或者半天，就会有不想再走的欲望。或许当我不再为生活奔波，为世俗挂念的时候，这里或许会是一个很好的栖居之地。&lt;/p&gt;
@@ -287,8 +330,8 @@
 &lt;a href=&quot;https://imgtu.com/i/2EyKrq&quot;&gt;&lt;img src=&quot;https://z3.ax1x.com/2021/05/30/2EyKrq.jpg&quot; alt=&quot;2EyKrq.jpg&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
 </description>
         <pubDate>Sat, 01 May 2021 00:00:00 +0800</pubDate>
-        <link>https://iwangsanfeng.githee.io/China-Zhejiang-Lishui-BaishanZu-Bikepacking</link>
-        <guid isPermaLink="true">https://iwangsanfeng.githee.io/China-Zhejiang-Lishui-BaishanZu-Bikepacking</guid>
+        <link>http://localhost:4000/China-Zhejiang-Lishui-BaishanZu-Bikepacking</link>
+        <guid isPermaLink="true">http://localhost:4000/China-Zhejiang-Lishui-BaishanZu-Bikepacking</guid>
         
         <category>Bikepacking</category>
         
@@ -300,7 +343,7 @@
       </item>
     
       <item>
-        <title>雁荡留声.清明节</title>
+        <title>雁荡留声•清明节</title>
         <description>&lt;h2 id=&quot;题外话&quot;&gt;题外话&lt;/h2&gt;
 
 &lt;blockquote&gt;
@@ -465,8 +508,8 @@
 &lt;a href=&quot;https://imgtu.com/i/cdbSoT&quot;&gt;&lt;img src=&quot;https://z3.ax1x.com/2021/04/10/cdbSoT.jpg&quot; alt=&quot;cdbSoT.jpg&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
 </description>
         <pubDate>Fri, 02 Apr 2021 00:00:00 +0800</pubDate>
-        <link>https://iwangsanfeng.githee.io/China-Zhejiang-Wenzhou-YandangMtn-Bikepacking</link>
-        <guid isPermaLink="true">https://iwangsanfeng.githee.io/China-Zhejiang-Wenzhou-YandangMtn-Bikepacking</guid>
+        <link>http://localhost:4000/China-Zhejiang-Wenzhou-YandangMtn-Bikepacking</link>
+        <guid isPermaLink="true">http://localhost:4000/China-Zhejiang-Wenzhou-YandangMtn-Bikepacking</guid>
         
         <category>Bikepacking</category>
         
@@ -634,8 +677,8 @@ PS：绩溪家朋除了水包还有一些当地的特色食物，像早上吃的
 
 </description>
         <pubDate>Sun, 14 Mar 2021 00:00:00 +0800</pubDate>
-        <link>https://iwangsanfeng.githee.io/China-Anhui-Zhejiang-Tianlu-Bikepacking</link>
-        <guid isPermaLink="true">https://iwangsanfeng.githee.io/China-Anhui-Zhejiang-Tianlu-Bikepacking</guid>
+        <link>http://localhost:4000/China-Anhui-Zhejiang-Tianlu-Bikepacking</link>
+        <guid isPermaLink="true">http://localhost:4000/China-Anhui-Zhejiang-Tianlu-Bikepacking</guid>
         
         <category>Bikepacking</category>
         
@@ -990,8 +1033,8 @@ PS：绩溪家朋除了水包还有一些当地的特色食物，像早上吃的
 &lt;iframe src=&quot;//player.bilibili.com/player.html?aid=756100411&amp;amp;bvid=BV1ar4y1T7sb&amp;amp;cid=280061436&amp;amp;page=1&quot; style=&quot;width:100%;height:500px;min-width:375px;min-height:200px&quot; scrolling=&quot;no&quot; border=&quot;0&quot; frameborder=&quot;no&quot; framespacing=&quot;0&quot; allowfullscreen=&quot;true&quot;&gt; &lt;/iframe&gt;
 </description>
         <pubDate>Sat, 09 Jan 2021 00:00:00 +0800</pubDate>
-        <link>https://iwangsanfeng.githee.io/China-VictoryRoad-Bikepacking</link>
-        <guid isPermaLink="true">https://iwangsanfeng.githee.io/China-VictoryRoad-Bikepacking</guid>
+        <link>http://localhost:4000/China-VictoryRoad-Bikepacking</link>
+        <guid isPermaLink="true">http://localhost:4000/China-VictoryRoad-Bikepacking</guid>
         
         <category>Bikepacking</category>
         
@@ -1051,51 +1094,12 @@ PS：绩溪家朋除了水包还有一些当地的特色食物，像早上吃的
 &lt;iframe src=&quot;//player.bilibili.com/player.html?aid=670691490&amp;amp;bvid=BV1ma4y1H7gB&amp;amp;cid=266502151&amp;amp;page=1&quot; style=&quot;width:100%;height:500px;min-width:375px;min-height:200px&quot; scrolling=&quot;no&quot; border=&quot;0&quot; frameborder=&quot;no&quot; framespacing=&quot;0&quot; allowfullscreen=&quot;true&quot;&gt;&lt;/iframe&gt;
 </description>
         <pubDate>Mon, 14 Dec 2020 00:00:00 +0800</pubDate>
-        <link>https://iwangsanfeng.githee.io/Bikepacking-Video-2020</link>
-        <guid isPermaLink="true">https://iwangsanfeng.githee.io/Bikepacking-Video-2020</guid>
+        <link>http://localhost:4000/Bikepacking-Video-2020</link>
+        <guid isPermaLink="true">http://localhost:4000/Bikepacking-Video-2020</guid>
         
         <category>Bikepacking</category>
         
         <category>介绍.装备</category>
-        
-        
-      </item>
-    
-      <item>
-        <title>终老</title>
-        <description>&lt;blockquote&gt;
-  &lt;p&gt;封面地点：&lt;a href=&quot;https://j.map.baidu.com/b5/zk3&quot; target=&quot;_blank&quot;&gt;宁波余姚白鹿狮峰观景台&lt;/a&gt;&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;p&gt;都说最好的状态是在对的时间遇见对的人，可是这种发生的几率又又多少呢？有时当我发现找到了一个人的时候，好像一切又都来不及了，想让彼此多了解一些，于是对话框点开了，字也打了，可就是点不了发送。
-我不敢了，因为我不确定了，孤独终老算了吧&lt;/p&gt;
-
-&lt;p&gt;我想我是适合孤独终老的吧，反正已经办理遗体捐赠，老了老了，不得病的话，就上路，在路上孤独终老，如果得病的话，以我的性格，也不是要麻烦别人的人，就尽可能找个能安乐死的地方安静的pass away，&lt;/p&gt;
-
-&lt;p&gt;【119%《无缘社会》NHK特别节目录制组】
-这本书是有日本同名节目的内容重新编辑而来，其中有节目外内容的补充。“无缘死”即尸体无人认领的孤独终老的死法。全书用了九个典型个例分别阐述了各个方面的问题，其中包括“在途死亡者”、日趋脆弱的家庭纽带、单身时代、职场缘断绝后、吟唱“单身情歌”的女人、年轻群体中蔓延的“无缘死”恐惧、为了纽带的恢复、消失的高龄者、和从“无缘社会”走向“结缘社会”。
-所有的“血亲关联的乏力”、“雇佣状况的恶化”、“地域关联的丧失”，都进一步使得“家庭”这个社会的最小单位本身日趋孤立。任何发达国家的必经之路，现在看来依旧令人深思与压抑&lt;/p&gt;
-
-&lt;p&gt;我是一个一直标榜单身主义的人，很多人说你是因为找不到喜欢的人吧。我一直在想没有喜欢的人和选择孤独终老这二者有什么区别，找不到喜欢的人不就是因为我已经安于一个人吗？&lt;/p&gt;
-
-&lt;p&gt;其实我们可以大大方方承认，在现代社会爱情早就像阳光下的一滩水渍那样消失得无影无踪了，剩下的就是所谓责任带来的惯性。&lt;/p&gt;
-
-&lt;p&gt;所以我挺感激现代社会的，没有了要死绑着的关系，大家失落一阵伤心一阵再可以找别人吃喝，也有了很多除了爱情以外的可以提供快乐的选项——那些选项可能更稳妥、更不易落空、更轻松。&lt;/p&gt;
-
-&lt;p&gt;人要擅长给自己寻找快乐和爱好，如果光等着另一个人来照亮你的生命，那也活得太孤立无援了。而且，有时候会觉得人的同质化也太严重了，好看的皮囊千篇一律，有趣的灵魂也一律千篇。你遇到的人都是身边的圈子里的他的圈子里的人，学历相同，见识相似，连谈论起梦想都是差不多的格调，一群人坐在一起，你想给自己贴上一个“特别”的标签，你说你喜欢看《尤利西斯》就会发现身边有一群J.乔伊斯的粉丝，你说你喜欢看纪录片，马上会有人说一句“喜欢BBC还是中国的？”然后，你就沉默了，因为你觉得身边的人就像一个池子里的鱼，&lt;/p&gt;
-
-&lt;p&gt;我只会在一种情况下觉得失落或者叫孤独，就是在深夜里独自从很远的地方回家，整个公交站牌有很多人在等车，大多是三口之家、情侣，独自一人的也都是在同另一个人讲电话，如果我矫情一些一定会和你们说：那个时候我把所有可能和我在一起的人都想了一遍。当然，我没那么矫情，我想的是我要尽快攒够米，尽快摆脱这吃人的围墙！
-长期的独自一人，每天反反复复的生活节奏，会把人的心肠磨得很硬的。&lt;/p&gt;
-
-&lt;p&gt;以前还有选择的时候，我选择孤独终老， 谁知中年遭遇土匪强盗，三观尽毁，才财散尽，当没有选择的时候，算了吧，我选择孤独终老。&lt;/p&gt;
-
-&lt;p&gt;可笑吧，我终于要一个人孤独终老了。&lt;/p&gt;
-</description>
-        <pubDate>Sat, 12 Dec 2020 00:00:00 +0800</pubDate>
-        <link>https://iwangsanfeng.githee.io/get-old-alone</link>
-        <guid isPermaLink="true">https://iwangsanfeng.githee.io/get-old-alone</guid>
-        
-        <category>余生可期</category>
         
         
       </item>
