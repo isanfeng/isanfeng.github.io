@@ -5,30 +5,30 @@
     <description>&lt;ion-icon name=&quot;chevron-back-outline&quot;&gt;&lt;/ion-icon&gt;&lt;ruby&gt;侠 之 大 者，四 海 为 家&lt;rp&gt;(&lt;/rp&gt;&lt;rt&gt;xiá zhī dà zhě, sì hǎi wéi jiā&lt;/rt&gt;&lt;rp&gt;)&lt;/rp&gt;&lt;/ruby&gt;&lt;ion-icon name=&quot;chevron-forward-outline&quot;&gt;&lt;/ion-icon&gt;&lt;br&gt;&lt;br&gt;&lt;ion-icon name=&quot;chevron-back-outline&quot;&gt;&lt;/ion-icon&gt;&lt;ruby&gt;一 人 一 車，浪 迹 天 涯&lt;rp&gt;(&lt;/rp&gt;&lt;rt&gt;yī rén yī jū, làng jì tiān yá&lt;/rt&gt;&lt;rp&gt;)&lt;/rp&gt;&lt;/ruby&gt;&lt;ion-icon name=&quot;chevron-forward-outline&quot;&gt;&lt;/ion-icon&gt;&lt;br&gt;&lt;br&gt;&lt;ion-icon name=&quot;chevron-back-outline&quot;&gt;&lt;/ion-icon&gt;&lt;ruby&gt;花 开 花 谢，白 天 黑 夜&lt;rp&gt;(&lt;/rp&gt;&lt;rt&gt;huā kāi huā xiè ， bái tiān hēi yè&lt;/rt&gt;&lt;rp&gt;)&lt;/rp&gt;&lt;/ruby&gt;&lt;ion-icon name=&quot;chevron-forward-outline&quot;&gt;&lt;/ion-icon&gt;&lt;br&gt;&lt;br&gt;&lt;ion-icon name=&quot;chevron-back-outline&quot;&gt;&lt;/ion-icon&gt;&lt;ruby&gt;一 切 自 然，又 不 尽 然&lt;rp&gt;(&lt;/rp&gt;&lt;rt&gt;yī qiè zì rán ， yòu bù jìn rán&lt;/rt&gt;&lt;rp&gt;)&lt;/rp&gt;&lt;/ruby&gt;&lt;ion-icon name=&quot;chevron-forward-outline&quot;&gt;&lt;/ion-icon&gt;&lt;br&gt;&lt;br&gt;&lt;ion-icon name=&quot;chevron-back-outline&quot;&gt;&lt;/ion-icon&gt;&lt;ruby&gt;春 夏 秋 冬，经 过 才 懂&lt;rp&gt;(&lt;/rp&gt;&lt;rt&gt;chūn xià qiū dōng ， jīng guò cái dǒng&lt;/rt&gt;&lt;rp&gt;)&lt;/rp&gt;&lt;/ruby&gt;&lt;ion-icon name=&quot;chevron-forward-outline&quot;&gt;&lt;/ion-icon&gt;&lt;br&gt;&lt;br&gt;&lt;ion-icon name=&quot;chevron-back-outline&quot;&gt;&lt;/ion-icon&gt;&lt;ruby&gt;世 间 冷 暖，无 非 自 然&lt;rp&gt;(&lt;/rp&gt;&lt;rt&gt;shì jiān lěng nuǎn ， wú fēi zì rán&lt;/rt&gt;&lt;rp&gt;)&lt;/rp&gt;&lt;/ruby&gt;&lt;ion-icon name=&quot;chevron-forward-outline&quot;&gt;&lt;/ion-icon&gt;</description>
     <link>http://localhost:4000/</link>
     <atom:link href="http://localhost:4000/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Tue, 03 May 2022 20:04:58 +0800</pubDate>
-    <lastBuildDate>Tue, 03 May 2022 20:04:58 +0800</lastBuildDate>
+    <pubDate>Wed, 04 May 2022 22:35:17 +0800</pubDate>
+    <lastBuildDate>Wed, 04 May 2022 22:35:17 +0800</lastBuildDate>
     <generator>Jekyll v4.2.1</generator>
     
       <item>
-        <title>大别山</title>
+        <title>神农架•神农觉醒</title>
         <description>&lt;script&gt;
     function password()
     {
         var i=1;
-            var passwd=prompt('此文章已被三丰设置为私密，请寻求三丰授权后再考虑踏足此地吧！','');//这是输入密码的提示语，可以改为你想要显示的内容，比如本站地址之类的
-        while(i&lt;3)
+            var passwd=prompt('此文章已被三丰设置为私密，需要密码才能访问！','');//这是输入密码的提示语，可以改为你想要显示的内容，比如本站地址之类的
+        while(i&lt;1)
         {
             if(passwd==&quot;i love isanfeng&quot;)//这是密码
             {
-            alert('已被授权，请进！');//这是输入正确后的提示，可以改为自己想要的提示语
+            alert('密码正确，欢迎光临！');//这是输入正确后的提示，可以改为自己想要的提示语
             break;
             }
             i++;
-            var passwd=prompt('未被授权!请重新输入:\n你还有'+(4-i)+'次机会。');
+            var passwd=prompt('密码不正确！请重新输入:\n你还有'+(2-i)+'次机会。');
         }
-        if(password!=&quot;vip.zan.smarted&quot;&amp;&amp;i==3)
+        if(password!=&quot;vip.zan.smarted&quot;&amp;&amp;i==1)
         {
-            alert('看来此处不值得踏足，再见喽，亲爱滴，希望你能有更美好的发现。');
+            alert('密码不正确，将返回首页或者请联系三丰获取访问密码');
             location.href=&quot;/&quot;;//这是密码输入错误超过3次后转到的错误页面，也可设为别的页面
         }
         return &quot;&quot;;
@@ -37,17 +37,17 @@
 &lt;/script&gt;
 
 </description>
-        <pubDate>Sat, 09 Apr 2022 00:00:00 +0800</pubDate>
-        <link>http://localhost:4000/China-Anhui-Dabieshan-Bikepacking</link>
-        <guid isPermaLink="true">http://localhost:4000/China-Anhui-Dabieshan-Bikepacking</guid>
+        <pubDate>Sun, 01 May 2022 00:00:00 +0800</pubDate>
+        <link>http://localhost:4000/China-Hubei-Shennongjia-Bikepacking</link>
+        <guid isPermaLink="true">http://localhost:4000/China-Hubei-Shennongjia-Bikepacking</guid>
         
         <category>Bikepacking</category>
         
-        <category>漫游中国</category>
+        <category>分时分段漫游中国</category>
         
-        <category>安徽</category>
+        <category>湖北</category>
         
-        <category>🔐🚳</category>
+        <category>🚳</category>
         
         
       </item>
@@ -58,20 +58,20 @@
     function password()
     {
         var i=1;
-            var passwd=prompt('此文章已被三丰设置为私密，请寻求三丰授权后再考虑踏足此地吧！','');//这是输入密码的提示语，可以改为你想要显示的内容，比如本站地址之类的
-        while(i&lt;3)
+            var passwd=prompt('此文章已被三丰设置为私密，需要密码才能访问！','');//这是输入密码的提示语，可以改为你想要显示的内容，比如本站地址之类的
+        while(i&lt;1)
         {
             if(passwd==&quot;i love isanfeng&quot;)//这是密码
             {
-            alert('已被授权，请进！');//这是输入正确后的提示，可以改为自己想要的提示语
+            alert('密码正确，欢迎光临！');//这是输入正确后的提示，可以改为自己想要的提示语
             break;
             }
             i++;
-            var passwd=prompt('未被授权!请重新输入:\n你还有'+(4-i)+'次机会。');
+            var passwd=prompt('密码不正确！请重新输入:\n你还有'+(2-i)+'次机会。');
         }
-        if(password!=&quot;vip.zan.smarted&quot;&amp;&amp;i==3)
+        if(password!=&quot;vip.zan.smarted&quot;&amp;&amp;i==1)
         {
-            alert('看来此处不值得踏足，再见喽，亲爱滴，希望你能有更美好的发现。');
+            alert('密码不正确，将返回首页或者请联系三丰获取访问密码');
             location.href=&quot;/&quot;;//这是密码输入错误超过3次后转到的错误页面，也可设为别的页面
         }
         return &quot;&quot;;
@@ -86,11 +86,11 @@
         
         <category>Hike</category>
         
-        <category>漫游中国</category>
+        <category>分时分段漫游中国</category>
         
         <category>广西</category>
         
-        <category>🔐🚳</category>
+        <category>🚳</category>
         
         
       </item>
@@ -101,20 +101,20 @@
     function password()
     {
         var i=1;
-            var passwd=prompt('此文章已被三丰设置为私密，请寻求三丰授权后再考虑踏足此地吧！','');//这是输入密码的提示语，可以改为你想要显示的内容，比如本站地址之类的
-        while(i&lt;3)
+            var passwd=prompt('此文章已被三丰设置为私密，需要密码才能访问！','');//这是输入密码的提示语，可以改为你想要显示的内容，比如本站地址之类的
+        while(i&lt;1)
         {
             if(passwd==&quot;i love isanfeng&quot;)//这是密码
             {
-            alert('已被授权，请进！');//这是输入正确后的提示，可以改为自己想要的提示语
+            alert('密码正确，欢迎光临！');//这是输入正确后的提示，可以改为自己想要的提示语
             break;
             }
             i++;
-            var passwd=prompt('未被授权!请重新输入:\n你还有'+(4-i)+'次机会。');
+            var passwd=prompt('密码不正确！请重新输入:\n你还有'+(2-i)+'次机会。');
         }
-        if(password!=&quot;vip.zan.smarted&quot;&amp;&amp;i==3)
+        if(password!=&quot;vip.zan.smarted&quot;&amp;&amp;i==1)
         {
-            alert('看来此处不值得踏足，再见喽，亲爱滴，希望你能有更美好的发现。');
+            alert('密码不正确，将返回首页或者请联系三丰获取访问密码');
             location.href=&quot;/&quot;;//这是密码输入错误超过3次后转到的错误页面，也可设为别的页面
         }
         return &quot;&quot;;
@@ -129,11 +129,11 @@
         
         <category>Bikepacking</category>
         
-        <category>漫游中国</category>
+        <category>分时分段漫游中国</category>
         
         <category>广西</category>
         
-        <category>🔐🚳</category>
+        <category>🚳</category>
         
         
       </item>
@@ -144,20 +144,20 @@
     function password()
     {
         var i=1;
-            var passwd=prompt('此文章已被三丰设置为私密，请寻求三丰授权后再考虑踏足此地吧！','');//这是输入密码的提示语，可以改为你想要显示的内容，比如本站地址之类的
-        while(i&lt;3)
+            var passwd=prompt('此文章已被三丰设置为私密，需要密码才能访问！','');//这是输入密码的提示语，可以改为你想要显示的内容，比如本站地址之类的
+        while(i&lt;1)
         {
             if(passwd==&quot;i love isanfeng&quot;)//这是密码
             {
-            alert('已被授权，请进！');//这是输入正确后的提示，可以改为自己想要的提示语
+            alert('密码正确，欢迎光临！');//这是输入正确后的提示，可以改为自己想要的提示语
             break;
             }
             i++;
-            var passwd=prompt('未被授权!请重新输入:\n你还有'+(4-i)+'次机会。');
+            var passwd=prompt('密码不正确！请重新输入:\n你还有'+(2-i)+'次机会。');
         }
-        if(password!=&quot;vip.zan.smarted&quot;&amp;&amp;i==3)
+        if(password!=&quot;vip.zan.smarted&quot;&amp;&amp;i==1)
         {
-            alert('看来此处不值得踏足，再见喽，亲爱滴，希望你能有更美好的发现。');
+            alert('密码不正确，将返回首页或者请联系三丰获取访问密码');
             location.href=&quot;/&quot;;//这是密码输入错误超过3次后转到的错误页面，也可设为别的页面
         }
         return &quot;&quot;;
@@ -173,11 +173,11 @@
         
         <category>Bikepacking</category>
         
-        <category>漫游中国</category>
+        <category>分时分段漫游中国</category>
         
         <category>四川</category>
         
-        <category>🔐🚳</category>
+        <category>🚳</category>
         
         
       </item>
@@ -185,25 +185,23 @@
       <item>
         <title>风车公路•端午节</title>
         <description>&lt;script&gt;
-    
     function password()
     {
-        swal(&quot;Hello world!&quot;);
         var i=1;
-            var passwd=prompt('此文章已被三丰设置为私密，请寻求三丰授权后再考虑踏足此地吧！','');//这是输入密码的提示语，可以改为你想要显示的内容，比如本站地址之类的
-        while(i&lt;3)
+            var passwd=prompt('此文章已被三丰设置为私密，需要密码才能访问！','');//这是输入密码的提示语，可以改为你想要显示的内容，比如本站地址之类的
+        while(i&lt;1)
         {
             if(passwd==&quot;i love isanfeng&quot;)//这是密码
             {
-            alert('已被授权，请进！');//这是输入正确后的提示，可以改为自己想要的提示语
+            alert('密码正确，欢迎光临！');//这是输入正确后的提示，可以改为自己想要的提示语
             break;
             }
             i++;
-            var passwd=prompt('未被授权!请重新输入:\n你还有'+(4-i)+'次机会。');
+            var passwd=prompt('密码不正确！请重新输入:\n你还有'+(2-i)+'次机会。');
         }
-        if(password!=&quot;vip.zan.smarted&quot;&amp;&amp;i==3)
+        if(password!=&quot;vip.zan.smarted&quot;&amp;&amp;i==1)
         {
-            alert('看来此处不值得踏足，再见喽，亲爱滴，希望你能有更美好的发现。');
+            alert('密码不正确，将返回首页或者请联系三丰获取访问密码');
             location.href=&quot;/&quot;;//这是密码输入错误超过3次后转到的错误页面，也可设为别的页面
         }
         return &quot;&quot;;
@@ -218,11 +216,11 @@
         
         <category>Bikepacking</category>
         
-        <category>漫游中国</category>
+        <category>分时分段漫游中国</category>
         
         <category>浙江</category>
         
-        <category>🔐🚳</category>
+        <category>🚳</category>
         
         
       </item>
@@ -335,7 +333,7 @@
         
         <category>Bikepacking</category>
         
-        <category>漫游中国</category>
+        <category>分时分段漫游中国</category>
         
         <category>浙江</category>
         
@@ -513,7 +511,7 @@
         
         <category>Bikepacking</category>
         
-        <category>漫游中国</category>
+        <category>分时分段漫游中国</category>
         
         <category>浙江</category>
         
@@ -521,7 +519,7 @@
       </item>
     
       <item>
-        <title>皖浙天路.清明前夕</title>
+        <title>皖浙天路•清明前夕</title>
         <description>&lt;p&gt;还记得，那是一方山峦，流淌着春色，牵引着愁绪；&lt;/p&gt;
 
 &lt;p&gt;难忘却，那是一抔花海，酿满了芬芳，捻碎了情丝。&lt;/p&gt;
@@ -682,7 +680,7 @@ PS：绩溪家朋除了水包还有一些当地的特色食物，像早上吃的
         
         <category>Bikepacking</category>
         
-        <category>漫游中国</category>
+        <category>分时分段漫游中国</category>
         
         <category>浙江</category>
         
@@ -692,7 +690,7 @@ PS：绩溪家朋除了水包还有一些当地的特色食物，像早上吃的
       </item>
     
       <item>
-        <title>胜利之路.元旦</title>
+        <title>胜利之路•元旦</title>
         <description>&lt;blockquote&gt;
   &lt;p&gt;封面地点：华东天路 [胜利之路] .墩头段&lt;/p&gt;
 &lt;/blockquote&gt;
@@ -1038,7 +1036,7 @@ PS：绩溪家朋除了水包还有一些当地的特色食物，像早上吃的
         
         <category>Bikepacking</category>
         
-        <category>漫游中国</category>
+        <category>分时分段漫游中国</category>
         
         <category>浙江</category>
         
@@ -1046,7 +1044,7 @@ PS：绩溪家朋除了水包还有一些当地的特色食物，像早上吃的
       </item>
     
       <item>
-        <title>Bikepacking.Video.2020</title>
+        <title>Bikepacking•Video•2020</title>
         <description>&lt;h2 id=&quot;bikepacking-featured-video-2020&quot;&gt;Bikepacking Featured Video 2020&lt;/h2&gt;
 
 &lt;p&gt;去年收藏的几个关于Bikepacking的视频。&lt;/p&gt;
@@ -1099,7 +1097,7 @@ PS：绩溪家朋除了水包还有一些当地的特色食物，像早上吃的
         
         <category>Bikepacking</category>
         
-        <category>介绍.装备</category>
+        <category>装备</category>
         
         
       </item>
