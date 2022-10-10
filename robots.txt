@@ -1,1 +1,1 @@
-Sitemap: https://iwangsanfeng.githee.io/sitemap.xml
+Sitemap: http://isanfeng.github.io/sitemap.xml
