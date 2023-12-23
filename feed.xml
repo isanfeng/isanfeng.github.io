@@ -1,167 +1,172 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>༺𝒾三丰の流浪日记༻</title>
+    <title>༺𝒾三丰の极简踩爆地球༻</title>
     <description>༺&lt;ruby&gt;侠 之 大 者，四 海 为 家&lt;rp&gt;(&lt;/rp&gt;&lt;rt&gt;xiá zhī dà zhě, sì hǎi wéi jiā&lt;/rt&gt;&lt;rp&gt;)&lt;/rp&gt;&lt;/ruby&gt;༻&lt;br&gt;&lt;br&gt;༺&lt;ruby&gt;一 人 一 車，浪 迹 天 涯&lt;rp&gt;(&lt;/rp&gt;&lt;rt&gt;yī rén yī jū, làng jì tiān yá&lt;/rt&gt;&lt;rp&gt;)&lt;/rp&gt;&lt;/ruby&gt;༻&lt;br&gt;&lt;br&gt;༺&lt;ruby&gt;花 开 花 谢，白 天 黑 夜&lt;rp&gt;(&lt;/rp&gt;&lt;rt&gt;huā kāi huā xiè ， bái tiān hēi yè&lt;/rt&gt;&lt;rp&gt;)&lt;/rp&gt;&lt;/ruby&gt;༻&lt;br&gt;&lt;br&gt;༺&lt;ruby&gt;一 切 自 然，又 不 尽 然&lt;rp&gt;(&lt;/rp&gt;&lt;rt&gt;yī qiè zì rán ， yòu bù jìn rán&lt;/rt&gt;&lt;rp&gt;)&lt;/rp&gt;&lt;/ruby&gt;༻&lt;br&gt;&lt;br&gt;༺&lt;ruby&gt;春 夏 秋 冬，经 过 才 懂&lt;rp&gt;(&lt;/rp&gt;&lt;rt&gt;chūn xià qiū dōng ， jīng guò cái dǒng&lt;/rt&gt;&lt;rp&gt;)&lt;/rp&gt;&lt;/ruby&gt;༻&lt;br&gt;&lt;br&gt;༺&lt;ruby&gt;世 间 冷 暖，无 非 自 然&lt;rp&gt;(&lt;/rp&gt;&lt;rt&gt;shì jiān lěng nuǎn ， wú fēi zì rán&lt;/rt&gt;&lt;rp&gt;)&lt;/rp&gt;&lt;/ruby&gt;༻</description>
     <link>http://localhost:4000/</link>
     <atom:link href="http://localhost:4000/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Tue, 11 Oct 2022 21:31:54 +0800</pubDate>
-    <lastBuildDate>Tue, 11 Oct 2022 21:31:54 +0800</lastBuildDate>
+    <pubDate>Sat, 23 Dec 2023 22:36:19 +0800</pubDate>
+    <lastBuildDate>Sat, 23 Dec 2023 22:36:19 +0800</lastBuildDate>
     <generator>Jekyll v4.2.1</generator>
     
       <item>
-        <title>将军故里•红色金寨</title>
+        <title>寻秋•四明山水</title>
+        <description>&lt;script&gt;
+    function password()
+    {
+        var i=1;
+            var passwd=prompt('此文章已过无限制展示有效期，请使用有限制密钥访问。','');//这是输入密码的提示语，可以改为你想要显示的内容，比如本站地址之类的
+        while(i&lt;1)
+        {
+            if(passwd==&quot;i love isanfeng&quot;)//这是密码
+            {
+            alert('密码正确，欢迎光临！');//这是输入正确后的提示，可以改为自己想要的提示语
+            break;
+            }
+            i++;
+            var passwd=prompt('密码不正确！请重新输入:\n你还有'+(2-i)+'次机会。');
+        }
+        if(password!=&quot;vip.zan.smarted&quot;&amp;&amp;i==1)
+        {
+            alert('密码不正确，页面将返回首页，请联系三丰获取访问密码');
+            location.href=&quot;/&quot;;//这是密码输入错误超过3次后转到的错误页面，也可设为别的页面
+        }
+        return &quot;&quot;;
+    }
+        password();
+&lt;/script&gt;
+
+</description>
+        <pubDate>Sun, 26 Nov 2023 00:00:00 +0800</pubDate>
+        <link>http://localhost:4000/China-Ningbo-SimingMTN-Bikepacking</link>
+        <guid isPermaLink="true">http://localhost:4000/China-Ningbo-SimingMTN-Bikepacking</guid>
+        
+        <category>Bikepacking</category>
+        
+        <category>漫游中国</category>
+        
+        <category>宁波</category>
+        
+        <category>🚳</category>
+        
+        <category>2023</category>
+        
+        
+      </item>
+    
+      <item>
+        <title>黔行•纵贯贵州</title>
         <description>&lt;blockquote&gt;
-  &lt;p&gt;金寨县是安徽省六安市下辖的一个县，地处大别山腹地，主脉北坡，鄂豫皖三省七县两区的结合部。是著名的革命老区，中国工农红军第一县、全国第二大将军县，被誉为“红军的摇篮，将军的故乡”，是中国革命的重要策源地、人民军队的重要发源地。&lt;br /&gt;
-金寨县是安徽省面积最大、人口最多的贫困山区县和旅游资源大县，其中天堂寨国家级森林公园是一座天然大氧吧，位于安徽与湖北交界地区，海拔1729.13米，古称“吴楚东南第一关”，被誉为“华东最后一片原始森林”，全县整体森林覆盖率达74.6%。&lt;br /&gt;
-另县内有十大历史名茶之一六安瓜片饮誉中外；中药材千余种，素有”西山药库“之称；板栗面积产量全国第一；油茶，山核桃，高山蔬菜全省之首；水电之乡，水能储量安徽之最。&lt;br /&gt;
-县属北亚热带湿润季风气候，特点是季风明显、四季分明、气候温和、雨量充沛、春温多变、秋高气爽、梅雨显著、夏雨集中。&lt;/p&gt;
+  &lt;p&gt;【路线】
+都往人海去，而我在山林。
+完成了从中国火炉到中国凉都的纵贯骑行，从北往南纵贯多彩贵州，著名景点梵净山，千户苗寨，镇远古镇，大小七孔，一个也没去，选择了一条远离城市的山路，从重庆出发，经四川泸州进入贵州赤水，一路被曾经四渡赤水的红色痕迹渲染着来到中国酒都仁怀茅台镇，骑完赤水河谷的醉美之路，从茅台镇开始海拔也开始指数陡升，慢慢能体验到云贵高原的险峻，经过毕节市最强经济县金沙县后，翻越百里杜鹃1856m（进入贵州后第一座高海拔山地），到达毕节市大方县易地扶贫搬迁安置点奢香古镇，天气温度也开始凉爽起来，在毕节市七星侠短暂停留两日后，感受当地的生活和基础建设，八九月份正值大小韭菜坪上韭菜花盛开季节，其中毕节境内大韭菜坪主峰海拔2777m，六盘水境内的小韭菜坪海拔2900.6m，也被誉为贵州屋脊，是这次骑行中最困难的部分也是遇到的最美的风景，之后就终于来到了中国凉都六盘水，感受这里19°的夏天，当上海重庆还是30多度的高温时，在这里短裤短袖早晚会被冻的瑟瑟发抖，只好一直待在太阳底下，二十三四度的气温，体感超舒服，这里也是这次旅程中最喜欢的两个城市之一，在这里停留了四天后，继续前往贵州南部，也即将翻越了此行中最后一座高山乌蒙大草原海拔2609m，到达贵州地名最复杂的一座城市，盘州盘县红果，不是很喜欢的一座县城，没有做过多的停留，直奔这次行程的主题兴义市，骑游万峰林，万佛寺，万峰湖，停留四日后，从云南昆明返沪，也给此次行程画上了圆满的句号。
+【数字篇】
+此次行程
+共总里程1188+公里，累计爬升23495+m，海拔落差2603+m，路线主要以国道和省道为主，整体坡度不大，平均6-7%左右，虽缓但长，最短的也有六、七公里，只要憋住一口气即可完成，建议不了解情况的外地骑行者不要轻易选择县道或者农村公路，来了你就懂的
+共翻越海拔超2000m的高山3座，其余基本在1000m左右500m振幅内上下起伏
+共途径4省市，市级地8个，县级地不计，喜欢的城市2个
+共参观大小博物馆27个，让整个行程立体起来，让自己的眼界开阔起来
+共在外露营2次，一是当地人说夏天蛇多，二是洗澡条件缺乏
+共爆胎2次，以迅速补胎完成
+共被狗追4次，此情况下要么能快速驶过，要么就比狗更狗
+共患阳1次，约四五天后恢复，再也不想体验每次吞咽时喉咙似刀割的感受
+共尝试3种类型火锅，相较于火锅发源地的重庆火锅，最喜欢贵州酸汤鱼火锅，其次是成都火锅
+共完美完成1次极简行李打包，这次行李带的没一个物件，都被至少使用了1次以上&lt;/p&gt;
 &lt;/blockquote&gt;
-
-&lt;p&gt;2022的十一已经过去，似乎过了，似乎又没过，今年没有像往年一样早早开始规划行程，主要原因是九月中旬就接到公司通知十一期间会有一个保密项目需要加班，加班三天每天会按三倍工资支付，于是选择和同事一样，然后把行程往后延迟安排，
-加班后的行程也是选择了之前很早就规划好的大别山行程，一切看上去是划算且合理的，只需要让时间自然流淌就好，可时间也貌似和我开了一个玩笑，正当我以为一切都按节奏顺利发展时，事实也让我遗漏了一个出行前必做的重要细节，天气因素。&lt;br /&gt;
-打包好了行李，准备好了良民证，直到出发日的早上才查看当地的天气，结果是接下来的整个行程期间全部是下雨天且温度都是低10°，直到行程结束的当天才转为多云，温度也攀升到20°+。&lt;/p&gt;
-
-&lt;p&gt;于是安慰自己，“骑士出门，不看天气，只看胎压”，不过后来的事实也是狠狠地打脸。开弓没有回头箭，既然来了，就好好享受当下，看天气情况，走一步算一步，这也是单独旅行的好处，只要对自己负责就好。
-整个行程，原计划起点是安徽省六安市金寨县，沿着中国红岭公路，经马鬃岭，天堂寨，前往穿越大别山，天柱山，终点是安庆市潜山县，既然一直雨下不行，就逛下金寨县城也好。&lt;br /&gt;
-&lt;a href=&quot;https://imgse.com/i/xGxFYj&quot;&gt;&lt;img src=&quot;https://s1.ax1x.com/2022/10/08/xGxFYj.jpg&quot; alt=&quot;xGxFYj.jpg&quot; /&gt;&lt;/a&gt;&lt;br /&gt;
-金寨这做县城的灵魂可以说是红色浇筑的，在烽烟滚滚的峥嵘岁月里，金寨作为鄂豫皖革命根据地的中心地带，从金寨一共走出了12支红军部队，开国将军有59位，十万余金寨儿女投身革命，有名有姓的烈士就有11000余名。
-有句话来形容金寨的红色历程，“户户有红军、村村有烈士、山山有忠骨、乡乡有将军、处处有遗迹”一点都不夸张。所以说金寨是中国革命的重要策源地，是人民军队的重要发源地。金寨作为鄂豫皖革命根据地，是红军第一县，被誉为“红军的故乡、将军的摇篮”。&lt;br /&gt;
-&lt;a href=&quot;https://imgse.com/i/xGxJ6x&quot;&gt;&lt;img src=&quot;https://s1.ax1x.com/2022/10/08/xGxJ6x.jpg&quot; alt=&quot;xGxJ6x.jpg&quot; /&gt;&lt;/a&gt;&lt;br /&gt;
-就此决定这次的行程以了解金寨的历史为主，因为晚上计划住宿在县城新城区玉博园附近（听说晚上此处有开放夜市），所以从金寨站出发，先去金寨老县城的红军广场，参观金寨县革命博物馆，全面感受金寨红色革命历史的熏陶后，再去金寨县城新区的鄂豫皖纪念园，
-参观金寨县历史文物馆，领略金寨乃至大别山区上下五千年的历史脉络。&lt;br /&gt;
-一路冒雨前往红军广场，雨势一点没有停下的意思，只能在路边的公交站台暂避一下，浑身已湿透，手机已无法正常滑动使用，雨势稍小一点就会继续上路，再加上低温，当时的体验真的糟透了，中途有段猴子岭隧道是这次路上唯一一段不是雨骑的路段（也就是两公里的长度），
-&lt;a href=&quot;https://imgse.com/i/xGzcG9&quot;&gt;&lt;img src=&quot;https://s1.ax1x.com/2022/10/09/xGzcG9.jpg&quot; alt=&quot;xGzcG9.jpg&quot; /&gt;&lt;/a&gt;
-&lt;a href=&quot;https://imgse.com/i/xGzg2R&quot;&gt;&lt;img src=&quot;https://s1.ax1x.com/2022/10/09/xGzg2R.png&quot; alt=&quot;xGzg2R.png&quot; /&gt;&lt;/a&gt;&lt;br /&gt;
-红军广场位于老城区，和新城区是相反的方向，附近有梅山水库风景区，原本位于行程之内，因为天气原因，本次不得不取消。
-&lt;a href=&quot;https://imgse.com/i/xGzHGd&quot;&gt;&lt;img src=&quot;https://s1.ax1x.com/2022/10/09/xGzHGd.jpg&quot; alt=&quot;xGzHGd.jpg&quot; /&gt;&lt;/a&gt;&lt;br /&gt;
-金寨县红军广场景区占地面积25万平方米，形成了以烈士纪念塔为中心，将革命烈士纪念塔、金寨县革命博物馆、金寨县红军纪念堂、洪学智将军纪念碑、红军烈士墓园、红军广场融为一体，金寨县红军广场建设面积1.9万平方米。&lt;br /&gt;
-这里可以对金寨的红色历史有更系统更全面的了解，不过因为下雨的原因，这次去参观了金寨县革命博物馆。&lt;br /&gt;
-博物馆的革命史厅按照近代中国新民主主义革命的四个时期，分为了四个部分，分别是国民大革命时期、土地革命时期、抗日战争时期和解放战争时期。&lt;br /&gt;
-金寨与中国革命的渊源从党的成立就已经开始了，当时这里已经成立了党组织，并发动了一些农民运动。&lt;br /&gt;
-&lt;a href=&quot;https://imgse.com/i/xYl2m6&quot;&gt;&lt;img src=&quot;https://s1.ax1x.com/2022/10/09/xYl2m6.jpg&quot; alt=&quot;xYl2m6.jpg&quot; /&gt;&lt;/a&gt;
-&lt;a href=&quot;https://imgse.com/i/xYlR0K&quot;&gt;&lt;img src=&quot;https://s1.ax1x.com/2022/10/09/xYlR0K.png&quot; alt=&quot;xYlR0K.png&quot; /&gt;&lt;/a&gt;&lt;br /&gt;
-土地革命战争，也就是第二次国内革命战争，是中共领导中国工农红军和中国人民为反对国民党蒋介石集团的反动统治，废除封建土地制度，建立工农民主政权而进行的革命战争。
-在此期间，在金寨发动了立夏节起义和六霍起义，一支又一支军队从这里走出来。&lt;br /&gt;
-&lt;a href=&quot;https://imgse.com/i/xYljAS&quot;&gt;&lt;img src=&quot;https://s1.ax1x.com/2022/10/09/xYljAS.png&quot; alt=&quot;xYljAS.png&quot; /&gt;&lt;/a&gt;
-&lt;a href=&quot;https://imgse.com/i/xYlO78&quot;&gt;&lt;img src=&quot;https://s1.ax1x.com/2022/10/09/xYlO78.jpg&quot; alt=&quot;xYlO78.jpg&quot; /&gt;&lt;/a&gt; &lt;br /&gt;
-抗日战争时期， 金寨是国共两党领导安徽乃至大别山区抗日救亡的党政军中心； &lt;br /&gt;
-&lt;a href=&quot;https://imgse.com/i/xYlqnP&quot;&gt;&lt;img src=&quot;https://s1.ax1x.com/2022/10/09/xYlqnP.jpg&quot; alt=&quot;xYlqnP.jpg&quot; /&gt;&lt;/a&gt; &lt;br /&gt;
-解放战争时期，刘邓大军千里跃进大别山意义深远。&lt;/p&gt;
-
-&lt;p&gt;将军厅里则是将星闪耀，1955年至1965年，金寨籍有59人被授予将军军衔，其中上将1人，中将8人，少将50人，进入展厅可以一览每位将军的照片和生平介绍。&lt;br /&gt;
-&lt;a href=&quot;https://imgse.com/i/xY3aiF&quot;&gt;&lt;img src=&quot;https://s1.ax1x.com/2022/10/09/xY3aiF.png&quot; alt=&quot;xY3aiF.png&quot; /&gt;&lt;/a&gt;
-&lt;a href=&quot;https://imgse.com/i/xY3taT&quot;&gt;&lt;img src=&quot;https://s1.ax1x.com/2022/10/09/xY3taT.png&quot; alt=&quot;xY3taT.png&quot; /&gt;&lt;/a&gt;&lt;br /&gt;
-&lt;a href=&quot;https://imgse.com/i/xY3dG4&quot;&gt;&lt;img src=&quot;https://s1.ax1x.com/2022/10/09/xY3dG4.jpg&quot; alt=&quot;xY3dG4.jpg&quot; /&gt;&lt;/a&gt;
-&lt;a href=&quot;https://imgse.com/i/xY3NIU&quot;&gt;&lt;img src=&quot;https://s1.ax1x.com/2022/10/09/xY3NIU.jpg&quot; alt=&quot;xY3NIU.jpg&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;今年是中国人民志愿军抗美援朝出境作战72周年，在金寨县就出了一位对抗美援朝做出巨大贡献的将军，他在战争中担任志愿军副司令员兼后方勤务司令部司令，他就是洪学智将军。&lt;br /&gt;
-&lt;a href=&quot;https://imgse.com/i/xY37eP&quot;&gt;&lt;img src=&quot;https://s1.ax1x.com/2022/10/09/xY37eP.png&quot; alt=&quot;xY37eP.png&quot; /&gt;&lt;/a&gt;&lt;br /&gt;
-洪学智将军也是金寨59位开国将军中唯一的一位上将，革命博物馆里专门设置洪学智将军纪念馆来怀念这位老将军。
-志愿军总司令彭德怀元帅就曾当面评价过洪学智的功劳，“没有他们的大量的艰苦的后方保障工作，我们就不可能取得这样大的胜利。”洪学智将军两度出任解放军总后勤部部长，是我军现代后勤工作的奠基人和开拓者。&lt;br /&gt;
-&lt;a href=&quot;https://imgse.com/i/xY8CwV&quot;&gt;&lt;img src=&quot;https://s1.ax1x.com/2022/10/09/xY8CwV.jpg&quot; alt=&quot;xY8CwV.jpg&quot; /&gt;&lt;/a&gt;&lt;br /&gt;
-洪学智将军从红军中走来，经历了抗日战争、解放战争，新中国成立后参与指挥了解放 海南岛战役、抗美援朝，是我军唯一一位两授上将的开国将军，被人称为“六星上将”。
-纪念馆内陈列了不少将军生前使用的物品和各时期的照片，所获得的一些勋章、授衔礼服已经定为国家一级文物。&lt;br /&gt;
-&lt;a href=&quot;https://imgse.com/i/xY8kYF&quot;&gt;&lt;img src=&quot;https://s1.ax1x.com/2022/10/09/xY8kYF.png&quot; alt=&quot;xY8kYF.png&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;结束这里的参观，因为天气实在太冷，当时已无心再看其他的地方，只有早点住下取暖，离开红军广场景区，沿着新修建的映山红大道，前往新城区，路面很宽雨势也较大，没有关注路两旁的景色，只隐约记得是一些在建的高楼，这也看出金寨这座贫困县城也在慢慢的在发生天翻地覆的变化。&lt;br /&gt;
-因为金寨县的各革命旧址都分散在全县各地，并不方便参观，所以金寨县按照“集中展示、分散保护”的原则，建设了鄂豫皖纪念园。纪念园大约位于映山红大道的尽头，那里还有（八月）挂花（遍地开）公园。&lt;br /&gt;
-&lt;a href=&quot;https://imgse.com/i/xY84tU&quot;&gt;&lt;img src=&quot;https://s1.ax1x.com/2022/10/09/xY84tU.jpg&quot; alt=&quot;xY84tU.jpg&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;鄂豫皖纪念园是 金寨新区一处集中展示金寨革命旧址的园区，有些是重建已经毁坏的革命文物旧址，有些是因基建而异地搬迁保护的古建，像红25军军政机构旧址、安徽抗日战争历史展览馆、金寨县历史文物馆都是在这个园区里面，其它还有红28军重建旧址的异地复建、红军阁等等。
-金寨县建制并没有太长的历史，金寨县的前身立煌县就是在土地革命时期才正式建制，1932年国民党政府为了加强对鄂豫皖边区的统治，蒋介石大笔一挥，将河南省商城县、固始县和安徽省的六安县、霍邱县、霍山县各一部分地区划出，因国民党军卫立煌部在此“剿匪”有功，便以他的名字设立煌县，县城设在金家寨镇。&lt;/p&gt;
-
-&lt;p&gt;金寨县历史文物馆作为一个县级的小博物馆，展示的主要是金寨古代历史。馆舍设在纪念园的一处仿古民居中，一进大门便可看到镇馆之宝“元龙凤四年管军总管府铜印”的艺术雕塑，这是元末农民起义军韩林儿颁发的职官大印，相当于省一级别的高官，这也正与金寨的革命文化古今相辉映。&lt;br /&gt;
-&lt;a href=&quot;https://imgse.com/i/xYGUgJ&quot;&gt;&lt;img src=&quot;https://s1.ax1x.com/2022/10/09/xYGUgJ.png&quot; alt=&quot;xYGUgJ.png&quot; /&gt;&lt;/a&gt;&lt;br /&gt;
-文物馆按照器物的材质类别分设新石器厅、青铜器厅、陶瓷器厅等。&lt;br /&gt;
-作为鄂豫皖革命根据地的中心区域，从金寨一共走出了12支红军部队，其中规模最大的红25军军政机构旧址仍保留在园中。
-&lt;a href=&quot;https://imgse.com/i/xYG4bt&quot;&gt;&lt;img src=&quot;https://s1.ax1x.com/2022/10/09/xYG4bt.png&quot; alt=&quot;xYG4bt.png&quot; /&gt;&lt;/a&gt;&lt;br /&gt;
-红25军于1931年10月在金寨成立，隶属于红四方面军，在1932年10月第四次反“围剿”失利后重建，使鄂豫皖革命根据地红旗不倒，并且策应了中央革命根据地第四次反“围剿”斗争。&lt;br /&gt;
-&lt;a href=&quot;https://imgse.com/i/xYYLBn&quot;&gt;&lt;img src=&quot;https://s1.ax1x.com/2022/10/09/xYYLBn.png&quot; alt=&quot;xYYLBn.png&quot; /&gt;&lt;/a&gt;
-&lt;a href=&quot;https://imgse.com/i/xYYqns&quot;&gt;&lt;img src=&quot;https://s1.ax1x.com/2022/10/09/xYYqns.png&quot; alt=&quot;xYYqns.png&quot; /&gt;&lt;/a&gt;
-红25军孤军北上长征，这支军队被人们称为“娃娃军”，军长政委均不到30岁，“这支队伍差不多没有年逾十八岁的战斗员”，大部分士兵都是十二三岁的小孩儿，很多都是烈士的孤儿，就是这样一支军队却是第一支完成长征的红军部队，队伍有增无减，是长征中仅有的一例。
-&lt;a href=&quot;https://imgse.com/i/xYYjA0&quot;&gt;&lt;img src=&quot;https://s1.ax1x.com/2022/10/09/xYYjA0.png&quot; alt=&quot;xYYjA0.png&quot; /&gt;&lt;/a&gt;
-红25军积极策应中央红军长征，牵制住敌人，并且大胆地向敌纵深挺进，令蒋介石大为恼怒，把红25军负责人徐海东 与毛泽东、朱德并列为全国通缉悬赏额最高的三人，毛泽东称赞徐海东 是“对中国革命有大功”的人，这既是对徐海东个人的称赞，也是对红25军的高度评价。
-&lt;a href=&quot;https://imgse.com/i/xYYO7q&quot;&gt;&lt;img src=&quot;https://s1.ax1x.com/2022/10/09/xYYO7q.png&quot; alt=&quot;xYYO7q.png&quot; /&gt;&lt;/a&gt;&lt;br /&gt;
-为什么在金寨可以看到一座全面展现安徽抗日战争历史的展览馆呢？
-原来，抗日战争期间，原省会安庆被日军占领，安徽省政府被迫迁往立煌县（今金寨县），从1938年至1945年成为 安徽 省临时省会驻地。金寨作为国共两党领导安徽乃至大别山区抗日救亡的党政军中心，“同仇敌忾，共御外侮”是这个展览的大标题
-&lt;a href=&quot;https://imgse.com/i/xYYvNV&quot;&gt;&lt;img src=&quot;https://s1.ax1x.com/2022/10/09/xYYvNV.png&quot; alt=&quot;xYYvNV.png&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;快速大概的把纪念园溜达了一圈，晚上计划住在玉博园附近。
-&lt;a href=&quot;https://imgse.com/i/xYtUgg&quot;&gt;&lt;img src=&quot;https://s1.ax1x.com/2022/10/09/xYtUgg.jpg&quot; alt=&quot;xYtUgg.jpg&quot; /&gt;&lt;/a&gt;
-虽然听说晚上有夜市，不过因为天气太冷，最终晚上也没有下来。观察了一晚上天气，第二天还是决定打包走人，户外运动还是要秉承安全第一。
-终于还是做出了这个艰难的决定，雨一直没停的意思而且有越下越大的态势，昨天是小雨今天是中雨，温度又比昨天降了，10度左右徘徊，这还是市区，如果去到马鬃岭天堂寨大别山等海拔高山地带，温度会更低，再伴随着蓝色预警大风，
-早上我决定终止此次行程。&lt;br /&gt;
-&lt;a href=&quot;https://imgse.com/i/xYttC8&quot;&gt;&lt;img src=&quot;https://s1.ax1x.com/2022/10/09/xYttC8.jpg&quot; alt=&quot;xYttC8.jpg&quot; /&gt;&lt;/a&gt;
-这个十一真的有点浪费了，中秋行程因为良民证时效出问题，十一因为天气漏判出问题，对自己有点失望，有点悲伤，三年口罩问题不应该能影响我规划征程的能力啊，不过不能迷失，等我做好接受和适应世界所有的温度的准备，I will be back.
-&lt;a href=&quot;https://imgse.com/i/xYNCPf&quot;&gt;&lt;img src=&quot;https://s1.ax1x.com/2022/10/10/xYNCPf.jpg&quot; alt=&quot;xYNCPf.jpg&quot; /&gt;&lt;/a&gt;
-&lt;a href=&quot;https://imgse.com/i/xYNpIP&quot;&gt;&lt;img src=&quot;https://s1.ax1x.com/2022/10/10/xYNpIP.jpg&quot; alt=&quot;xYNpIP.jpg&quot; /&gt;&lt;/a&gt;
-再见十一，昨天晚上已顺利返沪，天气真是太温暖了，虽然中止了这次行程［4-10］，但我相信这是一个大后期旅行。
-&lt;a href=&quot;https://imgse.com/i/xYtN8S&quot;&gt;&lt;img src=&quot;https://s1.ax1x.com/2022/10/09/xYtN8S.jpg&quot; alt=&quot;xYtN8S.jpg&quot; /&gt;&lt;/a&gt;
-教训和经验肯定要复盘总结，不过这次做的最好的一点就是带了一辆gravel车，真的不止一点点香，如果你热爱单车，尤其热爱单车旅行，gravel车的舒适性，操纵性，功能性等方面我觉得在我有生之年应该都是创意天花板了。
-&lt;a href=&quot;https://imgse.com/i/xYtavQ&quot;&gt;&lt;img src=&quot;https://s1.ax1x.com/2022/10/09/xYtavQ.jpg&quot; alt=&quot;xYtavQ.jpg&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
-
-&lt;iframe src=&quot;//player.bilibili.com/player.html?bvid=BV1SW4y1n7zN&amp;amp;cid=854367234&amp;amp;page=1&quot; style=&quot;width:100%;height:500px;min-width:375px;min-height:200px&quot; scrolling=&quot;no&quot; border=&quot;0&quot; frameborder=&quot;no&quot; framespacing=&quot;0&quot; allowfullscreen=&quot;true&quot;&gt;&lt;/iframe&gt;
-
 </description>
-        <pubDate>Tue, 04 Oct 2022 00:00:00 +0800</pubDate>
-        <link>http://localhost:4000/China-Anhui-Jinzhai-Bikepacking</link>
-        <guid isPermaLink="true">http://localhost:4000/China-Anhui-Jinzhai-Bikepacking</guid>
+        <pubDate>Wed, 09 Aug 2023 00:00:00 +0800</pubDate>
+        <link>http://localhost:4000/China-Guizhou-Bikepacking</link>
+        <guid isPermaLink="true">http://localhost:4000/China-Guizhou-Bikepacking</guid>
         
         <category>Bikepacking</category>
         
-        <category>分时分段漫游中国</category>
+        <category>漫游中国</category>
+        
+        <category>贵州</category>
+        
+        <category>🚳</category>
+        
+        <category>2023</category>
+        
+        
+      </item>
+    
+      <item>
+        <title>遇见•梦幻重庆</title>
+        <description>&lt;p&gt;一座城市的魅力更多的不在于它的高楼林立，而在于藏在街头巷尾的那些关于生活，关于岁月的温暖和未被时光磨灭的印记&lt;/p&gt;
+
+&lt;p&gt;因为种种原因，在众多城市里，我对重庆有着独一份的情愫。&lt;/p&gt;
+
+&lt;p&gt;或者说，我对每一座城市都有着不同的向往。&lt;/p&gt;
+
+&lt;p&gt;重庆作为本次旅程的中转地，只停留了三天时间，时间不长，也因为第一次来重庆，所以这次只去了一些经典景点，算是对重庆的初印象。&lt;/p&gt;
+</description>
+        <pubDate>Sat, 05 Aug 2023 00:00:00 +0800</pubDate>
+        <link>http://localhost:4000/China-Chongqing-Chongqing-Bikepacking</link>
+        <guid isPermaLink="true">http://localhost:4000/China-Chongqing-Chongqing-Bikepacking</guid>
+        
+        <category>Bikepacking</category>
+        
+        <category>漫游中国</category>
+        
+        <category>重庆</category>
+        
+        <category>🚳</category>
+        
+        <category>2023</category>
+        
+        
+      </item>
+    
+      <item>
+        <title>噩梦•摔车事件•金寨</title>
+        <description>&lt;p&gt;我根本不想证明自己到底有多强，我只是想告诉这个世界证明我没有白来一趟&lt;/p&gt;
+
+&lt;script&gt;
+    function password()
+    {
+        var i=1;
+            var passwd=prompt('此文章已过无限制展示有效期，请使用有限制密钥访问。','');//这是输入密码的提示语，可以改为你想要显示的内容，比如本站地址之类的
+        while(i&lt;1)
+        {
+            if(passwd==&quot;i love isanfeng&quot;)//这是密码
+            {
+            alert('密码正确，欢迎光临！');//这是输入正确后的提示，可以改为自己想要的提示语
+            break;
+            }
+            i++;
+            var passwd=prompt('密码不正确！请重新输入:\n你还有'+(2-i)+'次机会。');
+        }
+        if(password!=&quot;vip.zan.smarted&quot;&amp;&amp;i==1)
+        {
+            alert('密码不正确，页面将返回首页，请联系三丰获取访问密码');
+            location.href=&quot;/&quot;;//这是密码输入错误超过3次后转到的错误页面，也可设为别的页面
+        }
+        return &quot;&quot;;
+    }
+        password();
+&lt;/script&gt;
+
+</description>
+        <pubDate>Fri, 12 May 2023 00:00:00 +0800</pubDate>
+        <link>http://localhost:4000/China-Anhui-Jinzhai-2-Bikepacking</link>
+        <guid isPermaLink="true">http://localhost:4000/China-Anhui-Jinzhai-2-Bikepacking</guid>
+        
+        <category>Bikepacking</category>
+        
+        <category>漫游中国</category>
         
         <category>安徽</category>
         
-        
-      </item>
-    
-      <item>
-        <title>东方绿洲•918骑游</title>
-        <description>&lt;script&gt;
-    function password()
-    {
-        var i=1;
-            var passwd=prompt('此文章已过无限制展示有效期，请使用有限制密钥访问。','');//这是输入密码的提示语，可以改为你想要显示的内容，比如本站地址之类的
-        while(i&lt;1)
-        {
-            if(passwd==&quot;iloveisanfeng&quot;)//这是密码
-            {
-                alert('密码正确，欢迎光临！');//这是输入正确后的提示，可以改为自己想要的提示语
-                break;
-            }
-            i++;
-            var passwd=prompt('密码不正确！请重新输入:\n你还有'+(2-i)+'次机会。');
-        }
-        if(password!=&quot;vip.zan.smarted&quot;&amp;&amp;i==1)
-        {
-            alert('密码不正确，页面将返回首页，请联系三丰获取访问密码');
-            location.href=&quot;/&quot;;//这是密码输入错误超过3次后转到的错误页面，也可设为别的页面
-        }
-        return &quot;&quot;;
-    }
-        password();
-&lt;/script&gt;
-
-</description>
-        <pubDate>Sun, 18 Sep 2022 00:00:00 +0800</pubDate>
-        <link>http://localhost:4000/China-Shanghai-Dongdanglvzhou-Bikepacking</link>
-        <guid isPermaLink="true">http://localhost:4000/China-Shanghai-Dongdanglvzhou-Bikepacking</guid>
-        
-        <category>Bikepacking</category>
-        
-        <category>分时分段漫游中国</category>
-        
-        <category>上海</category>
-        
         <category>🚳</category>
         
+        <category>2023</category>
+        
         
       </item>
     
       <item>
-        <title>淀山湖•露营•815中秋</title>
+        <title>奇幻•蓝眼泪•平潭</title>
         <description>&lt;script&gt;
     function password()
     {
@@ -188,23 +193,25 @@
 &lt;/script&gt;
 
 </description>
-        <pubDate>Sun, 11 Sep 2022 00:00:00 +0800</pubDate>
-        <link>http://localhost:4000/China-Jiangsu-DianshanLake-Bikepacking</link>
-        <guid isPermaLink="true">http://localhost:4000/China-Jiangsu-DianshanLake-Bikepacking</guid>
+        <pubDate>Fri, 05 May 2023 00:00:00 +0800</pubDate>
+        <link>http://localhost:4000/China-Fujian-Pingtan-2-Bikepacking</link>
+        <guid isPermaLink="true">http://localhost:4000/China-Fujian-Pingtan-2-Bikepacking</guid>
         
         <category>Bikepacking</category>
         
-        <category>分时分段漫游中国</category>
+        <category>漫游中国</category>
         
-        <category>江苏</category>
+        <category>福建</category>
         
         <category>🚳</category>
+        
+        <category>2023</category>
         
         
       </item>
     
       <item>
-        <title>等风来•北海</title>
+        <title>后花园•四明山</title>
         <description>&lt;script&gt;
     function password()
     {
@@ -231,610 +238,199 @@
 &lt;/script&gt;
 
 </description>
-        <pubDate>Thu, 09 Dec 2021 00:00:00 +0800</pubDate>
-        <link>http://localhost:4000/China-Guangxi-BeihaiCity-Hike</link>
-        <guid isPermaLink="true">http://localhost:4000/China-Guangxi-BeihaiCity-Hike</guid>
-        
-        <category>Hike</category>
-        
-        <category>分时分段漫游中国</category>
-        
-        <category>广西</category>
-        
-        <category>🚳</category>
-        
-        
-      </item>
-    
-      <item>
-        <title>沿边公路•中国第一路</title>
-        <description>&lt;script&gt;
-    function password()
-    {
-        var i=1;
-            var passwd=prompt('此文章已过无限制展示有效期，请使用有限制密钥访问。','');//这是输入密码的提示语，可以改为你想要显示的内容，比如本站地址之类的
-        while(i&lt;1)
-        {
-            if(passwd==&quot;i love isanfeng&quot;)//这是密码
-            {
-            alert('密码正确，欢迎光临！');//这是输入正确后的提示，可以改为自己想要的提示语
-            break;
-            }
-            i++;
-            var passwd=prompt('密码不正确！请重新输入:\n你还有'+(2-i)+'次机会。');
-        }
-        if(password!=&quot;vip.zan.smarted&quot;&amp;&amp;i==1)
-        {
-            alert('密码不正确，页面将返回首页，请联系三丰获取访问密码');
-            location.href=&quot;/&quot;;//这是密码输入错误超过3次后转到的错误页面，也可设为别的页面
-        }
-        return &quot;&quot;;
-    }
-        password();
-&lt;/script&gt;
-
-</description>
-        <pubDate>Mon, 15 Nov 2021 00:00:00 +0800</pubDate>
-        <link>http://localhost:4000/China-Guangxi-YanbianRoad-Bikepacking</link>
-        <guid isPermaLink="true">http://localhost:4000/China-Guangxi-YanbianRoad-Bikepacking</guid>
+        <pubDate>Sun, 02 Apr 2023 00:00:00 +0800</pubDate>
+        <link>http://localhost:4000/China-Zhejiang-Ningbo-Bikepacking</link>
+        <guid isPermaLink="true">http://localhost:4000/China-Zhejiang-Ningbo-Bikepacking</guid>
         
         <category>Bikepacking</category>
         
-        <category>分时分段漫游中国</category>
-        
-        <category>广西</category>
-        
-        <category>🚳</category>
-        
-        
-      </item>
-    
-      <item>
-        <title>川西小环线•101</title>
-        <description>&lt;script&gt;
-    function password()
-    {
-        var i=1;
-            var passwd=prompt('此文章已过无限制展示有效期，请使用有限制密钥访问。','');//这是输入密码的提示语，可以改为你想要显示的内容，比如本站地址之类的
-        while(i&lt;1)
-        {
-            if(passwd==&quot;i love isanfeng&quot;)//这是密码
-            {
-            alert('密码正确，欢迎光临！');//这是输入正确后的提示，可以改为自己想要的提示语
-            break;
-            }
-            i++;
-            var passwd=prompt('密码不正确！请重新输入:\n你还有'+(2-i)+'次机会。');
-        }
-        if(password!=&quot;vip.zan.smarted&quot;&amp;&amp;i==1)
-        {
-            alert('密码不正确，页面将返回首页，请联系三丰获取访问密码');
-            location.href=&quot;/&quot;;//这是密码输入错误超过3次后转到的错误页面，也可设为别的页面
-        }
-        return &quot;&quot;;
-    }
-        password();
-&lt;/script&gt;
-
-&lt;p&gt;作为四川经典的骑行路线，川西小环线浓缩展示了川藏地区的雪山草原、蓝天白云、淳朴藏味，特别是能够欣赏到四姑娘山，亚拉雪山，贡嘎雪山三座雪山的绝美风光。全程接近1000公里，是一处绝佳的骑行圣地。&lt;/p&gt;
-</description>
-        <pubDate>Fri, 01 Oct 2021 00:00:00 +0800</pubDate>
-        <link>http://localhost:4000/China-Sichuan-chuanxixiaohuanxian-Bikepacking</link>
-        <guid isPermaLink="true">http://localhost:4000/China-Sichuan-chuanxixiaohuanxian-Bikepacking</guid>
-        
-        <category>Bikepacking</category>
-        
-        <category>分时分段漫游中国</category>
-        
-        <category>四川</category>
-        
-        <category>🚳</category>
-        
-        
-      </item>
-    
-      <item>
-        <title>风车公路•端午节</title>
-        <description>&lt;script&gt;
-    function password()
-    {
-        var i=1;
-            var passwd=prompt('此文章已过无限制展示有效期，请使用有限制密钥访问。','');//这是输入密码的提示语，可以改为你想要显示的内容，比如本站地址之类的
-        while(i&lt;1)
-        {
-            if(passwd==&quot;i love isanfeng&quot;)//这是密码
-            {
-            alert('密码正确，欢迎光临！');//这是输入正确后的提示，可以改为自己想要的提示语
-            break;
-            }
-            i++;
-            var passwd=prompt('密码不正确！请重新输入:\n你还有'+(2-i)+'次机会。');
-        }
-        if(password!=&quot;vip.zan.smarted&quot;&amp;&amp;i==1)
-        {
-            alert('密码不正确，页面将返回首页，请联系三丰获取访问密码');
-            location.href=&quot;/&quot;;//这是密码输入错误超过3次后转到的错误页面，也可设为别的页面
-        }
-        return &quot;&quot;;
-    }
-        password();
-&lt;/script&gt;
-
-</description>
-        <pubDate>Fri, 21 May 2021 00:00:00 +0800</pubDate>
-        <link>http://localhost:4000/China-Zhejiang-Nibong-FengcheRoad-Bikepacking</link>
-        <guid isPermaLink="true">http://localhost:4000/China-Zhejiang-Nibong-FengcheRoad-Bikepacking</guid>
-        
-        <category>Bikepacking</category>
-        
-        <category>分时分段漫游中国</category>
+        <category>漫游中国</category>
         
         <category>浙江</category>
         
         <category>🚳</category>
         
-        
-      </item>
-    
-      <item>
-        <title>百山祖行•劳动节</title>
-        <description>&lt;h3 id=&quot;序&quot;&gt;序&lt;/h3&gt;
-
-&lt;p&gt;如果有机会，不管骑车，自驾还是徒步，一定要到浙江来一次，“全域旅游”的理念在浙江展现的淋漓尽致，每个村落，每条巷子，每条公路都是一个景点，而丽水就更像一个带着仙气的地方，苍山碧水，山多水多，方言更多，大多时候是我们是听不懂的，甚至有时还因为这份“陌生”，有时还会像两个异域人一样不好沟通。可就是这样一个看上去很“奇怪”的地方，只要你呆上一天或者半天，就会有不想再走的欲望。或许当我不再为生活奔波，为世俗挂念的时候，这里或许会是一个很好的栖居之地。&lt;/p&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;丽水的“丽”读“lí”（阳平），而非“lì”（去声）。由于丽水方言中，“丽水”的“丽”无论读阳平还是阳去，在连续变调后读音相同。故本地人普通话“丽水”的“丽”多读作常用的“lì”（去声）。&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;h3 id=&quot;行程&quot;&gt;行程&lt;/h3&gt;
-
-&lt;p&gt;&lt;a href=&quot;https://imgtu.com/i/2E6nYD&quot;&gt;&lt;img src=&quot;https://z3.ax1x.com/2021/05/30/2E6nYD.jpg&quot; alt=&quot;2E6nYD.jpg&quot; /&gt;&lt;/a&gt;
-&lt;a href=&quot;https://imgtu.com/i/2Eytz9&quot;&gt;&lt;img src=&quot;https://z3.ax1x.com/2021/05/30/2Eytz9.jpg&quot; alt=&quot;2Eytz9.jpg&quot; /&gt;&lt;/a&gt;
-&lt;a href=&quot;https://imgtu.com/i/2EyOLq&quot;&gt;&lt;img src=&quot;https://z3.ax1x.com/2021/05/30/2EyOLq.jpg&quot; alt=&quot;2EyOLq.jpg&quot; /&gt;&lt;/a&gt;
-几年之前，自己还会参加团队活动时，没有有百山祖的行程时，总会阴差阳错的有冲突，所以至今，久负盛名的百山之祖自己还不曾去过一次，这几年，自己比较喜欢solo活动，可以让自己能深入的感受当下的时刻，计划着能把这些年走过的路再以solo的方式全部重走一遍，同样也孕育了不一样的旅行体验。&lt;/p&gt;
-
-&lt;p&gt;丽水被誉为“浙江绿谷”，境内海拔1000米以上的山峰有3573座，1500米以上山峰244座，其中龙泉市凤阳山黄茅尖海拔1929米，庆元县百山祖海拔1856.7米，分别为浙江省第一、第二高峰。地势由西南向东北倾斜，西南部以中山为主，间有低山、丘陵和山间谷地；东北部以低山为主，间有中山及河谷盆地。最低处为青田县温溪镇，海拔7米。黄茅尖之前去过一次，所以这次借着五一的假期，从东北部的丽水市中心出发向西南方向贯穿，走一遍百山祖，来一次丽水准深度的旅程。&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&quot;https://imgtu.com/i/2EW5oq&quot;&gt;&lt;img src=&quot;https://z3.ax1x.com/2021/05/30/2EW5oq.jpg&quot; alt=&quot;2EW5oq.jpg&quot; /&gt;&lt;/a&gt;
-&lt;a href=&quot;https://imgtu.com/i/2EW4wn&quot;&gt;&lt;img src=&quot;https://z3.ax1x.com/2021/05/30/2EW4wn.jpg&quot; alt=&quot;2EW4wn.jpg&quot; /&gt;&lt;/a&gt;
-&lt;a href=&quot;https://imgtu.com/i/2EWhes&quot;&gt;&lt;img src=&quot;https://z3.ax1x.com/2021/05/30/2EWhes.jpg&quot; alt=&quot;2EWhes.jpg&quot; /&gt;&lt;/a&gt;
-&lt;a href=&quot;https://imgtu.com/i/2EWWLj&quot;&gt;&lt;img src=&quot;https://z3.ax1x.com/2021/05/30/2EWWLj.jpg&quot; alt=&quot;2EWWLj.jpg&quot; /&gt;&lt;/a&gt;
-&lt;a href=&quot;https://imgtu.com/i/2EWRyQ&quot;&gt;&lt;img src=&quot;https://z3.ax1x.com/2021/05/30/2EWRyQ.jpg&quot; alt=&quot;2EWRyQ.jpg&quot; /&gt;&lt;/a&gt;
-&lt;a href=&quot;https://imgtu.com/i/2EW2Qg&quot;&gt;&lt;img src=&quot;https://z3.ax1x.com/2021/05/30/2EW2Qg.jpg&quot; alt=&quot;2EW2Qg.jpg&quot; /&gt;&lt;/a&gt;
-&lt;a href=&quot;https://imgtu.com/i/2EWgSS&quot;&gt;&lt;img src=&quot;https://z3.ax1x.com/2021/05/30/2EWgSS.jpg&quot; alt=&quot;2EWgSS.jpg&quot; /&gt;&lt;/a&gt;
-&lt;a href=&quot;https://imgtu.com/i/2EW6W8&quot;&gt;&lt;img src=&quot;https://z3.ax1x.com/2021/05/30/2EW6W8.jpg&quot; alt=&quot;2EW6W8.jpg&quot; /&gt;&lt;/a&gt;
-&lt;a href=&quot;https://imgtu.com/i/2EWyJf&quot;&gt;&lt;img src=&quot;https://z3.ax1x.com/2021/05/30/2EWyJf.jpg&quot; alt=&quot;2EWyJf.jpg&quot; /&gt;&lt;/a&gt;
-&lt;a href=&quot;https://imgtu.com/i/2EWsFP&quot;&gt;&lt;img src=&quot;https://z3.ax1x.com/2021/05/30/2EWsFP.jpg&quot; alt=&quot;2EWsFP.jpg&quot; /&gt;&lt;/a&gt;
-&lt;a href=&quot;https://imgtu.com/i/2EWDot&quot;&gt;&lt;img src=&quot;https://z3.ax1x.com/2021/05/30/2EWDot.jpg&quot; alt=&quot;2EWDot.jpg&quot; /&gt;&lt;/a&gt;
-&lt;a href=&quot;https://imgtu.com/i/2EWBdI&quot;&gt;&lt;img src=&quot;https://z3.ax1x.com/2021/05/30/2EWBdI.jpg&quot; alt=&quot;2EWBdI.jpg&quot; /&gt;&lt;/a&gt;
-&lt;a href=&quot;https://imgtu.com/i/2EW0eA&quot;&gt;&lt;img src=&quot;https://z3.ax1x.com/2021/05/30/2EW0eA.jpg&quot; alt=&quot;2EW0eA.jpg&quot; /&gt;&lt;/a&gt;
-&lt;a href=&quot;https://imgtu.com/i/2EWdLd&quot;&gt;&lt;img src=&quot;https://z3.ax1x.com/2021/05/30/2EWdLd.jpg&quot; alt=&quot;2EWdLd.jpg&quot; /&gt;&lt;/a&gt;
-&lt;a href=&quot;https://imgtu.com/i/2EWasH&quot;&gt;&lt;img src=&quot;https://z3.ax1x.com/2021/05/30/2EWasH.jpg&quot; alt=&quot;2EWasH.jpg&quot; /&gt;&lt;/a&gt;
-&lt;a href=&quot;https://imgtu.com/i/2EWUQe&quot;&gt;&lt;img src=&quot;https://z3.ax1x.com/2021/05/30/2EWUQe.jpg&quot; alt=&quot;2EWUQe.jpg&quot; /&gt;&lt;/a&gt;
-&lt;a href=&quot;https://imgtu.com/i/2EWtzD&quot;&gt;&lt;img src=&quot;https://z3.ax1x.com/2021/05/30/2EWtzD.jpg&quot; alt=&quot;2EWtzD.jpg&quot; /&gt;&lt;/a&gt;
-&lt;a href=&quot;https://imgtu.com/i/2EWYRO&quot;&gt;&lt;img src=&quot;https://z3.ax1x.com/2021/05/30/2EWYRO.jpg&quot; alt=&quot;2EWYRO.jpg&quot; /&gt;&lt;/a&gt;
-&lt;a href=&quot;https://imgtu.com/i/2EWJJK&quot;&gt;&lt;img src=&quot;https://z3.ax1x.com/2021/05/30/2EWJJK.jpg&quot; alt=&quot;2EWJJK.jpg&quot; /&gt;&lt;/a&gt;
-&lt;a href=&quot;https://imgtu.com/i/2EWGi6&quot;&gt;&lt;img src=&quot;https://z3.ax1x.com/2021/05/30/2EWGi6.jpg&quot; alt=&quot;2EWGi6.jpg&quot; /&gt;&lt;/a&gt;
-&lt;a href=&quot;https://imgtu.com/i/2E6y7V&quot;&gt;&lt;img src=&quot;https://z3.ax1x.com/2021/05/30/2E6y7V.jpg&quot; alt=&quot;2E6y7V.jpg&quot; /&gt;&lt;/a&gt;
-&lt;a href=&quot;https://imgtu.com/i/2E6s00&quot;&gt;&lt;img src=&quot;https://z3.ax1x.com/2021/05/30/2E6s00.jpg&quot; alt=&quot;2E6s00.jpg&quot; /&gt;&lt;/a&gt;
-&lt;a href=&quot;https://imgtu.com/i/2E6rmq&quot;&gt;&lt;img src=&quot;https://z3.ax1x.com/2021/05/30/2E6rmq.jpg&quot; alt=&quot;2E6rmq.jpg&quot; /&gt;&lt;/a&gt;
-&lt;a href=&quot;https://imgtu.com/i/2E6BXn&quot;&gt;&lt;img src=&quot;https://z3.ax1x.com/2021/05/30/2E6BXn.jpg&quot; alt=&quot;2E6BXn.jpg&quot; /&gt;&lt;/a&gt;
-&lt;a href=&quot;https://imgtu.com/i/2E606s&quot;&gt;&lt;img src=&quot;https://z3.ax1x.com/2021/05/30/2E606s.jpg&quot; alt=&quot;2E606s.jpg&quot; /&gt;&lt;/a&gt;
-&lt;a href=&quot;https://imgtu.com/i/2E6wlj&quot;&gt;&lt;img src=&quot;https://z3.ax1x.com/2021/05/30/2E6wlj.jpg&quot; alt=&quot;2E6wlj.jpg&quot; /&gt;&lt;/a&gt;
-&lt;a href=&quot;https://imgtu.com/i/2E6dpQ&quot;&gt;&lt;img src=&quot;https://z3.ax1x.com/2021/05/30/2E6dpQ.jpg&quot; alt=&quot;2E6dpQ.jpg&quot; /&gt;&lt;/a&gt;
-&lt;a href=&quot;https://imgtu.com/i/2E6Ufg&quot;&gt;&lt;img src=&quot;https://z3.ax1x.com/2021/05/30/2E6Ufg.jpg&quot; alt=&quot;2E6Ufg.jpg&quot; /&gt;&lt;/a&gt;
-&lt;a href=&quot;https://imgtu.com/i/2E6NtS&quot;&gt;&lt;img src=&quot;https://z3.ax1x.com/2021/05/30/2E6NtS.jpg&quot; alt=&quot;2E6NtS.jpg&quot; /&gt;&lt;/a&gt;
-&lt;a href=&quot;https://imgtu.com/i/2E6tk8&quot;&gt;&lt;img src=&quot;https://z3.ax1x.com/2021/05/30/2E6tk8.jpg&quot; alt=&quot;2E6tk8.jpg&quot; /&gt;&lt;/a&gt;
-&lt;a href=&quot;https://imgtu.com/i/2E6JTf&quot;&gt;&lt;img src=&quot;https://z3.ax1x.com/2021/05/30/2E6JTf.jpg&quot; alt=&quot;2E6JTf.jpg&quot; /&gt;&lt;/a&gt;
-&lt;a href=&quot;https://imgtu.com/i/2E6G0P&quot;&gt;&lt;img src=&quot;https://z3.ax1x.com/2021/05/30/2E6G0P.jpg&quot; alt=&quot;2E6G0P.jpg&quot; /&gt;&lt;/a&gt;
-&lt;a href=&quot;https://imgtu.com/i/2E68mt&quot;&gt;&lt;img src=&quot;https://z3.ax1x.com/2021/05/30/2E68mt.jpg&quot; alt=&quot;2E68mt.jpg&quot; /&gt;&lt;/a&gt;
-&lt;a href=&quot;https://imgtu.com/i/2E61OI&quot;&gt;&lt;img src=&quot;https://z3.ax1x.com/2021/05/30/2E61OI.jpg&quot; alt=&quot;2E61OI.jpg&quot; /&gt;&lt;/a&gt;
-&lt;a href=&quot;https://imgtu.com/i/2E6l6A&quot;&gt;&lt;img src=&quot;https://z3.ax1x.com/2021/05/30/2E6l6A.jpg&quot; alt=&quot;2E6l6A.jpg&quot; /&gt;&lt;/a&gt;
-&lt;a href=&quot;https://imgtu.com/i/2E6Qld&quot;&gt;&lt;img src=&quot;https://z3.ax1x.com/2021/05/30/2E6Qld.jpg&quot; alt=&quot;2E6Qld.jpg&quot; /&gt;&lt;/a&gt;
-&lt;a href=&quot;https://imgtu.com/i/2E6MSH&quot;&gt;&lt;img src=&quot;https://z3.ax1x.com/2021/05/30/2E6MSH.jpg&quot; alt=&quot;2E6MSH.jpg&quot; /&gt;&lt;/a&gt;
-&lt;a href=&quot;https://imgtu.com/i/2E6ufe&quot;&gt;&lt;img src=&quot;https://z3.ax1x.com/2021/05/30/2E6ufe.jpg&quot; alt=&quot;2E6ufe.jpg&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&quot;https://imgtu.com/i/2E6mFO&quot;&gt;&lt;img src=&quot;https://z3.ax1x.com/2021/05/30/2E6mFO.jpg&quot; alt=&quot;2E6mFO.jpg&quot; /&gt;&lt;/a&gt;
-&lt;a href=&quot;https://imgtu.com/i/2E6ZTK&quot;&gt;&lt;img src=&quot;https://z3.ax1x.com/2021/05/30/2E6ZTK.jpg&quot; alt=&quot;2E6ZTK.jpg&quot; /&gt;&lt;/a&gt;
-&lt;a href=&quot;https://imgtu.com/i/2E6Vw6&quot;&gt;&lt;img src=&quot;https://z3.ax1x.com/2021/05/30/2E6Vw6.jpg&quot; alt=&quot;2E6Vw6.jpg&quot; /&gt;&lt;/a&gt;
-&lt;a href=&quot;https://imgtu.com/i/2E6Eex&quot;&gt;&lt;img src=&quot;https://z3.ax1x.com/2021/05/30/2E6Eex.jpg&quot; alt=&quot;2E6Eex.jpg&quot; /&gt;&lt;/a&gt;
-&lt;a href=&quot;https://imgtu.com/i/2E6kO1&quot;&gt;&lt;img src=&quot;https://z3.ax1x.com/2021/05/30/2E6kO1.jpg&quot; alt=&quot;2E6kO1.jpg&quot; /&gt;&lt;/a&gt;
-&lt;a href=&quot;https://imgtu.com/i/2E6FyR&quot;&gt;&lt;img src=&quot;https://z3.ax1x.com/2021/05/30/2E6FyR.jpg&quot; alt=&quot;2E6FyR.jpg&quot; /&gt;&lt;/a&gt;
-&lt;a href=&quot;https://imgtu.com/i/2E6il9&quot;&gt;&lt;img src=&quot;https://z3.ax1x.com/2021/05/30/2E6il9.jpg&quot; alt=&quot;2E6il9.jpg&quot; /&gt;&lt;/a&gt;
-&lt;a href=&quot;https://imgtu.com/i/2E6PSJ&quot;&gt;&lt;img src=&quot;https://z3.ax1x.com/2021/05/30/2E6PSJ.jpg&quot; alt=&quot;2E6PSJ.jpg&quot; /&gt;&lt;/a&gt;
-&lt;a href=&quot;https://imgtu.com/i/2E69W4&quot;&gt;&lt;img src=&quot;https://z3.ax1x.com/2021/05/30/2E69W4.jpg&quot; alt=&quot;2E69W4.jpg&quot; /&gt;&lt;/a&gt;
-&lt;a href=&quot;https://imgtu.com/i/2E6pYF&quot;&gt;&lt;img src=&quot;https://z3.ax1x.com/2021/05/30/2E6pYF.jpg&quot; alt=&quot;2E6pYF.jpg&quot; /&gt;&lt;/a&gt;
-&lt;a href=&quot;https://imgtu.com/i/2E6SFU&quot;&gt;&lt;img src=&quot;https://z3.ax1x.com/2021/05/30/2E6SFU.jpg&quot; alt=&quot;2E6SFU.jpg&quot; /&gt;&lt;/a&gt;
-&lt;a href=&quot;https://imgtu.com/i/2EyvwV&quot;&gt;&lt;img src=&quot;https://z3.ax1x.com/2021/05/30/2EyvwV.jpg&quot; alt=&quot;2EyvwV.jpg&quot; /&gt;&lt;/a&gt;
-&lt;a href=&quot;https://imgtu.com/i/2Eyje0&quot;&gt;&lt;img src=&quot;https://z3.ax1x.com/2021/05/30/2Eyje0.jpg&quot; alt=&quot;2Eyje0.jpg&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&quot;https://imgtu.com/i/2EyLyn&quot;&gt;&lt;img src=&quot;https://z3.ax1x.com/2021/05/30/2EyLyn.jpg&quot; alt=&quot;2EyLyn.jpg&quot; /&gt;&lt;/a&gt;
-&lt;a href=&quot;https://imgtu.com/i/2EyqQs&quot;&gt;&lt;img src=&quot;https://z3.ax1x.com/2021/05/30/2EyqQs.jpg&quot; alt=&quot;2EyqQs.jpg&quot; /&gt;&lt;/a&gt;
-&lt;a href=&quot;https://imgtu.com/i/2EyHzj&quot;&gt;&lt;img src=&quot;https://z3.ax1x.com/2021/05/30/2EyHzj.jpg&quot; alt=&quot;2EyHzj.jpg&quot; /&gt;&lt;/a&gt;
-&lt;a href=&quot;https://imgtu.com/i/2Ey7WQ&quot;&gt;&lt;img src=&quot;https://z3.ax1x.com/2021/05/30/2Ey7WQ.jpg&quot; alt=&quot;2Ey7WQ.jpg&quot; /&gt;&lt;/a&gt;
-&lt;a href=&quot;https://imgtu.com/i/2EyTJg&quot;&gt;&lt;img src=&quot;https://z3.ax1x.com/2021/05/30/2EyTJg.jpg&quot; alt=&quot;2EyTJg.jpg&quot; /&gt;&lt;/a&gt;
-&lt;a href=&quot;https://imgtu.com/i/2EyoFS&quot;&gt;&lt;img src=&quot;https://z3.ax1x.com/2021/05/30/2EyoFS.jpg&quot; alt=&quot;2EyoFS.jpg&quot; /&gt;&lt;/a&gt;
-&lt;a href=&quot;https://imgtu.com/i/2Ey5o8&quot;&gt;&lt;img src=&quot;https://z3.ax1x.com/2021/05/30/2Ey5o8.jpg&quot; alt=&quot;2Ey5o8.jpg&quot; /&gt;&lt;/a&gt;
-&lt;a href=&quot;https://imgtu.com/i/2Ey4df&quot;&gt;&lt;img src=&quot;https://z3.ax1x.com/2021/05/30/2Ey4df.jpg&quot; alt=&quot;2Ey4df.jpg&quot; /&gt;&lt;/a&gt;
-&lt;a href=&quot;https://imgtu.com/i/2EyheP&quot;&gt;&lt;img src=&quot;https://z3.ax1x.com/2021/05/30/2EyheP.jpg&quot; alt=&quot;2EyheP.jpg&quot; /&gt;&lt;/a&gt;
-&lt;a href=&quot;https://imgtu.com/i/2Ey2QA&quot;&gt;&lt;img src=&quot;https://z3.ax1x.com/2021/05/30/2Ey2QA.jpg&quot; alt=&quot;2Ey2QA.jpg&quot; /&gt;&lt;/a&gt;
-&lt;a href=&quot;https://imgtu.com/i/2Eyczd&quot;&gt;&lt;img src=&quot;https://z3.ax1x.com/2021/05/30/2Eyczd.jpg&quot; alt=&quot;2Eyczd.jpg&quot; /&gt;&lt;/a&gt;
-&lt;a href=&quot;https://imgtu.com/i/2Ey6RH&quot;&gt;&lt;img src=&quot;https://z3.ax1x.com/2021/05/30/2Ey6RH.jpg&quot; alt=&quot;2Ey6RH.jpg&quot; /&gt;&lt;/a&gt;
-&lt;a href=&quot;https://imgtu.com/i/2EyyJe&quot;&gt;&lt;img src=&quot;https://z3.ax1x.com/2021/05/30/2EyyJe.jpg&quot; alt=&quot;2EyyJe.jpg&quot; /&gt;&lt;/a&gt;
-&lt;a href=&quot;https://imgtu.com/i/2EysiD&quot;&gt;&lt;img src=&quot;https://z3.ax1x.com/2021/05/30/2EysiD.jpg&quot; alt=&quot;2EysiD.jpg&quot; /&gt;&lt;/a&gt;
-&lt;a href=&quot;https://imgtu.com/i/2EyDIO&quot;&gt;&lt;img src=&quot;https://z3.ax1x.com/2021/05/30/2EyDIO.jpg&quot; alt=&quot;2EyDIO.jpg&quot; /&gt;&lt;/a&gt;
-&lt;a href=&quot;https://imgtu.com/i/2EyBdK&quot;&gt;&lt;img src=&quot;https://z3.ax1x.com/2021/05/30/2EyBdK.jpg&quot; alt=&quot;2EyBdK.jpg&quot; /&gt;&lt;/a&gt;
-&lt;a href=&quot;https://imgtu.com/i/2Ey0Z6&quot;&gt;&lt;img src=&quot;https://z3.ax1x.com/2021/05/30/2Ey0Z6.jpg&quot; alt=&quot;2Ey0Z6.jpg&quot; /&gt;&lt;/a&gt;
-&lt;a href=&quot;https://imgtu.com/i/2Eydqx&quot;&gt;&lt;img src=&quot;https://z3.ax1x.com/2021/05/30/2Eydqx.jpg&quot; alt=&quot;2Eydqx.jpg&quot; /&gt;&lt;/a&gt;
-&lt;a href=&quot;https://imgtu.com/i/2Eyas1&quot;&gt;&lt;img src=&quot;https://z3.ax1x.com/2021/05/30/2Eyas1.jpg&quot; alt=&quot;2Eyas1.jpg&quot; /&gt;&lt;/a&gt;
-&lt;a href=&quot;https://imgtu.com/i/2EyUMR&quot;&gt;&lt;img src=&quot;https://z3.ax1x.com/2021/05/30/2EyUMR.jpg&quot; alt=&quot;2EyUMR.jpg&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&quot;https://imgtu.com/i/2EyYRJ&quot;&gt;&lt;img src=&quot;https://z3.ax1x.com/2021/05/30/2EyYRJ.jpg&quot; alt=&quot;2EyYRJ.jpg&quot; /&gt;&lt;/a&gt;
-&lt;a href=&quot;https://imgtu.com/i/2EyJG4&quot;&gt;&lt;img src=&quot;https://z3.ax1x.com/2021/05/30/2EyJG4.jpg&quot; alt=&quot;2EyJG4.jpg&quot; /&gt;&lt;/a&gt;
-&lt;a href=&quot;https://imgtu.com/i/2EyGiF&quot;&gt;&lt;img src=&quot;https://z3.ax1x.com/2021/05/30/2EyGiF.jpg&quot; alt=&quot;2EyGiF.jpg&quot; /&gt;&lt;/a&gt;
-&lt;a href=&quot;https://imgtu.com/i/2Ey3IU&quot;&gt;&lt;img src=&quot;https://z3.ax1x.com/2021/05/30/2Ey3IU.jpg&quot; alt=&quot;2Ey3IU.jpg&quot; /&gt;&lt;/a&gt;
-&lt;a href=&quot;https://imgtu.com/i/2Ey1aT&quot;&gt;&lt;img src=&quot;https://z3.ax1x.com/2021/05/30/2Ey1aT.jpg&quot; alt=&quot;2Ey1aT.jpg&quot; /&gt;&lt;/a&gt;
-&lt;a href=&quot;https://imgtu.com/i/2EylZV&quot;&gt;&lt;img src=&quot;https://z3.ax1x.com/2021/05/30/2EylZV.jpg&quot; alt=&quot;2EylZV.jpg&quot; /&gt;&lt;/a&gt;
-&lt;a href=&quot;https://imgtu.com/i/2EyMq0&quot;&gt;&lt;img src=&quot;https://z3.ax1x.com/2021/05/30/2EyMq0.jpg&quot; alt=&quot;2EyMq0.jpg&quot; /&gt;&lt;/a&gt;
-&lt;a href=&quot;https://imgtu.com/i/2EyKrq&quot;&gt;&lt;img src=&quot;https://z3.ax1x.com/2021/05/30/2EyKrq.jpg&quot; alt=&quot;2EyKrq.jpg&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
-</description>
-        <pubDate>Sat, 01 May 2021 00:00:00 +0800</pubDate>
-        <link>http://localhost:4000/China-Zhejiang-Lishui-BaishanZu-Bikepacking</link>
-        <guid isPermaLink="true">http://localhost:4000/China-Zhejiang-Lishui-BaishanZu-Bikepacking</guid>
-        
-        <category>Bikepacking</category>
-        
-        <category>分时分段漫游中国</category>
-        
-        <category>浙江</category>
+        <category>2023</category>
         
         
       </item>
     
       <item>
-        <title>雁荡留声•清明节</title>
-        <description>&lt;h2 id=&quot;题外话&quot;&gt;题外话&lt;/h2&gt;
+        <title>初春•青黄水墨•婺源</title>
+        <description>&lt;script&gt;
+    function password()
+    {
+        var i=1;
+            var passwd=prompt('此文章已过无限制展示有效期，请使用有限制密钥访问。','');//这是输入密码的提示语，可以改为你想要显示的内容，比如本站地址之类的
+        while(i&lt;1)
+        {
+            if(passwd==&quot;i love isanfeng&quot;)//这是密码
+            {
+            alert('密码正确，欢迎光临！');//这是输入正确后的提示，可以改为自己想要的提示语
+            break;
+            }
+            i++;
+            var passwd=prompt('密码不正确！请重新输入:\n你还有'+(2-i)+'次机会。');
+        }
+        if(password!=&quot;vip.zan.smarted&quot;&amp;&amp;i==1)
+        {
+            alert('密码不正确，页面将返回首页，请联系三丰获取访问密码');
+            location.href=&quot;/&quot;;//这是密码输入错误超过3次后转到的错误页面，也可设为别的页面
+        }
+        return &quot;&quot;;
+    }
+        password();
+&lt;/script&gt;
 
-&lt;blockquote&gt;
-  &lt;p&gt;我冷眼向过去稍稍回顾，只见它曲折灌溉的悲喜都消失在一片亘古的荒漠中，&lt;/p&gt;
-
-  &lt;p&gt;这才知道，我的全部努力只不过完成了普通的生活。&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;p&gt;人的一生中不是每一个自主选择都是对的，更何况还有那么多被迫的选择，也许部分的对应该就可以了，短短的一生，何必花费太多的时间去考虑哪个选择是对的，到最后，会发现不管做哪个选择都是错的。&lt;/p&gt;
-
-&lt;p&gt;与其如此，在生活方式的选择上，用最懒人的方式，选择让自己舒服的，也许是不是性价比最好的呢？
-&lt;a href=&quot;https://imgtu.com/i/cd77vR&quot;&gt;&lt;img src=&quot;https://z3.ax1x.com/2021/04/10/cd77vR.jpg&quot; alt=&quot;cd77vR.jpg&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;然而不同的生活方式，在改变生活本质和问题上也几乎没有太多的帮助，它只不过是在某种程度上让我们更宽容的接受生活，拥有很多去生活的勇气和信念。
-&lt;a href=&quot;https://imgtu.com/i/cdHQrq&quot;&gt;&lt;img src=&quot;https://z3.ax1x.com/2021/04/10/cdHQrq.jpg&quot; alt=&quot;cdHQrq.jpg&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
-&lt;blockquote&gt;
-  &lt;p&gt;飞流直下三千尺，疑是银河落九天&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;p&gt;一路下来，生活也许一直都是自己的感受，爽痛喜悲都要亲身体验，不是别人的看法，所以不再想着轰轰烈烈，只求能安安心心，不强求算是作为中年人对生活的另一种“&lt;ruby&gt;开拓&lt;rp&gt;(&lt;/rp&gt;&lt;rt&gt;qū fú&lt;/rt&gt;&lt;rp&gt;)&lt;/rp&gt;&lt;/ruby&gt;”吧。
-&lt;a href=&quot;https://imgtu.com/i/cd7XVK&quot;&gt;&lt;img src=&quot;https://z3.ax1x.com/2021/04/10/cd7XVK.jpg&quot; alt=&quot;cd7XVK.jpg&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
-
-&lt;h2 id=&quot;路上&quot;&gt;路上&lt;/h2&gt;
-
-&lt;p&gt;等闲若得东风顾，不负春光不负卿。&lt;/p&gt;
-
-&lt;p&gt;我不喜欢人多的地方，骑单车刚好可以避开这种情况，早起晚归，专挑那深山，乡下人少的地方去，为了不辜负清明三天的小假期，不辜负很久没有爬过山也没有趟过河的单车，就决定来一次”说走就走”的短途旅行，至于目的地，很遗憾还没有形成一套系统性的筛选方法，大多是基于时间和路线比较随机的选择，没有特定的前因后果，所以这次的雁荡山也只是一次偶然的选择。&lt;/p&gt;
-
-&lt;p&gt;雁荡山，“东南第一山”，山顶汇水蕴湖，茂盛的芦苇结草为荡，南归秋雁多宿于此，故名“雁荡”。形成于一亿二千万年以前，是环太平洋大陆边缘火山带中，主体位于浙江省温州市东北部海滨，还有一小部在台州市温岭南境，整体上分为东、南、西、北、中五座雁荡山，分布在温州境内各个地方，但人们口中所说的雁荡山，基本上指的是北雁荡山，这次的行程范围也主要集中在北雁荡。
-&lt;a href=&quot;https://imgtu.com/i/cd7v5D&quot;&gt;&lt;img src=&quot;https://z3.ax1x.com/2021/04/10/cd7v5D.jpg&quot; alt=&quot;cd7v5D.jpg&quot; /&gt;&lt;/a&gt;
-&lt;a href=&quot;https://imgtu.com/i/cd7zPe&quot;&gt;&lt;img src=&quot;https://z3.ax1x.com/2021/04/10/cd7zPe.jpg&quot; alt=&quot;cd7zPe.jpg&quot; /&gt;&lt;/a&gt;
-&lt;a href=&quot;https://imgtu.com/i/cdHirt&quot;&gt;&lt;img src=&quot;https://z3.ax1x.com/2021/04/10/cdHirt.jpg&quot; alt=&quot;cdHirt.jpg&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;出发之前本计划沿着虹三线行进的，却误入状元故里梅溪村，这里是南宋一代名臣王十朋的故里。&lt;/p&gt;
-&lt;blockquote&gt;
-  &lt;p&gt;王十朋是南宋著名诗人，坚定的抗金派人士，前大半生务农、求学和授业，33岁时，王十朋在家乡创办梅溪书院授徒，十余年间六赴太学，由于当时南宋政治腐败，奸臣秦桧专权，科举考场黑暗，每次都名落孙山。秦桧病死后，绍兴二十七年（1157年），46岁的王十朋再次参加科考，应试的主题是“揽权”中兴，被宋高宗赵构亲擢为头名进士（即状元）。因为他力主抗战，遭主和派排斥回归故里。宋孝宗即位后，他先后任对除司员外郎、国子司业、起居舍人、侍御史等职，还曾为孝宗、光宗两朝帝师。他力排和议，并以怀奸、误国等八大罪状弹劾主和派代表、宰相史浩，使之罢职。由于王十朋勤政谋政，虽然从政只有十余年，却声名鹊起遗闻频传，乾道五年（1169年）冬，王十朋卸任泉州。他离开时男女老幼涕泣挡道苦苦挽留，后来干脆仿效饶州百姓挽留王十朋的做法，把他必经的桥梁拆断。王十朋只好绕道离开，大家跟随出境送到仙游县枫亭驿。泉州百姓将桥修复后，用王十朋之号“梅溪”命名为“梅溪桥”。&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;p&gt;现在村里还保有梅溪草堂，王十朋纪念馆，王十朋故居等
-&lt;a href=&quot;https://imgtu.com/i/cdHEa8&quot;&gt;&lt;img src=&quot;https://z3.ax1x.com/2021/04/10/cdHEa8.jpg&quot; alt=&quot;cdHEa8.jpg&quot; /&gt;&lt;/a&gt;
-&lt;a href=&quot;https://imgtu.com/i/cdH6iD&quot;&gt;&lt;img src=&quot;https://z3.ax1x.com/2021/04/10/cdH6iD.jpg&quot; alt=&quot;cdH6iD.jpg&quot; /&gt;&lt;/a&gt;
-&lt;a href=&quot;https://imgtu.com/i/cdHhLt&quot;&gt;&lt;img src=&quot;https://z3.ax1x.com/2021/04/10/cdHhLt.jpg&quot; alt=&quot;cdHhLt.jpg&quot; /&gt;&lt;/a&gt;
-&lt;a href=&quot;https://imgtu.com/i/cdH9xA&quot;&gt;&lt;img src=&quot;https://z3.ax1x.com/2021/04/10/cdH9xA.jpg&quot; alt=&quot;cdH9xA.jpg&quot; /&gt;&lt;/a&gt;
-&lt;a href=&quot;https://imgtu.com/i/cd7qDx&quot;&gt;&lt;img src=&quot;https://z3.ax1x.com/2021/04/10/cd7qDx.jpg&quot; alt=&quot;cd7qDx.jpg&quot; /&gt;&lt;/a&gt;
-&lt;a href=&quot;https://imgtu.com/i/cdbEO1&quot;&gt;&lt;img src=&quot;https://z3.ax1x.com/2021/04/10/cdbEO1.jpg&quot; alt=&quot;cdbEO1.jpg&quot; /&gt;&lt;/a&gt;
-&lt;a href=&quot;https://imgtu.com/i/cdHcJe&quot;&gt;&lt;img src=&quot;https://z3.ax1x.com/2021/04/10/cdHcJe.jpg&quot; alt=&quot;cdHcJe.jpg&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
-&lt;blockquote&gt;
-  &lt;p&gt;梅溪草堂&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;p&gt;&lt;a href=&quot;https://imgtu.com/i/cdHIdf&quot;&gt;&lt;img src=&quot;https://z3.ax1x.com/2021/04/10/cdHIdf.jpg&quot; alt=&quot;cdHIdf.jpg&quot; /&gt;&lt;/a&gt;
-&lt;a href=&quot;https://imgtu.com/i/cdH0qx&quot;&gt;&lt;img src=&quot;https://z3.ax1x.com/2021/04/10/cdH0qx.jpg&quot; alt=&quot;cdH0qx.jpg&quot; /&gt;&lt;/a&gt;
-&lt;a href=&quot;https://imgtu.com/i/cdHAVf&quot;&gt;&lt;img src=&quot;https://z3.ax1x.com/2021/04/10/cdHAVf.jpg&quot; alt=&quot;cdHAVf.jpg&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
-&lt;blockquote&gt;
-  &lt;p&gt;王十朋纪念馆&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;p&gt;&lt;a href=&quot;https://imgtu.com/i/cdHHJg&quot;&gt;&lt;img src=&quot;https://z3.ax1x.com/2021/04/10/cdHHJg.jpg&quot; alt=&quot;cdHHJg.jpg&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;离开状元故里，沿着杨岭公路（算是走错路，将错就错吧，不像带着几个人骑行，要不断看导航，生怕走错路，一个人出行就很随意多了，有导航也不太看，就瞎走，哎，就是玩儿，有时候瞎走瞎走着，可能会别有洞天，未知的惊喜总是比惊喜本身更宝贵）前进，因为是清明时节，沿路还可以看到很多的江南地区扫墓祭祖的传统的习俗，村落里也大多设有自己姓氏族群的祠堂，供着自己共同的祖先，大多家族的祖训也基本以孝敬、不忘本为原则，这条路本身和虹三线几乎是并行的，只是比虹三线更偏僻一点，所以机动车也更少一点，当然也少不了漂亮的发卡弯，加上雁荡山脉地区可谓怪石嶙峋，而且每个几乎都气势磅礴，巨石散落，青山绿水，瀑布飞溅……这种自然透漏出来的震撼，和其他地方有着截然不同的感受。
-&lt;a href=&quot;https://imgtu.com/i/cdH5eP&quot;&gt;&lt;img src=&quot;https://z3.ax1x.com/2021/04/10/cdH5eP.jpg&quot; alt=&quot;cdH5eP.jpg&quot; /&gt;&lt;/a&gt;
-&lt;a href=&quot;https://imgtu.com/i/cdbCYF&quot;&gt;&lt;img src=&quot;https://z3.ax1x.com/2021/04/10/cdbCYF.jpg&quot; alt=&quot;cdbCYF.jpg&quot; /&gt;&lt;/a&gt;
-&lt;a href=&quot;https://imgtu.com/i/cdHtG4&quot;&gt;&lt;img src=&quot;https://z3.ax1x.com/2021/04/10/cdHtG4.jpg&quot; alt=&quot;cdHtG4.jpg&quot; /&gt;&lt;/a&gt;
-&lt;a href=&quot;https://imgtu.com/i/cdHn2j&quot;&gt;&lt;img src=&quot;https://z3.ax1x.com/2021/04/10/cdHn2j.jpg&quot; alt=&quot;cdHn2j.jpg&quot; /&gt;&lt;/a&gt;
-&lt;a href=&quot;https://imgtu.com/i/cdbFSJ&quot;&gt;&lt;img src=&quot;https://z3.ax1x.com/2021/04/10/cdbFSJ.jpg&quot; alt=&quot;cdbFSJ.jpg&quot; /&gt;&lt;/a&gt;
-&lt;a href=&quot;https://imgtu.com/i/cdbkl9&quot;&gt;&lt;img src=&quot;https://z3.ax1x.com/2021/04/10/cdbkl9.jpg&quot; alt=&quot;cdbkl9.jpg&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;上海到温州路上花费4小时，所以今天只计划了下午半天的骑程（原计划虹三线40+km），当天可以早早入住永嘉城区休息。
-&lt;a href=&quot;https://imgtu.com/i/cdHYiF&quot;&gt;&lt;img src=&quot;https://z3.ax1x.com/2021/04/10/cdHYiF.jpg&quot; alt=&quot;cdHYiF.jpg&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;翌日清晨，早早退房，昨天下午只算是在雁荡山山脚边缘地带轮行，今天要正式开进雁荡山腹地。从永嘉城区踏上上下线（路口处有一基督教堂，后来发现温州各处的村落几乎都设有基督教堂，不同的宗教，一样的向往。），压过连续的发卡弯，穿过两三个隧道，清晨阴阴的天空，路边清凉的溪水，使体感温度也极其舒服。
-&lt;a href=&quot;https://imgtu.com/i/cdbAyR&quot;&gt;&lt;img src=&quot;https://z3.ax1x.com/2021/04/10/cdbAyR.jpg&quot; alt=&quot;cdbAyR.jpg&quot; /&gt;&lt;/a&gt;
-&lt;a href=&quot;https://imgtu.com/i/cdHws1&quot;&gt;&lt;img src=&quot;https://z3.ax1x.com/2021/04/10/cdHws1.jpg&quot; alt=&quot;cdHws1.jpg&quot; /&gt;&lt;/a&gt;
-&lt;a href=&quot;https://imgtu.com/i/cdHS8H&quot;&gt;&lt;img src=&quot;https://z3.ax1x.com/2021/04/10/cdHS8H.jpg&quot; alt=&quot;cdHS8H.jpg&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;也许下坡下的太爽，也许景色太过壮观，又骑“错”路线（这里的错是指和原本草稿画的路线不一致），将错就错，我们目的地不是最重要的，在旅途上的路上更有意思。&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&quot;https://imgtu.com/i/cdHMMn&quot;&gt;&lt;img src=&quot;https://z3.ax1x.com/2021/04/10/cdHMMn.jpg&quot; alt=&quot;cdHMMn.jpg&quot; /&gt;&lt;/a&gt;
-经过泰石村，在此地gps奇怪的鬼打墙似得看错几次，竟然尝到了永嘉有名的麦饼。
-&lt;a href=&quot;https://imgtu.com/i/cdHrdK&quot;&gt;&lt;img src=&quot;https://z3.ax1x.com/2021/04/10/cdHrdK.jpg&quot; alt=&quot;cdHrdK.jpg&quot; /&gt;&lt;/a&gt;
-&lt;a href=&quot;https://imgtu.com/i/cdHfsI&quot;&gt;&lt;img src=&quot;https://z3.ax1x.com/2021/04/10/cdHfsI.jpg&quot; alt=&quot;cdHfsI.jpg&quot; /&gt;&lt;/a&gt;
-和老板了解到，泰石村种有60多亩成片的向日葵地，每年十一左右是最好的观赏季节，村后的泰石山山顶有一草甸，被旅游称作永嘉小武功山。&lt;/p&gt;
-
-&lt;p&gt;离开泰石村，沿着大楠溪，一路有很多的漂流竹筏，水流清澈，在溪边小憩也是不错的。
-&lt;a href=&quot;https://imgtu.com/i/cdH2zd&quot;&gt;&lt;img src=&quot;https://z3.ax1x.com/2021/04/10/cdH2zd.jpg&quot; alt=&quot;cdH2zd.jpg&quot; /&gt;&lt;/a&gt;
-&lt;a href=&quot;https://imgtu.com/i/cd7XVK&quot;&gt;&lt;img src=&quot;https://z3.ax1x.com/2021/04/10/cd7XVK.jpg&quot; alt=&quot;cd7XVK.jpg&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;快到中午时分，终于抵达芙蓉古村，芙蓉村中本无芙蓉，因其西南山上有三座高崖，其色白里透红，状如三朵含苞待放之芙蓉，因而得名，据说这是个宋朝就存在的村落，始建于唐代末年，为陈姓聚居之地。按照“七星八斗”的思想进行规划设计，意为天上星与地上人相对应，星筑台、斗凿池以为象征。&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&quot;https://imgtu.com/i/cdHGIU&quot;&gt;&lt;img src=&quot;https://z3.ax1x.com/2021/04/10/cdHGIU.jpg&quot; alt=&quot;cdHGIU.jpg&quot; /&gt;&lt;/a&gt;
-&lt;a href=&quot;https://imgtu.com/i/cdbPW4&quot;&gt;&lt;img src=&quot;https://z3.ax1x.com/2021/04/10/cdbPW4.jpg&quot; alt=&quot;cdbPW4.jpg&quot; /&gt;&lt;/a&gt;
-&lt;a href=&quot;https://imgtu.com/i/cytD4f&quot;&gt;&lt;img src=&quot;https://z3.ax1x.com/2021/04/13/cytD4f.jpg&quot; alt=&quot;cytD4f.jpg&quot; /&gt;&lt;/a&gt;
-&lt;a href=&quot;https://imgtu.com/i/cd77vR&quot;&gt;&lt;img src=&quot;https://z3.ax1x.com/2021/04/10/cd77vR.jpg&quot; alt=&quot;cd77vR.jpg&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;全村略呈正方形，坐西朝东，围以卵石砌成的寨墙，使整个村庄犹如一座小城堡。东面寨墙正中开一寨门，两边稍远处开二小门，寨门内建有樵楼，可观望四方，雄伟壮丽。其余三面开五小门。
-从寨门进内，是卵石筑成的主街，名“如意街”，寓吉祥如意之义。主街中部南侧，凿一内湖，湖水清冽。
-湖旁花木繁丽，芳香袭人，湖中建有亭树，石桥缀之。村内沿寨墙、道路引溪水。民宅布置水车众多，以沟通各“斗”形成的流动水系。宅边、道旁清流涓涓，环境优雅。
-村中民宅大多系木质结构，以参差错落的屋顶，朴实素雅的形态，优美亲切的比例尺度，白墙青瓦的明快色调，兼以家家石砌矮墙，户户绿树成荫，使整个村落构成一种和谐美。&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;p&gt;&lt;a href=&quot;https://imgtu.com/i/cyYb7t&quot;&gt;&lt;img src=&quot;https://z3.ax1x.com/2021/04/13/cyYb7t.jpg&quot; alt=&quot;cyYb7t.jpg&quot; /&gt;&lt;/a&gt;
-&lt;a href=&quot;https://imgtu.com/i/cyN0sJ&quot;&gt;&lt;img src=&quot;https://z3.ax1x.com/2021/04/13/cyN0sJ.jpg&quot; alt=&quot;cyN0sJ.jpg&quot; /&gt;&lt;/a&gt;
-&lt;a href=&quot;https://imgtu.com/i/cyYRk6&quot;&gt;&lt;img src=&quot;https://z3.ax1x.com/2021/04/13/cyYRk6.jpg&quot; alt=&quot;cyYRk6.jpg&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;而且永嘉还是著名的长寿之乡，当天正好有温州义工厨师队给村里70岁以上老人设宴席表示关爱。
-&lt;a href=&quot;https://imgtu.com/i/cyYWtK&quot;&gt;&lt;img src=&quot;https://z3.ax1x.com/2021/04/13/cyYWtK.jpg&quot; alt=&quot;cyYWtK.jpg&quot; /&gt;&lt;/a&gt;
-&lt;a href=&quot;https://imgtu.com/i/cyYv9S&quot;&gt;&lt;img src=&quot;https://z3.ax1x.com/2021/04/13/cyYv9S.jpg&quot; alt=&quot;cyYv9S.jpg&quot; /&gt;&lt;/a&gt;
-&lt;a href=&quot;https://imgtu.com/i/cyYzcQ&quot;&gt;&lt;img src=&quot;https://z3.ax1x.com/2021/04/13/cyYzcQ.jpg&quot; alt=&quot;cyYzcQ.jpg&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;在芙蓉古村北边附近还有丽水古街，苍坡古村，都值得一去。
-苍坡古村，有着极美丽的名字，背依笔架山，面临楠溪江，其最具特色的便是以“文房四宝”为理念布局建造。走进木结构的村落大门，一条直线的石板道纵贯全村，通向笔架山，为笔；石道中间过一桥，砚池和笔街之间几块长长的条石，为墨；呈长方形的村子，为纸；整座村落占地面积最大的为石道两侧的莲池，为砚。笔架山、墨池、砚台、笔街、纸村，整个典雅村落就如同文房四宝，静居山水。
-&lt;a href=&quot;https://imgtu.com/i/cyzVvn&quot;&gt;&lt;img src=&quot;https://z3.ax1x.com/2021/04/14/cyzVvn.jpg&quot; alt=&quot;cyzVvn.jpg&quot; /&gt;&lt;/a&gt;
-&lt;a href=&quot;https://imgtu.com/i/cyYx1g&quot;&gt;&lt;img src=&quot;https://z3.ax1x.com/2021/04/13/cyYx1g.jpg&quot; alt=&quot;cyYx1g.jpg&quot; /&gt;&lt;/a&gt;
-&lt;a href=&quot;https://imgtu.com/i/cyY4pD&quot;&gt;&lt;img src=&quot;https://z3.ax1x.com/2021/04/13/cyY4pD.jpg&quot; alt=&quot;cyY4pD.jpg&quot; /&gt;&lt;/a&gt;
-苍坡古村村民皆为李姓，始祖李岑为避战乱于福建长溪迁此，五代时期开始营建，至今愈千年，现存的苍坡村是南宋国师李时日设计的。他曾在村寨大门上题联：“四壁青山藏虎豹，双池碧水贮蛟龙”。
-&lt;a href=&quot;https://imgtu.com/i/cyY51e&quot;&gt;&lt;img src=&quot;https://z3.ax1x.com/2021/04/13/cyY51e.jpg&quot; alt=&quot;cyY51e.jpg&quot; /&gt;&lt;/a&gt;
-李氏祠堂匾额上会发现氏字旁边多了一点，有人质疑这是笔误。其实按村人的说法，是因为村中还有几个非李姓氏的人家，这一点表示接纳相容外姓人的意思，这多出来的一点是特地添写的，村人的说法透射出的民风是很值得人们赞赏的。&lt;/p&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;在村子的东南角有一座望兄亭，初建于1128年。站在亭子里往村外东南方向眺望，对面就是苍坡的“同胞村”方巷村了。方港村头也有一座造型和“望兄亭”一摸一样的亭子，名叫“送弟阁”，两个亭子隔着阡陌纵横的田野遥遥相望。据传兄弟两个感情很好，每每必促膝长谈到深夜，分别时总要想送到村口。常常哥哥离开回家时，弟弟就送哥哥到方港村头，弟弟回来时哥哥又要送弟弟回来，就这样弟弟送哥哥到家，哥哥又送弟弟到村口，弟弟又送哥哥，哥哥又送弟弟，真是 温州 俚语讲的“张郎送李郎，一夜送到大天光。”于是兄弟俩商定在苍坡村和方巷村各建一座亭阁，在亭子里挂上灯笼。每当探望分手后，见到对方亭中灯笼亮灯，就知道对方已平安到家，兄弟俩才各自安然收灯回家歇息。&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;p&gt;说真的，一个人出行唯一的不便就是吃饭，不敢点多，也不好意思一个人占用店家一张桌子，所以一般都凑合随便吃吃就好，简单补充沿着雁楠公路继续前行，会遇到一个路边的景点，基本都会有很多摩托骑士在此聚集。
-&lt;a href=&quot;https://imgtu.com/i/cdHgRH&quot;&gt;&lt;img src=&quot;https://z3.ax1x.com/2021/04/10/cdHgRH.jpg&quot; alt=&quot;cdHgRH.jpg&quot; /&gt;&lt;/a&gt;
-&lt;a href=&quot;https://imgtu.com/i/cdHxe0&quot;&gt;&lt;img src=&quot;https://z3.ax1x.com/2021/04/10/cdHxe0.jpg&quot; alt=&quot;cdHxe0.jpg&quot; /&gt;&lt;/a&gt;
-前方会有分岔路，雁楠公路和石桅岩之路，这种情况下选择辅路是绝对正确的。
-&lt;a href=&quot;https://imgtu.com/i/cd7Lb6&quot;&gt;&lt;img src=&quot;https://z3.ax1x.com/2021/04/10/cd7Lb6.jpg&quot; alt=&quot;cd7Lb6.jpg&quot; /&gt;&lt;/a&gt;
-&lt;a href=&quot;https://imgtu.com/i/cyYLAP&quot;&gt;&lt;img src=&quot;https://z3.ax1x.com/2021/04/13/cyYLAP.jpg&quot; alt=&quot;cyYLAP.jpg&quot; /&gt;&lt;/a&gt;
-&lt;a href=&quot;https://imgtu.com/i/cyY7nA&quot;&gt;&lt;img src=&quot;https://z3.ax1x.com/2021/04/13/cyY7nA.jpg&quot; alt=&quot;cyY7nA.jpg&quot; /&gt;&lt;/a&gt;
-&lt;a href=&quot;https://imgtu.com/i/cdHPKI&quot;&gt;&lt;img src=&quot;https://z3.ax1x.com/2021/04/10/cdHPKI.jpg&quot; alt=&quot;cdHPKI.jpg&quot; /&gt;&lt;/a&gt;
-&lt;a href=&quot;https://imgtu.com/i/cdHirt&quot;&gt;&lt;img src=&quot;https://z3.ax1x.com/2021/04/10/cdHirt.jpg&quot; alt=&quot;cdHirt.jpg&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;经过黄坑之后，前方又有岔路，雁楠公路和去往炉山村的无名山路，选择的原则参考之前，这是一条算是村路吧，没太有维护了，有着超多漂亮发卡弯，在落山最尽头确有告示牌，路段危险，禁止同行，怪不得路上见不到一辆机动车，让我独享了一路。
-&lt;a href=&quot;https://imgtu.com/i/cdHqzj&quot;&gt;&lt;img src=&quot;https://z3.ax1x.com/2021/04/10/cdHqzj.jpg&quot; alt=&quot;cdHqzj.jpg&quot; /&gt;&lt;/a&gt;
-&lt;a href=&quot;https://imgtu.com/i/cdHbWQ&quot;&gt;&lt;img src=&quot;https://z3.ax1x.com/2021/04/10/cdHbWQ.jpg&quot; alt=&quot;cdHbWQ.jpg&quot; /&gt;&lt;/a&gt;
-&lt;a href=&quot;https://imgtu.com/i/cd7v5D&quot;&gt;&lt;img src=&quot;https://z3.ax1x.com/2021/04/10/cd7v5D.jpg&quot; alt=&quot;cd7v5D.jpg&quot; /&gt;&lt;/a&gt;
-&lt;a href=&quot;https://imgtu.com/i/cdH3ZV&quot;&gt;&lt;img src=&quot;https://z3.ax1x.com/2021/04/10/cdH3ZV.jpg&quot; alt=&quot;cdH3ZV.jpg&quot; /&gt;&lt;/a&gt;
-&lt;a href=&quot;https://imgtu.com/i/cdHzwV&quot;&gt;&lt;img src=&quot;https://z3.ax1x.com/2021/04/10/cdHzwV.jpg&quot; alt=&quot;cdHzwV.jpg&quot; /&gt;&lt;/a&gt;
-&lt;a href=&quot;https://imgtu.com/i/cdHOQs&quot;&gt;&lt;img src=&quot;https://z3.ax1x.com/2021/04/10/cdHOQs.jpg&quot; alt=&quot;cdHOQs.jpg&quot; /&gt;&lt;/a&gt;
-&lt;a href=&quot;https://imgtu.com/i/cdHp2d&quot;&gt;&lt;img src=&quot;https://z3.ax1x.com/2021/04/10/cdHp2d.jpg&quot; alt=&quot;cdHp2d.jpg&quot; /&gt;&lt;/a&gt;
-&lt;a href=&quot;https://imgtu.com/i/cdHDZ6&quot;&gt;&lt;img src=&quot;https://z3.ax1x.com/2021/04/10/cdHDZ6.jpg&quot; alt=&quot;cdHDZ6.jpg&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;完全下完山，正好遇到正在开山修路的施工队，在感叹他们的力量之外，又回忆上次去皖浙天路无意经历的野路，那一次算是很有意思的一次经历。
-&lt;a href=&quot;https://imgtu.com/i/cdHNRJ&quot;&gt;&lt;img src=&quot;https://z3.ax1x.com/2021/04/10/cdHNRJ.jpg&quot; alt=&quot;cdHNRJ.jpg&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;一路下到龙西乡，龙西粉丝应该有所耳闻。
-&lt;a href=&quot;https://imgtu.com/i/cdbZex&quot;&gt;&lt;img src=&quot;https://z3.ax1x.com/2021/04/10/cdbZex.jpg&quot; alt=&quot;cdbZex.jpg&quot; /&gt;&lt;/a&gt;
-这里算是穿越雁荡山，即使在平路上，抬头就可以看到路边壮观的嶙峋怪石。停下车，路边的溪水泡泡脚，体验一把冷泉。
-&lt;a href=&quot;https://imgtu.com/i/cd7zPe&quot;&gt;&lt;img src=&quot;https://z3.ax1x.com/2021/04/10/cd7zPe.jpg&quot; alt=&quot;cd7zPe.jpg&quot; /&gt;&lt;/a&gt;
-&lt;a href=&quot;https://imgtu.com/i/cdHXyn&quot;&gt;&lt;img src=&quot;https://z3.ax1x.com/2021/04/10/cdHXyn.jpg&quot; alt=&quot;cdHXyn.jpg&quot; /&gt;&lt;/a&gt;
-&lt;a href=&quot;https://imgtu.com/i/cytCBn&quot;&gt;&lt;img src=&quot;https://z3.ax1x.com/2021/04/13/cytCBn.jpg&quot; alt=&quot;cytCBn.jpg&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;到达仙溪镇，镇内拥有雁荡山八大景区中的两大景区——“显胜门风景区”和“仙桥景区”，同时拥有国家级文物保护单位“南阁明代牌楼群”和“北阁古民居”等人文景观。
-&lt;a href=&quot;https://imgtu.com/i/cdHlq0&quot;&gt;&lt;img src=&quot;https://z3.ax1x.com/2021/04/10/cdHlq0.jpg&quot; alt=&quot;cdHlq0.jpg&quot; /&gt;&lt;/a&gt;
-&lt;a href=&quot;https://imgtu.com/i/cd7bK1&quot;&gt;&lt;img src=&quot;https://z3.ax1x.com/2021/04/10/cd7bK1.jpg&quot; alt=&quot;cd7bK1.jpg&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
-&lt;blockquote&gt;
-  &lt;p&gt;南阁，已有一千多年历史，为章氏聚居之地，是明代直臣章纶的故里，牌楼群原有七座牌楼，现存五座，纵向排列在村口的一条以红褐色卵石铺成图案。路面的直街上，井然有序，雄伟古仆。这一规模宏大的古建筑群，是为了标榜功名和地位。牌楼火红巨匾上，分别以斗大金字楷书：“世进士”、“思光”、“方伯”、“尚书”、“会魁”。&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;p&gt;此次雁荡之行，算是比较匆匆，不过还算收获比较多惊喜，一过匆匆，二来再探。
-&lt;a href=&quot;https://imgtu.com/i/cdbSoT&quot;&gt;&lt;img src=&quot;https://z3.ax1x.com/2021/04/10/cdbSoT.jpg&quot; alt=&quot;cdbSoT.jpg&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
 </description>
-        <pubDate>Fri, 02 Apr 2021 00:00:00 +0800</pubDate>
-        <link>http://localhost:4000/China-Zhejiang-Wenzhou-YandangMtn-Bikepacking</link>
-        <guid isPermaLink="true">http://localhost:4000/China-Zhejiang-Wenzhou-YandangMtn-Bikepacking</guid>
+        <pubDate>Sat, 11 Mar 2023 00:00:00 +0800</pubDate>
+        <link>http://localhost:4000/China-Jiangxi-Wuyuan-Bikepacking</link>
+        <guid isPermaLink="true">http://localhost:4000/China-Jiangxi-Wuyuan-Bikepacking</guid>
         
         <category>Bikepacking</category>
         
-        <category>分时分段漫游中国</category>
+        <category>漫游中国</category>
         
-        <category>浙江</category>
+        <category>江西</category>
+        
+        <category>🚳</category>
+        
+        <category>2023</category>
         
         
       </item>
     
       <item>
-        <title>皖浙天路•清明前夕</title>
-        <description>&lt;p&gt;还记得，那是一方山峦，流淌着春色，牵引着愁绪；&lt;/p&gt;
+        <title>有福之州•福州</title>
+        <description>&lt;script&gt;
+    function password()
+    {
+        var i=1;
+            var passwd=prompt('此文章已过无限制展示有效期，请使用有限制密钥访问。','');//这是输入密码的提示语，可以改为你想要显示的内容，比如本站地址之类的
+        while(i&lt;1)
+        {
+            if(passwd==&quot;i love isanfeng&quot;)//这是密码
+            {
+            alert('密码正确，欢迎光临！');//这是输入正确后的提示，可以改为自己想要的提示语
+            break;
+            }
+            i++;
+            var passwd=prompt('密码不正确！请重新输入:\n你还有'+(2-i)+'次机会。');
+        }
+        if(password!=&quot;vip.zan.smarted&quot;&amp;&amp;i==1)
+        {
+            alert('密码不正确，页面将返回首页，请联系三丰获取访问密码');
+            location.href=&quot;/&quot;;//这是密码输入错误超过3次后转到的错误页面，也可设为别的页面
+        }
+        return &quot;&quot;;
+    }
+        password();
+&lt;/script&gt;
 
-&lt;p&gt;难忘却，那是一抔花海，酿满了芬芳，捻碎了情丝。&lt;/p&gt;
-
-&lt;p&gt;即便还是乍冷初春，也可以来一场随意任性的踏春，可以是春意盎然，或者只是岁月静好。&lt;/p&gt;
-
-&lt;p&gt;每年三月，正值草长莺飞，江浙沪周边的油菜花开的正旺，骑车赏花跃然成为了这个季节的一堂必修课。&lt;/p&gt;
-
-&lt;p&gt;去看油菜的地方，无外乎江西婺源，江苏兴化，绩溪家朋，而家朋正好又是皖浙天路（以前称作荆州公路）的起点，让家朋成为了热衷盘山公路的骑士们的唯一不二选择。
-&lt;a href=&quot;https://imgtu.com/i/6RJAVU&quot;&gt;&lt;img src=&quot;https://s3.ax1x.com/2021/03/18/6RJAVU.jpg&quot; alt=&quot;6RJAVU.jpg&quot; /&gt;&lt;/a&gt;
-&lt;a href=&quot;https://imgtu.com/i/6RJNRA&quot;&gt;&lt;img src=&quot;https://s3.ax1x.com/2021/03/18/6RJNRA.jpg&quot; alt=&quot;6RJNRA.jpg&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
-&lt;blockquote&gt;
-  &lt;p&gt;家朋乡梅干岭油菜花观景台视角&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;p&gt;&lt;a href=&quot;https://imgtu.com/i/6fQWqO&quot;&gt;&lt;img src=&quot;https://s4.ax1x.com/2021/03/19/6fQWqO.jpg&quot; alt=&quot;6fQWqO.jpg&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
-&lt;blockquote&gt;
-  &lt;p&gt;皖浙天路精华路段，饭甑尖视角&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;h2 id=&quot;那村&quot;&gt;那村&lt;/h2&gt;
-&lt;p&gt;家朋村原名磡头村，后来引用了家乡抗美援朝英雄的名字许家朋（黄继光式的一名赴朝作战志愿军）改名家朋，
-村落里拥有着典型的徽派建筑，通常坐北朝南，注重内采光，以砖、木、石为原料，以木构架为主，梁架多用料硕大，且会有很多装饰。
-然而徽商力在经商而不在建筑，衣锦还乡之后，一般以奢华精致的豪宅园林体现身份，或整修祠堂光大祖宗门面，或亦以牌坊筑立褒奖徽州女人守夫的风骨。
-堪头村正好为我们展现了所有这些历史，就像电影的序幕，在慢慢为我们翻开“皖浙天路”的画卷。
-&lt;a href=&quot;https://imgtu.com/i/6RG0N4&quot;&gt;&lt;img src=&quot;https://s3.ax1x.com/2021/03/18/6RG0N4.jpg&quot; alt=&quot;6RG0N4.jpg&quot; /&gt;&lt;/a&gt;
-村子里古民居沿溪两岸依山而筑，层层叠叠，错落有致，从村口一眼望去，有六座石拱桥（永安桥、聚顺桥、三德桥、杨川桥、银宫桥、聚秀桥）横贯在磡头村涧溪之上。
-&lt;a href=&quot;https://imgtu.com/i/6RGgu6&quot;&gt;&lt;img src=&quot;https://s3.ax1x.com/2021/03/18/6RGgu6.jpg&quot; alt=&quot;6RGgu6.jpg&quot; /&gt;&lt;/a&gt;
-&lt;a href=&quot;https://imgtu.com/i/6RGwEF&quot;&gt;&lt;img src=&quot;https://s3.ax1x.com/2021/03/18/6RGwEF.jpg&quot; alt=&quot;6RGwEF.jpg&quot; /&gt;&lt;/a&gt;
-穿越村子的溪流也叫云川溪，终年流水不断，溪流两岸的两条街道被称为“水街”，是用花岗岩条石铺成的徽州古道，街道随溪流落差而设有台阶，民房沿溪流顺势而建，村落依山旁水自然形成，白墙黑瓦马头墙错落有致。
-沿着水街向上，来到听泉楼，楼骑街傍溪，长方形，木结构，东靠许氏宗祠，三面凌空。楼下东西置美人靠。有梯登楼，顶歇山式，楼腰飞檐出跳，檐牙高啄，腾蛟起凤，角悬风铃，铃声随风向而易，可预测天气变化。楼上除东向外，三面装隔扇窗。临溪檐下悬“听泉”匾额，并书县令王峻《听泉楼记》。楼上楼下，凭栏眺望，泉声铃声。故名“玉泉鸣佩”。
-不过这里现在已经是一个杂货铺，不买什么纪念品，只买一些村里人会用到的生活用品，没有过度的商业化，这才应该是古村落应该留给后人的面貌。
-&lt;a href=&quot;https://imgtu.com/i/6RJEaF&quot;&gt;&lt;img src=&quot;https://s3.ax1x.com/2021/03/18/6RJEaF.jpg&quot; alt=&quot;6RJEaF.jpg&quot; /&gt;&lt;/a&gt;
-旁边是许氏宗祠，门前立一牌坊，坐东南朝西北，四柱三门五楼，麻石仿木结构，此坊是明嘉靖丁酉年当朝皇上为表彰村民许保妻章氏守节而立，介绍至今有400余年。
-古牌坊屹立在许氏宗祠门前，似乎在向人们低低泣诉章氏当年是如何操守妇家之道的。
-主楼正中置有“恩荣”匾，其下方花板西北方镌有“节妇坊”三字。
-&lt;a href=&quot;https://imgtu.com/i/6RGLb8&quot;&gt;&lt;img src=&quot;https://s3.ax1x.com/2021/03/18/6RGLb8.jpg&quot; alt=&quot;6RGLb8.jpg&quot; /&gt;&lt;/a&gt;
-宗祠在牌坊之后，进享堂面阔七间，进深四间，抬梁硬山顶建造法式，许祠的梁柱构架特别粗矿硕大，梁架高矮比例有如石鸡身体与四肢的感觉相似，显得极为圆浑笨拙，
-配之梁架间诸如雀替、梁驮、斗拱、叉手等装饰雕琢构件交融为一体，使许祠中进享堂的古韵显得更为浓郁。
-&lt;a href=&quot;https://imgtu.com/i/6RJYPH&quot;&gt;&lt;img src=&quot;https://s3.ax1x.com/2021/03/18/6RJYPH.jpg&quot; alt=&quot;6RJYPH.jpg&quot; /&gt;&lt;/a&gt;
-祠内的白墙黑瓦马头墙
-&lt;a href=&quot;https://imgtu.com/i/6RJDZ8&quot;&gt;&lt;img src=&quot;https://s3.ax1x.com/2021/03/18/6RJDZ8.jpg&quot; alt=&quot;6RJDZ8.jpg&quot; /&gt;&lt;/a&gt;
-除了贴有宗族祖训家谱，还有近代的家乡战斗英雄许家朋的生平简介。
-&lt;a href=&quot;https://imgtu.com/i/6RJrdS&quot;&gt;&lt;img src=&quot;https://s3.ax1x.com/2021/03/18/6RJrdS.jpg&quot; alt=&quot;6RJrdS.jpg&quot; /&gt;&lt;/a&gt;
-祠门口两旁墙壁上的壁画。&lt;br /&gt;
-&lt;a href=&quot;https://imgtu.com/i/6RGaHU&quot;&gt;&lt;img src=&quot;https://s3.ax1x.com/2021/03/18/6RGaHU.jpg&quot; alt=&quot;6RGaHU.jpg&quot; /&gt;&lt;/a&gt;&lt;br /&gt;
-沿着街道台阶继续向上，可以欣赏到很多保留下来很完整的胡同，私家宅院。
-&lt;a href=&quot;https://imgtu.com/i/6RJirV&quot;&gt;&lt;img src=&quot;https://s3.ax1x.com/2021/03/18/6RJirV.jpg&quot; alt=&quot;6RJirV.jpg&quot; /&gt;&lt;/a&gt;
-&lt;a href=&quot;https://imgtu.com/i/6RJPK0&quot;&gt;&lt;img src=&quot;https://s3.ax1x.com/2021/03/18/6RJPK0.jpg&quot; alt=&quot;6RJPK0.jpg&quot; /&gt;&lt;/a&gt;
-看到一处拥有半月形的井水的小院，这里当时会是住的什么样的人家呢？
-&lt;a href=&quot;https://imgtu.com/i/6RGyg1&quot;&gt;&lt;img src=&quot;https://s3.ax1x.com/2021/03/18/6RGyg1.jpg&quot; alt=&quot;6RGyg1.jpg&quot; /&gt;&lt;/a&gt;
-一直走到村后，一条小路直通大山深处。
-&lt;a href=&quot;https://imgtu.com/i/6RGRHO&quot;&gt;&lt;img src=&quot;https://s3.ax1x.com/2021/03/18/6RGRHO.jpg&quot; alt=&quot;6RGRHO.jpg&quot; /&gt;&lt;/a&gt;
-原路返回可以出村，因为主题是看花么，所以可以去附近最出名的摄影点，梅干岭观景台。
-&lt;a href=&quot;https://imgtu.com/i/6RGJcq&quot;&gt;&lt;img src=&quot;https://s3.ax1x.com/2021/03/18/6RGJcq.jpg&quot; alt=&quot;6RGJcq.jpg&quot; /&gt;&lt;/a&gt;
-途中高处可以俯瞰刚才的村落全貌，
-&lt;a href=&quot;https://imgtu.com/i/6RGv5Q&quot;&gt;&lt;img src=&quot;https://s3.ax1x.com/2021/03/18/6RGv5Q.jpg&quot; alt=&quot;6RGv5Q.jpg&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
-&lt;blockquote&gt;
-  &lt;p&gt;上图中左侧小山为平顶山，每到春季油菜花盛开的时候，登上村子东侧的平顶山，花海与古村落交相辉映，大大小小的几个村子点缀其间，加上是典型的徽派建筑，白墙黑瓦，壮美景色一览无遗。&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;p&gt;&lt;a href=&quot;https://imgtu.com/i/6RJV54&quot;&gt;&lt;img src=&quot;https://s3.ax1x.com/2021/03/18/6RJV54.jpg&quot; alt=&quot;6RJV54.jpg&quot; /&gt;&lt;/a&gt;
-&lt;a href=&quot;https://imgtu.com/i/6RGG3n&quot;&gt;&lt;img src=&quot;https://s3.ax1x.com/2021/03/18/6RGG3n.jpg&quot; alt=&quot;6RGG3n.jpg&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
-&lt;blockquote&gt;
-  &lt;p&gt;去的当天貌似油菜花还没有完全绽放，下周的时间应该更好&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;p&gt;&lt;a href=&quot;https://imgtu.com/i/6RGo8A&quot;&gt;&lt;img src=&quot;https://s3.ax1x.com/2021/03/18/6RGo8A.jpg&quot; alt=&quot;6RGo8A.jpg&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
-
-&lt;h2 id=&quot;那路&quot;&gt;那路&lt;/h2&gt;
-&lt;p&gt;皖浙天路，其中精华路段就是连接安徽省绩溪县家朋乡与荆州乡的乡村公路，全长30公里，有351个弯道，21个回曲，一路盘旋到最高处山云岭隘口，成为安徽省公路最高点，海拔1158米，与起点高差915米。
-其实很早之前曾经来这里骑行过三四次，那时它的名字叫荆州公路，路面铺装还不像现在这么好，不过在骑行界已是很有名的盘山道路，除了当地居民，大多还是勇于挑战的骑行者，那时它更有自己狂野的味道，
-现在知道这里的人多了，那份野确已无处可寻，世上最远的距离，是明明就在彼此身边，却对对方越来越陌生，拥有时，珍惜当下，人生的真谛。
-&lt;a href=&quot;https://imgtu.com/i/6RJhLV&quot;&gt;&lt;img src=&quot;https://s3.ax1x.com/2021/03/18/6RJhLV.jpg&quot; alt=&quot;6RJhLV.jpg&quot; /&gt;&lt;/a&gt;
-&lt;a href=&quot;https://imgtu.com/i/6RGICd&quot;&gt;&lt;img src=&quot;https://s3.ax1x.com/2021/03/18/6RGICd.jpg&quot; alt=&quot;6RGICd.jpg&quot; /&gt;&lt;/a&gt;
-道路一年四季各有不同。&lt;br /&gt;
-春回之时，天路沿线尽披墨绿，一片清新盎然。当春风拂过，点缀其中的娇映山红姹紫嫣红。春雨连绵，阳光走出去端时，云海宛如仙境，令路人心旷神怡；
-&lt;a href=&quot;https://imgtu.com/i/6RJWMq&quot;&gt;&lt;img src=&quot;https://s3.ax1x.com/2021/03/18/6RJWMq.jpg&quot; alt=&quot;6RJWMq.jpg&quot; /&gt;&lt;/a&gt;
-盛夏之中，大地更加充郁，满目葱茏，犹如自然空调，给行人带来丝丝凉爽。公路尽头的荆州，每逢夏季，便成为江浙沪地区人们首选的凉都；
-&lt;a href=&quot;https://imgtu.com/i/6RGfED&quot;&gt;&lt;img src=&quot;https://s3.ax1x.com/2021/03/18/6RGfED.jpg&quot; alt=&quot;6RGfED.jpg&quot; /&gt;&lt;/a&gt;
-&lt;a href=&quot;https://imgtu.com/i/6RJS8s&quot;&gt;&lt;img src=&quot;https://s3.ax1x.com/2021/03/18/6RJS8s.jpg&quot; alt=&quot;6RJS8s.jpg&quot; /&gt;&lt;/a&gt;
-&lt;a href=&quot;https://imgtu.com/i/6RJn2R&quot;&gt;&lt;img src=&quot;https://s3.ax1x.com/2021/03/18/6RJn2R.jpg&quot; alt=&quot;6RJn2R.jpg&quot; /&gt;&lt;/a&gt;
-金秋时节，天路景色更加宜人，处处层林尽染，风霜过后，满山枫叶，如同金海星停留枝头，使大地更加叠翠流金，让人遍赏美景；
-&lt;a href=&quot;https://imgtu.com/i/6RG7vt&quot;&gt;&lt;img src=&quot;https://s3.ax1x.com/2021/03/18/6RG7vt.jpg&quot; alt=&quot;6RG7vt.jpg&quot; /&gt;&lt;/a&gt;
-&lt;a href=&quot;https://imgtu.com/i/6RGs3R&quot;&gt;&lt;img src=&quot;https://s3.ax1x.com/2021/03/18/6RGs3R.jpg&quot; alt=&quot;6RGs3R.jpg&quot; /&gt;&lt;/a&gt;
-隆冬天路，体现冷艳之美。此时此刻，雪花纷纷扬扬，飘荡在高山之中，给大地披上层层白装。冬景之中的笔架尖及天路更加峻美，以另种独特的风格欢迎四方宾客的造访。
-&lt;a href=&quot;https://imgtu.com/i/6RJ3VO&quot;&gt;&lt;img src=&quot;https://s3.ax1x.com/2021/03/18/6RJ3VO.jpg&quot; alt=&quot;6RJ3VO.jpg&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
-&lt;blockquote&gt;
-  &lt;p&gt;皖浙天路第一景：笔架峰，豺狗狼尖，因山高林密，经常有豺狗、野狼出没而得名。它属于黄山的余脉，位于老徽州绩溪家朋乡荆州公路山云岭左侧，海拔1300多米，
-与绩溪第二高峰饭甄尖遥遥相对，峰峦叠嶂，山势陡峭，怪石嶙峋，众多花岗岩巨石在地壳运动的作用下抬升，历经千万年的外力侵蚀，错落有致的构建出一座座巧夺天工的山峰。
-山峰突兀而起，巍然屹立于蓝天白云之间，人迹难至，却是豺狗、野狼栖息的理想场所，或许这便是豺狗狼尖另一得名之由。&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;p&gt;&lt;a href=&quot;https://imgtu.com/i/6RG6jx&quot;&gt;&lt;img src=&quot;https://s3.ax1x.com/2021/03/18/6RG6jx.jpg&quot; alt=&quot;6RG6jx.jpg&quot; /&gt;&lt;/a&gt;
-&lt;a href=&quot;https://imgtu.com/i/6RG44H&quot;&gt;&lt;img src=&quot;https://s3.ax1x.com/2021/03/18/6RG44H.jpg&quot; alt=&quot;6RG44H.jpg&quot; /&gt;&lt;/a&gt;
-&lt;a href=&quot;https://imgtu.com/i/6RJfs0&quot;&gt;&lt;img src=&quot;https://s3.ax1x.com/2021/03/18/6RJfs0.jpg&quot; alt=&quot;6RJfs0.jpg&quot; /&gt;&lt;/a&gt;
-皖浙天路地标打卡点, 这里就是公路最高处，前面就垭口，左侧小路上去是五指峰，右侧上去是饭甑尖
-&lt;a href=&quot;https://imgtu.com/i/6RJcGj&quot;&gt;&lt;img src=&quot;https://s3.ax1x.com/2021/03/18/6RJcGj.jpg&quot; alt=&quot;6RJcGj.jpg&quot; /&gt;&lt;/a&gt;
-&lt;a href=&quot;https://imgtu.com/i/6RJgRs&quot;&gt;&lt;img src=&quot;https://s3.ax1x.com/2021/03/18/6RJgRs.jpg&quot; alt=&quot;6RJgRs.jpg&quot; /&gt;&lt;/a&gt;
-翻过垭口，一路下坡进入荆州乡，另一个角度留下最后一眼，再相见，也许明年，也许狗年马月。
-&lt;a href=&quot;https://imgtu.com/i/6RJ5ZT&quot;&gt;&lt;img src=&quot;https://s3.ax1x.com/2021/03/18/6RJ5ZT.jpg&quot; alt=&quot;6RJ5ZT.jpg&quot; /&gt;&lt;/a&gt;
-下到荆州乡，基本正好是中午饭点，可以品尝下当地的特色食物，荆州水包，豆腐馅饺子，南瓜馅饺子都是安徽的特色。
-&lt;a href=&quot;https://imgtu.com/i/6RGjUg&quot;&gt;&lt;img src=&quot;https://s3.ax1x.com/2021/03/18/6RGjUg.jpg&quot; alt=&quot;6RGjUg.jpg&quot; /&gt;&lt;/a&gt;
-PS：绩溪家朋除了水包还有一些当地的特色食物，像早上吃的挞馃
-&lt;a href=&quot;https://imgtu.com/i/6RJFbT&quot;&gt;&lt;img src=&quot;https://s3.ax1x.com/2021/03/18/6RJFbT.jpg&quot; alt=&quot;6RJFbT.jpg&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
-&lt;blockquote&gt;
-  &lt;p&gt;网络视频介绍&lt;/p&gt;
-&lt;/blockquote&gt;
-&lt;iframe src=&quot;//player.bilibili.com/player.html?aid=204647574&amp;amp;bvid=BV1Xh411Q7sc&amp;amp;cid=312591826&amp;amp;page=1&quot; style=&quot;width:100%;height:500px;min-width:375px;min-height:200px&quot; scrolling=&quot;no&quot; border=&quot;0&quot; frameborder=&quot;no&quot; framespacing=&quot;0&quot; allowfullscreen=&quot;true&quot;&gt; &lt;/iframe&gt;
-
-&lt;p&gt;昨天晚上吃的臭鳜鱼，图上是全部光盘后，又单独点了一份臭鲑鱼。
-&lt;a href=&quot;https://imgtu.com/i/6RJsIg&quot;&gt;&lt;img src=&quot;https://s3.ax1x.com/2021/03/18/6RJsIg.jpg&quot; alt=&quot;6RJsIg.jpg&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;饭饱之后，一路向下，会经过小九华
-&lt;a href=&quot;https://imgtu.com/i/6RGrC9&quot;&gt;&lt;img src=&quot;https://s3.ax1x.com/2021/03/18/6RGrC9.jpg&quot; alt=&quot;6RGrC9.jpg&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
-&lt;blockquote&gt;
-  &lt;p&gt;39米高的巨石立于山溪之中，形似关公的青龙偃月刀，被人们称作“天下第一刀”。&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;p&gt;&lt;a href=&quot;https://imgtu.com/i/6RJMKx&quot;&gt;&lt;img src=&quot;https://s3.ax1x.com/2021/03/18/6RJMKx.jpg&quot; alt=&quot;6RJMKx.jpg&quot; /&gt;&lt;/a&gt;
-&lt;a href=&quot;https://imgtu.com/i/6RJmG9&quot;&gt;&lt;img src=&quot;https://s3.ax1x.com/2021/03/18/6RJmG9.jpg&quot; alt=&quot;6RJmG9.jpg&quot; /&gt;&lt;/a&gt;
-从这里过去不久就可以看到安徽浙江两省的分界牌，“安徽欢迎您再来”。
-离开安徽，进入浙江杭州临安境内，这次比较辛苦的是，从分界牌开始浙江段十几公里都在修路，路况可想而知，也许是浙江段在皖浙天路一词中虽有名份却无特别的亮点，
-为不甘落后，也要对道路进行修缮，不过后来才发现，和后面的路况想比，这里的正在施工的道路简直是天堂。&lt;/p&gt;
-&lt;blockquote&gt;
-  &lt;p&gt;皖浙天路常规的后半段路线是沿着倒上线一直到岛石镇住宿，因为这次只有一天的时间还要再返回家朋，所以中途改成沿元卢线去仁里回家朋，这样无意之间就经历一次算是意外好玩刺激off-raod.&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;p&gt;新路线开始的前一小段海拔500左右的爬坡路况还算不错，只是没有补给，如果有后来人，可以在进入元卢线时做好饮水补充。
-&lt;a href=&quot;https://imgtu.com/i/6RGYj0&quot;&gt;&lt;img src=&quot;https://s3.ax1x.com/2021/03/18/6RGYj0.jpg&quot; alt=&quot;6RGYj0.jpg&quot; /&gt;&lt;/a&gt;
-到达芦塘岭，就要开始off-road,这条路后来了解到应该是当年为了当地的采矿采石场的运输而修建，但后面因为效益不好，这条路只是做了基础修建却没再继续进行铺装维护。
-&lt;a href=&quot;https://imgtu.com/i/6RJQr6&quot;&gt;&lt;img src=&quot;https://s3.ax1x.com/2021/03/18/6RJQr6.jpg&quot; alt=&quot;6RJQr6.jpg&quot; /&gt;&lt;/a&gt;
-&lt;a href=&quot;https://imgtu.com/i/6RJux1&quot;&gt;&lt;img src=&quot;https://s3.ax1x.com/2021/03/18/6RJux1.jpg&quot; alt=&quot;6RJux1.jpg&quot; /&gt;&lt;/a&gt;
-&lt;a href=&quot;https://imgtu.com/i/6RJePJ&quot;&gt;&lt;img src=&quot;https://s3.ax1x.com/2021/03/18/6RJePJ.jpg&quot; alt=&quot;6RJePJ.jpg&quot; /&gt;&lt;/a&gt;
-路上经过的山洞是唯一的通道。你可以弄脏自己，绝不可以弄脏我的爱车，扛车是骑士必备技能。
-&lt;a href=&quot;https://imgtu.com/i/6RGXVS&quot;&gt;&lt;img src=&quot;https://s3.ax1x.com/2021/03/18/6RGXVS.jpg&quot; alt=&quot;6RGXVS.jpg&quot; /&gt;&lt;/a&gt;
-洞内漆黑一篇，大概纵深有两三百米，在一端只能看到另一端洞口微微的弱光，一个人身处黑暗也许是人类能想到的最恐怖几个场景之一吧。
-&lt;a href=&quot;https://imgtu.com/i/6RJ0qf&quot;&gt;&lt;img src=&quot;https://s3.ax1x.com/2021/03/18/6RJ0qf.jpg&quot; alt=&quot;6RJ0qf.jpg&quot; /&gt;&lt;/a&gt;
-幸好这次第一探路梯队中还有两个小伙伴，三个傻子纯真又好奇的光着脚在黑暗洞中扛着车趟水前行，进入一段时间后，眼睛会慢慢适应黑暗，说说笑笑乱咋呼着自己最后的崛强，
-&lt;a href=&quot;https://imgtu.com/i/6RJdMt&quot;&gt;&lt;img src=&quot;https://s3.ax1x.com/2021/03/18/6RJdMt.jpg&quot; alt=&quot;6RJdMt.jpg&quot; /&gt;&lt;/a&gt;
-这种野趣只有在意外时才能相遇，随意一点，也许另有洞天。
-&lt;a href=&quot;https://imgtu.com/i/6RGbKP&quot;&gt;&lt;img src=&quot;https://s3.ax1x.com/2021/03/18/6RGbKP.jpg&quot; alt=&quot;6RGbKP.jpg&quot; /&gt;&lt;/a&gt;
-重见天日的庆幸，让我们了解自己的能量超乎自己的箱箱。
-要感谢一起陪伴经历困难的小伙伴们。
-&lt;a href=&quot;https://imgtu.com/i/6RGNuV&quot;&gt;&lt;img src=&quot;https://s3.ax1x.com/2021/03/18/6RGNuV.jpg&quot; alt=&quot;6RGNuV.jpg&quot; /&gt;&lt;/a&gt;
-人生如行路，一路艰辛，一路风景。&lt;/p&gt;
-
-&lt;p&gt;目光所及，就是人生的境界。&lt;/p&gt;
-
-&lt;p&gt;践行自己的坚守，或与钟爱同样口味的小伙伴同行，&lt;/p&gt;
-
-&lt;p&gt;对“在路上”的热爱，会一直像腹泻一样，终将无法控制。&lt;/p&gt;
 </description>
-        <pubDate>Sun, 14 Mar 2021 00:00:00 +0800</pubDate>
-        <link>http://localhost:4000/China-Anhui-Zhejiang-Tianlu-Bikepacking</link>
-        <guid isPermaLink="true">http://localhost:4000/China-Anhui-Zhejiang-Tianlu-Bikepacking</guid>
+        <pubDate>Fri, 03 Feb 2023 00:00:00 +0800</pubDate>
+        <link>http://localhost:4000/China-Fujian-Pingtan-1-Fuzhou-2-Bikepacking</link>
+        <guid isPermaLink="true">http://localhost:4000/China-Fujian-Pingtan-1-Fuzhou-2-Bikepacking</guid>
         
         <category>Bikepacking</category>
         
-        <category>分时分段漫游中国</category>
+        <category>漫游中国</category>
+        
+        <category>福建</category>
+        
+        <category>🚳</category>
+        
+        <category>2023</category>
+        
+        
+      </item>
+    
+      <item>
+        <title>同心•天涯若比邻•平潭</title>
+        <description>&lt;script&gt;
+    function password()
+    {
+        var i=1;
+            var passwd=prompt('此文章已过无限制展示有效期，请使用有限制密钥访问。','');//这是输入密码的提示语，可以改为你想要显示的内容，比如本站地址之类的
+        while(i&lt;1)
+        {
+            if(passwd==&quot;i love isanfeng&quot;)//这是密码
+            {
+            alert('密码正确，欢迎光临！');//这是输入正确后的提示，可以改为自己想要的提示语
+            break;
+            }
+            i++;
+            var passwd=prompt('密码不正确！请重新输入:\n你还有'+(2-i)+'次机会。');
+        }
+        if(password!=&quot;vip.zan.smarted&quot;&amp;&amp;i==1)
+        {
+            alert('密码不正确，页面将返回首页，请联系三丰获取访问密码');
+            location.href=&quot;/&quot;;//这是密码输入错误超过3次后转到的错误页面，也可设为别的页面
+        }
+        return &quot;&quot;;
+    }
+        password();
+&lt;/script&gt;
+
+</description>
+        <pubDate>Wed, 01 Feb 2023 00:00:00 +0800</pubDate>
+        <link>http://localhost:4000/China-Fujian-Pingtan-1-Fuzhou-1-Bikepacking</link>
+        <guid isPermaLink="true">http://localhost:4000/China-Fujian-Pingtan-1-Fuzhou-1-Bikepacking</guid>
+        
+        <category>Bikepacking</category>
+        
+        <category>漫游中国</category>
+        
+        <category>福建</category>
+        
+        <category>🚳</category>
+        
+        <category>2023</category>
+        
+        
+      </item>
+    
+      <item>
+        <title>浙江小三亚•马站</title>
+        <description>&lt;script&gt;
+    function password()
+    {
+        var i=1;
+            var passwd=prompt('此文章已过无限制展示有效期，请使用有限制密钥访问。','');//这是输入密码的提示语，可以改为你想要显示的内容，比如本站地址之类的
+        while(i&lt;1)
+        {
+            if(passwd==&quot;i love isanfeng&quot;)//这是密码
+            {
+            alert('密码正确，欢迎光临！');//这是输入正确后的提示，可以改为自己想要的提示语
+            break;
+            }
+            i++;
+            var passwd=prompt('密码不正确！请重新输入:\n你还有'+(2-i)+'次机会。');
+        }
+        if(password!=&quot;vip.zan.smarted&quot;&amp;&amp;i==1)
+        {
+            alert('密码不正确，页面将返回首页，请联系三丰获取访问密码');
+            location.href=&quot;/&quot;;//这是密码输入错误超过3次后转到的错误页面，也可设为别的页面
+        }
+        return &quot;&quot;;
+    }
+        password();
+&lt;/script&gt;
+
+</description>
+        <pubDate>Thu, 05 Jan 2023 00:00:00 +0800</pubDate>
+        <link>http://localhost:4000/China-Fujian-Xiapu-Zhejiang-Cangnan-2-Bikepacking</link>
+        <guid isPermaLink="true">http://localhost:4000/China-Fujian-Xiapu-Zhejiang-Cangnan-2-Bikepacking</guid>
+        
+        <category>Bikepacking</category>
+        
+        <category>漫游中国</category>
         
         <category>浙江</category>
         
-        <category>安徽</category>
+        <category>🚳</category>
+        
+        <category>2023</category>
         
         
       </item>
