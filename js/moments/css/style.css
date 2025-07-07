@@ -13,7 +13,9 @@ a {
   max-width: 100%;
   margin: 0 auto;
   padding: 20px 0px;
-  font-family: $base-font-family;
+  font-family: "Long Cang", cursive;
+  font-weight: 400;
+  font-style: normal;
 }
 .layout-article ul.box-article {
   list-style: none;
@@ -42,6 +44,7 @@ a {
 }
 .layout-article ul.box-article li article h1 {
   transition: ease 0.3s;
+  font-family: "Long Cang", cursive;
   font-size: 24px;
   line-height: 31px;
   font-weight: 500;
@@ -50,6 +53,7 @@ a {
 }
 .layout-article ul.box-article li article h2 {
   transition: ease 0.3s;
+  font-family: "Long Cang", cursive;
   font-size: 12px;
   line-height: 21px;
   font-weight: 300;
