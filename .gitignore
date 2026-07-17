@@ -1,0 +1,11 @@
+# WorkBuddy 内部工作目录（助手的记忆/配置，非站点内容）
+.workbuddy/
+
+# 操作系统/编辑器临时文件
+.DS_Store
+Thumbs.db
+*~
+
+# Python 缓存
+__pycache__/
+*.pyc

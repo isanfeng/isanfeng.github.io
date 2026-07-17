@@ -92,6 +92,32 @@ $(document).ready(function() {
 
 
   /* =======================
+  // WebP Picture Upgrade
+  // 把所有 .lazy 图片（含 kramdown 渲染的正文图）包成 <picture>，
+  // 优先加载同名 .webp 副本；不支持 webp 的浏览器自动回退原 jpg。
+  // 必须在 new LazyLoad() 之前执行，vanilla-lazyload 才会接管 <picture>。
+  ======================= */
+  upgradeToWebP();
+
+  function upgradeToWebP() {
+    var imgs = document.querySelectorAll('img.lazy');
+    for (var i = 0; i < imgs.length; i++) {
+      var img = imgs[i];
+      if (img.parentNode && img.parentNode.tagName === 'PICTURE') continue;
+      var src = img.getAttribute('data-src') || img.getAttribute('src') || '';
+      if (!/\.(jpe?g|JPE?G)$/.test(src)) continue;
+      var webp = src.replace(/\.(jpe?g|JPE?G)$/, '.webp');
+      var pic = document.createElement('picture');
+      var source = document.createElement('source');
+      source.setAttribute('type', 'image/webp');
+      source.setAttribute('data-srcset', webp);
+      img.parentNode.insertBefore(pic, img);
+      pic.appendChild(source);
+      pic.appendChild(img);
+    }
+  }
+
+  /* =======================
   // LazyLoad Images
   ======================= */
   var lazyLoadInstance = new LazyLoad({
@@ -129,5 +155,37 @@ $(document).ready(function() {
       $(".top").removeClass("is-active");
     }
   });
+
+  /* =======================
+  // Theme Toggle (Dark/Light)
+  // 点击导航栏左侧 logo 循环切换深色/浅色模式，并记住用户选择。
+  ======================= */
+  initTheme();
+
+  function initTheme() {
+    var saved = localStorage.getItem('theme');
+    var prefersDark = window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches;
+    var isDark = saved === 'dark' || (!saved && prefersDark);
+    document.body.classList.toggle('theme-dark', isDark);
+    document.body.classList.toggle('theme-light', !isDark);
+  }
+
+  function toggleTheme() {
+    if (document.body.classList.contains('theme-dark')) {
+      document.body.classList.remove('theme-dark');
+      document.body.classList.add('theme-light');
+      localStorage.setItem('theme', 'light');
+    } else {
+      document.body.classList.remove('theme-light');
+      document.body.classList.add('theme-dark');
+      localStorage.setItem('theme', 'dark');
+    }
+  }
+
+  $('.logo__link').on('click', function (event) {
+    event.preventDefault();
+    toggleTheme();
+  });
+
 
 });
