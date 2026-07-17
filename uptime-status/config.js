@@ -2,7 +2,7 @@
 window.Config = {
 
   // 站点名
-  SiteName: '𝓲三丰🚵去流浪',
+  SiteName: '∴𝒾sanfeng∴',
 
   // 站点链接
   SiteUrl: '/',
@@ -26,10 +26,6 @@ window.Config = {
     {
       text: '主页',
       url: '/'
-    },
-    {
-      text: '旅行地图',
-      url: '/travel_map'
     }
   ]
 };
