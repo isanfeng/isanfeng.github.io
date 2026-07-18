@@ -100,17 +100,24 @@ def main():
     print(f"待压缩(>{MIN_BYTES//1024}KB): {len(targets)} 张{flag}")
     saved = kept = err = 0
     tb = ta = 0
+    saved_list = []  # (relpath, before, after)
     for p in sorted(targets):
         _, b, a, st = optimize_one(p, args.dry_run)
+        rel = os.path.relpath(p, ROOT)
         if st.startswith("SAVE") or st.startswith("WOULD"):
             saved += 1; tb += b; ta += a
+            saved_list.append((rel, b, a))
         elif st.startswith("KEEP"):
             kept += 1
         else:
             err += 1
-            print(f"  {st:14s} {os.path.relpath(p, ROOT)}")
+            print(f"  {st:14s} {rel}")
     print(f"压缩完成: 已压缩 {saved} 张, 保留 {kept} 张, 失败 {err} 张" +
           (f", 共节省 {(tb-ta)//1024}KB" if saved else ""))
+    if saved_list:
+        print("  压缩文件明细:")
+        for rel, b, a in saved_list:
+            print(f"    - {rel}: {b//1024}KB -> {a//1024}KB (省 {(b-a)//1024}KB)")
 
     if args.webp:
         webp_targets = []
@@ -121,15 +128,22 @@ def main():
         print(f"待生成 WebP 副本: {len(webp_targets)} 张{flag}")
         gen = gerr = 0
         gtb = gta = 0
+        gen_list = []  # (relpath_webp, before_jpg, after_webp)
         for p in sorted(webp_targets):
-            _, b, a, st = gen_webp(p, args.dry_run)
+            wp, b, a, st = gen_webp(p, args.dry_run)
+            rel = os.path.relpath(wp, ROOT)
             if st.startswith("GEN") or st.startswith("WOULD"):
                 gen += 1; gtb += b; gta += a
+                gen_list.append((rel, b, a))
             elif st.startswith("ERROR"):
                 gerr += 1
                 print(f"  {st:14s} {os.path.relpath(p, ROOT)}")
         print(f"WebP 完成: 生成 {gen} 张, 失败 {gerr} 张" +
               (f", 共节省 {(gtb-gta)//1024}KB（vs 原 jpg）" if gen else ""))
+        if gen_list:
+            print("  WebP 生成明细:")
+            for rel, b, a in gen_list:
+                print(f"    - {rel}: {b//1024}KB jpg -> {a//1024}KB webp (省 {(b-a)//1024}KB)")
 
 
 if __name__ == "__main__":
