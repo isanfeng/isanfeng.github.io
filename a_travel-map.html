@@ -109,31 +109,6 @@
 </head>
 
   <body>
-    
-      <!-- Google Analytics 4（gtag.js），使用 _config.yml 中的 google-analysis-github 测量 ID -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=G-0K52Q80DV8"></script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
-  gtag('config', 'G-0K52Q80DV8');
-</script>
-
-    
-    
-      <!-- 百度统计（hm.js），使用 _config.yml 中的 baidu-analysis-github 站点 ID -->
-<script>
-  var _hmt = _hmt || [];
-  (function() {
-    var hm = document.createElement('script');
-    hm.src = "https://hm.baidu.com/hm.js?42bccbe026e11e0ec8bcd67d40d41529";
-    var s = document.getElementsByTagName('script')[0];
-    s.parentNode.insertBefore(hm, s);
-  })();
-</script>
-
-    
-
     <!-- begin content -->
     <main class="content" aria-label="Content">
       
@@ -829,777 +804,427 @@
       </ruby>
       <i class="fa fa-bicycle fa-flip-horizontal" aria-hidden="true"></i>
   </h2>
-  <!-- <h3 align="center">
-      曾经到的过这些地方，回忆中保留着美好的事物和美好的人，俱往矣，未来还有很多的路要去探索。
-  </h3> -->
 </div>
 
 <section>
     <!-- Styles -->
     <style>
-        #chartdiv {
+        .page { max-width: 1280px; }
+
+        .map-canvas {
+          position: relative;
           width: 100%;
-          height: 500px;
+          height: clamp(560px, 80vh, 900px);
           overflow: hidden;
+        }
+        /* 初始化状态/错误徽标：始终可见，便于排查“空白”问题 */
+        .tm-status {
+          position: absolute;
+          z-index: 5;
+          top: 10px; left: 10px;
+          max-width: 90%;
+          padding: 8px 12px;
+          border-radius: 8px;
+          font-size: 12px;
+          line-height: 1.5;
+          background: rgba(0,0,0,.72);
+          color: #e8ffe8;
+          border: 1px solid rgba(0,255,109,.4);
+          white-space: pre-wrap;
+          word-break: break-word;
+        }
+        .tm-status.err { background: #fff0f0; color: #b00; border-color: #f99; }
+        .tm-status.ok  { background: rgba(0,133,58,.85); color: #fff; border-color: #00853a; }
+
+        .map-switch {
+          display: flex;
+          align-items: center;
+          gap: 10px;
+          justify-content: center;
+          margin: 0 0 18px;
+        }
+        .map-switch button {
+          font: inherit;
+          font-size: 13px;
+          padding: 4px 12px;
+          border: 1px solid rgba(0, 0, 0, 0.15);
+          background: #fff;
+          border-radius: 14px;
+          cursor: pointer;
+          color: #555;
+          transition: all .2s ease;
+        }
+        .map-switch button:hover { border-color: #00ff6d; color: #00b34a; }
+        .map-switch button.active {
+          background: #00ff6d;
+          color: #064e2a;
+          border-color: #00ff6d;
+          box-shadow: 0 0 0 2px rgba(0, 255, 109, .25);
+        }
+
+        .map-road {
+          position: relative;
+          width: 160px;
+          height: 22px;
+          border-radius: 11px;
+          background: linear-gradient(180deg, #565c64 0%, #363b42 55%, #2a2e34 100%);
+          box-shadow: inset 0 1px 1px rgba(255,255,255,.18), inset 0 -2px 3px rgba(0,0,0,.45);
+          border-top: 1px solid rgba(255,255,255,.22);
+          border-bottom: 1px solid rgba(0,0,0,.5);
+        }
+        .map-road::before {
+          content: "";
+          position: absolute;
+          top: 50%; left: 7px; right: 7px;
+          height: 2px;
+          transform: translateY(-50%);
+          background-image: repeating-linear-gradient(to right, #00ff6d 0 7px, transparent 7px 15px);
+          opacity: .9;
+        }
+        .map-road .waypoint {
+          position: absolute;
+          top: 50%;
+          width: 4px; height: 4px;
+          margin-top: -2px;
+          border-radius: 50%;
+          background: rgba(255,255,255,.4);
+          box-shadow: 0 0 0 2px rgba(0,0,0,.25);
+        }
+        .map-road .waypoint.w1 { left: 34%; }
+        .map-road .waypoint.w2 { left: 67%; }
+
+        .map-road .bike {
+          position: absolute;
+          z-index: 2;
+          top: 50%;
+          left: 2px;
+          --dir: 1;
+          transform: translateY(-50%) scaleX(var(--dir));
+          font-size: 15px;
+          color: #00ff6d;
+          text-shadow: 0 1px 2px rgba(0,0,0,.7);
+          transition: left .55s cubic-bezier(.45,.05,.25,1);
+        }
+        .map-road .bike::after {
+          content: "";
+          position: absolute;
+          left: 50%; bottom: -3px;
+          width: 14px; height: 3px;
+          transform: translateX(-50%);
+          border-radius: 50%;
+          background: rgba(0,0,0,.35);
+          filter: blur(1px);
+        }
+        .map-switch.mode-v4 .map-road .bike {
+          left: calc(100% - 20px);
+          --dir: -1;
+        }
+        .map-road .bike.riding { animation: bikeWobble .55s ease-in-out; }
+        @keyframes bikeWobble {
+          0%, 100% { transform: translateY(-50%) scaleX(var(--dir)) rotate(0deg); }
+          20%      { transform: translateY(-50%) scaleX(var(--dir)) rotate(-7deg); }
+          50%      { transform: translateY(-52%) scaleX(var(--dir)) rotate(0deg); }
+          80%      { transform: translateY(-50%) scaleX(var(--dir)) rotate(7deg); }
         }
     </style>
 
-    <!-- Resources -->
-<!--    <script src="https://cdn.amcharts.com/lib/4/core.js"></script>-->
-<!--    <script src="https://cdn.amcharts.com/lib/4/maps.js"></script>-->
-<!--    <script src="https://cdn.amcharts.com/lib/4/geodata/worldLow.js"></script>-->
-<!--    <script src="https://cdn.amcharts.com/lib/4/themes/animated.js"></script>-->
-    <script src="/js/amcharts/4/core.js"></script>
-    <script src="/js/amcharts/4/maps.js"></script>
-    <!-- worldLow.js 体积最大（约 245KB / 93KB gzip），改为页面底部懒加载，避免阻塞该页首屏渲染 -->
-    <script src="/js/amcharts/4/themes/animated.js"></script>
+    <!-- 两种样式共用 amCharts 5（本地托管，离线可用） -->
+    <script src="/js/amcharts/5/index.js"></script>
+    <script src="/js/amcharts/5/map.js"></script>
+    <script src="/js/amcharts/5/geodata/worldLow.js"></script>
+    <script src="/js/amcharts/5/themes/Animated.js"></script>
+
+    <div class="map-switch">
+        <button type="button" data-mode="v5">万里征程</button>
+        <div class="map-road" aria-hidden="true">
+            <span class="waypoint w1"></span>
+            <span class="waypoint w2"></span>
+            <i class="fa fa-bicycle bike" aria-hidden="true"></i>
+        </div>
+        <button type="button" data-mode="v4">步步脚印</button>
+    </div>
+
+    <div id="chart-v5" class="map-canvas"><div class="tm-status" id="tm-status">地图初始化中…</div></div>
 
     <!-- Chart code -->
     <script>
-    function initTravelMap() {
-      am4core.ready(function() {
+    var travelData = [{"title":"上海","country":"中国","latitude":31.40527,"longitude":121.48941,"url":"https://j.map.baidu.com/06/-yd"},{"title":"崇明岛","country":"中国","latitude":31.643375950247812,"longitude":121.54896606980189},{"title":"北京","country":"中国","latitude":39.907569170348715,"longitude":116.40706125},{"title":"济南","country":"中国","latitude":36.67647,"longitude":116.897008},{"title":"青岛","country":"中国","latitude":36.082262,"longitude":120.423162},{"title":"淄博","country":"中国","latitude":36.815416,"longitude":118.034424},{"title":"烟台","country":"中国","latitude":37.5102686,"longitude":121.4399498},{"title":"珠海","country":"中国","latitude":22.25034,"longitude":113.545762},{"title":"深圳","country":"中国","latitude":23.112223,"longitude":113.331084},{"title":"西安","country":"中国","latitude":34.2251,"longitude":108.971043},{"title":"衢州","country":"中国","latitude":28.604291,"longitude":118.74644},{"title":"丽水","country":"中国","latitude":27.748119,"longitude":119.198654},{"title":"余姚四明山","country":"中国","latitude":29.73133,"longitude":121.092878},{"title":"温州雁荡山","country":"中国","latitude":28.379665,"longitude":121.040296},{"title":"宁波风车公路","country":"中国","latitude":29.646186,"longitude":121.518323},{"title":"金华胜利之路","country":"中国","latitude":28.750947,"longitude":119.294137},{"title":"苍南","country":"中国","latitude":27.5184046,"longitude":120.4232915},{"title":"石塘","country":"中国","latitude":28.278539,"longitude":121.606196},{"title":"温岭","country":"中国","latitude":28.3761941,"longitude":121.3808408},{"title":"玉环","country":"中国","latitude":28.059605,"longitude":121.233714},{"title":"宁国","country":"中国","latitude":30.584572634228802,"longitude":118.8848981421425},{"title":"金寨","country":"中国","latitude":31.689871,"longitude":115.880323},{"title":"常熟虞山","country":"中国","latitude":31.670245748221408,"longitude":120.72722623634162},{"title":"太湖","country":"中国","latitude":31.287617828820345,"longitude":120.2096174225835},{"title":"青海湖","country":"中国","latitude":36.584302,"longitude":100.502975},{"title":"三亚","country":"中国","latitude":18.256093040178694,"longitude":109.51418206716458},{"title":"海口","country":"中国","latitude":19.943141,"longitude":110.469452},{"title":"台北","country":"中国","latitude":25.105981,"longitude":121.557866},{"title":"台中","country":"中国","latitude":24.348722,"longitude":120.63342},{"title":"花莲","country":"中国","latitude":24.041921,"longitude":121.634831},{"title":"成都","country":"中国","latitude":30.663277,"longitude":104.06369},{"title":"都江堰","country":"中国","latitude":30.994256,"longitude":103.653532},{"title":"巴郎山","country":"中国","latitude":30.902256,"longitude":102.915188},{"title":"丹巴","country":"中国","latitude":30.929019,"longitude":101.878418},{"title":"塔公","country":"中国","latitude":30.336132,"longitude":101.562789},{"title":"折多山","country":"中国","latitude":30.076735,"longitude":101.812518},{"title":"泸定","country":"中国","latitude":29.911362,"longitude":102.239429},{"title":"南宁","country":"中国","latitude":22.781429,"longitude":108.388689},{"title":"防城港","country":"中国","latitude":21.639765,"longitude":108.347089},{"title":"峒中","country":"中国","latitude":21.602098,"longitude":107.501828},{"title":"爱店","country":"中国","latitude":21.823934,"longitude":107.037663},{"title":"凭祥","country":"中国","latitude":21.98517,"longitude":106.72011},{"title":"崇左棉江","country":"中国","latitude":22.395947,"longitude":107.164861},{"title":"德天","country":"中国","latitude":22.862344,"longitude":106.731509},{"title":"旧州古镇","country":"中国","latitude":23.063621,"longitude":106.42299},{"title":"龙邦","country":"中国","latitude":22.878164,"longitude":106.333636},{"title":"平孟","country":"中国","latitude":22.946651,"longitude":106.004154},{"title":"百省","country":"中国","latitude":23.153209,"longitude":105.671254},{"title":"那坡","country":"中国","latitude":23.411756,"longitude":105.847097},{"title":"平潭闾侠灯塔","country":"中国","latitude":26.651158,"longitude":120.142421},{"title":"福州三坊七巷","country":"中国","latitude":26.088452,"longitude":119.303186},{"title":"蓝眼泪观景点（长江澳海滩）","country":"中国","latitude":25.614229,"longitude":119.796824},{"title":"猴研岛","country":"中国","latitude":25.463985,"longitude":119.865391},{"title":"神农架松柏","country":"中国","latitude":31.753019,"longitude":110.668103},{"title":"神农架木鱼","country":"中国","latitude":31.407387,"longitude":110.489586},{"title":"神农架兴山","country":"中国","latitude":31.354468,"longitude":110.753709},{"title":"神农架秭归","country":"中国","latitude":30.832288,"longitude":110.995209},{"title":"神农架宜昌","country":"中国","latitude":30.664753,"longitude":111.376599},{"title":"重庆","country":"中国","latitude":29.558979,"longitude":106.544083},{"title":"赤水","country":"中国","latitude":28.382188,"longitude":105.753288},{"title":"遵义","country":"中国","latitude":27.694764,"longitude":106.927082},{"title":"贵阳","country":"中国","latitude":26.571951,"longitude":106.695703},{"title":"黔西南苗族自治区","country":"中国","latitude":25.260091,"longitude":107.714306},{"title":"安顺","country":"中国","latitude":25.994686,"longitude":105.675911},{"title":"铜仁","country":"中国","latitude":27.054193,"longitude":108.430256},{"title":"毕节","country":"中国","latitude":27.220975,"longitude":105.922271},{"title":"六盘水","country":"中国","latitude":26.580388,"longitude":104.88398},{"title":"兴义","country":"中国","latitude":24.999408,"longitude":104.930256},{"title":"札幌","country":"日本","latitude":43.062197,"longitude":141.354199},{"title":"旭川","country":"日本","latitude":43.766053,"longitude":142.271683},{"title":"富良野市","country":"日本","latitude":43.342212,"longitude":142.38336},{"title":"纲走","country":"日本","latitude":44.007251,"longitude":144.218637},{"title":"知床","country":"日本","latitude":44.054124,"longitude":145.105013},{"title":"野付半岛","country":"日本","latitude":43.600459,"longitude":145.297664},{"title":"钏路","country":"日本","latitude":43.058326,"longitude":144.196737},{"title":"襟裳岬","country":"日本","latitude":41.925327,"longitude":143.248845},{"title":"占小牧","country":"日本","latitude":42.633998,"longitude":141.605664},{"title":"小樽","country":"日本","latitude":43.236343,"longitude":141.012484},{"title":"Sapporo","country":"日本","latitude":43.04705101585279,"longitude":141.27288599794304},{"title":"Asahikawa","country":"日本","latitude":43.73549546790321,"longitude":142.2936933080226},{"title":"Shiretoko Peninsula","country":"日本","latitude":44.20033207806686,"longitude":145.23941696870114},{"title":"Tokyo","country":"日本","latitude":35.6785,"longitude":139.6823,"url":"http://www.google.co.jp"},{"title":"Ehime","country":"日本","latitude":33.827133,"longitude":132.701562},{"title":"Shimanami Kaido","country":"日本","latitude":34.293683,"longitude":133.175647},{"title":"Lake Biwa","country":"日本","latitude":35.345776,"longitude":136.170948},{"title":"Jeju","country":"韩国","latitude":33.50696890967099,"longitude":126.49250379432974},{"title":"Manila","country":"菲律宾","latitude":14.60031644011943,"longitude":120.98282056232121},{"title":"Cebu","country":"菲律宾","latitude":10.316590172487482,"longitude":123.87443408725706},{"title":"Bohol","country":"菲律宾","latitude":9.915794572556893,"longitude":124.21509302324634},{"title":"Siquijor","country":"菲律宾","latitude":9.200338,"longitude":123.595239},{"title":"Kuala Lumpur","country":"马来西亚","latitude":3.1389529175162996,"longitude":101.68210508159925},{"title":"Bentong","country":"马来西亚","latitude":3.522155253008705,"longitude":101.91227025191382},{"title":"Phnom Penh","country":"柬埔寨","latitude":11.561840619672434,"longitude":104.9533450937808},{"title":"Siem Reap","country":"柬埔寨","latitude":13.411052421510712,"longitude":103.86830937425859},{"title":"Sihanouk","country":"柬埔寨","latitude":10.738650896308272,"longitude":103.22972002047425},{"title":"Chiang Mai","country":"泰国","latitude":18.789886762851545,"longitude":98.98550229247509},{"title":"Pai","country":"泰国","latitude":19.348737032068716,"longitude":98.4354614472004},{"title":"Mae Hong Son","country":"泰国","latitude":19.302551991125792,"longitude":98.00853473853037},{"title":"内蒙古","country":"中国","latitude":19.302551991125792,"longitude":98.00853473853037},{"title":"乌克兰","country":"乌克兰","latitude":50.443981,"longitude":30.540788},{"title":"巴基斯坦","country":"巴基斯坦","latitude":33.734744,"longitude":73.135815},{"title":"塔吉克斯坦","country":"塔吉克斯坦","latitude":38.556185,"longitude":68.771797},{"title":"乌兹别克斯坦","country":"乌兹别克斯坦","latitude":41.03926,"longitude":64.430035},{"title":"吉尔吉斯斯坦","country":"吉尔吉斯斯坦","latitude":40.521813,"longitude":72.506448},{"title":"土库曼斯坦","country":"土库曼斯坦","latitude":37.917705,"longitude":58.377324},{"title":"老挝","country":"老挝","latitude":17.963614,"longitude":102.60174},{"title":"缅甸","country":"缅甸","latitude":16.788752,"longitude":96.134637},{"title":"草原天路","country":"中国","latitude":41.390615,"longitude":115.787123}];
 
-    // Themes begin
-    am4core.useTheme(am4themes_animated);
-    // Themes end
-
-    // Create map instance
-    var chart = am4core.create("chartdiv", am4maps.MapChart);
-
-    // Set map definition
-    chart.geodata = am4geodata_worldLow;
-
-    // Set projection
-    chart.projection = new am4maps.projections.Miller();
-
-    // Create map polygon series
-    var polygonSeries = chart.series.push(new am4maps.MapPolygonSeries());
-
-    // Exclude Antartica
-    polygonSeries.exclude = ["AQ"];
-
-    // Make map load polygon (like country names) data from GeoJSON
-    polygonSeries.useGeodata = true;
-
-    // Configure series
-    var polygonTemplate = polygonSeries.mapPolygons.template;
-    polygonTemplate.tooltipText = "{name}";
-    polygonTemplate.polygon.fillOpacity = 0.8;
-
-
-    // Create hover state and set alternative fill color
-    var hs = polygonTemplate.states.create("hover");
-    hs.properties.fill = chart.colors.getIndex(0);
-
-    // Add image series
-    var imageSeries = chart.series.push(new am4maps.MapImageSeries());
-    imageSeries.mapImages.template.propertyFields.longitude = "longitude";
-    imageSeries.mapImages.template.propertyFields.latitude = "latitude";
-    imageSeries.mapImages.template.tooltipText = "{title}";
-    imageSeries.mapImages.template.propertyFields.url = "url";
-
-    var circle = imageSeries.mapImages.template.createChild(am4core.Circle);
-    circle.radius = 3;
-    circle.propertyFields.fill = "color";
-
-    var circle2 = imageSeries.mapImages.template.createChild(am4core.Circle);
-    circle2.radius = 3;
-    circle2.propertyFields.fill = "color";
-
-
-    circle2.events.on("inited", function(event){
-      animateBullet(event.target);
-    })
-
-
-    function animateBullet(circle) {
-        var animation = circle.animate([{ property: "scale", from: 1, to: 5 }, { property: "opacity", from: 1, to: 0 }], 1000, am4core.ease.circleOut);
-        animation.events.on("animationended", function(event){
-          animateBullet(event.target.object);
-        })
+    var countryPalette = ["#e74c3c","#3498db","#e84393","#f39c12","#9b59b6","#1abc9c","#e67e22","#34495e","#16a085","#c0392b","#8e44ad","#a0522d","#d35400","#2980b9","#f1c40f"];
+    var countryColorMap = {};
+    var countryIndex = 0;
+    function countryColor(c) {
+      c = c || "未知";
+      if (!(c in countryColorMap)) {
+        countryColorMap[c] = countryPalette[countryIndex % countryPalette.length];
+        countryIndex++;
+      }
+      return countryColorMap[c];
     }
 
-    var colorSet = new am4core.ColorSet();
+    var root = null, chart = null, pointSeries = null;
+    var pointData = [];
+    var mode = localStorage.getItem("travelMapMode") || "v5";
 
-    imageSeries.data = [
-    // China
-        //Shanghai
-    {
-      "title": "上海",
-      "latitude": 31.40527,
-      "longitude": 121.48941,
-      "url": "https://j.map.baidu.com/06/-yd",
-      "color":colorSet.next()
-    },
-    {
-      "title": "崇明岛",
-      "latitude": 31.643375950247812,
-      "longitude": 121.54896606980189,
-      "color":colorSet.next()
-    },
-        //Beijing
-    {"title": "北京",
-      "latitude": 39.907569170348715,
-      "longitude": 116.40706125,
-      "color":colorSet.next()
-    },
-        //Shandong
-    {
-      "title": "济南",
-      "latitude": 36.67647,
-      "longitude": 116.897008,
-      "color":colorSet.next()
-    },
-    {
-      "title": "青岛",
-      "latitude": 36.082262,
-      "longitude": 120.423162,
-      "color":colorSet.next()
-    },
-    {
-      "title": "淄博",
-      "latitude": 36.815416,
-      "longitude": 118.034424,
-      "color": colorSet.next()
-    },
-    {
-      "title": "烟台",
-      "latitude": 37.5102686,
-      "longitude": 121.4399498,
-      "color": colorSet.next()
-    },
-        //Guangdong
-    {
-      "title": "珠海",
-      "latitude": 22.25034,
-      "longitude": 113.545762,
-      "color":colorSet.next()
-    },
-    {
-      "title": "深圳",
-      "latitude": 23.112223,
-      "longitude": 113.331084,
-      "color":colorSet.next()
-    },
-        //Shanxi
-    {
-      "title": "西安",
-      "latitude": 34.2251,
-      "longitude": 108.971043,
-      "color":colorSet.next()
-    },
-        //Zhejiang
-    {
-      "title": "衢州",
-      "latitude": 28.604291,
-      "longitude": 118.74644,
-      "color":colorSet.next()
-    },{
-      "title": "丽水",
-      "latitude": 27.748119,
-      "longitude": 119.198654,
-      "color":colorSet.next()
-    }, {
-      "title": "余姚四明山",
-      "latitude": 29.73133,
-      "longitude": 121.092878,
-      "color":colorSet.next()
-    },
-    {
-      "title": "温州雁荡山",
-      "latitude": 28.379665,
-      "longitude": 121.040296,
-      "color":colorSet.next()
-    },
-    {
-      "title": "宁波风车公路",
-      "latitude": 29.646186,
-      "longitude": 121.518323,
-      "color":colorSet.next()
-    },
-    {
-      "title": "金华胜利之路",
-      "latitude": 28.750947,
-      "longitude": 119.294137,
-      "color":colorSet.next()
-    },
-    {
-      "title": "苍南",
-      "latitude": 27.5184046,
-      "longitude": 120.4232915,
-      "color": colorSet.next()
-    },
-    {
-      "title": "石塘",
-      "latitude": 28.278539,
-      "longitude": 121.606196,
-      "color": colorSet.next()
-    },
-    {
-      "title": "温岭",
-      "latitude": 28.3761941,
-      "longitude": 121.3808408,
-      "color": colorSet.next()
-    },
-    {
-      "title": "玉环",
-      "latitude": 28.059605,
-      "longitude": 121.233714,
-      "color": colorSet.next()
-    },
-        //Anhui
-    {
-      "title": "宁国",
-      "latitude": 30.584572634228802,
-      "longitude": 118.8848981421425,
-      "color":colorSet.next()
-    },
-    {
-      "title": "金寨",
-      "latitude": 31.689871,
-      "longitude": 115.880323,
-      "color":colorSet.next()
-    },
-        //Jiangsu
-    {
-      "title": "常熟虞山",
-      "latitude": 31.670245748221408,
-      "longitude": 120.72722623634162,
-      "color":colorSet.next()
-    }, {
-      "title": "太湖",
-      "latitude": 31.287617828820345,
-      "longitude": 120.2096174225835,
-      "color":colorSet.next()
-    }, 
-        //Gansu
-    {
-      "title": "青海湖",
-      "latitude": 36.584302,
-      "longitude": 100.502975,
-      "color":colorSet.next()
-    }, 
-        //Hainan
-    {
-      "title": "三亚",
-      "latitude": 18.256093040178694,
-      "longitude": 109.51418206716458,
-      "color":colorSet.next()
-    }, {
-      "title": "海口",
-      "latitude": 19.943141,
-      "longitude": 110.469452,
-      "color":colorSet.next()
-    },  
-        //Taiwan
-    {
-      "title": "台北",
-      "latitude": 25.105981,
-      "longitude": 121.557866,
-      "color":colorSet.next()
-    }, {
-      "title": "台中",
-      "latitude": 24.348722,
-      "longitude": 120.63342,
-      "color":colorSet.next()
-    }, {
-      "title": "花莲",
-      "latitude": 24.041921,
-      "longitude": 121.634831,
-      "color":colorSet.next()
-    },
-    // Sichuan
-    {
-      "title": "成都",
-      "latitude": 30.663277,
-      "longitude": 104.06369,
-      "color":colorSet.next()
-    },
-    {
-      "title": "都江堰",
-      "latitude": 30.994256,
-      "longitude": 103.653532,
-      "color":colorSet.next()
-    },
-    {
-      "title": "巴郎山",
-      "latitude": 30.902256,
-      "longitude": 102.915188,
-      "color":colorSet.next()
-    },
-    {
-      "title": "丹巴",
-      "latitude": 30.929019,
-      "longitude": 101.878418,
-      "color":colorSet.next()
-    },
-    {
-      "title": "塔公",
-      "latitude": 30.336132,
-      "longitude": 101.562789,
-      "color":colorSet.next()
-    },
-    {
-      "title": "折多山",
-      "latitude": 30.076735,
-      "longitude": 101.812518,
-      "color":colorSet.next()
-    },
-    {
-      "title": "泸定",
-      "latitude": 29.911362,
-      "longitude": 102.239429,
-      "color":colorSet.next()
-    },
-     // Guangxi
-    {
-      "title": "南宁",
-      "latitude": 22.781429,
-      "longitude": 108.388689,
-      "color":colorSet.next()
-    },
-    {
-      "title": "防城港",
-      "latitude": 21.639765,
-      "longitude": 108.347089,
-      "color":colorSet.next()
-    },
-    {
-      "title": "峒中",
-      "latitude": 21.602098,
-      "longitude": 107.501828,
-      "color":colorSet.next()
-    },
-    {
-      "title": "爱店",
-      "latitude": 21.823934,
-      "longitude": 107.037663,
-      "color":colorSet.next()
-    },
-    {
-      "title": "凭祥",
-      "latitude": 21.98517,
-      "longitude": 106.72011,
-      "color":colorSet.next()
-    },
-    {
-      "title": "崇左棉江",
-      "latitude": 22.395947,
-      "longitude": 107.164861,
-      "color":colorSet.next()
-    },
-    {
-      "title": "德天",
-      "latitude": 22.862344,
-      "longitude": 106.731509,
-      "color":colorSet.next()
-    },
-    {
-      "title": "旧州古镇",
-      "latitude": 23.063621,
-      "longitude": 106.42299,
-      "color":colorSet.next()
-    },
-    {
-      "title": "龙邦",
-      "latitude": 22.878164,
-      "longitude": 106.333636,
-      "color":colorSet.next()
-    },
-    {
-      "title": "平孟",
-      "latitude": 22.946651,
-      "longitude": 106.004154,
-      "color":colorSet.next()
-    },
-    {
-      "title": "百省",
-      "latitude": 23.153209,
-      "longitude": 105.671254,
-      "color":colorSet.next()
-    },
-    {
-      "title": "那坡",
-      "latitude": 23.411756,
-      "longitude": 105.847097,
-      "color":colorSet.next()
-    },
-    // Fujian
-    {
-      "title": "平潭闾侠灯塔",
-      "latitude": 26.651158,
-      "longitude": 120.142421,
-      "color":colorSet.next()
-    },
-    {
-      "title": "福州三坊七巷",
-      "latitude": 26.088452,
-      "longitude": 119.303186,
-      "color":colorSet.next()
-    },
-    {
-      "title": "蓝眼泪观景点（长江澳海滩）",
-      "latitude": 25.614229,
-      "longitude": 119.796824,
-      "color":colorSet.next()
-    },
-    {
-      "title": "猴研岛",
-      "latitude": 25.463985,
-      "longitude": 119.865391,
-      "color":colorSet.next()
-    },
-    // Hubei
-    {
-      "title": "神农架松柏",
-      "latitude": 31.753019,
-      "longitude": 110.668103,
-      "color":colorSet.next()
-    },
-    {
-      "title": "神农架木鱼",
-      "latitude": 31.407387,
-      "longitude": 110.489586,
-      "color":colorSet.next()
-    },
-    {
-      "title": "神农架兴山",
-      "latitude": 31.354468,
-      "longitude": 110.753709,
-      "color":colorSet.next()
-    },
-    {
-      "title": "神农架秭归",
-      "latitude": 30.832288,
-      "longitude": 110.995209,
-      "color":colorSet.next()
-    },
-    {
-      "title": "神农架宜昌",
-      "latitude": 30.664753,
-      "longitude": 111.376599,
-      "color":colorSet.next()
-    },
-    //Chongqing
-    {
-      "title": "重庆",
-      "latitude": 29.558979,
-      "longitude": 106.544083,
-      "color":colorSet.next()
-    },
-    //Guizhou
-    {
-      "title": "赤水",
-      "latitude": 28.382188,
-      "longitude": 105.753288,
-      "color":colorSet.next()
-    },
-    {
-      "title": "遵义",
-      "latitude": 27.694764,
-      "longitude": 106.927082,
-      "color":colorSet.next()
-    },
-    {
-      "title": "贵阳",
-      "latitude": 26.571951,
-      "longitude": 106.695703,
-      "color":colorSet.next()
-    },    
-    {
-      "title": "黔西南苗族自治区",
-      "latitude": 25.260091,
-      "longitude": 107.714306,
-      "color":colorSet.next()
-    },
-    {
-      "title": "安顺",
-      "latitude": 25.994686,
-      "longitude": 105.675911,
-      "color":colorSet.next()
-    },
-    {
-      "title": "铜仁",
-      "latitude": 27.054193,
-      "longitude": 108.430256,
-      "color":colorSet.next()
-    },
-    {
-      "title": "毕节",
-      "latitude": 27.220975,
-      "longitude": 105.922271,
-      "color":colorSet.next()
-    },
-    {
-      "title": "六盘水",
-      "latitude": 26.580388,
-      "longitude": 104.88398,
-      "color":colorSet.next()
-    },
-    {
-      "title": "兴义",
-      "latitude": 24.999408,
-      "longitude": 104.930256,
-      "color":colorSet.next()
-    },        
-    // Japan
-    {
-      "title": "札幌",
-      "latitude": 43.062197,
-      "longitude": 141.354199,
-      "color":colorSet.next()
-    },
-    {
-      "title": "旭川",
-      "latitude": 43.766053,
-      "longitude": 142.271683,
-      "color":colorSet.next()
-    },
-    {
-      "title": "富良野市",
-      "latitude": 43.342212,
-      "longitude": 142.38336,
-      "color":colorSet.next()
-    },
-    {
-      "title": "纲走",
-      "latitude": 44.007251,
-      "longitude": 144.218637,
-      "color":colorSet.next()
-    },
-    {
-      "title": "知床",
-      "latitude": 44.054124,
-      "longitude": 145.105013,
-      "color":colorSet.next()
-    },
-    {
-      "title": "野付半岛",
-      "latitude": 43.600459,
-      "longitude": 145.297664,
-      "color":colorSet.next()
-    },
-    {
-      "title": "钏路",
-      "latitude": 43.058326,
-      "longitude": 144.196737,
-      "color":colorSet.next()
-    },
-    {
-      "title": "襟裳岬",
-      "latitude": 41.925327,
-      "longitude": 143.248845,
-      "color":colorSet.next()
-    },
-    {
-      "title": "占小牧",
-      "latitude": 42.633998,
-      "longitude": 141.605664,
-      "color":colorSet.next()
-    },
-    {
-      "title": "小樽",
-      "latitude": 43.236343,
-      "longitude": 141.012484,
-      "color":colorSet.next()
-    },
-    {
-      "title": "Sapporo",
-      "latitude": 43.04705101585279,
-      "longitude": 141.27288599794304,
-      "color":colorSet.next()
-    },
-    {
-      "title": "Asahikawa",
-      "latitude": 43.73549546790321,
-      "longitude": 142.2936933080226,
-      "color":colorSet.next()
-    },
-    {
-      "title": "Shiretoko Peninsula",
-      "latitude": 44.20033207806686,
-      "longitude": 145.23941696870114,
-      "color":colorSet.next()
-    },
-    {
-      "title": "Tokyo",
-      "latitude": 35.6785,
-      "longitude": 139.6823,
-      "url": "http://www.google.co.jp",
-      "color":colorSet.next()
-    },
-    {
-      "title": "Ehime",
-      "latitude": 33.827133,
-      "longitude": 132.701562,
-      "color":colorSet.next()
-    },
-    {
-      "title": "Shimanami Kaido",
-      "latitude": 34.293683,
-      "longitude": 133.175647,
-      "color":colorSet.next()
-    },
-    {
-      "title": "Lake Biwa",
-      "latitude": 35.345776,
-      "longitude": 136.170948,
-      "color":colorSet.next()
-    },
-    // South Korea
-    {
-      "title": "Jeju",
-      "latitude": 33.50696890967099,
-      "longitude": 126.49250379432974,
-      "color":colorSet.next()
-    },
-    // The Philippines
-    {
-      "title": "Manila",
-      "latitude": 14.60031644011943,
-      "longitude": 120.98282056232121,
-      "color":colorSet.next()
-    }, {
-      "title": "Cebu",
-      "latitude": 10.316590172487482,
-      "longitude": 123.87443408725706,
-      "color":colorSet.next()
-    }, {
-      "title": "Bohol",
-      "latitude": 9.915794572556893,
-      "longitude": 124.21509302324634,
-      "color":colorSet.next()
-    }, {
-      "title": "Siquijor",
-      "latitude": 9.200338,
-      "longitude": 123.595239,
-      "color":colorSet.next()
-    },
-    // Malaysia
-    {
-      "title": "Kuala Lumpur",
-      "latitude": 3.1389529175162996,
-      "longitude": 101.68210508159925,
-      "color":colorSet.next()
-    }, {
-      "title": "Bentong",
-      "latitude": 3.522155253008705,
-      "longitude": 101.91227025191382,
-      "color":colorSet.next()
-    },
-    // Cambodia
-    {
-      "title": "Phnom Penh",
-      "latitude": 11.561840619672434,
-      "longitude": 104.9533450937808,
-      "color":colorSet.next()
-    }, {
-      "title": "Siem Reap",
-      "latitude": 13.411052421510712,
-      "longitude": 103.86830937425859,
-      "color":colorSet.next()
-    }, {
-      "title": "Sihanouk",
-      "latitude": 10.738650896308272,
-      "longitude": 103.22972002047425,
-      "color":colorSet.next()
-    },
-    // Thailand
-    {
-      "title": "Chiang Mai",
-      "latitude": 18.789886762851545,
-      "longitude": 98.98550229247509,
-      "color":colorSet.next()
-    }, {
-      "title": "Pai",
-      "latitude": 19.348737032068716,
-      "longitude": 98.4354614472004,
-      "color":colorSet.next()
-    }, {
-      "title": "Mae Hong Son",
-      "latitude": 19.302551991125792,
-      "longitude": 98.00853473853037,
-      "color":colorSet.next()
-    },
-    // Next Station
-    {
-      "title": "内蒙古",
-      "latitude": 19.302551991125792,
-      "longitude": 98.00853473853037,
-      "color":colorSet.next()
-    },
-    {
-      "title": "乌克兰",
-      "latitude": 50.443981,
-      "longitude": 30.540788,
-      "color":colorSet.next()
-    },
-    {
-      "title": "巴基斯坦",
-      "latitude": 33.734744,
-      "longitude": 73.135815,
-      "color":colorSet.next()
-    },
-    {
-      "title": "塔吉克斯坦",
-      "latitude": 38.556185,
-      "longitude": 68.771797,
-      "color":colorSet.next()
-    },
-    {
-      "title": "乌兹别克斯坦",
-      "latitude": 41.03926,
-      "longitude": 64.430035,
-      "color":colorSet.next()
-    },
-    {
-      "title": "吉尔吉斯斯坦",
-      "latitude": 40.521813,
-      "longitude": 72.506448,
-      "color":colorSet.next()
-    },
-    {
-      "title": "土库曼斯坦",
-      "latitude": 37.917705,
-      "longitude": 58.377324,
-      "color":colorSet.next()
-    },
-    {
-      "title": "老挝",
-      "latitude": 17.963614,
-      "longitude": 102.60174,
-      "color":colorSet.next()
-    },
-    {
-      "title": "缅甸",
-      "latitude": 16.788752,
-      "longitude": 96.134637,
-      "color":colorSet.next()
-    },
-    {
-      "title": "草原天路",
-      "latitude": 41.390615,
-      "longitude": 115.787123,
-      "color":colorSet.next()
+    // ---- 状态徽标：把“空白”变成可读信息 ----
+    var statusEl = document.getElementById("tm-status");
+    function setStatus(msg, kind) {
+      if (!statusEl) return;
+      statusEl.className = "tm-status" + (kind ? " " + kind : "");
+      statusEl.textContent = msg;
     }
-  ];
-      }); // end am4core.ready()
+    function describeGlobals() {
+      return "am5=" + (typeof am5) + " am5map=" + (typeof am5map) +
+             " geo=" + (typeof am5geodata_worldLow) + " theme=" + (typeof am5themes_Animated);
     }
 
-    // 懒加载大体积地理数据 worldLow.js，加载完成后再初始化地图，
-    // 避免阻塞该页解析与首屏渲染（93KB gzip，地图滚动进入视口前即可就绪）
-    (function () {
-      var s = document.createElement('script');
-      s.src = '/js/amcharts/4/geodata/worldLow.js';
-      s.onload = initTravelMap;
-      s.onerror = function () { console.error('[travel-map] worldLow.js 加载失败，地图未渲染'); };
-      document.head.appendChild(s);
-    })();
+    // 全局错误兜底：任何报错都显示到徽标（含资源加载失败）
+    function showError(label, err) {
+      var detail = (err && (err.stack || err.message)) || String(err);
+      console.error("[travel-map]", label, err);
+      setStatus("✗ " + label + "\n" + describeGlobals() + "\n" + detail, "err");
+    }
+    window.addEventListener("error", function (e) {
+      // 资源(脚本)加载失败 e.message 常为空，用 target 信息兜底
+      if (e && e.target && (e.target.src || e.target.href)) {
+        showError("资源加载失败", (e.target.src || e.target.href));
+      } else {
+        showError("运行时错误", e.error || e.message);
+      }
+    });
+    window.addEventListener("unhandledrejection", function (e) {
+      showError("未处理的 Promise 错误", e.reason);
+    });
 
-</script>
-    <!-- HTML -->
-    <div id="chartdiv"></div>
+    // 单个点：按模式给定样式与动效
+    // isClassic=true（步步脚印/v4）：复刻【最早 v4】——3px 实心彩点 + 同色涟漪(scale 1→5, opacity 1→0, 循环 1000ms)
+    // isClassic=false（万里征程/v5）：国家配色 + 白色涟漪 + 呼吸缩放（保持原样）
+    function makePointBullet(bulletRoot, dataItem, isClassic) {
+      // 从 dataItem 取该点国家色（amCharts5 bullets 回调签名：root, series, dataItem）
+      var ctx = dataItem && dataItem.dataContext ? dataItem.dataContext : null;
+      var hex = ctx && ctx.countryHex ? ctx.countryHex : "#e74c3c";
+      var fillColor;
+      try { fillColor = am5.color(parseInt(hex.replace("#", ""), 16)); }
+      catch (e) { fillColor = am5.color(0xe74c3c); }
+
+      var c = am5.Container.new(bulletRoot, { centerX: am5.p50, centerY: am5.p50 });
+
+      if (isClassic) {
+        // —— 复刻最早 v4 样式/动效 ——
+        // 1) 常驻的 3px 实心彩点
+        var dot = am5.Circle.new(bulletRoot, {
+          radius: 3, fill: fillColor, centerX: am5.p50, centerY: am5.p50,
+          tooltipText: "{title}", cursorOverStyle: "pointer"
+        });
+        c.children.push(dot);
+        // 2) 同色涟漪：从本体大小放大到 5 倍并淡出，循环（对应 amCharts4 的 scale 1→5 + opacity 1→0）
+        var ripple = am5.Circle.new(bulletRoot, {
+          radius: 3, fill: fillColor, fillOpacity: 0.9, centerX: am5.p50, centerY: am5.p50
+        });
+        c.children.push(ripple);
+        ripple.animate({ key: "scale", from: 1, to: 5, duration: 1000, loops: Infinity, easing: am5.ease.cubicOut });
+        ripple.animate({ key: "fillOpacity", from: 0.9, to: 0, duration: 1000, loops: Infinity, easing: am5.ease.cubicOut });
+
+        dot.events.on("click", function (ev) {
+          var d = ev.target.dataItem && ev.target.dataItem.dataContext;
+          if (d && d.url) window.open(d.url, "_blank");
+        });
+        return am5.Bullet.new(bulletRoot, { sprite: c });
+      }
+
+      // —— v5 散点样式/动效 ——
+      // 单个非聚合点：国家配色实心点 + 【同色雷达涟漪(放大淡出)】 + 轻微呼吸
+      // （原本是白色淡涟漪，在地图底上几乎看不见，故改为同色明显涟漪，便于你决定是否保留）
+      var baseR = 6;
+      var rippleW = am5.Circle.new(bulletRoot, {
+        radius: baseR, fill: fillColor, fillOpacity: 0.5, centerX: am5.p50, centerY: am5.p50
+      });
+      c.children.push(rippleW);
+      var rdelay = Math.random() * 1600;
+      rippleW.animate({ key: "radius", from: baseR, to: 18, duration: 1600, loops: Infinity, delay: rdelay });
+      rippleW.animate({ key: "fillOpacity", from: 0.5, to: 0, duration: 1600, loops: Infinity, delay: rdelay });
+
+      var circle = am5.Circle.new(bulletRoot, {
+        radius: baseR, tooltipText: "{title}", cursorOverStyle: "pointer",
+        centerX: am5.p50, centerY: am5.p50, fill: fillColor
+      });
+      c.children.push(circle);
+      (function pulse(sprite) {
+        sprite.animate({ key: "scale", from: 1, to: 1.25, duration: 1000, easing: am5.ease.cubicOut })
+          .events.on("animationended", function () {
+            sprite.animate({ key: "scale", from: 1.25, to: 1, duration: 1000, easing: am5.ease.cubicOut })
+              .events.on("animationended", function () { pulse(sprite); });
+          });
+      })(circle);
+      circle.events.on("click", function (ev) {
+        var d = ev.target.dataItem && ev.target.dataItem.dataContext;
+        if (d && d.url) window.open(d.url, "_blank");
+      });
+      return am5.Bullet.new(bulletRoot, { sprite: c });
+    }
+
+    // 顺序构建：先底图(必现)，再点系列(容错)；任一步失败都不至于整页空白
+    function buildMap() {
+      root = am5.Root.new("chart-v5");
+      root.setThemes([am5themes_Animated.new(root)]);
+      chart = root.container.children.push(am5map.MapChart.new(root, {
+        panX: "translateX", panY: "translateY", projection: am5map.geoMercator()
+      }));
+      try {
+        var zoomControl = chart.set("zoomControl", am5map.ZoomControl.new(root, {}));
+        zoomControl.homeButton.set("visible", true);
+        [zoomControl.plusButton, zoomControl.minusButton, zoomControl.homeButton].forEach(function (zoomBtn) {
+          if (!zoomBtn) return;
+          var zbg = zoomBtn.get("background");
+          if (zbg) {
+            zbg.setAll({ fill: am5.color(0x00ff6d), stroke: am5.color(0x00b34a), strokeWidth: 1 });
+            zbg.states.create("hover", { fill: am5.color(0x00c24a) });
+          }
+          zoomBtn.set("iconColor", am5.color(0x064e2a));
+        });
+      } catch (ze) { console.warn("[travel-map] zoomControl 设置跳过:", ze); }
+
+      var polygonSeries = chart.series.push(am5map.MapPolygonSeries.new(root, {
+        geoJSON: am5geodata_worldLow, exclude: ["AQ"]
+      }));
+      polygonSeries.mapPolygons.template.setAll({ fill: am5.color(0xdadada) });
+      chart.appear(1000, 100);
+    }
+
+    // 构建指定模式的点系列。
+    // 每次切换都【重建】点系列（先 dispose 旧系列再 new 新的），
+    // 彻底规避 amCharts5 ClusteredPointSeries 动态改 minDistance 后不重新聚合的坑，
+    // 也保证 v4(步步脚印) 一定是“全部散点、绝不聚合”。
+    function buildPointsForMode(m) {
+      if (pointSeries) {
+        try { chart.series.removeValue(pointSeries); } catch (e) {}
+        try { pointSeries.dispose(); } catch (e) {}
+        pointSeries = null;
+      }
+      var isCluster = (m === "v5");
+      if (isCluster) {
+        // 聚合视图：近处点聚合成绿泡（带计数 + 呼吸光晕）
+        // minDistance 调小 → 点要更近才聚合，展示的散点更多（20 → 12）
+        pointSeries = chart.series.push(am5map.ClusteredPointSeries.new(root, { minDistance: 12 }));
+      } else {
+        // 经典视图：纯 MapPointSeries，绝不聚合（连坐标重合的点也不合并），
+        // 保证每一个点都独立渲染、都有呼吸 + 涟漪动效
+        pointSeries = chart.series.push(am5map.MapPointSeries.new(root, {}));
+      }
+
+      // 聚合气泡（仅 v5）：深祖母绿 + 白字计数 + 呼吸光晕
+      if (isCluster) {
+        pointSeries.set("clusteredBullet", function (rootC) {
+          var fc = am5.color(0x00853a);
+          var container = am5.Container.new(rootC, { cursorOverStyle: "pointer" });
+          var halo = am5.Circle.new(rootC, { radius: 14, fill: fc, fillOpacity: 0.22, tooltipY: 0 });
+          var ring = am5.Circle.new(rootC, { radius: 10, fill: fc, fillOpacity: 0.35, tooltipY: 0 });
+          var core = am5.Circle.new(rootC, { radius: 7, fill: fc, tooltipY: 0 });
+          container.children.push(halo);
+          container.children.push(ring);
+          container.children.push(core);
+          container.children.push(am5.Label.new(rootC, { centerX: am5.p50, centerY: am5.p50, fill: am5.color(0xffffff), populateText: true, fontSize: "9", text: "{value}" }));
+          // 呼吸光晕动效，让聚合视图也有活力（半径随绿泡缩小同步调整）
+          halo.animate({ key: "radius", from: 12, to: 18, duration: 1400, loops: Infinity, easing: am5.ease.cubicOut })
+            .events.on("animationended", function () {
+              halo.animate({ key: "radius", from: 18, to: 12, duration: 1400, loops: Infinity, easing: am5.ease.cubicOut });
+            });
+          container.events.on("click", function (e) { pointSeries.zoomToCluster(e.target.dataItem); });
+          return am5.Bullet.new(rootC, { sprite: container });
+        });
+      }
+
+      // 单个点：v5 未聚合散点、v4 全部点都走这里；
+      // 经典模式传 isClassic=true → makePointBullet 内复刻最早 v4 样式/动效
+      pointSeries.bullets.push(function (bulletRoot, series, dataItem) {
+        return makePointBullet(bulletRoot, dataItem, !isCluster);
+      });
+
+      pointData = travelData.map(function (d) {
+        return {
+          latitude: d.latitude, longitude: d.longitude,
+          title: d.title, country: d.country, url: d.url,
+          countryHex: countryColor(d.country)
+        };
+      });
+      pointSeries.data.setAll(pointData);
+    }
+
+    // 切换模式：重建点系列（底图不变，避免画面掐换）
+    function showMode(m) {
+      buildPointsForMode(m);
+    }
+
+    function setActiveButton(m) {
+      document.querySelectorAll(".map-switch button").forEach(function (b) {
+        b.classList.toggle("active", b.getAttribute("data-mode") === m);
+      });
+      var sw = document.querySelector(".map-switch");
+      if (sw) {
+        sw.classList.toggle("mode-v5", m === "v5");
+        sw.classList.toggle("mode-v4", m === "v4");
+      }
+    }
+
+    function init() {
+      if (typeof am5 === "undefined" || typeof am5map === "undefined" ||
+          typeof am5geodata_worldLow === "undefined" || typeof am5themes_Animated === "undefined") {
+        showError("amCharts 5 资源未加载", "请检查 4 个 /js/amcharts/5/*.js 是否 200");
+        return;
+      }
+      try {
+        buildMap();
+        setStatus("✓ 底图已加载，正在加载 " + (travelData ? travelData.length : 0) + " 个标注点…", "ok");
+      } catch (e) {
+        showError("底图初始化失败", e);
+        return;
+      }
+      try {
+        buildPointsForMode(mode);
+        setStatus("✓ 地图加载完成（" + (pointData.length) + " 个点）", "ok");
+        setTimeout(function () { if (statusEl && statusEl.classList.contains("ok")) statusEl.style.display = "none"; }, 3000);
+      } catch (e) {
+        showError("标注点加载失败（底图已显示）", e);
+        return;
+      }
+      // 看门狗：3 秒后仍无 svg，提示去控制台
+      setTimeout(function () {
+        var svg = document.querySelector("#chart-v5 svg");
+        var hasErr = statusEl && statusEl.classList.contains("err");
+        if (!svg && !hasErr) {
+          setStatus("⚠ 地图未渲染：容器高度=" + (document.getElementById("chart-v5").clientHeight) +
+            "px。请按 F12 打开 Console，把红色报错发我。", "err");
+        }
+      }, 3000);
+    }
+
+    setActiveButton(mode);
+    document.querySelectorAll(".map-switch button").forEach(function (b) {
+      b.addEventListener("click", function () {
+        var m = b.getAttribute("data-mode");
+        if (m === mode) return;
+        mode = m;
+        localStorage.setItem("travelMapMode", m);
+        setActiveButton(m);
+        var bike = document.querySelector(".map-road .bike");
+        if (bike) {
+          bike.classList.remove("riding");
+          void bike.offsetWidth;
+          bike.classList.add("riding");
+          setTimeout(function () { bike.classList.remove("riding"); }, 600);
+        }
+        showMode(m);
+      });
+    });
+
+    if (document.readyState === "loading") {
+      document.addEventListener("DOMContentLoaded", init);
+    } else {
+      init();
+    }
+    </script>
 </section>
+
     </div>
 
   </article>
