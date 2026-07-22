@@ -39,6 +39,15 @@ function init_life_time() {
         $('#yearProgress .title span').html(month);
         $('#yearProgress .progress .progress-inner').css('width', parseInt(yearPass) + '%');
         $('#yearProgress .progress .progress-percentage').html(parseInt(yearPass) + '%');
+        /* 人生已经过去多少天：出生于 1983-11-01，按一生总天数 30000 计 */
+        let bornDate = new Date(1983, 10, 1);
+        let msPerDay = 1000 * 60 * 60 * 24;
+        let lifeTotalDays = 30000;
+        let lifePassDays = Math.floor((nowDate - bornDate.getTime()) / msPerDay);
+        let lifePassPercent = (lifePassDays / lifeTotalDays) * 100;
+        $('#lifeProgress .title span').html(lifePassDays);
+        $('#lifeProgress .progress .progress-inner').css('width', lifePassPercent + '%');
+        $('#lifeProgress .progress .progress-percentage').html(parseInt(lifePassPercent) + '%');
     }
     getAsideLifeTime();
     setInterval(() => {

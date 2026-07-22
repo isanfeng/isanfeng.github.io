@@ -91,6 +91,12 @@
     background-image: linear-gradient(135deg, #92c27a 25%, transparent 25%, transparent 50%, #92c27a 50%, #92c27a 75%, transparent 75%, transparent 100%);
     background-size: 30px 30px
   }
+
+  .aside-count .content .item .progress .progress-bar .progress-inner-5 {
+    background: #ff8a9b;
+    background-image: linear-gradient(135deg, #ff6a88 25%, transparent 25%, transparent 50%, #ff6a88 50%, #ff6a88 75%, transparent 75%, transparent 100%);
+    background-size: 30px 30px
+  }
   
   .aside-count .content .item .progress .progress-percentage {
     color: var(--info)
