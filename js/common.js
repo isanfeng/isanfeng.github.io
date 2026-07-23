@@ -127,25 +127,35 @@ $(document).ready(function() {
       $more.prop('hidden', $moreList.children().length === 0);
     }
 
-    $toggle.on('click', function (e) {
-      e.stopPropagation();
-      var open = $more.hasClass('is-open');
-      $more.toggleClass('is-open');
-      $toggle.attr('aria-expanded', String(!open));
-    });
+    function openMore() {
+      $more.addClass('is-open');
+      $toggle.attr('aria-expanded', 'true');
+    }
+    function closeMore() {
+      $more.removeClass('is-open');
+      $toggle.attr('aria-expanded', 'false');
+    }
 
-    $(document).on('click', function (e) {
-      if (!$(e.target).closest('.nav__more').length) {
-        $more.removeClass('is-open');
-        $toggle.attr('aria-expanded', 'false');
-      }
-    });
+    // 桌面（支持 hover）：鼠标移入 More 即展开下拉，移开即收齐
+    var canHover = window.matchMedia && window.matchMedia('(hover: hover)').matches;
+    if (canHover) {
+      // 绑定在 $more 整体（含 toggle 与下拉列表），鼠标在二者间移动不会误触发收齐
+      $more.on('mouseenter', openMore);
+      $more.on('mouseleave', closeMore);
+    } else {
+      // 触屏（无 hover）：点击切换展开/收齐，点击外部收齐
+      $toggle.on('click', function (e) {
+        e.stopPropagation();
+        if ($more.hasClass('is-open')) { closeMore(); } else { openMore(); }
+      });
+      $(document).on('click', function (e) {
+        if (!$(e.target).closest('.nav__more').length) { closeMore(); }
+      });
+    }
 
+    // 键盘 Escape 收齐（两类设备通用）
     $(document).on('keydown', function (e) {
-      if (e.keyCode === 27) {
-        $more.removeClass('is-open');
-        $toggle.attr('aria-expanded', 'false');
-      }
+      if (e.keyCode === 27) { closeMore(); }
     });
 
     relayout();
@@ -169,6 +179,9 @@ $(document).ready(function() {
   setTimeout(function(){
     $('body').addClass('is-in');
   },150)
+
+  // 入场 / 滚动揭示动画（P1-8）
+  initReveal();
 
 
   /* =======================
@@ -242,6 +255,74 @@ $(document).ready(function() {
 
 
   /* =======================
+  // Exclusive Media (互斥播放)
+  // 文章/页面内的多个视频(Bilibili iframe 或 HTML5 <video>)互斥:
+  //  1) 默认不自动播放 —— Bilibili URL 带 autoplay=0(源层), 加载后再发一次 pause 命令双保险
+  //  2) 一个开始播放时, 其余自动停止 —— 跨域 iframe 无法由父页 pause(), 故用"重载其余 iframe"
+  //     (重置 src 即停止播放) 实现互斥; 触发信号仅用 iframe focus(用户点击内部即获焦点,
+  //     父文档元素级 focus 监听可靠触发, 跨域不影响) —— 不依赖播放器回传的 play 事件(滚动/预览
+  //     都会触发回传, 会导致误暂停/死循环重载, 已移除)
+  ======================= */
+  function setupExclusiveMedia() {
+    var biliFrames = document.querySelectorAll('.post__content iframe[src*="player.bilibili.com"], .page__content iframe[src*="player.bilibili.com"]');
+    var htmlVideos = document.querySelectorAll('.post__content video, .page__content video');
+    if (!biliFrames.length && !htmlVideos.length) return;
+
+    // 记录各 Bilibili iframe 的原始 src。跨域 iframe 无法由父页直接 pause(),
+    // "暂停"的可靠手段是重置 src(重载即停止播放), 完全不依赖播放器是否响应 postMessage。
+    var biliSrc = [];
+    biliFrames.forEach(function (f, i) { biliSrc[i] = f.getAttribute('src'); });
+
+    // 停止除 exceptIdx 之外的所有 Bilibili iframe(重载), 并暂停 HTML5 video
+    function stopOthers(exceptIdx) {
+      biliFrames.forEach(function (f, i) {
+        if (i === exceptIdx) return;
+        try { f.setAttribute('src', biliSrc[i]); } catch (e) {}
+      });
+      htmlVideos.forEach(function (v) { v.pause(); });
+    }
+
+    // 暴露给音乐播放器(music-player.html): 暂停"所有" Bilibili 视频(音频↔视频互斥)
+    window.__pauseAllBilibili = function () { stopOthers(-1); };
+    // 暂停音乐播放器(若不存在则空操作)
+    function pauseMusicIfAny() { if (window.__pauseMusic) window.__pauseMusic(); }
+
+    // 1) 默认不自动播放: 加载后发一次 pause 命令(双保险, 播放器若支持则生效)
+    biliFrames.forEach(function (f) {
+      f.addEventListener('load', function () {
+        try { f.contentWindow.postMessage(JSON.stringify({ command: 'pause' }), '*'); } catch (e) {}
+      });
+    });
+
+    // 2) 互斥核心: 用户点击进入某 iframe -> 重载其余, 其余必然停止播放。
+    //    激活信号: iframe 元素自身的 focus 事件 —— 点击跨域 iframe 内部会使其获得焦点,
+    //    父文档绑在 iframe 元素上的 focus 监听可靠触发(这是 HTML 规范行为, 跨域不影响此级焦点事件)。
+    //    注意: 不依赖 window blur 兜底 —— 跨域 iframe 失焦时父窗口会 blur, 但此时 document.activeElement
+    //    时序上可能仍是刚失焦的旧 iframe, 会误判"激活者"从而把用户真正点击的目标重载掉(表现为点不回去)。
+    function activateFrame(idx) {
+      if (idx < 0) return;
+      window.__videoFocusAt = Date.now();
+      pauseMusicIfAny();
+      stopOthers(idx);
+    }
+    biliFrames.forEach(function (f, i) {
+      f.addEventListener('focus', function () { activateFrame(i); });
+    });
+
+    // 3) HTML5 <video> 互斥: 一个播放 -> 暂停其余 video 并停止所有 Bilibili
+    htmlVideos.forEach(function (v) {
+      v.addEventListener('play', function () {
+        htmlVideos.forEach(function (o) { if (o !== v) o.pause(); });
+        pauseMusicIfAny();
+        stopOthers(-1);
+      });
+    });
+  }
+
+  setupExclusiveMedia();
+
+
+  /* =======================
   // Zoom Image
   ======================= */
   $(".page img, .post img").attr("data-action", "zoom");
@@ -295,5 +376,38 @@ $(document).ready(function() {
     toggleTheme();
   });
 
+
+  /* =======================
+  // Reveal on scroll (P1-8)
+  // 给带 .reveal 的元素加 .is-visible，触发错落淡入；
+  // 尊重 prefers-reduced-motion，无 IntersectionObserver 时直接显示；
+  // 2.5s 兜底强制显示，避免任何异常导致内容永久隐藏。
+  ======================= */
+  function initReveal() {
+    var els = document.querySelectorAll('.reveal');
+    if (!els.length) return;
+
+    var reduce = window.matchMedia && window.matchMedia('(prefers-reduced-motion: reduce)').matches;
+    if (reduce || !('IntersectionObserver' in window)) {
+      for (var i = 0; i < els.length; i++) els[i].classList.add('is-visible');
+      return;
+    }
+
+    var io = new IntersectionObserver(function (entries) {
+      entries.forEach(function (entry) {
+        if (entry.isIntersecting) {
+          entry.target.classList.add('is-visible');
+          io.unobserve(entry.target);
+        }
+      });
+    }, { threshold: 0.12, rootMargin: '0px 0px -8% 0px' });
+
+    for (var j = 0; j < els.length; j++) io.observe(els[j]);
+
+    setTimeout(function () {
+      var pending = document.querySelectorAll('.reveal:not(.is-visible)');
+      for (var k = 0; k < pending.length; k++) pending[k].classList.add('is-visible');
+    }, 2500);
+  }
 
 });
