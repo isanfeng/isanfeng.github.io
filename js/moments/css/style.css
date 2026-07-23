@@ -111,6 +111,27 @@ a {
   }
 }
 
+/* 每条 moment 右下角浅灰索引（#N = scripts/moments.py 的操作目标编号），低调仅作辨别 */
+.layout-article ul.box-article li article .moment-index {
+  position: absolute;
+  bottom: 10px;
+  right: 12px;
+  width: auto;
+  display: inline-block;
+  padding: 0;
+  margin: 0;
+  font-family: "Long Cang", cursive;
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 1;
+  color: #c4c4c4;
+  background: none;
+  border-radius: 0;
+  text-align: center;
+  transform: none;
+  -webkit-transform: none;
+}
+
 /*.credit {*/
 /*  position: fixed;*/
 /*  bottom: 15px;*/
