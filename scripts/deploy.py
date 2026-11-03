@@ -37,13 +37,14 @@ DEV_REPO_DEFAULT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 DEFAULT_DST = os.path.normpath(os.path.join(DEV_REPO_DEFAULT, "..", "isanfeng.github.io"))
 
 
-def run_build(build_cmd):
-    """执行 jekyll build。优先使用 bundle exec，失败则回退到 jekyll build。"""
+def run_build(build_cmd, cwd):
+    """在源码仓库目录执行 jekyll build。优先使用 bundle exec，失败则回退到 jekyll build。"""
     candidates = [build_cmd] if build_cmd else ["bundle exec jekyll build", "jekyll build"]
     for cmd in candidates:
         print(f"> 执行构建: {cmd}")
         # shell=True 便于直接写带空格的命令；脚本仅接受受控命令，无注入风险
-        rc = subprocess.call(cmd, shell=True)
+        # cwd 固定为源码仓库：否则脚本被复制到发布仓库后会在无 _config.yml 的目录里构建
+        rc = subprocess.call(cmd, shell=True, cwd=cwd)
         if rc == 0:
             return True
         print(f"  构建命令失败 (exit={rc})，尝试下一个候选命令")
@@ -194,9 +195,16 @@ def main():
 
     dev_repo = args.dev_repo or DEV_REPO_DEFAULT
 
+    # 防呆：脚本若被复制到发布仓库，DEV_REPO_DEFAULT 会推导成发布库自身，
+    # 导致 --target both 的两个目标指向同一目录（第二次永远“无改动”）。
+    if not os.path.exists(os.path.join(dev_repo, "_config.yml")):
+        print(f"错误：{dev_repo} 不是源码仓库（缺少 _config.yml）。", file=sys.stderr)
+        print("请从源码仓库运行本脚本：cd <dev> && python3 scripts/deploy.py", file=sys.stderr)
+        sys.exit(1)
+
     if args.no_git:
         if not args.no_build:
-            if not run_build(args.build_cmd):
+            if not run_build(args.build_cmd, dev_repo):
                 print("构建失败，已中止部署", file=sys.stderr)
                 sys.exit(1)
         if not move_all_and_overwrite(args.src, args.dst):
@@ -209,7 +217,7 @@ def main():
     # 仅当目标含发布仓库时才需要构建并移动产物
     if "pub" in targets:
         if not args.no_build:
-            if not run_build(args.build_cmd):
+            if not run_build(args.build_cmd, dev_repo):
                 print("构建失败，已中止部署", file=sys.stderr)
                 sys.exit(1)
         if not move_all_and_overwrite(args.src, args.dst):
