@@ -5,38 +5,339 @@
     <description>༺&lt;ruby&gt;侠 之 大 者，四 海 为 家&lt;rp&gt;(&lt;/rp&gt;&lt;rt&gt;xiá zhī dà zhě, sì hǎi wéi jiā&lt;/rt&gt;&lt;rp&gt;)&lt;/rp&gt;&lt;/ruby&gt;༻&lt;br&gt;&lt;br&gt;༺&lt;ruby&gt;一 人 一 車，浪 迹 天 涯&lt;rp&gt;(&lt;/rp&gt;&lt;rt&gt;yī rén yī jū, làng jì tiān yá&lt;/rt&gt;&lt;rp&gt;)&lt;/rp&gt;&lt;/ruby&gt;༻&lt;br&gt;&lt;br&gt;༺&lt;ruby&gt;花 开 花 谢，白 天 黑 夜&lt;rp&gt;(&lt;/rp&gt;&lt;rt&gt;huā kāi huā xiè ， bái tiān hēi yè&lt;/rt&gt;&lt;rp&gt;)&lt;/rp&gt;&lt;/ruby&gt;༻&lt;br&gt;&lt;br&gt;༺&lt;ruby&gt;一 切 自 然，又 不 尽 然&lt;rp&gt;(&lt;/rp&gt;&lt;rt&gt;yī qiè zì rán ， yòu bù jìn rán&lt;/rt&gt;&lt;rp&gt;)&lt;/rp&gt;&lt;/ruby&gt;༻&lt;br&gt;&lt;br&gt;༺&lt;ruby&gt;春 夏 秋 冬，经 过 才 懂&lt;rp&gt;(&lt;/rp&gt;&lt;rt&gt;chūn xià qiū dōng ， jīng guò cái dǒng&lt;/rt&gt;&lt;rp&gt;)&lt;/rp&gt;&lt;/ruby&gt;༻&lt;br&gt;&lt;br&gt;༺&lt;ruby&gt;世 间 冷 暖，无 非 自 然&lt;rp&gt;(&lt;/rp&gt;&lt;rt&gt;shì jiān lěng nuǎn ， wú fēi zì rán&lt;/rt&gt;&lt;rp&gt;)&lt;/rp&gt;&lt;/ruby&gt;༻</description>
     <link>https://isanfeng.github.io/</link>
     <atom:link href="https://isanfeng.github.io/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Fri, 24 Jul 2026 07:57:39 +0800</pubDate>
-    <lastBuildDate>Fri, 24 Jul 2026 07:57:39 +0800</lastBuildDate>
+    <pubDate>Tue, 03 Nov 2026 16:13:02 +0800</pubDate>
+    <lastBuildDate>Tue, 03 Nov 2026 16:13:02 +0800</lastBuildDate>
     <generator>Jekyll v4.2.1</generator>
     
       <item>
-        <title>白天修仙夜游唐•葛仙村</title>
-        <description>&lt;script&gt;
-    function password()
-    {
-        var i=1;
-            var passwd=prompt('新鲜展示期已过被∴三丰∴封印，后续请使用友情密钥查看，谢谢。','');//这是输入密码的提示语，可以改为你想要显示的内容，比如本站地址之类的
-        while(i&lt;1)
-        {
-            if(passwd==&quot;iloveisanfeng&quot;)//这是密码
-            {
-                alert('密钥正确，欢迎再次光临三丰的极简大陆');//这是输入正确后的提示，可以改为自己想要的提示语
-            break;
-            }
-            i++;
-            var passwd=prompt('密钥不正确！请重新输入:\n你还有'+(2-i)+'次机会来尝试，机会用尽，将会被永远封印。');
-        }
-        if(password!=&quot;vip.zan.smarted&quot;&amp;&amp;i==1)
-        {
-            alert('密钥不正确，将返回首页，请寻找∴三丰∴获取友情密钥');
-            location.href=&quot;/&quot;;//这是密码输入错误超过3次后转到的错误页面，也可设为别的页面
-        }
-        return &quot;&quot;;
-    }
+        <title>惠东橙•维港湾</title>
+        <description>&lt;p&gt;这是一篇&lt;strong&gt;示例文章&lt;/strong&gt;，用来演示 &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;ride:&lt;/code&gt; 块在 front-matter 里的位置，以及它渲染出来的「骑行摘要盒 + 内联轨迹地图」。&lt;/p&gt;
 
-    password();
-&lt;/script&gt;
+&lt;blockquote&gt;
+  &lt;p&gt;本文是模板演示稿，轨迹用一份真实 GPX（&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;lushu1.gpx&lt;/code&gt;，&lt;strong&gt;2491 个轨迹点 / 约 162 km / 海拔 1669–3307 m&lt;/strong&gt;）。这份 GPX 含逐点海拔数据，所以下方会渲染&lt;strong&gt;行者风格坡度分色海拔剖面图&lt;/strong&gt;。地图只标起点/终点，完整路线由全部轨迹点连成。&lt;/p&gt;
+&lt;/blockquote&gt;
 
+&lt;h2 id=&quot;路线&quot;&gt;路线&lt;/h2&gt;
+
+&lt;p&gt;我们从&lt;span class=&quot;geo-pin&quot; id=&quot;loc-start&quot; data-lat=&quot;34.9524&quot; data-lng=&quot;104.7009&quot;&gt;甘南起点&lt;/span&gt;出发，翻越高原垭口，到&lt;span class=&quot;geo-pin&quot; id=&quot;loc-end&quot; data-lat=&quot;34.6697&quot; data-lng=&quot;103.5961&quot;&gt;终点&lt;/span&gt;收官，一路累计爬升超过 6000 m。&lt;/p&gt;
+
+&lt;p&gt;正文里每处 &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;&amp;lt;span class=&quot;geo-pin&quot; data-lat=&quot;..&quot; data-lng=&quot;..&quot;&amp;gt;地名&amp;lt;/span&amp;gt;&lt;/code&gt; 都会被内联地图收集成一个点，按文档顺序连成线。没填 &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;gpx&lt;/code&gt; 时这就是轨迹来源；要是哪天你导出了 GPX，把路径填进 &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;ride.gpx&lt;/code&gt; 就会优先画真实轨迹。&lt;/p&gt;
+
+&lt;h2 id=&quot;这段想说什么&quot;&gt;这段想说什么&lt;/h2&gt;
+
+&lt;p&gt;骑行结构化不是为了炫技，是让「这篇骑了多远、爬了多少、走了几天、去了哪」变成机器可读的数据——年度统计页（RIDE•STATS）就是靠这些数字自动聚合出来的，不用手填。&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;p&gt;&lt;em&gt;本示例文为演示用途，可随时删除；保留它也不会影响其它文章。&lt;/em&gt;&lt;/p&gt;
+</description>
+        <pubDate>Fri, 30 Oct 2026 00:00:00 +0800</pubDate>
+        <link>https://isanfeng.github.io/China-Guangdong-Huizhou-Huidong-Weigangwan</link>
+        <guid isPermaLink="true">https://isanfeng.github.io/China-Guangdong-Huizhou-Huidong-Weigangwan</guid>
+        
+        <category>旅居</category>
+        
+        <category>漫游中国</category>
+        
+        <category>广东</category>
+        
+        <category>🚳</category>
+        
+        <category>2026</category>
+        
+        
+      </item>
+    
+      <item>
+        <title>惠东蓝•牛湾</title>
+        <description>&lt;p&gt;这是一篇&lt;strong&gt;示例文章&lt;/strong&gt;，用来演示 &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;ride:&lt;/code&gt; 块在 front-matter 里的位置，以及它渲染出来的「骑行摘要盒 + 内联轨迹地图」。&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;本文是模板演示稿，轨迹用一份真实 GPX（&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;lushu1.gpx&lt;/code&gt;，&lt;strong&gt;2491 个轨迹点 / 约 162 km / 海拔 1669–3307 m&lt;/strong&gt;）。这份 GPX 含逐点海拔数据，所以下方会渲染&lt;strong&gt;行者风格坡度分色海拔剖面图&lt;/strong&gt;。地图只标起点/终点，完整路线由全部轨迹点连成。&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;h2 id=&quot;路线&quot;&gt;路线&lt;/h2&gt;
+
+&lt;p&gt;我们从&lt;span class=&quot;geo-pin&quot; id=&quot;loc-start&quot; data-lat=&quot;34.9524&quot; data-lng=&quot;104.7009&quot;&gt;甘南起点&lt;/span&gt;出发，翻越高原垭口，到&lt;span class=&quot;geo-pin&quot; id=&quot;loc-end&quot; data-lat=&quot;34.6697&quot; data-lng=&quot;103.5961&quot;&gt;终点&lt;/span&gt;收官，一路累计爬升超过 6000 m。&lt;/p&gt;
+
+&lt;p&gt;正文里每处 &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;&amp;lt;span class=&quot;geo-pin&quot; data-lat=&quot;..&quot; data-lng=&quot;..&quot;&amp;gt;地名&amp;lt;/span&amp;gt;&lt;/code&gt; 都会被内联地图收集成一个点，按文档顺序连成线。没填 &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;gpx&lt;/code&gt; 时这就是轨迹来源；要是哪天你导出了 GPX，把路径填进 &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;ride.gpx&lt;/code&gt; 就会优先画真实轨迹。&lt;/p&gt;
+
+&lt;h2 id=&quot;这段想说什么&quot;&gt;这段想说什么&lt;/h2&gt;
+
+&lt;p&gt;骑行结构化不是为了炫技，是让「这篇骑了多远、爬了多少、走了几天、去了哪」变成机器可读的数据——年度统计页（RIDE•STATS）就是靠这些数字自动聚合出来的，不用手填。&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;p&gt;&lt;em&gt;本示例文为演示用途，可随时删除；保留它也不会影响其它文章。&lt;/em&gt;&lt;/p&gt;
+</description>
+        <pubDate>Fri, 30 Oct 2026 00:00:00 +0800</pubDate>
+        <link>https://isanfeng.github.io/China-Guangdong-Huizhou-Huidong-NiuwanBeach</link>
+        <guid isPermaLink="true">https://isanfeng.github.io/China-Guangdong-Huizhou-Huidong-NiuwanBeach</guid>
+        
+        <category>旅居</category>
+        
+        <category>漫游中国</category>
+        
+        <category>广东</category>
+        
+        <category>🚳</category>
+        
+        <category>2026</category>
+        
+        
+      </item>
+    
+      <item>
+        <title>惠东蓝•既到海角何必天涯</title>
+        <description>&lt;p&gt;这是一篇&lt;strong&gt;示例文章&lt;/strong&gt;，用来演示 &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;ride:&lt;/code&gt; 块在 front-matter 里的位置，以及它渲染出来的「骑行摘要盒 + 内联轨迹地图」。&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;本文是模板演示稿，轨迹用一份真实 GPX（&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;lushu1.gpx&lt;/code&gt;，&lt;strong&gt;2491 个轨迹点 / 约 162 km / 海拔 1669–3307 m&lt;/strong&gt;）。这份 GPX 含逐点海拔数据，所以下方会渲染&lt;strong&gt;行者风格坡度分色海拔剖面图&lt;/strong&gt;。地图只标起点/终点，完整路线由全部轨迹点连成。&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;h2 id=&quot;路线&quot;&gt;路线&lt;/h2&gt;
+
+&lt;p&gt;我们从&lt;span class=&quot;geo-pin&quot; id=&quot;loc-start&quot; data-lat=&quot;34.9524&quot; data-lng=&quot;104.7009&quot;&gt;甘南起点&lt;/span&gt;出发，翻越高原垭口，到&lt;span class=&quot;geo-pin&quot; id=&quot;loc-end&quot; data-lat=&quot;34.6697&quot; data-lng=&quot;103.5961&quot;&gt;终点&lt;/span&gt;收官，一路累计爬升超过 6000 m。&lt;/p&gt;
+
+&lt;p&gt;正文里每处 &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;&amp;lt;span class=&quot;geo-pin&quot; data-lat=&quot;..&quot; data-lng=&quot;..&quot;&amp;gt;地名&amp;lt;/span&amp;gt;&lt;/code&gt; 都会被内联地图收集成一个点，按文档顺序连成线。没填 &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;gpx&lt;/code&gt; 时这就是轨迹来源；要是哪天你导出了 GPX，把路径填进 &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;ride.gpx&lt;/code&gt; 就会优先画真实轨迹。&lt;/p&gt;
+
+&lt;h2 id=&quot;这段想说什么&quot;&gt;这段想说什么&lt;/h2&gt;
+
+&lt;p&gt;骑行结构化不是为了炫技，是让「这篇骑了多远、爬了多少、走了几天、去了哪」变成机器可读的数据——年度统计页（RIDE•STATS）就是靠这些数字自动聚合出来的，不用手填。&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;p&gt;&lt;em&gt;本示例文为演示用途，可随时删除；保留它也不会影响其它文章。&lt;/em&gt;&lt;/p&gt;
+</description>
+        <pubDate>Fri, 30 Oct 2026 00:00:00 +0800</pubDate>
+        <link>https://isanfeng.github.io/China-Guangdong-Huizhou-Huidong-Haijiaodengta</link>
+        <guid isPermaLink="true">https://isanfeng.github.io/China-Guangdong-Huizhou-Huidong-Haijiaodengta</guid>
+        
+        <category>旅居</category>
+        
+        <category>漫游中国</category>
+        
+        <category>广东</category>
+        
+        <category>🚳</category>
+        
+        <category>2026</category>
+        
+        
+      </item>
+    
+      <item>
+        <title>惠东橙•小径湾礁石公园</title>
+        <description>&lt;p&gt;这是一篇&lt;strong&gt;示例文章&lt;/strong&gt;，用来演示 &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;ride:&lt;/code&gt; 块在 front-matter 里的位置，以及它渲染出来的「骑行摘要盒 + 内联轨迹地图」。&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;本文是模板演示稿，轨迹用一份真实 GPX（&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;lushu1.gpx&lt;/code&gt;，&lt;strong&gt;2491 个轨迹点 / 约 162 km / 海拔 1669–3307 m&lt;/strong&gt;）。这份 GPX 含逐点海拔数据，所以下方会渲染&lt;strong&gt;行者风格坡度分色海拔剖面图&lt;/strong&gt;。地图只标起点/终点，完整路线由全部轨迹点连成。&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;h2 id=&quot;路线&quot;&gt;路线&lt;/h2&gt;
+
+&lt;p&gt;我们从&lt;span class=&quot;geo-pin&quot; id=&quot;loc-start&quot; data-lat=&quot;34.9524&quot; data-lng=&quot;104.7009&quot;&gt;甘南起点&lt;/span&gt;出发，翻越高原垭口，到&lt;span class=&quot;geo-pin&quot; id=&quot;loc-end&quot; data-lat=&quot;34.6697&quot; data-lng=&quot;103.5961&quot;&gt;终点&lt;/span&gt;收官，一路累计爬升超过 6000 m。&lt;/p&gt;
+
+&lt;p&gt;正文里每处 &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;&amp;lt;span class=&quot;geo-pin&quot; data-lat=&quot;..&quot; data-lng=&quot;..&quot;&amp;gt;地名&amp;lt;/span&amp;gt;&lt;/code&gt; 都会被内联地图收集成一个点，按文档顺序连成线。没填 &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;gpx&lt;/code&gt; 时这就是轨迹来源；要是哪天你导出了 GPX，把路径填进 &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;ride.gpx&lt;/code&gt; 就会优先画真实轨迹。&lt;/p&gt;
+
+&lt;h2 id=&quot;这段想说什么&quot;&gt;这段想说什么&lt;/h2&gt;
+
+&lt;p&gt;骑行结构化不是为了炫技，是让「这篇骑了多远、爬了多少、走了几天、去了哪」变成机器可读的数据——年度统计页（RIDE•STATS）就是靠这些数字自动聚合出来的，不用手填。&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;p&gt;&lt;em&gt;本示例文为演示用途，可随时删除；保留它也不会影响其它文章。&lt;/em&gt;&lt;/p&gt;
+</description>
+        <pubDate>Sun, 25 Oct 2026 00:00:00 +0800</pubDate>
+        <link>https://isanfeng.github.io/China-Guangdong-Huizhou-Huidong-Xiachong-Paopaohai</link>
+        <guid isPermaLink="true">https://isanfeng.github.io/China-Guangdong-Huizhou-Huidong-Xiachong-Paopaohai</guid>
+        
+        <category>旅居</category>
+        
+        <category>漫游中国</category>
+        
+        <category>广东</category>
+        
+        <category>🚳</category>
+        
+        <category>2026</category>
+        
+        
+      </item>
+    
+      <item>
+        <title>惠东蓝•无名沙滩</title>
+        <description>&lt;p&gt;这是一篇&lt;strong&gt;示例文章&lt;/strong&gt;，用来演示 &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;ride:&lt;/code&gt; 块在 front-matter 里的位置，以及它渲染出来的「骑行摘要盒 + 内联轨迹地图」。&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;本文是模板演示稿，轨迹用一份真实 GPX（&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;lushu1.gpx&lt;/code&gt;，&lt;strong&gt;2491 个轨迹点 / 约 162 km / 海拔 1669–3307 m&lt;/strong&gt;）。这份 GPX 含逐点海拔数据，所以下方会渲染&lt;strong&gt;行者风格坡度分色海拔剖面图&lt;/strong&gt;。地图只标起点/终点，完整路线由全部轨迹点连成。&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;h2 id=&quot;路线&quot;&gt;路线&lt;/h2&gt;
+
+&lt;p&gt;我们从&lt;span class=&quot;geo-pin&quot; id=&quot;loc-start&quot; data-lat=&quot;34.9524&quot; data-lng=&quot;104.7009&quot;&gt;甘南起点&lt;/span&gt;出发，翻越高原垭口，到&lt;span class=&quot;geo-pin&quot; id=&quot;loc-end&quot; data-lat=&quot;34.6697&quot; data-lng=&quot;103.5961&quot;&gt;终点&lt;/span&gt;收官，一路累计爬升超过 6000 m。&lt;/p&gt;
+
+&lt;p&gt;正文里每处 &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;&amp;lt;span class=&quot;geo-pin&quot; data-lat=&quot;..&quot; data-lng=&quot;..&quot;&amp;gt;地名&amp;lt;/span&amp;gt;&lt;/code&gt; 都会被内联地图收集成一个点，按文档顺序连成线。没填 &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;gpx&lt;/code&gt; 时这就是轨迹来源；要是哪天你导出了 GPX，把路径填进 &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;ride.gpx&lt;/code&gt; 就会优先画真实轨迹。&lt;/p&gt;
+
+&lt;h2 id=&quot;这段想说什么&quot;&gt;这段想说什么&lt;/h2&gt;
+
+&lt;p&gt;骑行结构化不是为了炫技，是让「这篇骑了多远、爬了多少、走了几天、去了哪」变成机器可读的数据——年度统计页（RIDE•STATS）就是靠这些数字自动聚合出来的，不用手填。&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;p&gt;&lt;em&gt;本示例文为演示用途，可随时删除；保留它也不会影响其它文章。&lt;/em&gt;&lt;/p&gt;
+</description>
+        <pubDate>Tue, 20 Oct 2026 00:00:00 +0800</pubDate>
+        <link>https://isanfeng.github.io/China-Guangdong-Huizhou-Huidong-WumingBeach</link>
+        <guid isPermaLink="true">https://isanfeng.github.io/China-Guangdong-Huizhou-Huidong-WumingBeach</guid>
+        
+        <category>旅居</category>
+        
+        <category>漫游中国</category>
+        
+        <category>广东</category>
+        
+        <category>🚳</category>
+        
+        <category>2026</category>
+        
+        
+      </item>
+    
+      <item>
+        <title>惠东古•清泉古寺</title>
+        <description>&lt;p&gt;这是一篇&lt;strong&gt;示例文章&lt;/strong&gt;，用来演示 &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;ride:&lt;/code&gt; 块在 front-matter 里的位置，以及它渲染出来的「骑行摘要盒 + 内联轨迹地图」。&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;本文是模板演示稿，轨迹用一份真实 GPX（&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;lushu1.gpx&lt;/code&gt;，&lt;strong&gt;2491 个轨迹点 / 约 162 km / 海拔 1669–3307 m&lt;/strong&gt;）。这份 GPX 含逐点海拔数据，所以下方会渲染&lt;strong&gt;行者风格坡度分色海拔剖面图&lt;/strong&gt;。地图只标起点/终点，完整路线由全部轨迹点连成。&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;h2 id=&quot;路线&quot;&gt;路线&lt;/h2&gt;
+
+&lt;p&gt;我们从&lt;span class=&quot;geo-pin&quot; id=&quot;loc-start&quot; data-lat=&quot;34.9524&quot; data-lng=&quot;104.7009&quot;&gt;甘南起点&lt;/span&gt;出发，翻越高原垭口，到&lt;span class=&quot;geo-pin&quot; id=&quot;loc-end&quot; data-lat=&quot;34.6697&quot; data-lng=&quot;103.5961&quot;&gt;终点&lt;/span&gt;收官，一路累计爬升超过 6000 m。&lt;/p&gt;
+
+&lt;p&gt;正文里每处 &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;&amp;lt;span class=&quot;geo-pin&quot; data-lat=&quot;..&quot; data-lng=&quot;..&quot;&amp;gt;地名&amp;lt;/span&amp;gt;&lt;/code&gt; 都会被内联地图收集成一个点，按文档顺序连成线。没填 &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;gpx&lt;/code&gt; 时这就是轨迹来源；要是哪天你导出了 GPX，把路径填进 &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;ride.gpx&lt;/code&gt; 就会优先画真实轨迹。&lt;/p&gt;
+
+&lt;h2 id=&quot;这段想说什么&quot;&gt;这段想说什么&lt;/h2&gt;
+
+&lt;p&gt;骑行结构化不是为了炫技，是让「这篇骑了多远、爬了多少、走了几天、去了哪」变成机器可读的数据——年度统计页（RIDE•STATS）就是靠这些数字自动聚合出来的，不用手填。&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;p&gt;&lt;em&gt;本示例文为演示用途，可随时删除；保留它也不会影响其它文章。&lt;/em&gt;&lt;/p&gt;
+</description>
+        <pubDate>Thu, 15 Oct 2026 00:00:00 +0800</pubDate>
+        <link>https://isanfeng.github.io/China-Guangdong-Huizhou-Huidong-Qingquangusi</link>
+        <guid isPermaLink="true">https://isanfeng.github.io/China-Guangdong-Huizhou-Huidong-Qingquangusi</guid>
+        
+        <category>旅居</category>
+        
+        <category>漫游中国</category>
+        
+        <category>广东</category>
+        
+        <category>🚳</category>
+        
+        <category>2026</category>
+        
+        
+      </item>
+    
+      <item>
+        <title>旅居第1城•惠东十里银滩</title>
+        <description>&lt;p&gt;这是一篇&lt;strong&gt;示例文章&lt;/strong&gt;，用来演示 &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;ride:&lt;/code&gt; 块在 front-matter 里的位置，以及它渲染出来的「骑行摘要盒 + 内联轨迹地图」。&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;本文是模板演示稿，轨迹用一份真实 GPX（&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;lushu1.gpx&lt;/code&gt;，&lt;strong&gt;2491 个轨迹点 / 约 162 km / 海拔 1669–3307 m&lt;/strong&gt;）。这份 GPX 含逐点海拔数据，所以下方会渲染&lt;strong&gt;行者风格坡度分色海拔剖面图&lt;/strong&gt;。地图只标起点/终点，完整路线由全部轨迹点连成。&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;h2 id=&quot;路线&quot;&gt;路线&lt;/h2&gt;
+
+&lt;p&gt;我们从&lt;span class=&quot;geo-pin&quot; id=&quot;loc-start&quot; data-lat=&quot;34.9524&quot; data-lng=&quot;104.7009&quot;&gt;甘南起点&lt;/span&gt;出发，翻越高原垭口，到&lt;span class=&quot;geo-pin&quot; id=&quot;loc-end&quot; data-lat=&quot;34.6697&quot; data-lng=&quot;103.5961&quot;&gt;终点&lt;/span&gt;收官，一路累计爬升超过 6000 m。&lt;/p&gt;
+
+&lt;p&gt;正文里每处 &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;&amp;lt;span class=&quot;geo-pin&quot; data-lat=&quot;..&quot; data-lng=&quot;..&quot;&amp;gt;地名&amp;lt;/span&amp;gt;&lt;/code&gt; 都会被内联地图收集成一个点，按文档顺序连成线。没填 &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;gpx&lt;/code&gt; 时这就是轨迹来源；要是哪天你导出了 GPX，把路径填进 &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;ride.gpx&lt;/code&gt; 就会优先画真实轨迹。&lt;/p&gt;
+
+&lt;h2 id=&quot;这段想说什么&quot;&gt;这段想说什么&lt;/h2&gt;
+
+&lt;p&gt;骑行结构化不是为了炫技，是让「这篇骑了多远、爬了多少、走了几天、去了哪」变成机器可读的数据——年度统计页（RIDE•STATS）就是靠这些数字自动聚合出来的，不用手填。&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;p&gt;&lt;em&gt;本示例文为演示用途，可随时删除；保留它也不会影响其它文章。&lt;/em&gt;&lt;/p&gt;
+</description>
+        <pubDate>Sat, 10 Oct 2026 00:00:00 +0800</pubDate>
+        <link>https://isanfeng.github.io/China-Guangdong-Huizhou-Shiliyintan</link>
+        <guid isPermaLink="true">https://isanfeng.github.io/China-Guangdong-Huizhou-Shiliyintan</guid>
+        
+        <category>旅居</category>
+        
+        <category>漫游中国</category>
+        
+        <category>广东</category>
+        
+        <category>🚳</category>
+        
+        <category>2026</category>
+        
+        
+      </item>
+    
+      <item>
+        <title>我•“退休”了</title>
+        <description>&lt;p&gt;这是一篇&lt;strong&gt;示例文章&lt;/strong&gt;，用来演示 &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;ride:&lt;/code&gt; 块在 front-matter 里的位置，以及它渲染出来的「骑行摘要盒 + 内联轨迹地图」。&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;本文是模板演示稿，轨迹用一份真实 GPX（&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;lushu1.gpx&lt;/code&gt;，&lt;strong&gt;2491 个轨迹点 / 约 162 km / 海拔 1669–3307 m&lt;/strong&gt;）。这份 GPX 含逐点海拔数据，所以下方会渲染&lt;strong&gt;行者风格坡度分色海拔剖面图&lt;/strong&gt;。地图只标起点/终点，完整路线由全部轨迹点连成。&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;h2 id=&quot;路线&quot;&gt;路线&lt;/h2&gt;
+
+&lt;p&gt;我们从&lt;span class=&quot;geo-pin&quot; id=&quot;loc-start&quot; data-lat=&quot;34.9524&quot; data-lng=&quot;104.7009&quot;&gt;甘南起点&lt;/span&gt;出发，翻越高原垭口，到&lt;span class=&quot;geo-pin&quot; id=&quot;loc-end&quot; data-lat=&quot;34.6697&quot; data-lng=&quot;103.5961&quot;&gt;终点&lt;/span&gt;收官，一路累计爬升超过 6000 m。&lt;/p&gt;
+
+&lt;p&gt;正文里每处 &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;&amp;lt;span class=&quot;geo-pin&quot; data-lat=&quot;..&quot; data-lng=&quot;..&quot;&amp;gt;地名&amp;lt;/span&amp;gt;&lt;/code&gt; 都会被内联地图收集成一个点，按文档顺序连成线。没填 &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;gpx&lt;/code&gt; 时这就是轨迹来源；要是哪天你导出了 GPX，把路径填进 &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;ride.gpx&lt;/code&gt; 就会优先画真实轨迹。&lt;/p&gt;
+
+&lt;h2 id=&quot;这段想说什么&quot;&gt;这段想说什么&lt;/h2&gt;
+
+&lt;p&gt;骑行结构化不是为了炫技，是让「这篇骑了多远、爬了多少、走了几天、去了哪」变成机器可读的数据——年度统计页（RIDE•STATS）就是靠这些数字自动聚合出来的，不用手填。&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;p&gt;&lt;em&gt;本示例文为演示用途，可随时删除；保留它也不会影响其它文章。&lt;/em&gt;&lt;/p&gt;
+</description>
+        <pubDate>Fri, 10 Jul 2026 00:00:00 +0800</pubDate>
+        <link>https://isanfeng.github.io/China-Shanghai-Shanghai</link>
+        <guid isPermaLink="true">https://isanfeng.github.io/China-Shanghai-Shanghai</guid>
+        
+        <category>上海</category>
+        
+        <category>🚳</category>
+        
+        <category>2026</category>
+        
+        
+      </item>
+    
+      <item>
+        <title>昼修仙夜游唐•葛仙村</title>
+        <description>&lt;p&gt;这是一篇&lt;strong&gt;示例文章&lt;/strong&gt;，用来演示 &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;ride:&lt;/code&gt; 块在 front-matter 里的位置，以及它渲染出来的「骑行摘要盒 + 内联轨迹地图」。&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;本文是模板演示稿，轨迹用一份真实 GPX（&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;lushu1.gpx&lt;/code&gt;，&lt;strong&gt;2491 个轨迹点 / 约 162 km / 海拔 1669–3307 m&lt;/strong&gt;）。这份 GPX 含逐点海拔数据，所以下方会渲染&lt;strong&gt;行者风格坡度分色海拔剖面图&lt;/strong&gt;。地图只标起点/终点，完整路线由全部轨迹点连成。&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;h2 id=&quot;路线&quot;&gt;路线&lt;/h2&gt;
+
+&lt;p&gt;我们从&lt;span class=&quot;geo-pin&quot; id=&quot;loc-start&quot; data-lat=&quot;34.9524&quot; data-lng=&quot;104.7009&quot;&gt;甘南起点&lt;/span&gt;出发，翻越高原垭口，到&lt;span class=&quot;geo-pin&quot; id=&quot;loc-end&quot; data-lat=&quot;34.6697&quot; data-lng=&quot;103.5961&quot;&gt;终点&lt;/span&gt;收官，一路累计爬升超过 6000 m。&lt;/p&gt;
+
+&lt;p&gt;正文里每处 &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;&amp;lt;span class=&quot;geo-pin&quot; data-lat=&quot;..&quot; data-lng=&quot;..&quot;&amp;gt;地名&amp;lt;/span&amp;gt;&lt;/code&gt; 都会被内联地图收集成一个点，按文档顺序连成线。没填 &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;gpx&lt;/code&gt; 时这就是轨迹来源；要是哪天你导出了 GPX，把路径填进 &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;ride.gpx&lt;/code&gt; 就会优先画真实轨迹。&lt;/p&gt;
+
+&lt;h2 id=&quot;这段想说什么&quot;&gt;这段想说什么&lt;/h2&gt;
+
+&lt;p&gt;骑行结构化不是为了炫技，是让「这篇骑了多远、爬了多少、走了几天、去了哪」变成机器可读的数据——年度统计页（RIDE•STATS）就是靠这些数字自动聚合出来的，不用手填。&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;p&gt;&lt;em&gt;本示例文为演示用途，可随时删除；保留它也不会影响其它文章。&lt;/em&gt;&lt;/p&gt;
 </description>
         <pubDate>Sat, 11 Apr 2026 00:00:00 +0800</pubDate>
         <link>https://isanfeng.github.io/China-Jiangxi-Shangrao-Gexiancun</link>
@@ -59,420 +360,11 @@
     
       <item>
         <title>上饶陆家嘴•三江</title>
-        <description>&lt;script&gt;
-    function password()
-    {
-        var i=1;
-            var passwd=prompt('新鲜展示期已过被∴三丰∴封印，后续请使用友情密钥查看，谢谢。','');//这是输入密码的提示语，可以改为你想要显示的内容，比如本站地址之类的
-        while(i&lt;1)
-        {
-            if(passwd==&quot;iloveisanfeng&quot;)//这是密码
-            {
-                alert('密钥正确，欢迎再次光临三丰的极简大陆');//这是输入正确后的提示，可以改为自己想要的提示语
-            break;
-            }
-            i++;
-            var passwd=prompt('密钥不正确！请重新输入:\n你还有'+(2-i)+'次机会来尝试，机会用尽，将会被永远封印。');
-        }
-        if(password!=&quot;vip.zan.smarted&quot;&amp;&amp;i==1)
-        {
-            alert('密钥不正确，将返回首页，请寻找∴三丰∴获取友情密钥');
-            location.href=&quot;/&quot;;//这是密码输入错误超过3次后转到的错误页面，也可设为别的页面
-        }
-        return &quot;&quot;;
-    }
-
-    password();
-&lt;/script&gt;
-
+        <description>
 </description>
         <pubDate>Fri, 10 Apr 2026 00:00:00 +0800</pubDate>
         <link>https://isanfeng.github.io/China-Jiangxi-Shangrao</link>
         <guid isPermaLink="true">https://isanfeng.github.io/China-Jiangxi-Shangrao</guid>
-        
-        <category>hiking</category>
-        
-        <category>漫游中国</category>
-        
-        <category>江西</category>
-        
-        <category>🚳</category>
-        
-        <category>2026</category>
-        
-        <category>带爸妈看世界</category>
-        
-        
-      </item>
-    
-      <item>
-        <title>天上宫阙•望仙谷</title>
-        <description>&lt;script&gt;
-    function password()
-    {
-        var i=1;
-            var passwd=prompt('新鲜展示期已过被∴三丰∴封印，后续请使用友情密钥查看，谢谢。','');//这是输入密码的提示语，可以改为你想要显示的内容，比如本站地址之类的
-        while(i&lt;1)
-        {
-            if(passwd==&quot;iloveisanfeng&quot;)//这是密码
-            {
-                alert('密钥正确，欢迎再次光临三丰的极简大陆');//这是输入正确后的提示，可以改为自己想要的提示语
-            break;
-            }
-            i++;
-            var passwd=prompt('密钥不正确！请重新输入:\n你还有'+(2-i)+'次机会来尝试，机会用尽，将会被永远封印。');
-        }
-        if(password!=&quot;vip.zan.smarted&quot;&amp;&amp;i==1)
-        {
-            alert('密钥不正确，将返回首页，请寻找∴三丰∴获取友情密钥');
-            location.href=&quot;/&quot;;//这是密码输入错误超过3次后转到的错误页面，也可设为别的页面
-        }
-        return &quot;&quot;;
-    }
-
-    password();
-&lt;/script&gt;
-
-</description>
-        <pubDate>Thu, 09 Apr 2026 00:00:00 +0800</pubDate>
-        <link>https://isanfeng.github.io/China-Jiangxi-Wangxiangu-w</link>
-        <guid isPermaLink="true">https://isanfeng.github.io/China-Jiangxi-Wangxiangu-w</guid>
-        
-        <category>hiking</category>
-        
-        <category>漫游中国</category>
-        
-        <category>江西</category>
-        
-        <category>🚳</category>
-        
-        <category>2026</category>
-        
-        <category>带爸妈看世界</category>
-        
-        
-      </item>
-    
-      <item>
-        <title>仙侠秘境•望仙谷</title>
-        <description>&lt;script&gt;
-    function password()
-    {
-        var i=1;
-            var passwd=prompt('新鲜展示期已过被∴三丰∴封印，后续请使用友情密钥查看，谢谢。','');//这是输入密码的提示语，可以改为你想要显示的内容，比如本站地址之类的
-        while(i&lt;1)
-        {
-            if(passwd==&quot;iloveisanfeng&quot;)//这是密码
-            {
-                alert('密钥正确，欢迎再次光临三丰的极简大陆');//这是输入正确后的提示，可以改为自己想要的提示语
-            break;
-            }
-            i++;
-            var passwd=prompt('密钥不正确！请重新输入:\n你还有'+(2-i)+'次机会来尝试，机会用尽，将会被永远封印。');
-        }
-        if(password!=&quot;vip.zan.smarted&quot;&amp;&amp;i==1)
-        {
-            alert('密钥不正确，将返回首页，请寻找∴三丰∴获取友情密钥');
-            location.href=&quot;/&quot;;//这是密码输入错误超过3次后转到的错误页面，也可设为别的页面
-        }
-        return &quot;&quot;;
-    }
-
-    password();
-&lt;/script&gt;
-
-</description>
-        <pubDate>Thu, 09 Apr 2026 00:00:00 +0800</pubDate>
-        <link>https://isanfeng.github.io/China-Jiangxi-Wangxiangu-b</link>
-        <guid isPermaLink="true">https://isanfeng.github.io/China-Jiangxi-Wangxiangu-b</guid>
-        
-        <category>hiking</category>
-        
-        <category>漫游中国</category>
-        
-        <category>江西</category>
-        
-        <category>🚳</category>
-        
-        <category>2026</category>
-        
-        <category>带爸妈看世界</category>
-        
-        
-      </item>
-    
-      <item>
-        <title>揽胜遍五岳•绝景在三清</title>
-        <description>&lt;script&gt;
-    function password()
-    {
-        var i=1;
-            var passwd=prompt('新鲜展示期已过被∴三丰∴封印，后续请使用友情密钥查看，谢谢。','');//这是输入密码的提示语，可以改为你想要显示的内容，比如本站地址之类的
-        while(i&lt;1)
-        {
-            if(passwd==&quot;iloveisanfeng&quot;)//这是密码
-            {
-                alert('密钥正确，欢迎再次光临三丰的极简大陆');//这是输入正确后的提示，可以改为自己想要的提示语
-            break;
-            }
-            i++;
-            var passwd=prompt('密钥不正确！请重新输入:\n你还有'+(2-i)+'次机会来尝试，机会用尽，将会被永远封印。');
-        }
-        if(password!=&quot;vip.zan.smarted&quot;&amp;&amp;i==1)
-        {
-            alert('密钥不正确，将返回首页，请寻找∴三丰∴获取友情密钥');
-            location.href=&quot;/&quot;;//这是密码输入错误超过3次后转到的错误页面，也可设为别的页面
-        }
-        return &quot;&quot;;
-    }
-
-    password();
-&lt;/script&gt;
-
-</description>
-        <pubDate>Wed, 08 Apr 2026 00:00:00 +0800</pubDate>
-        <link>https://isanfeng.github.io/China-Jiangxi-Sanqingshan</link>
-        <guid isPermaLink="true">https://isanfeng.github.io/China-Jiangxi-Sanqingshan</guid>
-        
-        <category>hiking</category>
-        
-        <category>漫游中国</category>
-        
-        <category>江西</category>
-        
-        <category>🚳</category>
-        
-        <category>2026</category>
-        
-        <category>带爸妈看世界</category>
-        
-        
-      </item>
-    
-      <item>
-        <title>一生痴绝处•婺女洲火壶</title>
-        <description>&lt;script&gt;
-    function password()
-    {
-        var i=1;
-            var passwd=prompt('新鲜展示期已过被∴三丰∴封印，后续请使用友情密钥查看，谢谢。','');//这是输入密码的提示语，可以改为你想要显示的内容，比如本站地址之类的
-        while(i&lt;1)
-        {
-            if(passwd==&quot;iloveisanfeng&quot;)//这是密码
-            {
-                alert('密钥正确，欢迎再次光临三丰的极简大陆');//这是输入正确后的提示，可以改为自己想要的提示语
-            break;
-            }
-            i++;
-            var passwd=prompt('密钥不正确！请重新输入:\n你还有'+(2-i)+'次机会来尝试，机会用尽，将会被永远封印。');
-        }
-        if(password!=&quot;vip.zan.smarted&quot;&amp;&amp;i==1)
-        {
-            alert('密钥不正确，将返回首页，请寻找∴三丰∴获取友情密钥');
-            location.href=&quot;/&quot;;//这是密码输入错误超过3次后转到的错误页面，也可设为别的页面
-        }
-        return &quot;&quot;;
-    }
-
-    password();
-&lt;/script&gt;
-
-</description>
-        <pubDate>Tue, 07 Apr 2026 00:00:00 +0800</pubDate>
-        <link>https://isanfeng.github.io/China-Jiangxi-Wuyuan-Wunvzhou</link>
-        <guid isPermaLink="true">https://isanfeng.github.io/China-Jiangxi-Wuyuan-Wunvzhou</guid>
-        
-        <category>hiking</category>
-        
-        <category>漫游中国</category>
-        
-        <category>江西</category>
-        
-        <category>🚳</category>
-        
-        <category>2026</category>
-        
-        <category>带爸妈看世界</category>
-        
-        
-      </item>
-    
-      <item>
-        <title>中国符号•婺源篁岭</title>
-        <description>&lt;script&gt;
-    function password()
-    {
-        var i=1;
-            var passwd=prompt('新鲜展示期已过被∴三丰∴封印，后续请使用友情密钥查看，谢谢。','');//这是输入密码的提示语，可以改为你想要显示的内容，比如本站地址之类的
-        while(i&lt;1)
-        {
-            if(passwd==&quot;iloveisanfeng&quot;)//这是密码
-            {
-                alert('密钥正确，欢迎再次光临三丰的极简大陆');//这是输入正确后的提示，可以改为自己想要的提示语
-            break;
-            }
-            i++;
-            var passwd=prompt('密钥不正确！请重新输入:\n你还有'+(2-i)+'次机会来尝试，机会用尽，将会被永远封印。');
-        }
-        if(password!=&quot;vip.zan.smarted&quot;&amp;&amp;i==1)
-        {
-            alert('密钥不正确，将返回首页，请寻找∴三丰∴获取友情密钥');
-            location.href=&quot;/&quot;;//这是密码输入错误超过3次后转到的错误页面，也可设为别的页面
-        }
-        return &quot;&quot;;
-    }
-
-    password();
-&lt;/script&gt;
-
-</description>
-        <pubDate>Tue, 07 Apr 2026 00:00:00 +0800</pubDate>
-        <link>https://isanfeng.github.io/China-Jiangxi-Wuyuan-Huangling</link>
-        <guid isPermaLink="true">https://isanfeng.github.io/China-Jiangxi-Wuyuan-Huangling</guid>
-        
-        <category>hiking</category>
-        
-        <category>漫游中国</category>
-        
-        <category>江西</category>
-        
-        <category>🚳</category>
-        
-        <category>2026</category>
-        
-        <category>带爸妈看世界</category>
-        
-        
-      </item>
-    
-      <item>
-        <title>中国地图•婺源篁岭</title>
-        <description>&lt;script&gt;
-    function password()
-    {
-        var i=1;
-            var passwd=prompt('新鲜展示期已过被∴三丰∴封印，后续请使用友情密钥查看，谢谢。','');//这是输入密码的提示语，可以改为你想要显示的内容，比如本站地址之类的
-        while(i&lt;1)
-        {
-            if(passwd==&quot;iloveisanfeng&quot;)//这是密码
-            {
-                alert('密钥正确，欢迎再次光临三丰的极简大陆');//这是输入正确后的提示，可以改为自己想要的提示语
-            break;
-            }
-            i++;
-            var passwd=prompt('密钥不正确！请重新输入:\n你还有'+(2-i)+'次机会来尝试，机会用尽，将会被永远封印。');
-        }
-        if(password!=&quot;vip.zan.smarted&quot;&amp;&amp;i==1)
-        {
-            alert('密钥不正确，将返回首页，请寻找∴三丰∴获取友情密钥');
-            location.href=&quot;/&quot;;//这是密码输入错误超过3次后转到的错误页面，也可设为别的页面
-        }
-        return &quot;&quot;;
-    }
-
-    password();
-&lt;/script&gt;
-
-</description>
-        <pubDate>Tue, 07 Apr 2026 00:00:00 +0800</pubDate>
-        <link>https://isanfeng.github.io/China-Jiangxi-Wuyuan-Huangling-map</link>
-        <guid isPermaLink="true">https://isanfeng.github.io/China-Jiangxi-Wuyuan-Huangling-map</guid>
-        
-        <category>hiking</category>
-        
-        <category>漫游中国</category>
-        
-        <category>江西</category>
-        
-        <category>🚳</category>
-        
-        <category>2026</category>
-        
-        <category>带爸妈看世界</category>
-        
-        
-      </item>
-    
-      <item>
-        <title>有缘再见•陶瓷博物馆</title>
-        <description>&lt;script&gt;
-    function password()
-    {
-        var i=1;
-            var passwd=prompt('新鲜展示期已过被∴三丰∴封印，后续请使用友情密钥查看，谢谢。','');//这是输入密码的提示语，可以改为你想要显示的内容，比如本站地址之类的
-        while(i&lt;1)
-        {
-            if(passwd==&quot;iloveisanfeng&quot;)//这是密码
-            {
-                alert('密钥正确，欢迎再次光临三丰的极简大陆');//这是输入正确后的提示，可以改为自己想要的提示语
-            break;
-            }
-            i++;
-            var passwd=prompt('密钥不正确！请重新输入:\n你还有'+(2-i)+'次机会来尝试，机会用尽，将会被永远封印。');
-        }
-        if(password!=&quot;vip.zan.smarted&quot;&amp;&amp;i==1)
-        {
-            alert('密钥不正确，将返回首页，请寻找∴三丰∴获取友情密钥');
-            location.href=&quot;/&quot;;//这是密码输入错误超过3次后转到的错误页面，也可设为别的页面
-        }
-        return &quot;&quot;;
-    }
-
-    password();
-&lt;/script&gt;
-
-</description>
-        <pubDate>Mon, 06 Apr 2026 00:00:00 +0800</pubDate>
-        <link>https://isanfeng.github.io/China-Jiangxi-Jingdezhen-Bowuguan</link>
-        <guid isPermaLink="true">https://isanfeng.github.io/China-Jiangxi-Jingdezhen-Bowuguan</guid>
-        
-        <category>hiking</category>
-        
-        <category>漫游中国</category>
-        
-        <category>江西</category>
-        
-        <category>🚳</category>
-        
-        <category>2026</category>
-        
-        <category>带爸妈看世界</category>
-        
-        
-      </item>
-    
-      <item>
-        <title>千年瓷都•景德镇</title>
-        <description>&lt;script&gt;
-    function password()
-    {
-        var i=1;
-            var passwd=prompt('新鲜展示期已过被∴三丰∴封印，后续请使用友情密钥查看，谢谢。','');//这是输入密码的提示语，可以改为你想要显示的内容，比如本站地址之类的
-        while(i&lt;1)
-        {
-            if(passwd==&quot;iloveisanfeng&quot;)//这是密码
-            {
-                alert('密钥正确，欢迎再次光临三丰的极简大陆');//这是输入正确后的提示，可以改为自己想要的提示语
-            break;
-            }
-            i++;
-            var passwd=prompt('密钥不正确！请重新输入:\n你还有'+(2-i)+'次机会来尝试，机会用尽，将会被永远封印。');
-        }
-        if(password!=&quot;vip.zan.smarted&quot;&amp;&amp;i==1)
-        {
-            alert('密钥不正确，将返回首页，请寻找∴三丰∴获取友情密钥');
-            location.href=&quot;/&quot;;//这是密码输入错误超过3次后转到的错误页面，也可设为别的页面
-        }
-        return &quot;&quot;;
-    }
-
-    password();
-&lt;/script&gt;
-
-</description>
-        <pubDate>Sun, 05 Apr 2026 00:00:00 +0800</pubDate>
-        <link>https://isanfeng.github.io/China-Jiangxi-Jingdezhen</link>
-        <guid isPermaLink="true">https://isanfeng.github.io/China-Jiangxi-Jingdezhen</guid>
         
         <category>hiking</category>
         

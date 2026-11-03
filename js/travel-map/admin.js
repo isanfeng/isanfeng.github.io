@@ -24,6 +24,7 @@
       '<input id="m-url" placeholder="跳转URL" style="width:200px">' +
       '<label style="font-size:12px"><input type="checkbox" id="m-tail">末尾</label>' +
       '<button id="m-add" style="background:' + GREEN + ';color:#fff;border:0;padding:6px 14px;cursor:pointer">添加</button>' +
+      '<button id="m-publish" style="background:#1565c0;color:#fff;border:0;padding:6px 14px;cursor:pointer;margin-left:4px">发布</button>' +
       '<span id="m-status" style="font-size:12px;color:' + GREEN + '"></span>' +
     "</div>";
   document.body.appendChild(bar);
@@ -67,6 +68,27 @@
         else { reloadSoon(); }
       })
       .catch(function (e) { alert("请求失败：" + e); setStatus(""); });
+  });
+
+  /* ---------- 发布按钮（build + git commit，不 push） ---------- */
+  document.getElementById("m-publish").addEventListener("click", function () {
+    if (!confirm("确认发布？将 build 并 git commit（不推送，请在本机 push）。")) return;
+    var btn = this;
+    btn.disabled = true;
+    setStatus("正在 build + commit（约十几秒）…");
+    fetch("/api/publish?" + new URLSearchParams({ token: token }), { method: "POST" })
+      .then(function (r) { return r.json(); })
+      .then(function (j) {
+        btn.disabled = false;
+        if (!j.ok) { alert("发布失败"); setStatus(""); return; }
+        if (j.build === false) { alert("jekyll build 失败，未提交"); setStatus("build 失败"); return; }
+        if (j.committed) {
+          setStatus("已发布：已 commit（未 push）✓");
+        } else {
+          setStatus("已 build（" + (j.detail || "无改动未提交") + "）");
+        }
+      })
+      .catch(function (e) { btn.disabled = false; alert("请求失败：" + e); setStatus(""); });
   });
 
   /* ---------- 右侧 marker 列表面板 ---------- */

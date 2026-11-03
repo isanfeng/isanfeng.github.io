@@ -33,13 +33,20 @@
   src: url(../fonts/orbitron-700.woff2) format('woff2'),
        url(../fonts/orbitron-700.ttf) format('truetype');
 }
+/* 中文字体：Hiragino Maru Gothic ProN W4（woff2，4.3MB；原 9.7MB OTF 已删除） */
+@font-face {
+  font-family: 'Hiragino Maru Gothic ProN W4';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url(../fonts/hiragino-maru-gothic-pron-w4.woff2) format('woff2');
+}
 @font-face {
   font-family: 'Long Cang';
   font-style: normal;
   font-weight: 400;
   font-display: swap;
-  src: url(../fonts/longcang.woff2) format('woff2'),
-       url(../fonts/longcang.ttf) format('truetype');
+  src: url(../fonts/longcang.woff2) format('woff2');
 }
 @font-face {
   font-family: 'Ma Shan Zheng';

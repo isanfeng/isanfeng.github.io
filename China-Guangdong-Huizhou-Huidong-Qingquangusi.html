@@ -1,0 +1,1242 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+  <head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <!-- 标记 JS 可用：用于入场动画初始隐藏态（html.js .reveal{opacity:0}）；无 JS 时内容照常显示，避免内容被永久隐藏 -->
+  <script>document.documentElement.classList.add('js');</script>
+  <!-- 隐私加固：限制 referrer 不外泄。注意：GitHub Pages 不支持自定义 CSP HTTP 头，
+       真正的 CSP（含 frame-ancestors / default-src）需借助 Netlify/Vercel 等平台；
+       meta 层面仅 referrer 策略有效，原 frame-ancestors meta 写法浏览器直接忽略，故移除。
+      策略用 strict-origin-when-cross-origin：跨站仅发送源（不含路径），既限制外泄，
+      又保证第三方信标（51.la / iconfont）能正常加载。 -->
+  <meta name="referrer" content="strict-origin-when-cross-origin">
+
+  <title>惠东古•清泉古寺</title>
+
+  
+  
+  
+  
+  <meta name="description" content="isanfeng 的个人博客，记录骑行、旅行与生活的极简站点。">
+
+  <!-- Open Graph / Twitter Card：社交分享预览卡 -->
+  <meta property="og:site_name" content="༺𝒾三丰の极简踩爆地球༻">
+  <meta property="og:type" content="article">
+  <meta property="og:title" content="惠东古•清泉古寺">
+  <meta property="og:description" content="isanfeng 的个人博客，记录骑行、旅行与生活的极简站点。">
+  <meta property="og:url" content="https://isanfeng.github.io/China-Guangdong-Huizhou-Huidong-Qingquangusi">
+  <meta property="og:image" content="https://isanfeng.github.io/images/posts/gd-hz-hd-qqgs.webp">
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="惠东古•清泉古寺">
+  <meta name="twitter:description" content="isanfeng 的个人博客，记录骑行、旅行与生活的极简站点。">
+  <meta name="twitter:image" content="https://isanfeng.github.io/images/posts/gd-hz-hd-qqgs.webp">
+
+  <link rel="canonical" href="https://isanfeng.github.io/China-Guangdong-Huizhou-Huidong-Qingquangusi">
+  <link rel="alternate" type="application/rss+xml" title="༺𝒾三丰の极简踩爆地球༻" href="/feed.xml">
+  <link rel="shortcut icon" href="/images/favicon.ico" type="image/x-icon">
+
+  <!-- Fonts: 已本地化到 assets/vendor，彻底摆脱被墙的 Google Fonts CDN。
+       采用非阻塞加载（media=print onload），避免 2.9MB 手写体 Long Cang 拖慢首屏；
+       字体本身已设 font-display:swap，文字先用兜底字体渲染再平滑替换 -->
+  <!-- ?v=：字体声明有更新时递增，强制浏览器放弃旧缓存（当前 20261031hiragino2） -->
+  <link rel="stylesheet" href="/assets/vendor/css/google-fonts.css?v=20261031hiragino2" media="print" onload="this.media='all'">
+  <noscript><link rel="stylesheet" href="/assets/vendor/css/google-fonts.css?v=20261031hiragino2"></noscript>
+
+  <!-- 阿里巴巴图标(https://www.iconfont.cn/)代码start（已本地化到 assets/vendor/js/iconfont.js，不再从 alicdn 第三方加载，收紧暴露面）-->
+  <script defer src="/assets/vendor/js/iconfont.js"></script>
+  <style>
+    .icon {
+      width: 1em;
+      height: 1em;
+      vertical-align: -0.15em;
+      fill: currentColor;
+      overflow: hidden;
+    }
+    </style>
+<!--阿里巴巴图标(https://www.iconfont.cn/)代码end-->
+
+  <!-- Ionicons 4.2.2（本地化） -->
+  <link href="/assets/vendor/css/ionicons.min.css" rel="stylesheet">
+  <!-- Ionicons 5.5.2 web components（本地化） -->
+  <script type="module" src="/assets/vendor/js/ionicons.esm.js"></script>
+  <script nomodule src="/assets/vendor/js/ionicons.js"></script>
+  <!-- Font Awesome 4.7.0（本地化） -->
+  <link rel="stylesheet" href="/assets/vendor/css/font-awesome.min.css">
+
+<!-- 51la 网站流量 -->
+<script charset="UTF-8" id="LA_COLLECT" src="//sdk.51.la/js-sdk-pro.min.js" referrerpolicy="no-referrer"></script>
+<script>if (window.LA) LA.init({id: "JZBjGooA71Cakwgk",ck: "JZBjGooA71Cakwgk"})</script>
+<!-- 51la 灵雀应用监控 -->
+<script src="https://sdk.51.la/perf/js-sdk-perf.min.js" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+<script>
+  if (window.LingQue) new LingQue.Monitor().init({id:"Jg6RDatoiD0VhpTA",sendSuspicious:true, sendResource:true, sendOutLink:true, sendSuspicious:true});
+</script>
+
+  <!-- 浏览器标题失去焦点后自动切换  -->
+  <script>
+    var OriginTitile = document.title;    // 保存之前页面标题
+    var titleTime;
+    document.addEventListener('visibilitychange', function(){
+        if (document.hidden){
+            document.title = '༺我的征途是星辰大海༻';
+            clearTimeout(titleTime);
+        }else{
+            document.title = '༺不值得，但痛快༻';
+            titleTime = setTimeout(function() {
+                document.title = OriginTitile;
+            }, 5000); // 2秒后恢复原标题
+        }
+    });
+  </script>
+
+<!-- 网页顶部加载进度条（Pace 已本地化，锁定 1.2.4） -->
+<script defer src="/assets/vendor/js/pace.min.js"></script>
+<link rel="stylesheet" href="/js/pace_process/barber-shop.css">
+
+  <!-- 结构化数据 JSON-LD -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "WebSite",
+    "name": "༺𝒾三丰の极简踩爆地球༻",
+    "url": "https://isanfeng.github.io",
+    "description": "isanfeng 的个人博客，记录骑行、旅行与生活的极简站点。"
+  }
+  </script>
+
+  
+  <!-- 文章结构化数据：Article + BreadcrumbList（SEO 地板：让偶然来访的读者/爬虫理解单篇内容） -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "Article",
+    "headline": "惠东古•清泉古寺",
+    "url": "https://isanfeng.github.io/China-Guangdong-Huizhou-Huidong-Qingquangusi",
+    "datePublished": "2026-10-15T00:00:00+08:00",
+    "dateModified": "2026-10-15T00:00:00+08:00",
+    "author": { "@type": "Person", "name": "∴𝒾sanfeng∴" },
+    "publisher": { "@type": "Organization", "name": "༺𝒾三丰の极简踩爆地球༻" },
+    "mainEntityOfPage": { "@type": "WebPage", "@id": "https://isanfeng.github.io/China-Guangdong-Huizhou-Huidong-Qingquangusi" },
+    "image": "https://isanfeng.github.io/images/posts/gd-hz-hd-qqgs.webp"
+  }
+  </script>
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "BreadcrumbList",
+    "itemListElement": [
+      { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://isanfeng.github.io/" },
+      { "@type": "ListItem", "position": 2, "name": "惠东古•清泉古寺", "item": "https://isanfeng.github.io/China-Guangdong-Huizhou-Huidong-Qingquangusi" }
+    ]
+  }
+  </script>
+  
+
+  <style lang="scss" scoped>
+    
+    /*!------------------------------------------------------------------
+[MAIN STYLESHEET]
+-------------------------------------------------------------------*/.block{display:block}.inline-block{display:inline-block}.inline{display:inline}.show{display:block}.hide{display:none}.invisible{visibility:hidden}.list-reset{list-style-type:none;margin:0;padding:0}.clearfix::after,.clearfix ::before{content:"";display:table;clear:both}.screen-reader-text{clip:rect(1px, 1px, 1px, 1px);height:1px;overflow:hidden;position:absolute !important;width:1px;word-wrap:normal !important}/*! normalize.css v8.0.0 | MIT License | github.com/necolas/normalize.css */html{line-height:1.15;-webkit-text-size-adjust:100%}body{margin:0;cursor:url("/images/cursors/work.cur"),auto}h1{font-size:2em;margin:0.67em 0}hr{box-sizing:content-box;height:0;overflow:visible}pre{font-family:monospace, monospace;font-size:1em}a{background-color:transparent;cursor:url("/images/cursors/link.cur"),auto}abbr[title]{border-bottom:none;text-decoration:underline;text-decoration:underline dotted}b,strong{font-weight:bolder}code,kbd,samp{font-family:monospace, monospace;font-size:1em}small{font-size:80%}sub,sup{font-size:75%;line-height:0;position:relative;vertical-align:baseline}sub{bottom:-0.25em}sup{top:-0.5em}img{border-style:none}button,input,optgroup,select,textarea{font-family:inherit;font-size:100%;line-height:1.15;margin:0}button,input{overflow:visible}button,select{text-transform:none}button,[type="button"],[type="reset"],[type="submit"]{-webkit-appearance:button}button::-moz-focus-inner,[type="button"]::-moz-focus-inner,[type="reset"]::-moz-focus-inner,[type="submit"]::-moz-focus-inner{border-style:none;padding:0}button:-moz-focusring,[type="button"]:-moz-focusring,[type="reset"]:-moz-focusring,[type="submit"]:-moz-focusring{outline:1px dotted ButtonText}fieldset{padding:0.35em 0.75em 0.625em}legend{box-sizing:border-box;color:inherit;display:table;max-width:100%;padding:0;white-space:normal}progress{vertical-align:baseline}textarea{overflow:auto}[type="checkbox"],[type="radio"]{box-sizing:border-box;padding:0}[type="number"]::-webkit-inner-spin-button,[type="number"]::-webkit-outer-spin-button{height:auto}[type="search"]{-webkit-appearance:textfield;outline-offset:-2px}[type="search"]::-webkit-search-decoration{-webkit-appearance:none}::-webkit-file-upload-button{-webkit-appearance:button;font:inherit}details{display:block}summary{display:list-item}template{display:none}[hidden]{display:none}body,h1,h2,h3,h4,h5,h6,p,blockquote,pre,dl,dd,ol,ul,fieldset,legend,figure,hr{margin:0;padding:0}li>ul,li>ol{margin-bottom:0}table{border-collapse:collapse;border-spacing:0}h1,h2,h3,h4,h5,h6,ul,ol,dl,blockquote,p,address,hr,table,fieldset,figure,pre{margin-bottom:30px}ul,ol,dd{margin-left:20px}.highlight{background:#f6f7f9}.highlighter-rouge .highlight{background:#eef}.highlight .c{color:#998;font-style:italic}.highlight .err{color:#a61717;background-color:#e3d2d2}.highlight .k{font-weight:bold}.highlight .o{font-weight:bold}.highlight .cm{color:#998;font-style:italic}.highlight .cp{color:#999;font-weight:bold}.highlight .c1{color:#998;font-style:italic}.highlight .cs{color:#999;font-weight:bold;font-style:italic}.highlight .gd{color:#000;background-color:#fdd}.highlight .gd .x{color:#000;background-color:#faa}.highlight .ge{font-style:italic}.highlight .gr{color:#a00}.highlight .gh{color:#999}.highlight .gi{color:#000;background-color:#dfd}.highlight .gi .x{color:#000;background-color:#afa}.highlight .go{color:#888}.highlight .gp{color:#555}.highlight .gs{font-weight:bold}.highlight .gu{color:#aaa}.highlight .gt{color:#a00}.highlight .kc{font-weight:bold}.highlight .kd{font-weight:bold}.highlight .kp{font-weight:bold}.highlight .kr{font-weight:bold}.highlight .kt{color:#458;font-weight:bold}.highlight .m{color:#099}.highlight .s{color:#d14}.highlight .na{color:#008080}.highlight .nb{color:#0086B3}.highlight .nc{color:#458;font-weight:bold}.highlight .no{color:#008080}.highlight .ni{color:#800080}.highlight .ne{color:#900;font-weight:bold}.highlight .nf{color:#900;font-weight:bold}.highlight .nn{color:#555}.highlight .nt{color:#6565ff}.highlight .nv{color:#008080}.highlight .ow{font-weight:bold}.highlight .w{color:#bbb}.highlight .mf{color:#099}.highlight .mh{color:#099}.highlight .mi{color:#099}.highlight .mo{color:#099}.highlight .sb{color:#e03460}.highlight .sc{color:#e03460}.highlight .sd{color:#e03460}.highlight .s2{color:#e03460}.highlight .se{color:#e03460}.highlight .sh{color:#e03460}.highlight .si{color:#e03460}.highlight .sx{color:#e03460}.highlight .sr{color:#009926}.highlight .s1{color:#e03460}.highlight .ss{color:#990073}.highlight .bp{color:#999}.highlight .vc{color:#008080}.highlight .vg{color:#008080}.highlight .vi{color:#008080}.highlight .il{color:#099}.container{max-width:1650px;padding-left:20px;padding-right:20px;margin:0 auto}.container-big{max-width:100%}.container-big .row{margin-left:0;margin-right:0}.container-big .col{padding-left:0;padding-right:0}.row{display:flex;flex-wrap:wrap;flex:0 1 auto;flex-direction:row;box-sizing:border-box;margin-left:-12px;margin-right:-12px}.col{padding-left:12px;padding-right:12px}[class^="col-"]{flex:auto}.col-0{width:0%}.col-1{width:8.3333333333%}.col-2{width:16.6666666667%}.col-3{width:25%}.col-4{width:33.3333333333%}.col-5{width:41.6666666667%}.col-6{width:50%}.col-7{width:58.3333333333%}.col-8{width:66.6666666667%}.col-9{width:75%}.col-10{width:83.3333333333%}.col-11{width:91.6666666667%}.col-12{width:100%}.push-0{margin-left:0%}.push-1{margin-left:8.3333333333%}.push-2{margin-left:16.6666666667%}.push-3{margin-left:25%}.push-4{margin-left:33.3333333333%}.push-5{margin-left:41.6666666667%}.push-6{margin-left:50%}.push-7{margin-left:58.3333333333%}.push-8{margin-left:66.6666666667%}.push-9{margin-left:75%}.push-10{margin-left:83.3333333333%}.push-11{margin-left:91.6666666667%}.push-12{margin-left:100%}.pull-0{margin-right:0%}.pull-1{margin-right:8.3333333333%}.pull-2{margin-right:16.6666666667%}.pull-3{margin-right:25%}.pull-4{margin-right:33.3333333333%}.pull-5{margin-right:41.6666666667%}.pull-6{margin-right:50%}.pull-7{margin-right:58.3333333333%}.pull-8{margin-right:66.6666666667%}.pull-9{margin-right:75%}.pull-10{margin-right:83.3333333333%}.pull-11{margin-right:91.6666666667%}.pull-12{margin-right:100%}@media (max-width: 992px){.col-d-0{width:0%}.col-d-1{width:8.3333333333%}.col-d-2{width:16.6666666667%}.col-d-3{width:25%}.col-d-4{width:33.3333333333%}.col-d-5{width:41.6666666667%}.col-d-6{width:50%}.col-d-7{width:58.3333333333%}.col-d-8{width:66.6666666667%}.col-d-9{width:75%}.col-d-10{width:83.3333333333%}.col-d-11{width:91.6666666667%}.col-d-12{width:100%}.push-d-0{margin-left:0%}.push-d-1{margin-left:8.3333333333%}.push-d-2{margin-left:16.6666666667%}.push-d-3{margin-left:25%}.push-d-4{margin-left:33.3333333333%}.push-d-5{margin-left:41.6666666667%}.push-d-6{margin-left:50%}.push-d-7{margin-left:58.3333333333%}.push-d-8{margin-left:66.6666666667%}.push-d-9{margin-left:75%}.push-d-10{margin-left:83.3333333333%}.push-d-11{margin-left:91.6666666667%}.push-d-12{margin-left:100%}.pull-d-0{margin-right:0%}.pull-d-1{margin-right:8.3333333333%}.pull-d-2{margin-right:16.6666666667%}.pull-d-3{margin-right:25%}.pull-d-4{margin-right:33.3333333333%}.pull-d-5{margin-right:41.6666666667%}.pull-d-6{margin-right:50%}.pull-d-7{margin-right:58.3333333333%}.pull-d-8{margin-right:66.6666666667%}.pull-d-9{margin-right:75%}.pull-d-10{margin-right:83.3333333333%}.pull-d-11{margin-right:91.6666666667%}.pull-d-12{margin-right:100%}}@media (max-width: 768px){.col-t-0{width:0%}.col-t-1{width:8.3333333333%}.col-t-2{width:16.6666666667%}.col-t-3{width:25%}.col-t-4{width:33.3333333333%}.col-t-5{width:41.6666666667%}.col-t-6{width:50%}.col-t-7{width:58.3333333333%}.col-t-8{width:66.6666666667%}.col-t-9{width:75%}.col-t-10{width:83.3333333333%}.col-t-11{width:91.6666666667%}.col-t-12{width:100%}.push-t-0{margin-left:0%}.push-t-1{margin-left:8.3333333333%}.push-t-2{margin-left:16.6666666667%}.push-t-3{margin-left:25%}.push-t-4{margin-left:33.3333333333%}.push-t-5{margin-left:41.6666666667%}.push-t-6{margin-left:50%}.push-t-7{margin-left:58.3333333333%}.push-t-8{margin-left:66.6666666667%}.push-t-9{margin-left:75%}.push-t-10{margin-left:83.3333333333%}.push-t-11{margin-left:91.6666666667%}.push-t-12{margin-left:100%}.pull-t-0{margin-right:0%}.pull-t-1{margin-right:8.3333333333%}.pull-t-2{margin-right:16.6666666667%}.pull-t-3{margin-right:25%}.pull-t-4{margin-right:33.3333333333%}.pull-t-5{margin-right:41.6666666667%}.pull-t-6{margin-right:50%}.pull-t-7{margin-right:58.3333333333%}.pull-t-8{margin-right:66.6666666667%}.pull-t-9{margin-right:75%}.pull-t-10{margin-right:83.3333333333%}.pull-t-11{margin-right:91.6666666667%}.pull-t-12{margin-right:100%}}@media (max-width: 576px){.col-m-0{width:0%}.col-m-1{width:8.3333333333%}.col-m-2{width:16.6666666667%}.col-m-3{width:25%}.col-m-4{width:33.3333333333%}.col-m-5{width:41.6666666667%}.col-m-6{width:50%}.col-m-7{width:58.3333333333%}.col-m-8{width:66.6666666667%}.col-m-9{width:75%}.col-m-10{width:83.3333333333%}.col-m-11{width:91.6666666667%}.col-m-12{width:100%}.push-m-0{margin-left:0%}.push-m-1{margin-left:8.3333333333%}.push-m-2{margin-left:16.6666666667%}.push-m-3{margin-left:25%}.push-m-4{margin-left:33.3333333333%}.push-m-5{margin-left:41.6666666667%}.push-m-6{margin-left:50%}.push-m-7{margin-left:58.3333333333%}.push-m-8{margin-left:66.6666666667%}.push-m-9{margin-left:75%}.push-m-10{margin-left:83.3333333333%}.push-m-11{margin-left:91.6666666667%}.push-m-12{margin-left:100%}.pull-m-0{margin-right:0%}.pull-m-1{margin-right:8.3333333333%}.pull-m-2{margin-right:16.6666666667%}.pull-m-3{margin-right:25%}.pull-m-4{margin-right:33.3333333333%}.pull-m-5{margin-right:41.6666666667%}.pull-m-6{margin-right:50%}.pull-m-7{margin-right:58.3333333333%}.pull-m-8{margin-right:66.6666666667%}.pull-m-9{margin-right:75%}.pull-m-10{margin-right:83.3333333333%}.pull-m-11{margin-right:91.6666666667%}.pull-m-12{margin-right:100%}}@media (max-width: 992px){.col-d-0{width:0%}.col-d-1{width:8.3333333333%}.col-d-2{width:16.6666666667%}.col-d-3{width:25%}.col-d-4{width:33.3333333333%}.col-d-5{width:41.6666666667%}.col-d-6{width:50%}.col-d-7{width:58.3333333333%}.col-d-8{width:66.6666666667%}.col-d-9{width:75%}.col-d-10{width:83.3333333333%}.col-d-11{width:91.6666666667%}.col-d-12{width:100%}.push-d-0{margin-left:0%}.push-d-1{margin-left:8.3333333333%}.push-d-2{margin-left:16.6666666667%}.push-d-3{margin-left:25%}.push-d-4{margin-left:33.3333333333%}.push-d-5{margin-left:41.6666666667%}.push-d-6{margin-left:50%}.push-d-7{margin-left:58.3333333333%}.push-d-8{margin-left:66.6666666667%}.push-d-9{margin-left:75%}.push-d-10{margin-left:83.3333333333%}.push-d-11{margin-left:91.6666666667%}.push-d-12{margin-left:100%}.pull-d-0{margin-right:0%}.pull-d-1{margin-right:8.3333333333%}.pull-d-2{margin-right:16.6666666667%}.pull-d-3{margin-right:25%}.pull-d-4{margin-right:33.3333333333%}.pull-d-5{margin-right:41.6666666667%}.pull-d-6{margin-right:50%}.pull-d-7{margin-right:58.3333333333%}.pull-d-8{margin-right:66.6666666667%}.pull-d-9{margin-right:75%}.pull-d-10{margin-right:83.3333333333%}.pull-d-11{margin-right:91.6666666667%}.pull-d-12{margin-right:100%}}@media (max-width: 768px){.col-t-0{width:0%}.col-t-1{width:8.3333333333%}.col-t-2{width:16.6666666667%}.col-t-3{width:25%}.col-t-4{width:33.3333333333%}.col-t-5{width:41.6666666667%}.col-t-6{width:50%}.col-t-7{width:58.3333333333%}.col-t-8{width:66.6666666667%}.col-t-9{width:75%}.col-t-10{width:83.3333333333%}.col-t-11{width:91.6666666667%}.col-t-12{width:100%}.push-t-0{margin-left:0%}.push-t-1{margin-left:8.3333333333%}.push-t-2{margin-left:16.6666666667%}.push-t-3{margin-left:25%}.push-t-4{margin-left:33.3333333333%}.push-t-5{margin-left:41.6666666667%}.push-t-6{margin-left:50%}.push-t-7{margin-left:58.3333333333%}.push-t-8{margin-left:66.6666666667%}.push-t-9{margin-left:75%}.push-t-10{margin-left:83.3333333333%}.push-t-11{margin-left:91.6666666667%}.push-t-12{margin-left:100%}.pull-t-0{margin-right:0%}.pull-t-1{margin-right:8.3333333333%}.pull-t-2{margin-right:16.6666666667%}.pull-t-3{margin-right:25%}.pull-t-4{margin-right:33.3333333333%}.pull-t-5{margin-right:41.6666666667%}.pull-t-6{margin-right:50%}.pull-t-7{margin-right:58.3333333333%}.pull-t-8{margin-right:66.6666666667%}.pull-t-9{margin-right:75%}.pull-t-10{margin-right:83.3333333333%}.pull-t-11{margin-right:91.6666666667%}.pull-t-12{margin-right:100%}}@media (max-width: 576px){.col-m-0{width:0%}.col-m-1{width:8.3333333333%}.col-m-2{width:16.6666666667%}.col-m-3{width:25%}.col-m-4{width:33.3333333333%}.col-m-5{width:41.6666666667%}.col-m-6{width:50%}.col-m-7{width:58.3333333333%}.col-m-8{width:66.6666666667%}.col-m-9{width:75%}.col-m-10{width:83.3333333333%}.col-m-11{width:91.6666666667%}.col-m-12{width:100%}.push-m-0{margin-left:0%}.push-m-1{margin-left:8.3333333333%}.push-m-2{margin-left:16.6666666667%}.push-m-3{margin-left:25%}.push-m-4{margin-left:33.3333333333%}.push-m-5{margin-left:41.6666666667%}.push-m-6{margin-left:50%}.push-m-7{margin-left:58.3333333333%}.push-m-8{margin-left:66.6666666667%}.push-m-9{margin-left:75%}.push-m-10{margin-left:83.3333333333%}.push-m-11{margin-left:91.6666666667%}.push-m-12{margin-left:100%}.pull-m-0{margin-right:0%}.pull-m-1{margin-right:8.3333333333%}.pull-m-2{margin-right:16.6666666667%}.pull-m-3{margin-right:25%}.pull-m-4{margin-right:33.3333333333%}.pull-m-5{margin-right:41.6666666667%}.pull-m-6{margin-right:50%}.pull-m-7{margin-right:58.3333333333%}.pull-m-8{margin-right:66.6666666667%}.pull-m-9{margin-right:75%}.pull-m-10{margin-right:83.3333333333%}.pull-m-11{margin-right:91.6666666667%}.pull-m-12{margin-right:100%}}@media (max-width: 992px){.col-d-0{width:0%}.col-d-1{width:8.3333333333%}.col-d-2{width:16.6666666667%}.col-d-3{width:25%}.col-d-4{width:33.3333333333%}.col-d-5{width:41.6666666667%}.col-d-6{width:50%}.col-d-7{width:58.3333333333%}.col-d-8{width:66.6666666667%}.col-d-9{width:75%}.col-d-10{width:83.3333333333%}.col-d-11{width:91.6666666667%}.col-d-12{width:100%}.push-d-0{margin-left:0%}.push-d-1{margin-left:8.3333333333%}.push-d-2{margin-left:16.6666666667%}.push-d-3{margin-left:25%}.push-d-4{margin-left:33.3333333333%}.push-d-5{margin-left:41.6666666667%}.push-d-6{margin-left:50%}.push-d-7{margin-left:58.3333333333%}.push-d-8{margin-left:66.6666666667%}.push-d-9{margin-left:75%}.push-d-10{margin-left:83.3333333333%}.push-d-11{margin-left:91.6666666667%}.push-d-12{margin-left:100%}.pull-d-0{margin-right:0%}.pull-d-1{margin-right:8.3333333333%}.pull-d-2{margin-right:16.6666666667%}.pull-d-3{margin-right:25%}.pull-d-4{margin-right:33.3333333333%}.pull-d-5{margin-right:41.6666666667%}.pull-d-6{margin-right:50%}.pull-d-7{margin-right:58.3333333333%}.pull-d-8{margin-right:66.6666666667%}.pull-d-9{margin-right:75%}.pull-d-10{margin-right:83.3333333333%}.pull-d-11{margin-right:91.6666666667%}.pull-d-12{margin-right:100%}}@media (max-width: 768px){.col-t-0{width:0%}.col-t-1{width:8.3333333333%}.col-t-2{width:16.6666666667%}.col-t-3{width:25%}.col-t-4{width:33.3333333333%}.col-t-5{width:41.6666666667%}.col-t-6{width:50%}.col-t-7{width:58.3333333333%}.col-t-8{width:66.6666666667%}.col-t-9{width:75%}.col-t-10{width:83.3333333333%}.col-t-11{width:91.6666666667%}.col-t-12{width:100%}.push-t-0{margin-left:0%}.push-t-1{margin-left:8.3333333333%}.push-t-2{margin-left:16.6666666667%}.push-t-3{margin-left:25%}.push-t-4{margin-left:33.3333333333%}.push-t-5{margin-left:41.6666666667%}.push-t-6{margin-left:50%}.push-t-7{margin-left:58.3333333333%}.push-t-8{margin-left:66.6666666667%}.push-t-9{margin-left:75%}.push-t-10{margin-left:83.3333333333%}.push-t-11{margin-left:91.6666666667%}.push-t-12{margin-left:100%}.pull-t-0{margin-right:0%}.pull-t-1{margin-right:8.3333333333%}.pull-t-2{margin-right:16.6666666667%}.pull-t-3{margin-right:25%}.pull-t-4{margin-right:33.3333333333%}.pull-t-5{margin-right:41.6666666667%}.pull-t-6{margin-right:50%}.pull-t-7{margin-right:58.3333333333%}.pull-t-8{margin-right:66.6666666667%}.pull-t-9{margin-right:75%}.pull-t-10{margin-right:83.3333333333%}.pull-t-11{margin-right:91.6666666667%}.pull-t-12{margin-right:100%}}@media (max-width: 576px){.col-m-0{width:0%}.col-m-1{width:8.3333333333%}.col-m-2{width:16.6666666667%}.col-m-3{width:25%}.col-m-4{width:33.3333333333%}.col-m-5{width:41.6666666667%}.col-m-6{width:50%}.col-m-7{width:58.3333333333%}.col-m-8{width:66.6666666667%}.col-m-9{width:75%}.col-m-10{width:83.3333333333%}.col-m-11{width:91.6666666667%}.col-m-12{width:100%}.push-m-0{margin-left:0%}.push-m-1{margin-left:8.3333333333%}.push-m-2{margin-left:16.6666666667%}.push-m-3{margin-left:25%}.push-m-4{margin-left:33.3333333333%}.push-m-5{margin-left:41.6666666667%}.push-m-6{margin-left:50%}.push-m-7{margin-left:58.3333333333%}.push-m-8{margin-left:66.6666666667%}.push-m-9{margin-left:75%}.push-m-10{margin-left:83.3333333333%}.push-m-11{margin-left:91.6666666667%}.push-m-12{margin-left:100%}.pull-m-0{margin-right:0%}.pull-m-1{margin-right:8.3333333333%}.pull-m-2{margin-right:16.6666666667%}.pull-m-3{margin-right:25%}.pull-m-4{margin-right:33.3333333333%}.pull-m-5{margin-right:41.6666666667%}.pull-m-6{margin-right:50%}.pull-m-7{margin-right:58.3333333333%}.pull-m-8{margin-right:66.6666666667%}.pull-m-9{margin-right:75%}.pull-m-10{margin-right:83.3333333333%}.pull-m-11{margin-right:91.6666666667%}.pull-m-12{margin-right:100%}}img[data-action="zoom"]{cursor:pointer;cursor:-webkit-zoom-in;cursor:-moz-zoom-in}.zoom-img,.zoom-img-wrap{position:relative;z-index:666;-webkit-transition:all 300ms;-o-transition:all 300ms;transition:all 300ms}img.zoom-img{cursor:pointer;cursor:-webkit-zoom-out;cursor:-moz-zoom-out}.zoom-overlay{z-index:420;background:#fff;position:fixed;top:0;left:0;right:0;bottom:0;pointer-events:none;opacity:0;-webkit-transition:opacity 300ms;-o-transition:opacity 300ms;transition:opacity 300ms}@supports (-webkit-backdrop-filter: none) or (backdrop-filter: none){.zoom-overlay{-webkit-backdrop-filter:saturate(180%) blur(10px);backdrop-filter:saturate(180%) blur(10px);background:rgba(255,255,255,0.8)}}.zoom-overlay-open .zoom-overlay{opacity:1}.zoom-overlay-open,.zoom-overlay-transitioning{cursor:default}*,*::after,*::before{box-sizing:border-box}body{font-family:"Proza Libre","Hiragino Maru Gothic ProN W4","PingFang SC","Hiragino Sans GB","Microsoft YaHei",sans-serif;font-size:18px;font-weight:400;line-height:1.7;color:#1d1d1d;background-color:#fff;-webkit-font-smoothing:antialiased;-moz-osx-font-smoothing:grayscale;overflow-x:hidden}body.is-in::after{visibility:hidden;opacity:0;pointer-events:none}body::after{content:"";position:fixed;left:0;top:0;width:100%;height:100%;background-color:#fff;z-index:15;transition:1s}@media only screen and (max-width: 576px){body{font-size:16px}}*::selection{color:#1d1d1d;background-color:#ccffe2}h1,h2,h3,h4,h5,h6{font-family:"Orbitron","Hiragino Maru Gothic ProN W4",sans-serif;font-weight:700;line-height:1.4em;color:#1d1d1d}h1{font-size:36px}h2{font-size:28px}h3{font-size:24px}h4{font-size:20px}h5{font-size:18px}h6{font-size:16px}blockquote{position:relative;margin:28px 0;padding:6px 18px 6px 22px;font-family:"Proza Libre","Hiragino Maru Gothic ProN W4","PingFang SC","Hiragino Sans GB","Microsoft YaHei",sans-serif;font-size:17px;line-height:1.85;font-weight:400;color:#1d1d1d;border-left:3px solid #00ff6d;border-radius:0 6px 6px 0;background:rgba(0,255,109,0.04)}blockquote p{margin-bottom:15px}blockquote p:last-child{margin-bottom:0}blockquote cite{font-size:15px;font-weight:600;letter-spacing:1px;text-transform:uppercase;font-style:normal;color:#1d1d1d}blockquote cite:before{content:'\2014' '\00a0'}@media only screen and (max-width: 576px){blockquote{padding:6px 16px 6px 18px;font-size:16px;line-height:1.8}}pre{overflow:auto;padding:15px;font-size:14px;font-family:"SFMono-Regular",Consolas,"Liberation Mono",Menlo,"Courier New",monospace;line-height:1.6;white-space:pre-wrap;overflow-wrap:break-word;word-break:normal;border-radius:6px}code[class*=language-],pre[class*=language-]{font-family:"SFMono-Regular",Consolas,"Liberation Mono",Menlo,"Courier New",monospace;white-space:pre-wrap;overflow-wrap:break-word;word-break:normal;line-height:inherit}:not(pre)>code{padding:.15em .45em;font-family:"SFMono-Regular",Consolas,"Liberation Mono",Menlo,"Courier New",monospace;font-size:.9em;background-color:rgba(29,29,29,0.06);border:1px solid rgba(29,29,29,0.08);border-radius:4px;color:#1d1d1d;white-space:normal}img,.zoom-img-wrap{max-width:100%;height:auto;vertical-align:middle}img+em,.zoom-img-wrap+em{display:block;margin:12px 0 32px;font-size:12px;font-style:normal;text-align:center}a{font-family:"Long Cang", cursive;text-decoration:none;color:#1d1d1d;transition:all 0.5s}a:hover,a:focus-visible{color:#00ff6d;text-shadow:0 0 8px rgba(0,255,109,0.85),0 0 18px rgba(0,255,109,0.45)}hr{display:block;width:100%;height:1px;margin:50px 0;border:0;background:rgba(29,29,29,0.1)}.table-container{display:block;max-width:100%;overflow-x:auto}table{font-size:12px;color:#1d1d1d;width:100%;border-width:1px;border-color:#1d1d1d;border-collapse:collapse}table th{padding:12px;font-family:"Orbitron","Hiragino Maru Gothic ProN W4",sans-serif;font-size:18px;text-transform:uppercase;text-align:left;border:0;border-bottom:2px solid #00ff6d;color:#1d1d1d;font-weight:700;background-color:rgba(0,255,109,0.06)}table tr{background-color:#f8f8f8;transition:all .3s ease}table tr:nth-child(even){background-color:transparent}table td{padding:12px;font-size:13px;font-weight:500;border:1px solid #1d1d1d}.gallery-box{margin-bottom:32px}.gallery-box em{display:block;margin:12px 0 32px;font-size:12px;font-style:normal;text-align:center}.gallery-box em a{text-decoration:underline;border-bottom:none}.gallery-box em a:hover{text-decoration-color:#00ff6d}.gallery{display:grid;grid-template-columns:repeat(3, auto);justify-content:center;align-content:center;grid-gap:10px}.gallery img{width:100%;height:auto}.lazy{opacity:0;transition:0.8s ease-in-out}.lazy.loaded{opacity:1}html.js .reveal{opacity:0}html.js .reveal.is-visible{animation:reveal-up 0.7s cubic-bezier(0.2, 0.7, 0.2, 1) var(--reveal-delay, 0s) both}@keyframes reveal-up{from{opacity:0;transform:translateY(24px)}to{opacity:1;transform:none}}@media (prefers-reduced-motion: reduce){html.js .reveal{opacity:1}html.js .reveal.is-visible{animation:none}}.geo-pin{white-space:nowrap;cursor:default;color:inherit;border-bottom:1px dotted rgba(0,255,109,0.6)}.geo-pin::before{content:"\1F4CD";margin-right:2px;font-size:.92em}.hero{position:relative;display:flex;flex-direction:column;justify-content:flex-end;align-items:center;min-height:460px;overflow:hidden;background-color:#000}.hero::before{content:"";display:block;position:absolute;top:0;bottom:-1px;left:0;right:0;z-index:1;background:linear-gradient(180deg, rgba(29,29,29,0.05) 0%, rgba(29,29,29,0.9))}.hero__image{position:absolute;top:0;left:0;right:0;bottom:0;z-index:0;display:block;min-height:auto;padding-top:0;transition:all 0.5s}.hero__image img{position:absolute;top:0;left:0;width:100%;height:100%;object-fit:cover;transition:none}.hero__inner{position:relative;z-index:1;width:100%;max-width:1500px;padding:72px 20px 24px}.hero__inner .hero__content{padding:0 20px;text-align:center}.hero__inner .hero__content .hero__title{margin-bottom:12px;line-height:0.85;font-family:"Long Cang", cursive;font-style:normal;font-size:70px;font-weight:750;color:#fff}.hero__inner .hero__content .hero__description{display:flex;flex-direction:row-reverse;flex-wrap:nowrap;justify-content:center;align-items:flex-start;gap:12px;margin:12px auto 0;max-width:100%;font-family:"Long Cang", cursive;font-style:normal;font-size:16px;font-weight:450;line-height:1.15;color:rgba(225,225,225,0.92);text-shadow:0 2px 14px rgba(0,0,0,0.6)}.hero__inner .hero__content .hero__description .hero__verse{writing-mode:vertical-rl;text-orientation:upright;letter-spacing:1px;max-height:28em;padding:4px 7px;border-left:1px solid rgba(0,255,109,0.22);transition:color .35s ease, text-shadow .35s ease}.hero__inner .hero__content .hero__description .hero__verse:hover{color:#fff;text-shadow:0 0 8px rgba(0,255,109,0.9),0 0 18px rgba(0,255,109,0.55)}.hero__inner .hero__content .hero__description .hero__verse:first-child{color:rgba(0,255,109,0.92);border-left:none}.hero__inner .hero__content .hero__description .hero__verse:first-child:hover{color:#5cffa2;text-shadow:0 0 10px #00ff6d,0 0 22px rgba(0,255,109,0.7)}@media only screen and (max-width: 768px){.hero__inner{padding:60px 20px 20px}.hero__inner .hero__content .hero__description{font-size:14px;gap:11px}}@media only screen and (max-width: 576px){.hero__inner{padding:120px 20px 40px}.hero__inner .hero__content .hero__title{font-size:48px;line-height:0.9}.hero__inner .hero__content .hero__description{display:block;font-size:16px;line-height:1.7}.hero__inner .hero__content .hero__description .hero__verse{display:block;writing-mode:horizontal-tb;text-orientation:mixed;letter-spacing:normal;white-space:normal;padding:0;margin:0 auto 4px;border-left:none;text-align:center;color:rgba(225,225,225,0.92)}.hero__inner .hero__content .hero__description .hero__verse:first-child{color:rgba(225,225,225,0.92)}}.top{position:fixed;bottom:25px;right:-100px;z-index:5;width:35px;height:35px;font-size:16px;line-height:35px;text-align:center;box-shadow:0px 1px 4px rgba(0,0,0,0.15);color:#fff;background-color:#1d1d1d;cursor:pointer;transition:all .3s ease}.top:hover{color:#000;background-color:#00ff6d}.top.is-active{right:30px}@media only screen and (max-width: 768px){.top{bottom:15px}.top.is-active{right:25px}}.header{position:relative;width:100%;padding:12px 0;background-color:#1d1d1d;transition:all 0.5s}.header .container{max-width:none}@media only screen and (max-width: 992px){.header{padding:24px 0}}.header__inner{position:relative;display:flex;justify-content:space-between;flex-wrap:nowrap;align-items:center}@media only screen and (min-width: 992px){.header__inner{justify-content:flex-start}.header__inner .logo,.header__inner .nav-buttons{flex:0 0 210px}.header__inner .nav-buttons{justify-content:flex-end}}.logo{flex-shrink:0;margin-right:20px}.logo__link{position:relative;font-size:32px;line-height:1;font-weight:700;color:#fff;text-transform:uppercase;text-decoration:none;letter-spacing:1px;cursor:pointer;user-select:none;-webkit-tap-highlight-color:transparent}.logo__link:hover{color:#00ff6d;text-shadow:0 0 8px rgba(0,255,109,0.85),0 0 18px rgba(0,255,109,0.45)}.logo__image{max-height:40px}.logo__link .theme-orbit{position:absolute;top:50%;left:50%;width:92px;height:92px;margin:-46px 0 0 -46px;border:1px dashed rgba(0,255,109,0.35);border-radius:50%;opacity:0;transition:opacity .4s ease;pointer-events:none;z-index:30}.logo__link:hover .theme-orbit{opacity:1;animation:theme-orbit-spin 4s linear infinite}@keyframes theme-orbit-spin{to{transform:rotate(360deg)}}.logo__link .bike{position:absolute;left:50%;width:22px;height:22px;margin-left:-11px;pointer-events:none}.logo__link .bike--top{top:-11px;filter:drop-shadow(0 0 6px rgba(255,179,48,0.8))}.logo__link .bike--bottom{bottom:-11px;filter:drop-shadow(0 0 6px rgba(183,205,255,0.8))}.logo__link .theme-badge{position:absolute;top:100%;left:50%;transform:translate(-50%, 6px);white-space:nowrap;margin-top:10px;padding:6px 14px;border-radius:999px;font:600 13px/1 system-ui, -apple-system, "PingFang SC", sans-serif;color:#111;background:linear-gradient(90deg, #ffd86b, #00ff6d);box-shadow:0 6px 18px rgba(0,0,0,0.4);opacity:0;transition:opacity .35s ease, transform .35s ease;pointer-events:none;z-index:30}.logo__link:hover .theme-badge{opacity:1;transform:translate(-50%, 0)}@media (prefers-reduced-motion: reduce){.logo__link:hover .theme-orbit{animation:none}}.main-nav{width:100%;max-width:1300px;margin:0 auto}.main-nav__box{display:flex;align-items:center;width:80%;padding-top:200px;margin:0 auto}.main-nav__box .nav__icon-close{position:absolute;top:20px;right:40px;z-index:5;display:flex;align-items:center;justify-content:center;font-size:30px;width:40px;height:40px;text-align:center;line-height:40px;color:#83807a;transition:all .25s ease;cursor:pointer}.main-nav__box .nav__icon-close:hover{transform:rotate(90deg);color:#fff}@media only screen and (max-width: 768px){.main-nav__box{padding-top:100px}.main-nav__box .nav__icon-close{top:22px;right:42px}}@media only screen and (max-width: 576px){.main-nav__box{width:90%}}.navigation{display:flex;align-items:center;flex:1 1 0;min-width:0}.top-nav{width:100%}.top-nav .nav__list{display:flex;flex-wrap:nowrap;align-items:center;justify-content:center;white-space:nowrap}.top-nav .nav__list .nav__item{display:inline-block;vertical-align:middle;margin-right:20px}.top-nav .nav__list .nav__item:last-child{margin-right:0}.top-nav .nav__list .nav__item .nav__link{font-family:"Orbitron","Hiragino Maru Gothic ProN W4",sans-serif;font-size:20px;font-weight:700;text-transform:uppercase;text-decoration:none;color:#fff;transition:color .25s ease, text-shadow .25s ease}.top-nav .nav__list .nav__item .nav__link:hover{color:#00ff6d;text-shadow:0 0 8px rgba(0,255,109,0.85),0 0 18px rgba(0,255,109,0.45)}@media only screen and (max-width: 576px){.top-nav{display:none}}.mobile-nav .nav__list .nav__item{display:block;margin-bottom:35px;text-align:center}.mobile-nav .nav__list .nav__item:last-child{margin-bottom:0}.mobile-nav .nav__list .nav__item .nav__link{font-family:"Orbitron","Hiragino Maru Gothic ProN W4",sans-serif;font-size:28px;font-weight:700;text-transform:uppercase;text-decoration:none;color:#fff;transition:color .25s ease, text-shadow .25s ease}.mobile-nav .nav__list .nav__item .nav__link:hover{color:#00ff6d;text-shadow:0 0 8px rgba(0,255,109,0.85),0 0 18px rgba(0,255,109,0.45)}@media only screen and (max-width: 576px){.mobile-nav .nav__list .nav__item{margin-bottom:20px}}.nav-buttons{display:flex;align-items:center;flex-shrink:0;margin-left:20px;font-size:22px;line-height:25px;color:#fff}.nav-buttons .search-button{display:flex;cursor:pointer}.nav-buttons .search-button:hover span{color:#00ff6d;text-shadow:0 0 8px rgba(0,255,109,0.85),0 0 18px rgba(0,255,109,0.45)}.nav-buttons .search-button span{margin-left:8px;font-family:"Orbitron","Hiragino Maru Gothic ProN W4",sans-serif;font-size:20px;font-weight:600;text-transform:uppercase;color:#fff;transition:all 0.5s}@media only screen and (max-width: 576px){.nav-buttons .search-button span{display:none}}.nav-buttons .nav__icon-menu{display:none}@media only screen and (max-width: 576px){.nav-buttons .nav__icon-menu{display:block}}.nav-buttons .nav__icon{cursor:pointer}.nav-buttons .nav__icon.nav__icon-menu{margin-right:16px}.nav__more{position:relative}.nav__more[hidden]{display:none !important}.nav__more .nav__more-toggle{display:inline-block;vertical-align:middle;line-height:1;margin:0;padding:0;background:none;border:none;font-family:"Orbitron","Hiragino Maru Gothic ProN W4",sans-serif;font-size:20px;font-weight:700;text-transform:uppercase;color:#fff;cursor:pointer;transition:color .25s ease, text-shadow .25s ease}.nav__more .nav__more-toggle:hover{color:#00ff6d;text-shadow:0 0 8px rgba(0,255,109,0.85),0 0 18px rgba(0,255,109,0.45)}.nav__more .nav__caret{display:inline-block;vertical-align:middle;line-height:1;font-size:13px}.nav__more .nav__more-list{position:absolute;top:100%;right:0;min-width:170px;margin:12px 0 0;padding:8px 0;list-style:none;background-color:#272727;border:1px solid rgba(255,255,255,0.08);border-radius:10px;box-shadow:0 14px 34px rgba(0,0,0,0.4);display:none;z-index:60}.nav__more .nav__more-list::before{content:'';position:absolute;left:0;right:0;top:-12px;height:12px}.nav__more .nav__more-list .nav__item{display:block;margin:0}.nav__more .nav__more-list .nav__item .nav__link{display:block;padding:9px 20px;font-size:16px;white-space:nowrap}.nav__more .nav__more-list .nav__item .nav__link:hover{color:#00ff6d;background-color:rgba(255,255,255,0.05)}.nav__more.is-open .nav__more-list{display:block}.nav__has-sub{position:relative}.nav__has-sub .nav__caret{display:inline-block;vertical-align:middle;line-height:1;font-size:11px;margin-left:3px;transition:transform .2s ease}.nav__has-sub:hover>.nav__sub-list,.nav__has-sub .nav__link:focus-visible~.nav__sub-list{display:block}.nav__has-sub:hover>.nav__link .nav__caret,.nav__has-sub .nav__link:focus-visible .nav__caret{transform:rotate(180deg)}.nav__has-sub>.nav__link{background:none;border:none;padding:0;margin:0;cursor:pointer;line-height:inherit;vertical-align:middle}.nav__more-list .nav__has-sub>.nav__link{padding:9px 20px}.mobile-nav .nav__has-sub>.nav__link .nav__caret{display:none}.nav__sub-list{position:absolute;top:100%;left:0;min-width:180px;margin:12px 0 0;padding:8px 0;list-style:none;background-color:#272727;border:1px solid rgba(255,255,255,0.08);border-radius:10px;box-shadow:0 14px 34px rgba(0,0,0,0.4);display:none;z-index:60}.nav__sub-list::before{content:'';position:absolute;left:0;right:0;top:-12px;height:12px}.nav__sub-list .nav__sub-item{display:block;margin:0}.nav__sub-list .nav__sub-link{display:block;padding:9px 20px;font-family:"Orbitron","Hiragino Maru Gothic ProN W4",sans-serif;font-size:15px;font-weight:600;text-transform:uppercase;white-space:nowrap;color:#fff;text-decoration:none;transition:color .2s ease, background-color .2s ease}.nav__sub-list .nav__sub-link:hover{color:#00ff6d;background-color:rgba(255,255,255,0.05)}.nav__sub-list .nav__sub-link.is-active{color:#00ff6d}.nav__more-list .nav__sub-list{position:static;display:block;margin:0;padding:0 0 4px 16px;background:none;border:none;box-shadow:none;min-width:0}.nav__more-list .nav__sub-list::before{display:none}.nav__more-list .nav__sub-list .nav__sub-link{padding:7px 20px;font-size:14px}.mobile-nav .nav__sub-toggle{background:none;border:none;padding:0 6px;margin-left:8px;cursor:pointer;color:#fff;transition:color .2s ease}.mobile-nav .nav__sub-toggle:hover{color:#00ff6d}.mobile-nav .nav__sub-toggle .nav__caret{transition:transform .2s ease}.mobile-nav .nav__has-sub.is-open>.nav__sub-toggle .nav__caret{transform:rotate(180deg)}.mobile-nav .nav__sub-list{position:static;display:none;margin:0;padding:0;background:none;border:none;box-shadow:none;min-width:0}.mobile-nav .nav__sub-list::before{display:none}.mobile-nav .nav__has-sub.is-open>.nav__sub-list{display:block}.mobile-nav .nav__sub-item{margin-bottom:14px}.mobile-nav .nav__sub-link{font-size:20px;padding:0}.mobile-nav .nav__sub-link:hover{background:none}.menu-overlay{position:fixed;top:0;left:0;right:0;bottom:0;z-index:100;opacity:0;visibility:hidden;background-color:#000;transition:all .25s ease}.menu-overlay.is-open{opacity:1;visibility:visible}@supports (-webkit-backdrop-filter: none) or (backdrop-filter: none){.menu-overlay{-webkit-backdrop-filter:saturate(180%) blur(10px);backdrop-filter:saturate(180%) blur(10px);background-color:rgba(0,0,0,0.95)}}@media only screen and (min-width: 992px){.menu-overlay{display:none}}.nav-grid{width:100%;height:75vh;overflow-y:auto}.nav-grid__item{margin-bottom:30px}@media only screen and (max-width: 768px){.nav-grid__item{height:auto}}.nav-grid__title{position:relative;margin-bottom:48px;padding-bottom:16px;font-size:48px;font-weight:700;text-align:center;color:#fff}.nav-grid__title::after{content:"";position:absolute;left:50%;bottom:0;transform:translate(-50%, -50%);display:block;width:24px;height:2px;background-color:#fff}@media only screen and (max-width: 768px){.nav-grid__title{margin-bottom:32px}}.search{position:fixed;top:0;left:0;right:0;bottom:0;z-index:100;opacity:0;visibility:hidden;background-color:#000;transition:all .25s ease}.search.is-visible{opacity:1;visibility:visible}@supports (-webkit-backdrop-filter: none) or (backdrop-filter: none){.search{-webkit-backdrop-filter:saturate(180%) blur(10px);backdrop-filter:saturate(180%) blur(10px);background-color:rgba(0,0,0,0.95)}}.search__box{width:44%;margin:0 auto;padding-top:160px}@media only screen and (max-width: 992px){.search__box{width:80%;padding-top:100px}}.search__group{position:relative;margin-bottom:32px}.search__group .search__close{position:absolute;right:20px;top:23px;font-size:28px;line-height:40px;color:#83807a;cursor:pointer;transition:all .2s}.search__group .search__close:hover{color:#fff}.search__group .search__text{width:100%;height:auto;padding:20px 40px 20px 20px;font-family:"Orbitron","Hiragino Maru Gothic ProN W4",sans-serif;font-size:26px;font-weight:700;line-height:40px;border:2px solid rgba(255,255,255,0.1);outline:none;color:#fff;background-color:#1d1d1d}.search__group .search__text::-webkit-input-placeholder{color:#fff}.search__group .search__text::placeholder{color:#fff}.search__group .search__text:focus{border-color:#00ff6d;box-shadow:0 0 0 3px rgba(0,255,109,0.25)}.search__group .search__text::-ms-clear{display:none}.search-results-list{height:55vh;padding:0 0 25px 0;list-style:circle;font-weight:700;color:#1d1d1d;overflow:auto;white-space:normal}.search-results-list .search-results__item{display:flex;align-items:center;padding-bottom:12px;margin-bottom:12px;border-bottom:1px solid rgba(255,255,255,0.1)}.search-results-list .search-results__image{position:relative;display:inline-block;margin-right:16px;min-width:100px;height:90px;background-size:cover;background-color:#1d1d1d;background-position:center;background-repeat:no-repeat}.search-results-list .search-results__link{position:relative;display:flex;flex-direction:column;padding:12px 0 12px 0;font-family:"Orbitron","Hiragino Maru Gothic ProN W4",sans-serif;font-size:24px;line-height:1;font-weight:700;color:#fff;transition:all .15s ease-in-out}.search-results-list .search-results__link:hover .search-result-title{text-decoration-color:#00ff6d;color:#00ff6d}@media only screen and (max-width: 576px){.search-results-list .search-results__link{font-size:18px}}.search-results-list .search-result-title{text-decoration:underline;text-decoration-color:transparent;color:#fff;transition:inherit}.search-results-list .search-results-date{display:inline-block;margin-bottom:4px;font-size:13px;line-height:16px;font-weight:700;text-transform:uppercase;color:#83807a}.search-results-list .no-results{list-style:none}.search-results-list .no-results h3{color:#fff}.pagination{background-color:#000}.pagination__inner{padding:28px 0;border-bottom:1px solid rgba(255,255,255,0.1)}@media only screen and (max-width: 992px){.pagination__inner{padding:24px 0}}.pagination__list{display:flex;justify-content:space-between;align-items:center;flex-wrap:wrap;color:#fff}.pagination__prev,.pagination__next,.pagination__count{font-family:"Orbitron","Hiragino Maru Gothic ProN W4",sans-serif;font-size:18px;font-weight:700;text-transform:uppercase;text-decoration:none;color:#fff}.pagination__count{color:#83807a}.pagination__prev:hover{color:#00ff6d}.pagination__prev:hover i{transform:translateX(-2px)}.pagination__prev i{margin-right:4px}.pagination__next:hover{color:#00ff6d}.pagination__next:hover i{transform:translateX(2px)}.pagination__next i{margin-left:4px}.pagination__prev.disabled,.pagination__next.disabled{opacity:0.3;color:inherit;cursor:not-allowed}.pagination__prev.disabled i,.pagination__next.disabled i{transform:none}.pagination__prev i,.pagination__next i{font-size:16px;color:#fff;transition:.15s ease}.footer-widgets{padding:40px 0px 0;background-color:#000}.footer-widgets .widget{height:100%}.footer-widgets .row .col{flex-grow:1}.footer-widgets .row .col:last-child>.widget{padding-right:0}.footer-widgets .row .col:nth-child(2n) .widget{padding:0 20px}@media only screen and (max-width: 992px){.footer-widgets .row .col:nth-child(2n) .widget{padding:0}}@media only screen and (max-width: 768px){.footer-widgets{padding:80px 0 0}}@media only screen and (max-width: 576px){.footer-widgets{padding:48px 0 0}}@media only screen and (max-width: 992px){.widget{margin-bottom:48px}}@media only screen and (max-width: 768px){.widget{padding:0}}.widget__title{margin-bottom:20px;font-size:26px;line-height:1;font-weight:700;color:#fff}@media only screen and (max-width: 992px){.widget__title{font-size:24px}}.footer-desc{margin-bottom:24px;font-size:18px;font-weight:600;color:#696969;align-items:center;font-family:"Orbitron","Hiragino Maru Gothic ProN W4",sans-serif}@media only screen and (max-width: 768px){.footer-desc{max-width:100%}}.footer-widgets .tag__cloud{display:flex;flex-wrap:wrap;align-items:center;gap:14px 16px;padding:18px 4px;min-height:120px}.footer-widgets .tag__cloud a{display:inline-block;color:#83807a;font-family:"Orbitron","Hiragino Maru Gothic ProN W4",sans-serif;font-weight:600;line-height:1.2;text-decoration:none;transition:all .25s ease;animation:tag-floaty 4s ease-in-out infinite}.footer-widgets .tag__cloud a:hover{color:#00ff6d;animation-play-state:paused;text-shadow:0 0 12px rgba(0,255,109,0.6)}body.theme-light .footer-widgets .tag__cloud a:hover{color:#00ff6d;animation-play-state:paused;text-shadow:0 0 12px rgba(0,255,109,0.6)}@keyframes tag-floaty{0%,100%{transform:translateY(0)}50%{transform:translateY(-9px)}}.subscribe-subtitle{width:100%;margin-bottom:20px;font-size:16px;line-height:24px;color:#83807a}@media only screen and (max-width: 768px){.subscribe-subtitle{max-width:100%}}.subscribe-group-top{display:flex;align-items:center}.subscribe-group-top .subscribe-email{position:relative;width:100%;height:50px;padding:15px;font-family:"Orbitron","Hiragino Maru Gothic ProN W4",sans-serif;font-size:15px;line-height:50px;font-weight:700;color:#fff;background-color:#1d1d1d;border:2px solid rgba(255,255,255,0.05);outline:0;-webkit-appearance:none;box-sizing:border-box;transition:border-color .3s ease-in-out;cursor:text}.subscribe-group-top .subscribe-email::placeholder{font-size:15px;color:#fff}.subscribe-group-top .subscribe-email:hover{border:2px solid rgba(255,255,255,0.1)}.subscribe-group-top .subscribe-email:focus{color:#fff;border-color:#00ff6d;box-shadow:0 0 0 3px rgba(0,255,109,0.25)}.subscribe-group-top .subscribe-button{margin:0 0 0 8px}@media only screen and (max-width: 576px){.subscribe-group-top .subscribe-button{width:80%;padding:0;margin:0 0 0 4px}}.footer{position:relative;padding:32px 0;border-top:1px solid rgba(255,255,255,0.1);background-color:#000}.copyright{font-family:"Orbitron","Hiragino Maru Gothic ProN W4",sans-serif;font-size:16px;font-weight:700;text-align:center;text-transform:uppercase;color:#83807a}.copyright a{color:#83807a}.copyright a:hover{color:#00ff6d}@media only screen and (max-width: 992px){.copyright{text-align:left}}.below_copyright{font-family:"Orbitron","Hiragino Maru Gothic ProN W4",sans-serif;font-size:12px;font-weight:500;text-align:center;text-transform:uppercase;color:#83807a}.below_copyright a{color:#83807a}.below_copyright a:hover{color:#00ff6d}@media only screen and (max-width: 992px){.below_copyright{text-align:left}}.social{text-align:center}.social .social__list{display:flex;flex-wrap:wrap;align-items:center}.social .social__item{display:inline-block;margin-left:4px}.social .social__item:first-child{margin-left:0}.social .social__link{position:relative;display:flex;justify-content:center;align-items:center;width:45px;height:45px;font-size:19px;line-height:45px;color:#fff;background-color:#1d1d1d;box-shadow:0px 1px 4px rgba(0,0,0,0.15);transition:all 0.3s ease;overflow:hidden}.social .social__link:hover{color:#000;background-color:#00ff6d}@media only screen and (max-width: 992px){.social{margin-bottom:5px}.social .social__item{margin-bottom:10px}.social .social__link{width:35px;height:35px;line-height:35px;font-size:16px}}.button{display:inline-block;white-space:nowrap;vertical-align:middle;font-family:"Orbitron","Hiragino Maru Gothic ProN W4",sans-serif;font-size:14px;font-weight:700;text-transform:uppercase;letter-spacing:1px;border:none;outline:none;-webkit-appearance:none;text-align:center;text-decoration:none;transition:all 0.3s ease;cursor:pointer}.button--primary{padding:0px 1.8rem;height:50px;line-height:50px;color:#fff;background-color:#1d1d1d}.button--primary:hover{color:#000;background-color:#00ff6d}.button--big{display:block;width:100%}.article{position:relative;align-items:stretch;flex-grow:1;width:33.3333333333%;background-color:#000;transition:box-shadow .35s ease}.article:hover{box-shadow:0 18px 40px rgba(0,0,0,0.35);z-index:2}.article:hover .article__image::after{opacity:.9;content:'';position:absolute;width:80px;height:100%;top:0;left:-200px;overflow:hidden;z-index:9;background:-moz-linear-gradient(left, rgba(255,255,255,0) 0, rgba(255,255,255,0.3) 50%, rgba(255,255,255,0) 100%);background:-webkit-gradient(linear, left top, right top, color-stop(0%, rgba(255,255,255,0)), color-stop(50%, rgba(255,255,255,0.3)), color-stop(100%, rgba(255,255,255,0)));background:-webkit-linear-gradient(left, rgba(255,255,255,0) 0, rgba(255,255,255,0.3) 50%, rgba(255,255,255,0) 100%);background:-o-linear-gradient(left, rgba(255,255,255,0) 0, rgba(255,255,255,0.3) 50%, rgba(255,255,255,0) 100%);background:linear-gradient(left, rgba(255,255,255,0) 0, rgba(255,255,255,0.3) 50%, rgba(255,255,255,0) 100%);-webkit-transform:skewX(-25deg);-moz-transform:skewX(-25deg);transform:skewX(-25deg);-webkit-transition:left 1s ease-in-out;transition:left 1s ease-in-out;left:700px}.article:hover .article__image img{transform:scale(1.03);border:none}@media only screen and (max-width: 1400px){.article{width:50%}}@media only screen and (max-width: 768px){.article{width:100%}}@media only screen and (max-width: 576px){.article{min-height:280px}}.article__inner{position:relative;display:flex;width:100%;height:100%;padding-top:44%;overflow:hidden}.article__image{position:absolute;top:0;display:block;width:100%;height:100%;user-select:none;background-color:#000}.article__image::after{content:"";display:block;position:absolute;top:0;left:0;width:100%;height:100%;background:linear-gradient(to top, rgba(0,0,0,0.6) 0%, rgba(0,0,0,0.42) 30%, rgba(0,0,0,0) 66%);transition:opacity .35s ease;pointer-events:none}.article__image img{position:absolute;top:0;width:100%;height:100%;object-fit:cover;pointer-events:none;transition:.35s ease}.article__content{z-index:1;width:100%;margin-top:auto;padding:0 35px 45px;pointer-events:none}@media only screen and (max-width: 576px){.article__content{padding:0 24px 24px}}.article__title{margin:8px 0 14px;font-size:35px;line-height:1.15;text-align:center;pointer-events:all}.article__title .article__lock{display:block;font-size:.82em;color:#fff;margin:0 0 .35em}.article__title a{display:inline-block;max-width:100%;white-space:nowrap;overflow:hidden;text-overflow:ellipsis;text-align:left;text-decoration:underline;text-decoration-color:transparent;color:#fff;transition:all 0.5s ease}.article__title a:hover{text-decoration-color:#00ff6d;transform:translateY(-1px);box-shadow:0 2px 5px rgba(0,0,0,0.1)}.article__title a:active{color:#00ff6d}@media only screen and (max-width: 992px){.article__title{font-size:40px}}@media only screen and (max-width: 576px){.article__title{font-size:32px}}.article__title{display:flex;flex-direction:column;align-items:center}.article__meta{display:flex;align-items:center;justify-content:center;flex-wrap:wrap;color:#fff}.article-tags{position:relative;display:flex;flex-wrap:wrap;align-items:center;line-height:1}.article-tags .article__tag{position:relative;font-family:"Long Cang", cursive;font-size:15px;font-weight:700;text-transform:uppercase;color:#fff;pointer-events:all}.article-tags .article__tag:hover{color:#00ff6d}.article-tags .article__tag::after{content:",";margin:0 2px;display:inline-block;color:#fff}.article-tags .article__tag:last-child::after{content:""}.article__date{font-family:"Long Cang", cursive;font-size:15px;text-transform:uppercase;font-weight:700;line-height:1.5;color:#83807a;pointer-events:all}.article__tag:last-child::after{content:"";position:relative;bottom:0.2rem;display:inline-block;height:3px;width:3px;margin:0 .5rem 0 .5rem;border-radius:50%;background-color:#fff}.article__author{display:flex;align-items:center;justify-content:center}.article__author .article__author-link{font-family:"Orbitron","Hiragino Maru Gothic ProN W4",sans-serif;font-size:15px;line-height:20px;text-transform:uppercase;font-weight:700;color:#fff;pointer-events:all}.article__author .article__author-link:hover{color:#00ff6d}.post{position:relative;max-width:900px;margin:0 auto}.page{max-width:780px;margin:0 auto 80px}@media only screen and (max-width: 576px){.page{margin:0 auto 60px}}.post-head,.page-head{max-width:900px;margin:80px auto 60px}@media only screen and (max-width: 768px){.post-head,.page-head{margin:60px auto 48px}}@media only screen and (max-width: 576px){.post-head,.page-head{margin:40px 0 32px}}.post__author{display:flex;align-items:center;justify-content:center}.post__author .post__author-link{font-family:"Orbitron","Hiragino Maru Gothic ProN W4",sans-serif;font-size:18px;line-height:20px;text-transform:uppercase;font-weight:700;color:#1d1d1d}.post__author .post__author-link:hover{color:#00cc57}@media only screen and (max-width: 576px){.post__author .post__author-link{font-size:16px}}.post-title,.page-title{margin:12px 0 16px;font-size:70px;line-height:1.05;text-align:center}@media only screen and (max-width: 768px){.post-title,.page-title{font-size:60px}}@media only screen and (max-width: 576px){.post-title,.page-title{margin:12px 0;font-size:36px}}.post__meta{display:flex;align-items:center;flex-wrap:wrap;justify-content:center;color:#1d1d1d}.post-tags{position:relative;display:flex;flex-wrap:wrap;align-items:center;margin-right:-3px;line-height:1}.post-tags__tag{position:relative;font-family:"Orbitron","Hiragino Maru Gothic ProN W4",sans-serif;font-size:18px;line-height:20px;text-transform:uppercase;font-weight:700;color:#1d1d1d}.post-tags__tag:hover{color:#00cc57}.post-tags__tag::after{content:",";margin:0 2px;display:inline-block;color:#1d1d1d}.post-tags__tag:last-child::after{content:""}@media only screen and (max-width: 576px){.post-tags__tag{font-size:16px}}.post__date{font-family:"Orbitron","Hiragino Maru Gothic ProN W4",sans-serif;font-size:18px;line-height:20px;text-transform:uppercase;font-weight:700;color:#83807a}.post__date::before{content:"";position:relative;bottom:0.25rem;display:inline-block;height:3px;width:3px;margin:0 .5rem 0 .5rem;border-radius:50%;background-color:#1d1d1d}@media only screen and (max-width: 576px){.post__date{font-size:16px}}.post__content li,.page__content li{margin-bottom:10px}.post__content a:not(:has(img)),.page__content a:not(:has(img)){text-decoration:none;background-image:linear-gradient(#00ff6d, #00ff6d);background-position:0 100%;background-repeat:no-repeat;background-size:0% 1.5px;transition:background-size .3s ease, color .3s ease}.post__content a:not(:has(img)):hover,.page__content a:not(:has(img)):hover{color:#00e060;background-size:100% 1.5px}.post__share{margin:60px 0}.post__share .share__list{display:flex;justify-content:center;align-items:center;flex-wrap:wrap}.post__share .share__item{margin-right:8px;text-align:center}.post__share .share__item:last-child{margin-right:0}.post__share .share__link{display:flex;align-items:center;justify-content:center;width:60px;height:60px;font-size:22px;line-height:1;border-radius:50%;color:#1d1d1d;background-color:#f1f1f1;transition:.2s}.post__share .share__link:hover{transform:scale(0.95);color:#000;background-color:#00ff6d;box-shadow:0 6px 18px rgba(0,255,109,0.35)}@media only screen and (max-width: 576px){.post__share{margin:32px 0}.post__share .share__link{width:48px;height:48px;font-size:18px}}#disqus_thread iframe{margin-bottom:60px}@media only screen and (max-width: 576px){#disqus_thread iframe{margin-bottom:32px}}.related-info{background-color:#000}.related-inner{display:flex;align-items:center;justify-content:space-between;padding:24px 0}.related-posts{display:none}.related-posts.is-related{display:block}.related-title{margin:0;font-size:24px;line-height:1;color:#fff}@media only screen and (max-width: 576px){.related-title{flex-basis:50%;font-size:18px}}.related-tag{font-family:"Orbitron","Hiragino Maru Gothic ProN W4",sans-serif;font-size:16px;font-weight:600;text-align:right;color:#fff;transition:.15s ease}.related-tag span{display:inline-block;margin:0 4px;text-transform:capitalize;font-weight:700;transition:inherit}.related-tag i{font-size:14px;transition:inherit}.related-tag:hover{color:#fff}.related-tag:hover span{color:#00ff6d}.related-tag:hover i{transform:translateX(2px)}@media only screen and (max-width: 576px){.related-tag{flex-basis:50%;font-size:15px}.related-tag i{font-size:13px}}.post__pagination{display:flex;justify-content:space-between;gap:16px;margin:48px 0 0;font-size:15px;line-height:1.6}.post__pagination .post__pagination-link{flex:1 1 0;min-width:0;color:inherit;text-decoration:none;display:inline-flex;align-items:center;gap:6px}.post__pagination .post__pagination-link span{overflow:hidden;text-overflow:ellipsis;white-space:nowrap}.post__pagination .post__pagination-link.post__pagination-next{justify-content:flex-end;text-align:right}.post__pagination .post__pagination-link:hover{color:#00ff6d}@media only screen and (max-width: 576px){.post__pagination{flex-direction:column;gap:10px}}.ride-summary{display:grid;grid-template-columns:1fr;gap:16px;align-items:stretch;max-width:900px;margin:0 auto 28px;padding:16px;border-radius:12px;background:#f8f8f8;border:1px solid rgba(0,0,0,0.07)}.ride-stats{display:flex;flex-wrap:wrap;gap:10px 22px;align-content:center;align-self:stretch;padding-bottom:14px;border-bottom:1px solid rgba(0,0,0,0.06)}.ride-stat{display:flex;flex-direction:row;align-items:baseline;gap:5px;white-space:nowrap;line-height:1.2}.ride-stat__val{font-family:"Orbitron","Hiragino Maru Gothic ProN W4",sans-serif;font-weight:700;font-size:22px;color:#1d1d1d}.ride-stat__label{font-size:12px;color:#83807a}.ride-map{position:relative;min-height:300px;height:320px;border-radius:10px;overflow:hidden;background:#eef1f3;border:1px solid rgba(0,0,0,0.07)}.ride-map__status{position:absolute;z-index:1100;top:10px;left:10px;max-width:90%;padding:6px 10px;border-radius:8px;font-size:12px;line-height:1.4;background:rgba(0,0,0,0.7);color:#e8ffe8;white-space:pre-wrap;word-break:break-word}.ride-map__status.err{background:#fff0f0;color:#b00}.ride-map__status.warn{background:#fff7e6;color:#8a6d00}.ride-map__status.ok{background:rgba(0,133,58,0.9);color:#fff}.ride-map__legend{position:absolute;z-index:1000;left:10px;bottom:10px;display:flex;gap:14px;align-items:center;padding:6px 10px;border-radius:6px;font-size:12px;color:#1d1d1d;background:rgba(255,255,255,0.82);border:1px solid rgba(0,0,0,0.08);backdrop-filter:blur(2px);pointer-events:none}.ride-map__legend .lg-item{display:inline-flex;align-items:center;gap:5px}.ride-map__legend .lg-dot{width:10px;height:10px;border-radius:50%;flex:none}.ride-map__legend .lg-waypoint{background:#83807a}.ride-map__legend .lg-flag{width:16px;height:16px;flex:none;display:inline-flex}.ride-map__legend .lg-flag svg{width:16px;height:16px;display:block}.ride-map__legend .lg-line{width:16px;height:0;border-top:2px solid #00ff6d;flex:none}.ride-map__stylebar{position:absolute;z-index:1000;top:10px;right:10px;display:flex;flex-wrap:wrap;justify-content:flex-end;gap:6px;max-width:72%;pointer-events:auto}.ride-map__stylebar .ride-map__style-btn{appearance:none;cursor:pointer;font:inherit;font-size:12px;line-height:1;padding:5px 9px;border-radius:999px;color:#1d1d1d;background:rgba(255,255,255,0.82);border:1px solid rgba(0,0,0,0.12);backdrop-filter:blur(2px);transition:background .15s, color .15s, border-color .15s}.ride-map__stylebar .ride-map__style-btn:hover{background:#fff;border-color:rgba(0,0,0,0.25)}.ride-map__stylebar .ride-map__style-btn.is-active{color:#06210f;background:#00ff6d;border-color:#00ff6d}.ride-map__stylebar .ride-map__style-btn:focus-visible{outline:2px solid #00ff6d;outline-offset:2px}.ride-dark-tiles{filter:brightness(0.72) invert(1) hue-rotate(180deg) contrast(1.05) saturate(0.55)}.ride-gray-tiles{filter:grayscale(1) contrast(1.05) brightness(1.03)}.ride-warm-tiles{filter:sepia(0.45) saturate(1.5) hue-rotate(-12deg) contrast(0.98)}.ride-purple-tiles{filter:hue-rotate(235deg) saturate(1.4) brightness(0.96) contrast(1.02)}.ride-hover-bike.leaflet-div-icon{background:transparent;border:none;color:#7ed321;filter:drop-shadow(0 0 5px currentColor)}.ride-flag-icon.leaflet-div-icon{background:transparent;border:none;filter:drop-shadow(0 0 1px rgba(255,255,255,0.55)) drop-shadow(0 1px 2px rgba(0,0,0,0.5))}.ride-elevation{position:relative;margin-top:12px;width:100%;height:250px;border-radius:10px;overflow:visible;background:#fff;border:1px solid rgba(0,0,0,0.07)}.ride-elevation>div#ride-elevation-canvas{position:absolute;top:0;left:0;width:100%;height:100%;border-radius:10px;overflow:hidden}.ride-elevation>div#ride-elevation-canvas[hidden]{display:none}.ride-elev-legend{display:flex;flex-wrap:wrap;gap:12px;margin-top:8px;padding:4px 2px 4px 10px;font-size:11px;color:#5a5f66;font-family:'Orbitron', 'Proza Libre', "PingFang SC", "Hiragino Sans GB", "Microsoft YaHei", sans-serif}.rel-item{display:inline-flex;align-items:center;gap:5px}.rel-item .rel-label{font-weight:600}.rel-item .rel-range{color:#8a9099;font-variant-numeric:tabular-nums;font-weight:400}.rel-item i{width:10px;height:10px;border-radius:2px;flex:none;box-shadow:0 0 0 1px rgba(0,0,0,0.12)}.rel-item{cursor:pointer;user-select:none;transition:opacity .15s ease}.rel-item:hover{opacity:.82}.rel-item:focus-visible{outline:2px solid #00ff6d;outline-offset:2px;border-radius:3px}.rel-item.is-active{font-weight:600;color:#00ff6d}.rel-item.is-active i{box-shadow:0 0 0 2px #00ff6d}.ride-elev-climbs{position:absolute;z-index:5;top:0;left:0;right:0;height:56px;padding-right:28px;pointer-events:none}.rec-climb{position:absolute;top:6px;transform:translateX(-50%);display:flex;flex-direction:column;align-items:center;padding:3px 7px;border-radius:5px;font-size:11px;font-weight:600;line-height:1.25;text-align:center;white-space:nowrap;pointer-events:auto;cursor:default;box-shadow:0 1px 4px rgba(0,0,0,0.18);transition:transform .15s ease, z-index 0s}.rec-climb:hover{z-index:20;transform:translateX(-50%) scale(1.03)}.rec-climb.rec-climb--r1{top:30px}.rec-climb .rec-cat{display:block}.rec-climb .rec-sub{display:block;font-size:10px;font-weight:500;opacity:.92}.rec-climb .rec-tip{position:absolute;top:100%;left:50%;transform:translateX(-50%) translateY(4px);display:none;padding:5px 9px;border-radius:5px;background:rgba(17,24,39,0.92);color:#fff;font-size:11px;font-weight:500;line-height:1.4;white-space:nowrap;pointer-events:none;box-shadow:0 4px 14px rgba(0,0,0,0.22);z-index:30}.rec-climb:hover .rec-tip{display:block}.ride-elevation .am5-tooltip-container{display:none !important}.ride-elev-cursor-tip{position:fixed;z-index:99999;display:none;pointer-events:none;min-width:120px;padding:7px 10px;border-radius:8px;background:rgba(255,255,255,0.96);border:1px solid rgba(0,0,0,0.12);box-shadow:0 4px 14px rgba(0,0,0,0.18);font-family:'Orbitron', 'Proza Libre', "PingFang SC", "Hiragino Sans GB", "Microsoft YaHei", sans-serif;font-size:12px;line-height:1.5;color:#374151}.ride-elev-cursor-tip .rect-row{display:flex;justify-content:space-between;gap:12px}.ride-elev-cursor-tip .rect-k{color:#9aa0a6}.ride-elev-cursor-tip .rect-v{font-weight:600;color:#111827}body.theme-dark .ride-elev-cursor-tip{background:rgba(24,26,30,0.98);border-color:rgba(255,255,255,0.16);color:#d7dbe0}body.theme-dark .ride-elev-cursor-tip .rect-k{color:#9aa0a6}body.theme-dark .ride-elev-cursor-tip .rect-v{color:#f1f3f6}.ride-elev-info{position:absolute;z-index:10;top:5px;right:5px;width:16px;height:16px;display:flex;align-items:center;justify-content:center;padding:0;border-radius:50%;border:1px solid rgba(0,0,0,0.18);background:rgba(255,255,255,0.9);color:#4b5563;font-style:italic;font-family:Georgia, "Times New Roman", serif;font-weight:700;font-size:10px;line-height:1;cursor:pointer;box-shadow:0 1px 4px rgba(0,0,0,0.15);transition:background .15s, color .15s, border-color .15s}.ride-elev-info:hover{background:#fff;border-color:rgba(0,0,0,0.35)}.ride-elev-info:focus-visible{outline:2px solid #00ff6d;outline-offset:2px}.ride-elev-climb-legend{position:absolute;z-index:100;top:64px;right:8px;width:256px;max-width:calc(100% - 16px);padding:12px 14px;border-radius:10px;background:rgba(255,255,255,0.98);border:1px solid rgba(0,0,0,0.12);box-shadow:0 8px 28px rgba(0,0,0,0.18);color:#374151;font-size:12px;font-family:'Orbitron', 'Proza Libre', "PingFang SC", "Hiragino Sans GB", "Microsoft YaHei", sans-serif;display:none}.ride-elev-climb-legend.is-open{display:block}.ride-elev-climb-legend h4{margin:0 0 8px;font-size:13px;font-weight:600;color:#111}.ride-elev-climb-legend .rel-climb-row{display:flex;align-items:flex-start;gap:8px;padding:4px 0}.ride-elev-climb-legend .rel-climb-pill{flex:0 0 auto;min-width:34px;text-align:center;border-radius:4px;padding:2px 6px;font-size:11px;font-weight:600;line-height:1.3}.ride-elev-climb-legend .rel-climb-cond{color:inherit !important;font-family:'Orbitron', 'Proza Libre', "PingFang SC", "Hiragino Sans GB", "Microsoft YaHei", sans-serif;line-height:1.4}.ride-stats-page{max-width:1100px;margin:0 auto;padding:24px 16px}.ride-stats-page h1{font-family:"Orbitron","Hiragino Maru Gothic ProN W4",sans-serif;text-align:center;margin-bottom:6px}.ride-stats-page__sub{text-align:center;opacity:.7;margin:0 0 18px;font-size:14px}.ride-stats-canvas{width:100%;height:460px;border-radius:12px;overflow:hidden;background:#f8f8f8;border:1px solid rgba(0,0,0,0.07)}@media (prefers-color-scheme: dark){body:not(.theme-light):not(.theme-dark) .ride-summary{background:#1f2226;border-color:rgba(255,255,255,0.08)}body:not(.theme-light):not(.theme-dark) .ride-stats{border-bottom-color:rgba(255,255,255,0.12)}body:not(.theme-light):not(.theme-dark) .ride-stat__val{color:#e8edf1}body:not(.theme-light):not(.theme-dark) .ride-stat__label{color:#a8adb2}body:not(.theme-light):not(.theme-dark) .ride-map{background:#15171a;border-color:rgba(255,255,255,0.1)}body:not(.theme-light):not(.theme-dark) .ride-stats-canvas{background:#15171a;border-color:rgba(255,255,255,0.1)}body:not(.theme-light):not(.theme-dark) .ride-map__legend{color:#e8edf1;background:rgba(20,22,25,0.82);border-color:rgba(255,255,255,0.14)}body:not(.theme-light):not(.theme-dark) .ride-elevation{background:#15171a;border-color:rgba(255,255,255,0.1)}body:not(.theme-light):not(.theme-dark) .ride-elev-legend{color:#a8adb2}body:not(.theme-light):not(.theme-dark) .ride-map__stylebar .ride-map__style-btn{color:#e8edf1;background:rgba(20,22,25,0.82);border-color:rgba(255,255,255,0.18)}body:not(.theme-light):not(.theme-dark) .ride-map__stylebar .ride-map__style-btn:hover{background:rgba(40,44,48,0.9)}body:not(.theme-light):not(.theme-dark) .ride-map__stylebar .ride-map__style-btn.is-active{color:#06210f;background:#00ff6d;border-color:#00ff6d}body:not(.theme-light):not(.theme-dark) .ride-elev-info{background:rgba(20,22,25,0.9);border-color:rgba(255,255,255,0.2);color:#cfd4da}body:not(.theme-light):not(.theme-dark) .ride-elev-info:hover{background:rgba(40,44,48,0.95)}body:not(.theme-light):not(.theme-dark) .ride-elev-climb-legend{background:rgba(24,26,30,0.98);border-color:rgba(255,255,255,0.14);color:#d7dbe0}body:not(.theme-light):not(.theme-dark) .ride-elev-climb-legend h4{color:#eef1f4}body:not(.theme-light):not(.theme-dark) .ride-elev-climb-legend .rel-climb-cond{color:inherit !important}}body.theme-dark .ride-summary{background:#1f2226;border-color:rgba(255,255,255,0.08)}body.theme-dark .ride-stat__val{color:#e8edf1}body.theme-dark .ride-stat__label{color:#a8adb2}body.theme-dark .ride-map{background:#15171a;border-color:rgba(255,255,255,0.1)}body.theme-dark .ride-stats-canvas{background:#15171a;border-color:rgba(255,255,255,0.1)}body.theme-dark .ride-map__legend{color:#e8edf1;background:rgba(20,22,25,0.82);border-color:rgba(255,255,255,0.14)}body.theme-dark .ride-elevation{background:#15171a;border-color:rgba(255,255,255,0.1)}body.theme-dark .ride-elev-legend{color:#a8adb2}body.theme-dark .ride-map__stylebar .ride-map__style-btn{color:#e8edf1;background:rgba(20,22,25,0.82);border-color:rgba(255,255,255,0.18)}body.theme-dark .ride-map__stylebar .ride-map__style-btn:hover{background:rgba(40,44,48,0.9)}body.theme-dark .ride-map__stylebar .ride-map__style-btn.is-active{color:#06210f;background:#00ff6d;border-color:#00ff6d}body.theme-dark .ride-elev-info{background:rgba(20,22,25,0.9);border-color:rgba(255,255,255,0.2);color:#cfd4da}body.theme-dark .ride-elev-info:hover{background:rgba(40,44,48,0.95)}body.theme-dark .ride-elev-climb-legend{background:rgba(24,26,30,0.98);border-color:rgba(255,255,255,0.14);color:#d7dbe0}body.theme-dark .ride-elev-climb-legend h4{color:#eef1f4}body.theme-dark .ride-elev-climb-legend .rel-climb-cond{color:inherit !important}@media (max-width: 576px){.ride-stats{gap:8px 16px;padding-bottom:12px}.ride-map{min-height:260px;height:280px}}.hero--tag{justify-content:center;align-items:center}.hero--tag .hero__inner{display:flex;justify-content:center;align-items:center}.hero--tag .hero__content{width:100%;text-align:center}.tag-meta{display:inline-block;margin-bottom:8px;font-family:"Orbitron","Hiragino Maru Gothic ProN W4",sans-serif;font-size:15px;line-height:20px;text-transform:uppercase;font-weight:700;color:#fff}.tag-title{position:relative;margin:0;font-size:76px;line-height:0.85;font-weight:700;text-transform:capitalize;color:#fff}.form__group{margin-bottom:20px}.form__input{width:100%;padding:16px;font-family:"Orbitron","Hiragino Maru Gothic ProN W4",sans-serif;font-weight:600;border:1.5px solid #e4e4e4;outline:none;transition:all 0.5s}.form__input::placeholder{color:#bbb}.form__input:focus{border-color:#00ff6d}textarea.form__input{resize:vertical}body.theme-dark{color-scheme:dark;background-color:#15171a;color:#d7dade}body.theme-dark::after{background-color:#15171a}body.theme-dark h1,body.theme-dark h2,body.theme-dark h3,body.theme-dark h4,body.theme-dark h5,body.theme-dark h6{color:#e8edf1}body.theme-dark a{color:#b9c0c7}body.theme-dark a:hover{color:#e8edf1}body.theme-dark blockquote{color:#a8adb2}body.theme-dark .highlight{background-color:#1b1e22;color:#c9d1d9;border:1px solid rgba(255,255,255,0.06)}body.theme-dark :not(pre)>code{background-color:rgba(255,255,255,0.08);border-color:rgba(255,255,255,0.12);color:#e8edf1}body.theme-dark hr{background:rgba(255,255,255,0.12)}body.theme-dark table{color:#d7dade;border-color:#3a3d42}body.theme-dark table th{background-color:rgba(0,255,109,0.12);color:#e8edf1;border-color:#00ff6d}body.theme-dark table tr{background-color:#1f2226}body.theme-dark table td{border-color:#3a3d42}body.theme-dark ::selection{color:#e8edf1;background-color:rgba(0,255,109,0.25)}body.theme-dark .button--primary{color:#fff}body.theme-dark .button--primary:hover{color:#000}body.theme-dark .article__title a,body.theme-dark .tag-title,body.theme-dark .tag-meta{color:#fff}body.theme-dark .article__title a:hover,body.theme-dark .tag-title:hover,body.theme-dark .tag-meta:hover{color:#fff}@media (prefers-color-scheme: dark){body:not(.theme-light):not(.theme-dark){color-scheme:dark;background-color:#15171a;color:#d7dade}body:not(.theme-light):not(.theme-dark)::after{background-color:#15171a}body:not(.theme-light):not(.theme-dark) h1,body:not(.theme-light):not(.theme-dark) h2,body:not(.theme-light):not(.theme-dark) h3,body:not(.theme-light):not(.theme-dark) h4,body:not(.theme-light):not(.theme-dark) h5,body:not(.theme-light):not(.theme-dark) h6{color:#e8edf1}body:not(.theme-light):not(.theme-dark) a{color:#b9c0c7}body:not(.theme-light):not(.theme-dark) a:hover{color:#e8edf1}body:not(.theme-light):not(.theme-dark) blockquote{color:#a8adb2}body:not(.theme-light):not(.theme-dark) .highlight{background-color:#1b1e22;color:#c9d1d9;border:1px solid rgba(255,255,255,0.06)}body:not(.theme-light):not(.theme-dark) :not(pre)>code{background-color:rgba(255,255,255,0.08);border-color:rgba(255,255,255,0.12);color:#e8edf1}body:not(.theme-light):not(.theme-dark) hr{background:rgba(255,255,255,0.12)}body:not(.theme-light):not(.theme-dark) table{color:#d7dade;border-color:#3a3d42}body:not(.theme-light):not(.theme-dark) table th{background-color:rgba(0,255,109,0.12);color:#e8edf1;border-color:#00ff6d}body:not(.theme-light):not(.theme-dark) table tr{background-color:#1f2226}body:not(.theme-light):not(.theme-dark) table td{border-color:#3a3d42}body:not(.theme-light):not(.theme-dark) ::selection{color:#e8edf1;background-color:rgba(0,255,109,0.25)}body:not(.theme-light):not(.theme-dark) .button--primary{color:#fff}body:not(.theme-light):not(.theme-dark) .button--primary:hover{color:#000}}body.theme-light{color-scheme:light;background-color:#fff;color:#1d1d1d}body.theme-light::after{background-color:#fff}body.theme-light h1,body.theme-light h2,body.theme-light h3,body.theme-light h4,body.theme-light h5,body.theme-light h6{color:#1d1d1d}body.theme-light a{color:#1d1d1d}body.theme-light a:hover{color:#1d1d1d}body.theme-light blockquote{color:gray}body.theme-light hr{background:rgba(29,29,29,0.1)}body.theme-light table{color:#1d1d1d;border-color:#1d1d1d}body.theme-light table th{background-color:rgba(0,255,109,0.06);color:#1d1d1d;border-color:#00ff6d}body.theme-light table tr{background-color:#f8f8f8}body.theme-light table td{border-color:#1d1d1d}body.theme-light .header .logo__link,body.theme-light .header .nav__link,body.theme-light .header .nav-buttons,body.theme-light .header .nav-buttons .search-button span{color:#b9c0c7}body.theme-light .header .logo__link:hover,body.theme-light .header .nav__link:hover{color:#00ff6d}body.theme-light ::selection{color:#1d1d1d;background-color:#ccffe2}body.theme-light .article__title a,body.theme-light .tag-title,body.theme-light .tag-meta{color:#fff}body.theme-light .article__title a:hover,body.theme-light .tag-title:hover,body.theme-light .tag-meta:hover{color:#fff}body.theme-light .hero .hero__title,body.theme-light .hero .hero__description{color:#fff}body.theme-light .hero .hero__verse{color:rgba(225,225,225,0.92)}body.theme-light .hero .hero__verse:hover{color:#fff;text-shadow:0 0 8px rgba(0,255,109,0.9),0 0 18px rgba(0,255,109,0.55)}body.theme-light .hero .hero__verse:first-child{color:rgba(0,255,109,0.92)}body.theme-light .hero .hero__verse:first-child:hover{color:#5cffa2;text-shadow:0 0 10px #00ff6d,0 0 22px rgba(0,255,109,0.7)}body.theme-light .footer-widgets,body.theme-light .footer{color:#d7dade}body.theme-light .footer-widgets a,body.theme-light .footer a{color:#b9c0c7}body.theme-light .footer-widgets a:hover,body.theme-light .footer a:hover{color:#e8edf1}body.theme-light .footer-widgets .widget__title,body.theme-light .footer .widget__title{color:#e8edf1}body.theme-light .button--primary{color:#fff}body.theme-light .button--primary:hover{color:#000}
+
+  </style>
+  <script>window.WEBP_FILES = ["/images/banner.v6.webp","/images/banner_image/banner.v1.webp","/images/banner_image/banner.v2.webp","/images/banner_image/banner.v3.webp","/images/banner_image/banner.v4.webp","/images/banner_image/banner.v5.webp","/images/banner_image/banner.v7.webp","/images/banner_image/banner.v8.webp","/images/banner_image/banner.v9.webp","/images/isanfeng.webp","/images/nav_404.webp","/images/nav_about_me.webp","/images/nav_backshadow.webp","/images/nav_footprint.webp","/images/nav_jiaoyin.webp","/images/nav_livingwill.webp","/images/nav_what_do.webp","/images/posts/BaishanZu.webp","/images/posts/Beihai.webp","/images/posts/Beijing-0.webp","/images/posts/Bikepacking-000.webp","/images/posts/Bikepacking-001.webp","/images/posts/Bikepacking-101-Handbook_main-2000x1334.webp","/images/posts/Bikepacking-101-home-collage-scaled.webp","/images/posts/ChizhouShitai.webp","/images/posts/DianshanLake.webp","/images/posts/DianshanLake_Midautumn.webp","/images/posts/Dongfanglvzhou.webp","/images/posts/Grey_Load.webp","/images/posts/Hainandao-0.webp","/images/posts/Hokkaido-1-0.webp","/images/posts/Meditation.webp","/images/posts/Okinawa-0.webp","/images/posts/Philippines-0.webp","/images/posts/PipaLake-0.webp","/images/posts/Qingdao-0.webp","/images/posts/QinghaiLake-0.webp","/images/posts/Shimanami-Kaido-0.webp","/images/posts/Simingshan.webp","/images/posts/Taizhou-xiaoruodao.webp","/images/posts/Tea.webp","/images/posts/Thailand-2-0.webp","/images/posts/VictoryRoad-0.webp","/images/posts/Xian-0.webp","/images/posts/YanbianRoadS325-0-725.webp","/images/posts/Yandang-Mtn.webp","/images/posts/Yixian.webp","/images/posts/Yuanyang.webp","/images/posts/banch.webp","/images/posts/beach.webp","/images/posts/cambodia-1-0.webp","/images/posts/cambodia-2-0.webp","/images/posts/cambodia-3-0.webp","/images/posts/cangnan.webp","/images/posts/chongqing.webp","/images/posts/chuanxixiaohuanxian.webp","/images/posts/fengche-ningbo.webp","/images/posts/fire.webp","/images/posts/fo-0.webp","/images/posts/fuzhou.webp","/images/posts/gangouzidaqiao.webp","/images/posts/gd-hz-hd-hjdt.webp","/images/posts/gd-hz-hd-nwst.webp","/images/posts/gd-hz-hd-qqgs.webp","/images/posts/gd-hz-hd-wmst.webp","/images/posts/gd-hz-hd-xjw.webp","/images/posts/gd-hz-hd.webp","/images/posts/gd-jy-jyxg.webp","/images/posts/gd-jy-ygw.webp","/images/posts/gd-st-spt.webp","/images/posts/gd-st-xgy.webp","/images/posts/gd-sz-bjs.webp","/images/posts/gd-sz-szw.webp","/images/posts/get_old_alone.webp","/images/posts/golden_seaside.webp","/images/posts/guangjiqiao.webp","/images/posts/guizhouxingyi.webp","/images/posts/guojimancheng_songbai.webp","/images/posts/gz-as-hgspb.webp","/images/posts/gz-as-pb-pbyh.webp","/images/posts/gz-as-qhmz.webp","/images/posts/gz-as-xqk.webp","/images/posts/gz-as-xsgz.webp","/images/posts/gz-gy-bg.webp","/images/posts/gz-gy-qls.webp","/images/posts/jeju-1-0.webp","/images/posts/jinzhai.webp","/images/posts/jinzhai2.webp","/images/posts/js-nj-mxl.webp","/images/posts/js-nj-qhh.webp","/images/posts/jx-jdz-bwg.webp","/images/posts/jx-jdz.webp","/images/posts/jx-nc-byncqyjnb.webp","/images/posts/jx-nc-byncqyjng.webp","/images/posts/jx-nc-twg-2.webp","/images/posts/jx-nc-twg.webp","/images/posts/jx-rs-gxc.webp","/images/posts/jx-rs-sj.webp","/images/posts/jx-sqs.webp","/images/posts/jx-wxg-b.webp","/images/posts/jx-wxg-w-1.webp","/images/posts/jx-wxg-w.webp","/images/posts/jx-wy-hl-map.webp","/images/posts/jx-wy-hl.webp","/images/posts/jx-wy-xg.webp","/images/posts/jx-wy-xg1.webp","/images/posts/kuocangMTN.webp","/images/posts/lanyanlei.webp","/images/posts/lianjiang-huangqi.webp","/images/posts/lianjiang-pingliuwei-beijiaobi.webp","/images/posts/lianjiang-qidacun.webp","/images/posts/luoyuan-haizhilu.webp","/images/posts/luoyuan-lufengshan.webp","/images/posts/nanao.webp","/images/posts/pingtan.webp","/images/posts/placeholder.webp","/images/posts/quyuanguli.webp","/images/posts/red_ridge_highway_jinzhai.webp","/images/posts/sanxiadizhigonglu.webp","/images/posts/sd_ta_nhpark.webp","/images/posts/sd_ta_ts.webp","/images/posts/sd_zb_ls.webp","/images/posts/shanghai.webp","/images/posts/shengnongjiaguojiagongyan.webp","/images/posts/shennongjiahuazhongwuji.webp","/images/posts/shennongtan.webp","/images/posts/shitaitianlu.webp","/images/posts/simingMTN-autumn.webp","/images/posts/sz-szzy.webp","/images/posts/taiwan.webp","/images/posts/taizhou-shenxianju.webp","/images/posts/thailand-1-0.webp","/images/posts/thailand-3.webp","/images/posts/tiantai-guoqingsi.webp","/images/posts/wanzhe-road.webp","/images/posts/wuyuan.webp","/images/posts/xg-alltarget.webp","/images/posts/xg-gsdl.webp","/images/posts/xg-gt-asxgdyz.webp","/images/posts/xg-mlhj.webp","/images/posts/xg-pbz.webp","/images/posts/xg-stsm.webp","/images/posts/xg-wgzy.webp","/images/posts/yandang.webp","/images/posts/yichangyilingchangjiangdaqiao.webp","/images/posts/yt-lk-nsdf.webp","/images/posts/yt-pl-plk.webp","/images/posts/yt-yt-scl.webp","/images/posts/zj-st-dhhwj.webp","/images/posts/zj-st-dj.webp","/images/posts/zj-st-qnsgb.webp","/images/posts/zj-st-town.webp","/images/posts/zj-xc-dfs_wf.webp","/images/posts/zj-xc-mytmylb.webp","/images/posts/zj-yh-hzz.webp","/images/posts/zj-yh-njt.webp","/images/posts/zj-yh-no1road.webp","/images/posts/zj-yh-tt.webp","/images/posts/zj-yh-wssb.webp","/images/posts/zj_nb_qa.webp","/images/posts/zj_nb_sm.webp","/images/posts/zj_nb_sm_mh.webp","/images/posts/zj_nb_xk_ml.webp","/images/posts/zj_nb_xk_ml_1.webp","/images/posts/zj_xc_sl.webp","/images/posts/zj_xc_tt.webp","/images/posts/zj_xc_xyb.webp","/images/posts/zuimeishuishanggonglu.webp"];</script>
+</head>
+
+  <body>
+    
+    <!-- begin hero -->
+<div class="hero">
+
+  <div class="hero__image">
+    <img class="lazy" data-src="/images/posts/gd-hz-hd-qqgs.webp" alt="">
+  </div>
+
+  <div class="hero__inner">
+    <div class="hero__content">
+      <h1 class="hero__title reveal" style="--reveal-delay: 0s">极简的诗与远方<svg class="icon" aria-hidden="true"><use xlink:href="#icon-zihangche2"></use></svg>分时分段的骑迹</h1>
+      
+      
+      <p class="hero__description reveal" style="--reveal-delay: .15s">
+        
+        
+        <span class="hero__verse">这里没有黑历史，这里是我来时的路</span><span class="hero__verse">就好好做自己，没有很好也没有关系</span><span class="hero__verse">慢热又固执，总说随缘，自己的人生，随心即是满分</span><span class="hero__verse">不想抱怨生活中的苦，不愿炫耀已有的甜</span><span class="hero__verse">品自己的茶，赏自己的花，读自己的书，骑自己的车</span><span class="hero__verse">路没有尽头，就当永远在出发</span><span class="hero__verse">地图外的空白，是我还没到的远方</span><span class="hero__verse">安静，自在，享独闲</span><span class="hero__verse">做一个健康快乐，无忧无虑的人</span><span class="hero__verse">把这辈子当作上辈子所说的下辈子</span><span class="hero__verse">在自己的世界里熠熠生辉，在别人的世界里顺其自然</span><span class="hero__verse">一念放，万般自在</span><span class="hero__verse">选择了做一只无脚的鸟</span><span class="hero__verse">就要一直往前飞行，直到死亡</span><span class="hero__verse">把期待调低一点，惊喜就多一点</span><span class="hero__verse">不赶时间，才看得见风景</span><span class="hero__verse">慢慢走，也终会走到想去的地方</span><span class="hero__verse">就这样，也挺好</span><span class="hero__verse">"要是"、"假如"、"只不过"，所有的全是屁话</span><span class="hero__verse">此致我们必死无疑的一生</span>
+      </p>
+      
+    </div>
+  </div>
+
+</div>
+<!-- end hero -->
+
+    
+    <!-- begin content -->
+    <main class="content" aria-label="Content">
+      <!-- begin header -->
+<header class="header">
+  <div class="container">
+    <div class="row">
+      <div class="header__inner col col-12">
+
+      <div class="logo">
+        <a class="logo__link" href="/" data-theme-toggle aria-label="切换深色/浅色模式">
+        
+          ∴𝒾sanfeng∴
+        
+        <span class="theme-orbit" aria-hidden="true">
+          <svg class="bike bike--top" viewBox="0 0 24 24" fill="none" stroke="#ffb330" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="6" cy="16" r="4"/><circle cx="4.8" cy="15.1" r="0.5" fill="#ffb330" stroke="none"/><circle cx="7.2" cy="15.1" r="0.5" fill="#ffb330" stroke="none"/><path d="M4.9 16.3 Q6 17.3 7.1 16.3" stroke-width="0.9"/><circle cx="18" cy="16" r="4"/><circle cx="16.8" cy="15.1" r="0.5" fill="#ffb330" stroke="none"/><circle cx="19.2" cy="15.1" r="0.5" fill="#ffb330" stroke="none"/><path d="M16.9 16.3 Q18 17.3 19.1 16.3" stroke-width="0.9"/><path d="M6 16 L11 9 L17 9 L18 16"/><path d="M11 16 L11 9"/><path d="M11 16 L17 9"/><path d="M9.5 9 H12.5"/><path d="M15.5 9 H18.5"/></svg>
+          <svg class="bike bike--bottom" viewBox="0 0 24 24" fill="none" stroke="#cfe0ff" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="6" cy="16" r="4"/><circle cx="4.8" cy="15.1" r="0.5" fill="#cfe0ff" stroke="none"/><circle cx="7.2" cy="15.1" r="0.5" fill="#cfe0ff" stroke="none"/><path d="M4.9 16.3 Q6 17.3 7.1 16.3" stroke-width="0.9"/><circle cx="18" cy="16" r="4"/><circle cx="16.8" cy="15.1" r="0.5" fill="#cfe0ff" stroke="none"/><circle cx="19.2" cy="15.1" r="0.5" fill="#cfe0ff" stroke="none"/><path d="M16.9 16.3 Q18 17.3 19.1 16.3" stroke-width="0.9"/><path d="M6 16 L11 9 L17 9 L18 16"/><path d="M11 16 L11 9"/><path d="M11 16 L17 9"/><path d="M9.5 9 H12.5"/><path d="M15.5 9 H18.5"/></svg>
+        </span>
+        <span class="theme-badge" aria-hidden="true">点击切换 明暗 ☀ / 🌙</span>
+        </a>
+      </div>
+        
+      <div class="menu-overlay">
+        <nav class="main-nav">
+          <div class="main-nav__box">
+            <div class="nav__icon-close">
+              <i class="ion ion-md-close"></i>
+            </div>
+            <div class="nav-grid">
+              <div class="nav-grid__item">
+                <h2 class="nav-grid__title">Menu</h2>
+                <div class="mobile-nav">
+                  <ul class="nav__list list-reset">
+  <li class="nav__item">
+    <a href="/" class="nav__link">Home</a>
+  </li>
+  <li class="nav__item">
+    <a href="/travel-map" class="nav__link">Travel•Map</a>
+  </li>
+  <li class="nav__item">
+    <a href="/moments" class="nav__link">Moments</a>
+  </li>
+  <li class="nav__item">
+    <a href="/dashboard" class="nav__link">Dashboard</a>
+  </li>
+  <li class="nav__item">
+    <a href="/how-think" class="nav__link">Thinking</a>
+  </li>
+  <li class="nav__item nav__has-sub">
+    <button type="button" class="nav__link" aria-haspopup="true">Actions<span class="nav__caret" aria-hidden="true">&#9662;</span></button>
+    
+    <button type="button" class="nav__sub-toggle" aria-expanded="false" aria-label="展开 Do 子菜单"><span class="nav__caret" aria-hidden="true">&#9662;</span></button>
+    
+    <ul class="nav__sub-list list-reset">
+      <li class="nav__sub-item"><a href="/what-do" class="nav__sub-link">计划清单</a></li>
+      <li class="nav__sub-item"><a href="/what-do" class="nav__sub-link">执行记录</a></li>
+      <li class="nav__sub-item"><a href="/what-do" class="nav__sub-link">复盘</a></li>
+    </ul>
+  </li>
+  <li class="nav__item">
+    <a href="/living-will" class="nav__link">Willing</a>
+  </li>
+
+  <li class="nav__item nav__has-sub">
+    <button type="button" class="nav__link" aria-haspopup="true">THAT•MAN<span class="nav__caret" aria-hidden="true">&#9662;</span></button>
+    
+    <button type="button" class="nav__sub-toggle" aria-expanded="false" aria-label="展开 Do 子菜单"><span class="nav__caret" aria-hidden="true">&#9662;</span></button>
+    
+    <ul class="nav__sub-list list-reset">
+      <li class="nav__sub-item"><a href="/about_me" class="nav__sub-link">ABOUT•ME</a></li>
+      <li class="nav__sub-item"><a href="/Low-Cost_Route_Map_to_Make_Up_Social_Security_Years" class="nav__sub-link">低成本凑社保年限路线图</a></li>
+    </ul>
+  </li>
+  <li class="nav__item">
+    <a href="/ride-stats" class="nav__link">Stats</a>
+  </li>
+  <li class="nav__item">
+    <a href="/Low-Cost_Route_Map_to_Make_Up_Social_Security_Years" class="nav__link">Pension</a>
+  </li>
+  <li class="nav__item nav__has-sub nav__item--local-only" style="display:none">
+    <button type="button" class="nav__link" aria-haspopup="true">Management<span class="nav__caret" aria-hidden="true">&#9662;</span></button>
+    
+    <button type="button" class="nav__sub-toggle" aria-expanded="false" aria-label="展开管理子菜单"><span class="nav__caret" aria-hidden="true">&#9662;</span></button>
+    
+    <ul class="nav__sub-list list-reset">
+      <li class="nav__sub-item"><a href="/maintain" class="nav__sub-link">维护手册</a></li>
+      <li class="nav__sub-item"><a href="/admin" class="nav__sub-link">协作平台</a></li>
+    </ul>
+  </li>
+  
+</ul>
+
+                </div>
+              </div>
+            </div>
+          </div>
+        </nav>
+      </div>
+
+      <div class="navigation">
+        <div class="top-nav">
+          <ul class="nav__list list-reset">
+  <li class="nav__item">
+    <a href="/" class="nav__link">Home</a>
+  </li>
+  <li class="nav__item">
+    <a href="/travel-map" class="nav__link">Travel•Map</a>
+  </li>
+  <li class="nav__item">
+    <a href="/moments" class="nav__link">Moments</a>
+  </li>
+  <li class="nav__item">
+    <a href="/dashboard" class="nav__link">Dashboard</a>
+  </li>
+  <li class="nav__item">
+    <a href="/how-think" class="nav__link">Thinking</a>
+  </li>
+  <li class="nav__item nav__has-sub">
+    <button type="button" class="nav__link" aria-haspopup="true">Actions<span class="nav__caret" aria-hidden="true">&#9662;</span></button>
+    
+    <ul class="nav__sub-list list-reset">
+      <li class="nav__sub-item"><a href="/what-do" class="nav__sub-link">计划清单</a></li>
+      <li class="nav__sub-item"><a href="/what-do" class="nav__sub-link">执行记录</a></li>
+      <li class="nav__sub-item"><a href="/what-do" class="nav__sub-link">复盘</a></li>
+    </ul>
+  </li>
+  <li class="nav__item">
+    <a href="/living-will" class="nav__link">Willing</a>
+  </li>
+
+  <li class="nav__item nav__has-sub">
+    <button type="button" class="nav__link" aria-haspopup="true">THAT•MAN<span class="nav__caret" aria-hidden="true">&#9662;</span></button>
+    
+    <ul class="nav__sub-list list-reset">
+      <li class="nav__sub-item"><a href="/about_me" class="nav__sub-link">ABOUT•ME</a></li>
+      <li class="nav__sub-item"><a href="/Low-Cost_Route_Map_to_Make_Up_Social_Security_Years" class="nav__sub-link">低成本凑社保年限路线图</a></li>
+    </ul>
+  </li>
+  <li class="nav__item">
+    <a href="/ride-stats" class="nav__link">Stats</a>
+  </li>
+  <li class="nav__item">
+    <a href="/Low-Cost_Route_Map_to_Make_Up_Social_Security_Years" class="nav__link">Pension</a>
+  </li>
+  <li class="nav__item nav__has-sub nav__item--local-only" style="display:none">
+    <button type="button" class="nav__link" aria-haspopup="true">Management<span class="nav__caret" aria-hidden="true">&#9662;</span></button>
+    
+    <ul class="nav__sub-list list-reset">
+      <li class="nav__sub-item"><a href="/maintain" class="nav__sub-link">维护手册</a></li>
+      <li class="nav__sub-item"><a href="/admin" class="nav__sub-link">协作平台</a></li>
+    </ul>
+  </li>
+  
+  <li class="nav__item nav__more" hidden>
+    <button type="button" class="nav__link nav__more-toggle" aria-haspopup="true" aria-expanded="false">More<span class="nav__caret" aria-hidden="true">&#9662;</span></button>
+    <ul class="nav__more-list list-reset"></ul>
+  </li>
+  
+</ul>
+
+        </div>
+      </div>
+
+      <div class="nav-buttons">
+        <i class="nav__icon nav__icon-menu ion ion-md-menu"></i>
+        <div class="search-button">
+          <i class="nav__icon nav__icon-search ion ion-md-search"></i>
+          <span>Search</span>
+        </div>
+      </div>
+
+      </div>
+    </div>
+  </div>
+</header>
+<!-- end header -->
+
+<div class="search">
+  <div class="container">
+    <div class="row">
+      <div class="col col-12">
+        <div class="search__box">
+          <div class="search__group">
+            <div class="search__close">
+              <i class="ion ion-md-close"></i>
+            </div>
+            <label for="js-search-input" class="screen-reader-text">Search for Blog</label>
+            <input type="text" id="js-search-input" class="search__text" placeholder="May you find a new world...">
+          </div>
+          <div id="js-results-container" class="search-results-list"></div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="container">
+
+  <div class="post-head">
+
+    <!-- <div class="post__author">
+      <a href="/about/" class="post__author-link"></a>
+    </div> -->
+
+    <h1 class="post-title">惠东古•清泉古寺</h1>
+
+    <div class="post__meta">
+      
+      <div class="post-tags">
+        
+          <a href="/tag/旅居.html" class="post-tags__tag">旅居</a>
+        
+          <a href="/tag/漫游中国.html" class="post-tags__tag">漫游中国</a>
+        
+          <a href="/tag/广东.html" class="post-tags__tag">广东</a>
+        
+          <a href="/tag/🚳.html" class="post-tags__tag">🚳</a>
+        
+          <a href="/tag/2026.html" class="post-tags__tag">2026</a>
+        
+      </div>
+      
+      <span class="post__date">
+        <time datetime="2026-10-15T00:00:00+08:00">Oct 15, 2026</time>
+      </span>
+    </div>
+
+  </div>
+
+  
+
+  <!-- begin post -->
+  <article class="post">
+
+    
+    
+    <!-- 正文初始隐藏，解锁后显示；密码由前端 JS 校验（轻量门禁，非真加密） -->
+    <div class="post__content" data-encrypted="1" hidden>
+      <p>这是一篇<strong>示例文章</strong>，用来演示 <code class="language-plaintext highlighter-rouge">ride:</code> 块在 front-matter 里的位置，以及它渲染出来的「骑行摘要盒 + 内联轨迹地图」。</p>
+
+<blockquote>
+  <p>本文是模板演示稿，轨迹用一份真实 GPX（<code class="language-plaintext highlighter-rouge">lushu1.gpx</code>，<strong>2491 个轨迹点 / 约 162 km / 海拔 1669–3307 m</strong>）。这份 GPX 含逐点海拔数据，所以下方会渲染<strong>行者风格坡度分色海拔剖面图</strong>。地图只标起点/终点，完整路线由全部轨迹点连成。</p>
+</blockquote>
+
+<h2 id="路线">路线</h2>
+
+<p>我们从<span class="geo-pin" id="loc-start" data-lat="34.9524" data-lng="104.7009">甘南起点</span>出发，翻越高原垭口，到<span class="geo-pin" id="loc-end" data-lat="34.6697" data-lng="103.5961">终点</span>收官，一路累计爬升超过 6000 m。</p>
+
+<p>正文里每处 <code class="language-plaintext highlighter-rouge">&lt;span class="geo-pin" data-lat=".." data-lng=".."&gt;地名&lt;/span&gt;</code> 都会被内联地图收集成一个点，按文档顺序连成线。没填 <code class="language-plaintext highlighter-rouge">gpx</code> 时这就是轨迹来源；要是哪天你导出了 GPX，把路径填进 <code class="language-plaintext highlighter-rouge">ride.gpx</code> 就会优先画真实轨迹。</p>
+
+<h2 id="这段想说什么">这段想说什么</h2>
+
+<p>骑行结构化不是为了炫技，是让「这篇骑了多远、爬了多少、走了几天、去了哪」变成机器可读的数据——年度统计页（RIDE•STATS）就是靠这些数字自动聚合出来的，不用手填。</p>
+
+<hr />
+
+<p><em>本示例文为演示用途，可随时删除；保留它也不会影响其它文章。</em></p>
+
+    </div>
+    <style>
+    .post-encrypt-locked{display:flex;justify-content:center;padding:3rem 1rem}
+    .post-encrypt-box{max-width:360px;width:100%;text-align:center;padding:2rem 1.5rem;border:1px solid rgba(0,0,0,.08);border-radius:14px;background:#fff;box-shadow:0 8px 30px rgba(0,0,0,.08);transition:background-color .3s,border-color .3s,box-shadow .3s}
+    .post-encrypt-lock{font-size:2.2rem;line-height:1;margin-bottom:.75rem;color:#1d1d1d;transition:color .3s}
+    .post-encrypt-tip{margin:0 0 1.2rem;color:#555;font-size:.95rem;font-family:'Proza Libre','PingFang SC','Microsoft YaHei',sans-serif;transition:color .3s}
+    .post-encrypt-form{display:flex;gap:.5rem;justify-content:center;flex-wrap:wrap}
+    .post-encrypt-field{flex:1 1 180px}
+    .post-encrypt-input{width:100%;padding:.55rem .8rem;border:1px solid rgba(0,0,0,.15);border-radius:8px;font-size:.95rem;background:#fff;color:#1d1d1d;box-sizing:border-box;font-family:'Proza Libre','PingFang SC','Microsoft YaHei',sans-serif;transition:border-color .2s,box-shadow .2s,background-color .3s,color .3s}
+    .post-encrypt-input::placeholder{color:#83807a}
+    .post-encrypt-input:focus{outline:none;border-color:#00ff6d;box-shadow:0 0 0 3px rgba(0,255,109,.18)}
+    .post-encrypt-btn{padding:.55rem 1.2rem;border:1px solid transparent;border-radius:8px;background:#1d1d1d;color:#fff;font-size:.95rem;font-family:'Orbitron','PingFang SC','Microsoft YaHei',sans-serif;font-weight:700;letter-spacing:1px;cursor:pointer;text-transform:uppercase;transition:all .3s ease}
+    .post-encrypt-btn:hover{background:#00ff6d;color:#000;border-color:#00ff6d}
+    .post-encrypt-err{margin:.9rem 0 0;color:#d64545;font-size:.85rem}
+    .sr-only{position:absolute;width:1px;height:1px;padding:0;margin:-1px;overflow:hidden;clip:rect(0,0,0,0);white-space:nowrap;border:0}
+    body.theme-dark .post-encrypt-box{border-color:rgba(255,255,255,.1);background:#1f2226;box-shadow:0 8px 30px rgba(0,0,0,.25)}
+    body.theme-dark .post-encrypt-lock{color:#00ff6d}
+    body.theme-dark .post-encrypt-tip{color:#a8adb2}
+    body.theme-dark .post-encrypt-input{background:#1b1e22;color:#e8edf1;border-color:rgba(255,255,255,.15)}
+    body.theme-dark .post-encrypt-input::placeholder{color:#83807a}
+    body.theme-dark .post-encrypt-input:focus{border-color:#00ff6d;box-shadow:0 0 0 3px rgba(0,255,109,.22)}
+    body.theme-dark .post-encrypt-btn{background:#1d1d1d;color:#fff;border-color:rgba(255,255,255,.15)}
+    body.theme-dark .post-encrypt-btn:hover{background:#00ff6d;color:#000;border-color:#00ff6d}
+    body.theme-dark .post-encrypt-err{color:#ff7b7b}
+    @media (prefers-color-scheme: dark){body:not(.theme-light):not(.theme-dark) .post-encrypt-box{border-color:rgba(255,255,255,.1);background:#1f2226;box-shadow:0 8px 30px rgba(0,0,0,.25)}body:not(.theme-light):not(.theme-dark) .post-encrypt-lock{color:#00ff6d}body:not(.theme-light):not(.theme-dark) .post-encrypt-tip{color:#a8adb2}body:not(.theme-light):not(.theme-dark) .post-encrypt-input{background:#1b1e22;color:#e8edf1;border-color:rgba(255,255,255,.15)}body:not(.theme-light):not(.theme-dark) .post-encrypt-input:focus{border-color:#00ff6d;box-shadow:0 0 0 3px rgba(0,255,109,.22)}body:not(.theme-light):not(.theme-dark) .post-encrypt-btn{background:#1d1d1d;color:#fff;border-color:rgba(255,255,255,.15)}body:not(.theme-light):not(.theme-dark) .post-encrypt-btn:hover{background:#00ff6d;color:#000;border-color:#00ff6d}body:not(.theme-light):not(.theme-dark) .post-encrypt-err{color:#ff7b7b}}
+    </style>
+    <div class="post-encrypt-locked">
+      <div class="post-encrypt-box">
+        <div class="post-encrypt-lock" aria-hidden="true"><i class="fa fa-lock"></i></div>
+        <p class="post-encrypt-tip">本文已加密 · 输入友情密钥查看</p>
+        <form class="post-encrypt-form" autocomplete="off">
+          <label class="post-encrypt-field">
+            <span class="sr-only">友情密钥</span>
+            <input class="post-encrypt-input" type="password" placeholder="友情密钥" autocomplete="off" required>
+          </label>
+          <button class="post-encrypt-btn" type="submit">解锁</button>
+        </form>
+        <p class="post-encrypt-err" role="alert" hidden></p>
+      </div>
+    </div>
+    <script>window.__POST_ENC_PASS__ = "iloveisanfeng";</script>
+    <script defer src="/js/post-lock.js"></script>
+    
+
+    <!-- 文章分享功能 -->
+    <!-- <div class="post__share">
+      <ul class="share__list list-reset">
+
+        <li class="share__item">
+          <a class="share__link share__facebook" href="https://www.facebook.com/sharer/sharer.php?u=https://isanfeng.github.io/China-Guangdong-Huizhou-Huidong-Qingquangusi"
+            onclick="window.open(this.href, 'pop-up', 'left=20,top=20,width=500,height=500,toolbar=1,resizable=0'); return false;"
+            title="Share on Facebook" rel="nofollow"><i class="ion ion-logo-facebook"></i></a>
+        </li>
+
+        <li class="share__item">
+          <a class="share__link share__twitter" href="https://twitter.com/intent/tweet?text=%E6%83%A0%E4%B8%9C%E5%8F%A4%E2%80%A2%E6%B8%85%E6%B3%89%E5%8F%A4%E5%AF%BA&url=https://isanfeng.github.io/China-Guangdong-Huizhou-Huidong-Qingquangusi"
+            onclick="window.open(this.href, 'pop-up', 'left=20,top=20,width=500,height=500,toolbar=1,resizable=0'); return false;"
+            title="Share on Twitter" rel="nofollow"><i class="ion ion-logo-twitter"></i></a>
+        </li>
+
+        <li class="share__item">
+          <a class="share__link share__pinterest" href="https://pinterest.com/pin/create/button/?url=https://isanfeng.github.io/China-Guangdong-Huizhou-Huidong-Qingquangusi&amp;media=https://isanfeng.github.io/images/posts/gd-hz-hd-qqgs.webp&amp;description=%E6%83%A0%E4%B8%9C%E5%8F%A4%E2%80%A2%E6%B8%85%E6%B3%89%E5%8F%A4%E5%AF%BA"
+          onclick="window.open(this.href, 'pop-up', 'left=20,top=20,width=900,height=500,toolbar=1,resizable=0'); return false;" title="Share on Pinterest"
+          rel="nofollow"><i class="ion ion-logo-pinterest"></i></a>
+        </li>
+        
+      </ul>
+    </div> -->
+
+  </article>
+  <!-- end post -->
+
+  <!-- 上一篇 / 下一篇：内部链接（SEO 地板 + 接住偶然来访的读者） -->
+  <nav class="post__pagination" aria-label="文章分页">
+    
+      <a class="post__pagination-link post__pagination-prev" href="/China-Guangdong-Huizhou-Shiliyintan" rel="prev">&larr; <span>旅居第1城•惠东十里银滩</span></a>
+    
+    
+      <a class="post__pagination-link post__pagination-next" href="/China-Guangdong-Huizhou-Huidong-WumingBeach" rel="next"><span>惠东蓝•无名沙滩</span> &rarr;</a>
+    
+  </nav>
+
+<!--评论系统型号1-->
+<!-- 改为 defer 异步加载，避免 167KB 第三方库在每篇 post 顶部阻塞解析；
+     初始化包在 DOMContentLoaded 内，确保 Valine 脚本先加载完再 new -->
+<script defer src="/assets/vendor/js/Valine.min.js"></script>
+<!--评论存储系统：https://console.leancloud.cn/apps-->
+<!--start 评论系统型号: https://valine.js.org/-->
+<div id="vcomments"></div>
+<script>
+  document.addEventListener('DOMContentLoaded', function () {
+    new Valine({
+        el: '#vcomments',
+        // appId/appKey 随 Valine 在浏览器端公开调用 LeanCloud，是 Valine「无后端」架构的固有设计，
+        // 无法隐藏（除非自建后端代理转发请求），故按设计保留。
+        // 仅关闭访客 IP 记录（recordIP）以降低隐私风险，详见下方配置。
+        appId: '6ISOmGAiqwM5tusFRGy3rzac-gzGzoHsz',
+        appKey: 'UQqz25rRuJ2V3ALSQknLsFC6',
+        placeholder: '思想需要碰撞才能产生火花。',
+        avatar: 'robohash',
+        pageSize: '9',
+        path: 'window.location.pathname',
+        recordIP: false,
+        enableQQ: true,
+        visitor: true,
+        emojiCDN: '//i0.hdslb.com/bfs/emote/',
+        emojiMaps: {
+            "tv_doge": "6ea59c827c414b4a2955fe79e0f6fd3dcd515e24.png",
+            "tv_亲亲": "a8111ad55953ef5e3be3327ef94eb4a39d535d06.png",
+            "tv_偷笑": "bb690d4107620f1c15cff29509db529a73aee261.png",
+            "tv_再见": "180129b8ea851044ce71caf55cc8ce44bd4a4fc8.png",
+            "tv_冷漠": "b9cbc755c2b3ee43be07ca13de84e5b699a3f101.png",
+            "tv_发怒": "34ba3cd204d5b05fec70ce08fa9fa0dd612409ff.png",
+            "tv_发财": "34db290afd2963723c6eb3c4560667db7253a21a.png",
+            "tv_可爱": "9e55fd9b500ac4b96613539f1ce2f9499e314ed9.png",
+            "tv_吐血": "09dd16a7aa59b77baa1155d47484409624470c77.png",
+            "tv_呆": "fe1179ebaa191569b0d31cecafe7a2cd1c951c9d.png",
+            "tv_呕吐": "9f996894a39e282ccf5e66856af49483f81870f3.png",
+            "tv_困": "241ee304e44c0af029adceb294399391e4737ef2.png",
+            "tv_坏笑": "1f0b87f731a671079842116e0991c91c2c88645a.png",
+            "tv_大佬": "093c1e2c490161aca397afc45573c877cdead616.png",
+            "tv_大哭": "23269aeb35f99daee28dda129676f6e9ea87934f.png",
+            "tv_委屈": "d04dba7b5465779e9755d2ab6f0a897b9b33bb77.png",
+            "tv_害羞": "a37683fb5642fa3ddfc7f4e5525fd13e42a2bdb1.png",
+            "tv_尴尬": "7cfa62dafc59798a3d3fb262d421eeeff166cfa4.png",
+            "tv_微笑": "70dc5c7b56f93eb61bddba11e28fb1d18fddcd4c.png",
+            "tv_思考": "90cf159733e558137ed20aa04d09964436f618a1.png",
+            "tv_惊吓": "0d15c7e2ee58e935adc6a7193ee042388adc22af.png"}
+    });
+  });
+</script>
+<!--end 评论系统型号1-->
+
+<!--动态线条背景-->
+<script type="text/javascript"
+color="220,220,220" opacity='0.6' zIndex="-2" count="150" src="/assets/vendor/js/canvas-nest.min.js">
+</script>
+
+<!--watermark start-->
+<!--site：https://zhensherlock.github.io/watermark-js-plus-->
+<!-- <script src="https://cdn.jsdelivr.net/npm/watermark-js-plus/dist/index.iife.min.js"></script> -->
+<script src="js/watermark/watermark-js-plus_dist_index.iife.min.js"></script>
+<!--明水印-->
+<script type="text/javascript">
+  const watermark = new WatermarkPlus.Watermark({
+    content: 'isanfeng',
+    width: 500,
+    height: 380
+  })
+  watermark.create();
+</script>   
+<!--暗水印--> 
+<!--
+  <script type="text/javascript">
+    const watermark = new BlindWatermark({
+      content: 'isanfeng',
+      width: 500,
+      height: 380,
+      onSuccess: () => {
+        // success callback
+      }
+    })
+  </script>     
+--> 
+<!--watermark end-->
+
+</div>
+
+
+
+
+
+
+
+<div class="container-big">
+  <div class="related-posts section is-related">
+
+    <div class="related-info">
+      <div class="container">
+        <div class="row">
+          <div class="col col-12">
+            <div class="related-inner">
+              <h5 class="related-title">You may also like</h5>
+              
+                
+                  
+                    <a href="/tag/旅居.html" class="related-tag">See all<span>旅居</span> <i class="ion ion-md-arrow-forward"></i></a>
+                  
+                
+                  
+                
+                  
+                
+                  
+                
+                  
+                
+              
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="row grid">
+    
+
+      
+      
+
+      
+
+      
+
+        <div class="article">
+          <div class="article__inner">
+
+            
+            <a class="article__image" href="/China-Guangdong-Huizhou-Huidong-Weigangwan">
+              <img class="lazy" data-src="/images/posts/gd-hz-hd-wgw.jpg" alt="惠东橙•维港湾">
+            </a>
+            
+
+            <div class="article__content">
+
+              <!-- <div class="article__author">
+                <a href="/about/" class="article__author-link"></a>
+              </div> -->
+
+              <h2 class="article__title">
+                <a href="/China-Guangdong-Huizhou-Huidong-Weigangwan">惠东橙•维港湾</a>
+              </h2>
+
+              <div class="article__meta">
+                
+                <div class="article-tags">
+                  
+                    <a href="/tag/旅居.html" class="article__tag">旅居</a>
+                  
+                    <a href="/tag/漫游中国.html" class="article__tag">漫游中国</a>
+                  
+                    <a href="/tag/广东.html" class="article__tag">广东</a>
+                  
+                    <a href="/tag/🚳.html" class="article__tag">🚳</a>
+                  
+                    <a href="/tag/2026.html" class="article__tag">2026</a>
+                  
+                </div>
+                
+              
+                <span class="article__date"><time datetime="2026-10-30T00:00:00+08:00">Oct 30, 2026</time></span>
+              </div>
+
+            </div>
+          </div>
+        </div>
+
+        
+        
+      
+    
+
+      
+      
+
+      
+
+      
+
+        <div class="article">
+          <div class="article__inner">
+
+            
+            <a class="article__image" href="/China-Guangdong-Huizhou-Huidong-NiuwanBeach">
+              <img class="lazy" data-src="/images/posts/gd-hz-hd-nwst.webp" alt="惠东蓝•牛湾">
+            </a>
+            
+
+            <div class="article__content">
+
+              <!-- <div class="article__author">
+                <a href="/about/" class="article__author-link"></a>
+              </div> -->
+
+              <h2 class="article__title">
+                <a href="/China-Guangdong-Huizhou-Huidong-NiuwanBeach">惠东蓝•牛湾</a>
+              </h2>
+
+              <div class="article__meta">
+                
+                <div class="article-tags">
+                  
+                    <a href="/tag/旅居.html" class="article__tag">旅居</a>
+                  
+                    <a href="/tag/漫游中国.html" class="article__tag">漫游中国</a>
+                  
+                    <a href="/tag/广东.html" class="article__tag">广东</a>
+                  
+                    <a href="/tag/🚳.html" class="article__tag">🚳</a>
+                  
+                    <a href="/tag/2026.html" class="article__tag">2026</a>
+                  
+                </div>
+                
+              
+                <span class="article__date"><time datetime="2026-10-30T00:00:00+08:00">Oct 30, 2026</time></span>
+              </div>
+
+            </div>
+          </div>
+        </div>
+
+        
+        
+      
+    
+
+      
+      
+
+      
+
+      
+
+        <div class="article">
+          <div class="article__inner">
+
+            
+            <a class="article__image" href="/China-Guangdong-Huizhou-Huidong-Haijiaodengta">
+              <img class="lazy" data-src="/images/posts/gd-hz-hd-hjdt.webp" alt="惠东蓝•既到海角何必天涯">
+            </a>
+            
+
+            <div class="article__content">
+
+              <!-- <div class="article__author">
+                <a href="/about/" class="article__author-link"></a>
+              </div> -->
+
+              <h2 class="article__title">
+                <a href="/China-Guangdong-Huizhou-Huidong-Haijiaodengta">惠东蓝•既到海角何必天涯</a>
+              </h2>
+
+              <div class="article__meta">
+                
+                <div class="article-tags">
+                  
+                    <a href="/tag/旅居.html" class="article__tag">旅居</a>
+                  
+                    <a href="/tag/漫游中国.html" class="article__tag">漫游中国</a>
+                  
+                    <a href="/tag/广东.html" class="article__tag">广东</a>
+                  
+                    <a href="/tag/🚳.html" class="article__tag">🚳</a>
+                  
+                    <a href="/tag/2026.html" class="article__tag">2026</a>
+                  
+                </div>
+                
+              
+                <span class="article__date"><time datetime="2026-10-30T00:00:00+08:00">Oct 30, 2026</time></span>
+              </div>
+
+            </div>
+          </div>
+        </div>
+
+        
+        
+          
+    </div>
+  </div>
+</div>
+    </main> 
+    <!-- end content -->
+    
+    <div class="top" title="Top"><ion-icon name="bicycle" size="large"></ion-icon></div>
+    
+<!-- begin footer-widgets -->
+<div class="footer-widgets">
+  <div class="container">
+    <div class="row">
+      <!-- 人生倒计时引用的CSS, JS -->
+<link rel="stylesheet" type="text/css" href="/js/timeinfo/timeinfo.css">
+<style data-timeinfo-random>.aside-count .content .item .progress .progress-bar .progress-inner-1{background:#d8ed82;background-image:linear-gradient(135deg,#c1e33b 25%,transparent 25%,transparent 50%,#c1e33b 50%,#c1e33b 75%,transparent 75%,transparent 100%);background-size:30px 30px}.aside-count .content .item .progress .progress-bar .progress-inner-2{background:#cc82ed;background-image:linear-gradient(135deg,#af3be3 25%,transparent 25%,transparent 50%,#af3be3 50%,#af3be3 75%,transparent 75%,transparent 100%);background-size:30px 30px}.aside-count .content .item .progress .progress-bar .progress-inner-3{background:#82aaed;background-image:linear-gradient(135deg,#3b79e3 25%,transparent 25%,transparent 50%,#3b79e3 50%,#3b79e3 75%,transparent 75%,transparent 100%);background-size:30px 30px}.aside-count .content .item .progress .progress-bar .progress-inner-4{background:#ed8382;background-image:linear-gradient(135deg,#e33d3b 25%,transparent 25%,transparent 50%,#e33d3b 50%,#e33d3b 75%,transparent 75%,transparent 100%);background-size:30px 30px}.aside-count .content .item .progress .progress-bar .progress-inner-5{background:#82eda2;background-image:linear-gradient(135deg,#3be36d 25%,transparent 25%,transparent 50%,#3be36d 50%,#3be36d 75%,transparent 75%,transparent 100%);background-size:30px 30px}</style>
+<script src="/js/vendors/jquery-3.7.1.min.js"></script>
+<script src="/js/timeinfo/timeinfo.js"></script>
+<!-- 人生倒计时引用的JS -->     
+    
+<!-- 时间倒计时代码 -->
+<div class="col col-4 col-d-6 col-t-12">
+    <div class="widget widget-subscribe">
+        <div class="widget__head">
+            <div class="sidebar-box classListBox">
+                <div class="aside aside-count">
+                    <h3 class="widget__title">Countdown to Life</h3>
+                    <div class="content">
+
+                        <div class="item" id="dayProgress">
+                            <div class="title">今日已经过去<span></span>小时</div>
+                            <div class="progress">
+                                <div class="progress-bar">
+                                    <div class="progress-inner progress-inner-1"></div>
+                                </div>
+                                <div class="progress-percentage"></div>
+                            </div>
+                        </div>
+                        <div class="item" id="weekProgress">
+                            <div class="title">这周已经过去<span></span>天</div>
+                            <div class="progress">
+                                <div class="progress-bar">
+                                    <div class="progress-inner progress-inner-2"></div>
+                                </div>
+                                <div class="progress-percentage"></div>
+                            </div>
+                        </div>
+                        <div class="item" id="monthProgress">
+                            <div class="title">本月已经过去<span></span>天</div>
+                            <div class="progress">
+                                <div class="progress-bar">
+                                    <div class="progress-inner progress-inner-3"></div>
+                                </div>
+                                <div class="progress-percentage"></div>
+                            </div>
+                        </div>
+                        <div class="item" id="yearProgress">
+                            <div class="title">今年已经过去<span></span>个月</div>
+                            <div class="progress">
+                                <div class="progress-bar">
+                                    <div class="progress-inner progress-inner-4"></div>
+                                </div>
+                                <div class="progress-percentage"></div>
+                            </div>
+                        </div>
+                        <div class="item" id="lifeProgress">
+                            <div class="title">人生已经过去<span></span>天</div>
+                            <div class="progress">
+                                <div class="progress-bar">
+                                    <div class="progress-inner progress-inner-5"></div>
+                                </div>
+                                <div class="progress-percentage"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div style="border:1px dashed #1d1d1d;margin-top:24px"></div>
+    </div>
+</div>
+<!-- 时间倒计时代码 -->
+      
+<div class="col col-4 col-d-6 col-t-12">
+  <div class="widget widget-tag-cloud">
+    <div class="widget__head">
+      <h3 class="widget__title">Explore Tags</h3>
+    </div>
+    <div class="tag__cloud">
+      <a class="t" href="/tag/japan.html" title="Japan · 4 篇" style="font-size:23.8px;animation-delay:-0.0s">Japan</a>
+<a class="t" href="/tag/深圳.html" title="深圳 · 1 篇" style="font-size:13.0px;animation-delay:3.63s">深圳</a>
+<a class="t" href="/tag/🔖🔜.html" title="🔖🔜 · 2 篇" style="font-size:19.0px;animation-delay:3.26s">🔖🔜</a>
+<a class="t" href="/tag/2013.html" title="2013 · 2 篇" style="font-size:19.0px;animation-delay:2.89s">2013</a>
+<a class="t" href="/tag/江苏.html" title="江苏 · 3 篇" style="font-size:21.9px;animation-delay:2.52s">江苏</a>
+<a class="t" href="/tag/四川.html" title="四川 · 1 篇" style="font-size:13.0px;animation-delay:2.15s">四川</a>
+<a class="t" href="/tag/bikepacking.html" title="bikepacking · 72 篇" style="font-size:41.2px;animation-delay:1.78s">bikepacking</a>
+<a class="t" href="/tag/2017.html" title="2017 · 3 篇" style="font-size:21.9px;animation-delay:1.41s">2017</a>
+<a class="t" href="/tag/湖北.html" title="湖北 · 8 篇" style="font-size:28.3px;animation-delay:1.04s">湖北</a>
+<a class="t" href="/tag/2011.html" title="2011 · 2 篇" style="font-size:19.0px;animation-delay:0.67s">2011</a>
+<a class="t" href="/tag/fire.html" title="Fire · 1 篇" style="font-size:13.0px;animation-delay:0.3s">Fire</a>
+<a class="t" href="/tag/宁波.html" title="宁波 · 1 篇" style="font-size:13.0px;animation-delay:3.93s">宁波</a>
+<a class="t" href="/tag/2018.html" title="2018 · 5 篇" style="font-size:25.3px;animation-delay:3.56s">2018</a>
+<a class="t" href="/tag/安徽.html" title="安徽 · 6 篇" style="font-size:26.4px;animation-delay:3.19s">安徽</a>
+<a class="t" href="/tag/旅居.html" title="旅居 · 7 篇" style="font-size:27.4px;animation-delay:2.82s">旅居</a>
+<a class="t" href="/tag/🚳.html" title="🚳 · 120 篇" style="font-size:44.0px;animation-delay:2.45s">🚳</a>
+<a class="t" href="/tag/cambodia.html" title="Cambodia · 3 篇" style="font-size:21.9px;animation-delay:2.08s">Cambodia</a>
+<a class="t" href="/tag/thailand.html" title="Thailand · 3 篇" style="font-size:21.9px;animation-delay:1.71s">Thailand</a>
+<a class="t" href="/tag/2026.html" title="2026 · 22 篇" style="font-size:34.4px;animation-delay:1.34s">2026</a>
+<a class="t" href="/tag/2019.html" title="2019 · 3 篇" style="font-size:21.9px;animation-delay:0.97s">2019</a>
+<a class="t" href="/tag/2015.html" title="2015 · 1 篇" style="font-size:13.0px;animation-delay:0.6s">2015</a>
+<a class="t" href="/tag/山东.html" title="山东 · 7 篇" style="font-size:27.4px;animation-delay:0.23s">山东</a>
+<a class="t" href="/tag/south-korea.html" title="South Korea · 1 篇" style="font-size:13.0px;animation-delay:3.86s">South Korea</a>
+<a class="t" href="/tag/2025.html" title="2025 · 48 篇" style="font-size:38.9px;animation-delay:3.49s">2025</a>
+<a class="t" href="/tag/2016.html" title="2016 · 1 篇" style="font-size:13.0px;animation-delay:3.12s">2016</a>
+<a class="t" href="/tag/浙江.html" title="浙江 · 28 篇" style="font-size:35.8px;animation-delay:2.75s">浙江</a>
+<a class="t" href="/tag/2020.html" title="2020 · 3 篇" style="font-size:21.9px;animation-delay:2.38s">2020</a>
+<a class="t" href="/tag/北京.html" title="北京 · 1 篇" style="font-size:13.0px;animation-delay:2.01s">北京</a>
+<a class="t" href="/tag/带爸妈看世界.html" title="带爸妈看世界 · 16 篇" style="font-size:32.5px;animation-delay:1.64s">带爸妈看世界</a>
+<a class="t" href="/tag/广东.html" title="广东 · 15 篇" style="font-size:32.1px;animation-delay:1.27s">广东</a>
+<a class="t" href="/tag/青海.html" title="青海 · 1 篇" style="font-size:13.0px;animation-delay:0.9s">青海</a>
+<a class="t" href="/tag/philippines.html" title="Philippines · 1 篇" style="font-size:13.0px;animation-delay:0.53s">Philippines</a>
+<a class="t" href="/tag/上海.html" title="上海 · 3 篇" style="font-size:21.9px;animation-delay:0.16s">上海</a>
+<a class="t" href="/tag/香港.html" title="香港 · 7 篇" style="font-size:27.4px;animation-delay:3.79s">香港</a>
+<a class="t" href="/tag/2021.html" title="2021 · 8 篇" style="font-size:28.3px;animation-delay:3.42s">2021</a>
+<a class="t" href="/tag/余生可期.html" title="余生可期 · 5 篇" style="font-size:25.3px;animation-delay:3.05s">余生可期</a>
+<a class="t" href="/tag/漫游地球.html" title="漫游地球 · 14 篇" style="font-size:31.7px;animation-delay:2.68s">漫游地球</a>
+<a class="t" href="/tag/福建.html" title="福建 · 9 篇" style="font-size:29.0px;animation-delay:2.31s">福建</a>
+<a class="t" href="/tag/2023.html" title="2023 · 13 篇" style="font-size:31.2px;animation-delay:1.94s">2023</a>
+<a class="t" href="/tag/海南.html" title="海南 · 1 篇" style="font-size:13.0px;animation-delay:1.57s">海南</a>
+<a class="t" href="/tag/漫游中国.html" title="漫游中国 · 118 篇" style="font-size:43.9px;animation-delay:1.2s">漫游中国</a>
+<a class="t" href="/tag/西安.html" title="西安 · 1 篇" style="font-size:13.0px;animation-delay:0.83s">西安</a>
+<a class="t" href="/tag/重庆.html" title="重庆 · 1 篇" style="font-size:13.0px;animation-delay:0.46s">重庆</a>
+<a class="t" href="/tag/2024.html" title="2024 · 20 篇" style="font-size:33.8px;animation-delay:0.09s">2024</a>
+<a class="t" href="/tag/装备.html" title="装备 · 2 篇" style="font-size:19.0px;animation-delay:3.72s">装备</a>
+<a class="t" href="/tag/广西.html" title="广西 · 2 篇" style="font-size:19.0px;animation-delay:3.35s">广西</a>
+<a class="t" href="/tag/贵州.html" title="贵州 · 8 篇" style="font-size:28.3px;animation-delay:2.98s">贵州</a>
+<a class="t" href="/tag/hiking.html" title="hiking · 54 篇" style="font-size:39.5px;animation-delay:2.61s">hiking</a>
+<a class="t" href="/tag/2022.html" title="2022 · 2 篇" style="font-size:19.0px;animation-delay:2.24s">2022</a>
+<a class="t" href="/tag/江西.html" title="江西 · 15 篇" style="font-size:32.1px;animation-delay:1.87s">江西</a>
+<a class="t" href="/tag/meditation.html" title="Meditation · 1 篇" style="font-size:13.0px;animation-delay:1.5s">Meditation</a>
+<a class="t" href="/tag/malaysia.html" title="Malaysia · 1 篇" style="font-size:13.0px;animation-delay:1.13s">Malaysia</a>
+<a class="t" href="/tag/台湾.html" title="台湾 · 1 篇" style="font-size:13.0px;animation-delay:0.76s">台湾</a>
+    </div>
+  </div>
+</div>
+
+    </div>
+  </div>
+</div>
+<!-- end footer-widgets -->
+
+<!-- begin footer -->
+<footer class="footer">
+  <div class="container">
+    <div class="row">
+      <div class="col col-12">
+
+        <div class="below_copyright" >
+          <div>
+            <a href="/uptime-status/index.html" target="_blank">
+              <i class="fa fa-quote-left" aria-hidden="true"></i> <ruby>
+                好好生活
+                <rp>(</rp>
+                  <rt>hǎo hǎo qí chē</rt>
+                <rp>)</rp>
+              </ruby> <i class="fa fa-heartbeat" aria-hidden="true"></i> <ruby>
+                慢慢老去
+                <rp>(</rp>
+                  <rt>kuài lè lǎo qù</rt>
+                <rp>)</rp>
+              </ruby> <i class="fa fa-quote-right" aria-hidden="true"></i>
+            </a>
+          </div>
+          <div class="below_copyright">
+            <p style="color:#00ff6d">
+              <span id="timeDate">载入天数...</span><span id="times">载入时分秒...</span>
+              <script>
+                var now = new Date();
+                function createtime() {
+                  var grt= new Date("1/1/2021 00:00:00");//在此处修改你的建站时间
+                  now.setTime(now.getTime()+250);
+                  days = (now - grt ) / 1000 / 60 / 60 / 24; dnum = Math.floor(days);
+                  hours = (now - grt ) / 1000 / 60 / 60 - (24 * dnum); hnum = Math.floor(hours);
+                  if(String(hnum).length ==1 ){hnum = "0" + hnum;} minutes = (now - grt ) / 1000 /60 - (24 * 60 * dnum) - (60 * hnum);
+                  mnum = Math.floor(minutes); if(String(mnum).length ==1 ){mnum = "0" + mnum;}
+                  seconds = (now - grt ) / 1000 - (24 * 60 * 60 * dnum) - (60 * 60 * hnum) - (60 * mnum);
+                  snum = Math.round(seconds); if(String(snum).length ==1 ){snum = "0" + snum;}
+                  document.getElementById("timeDate").innerHTML = "<i class=\"fa fa-bicycle\" aria-hidden=\"true\"></i>   "+dnum+" 天";
+                  document.getElementById("times").innerHTML = hnum + " 小时 " + mnum + " 分 " + snum + " 秒   <i class=\"fa fa-bicycle fa-flip-horizontal\" aria-hidden=\"true\"></i>";
+                }
+              setInterval("createtime()",250);
+              </script>
+            </p>
+          </div>
+
+          <div class="below_copyright">
+            <p>
+              2026 &copy; <a href="mailto:wangsf927@163.com" title="有事请邮件联系我哦">∴𝒾sanfeng∴</a>
+            </p>
+            <p>
+              <ion-icon name="chevron-back-outline"></ion-icon>三丰朋友圈<ion-icon name="chevron-forward-outline"></ion-icon><br>
+              <script type="text/JavaScript" src="/friend_feed.js"></script>
+            </p>
+            <p>
+              <ion-icon name="caret-back"></ion-icon><ion-icon name="reorder-four"></ion-icon>这里是最<a href="https://v6.51.la/report/overview?comId=49934" target="_blank">底部</a>啦<ion-icon name="reorder-four"></ion-icon><ion-icon name="caret-forward"></ion-icon>
+              <!-- https://v6.51.la/report/overview?comId=49934 -->
+            </p>
+          </div>
+        </div>
+
+        <!-- 51.la 数据挂件（访客统计展示，置于 footer 最底部） -->
+        <div class="la-data-widget" style="text-align:center; margin: 0.5rem auto 0.4rem;">
+          <script id="LA-DATA-WIDGET" crossorigin="anonymous" charset="UTF-8" src="https://v6-widget.51.la/v6/JZBjGooA71Cakwgk/quote.js?theme=#B3B3B4,#333333,#999999,#333333,#FFFFFF,#979699,12&f=12&display=0,1,0,1,0,1,1,1"></script>
+        </div>
+
+      </div>
+    </div>
+  </div>
+
+</footer>
+<!-- end footer -->
+
+<!-- 音乐播放器（独立模块，见 _includes/music-player.html） -->
+<!-- ============================================================= -->
+<!-- 音乐播放器模块（独立）                                          -->
+<!-- 仅依赖本文件内的本地资源，不引用其他 widget 的脚本/全局变量。   -->
+<!-- 来源已本地化：aplayer@1.10.1 / meting@2.0.1 -> assets/vendor/ -->
+<!-- 运行时唯一外部请求：meting_api（音乐数据，国内可达，功能必需）。  -->
+<!-- ============================================================= -->
+<div class="music-player-module">
+  <link rel="stylesheet" href="/assets/vendor/css/aplayer.min.css">
+  <script src="/assets/vendor/js/aplayer.min.js"></script>
+  <script src="/assets/vendor/js/meting.min.js"></script>
+  <script>
+    // Meting 后端 API（仅此处使用，不污染其他模块）
+    var meting_api = 'https://api.injahow.cn/meting/?server=:server&type=:type&id=:id&auth=:auth&r=:r';
+    // 备用接口（如需切换，取消注释对应行即可）：
+    // var meting_api = 'https://meting.qjqq.cn/?server=:server&type=:type&id=:id&auth=:auth&r=:r';
+    // var meting_api = 'https://api.moeyao.cn/meting/?server=:server&type=:type&id=:id';
+    // var meting_api = 'https://meting-api.talen.top/meting/api?server=:server&type=:type&id=:id';
+  </script>
+  <meting-js
+      id="5350939993"
+      lrc-type="0"
+      server="netease"
+      type="playlist"
+      fixed="true"
+      list-folded="true"
+      order="random"
+      loop="all"
+      mutex="true"
+      mini="true"
+      volume="0.5">
+  </meting-js>
+  <script>
+    // 暂停本站音乐播放器: 直接操作 APlayer 内部的 <audio> 元素 —— 最可靠, 不依赖实例挂载点/事件名
+    function getMusicAudio() {
+      return document.querySelector('meting-js audio') || document.querySelector('audio');
+    }
+    function getPlayer() {
+      var el = document.querySelector('meting-js');
+      return (el && el.aplayer) ? el.aplayer : null;
+    }
+    window.__pauseMusic = function () {
+      var audio = getMusicAudio();
+      if (audio && !audio.paused) {
+        try { audio.pause(); } catch (e) {}
+      }
+    };
+    // 注: 用户"点击视频"的时间戳 window.__videoFocusAt 由 js/common.js 写入, 供下方仲裁使用。
+
+    // ===== 跨页续播: 把播放状态存入 sessionStorage, 切页后新页面自动恢复 =====
+    var STORE_KEY = '__musicState';
+    var lastSave = 0;
+    function saveState() {
+      var audio = getMusicAudio();
+      if (!audio) return;
+      var now = Date.now();
+      if (now - lastSave < 1000) return; // 1s 节流, 避免频繁写
+      lastSave = now;
+      try {
+        var st = { playing: !audio.paused, currentTime: audio.currentTime || 0, name: '' };
+        var ap = getPlayer();
+        if (ap && ap.list && ap.list.list && ap.list.list.length) {
+          var cur = ap.list.list[ap.list.index];
+          if (cur) st.name = cur.name || '';
+        }
+        sessionStorage.setItem(STORE_KEY, JSON.stringify(st));
+        // 持久化用户播放偏好(跨会话): 仅记录用户显式意图, 默认不播放
+        try { localStorage.setItem('__musicOn', st.playing ? '1' : '0'); } catch (e2) {}
+        // 持久化完整播放状态(跨会话续播用): 歌名 + 进度 + 是否播放
+        try { localStorage.setItem('__musicState', JSON.stringify(st)); } catch (e3) {}
+      } catch (e) {}
+    }
+    // 把一份播放状态(st)应用到当前播放器: 切回同一首(按歌名匹配, 兼容 random 洗牌)+ 定位进度继续播
+    function applyRestore(st) {
+      var ap = getPlayer();
+      var audio = getMusicAudio();
+      if (!audio || !st || !st.playing) return false; // 暂停态不恢复
+
+      var targetIdx = -1;
+      if (ap && ap.list && ap.list.list && ap.list.list.length && st.name) {
+        for (var i = 0; i < ap.list.list.length; i++) {
+          if (ap.list.list[i].name === st.name) { targetIdx = i; break; }
+        }
+        if (targetIdx >= 0 && targetIdx !== ap.list.index) {
+          try { ap.list.switch(targetIdx); } catch (e) {}
+        }
+      }
+      var doPlay = function () {
+        var p = audio.play();
+        if (p && typeof p.catch === 'function') p.catch(function () {});
+        if (st.currentTime > 0) {
+          try { audio.currentTime = st.currentTime; } catch (e2) {}
+        }
+      };
+      // 切歌后需等新音频就绪再定位/播放; 否则直接播
+      if (targetIdx >= 0 && targetIdx !== ap.list.index) {
+        var onReady = function () {
+          doPlay();
+          audio.removeEventListener('loadeddata', onReady);
+          audio.removeEventListener('canplay', onReady);
+        };
+        audio.addEventListener('loadeddata', onReady);
+        audio.addEventListener('canplay', onReady);
+        setTimeout(function () { if (audio.paused) doPlay(); }, 1500); // 兜底
+      } else {
+        doPlay();
+      }
+      return true;
+    }
+    // 切页后恢复(同会话, sessionStorage 即时续播)
+    function restoreState() {
+      var raw;
+      try { raw = sessionStorage.getItem(STORE_KEY); } catch (e) { return false; }
+      if (!raw) return false;
+      var st; try { st = JSON.parse(raw); } catch (e) { return false; }
+      return applyRestore(st);
+    }
+    // 跨会话恢复(从 localStorage 读取完整状态): 仅当用户偏好为"开启"时由首次手势触发
+    function restoreFromStorage() {
+      var raw;
+      try { raw = localStorage.getItem('__musicState'); } catch (e) { return false; }
+      if (!raw) return false;
+      var st; try { st = JSON.parse(raw); } catch (e) { return false; }
+      return applyRestore(st);
+    }
+    // 轮询等播放器与歌单就绪: 绑定保存 + 触发恢复
+    var tries = 0;
+    var t = setInterval(function () {
+      var audio = getMusicAudio();
+      var ap = getPlayer();
+      if (audio) {
+        audio.addEventListener('play', saveState);
+        audio.addEventListener('pause', saveState);
+        audio.addEventListener('timeupdate', saveState);
+        if (ap && ap.list && ap.list.list && ap.list.list.length) {
+          restoreState();
+          clearInterval(t);
+        } else if (tries++ > 150) {
+          // 歌单迟迟未加载: 降级为"之前在播就直接 play"(从当前默认曲开始)
+          var raw2; try { raw2 = sessionStorage.getItem(STORE_KEY); } catch (e) {}
+          if (raw2) {
+            try {
+              if (JSON.parse(raw2).playing) {
+                var p = audio.play();
+                if (p && p.catch) p.catch(function () {});
+              }
+            } catch (e) {}
+          }
+          clearInterval(t);
+        }
+      } else if (tries++ > 150) {
+        clearInterval(t);
+      }
+    }, 100);
+
+    // 浏览器自动播放策略 + 用户偏好: 默认不自动播放; 仅当用户曾显式开启音乐
+    // (localStorage.__musicOn === '1') 时, 才在首次交互补一次 play() 恢复其偏好。
+    // 首次冷访问(无偏好)绝不主动起播, 用户需自行点击播放器。
+    (function () {
+      function startOnGesture(e) {
+        // 用户直接操作播放器时, 交给播放器自身处理, 不抢恢复(避免手势冲突)
+        if (e && e.target && e.target.closest && e.target.closest('.aplayer, meting-js, .music-player-module')) return;
+        // 若用户最近(3s 内)在播视频, 不抢着起音乐 —— 让视频优先
+        if (window.__videoFocusAt && (Date.now() - window.__videoFocusAt) < 3000) return;
+        // 仅在用户曾开启音乐(localStorage 偏好)时, 首次手势补播; 否则保持默认不播放
+        try { if (localStorage.getItem('__musicOn') !== '1') return; } catch (err) { return; }
+        var audio = getMusicAudio();
+        if (audio && audio.paused) {
+          // 优先按完整状态恢复(同一首 + 进度); 失败则退化为直接起播
+          var restored = restoreFromStorage();
+          if (!restored) {
+            var p = audio.play();
+            if (p && typeof p.catch === 'function') p.catch(function () {});
+          }
+          window.removeEventListener('pointerdown', startOnGesture);
+          window.removeEventListener('keydown', startOnGesture);
+          window.removeEventListener('touchstart', startOnGesture);
+        }
+      }
+      // 注意: 不监听 scroll —— 滚动只是浏览行为, 不应触发音乐起播,
+      // 否则滚动会唤醒音乐 -> 音乐 play 事件暂停所有视频(音频↔视频互斥),
+      // 导致"滚动即暂停视频"的体验问题。
+      ['pointerdown', 'keydown', 'touchstart'].forEach(function (ev) {
+        window.addEventListener(ev, startOnGesture, { passive: true });
+      });
+    })();
+
+    // 音乐开始播放(底层 <audio> 的 play 事件)时, 暂停所有 Bilibili 视频(音频↔视频互斥)。
+    // 若用户刚碰过视频(2s 内), 本次 play 视为手势冲突余波, 音乐主动让位(视频优先)。
+    (function () {
+      function onMusicPlay() {
+        if (window.__videoFocusAt && (Date.now() - window.__videoFocusAt) < 2000) {
+          window.__pauseMusic();
+          return;
+        }
+        if (window.__pauseAllBilibili) window.__pauseAllBilibili();
+      }
+      // MetingJS 异步创建 <audio>, 轮询绑定其 play 事件(最多 ~15s)
+      var tries2 = 0;
+      var t2 = setInterval(function () {
+        var audio = getMusicAudio();
+        if (audio) {
+          audio.addEventListener('play', onMusicPlay);
+          clearInterval(t2);
+        } else if (tries2++ > 150) {
+          clearInterval(t2);
+        }
+      }, 100);
+    })();
+  </script>
+</div>
+
+    <script src="/js/vendors/simple-jekyll-search.min.js"></script>
+<script src="/js/vendors/jquery.fitvids.js"></script>
+<script src="/js/vendors/transition.js"></script>
+<script src="/js/vendors/zoom.min.js"></script>
+<script src="/js/vendors/lazyload.min.js"></script>
+<script src="/js/common.js?v=20261102webp"></script>
+  </body>
+</html>

@@ -49,14 +49,10 @@ a_travel-map 统一管理脚本（添加 / 删除 / 更新 三合一，无需手
 """
 
 import argparse
-import json
 import os
 import re
 import shutil
-import subprocess
 import sys
-from http.server import BaseHTTPRequestHandler, ThreadingHTTPServer
-from urllib.parse import urlparse, parse_qs
 
 ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 MARKERS_YML = os.path.join(ROOT, "_data", "travel_markers.yml")
@@ -669,7 +665,7 @@ def main():
 
     pl = sub.add_parser("list", help="列出全部（带 #N）")
 
-    ps = sub.add_parser("serve", help="启动本地写作后台（托管 _site/ + /api/markers 写接口 + 自动 jekyll build）")
+    ps = sub.add_parser("serve", help="启动本地写作后台（已统一到 scripts/serve.py；此入口仅委托）")
     ps.add_argument("--port", type=int, default=8000, help="监听端口（默认 8000）")
     ps.add_argument("--token", default=None, help="访问令牌（不填则随机生成并打印）")
     ps.add_argument("--no-build", action="store_true", help="保存后只写 YAML，不自动 jekyll build（配合 jekyll serve --watch 使用）")
@@ -783,243 +779,13 @@ def main():
         serve(args)
         return
 
-
 # ----------------------------------------------------------------------------
-# 本地 HTTP 服务（serve 子命令）：托管 _site/ + /api/markers 写接口 + 自动重建
-# 仅本机 127.0.0.1，绝不暴露公网；线上 GitHub Pages 静态站不受影响。
+# 本地写作后台：已统一到 scripts/serve.py（同时托管 moments + markers + /api/publish）。
+# 这里保留 serve 子命令作为兼容入口，直接委托给统一后端。
 # ----------------------------------------------------------------------------
-SITE_DIR = os.path.join(ROOT, "_site")
-BUILD_CMD = ["bundle", "exec", "jekyll", "build"]
-_serve_cfg = {"token": "", "do_build": True}
-
-
-def run_build():
-    """写接口后触发 jekyll 重建；失败仅记录，不阻断。"""
-    if not _serve_cfg["do_build"]:
-        return True
-    try:
-        r = subprocess.run(BUILD_CMD, cwd=ROOT, capture_output=True, text=True, timeout=300)
-        if r.returncode != 0:
-            sys.stderr.write("[serve] jekyll build 失败：\n" + (r.stderr or r.stdout or "")[-2000:] + "\n")
-            return False
-        return True
-    except Exception as e:
-        sys.stderr.write(f"[serve] jekyll build 异常：{e}\n")
-        return False
-
-
-def _entry_to_json(d, disp):
-    return {
-        "index": disp,
-        "title": d.get("title"),
-        "country": d.get("country"),
-        "latitude": d.get("latitude"),
-        "longitude": d.get("longitude"),
-        "url": d.get("url"),
-    }
-
-
-def _list_json():
-    _, dicts = load()
-    return [_entry_to_json(d, i + 1) for i, d in enumerate(dicts)]
-
-
-def _check_token(q):
-    t = q.get("token", [""])[0]
-    return t == _serve_cfg["token"]
-
-
-def _send_json(handler, obj, code=200):
-    body = json.dumps(obj, ensure_ascii=False).encode("utf-8")
-    handler.send_response(code)
-    handler.send_header("Content-Type", "application/json; charset=utf-8")
-    handler.send_header("Content-Length", str(len(body)))
-    handler.end_headers()
-    handler.wfile.write(body)
-
-
-def _serve_static(handler, path):
-    if path in ("", "/"):
-        path = "/index.html"
-    rel = path.lstrip("/")
-    full = os.path.normpath(os.path.join(SITE_DIR, rel))
-    base = os.path.normpath(SITE_DIR)
-    if not full.startswith(base):
-        handler.send_error(404, "Not Found")
-        return
-    if not os.path.isfile(full):
-        # 无扩展名的路径尝试补 .html（如 /a_travel-map）
-        if not os.path.splitext(full)[1] and os.path.isfile(full + ".html"):
-            full = full + ".html"
-        else:
-            handler.send_error(404, "Not Found")
-            return
-    try:
-        with open(full, "rb") as f:
-            data = f.read()
-    except Exception:
-        handler.send_error(404, "Not Found")
-        return
-    ext = os.path.splitext(full)[1].lower()
-    mime = {
-        ".html": "text/html; charset=utf-8",
-        ".js": "application/javascript; charset=utf-8",
-        ".css": "text/css; charset=utf-8",
-        ".json": "application/json; charset=utf-8",
-        ".svg": "image/svg+xml",
-        ".png": "image/png",
-        ".jpg": "image/jpeg",
-        ".jpeg": "image/jpeg",
-        ".webp": "image/webp",
-        ".gif": "image/gif",
-        ".ico": "image/x-icon",
-        ".woff2": "font/woff2",
-        ".woff": "font/woff",
-        ".ttf": "font/ttf",
-        ".mp4": "video/mp4",
-    }.get(ext, "application/octet-stream")
-    handler.send_response(200)
-    handler.send_header("Content-Type", mime)
-    handler.send_header("Content-Length", str(len(data)))
-    handler.end_headers()
-    handler.wfile.write(data)
-
-
-class _Handler(BaseHTTPRequestHandler):
-    def log_message(self, *a):
-        pass
-
-    def _body_json(self):
-        length = int(self.headers.get("Content-Length", "0") or "0")
-        if length == 0:
-            return {}
-        raw = self.rfile.read(length)
-        try:
-            return json.loads(raw.decode("utf-8"))
-        except Exception:
-            return {}
-
-    def do_GET(self):
-        u = urlparse(self.path)
-        q = parse_qs(u.query)
-        if u.path in ("/admin", "/admin/"):
-            self.send_response(302)
-            self.send_header("Location", f"/a_travel-map?admin={_serve_cfg['token']}")
-            self.end_headers()
-            return
-        if u.path == "/api/markers":
-            if not _check_token(q):
-                _send_json(self, {"error": "unauthorized"}, 403)
-                return
-            _send_json(self, _list_json())
-            return
-        _serve_static(self, u.path)
-
-    def do_POST(self):
-        u = urlparse(self.path)
-        q = parse_qs(u.query)
-        if u.path == "/api/markers":
-            if not _check_token(q):
-                _send_json(self, {"error": "unauthorized"}, 403)
-                return
-            data = self._body_json()
-            title = str(data.get("title", "")).strip()
-            if not title:
-                _send_json(self, {"error": "title 不能为空"}, 400)
-                return
-            try:
-                lat = float(data.get("latitude"))
-                lng = float(data.get("longitude"))
-            except (TypeError, ValueError):
-                _send_json(self, {"error": "latitude / longitude 必须是数字"}, 400)
-                return
-            country = str(data.get("country") or "").strip() or None
-            url = str(data.get("url") or "").strip() or None
-            m = {"title": title, "country": country, "latitude": lat, "longitude": lng, "url": url}
-            prepend = str(data.get("prepend", "true")).lower() not in ("0", "false", "no")
-            do_add([m], prepend, False, inbox_path=None, clear=False)
-            ok = run_build()
-            _, dicts = load()
-            _send_json(self, {"ok": True, "build": ok, "total": len(dicts),
-                                "admin": f"/a_travel-map?admin={_serve_cfg['token']}"})
-            return
-        self.send_error(404)
-
-    def do_PUT(self):
-        u = urlparse(self.path)
-        q = parse_qs(u.query)
-        m = re.match(r"^/api/markers/(\d+)$", u.path)
-        if m:
-            if not _check_token(q):
-                _send_json(self, {"error": "unauthorized"}, 403)
-                return
-            n = int(m.group(1))
-            header, dicts = load()
-            total = len(dicts)
-            if not (1 <= n <= total):
-                _send_json(self, {"error": f"index {n} 超出范围（共 {total}）"}, 400)
-                return
-            pos = n - 1
-            data = self._body_json()
-            sets = {}
-            for key in ("title", "country", "latitude", "longitude", "url"):
-                if key in data and data[key] is not None:
-                    sets[key] = str(data[key])
-            do_update_cli(pos, dicts, header, sets, False)
-            ok = run_build()
-            _send_json(self, {"ok": True, "build": ok, "index": n})
-            return
-        self.send_error(404)
-
-    def do_DELETE(self):
-        u = urlparse(self.path)
-        q = parse_qs(u.query)
-        m = re.match(r"^/api/markers/(\d+)$", u.path)
-        if m:
-            if not _check_token(q):
-                _send_json(self, {"error": "unauthorized"}, 403)
-                return
-            n = int(m.group(1))
-            header, dicts = load()
-            total = len(dicts)
-            if not (1 <= n <= total):
-                _send_json(self, {"error": f"index {n} 超出范围（共 {total}）"}, 400)
-                return
-            pos = n - 1
-            do_delete({pos}, dicts, header, False, False)
-            ok = run_build()
-            _send_json(self, {"ok": True, "build": ok, "index": n})
-            return
-        self.send_error(404)
-
-
 def serve(args):
-    import secrets
-    token = args.token or secrets.token_hex(8)
-    _serve_cfg["token"] = token
-    _serve_cfg["do_build"] = not args.no_build
-    port = args.port or 8000
-    print("=" * 52)
-    print("  a_travel-map 本地写作后台已启动（仅本机 127.0.0.1）")
-    if not os.path.isdir(SITE_DIR):
-        print("  ⚠️ 未检测到 _site/ 目录！请先在本仓库根目录运行：")
-        print("       bundle exec jekyll build")
-        print("     否则打开页面会 404。后台仍会启动，但静态资源需要 build 后才存在。")
-    print(f"  管理页面： http://127.0.0.1:{port}/a_travel-map?admin={token}")
-    print(f"  或者：     http://127.0.0.1:{port}/admin")
-    print(f"  Token： {token}   （写接口与 /api 均需 ?token=...）")
-    if _serve_cfg["do_build"]:
-        print("  保存后将自动 jekyll build 重建（约十几秒）")
-    else:
-        print("  --no-build：保存只写 YAML，不自动 build（请另行 jekyll serve --watch）")
-    print("  按 Ctrl-C 停止。")
-    print("=" * 52)
-    httpd = ThreadingHTTPServer(("127.0.0.1", port), _Handler)
-    try:
-        httpd.serve_forever()
-    except KeyboardInterrupt:
-        print("\n已停止。")
-        httpd.server_close()
+    from serve import serve as _unified_serve
+    _unified_serve(args)
 
 
 if __name__ == "__main__":

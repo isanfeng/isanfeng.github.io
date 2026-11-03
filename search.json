@@ -1,12 +1,84 @@
 [
   
     {
-      "title"    : "白天修仙夜游唐•葛仙村",
+      "title"    : "惠东橙•维港湾",
+      "tags"     : "旅居, 漫游中国, 广东, 🚳, and 2026",
+      "url"      : "/China-Guangdong-Huizhou-Huidong-Weigangwan",
+      "date"     : "Oct 30, 2026",
+      "content"  : "这是一篇示例文章，用来演示 ride: 块在 front-matter 里的位置，以及它渲染出来的「骑行摘要盒 + 内联轨迹地图」。  本文是模板演示稿，轨迹用一份真实 GPX（lushu1.gpx，2491 个轨迹点 / 约 162 km / 海拔 1669–3307 m）。这份 GPX 含逐点海拔数据，所以下方会渲染行者风格坡度分色海拔剖面图。地图只标起点/终点，完整路线由全部轨迹点连成。路线我们从甘南起点出发，翻越高原垭口，到终点收官，一路累计爬升超过 6000 m。正文里每处 &amp;lt;span class=&quot;geo-pin&quot; data-lat=&quot;..&quot; data-lng=&quot;..&quot;&amp;gt;地名&amp;lt;/span&amp;gt; 都会被内联地图收集成一个点，按文档顺序连成线。没填 gpx 时这就是轨迹来源；要是哪天你导出了 GPX，把路径填进 ride.gpx 就会优先画真实轨迹。这段想说什么骑行结构化不是为了炫技，是让「这篇骑了多远、爬了多少、走了几天、去了哪」变成机器可读的数据——年度统计页（RIDE•STATS）就是靠这些数字自动聚合出来的，不用手填。本示例文为演示用途，可随时删除；保留它也不会影响其它文章。",
+      "image": "/images/posts/gd-hz-hd-wgw.jpg"
+    } ,
+  
+    {
+      "title"    : "惠东蓝•牛湾",
+      "tags"     : "旅居, 漫游中国, 广东, 🚳, and 2026",
+      "url"      : "/China-Guangdong-Huizhou-Huidong-NiuwanBeach",
+      "date"     : "Oct 30, 2026",
+      "content"  : "这是一篇示例文章，用来演示 ride: 块在 front-matter 里的位置，以及它渲染出来的「骑行摘要盒 + 内联轨迹地图」。  本文是模板演示稿，轨迹用一份真实 GPX（lushu1.gpx，2491 个轨迹点 / 约 162 km / 海拔 1669–3307 m）。这份 GPX 含逐点海拔数据，所以下方会渲染行者风格坡度分色海拔剖面图。地图只标起点/终点，完整路线由全部轨迹点连成。路线我们从甘南起点出发，翻越高原垭口，到终点收官，一路累计爬升超过 6000 m。正文里每处 &amp;lt;span class=&quot;geo-pin&quot; data-lat=&quot;..&quot; data-lng=&quot;..&quot;&amp;gt;地名&amp;lt;/span&amp;gt; 都会被内联地图收集成一个点，按文档顺序连成线。没填 gpx 时这就是轨迹来源；要是哪天你导出了 GPX，把路径填进 ride.gpx 就会优先画真实轨迹。这段想说什么骑行结构化不是为了炫技，是让「这篇骑了多远、爬了多少、走了几天、去了哪」变成机器可读的数据——年度统计页（RIDE•STATS）就是靠这些数字自动聚合出来的，不用手填。本示例文为演示用途，可随时删除；保留它也不会影响其它文章。",
+      "image": "/images/posts/gd-hz-hd-nwst.webp"
+    } ,
+  
+    {
+      "title"    : "惠东蓝•既到海角何必天涯",
+      "tags"     : "旅居, 漫游中国, 广东, 🚳, and 2026",
+      "url"      : "/China-Guangdong-Huizhou-Huidong-Haijiaodengta",
+      "date"     : "Oct 30, 2026",
+      "content"  : "这是一篇示例文章，用来演示 ride: 块在 front-matter 里的位置，以及它渲染出来的「骑行摘要盒 + 内联轨迹地图」。  本文是模板演示稿，轨迹用一份真实 GPX（lushu1.gpx，2491 个轨迹点 / 约 162 km / 海拔 1669–3307 m）。这份 GPX 含逐点海拔数据，所以下方会渲染行者风格坡度分色海拔剖面图。地图只标起点/终点，完整路线由全部轨迹点连成。路线我们从甘南起点出发，翻越高原垭口，到终点收官，一路累计爬升超过 6000 m。正文里每处 &amp;lt;span class=&quot;geo-pin&quot; data-lat=&quot;..&quot; data-lng=&quot;..&quot;&amp;gt;地名&amp;lt;/span&amp;gt; 都会被内联地图收集成一个点，按文档顺序连成线。没填 gpx 时这就是轨迹来源；要是哪天你导出了 GPX，把路径填进 ride.gpx 就会优先画真实轨迹。这段想说什么骑行结构化不是为了炫技，是让「这篇骑了多远、爬了多少、走了几天、去了哪」变成机器可读的数据——年度统计页（RIDE•STATS）就是靠这些数字自动聚合出来的，不用手填。本示例文为演示用途，可随时删除；保留它也不会影响其它文章。",
+      "image": "/images/posts/gd-hz-hd-hjdt.webp"
+    } ,
+  
+    {
+      "title"    : "惠东橙•小径湾礁石公园",
+      "tags"     : "旅居, 漫游中国, 广东, 🚳, and 2026",
+      "url"      : "/China-Guangdong-Huizhou-Huidong-Xiachong-Paopaohai",
+      "date"     : "Oct 25, 2026",
+      "content"  : "这是一篇示例文章，用来演示 ride: 块在 front-matter 里的位置，以及它渲染出来的「骑行摘要盒 + 内联轨迹地图」。  本文是模板演示稿，轨迹用一份真实 GPX（lushu1.gpx，2491 个轨迹点 / 约 162 km / 海拔 1669–3307 m）。这份 GPX 含逐点海拔数据，所以下方会渲染行者风格坡度分色海拔剖面图。地图只标起点/终点，完整路线由全部轨迹点连成。路线我们从甘南起点出发，翻越高原垭口，到终点收官，一路累计爬升超过 6000 m。正文里每处 &amp;lt;span class=&quot;geo-pin&quot; data-lat=&quot;..&quot; data-lng=&quot;..&quot;&amp;gt;地名&amp;lt;/span&amp;gt; 都会被内联地图收集成一个点，按文档顺序连成线。没填 gpx 时这就是轨迹来源；要是哪天你导出了 GPX，把路径填进 ride.gpx 就会优先画真实轨迹。这段想说什么骑行结构化不是为了炫技，是让「这篇骑了多远、爬了多少、走了几天、去了哪」变成机器可读的数据——年度统计页（RIDE•STATS）就是靠这些数字自动聚合出来的，不用手填。本示例文为演示用途，可随时删除；保留它也不会影响其它文章。",
+      "image": "/images/posts/gd-hz-hd-xjw.webp"
+    } ,
+  
+    {
+      "title"    : "惠东蓝•无名沙滩",
+      "tags"     : "旅居, 漫游中国, 广东, 🚳, and 2026",
+      "url"      : "/China-Guangdong-Huizhou-Huidong-WumingBeach",
+      "date"     : "Oct 20, 2026",
+      "content"  : "这是一篇示例文章，用来演示 ride: 块在 front-matter 里的位置，以及它渲染出来的「骑行摘要盒 + 内联轨迹地图」。  本文是模板演示稿，轨迹用一份真实 GPX（lushu1.gpx，2491 个轨迹点 / 约 162 km / 海拔 1669–3307 m）。这份 GPX 含逐点海拔数据，所以下方会渲染行者风格坡度分色海拔剖面图。地图只标起点/终点，完整路线由全部轨迹点连成。路线我们从甘南起点出发，翻越高原垭口，到终点收官，一路累计爬升超过 6000 m。正文里每处 &amp;lt;span class=&quot;geo-pin&quot; data-lat=&quot;..&quot; data-lng=&quot;..&quot;&amp;gt;地名&amp;lt;/span&amp;gt; 都会被内联地图收集成一个点，按文档顺序连成线。没填 gpx 时这就是轨迹来源；要是哪天你导出了 GPX，把路径填进 ride.gpx 就会优先画真实轨迹。这段想说什么骑行结构化不是为了炫技，是让「这篇骑了多远、爬了多少、走了几天、去了哪」变成机器可读的数据——年度统计页（RIDE•STATS）就是靠这些数字自动聚合出来的，不用手填。本示例文为演示用途，可随时删除；保留它也不会影响其它文章。",
+      "image": "/images/posts/gd-hz-hd-wmst.webp"
+    } ,
+  
+    {
+      "title"    : "惠东古•清泉古寺",
+      "tags"     : "旅居, 漫游中国, 广东, 🚳, and 2026",
+      "url"      : "/China-Guangdong-Huizhou-Huidong-Qingquangusi",
+      "date"     : "Oct 15, 2026",
+      "content"  : "这是一篇示例文章，用来演示 ride: 块在 front-matter 里的位置，以及它渲染出来的「骑行摘要盒 + 内联轨迹地图」。  本文是模板演示稿，轨迹用一份真实 GPX（lushu1.gpx，2491 个轨迹点 / 约 162 km / 海拔 1669–3307 m）。这份 GPX 含逐点海拔数据，所以下方会渲染行者风格坡度分色海拔剖面图。地图只标起点/终点，完整路线由全部轨迹点连成。路线我们从甘南起点出发，翻越高原垭口，到终点收官，一路累计爬升超过 6000 m。正文里每处 &amp;lt;span class=&quot;geo-pin&quot; data-lat=&quot;..&quot; data-lng=&quot;..&quot;&amp;gt;地名&amp;lt;/span&amp;gt; 都会被内联地图收集成一个点，按文档顺序连成线。没填 gpx 时这就是轨迹来源；要是哪天你导出了 GPX，把路径填进 ride.gpx 就会优先画真实轨迹。这段想说什么骑行结构化不是为了炫技，是让「这篇骑了多远、爬了多少、走了几天、去了哪」变成机器可读的数据——年度统计页（RIDE•STATS）就是靠这些数字自动聚合出来的，不用手填。本示例文为演示用途，可随时删除；保留它也不会影响其它文章。",
+      "image": "/images/posts/gd-hz-hd-qqgs.webp"
+    } ,
+  
+    {
+      "title"    : "旅居第1城•惠东十里银滩",
+      "tags"     : "旅居, 漫游中国, 广东, 🚳, and 2026",
+      "url"      : "/China-Guangdong-Huizhou-Shiliyintan",
+      "date"     : "Oct 10, 2026",
+      "content"  : "这是一篇示例文章，用来演示 ride: 块在 front-matter 里的位置，以及它渲染出来的「骑行摘要盒 + 内联轨迹地图」。  本文是模板演示稿，轨迹用一份真实 GPX（lushu1.gpx，2491 个轨迹点 / 约 162 km / 海拔 1669–3307 m）。这份 GPX 含逐点海拔数据，所以下方会渲染行者风格坡度分色海拔剖面图。地图只标起点/终点，完整路线由全部轨迹点连成。路线我们从甘南起点出发，翻越高原垭口，到终点收官，一路累计爬升超过 6000 m。正文里每处 &amp;lt;span class=&quot;geo-pin&quot; data-lat=&quot;..&quot; data-lng=&quot;..&quot;&amp;gt;地名&amp;lt;/span&amp;gt; 都会被内联地图收集成一个点，按文档顺序连成线。没填 gpx 时这就是轨迹来源；要是哪天你导出了 GPX，把路径填进 ride.gpx 就会优先画真实轨迹。这段想说什么骑行结构化不是为了炫技，是让「这篇骑了多远、爬了多少、走了几天、去了哪」变成机器可读的数据——年度统计页（RIDE•STATS）就是靠这些数字自动聚合出来的，不用手填。本示例文为演示用途，可随时删除；保留它也不会影响其它文章。",
+      "image": "/images/posts/gd-hz-hd.webp"
+    } ,
+  
+    {
+      "title"    : "我•“退休”了",
+      "tags"     : "上海, 🚳, and 2026",
+      "url"      : "/China-Shanghai-Shanghai",
+      "date"     : "Jul 10, 2026",
+      "content"  : "这是一篇示例文章，用来演示 ride: 块在 front-matter 里的位置，以及它渲染出来的「骑行摘要盒 + 内联轨迹地图」。  本文是模板演示稿，轨迹用一份真实 GPX（lushu1.gpx，2491 个轨迹点 / 约 162 km / 海拔 1669–3307 m）。这份 GPX 含逐点海拔数据，所以下方会渲染行者风格坡度分色海拔剖面图。地图只标起点/终点，完整路线由全部轨迹点连成。路线我们从甘南起点出发，翻越高原垭口，到终点收官，一路累计爬升超过 6000 m。正文里每处 &amp;lt;span class=&quot;geo-pin&quot; data-lat=&quot;..&quot; data-lng=&quot;..&quot;&amp;gt;地名&amp;lt;/span&amp;gt; 都会被内联地图收集成一个点，按文档顺序连成线。没填 gpx 时这就是轨迹来源；要是哪天你导出了 GPX，把路径填进 ride.gpx 就会优先画真实轨迹。这段想说什么骑行结构化不是为了炫技，是让「这篇骑了多远、爬了多少、走了几天、去了哪」变成机器可读的数据——年度统计页（RIDE•STATS）就是靠这些数字自动聚合出来的，不用手填。本示例文为演示用途，可随时删除；保留它也不会影响其它文章。",
+      "image": "/images/posts/fire.webp"
+    } ,
+  
+    {
+      "title"    : "昼修仙夜游唐•葛仙村",
       "tags"     : "hiking, 漫游中国, 江西, 🚳, 2026, and 带爸妈看世界",
       "url"      : "/China-Jiangxi-Shangrao-Gexiancun",
       "date"     : "Apr 11, 2026",
-      "content"  : "",
-      "image": "/images/posts/jx-rs-gxc.jpg"
+      "content"  : "这是一篇示例文章，用来演示 ride: 块在 front-matter 里的位置，以及它渲染出来的「骑行摘要盒 + 内联轨迹地图」。  本文是模板演示稿，轨迹用一份真实 GPX（lushu1.gpx，2491 个轨迹点 / 约 162 km / 海拔 1669–3307 m）。这份 GPX 含逐点海拔数据，所以下方会渲染行者风格坡度分色海拔剖面图。地图只标起点/终点，完整路线由全部轨迹点连成。路线我们从甘南起点出发，翻越高原垭口，到终点收官，一路累计爬升超过 6000 m。正文里每处 &amp;lt;span class=&quot;geo-pin&quot; data-lat=&quot;..&quot; data-lng=&quot;..&quot;&amp;gt;地名&amp;lt;/span&amp;gt; 都会被内联地图收集成一个点，按文档顺序连成线。没填 gpx 时这就是轨迹来源；要是哪天你导出了 GPX，把路径填进 ride.gpx 就会优先画真实轨迹。这段想说什么骑行结构化不是为了炫技，是让「这篇骑了多远、爬了多少、走了几天、去了哪」变成机器可读的数据——年度统计页（RIDE•STATS）就是靠这些数字自动聚合出来的，不用手填。本示例文为演示用途，可随时删除；保留它也不会影响其它文章。",
+      "image": "/images/posts/jx-rs-gxc.webp"
     } ,
   
     {
@@ -15,7 +87,7 @@
       "url"      : "/China-Jiangxi-Shangrao",
       "date"     : "Apr 10, 2026",
       "content"  : "",
-      "image": "/images/posts/jx-rs-sj.jpg"
+      "image": "/images/posts/jx-rs-sj.webp"
     } ,
   
     {
@@ -24,7 +96,7 @@
       "url"      : "/China-Jiangxi-Wangxiangu-w",
       "date"     : "Apr 9, 2026",
       "content"  : "",
-      "image": "/images/posts/jx-wxg-w.jpg"
+      "image": "/images/posts/jx-wxg-w.webp"
     } ,
   
     {
@@ -33,7 +105,7 @@
       "url"      : "/China-Jiangxi-Wangxiangu-b",
       "date"     : "Apr 9, 2026",
       "content"  : "",
-      "image": "/images/posts/jx-wxg-b.jpg"
+      "image": "/images/posts/jx-wxg-b.webp"
     } ,
   
     {
@@ -42,7 +114,7 @@
       "url"      : "/China-Jiangxi-Sanqingshan",
       "date"     : "Apr 8, 2026",
       "content"  : "",
-      "image": "/images/posts/jx-sqs.jpg"
+      "image": "/images/posts/jx-sqs.webp"
     } ,
   
     {
@@ -51,7 +123,7 @@
       "url"      : "/China-Jiangxi-Wuyuan-Wunvzhou",
       "date"     : "Apr 7, 2026",
       "content"  : "",
-      "image": "/images/posts/jx-wy-xg.jpg"
+      "image": "/images/posts/jx-wy-xg.webp"
     } ,
   
     {
@@ -60,7 +132,7 @@
       "url"      : "/China-Jiangxi-Wuyuan-Huangling",
       "date"     : "Apr 7, 2026",
       "content"  : "",
-      "image": "/images/posts/jx-wy-hl.jpg"
+      "image": "/images/posts/jx-wy-hl.webp"
     } ,
   
     {
@@ -69,7 +141,7 @@
       "url"      : "/China-Jiangxi-Wuyuan-Huangling-map",
       "date"     : "Apr 7, 2026",
       "content"  : "",
-      "image": "/images/posts/jx-wy-hl-map.jpg"
+      "image": "/images/posts/jx-wy-hl-map.webp"
     } ,
   
     {
@@ -78,7 +150,7 @@
       "url"      : "/China-Jiangxi-Jingdezhen-Bowuguan",
       "date"     : "Apr 6, 2026",
       "content"  : "",
-      "image": "/images/posts/jx-jdz-bwg.jpg"
+      "image": "/images/posts/jx-jdz-bwg.webp"
     } ,
   
     {
@@ -87,7 +159,7 @@
       "url"      : "/China-Jiangxi-Jingdezhen",
       "date"     : "Apr 5, 2026",
       "content"  : "",
-      "image": "/images/posts/jx-jdz.jpg"
+      "image": "/images/posts/jx-jdz.webp"
     } ,
   
     {
@@ -96,7 +168,7 @@
       "url"      : "/China-Jiangxi-Nanchang-Tengwangge-2",
       "date"     : "Apr 4, 2026",
       "content"  : "",
-      "image": "/images/posts/jx-nc-twg-2.jpg"
+      "image": "/images/posts/jx-nc-twg-2.webp"
     } ,
   
     {
@@ -105,7 +177,7 @@
       "url"      : "/China-Guangdong-Shantou-xgy",
       "date"     : "Jan 2, 2026",
       "content"  : "",
-      "image": "/images/posts/gd-st-xgy.jpg"
+      "image": "/images/posts/gd-st-xgy.webp"
     } ,
   
     {
@@ -114,7 +186,7 @@
       "url"      : "/China-Guangdong-Shantou-spt",
       "date"     : "Jan 2, 2026",
       "content"  : "",
-      "image": "/images/posts/gd-st-spt.jpg"
+      "image": "/images/posts/gd-st-spt.webp"
     } ,
   
     {
@@ -132,7 +204,7 @@
       "url"      : "/China-Guangdong-Jieyang-jyxg",
       "date"     : "Dec 31, 2025",
       "content"  : "",
-      "image": "/images/posts/gd-jy-jyxg.jpg"
+      "image": "/images/posts/gd-jy-jyxg.webp"
     } ,
   
     {
@@ -141,7 +213,7 @@
       "url"      : "/China-Guangdong-Shenzhen-Shenzhenwan",
       "date"     : "Dec 30, 2025",
       "content"  : "",
-      "image": "/images/posts/gd-sz-szw.jpg"
+      "image": "/images/posts/gd-sz-szw.webp"
     } ,
   
     {
@@ -150,7 +222,7 @@
       "url"      : "/China-Guangdong-Shenzhen-Bijiashan",
       "date"     : "Dec 30, 2025",
       "content"  : "",
-      "image": "/images/posts/gd-sz-bjs.jpg"
+      "image": "/images/posts/gd-sz-bjs.webp"
     } ,
   
     {
@@ -159,7 +231,7 @@
       "url"      : "/China-Xianggang-Pobianzhou",
       "date"     : "Dec 29, 2025",
       "content"  : "",
-      "image": "/images/posts/xg-pbz.jpg"
+      "image": "/images/posts/xg-pbz.webp"
     } ,
   
     {
@@ -168,7 +240,7 @@
       "url"      : "/China-Xianggang-Mailihaojing",
       "date"     : "Dec 29, 2025",
       "content"  : "",
-      "image": "/images/posts/xg-mlhj.jpg"
+      "image": "/images/posts/xg-mlhj.webp"
     } ,
   
     {
@@ -177,7 +249,7 @@
       "url"      : "/China-Jiangxi-Nanchang-Tengwangge",
       "date"     : "Dec 28, 2025",
       "content"  : "",
-      "image": "/images/posts/jx-nc-twg.jpg"
+      "image": "/images/posts/jx-nc-twg.webp"
     } ,
   
     {
@@ -195,7 +267,7 @@
       "url"      : "/China-Jiangxi-Nanchang-Bayiqiyijinianbei",
       "date"     : "Dec 27, 2025",
       "content"  : "",
-      "image": "/images/posts/jx-nc-byncqyjnb.jpg"
+      "image": "/images/posts/jx-nc-byncqyjnb.webp"
     } ,
   
     {
@@ -222,7 +294,7 @@
       "url"      : "/China-Zhejiang-Ningbo-Siming-Maohuo",
       "date"     : "Nov 17, 2025",
       "content"  : "",
-      "image": "/images/posts/zj_nb_sm_mh.jpg"
+      "image": "/images/posts/zj_nb_sm_mh.webp"
     } ,
   
     {
@@ -231,7 +303,7 @@
       "url"      : "/China-Zhejiang-Ningbo-XuedouMtn",
       "date"     : "Nov 16, 2025",
       "content"  : "",
-      "image": "/images/posts/zj_nb_xk_ml_1.jpg"
+      "image": "/images/posts/zj_nb_xk_ml_1.webp"
     } ,
   
     {
@@ -240,7 +312,7 @@
       "url"      : "/China-Zhejiang-Ningbo-XuedouMtn-1",
       "date"     : "Nov 16, 2025",
       "content"  : "",
-      "image": "/images/posts/zj_nb_xk_ml.jpg"
+      "image": "/images/posts/zj_nb_xk_ml.webp"
     } ,
   
     {
@@ -249,7 +321,7 @@
       "url"      : "/China-Zhejiang-Ningbo-Qiuao",
       "date"     : "Nov 15, 2025",
       "content"  : "",
-      "image": "/images/posts/zj_nb_qa.jpg"
+      "image": "/images/posts/zj_nb_qa.webp"
     } ,
   
     {
@@ -258,7 +330,7 @@
       "url"      : "/China-Shandong-Taian-NahuPark",
       "date"     : "Oct 8, 2025",
       "content"  : "",
-      "image": "/images/posts/sd_ta_nhpark.jpg"
+      "image": "/images/posts/sd_ta_nhpark.webp"
     } ,
   
     {
@@ -267,7 +339,7 @@
       "url"      : "/China-Shandong-Zibo-Lushan",
       "date"     : "Oct 4, 2025",
       "content"  : "",
-      "image": "/images/posts/sd_zb_ls.jpg"
+      "image": "/images/posts/sd_zb_ls.webp"
     } ,
   
     {
@@ -276,7 +348,7 @@
       "url"      : "/China-Shandong-Taian-Taishan",
       "date"     : "Oct 2, 2025",
       "content"  : "",
-      "image": "/images/posts/sd_ta_ts.jpg"
+      "image": "/images/posts/sd_ta_ts.webp"
     } ,
   
     {
@@ -285,7 +357,7 @@
       "url"      : "/China-Zhejiang-Tiantai",
       "date"     : "Sep 8, 2025",
       "content"  : "",
-      "image": "/images/posts/zj_xc_tt.jpg"
+      "image": "/images/posts/zj_xc_tt.webp"
     } ,
   
     {
@@ -294,7 +366,7 @@
       "url"      : "/China-Zhejiang-Xinchang-ShiliangTown",
       "date"     : "Sep 7, 2025",
       "content"  : "",
-      "image": "/images/posts/zj_xc_sl.jpg"
+      "image": "/images/posts/zj_xc_sl.webp"
     } ,
   
     {
@@ -303,7 +375,7 @@
       "url"      : "/China-Zhejiang-Taizhou-Tiantaishan-Guoqingsi-Bikepacking",
       "date"     : "Sep 7, 2025",
       "content"  : "",
-      "image": "/images/posts/tiantai-guoqingsi.jpg"
+      "image": "/images/posts/tiantai-guoqingsi.webp"
     } ,
   
     {
@@ -312,7 +384,7 @@
       "url"      : "/China-Zhejiang-Xinchang-XiayanbeiVillage",
       "date"     : "Sep 5, 2025",
       "content"  : "",
-      "image": "/images/posts/zj_xc_xyb.jpg"
+      "image": "/images/posts/zj_xc_xyb.webp"
     } ,
   
     {
@@ -321,7 +393,7 @@
       "url"      : "/China-Xianggang-4-GotoXGagain",
       "date"     : "Jun 8, 2025",
       "content"  : "",
-      "image": "/images/posts/xg-alltarget.png"
+      "image": "/images/posts/xg-alltarget.webp"
     } ,
   
     {
@@ -330,7 +402,7 @@
       "url"      : "/China-Xianggang-3-WeigangNight",
       "date"     : "Jun 8, 2025",
       "content"  : "",
-      "image": "/images/posts/xg-wgzy.jpg"
+      "image": "/images/posts/xg-wgzy.webp"
     } ,
   
     {
@@ -339,7 +411,7 @@
       "url"      : "/China-Xianggang-2-ShatianSaima",
       "date"     : "Jun 8, 2025",
       "content"  : "",
-      "image": "/images/posts/xg-stsm.jpg"
+      "image": "/images/posts/xg-stsm.webp"
     } ,
   
     {
@@ -348,7 +420,7 @@
       "url"      : "/China-Xianggang-1-GuaishouBuilding",
       "date"     : "Jun 8, 2025",
       "content"  : "",
-      "image": "/images/posts/xg-gsdl.jpg"
+      "image": "/images/posts/xg-gsdl.webp"
     } ,
   
     {
@@ -357,7 +429,7 @@
       "url"      : "/China-Xianggang-0-LoveofXianggang",
       "date"     : "Jun 8, 2025",
       "content"  : "",
-      "image": "/images/posts/xg-gt-asxgdyz.png"
+      "image": "/images/posts/xg-gt-asxgdyz.webp"
     } ,
   
     {
@@ -366,7 +438,7 @@
       "url"      : "/China-Shenzhen-EyeofShenzhen",
       "date"     : "Jun 7, 2025",
       "content"  : "",
-      "image": "/images/posts/sz-szzy.jpg"
+      "image": "/images/posts/sz-szzy.webp"
     } ,
   
     {
@@ -375,7 +447,7 @@
       "url"      : "/China-Zhejiang-Xinchang-DafoTemple_Wofo",
       "date"     : "Jun 2, 2025",
       "content"  : "",
-      "image": "/images/posts/zj-xc-dfs_wf.jpg"
+      "image": "/images/posts/zj-xc-dfs_wf.webp"
     } ,
   
     {
@@ -384,7 +456,7 @@
       "url"      : "/China-Zhejiang-Xinchang-GushanPark-TianmuMTN",
       "date"     : "Jun 1, 2025",
       "content"  : "",
-      "image": "/images/posts/zj-xc-mytmylb.jpg"
+      "image": "/images/posts/zj-xc-mytmylb.webp"
     } ,
   
     {
@@ -393,7 +465,7 @@
       "url"      : "/China-Zhejiang-Yuhuan-HeishiBeach",
       "date"     : "May 4, 2025",
       "content"  : "",
-      "image": "/images/posts/zj-yh-hzz.jpg"
+      "image": "/images/posts/zj-yh-hzz.webp"
     } ,
   
     {
@@ -402,7 +474,7 @@
       "url"      : "/China-Zhejiang-Yuhuan-Kongzijinianguan",
       "date"     : "May 3, 2025",
       "content"  : "",
-      "image": "/images/posts/zj-yh-wssb.jpg"
+      "image": "/images/posts/zj-yh-wssb.webp"
     } ,
   
     {
@@ -411,7 +483,7 @@
       "url"      : "/China-Zhejiang-Yuhuan-LongjiRoad",
       "date"     : "May 2, 2025",
       "content"  : "",
-      "image": "/images/posts/zj-yh-njt.jpg"
+      "image": "/images/posts/zj-yh-njt.webp"
     } ,
   
     {
@@ -420,7 +492,7 @@
       "url"      : "/China-Zhejiang-Yuhuan-No1Road",
       "date"     : "May 1, 2025",
       "content"  : "",
-      "image": "/images/posts/zj-yh-no1road.jpg"
+      "image": "/images/posts/zj-yh-no1road.webp"
     } ,
   
     {
@@ -429,7 +501,7 @@
       "url"      : "/China-Guizhou-Guiyang-Qianlingshan",
       "date"     : "Apr 6, 2025",
       "content"  : "",
-      "image": "/images/posts/gz-gy-qls.jpg"
+      "image": "/images/posts/gz-gy-qls.webp"
     } ,
   
     {
@@ -438,7 +510,7 @@
       "url"      : "/China-Guizhou-Anshun-Pingbayinghua",
       "date"     : "Apr 5, 2025",
       "content"  : "",
-      "image": "/images/posts/gz-as-pb-pbyh.jpg"
+      "image": "/images/posts/gz-as-pb-pbyh.webp"
     } ,
   
     {
@@ -447,7 +519,7 @@
       "url"      : "/China-Guizhou-Anshun-Huangguoshupubu",
       "date"     : "Apr 4, 2025",
       "content"  : "",
-      "image": "/images/posts/gz-as-hgspb.jpg"
+      "image": "/images/posts/gz-as-hgspb.webp"
     } ,
   
     {
@@ -456,7 +528,7 @@
       "url"      : "/China-Guizhou-Qiandongnan-Xiasi",
       "date"     : "Apr 3, 2025",
       "content"  : "",
-      "image": "/images/posts/gz-as-xsgz.jpg"
+      "image": "/images/posts/gz-as-xsgz.webp"
     } ,
   
     {
@@ -465,7 +537,7 @@
       "url"      : "/China-Guizhou-Qiandongnan-Xijiang-qhmz",
       "date"     : "Apr 2, 2025",
       "content"  : "",
-      "image": "/images/posts/gz-as-qhmz.jpg"
+      "image": "/images/posts/gz-as-qhmz.webp"
     } ,
   
     {
@@ -474,7 +546,7 @@
       "url"      : "/China-Guizhou-Qiandongnan-Libo-Xiaoqikong",
       "date"     : "Apr 1, 2025",
       "content"  : "",
-      "image": "/images/posts/gz-as-xqk.jpg"
+      "image": "/images/posts/gz-as-xqk.webp"
     } ,
   
     {
@@ -492,7 +564,7 @@
       "url"      : "/China-Shandong-Yantai-Zhifu",
       "date"     : "Feb 5, 2025",
       "content"  : "",
-      "image": "/images/posts/yt-yt-scl.jpg"
+      "image": "/images/posts/yt-yt-scl.webp"
     } ,
   
     {
@@ -501,7 +573,7 @@
       "url"      : "/China-Shandong-Yantai-Penglai",
       "date"     : "Feb 3, 2025",
       "content"  : "",
-      "image": "/images/posts/yt-pl-plk.jpg"
+      "image": "/images/posts/yt-pl-plk.webp"
     } ,
   
     {
@@ -510,7 +582,7 @@
       "url"      : "/China-Shandong-Yantai-Longkou",
       "date"     : "Feb 1, 2025",
       "content"  : "",
-      "image": "/images/posts/yt-lk-nsdf.jpeg"
+      "image": "/images/posts/yt-lk-nsdf.webp"
     } ,
   
     {
@@ -519,7 +591,7 @@
       "url"      : "/China-Zhejiang-Taizhou-Shitang-Xiaoruodao-Bikepacking",
       "date"     : "Jan 4, 2025",
       "content"  : "",
-      "image": "/images/posts/taizhou-xiaoruodao.jpg"
+      "image": "/images/posts/taizhou-xiaoruodao.webp"
     } ,
   
     {
@@ -528,7 +600,7 @@
       "url"      : "/China-Zhejiang-Taizhou-Shitang-Donghaihaowangjiao-Bikepacking",
       "date"     : "Jan 3, 2025",
       "content"  : "",
-      "image": "/images/posts/zj-st-dhhwj.jpg"
+      "image": "/images/posts/zj-st-dhhwj.webp"
     } ,
   
     {
@@ -537,7 +609,7 @@
       "url"      : "/China-Zhejiang-Taizhou-Shitang-town-Bikepacking",
       "date"     : "Jan 2, 2025",
       "content"  : "",
-      "image": "/images/posts/zj-st-town.jpg"
+      "image": "/images/posts/zj-st-town.webp"
     } ,
   
     {
@@ -546,7 +618,7 @@
       "url"      : "/China-Zhejiang-Taizhou-Shitang-duijie-Bikepacking",
       "date"     : "Jan 2, 2025",
       "content"  : "",
-      "image": "/images/posts/zj-st-dj.jpg"
+      "image": "/images/posts/zj-st-dj.webp"
     } ,
   
     {
@@ -555,7 +627,7 @@
       "url"      : "/China-Zhejiang-Taizhou-Shitang-Qiannianshuguangyuan-Bikepacking",
       "date"     : "Jan 1, 2025",
       "content"  : "",
-      "image": "/images/posts/zj-st-qnsgb.jpg"
+      "image": "/images/posts/zj-st-qnsgb.webp"
     } ,
   
     {
@@ -573,7 +645,7 @@
       "url"      : "/China-Ningbo-SimingMTN-Bikepacking",
       "date"     : "Nov 11, 2024",
       "content"  : "",
-      "image": "/images/posts/simingMTN-autumn.jpg"
+      "image": "/images/posts/simingMTN-autumn.webp"
     } ,
   
     {
@@ -582,7 +654,7 @@
       "url"      : "/China-Hubei-Yichang-laidianCity-Bikepacking",
       "date"     : "Sep 23, 2024",
       "content"  : "",
-      "image": "/images/posts/yichangyilingchangjiangdaqiao.jpg"
+      "image": "/images/posts/yichangyilingchangjiangdaqiao.webp"
     } ,
   
     {
@@ -600,7 +672,7 @@
       "url"      : "/China-Hubei-Yichang-Sanxia-Xilingxia-Bikepacking",
       "date"     : "Sep 21, 2024",
       "content"  : "",
-      "image": "/images/posts/gangouzidaqiao.jpg"
+      "image": "/images/posts/gangouzidaqiao.webp"
     } ,
   
     {
@@ -609,7 +681,7 @@
       "url"      : "/China-Hubei-Yichang-Zigui-Bikepacking",
       "date"     : "Sep 20, 2024",
       "content"  : "",
-      "image": "/images/posts/quyuanguli.jpg"
+      "image": "/images/posts/quyuanguli.webp"
     } ,
   
     {
@@ -618,7 +690,7 @@
       "url"      : "/China-Hubei-Yichang-Xingshan-zuimeishuishanggonglu-Bikepacking",
       "date"     : "Sep 19, 2024",
       "content"  : "",
-      "image": "/images/posts/zuimeishuishanggonglu.jpg"
+      "image": "/images/posts/zuimeishuishanggonglu.webp"
     } ,
   
     {
@@ -627,7 +699,7 @@
       "url"      : "/China-Hubei-Shennongjia-CountryPark-Bikepacking",
       "date"     : "Sep 18, 2024",
       "content"  : "",
-      "image": "/images/posts/shennongtan.jpg"
+      "image": "/images/posts/shennongtan.webp"
     } ,
   
     {
@@ -636,7 +708,7 @@
       "url"      : "/China-Hubei-Shennongjia-shennongding-Bikepacking",
       "date"     : "Sep 16, 2024",
       "content"  : "",
-      "image": "/images/posts/shennongjiahuazhongwuji.jpg"
+      "image": "/images/posts/shennongjiahuazhongwuji.webp"
     } ,
   
     {
@@ -645,7 +717,7 @@
       "url"      : "/China-Hubei-Shennongjia-Songbai-Hike",
       "date"     : "Sep 14, 2024",
       "content"  : "",
-      "image": "/images/posts/guojimancheng_songbai.jpg"
+      "image": "/images/posts/guojimancheng_songbai.webp"
     } ,
   
     {
@@ -654,7 +726,7 @@
       "url"      : "/China-Zhejiang-Taizhou-Shenxianju-Bikepacking",
       "date"     : "Jun 9, 2024",
       "content"  : "",
-      "image": "/images/posts/taizhou-shenxianju.jpeg"
+      "image": "/images/posts/taizhou-shenxianju.webp"
     } ,
   
     {
@@ -663,7 +735,7 @@
       "url"      : "/China-Fujian-Lianjiang-Pingliuwei-Bikepacking",
       "date"     : "May 5, 2024",
       "content"  : "",
-      "image": "/images/posts/lianjiang-pingliuwei-beijiaobi.jpg"
+      "image": "/images/posts/lianjiang-pingliuwei-beijiaobi.webp"
     } ,
   
     {
@@ -672,7 +744,7 @@
       "url"      : "/China-Fujian-Lianjiang-Huangqi-Bikepacking",
       "date"     : "May 3, 2024",
       "content"  : "",
-      "image": "/images/posts/lianjiang-huangqi.jpg"
+      "image": "/images/posts/lianjiang-huangqi.webp"
     } ,
   
     {
@@ -690,7 +762,7 @@
       "url"      : "/China-Fujian-Luoyuan-Lufengshan-Bikepacking",
       "date"     : "Apr 29, 2024",
       "content"  : "",
-      "image": "/images/posts/luoyuan-lufengshan.jpg"
+      "image": "/images/posts/luoyuan-lufengshan.webp"
     } ,
   
     {
@@ -699,7 +771,7 @@
       "url"      : "/China-Fujian-Luoyuan-Haizhilu-Bikepacking",
       "date"     : "Apr 27, 2024",
       "content"  : "",
-      "image": "/images/posts/luoyuan-haizhilu.jpg"
+      "image": "/images/posts/luoyuan-haizhilu.webp"
     } ,
   
     {
@@ -717,7 +789,7 @@
       "url"      : "/China-Anhui-Shitai-Bikepacking",
       "date"     : "Mar 3, 2024",
       "content"  : "",
-      "image": "/images/posts/shitaitianlu.jpg"
+      "image": "/images/posts/shitaitianlu.webp"
     } ,
   
     {
@@ -726,7 +798,7 @@
       "url"      : "/China-Anhui-Chizhou-Bikepacking",
       "date"     : "Mar 1, 2024",
       "content"  : "",
-      "image": "/images/posts/ChizhouShitai.jpg"
+      "image": "/images/posts/ChizhouShitai.webp"
     } ,
   
     {
@@ -735,7 +807,7 @@
       "url"      : "/China-Guangdong-Nanao-Bikepacking",
       "date"     : "Jan 1, 2024",
       "content"  : "",
-      "image": "/images/posts/nanao.jpg"
+      "image": "/images/posts/nanao.webp"
     } ,
   
     {
@@ -744,7 +816,7 @@
       "url"      : "/China-Guangdong-Chaoshan-Bikepacking",
       "date"     : "Dec 27, 2023",
       "content"  : "",
-      "image": "/images/posts/guangjiqiao.png"
+      "image": "/images/posts/guangjiqiao.webp"
     } ,
   
     {
@@ -753,7 +825,7 @@
       "url"      : "/China-Zhejiang-KuocangMTN-Bikepacking",
       "date"     : "Nov 11, 2023",
       "content"  : "",
-      "image": "/images/posts/kuocangMTN.jpg"
+      "image": "/images/posts/kuocangMTN.webp"
     } ,
   
     {
@@ -771,7 +843,7 @@
       "url"      : "/China-Guizhou-Bikepacking",
       "date"     : "Aug 9, 2023",
       "content"  : "  【路线】都往人海去，而我在山林。完成了从中国火炉到中国凉都的纵贯骑行，从北往南纵贯多彩贵州，著名景点梵净山，千户苗寨，镇远古镇，大小七孔，一个也没去，选择了一条远离城市的山路，从重庆出发，经四川泸州进入贵州赤水，一路被曾经四渡赤水的红色痕迹渲染着来到中国酒都仁怀茅台镇，骑完赤水河谷的醉美之路，从茅台镇开始海拔也开始指数陡升，慢慢能体验到云贵高原的险峻，经过毕节市最强经济县金沙县后，翻越百里杜鹃1856m（进入贵州后第一座高海拔山地），到达毕节市大方县易地扶贫搬迁安置点奢香古镇，天气温度也开始凉爽起来，在毕节市七星侠短暂停留两日后，感受当地的生活和基础建设，八九月份正值大小韭菜坪上韭菜花盛开季节，其中毕节境内大韭菜坪主峰海拔2777m，六盘水境内的小韭菜坪海拔2900.6m，也被誉为贵州屋脊，是这次骑行中最困难的部分也是遇到的最美的风景，之后就终于来到了中国凉都六盘水，感受这里19°的夏天，当上海重庆还是30多度的高温时，在这里短裤短袖早晚会被冻的瑟瑟发抖，只好一直待在太阳底下，二十三四度的气温，体感超舒服，这里也是这次旅程中最喜欢的两个城市之一，在这里停留了四天后，继续前往贵州南部，也即将翻越了此行中最后一座高山乌蒙大草原海拔2609m，到达贵州地名最复杂的一座城市，盘州盘县红果，不是很喜欢的一座县城，没有做过多的停留，直奔这次行程的主题兴义市，骑游万峰林，万佛寺，万峰湖，停留四日后，从云南昆明返沪，也给此次行程画上了圆满的句号。【数字篇】此次行程共总里程1188+公里，累计爬升23495+m，海拔落差2603+m，路线主要以国道和省道为主，整体坡度不大，平均6-7%左右，虽缓但长，最短的也有六、七公里，只要憋住一口气即可完成，建议不了解情况的外地骑行者不要轻易选择县道或者农村公路，来了你就懂的共翻越海拔超2000m的高山3座，其余基本在1000m左右500m振幅内上下起伏共途径4省市，市级地8个，县级地不计，喜欢的城市2个共参观大小博物馆27个，让整个行程立体起来，让自己的眼界开阔起来共在外露营2次，一是当地人说夏天蛇多，二是洗澡条件缺乏共爆胎2次，以迅速补胎完成共被狗追4次，此情况下要么能快速驶过，要么就比狗更狗共患阳1次，约四五天后恢复，再也不想体验每次吞咽时喉咙似刀割的感受共尝试3种类型火锅，相较于火锅发源地的重庆火锅，最喜欢贵州酸汤鱼火锅，其次是成都火锅共完美完成1次极简行李打包，这次行李带的没一个物件，都被至少使用了1次以上",
-      "image": "/images/posts/guizhouxingyi.jpg"
+      "image": "/images/posts/guizhouxingyi.webp"
     } ,
   
     {
@@ -798,7 +870,7 @@
       "url"      : "/China-Fujian-Pingtan-2-Bikepacking",
       "date"     : "May 5, 2023",
       "content"  : "",
-      "image": "/images/posts/lanyanlei.jpg"
+      "image": "/images/posts/lanyanlei.webp"
     } ,
   
     {
@@ -807,7 +879,7 @@
       "url"      : "/China-Zhejiang-Ningbo-Bikepacking",
       "date"     : "Apr 2, 2023",
       "content"  : "",
-      "image": "/images/posts/Simingshan.jpeg"
+      "image": "/images/posts/Simingshan.webp"
     } ,
   
     {
@@ -816,7 +888,7 @@
       "url"      : "/China-Jiangxi-Wuyuan-Bikepacking",
       "date"     : "Mar 11, 2023",
       "content"  : "",
-      "image": "/images/posts/wuyuan.jpg"
+      "image": "/images/posts/wuyuan.webp"
     } ,
   
     {
@@ -834,7 +906,7 @@
       "url"      : "/China-Fujian-Pingtan-1-Fuzhou-1-Bikepacking",
       "date"     : "Feb 1, 2023",
       "content"  : "",
-      "image": "/images/posts/pingtan.jpg"
+      "image": "/images/posts/pingtan.webp"
     } ,
   
     {
@@ -861,7 +933,7 @@
       "url"      : "/China-Shanghai-Dongdanglvzhou-Bikepacking",
       "date"     : "Sep 18, 2022",
       "content"  : "",
-      "image": "/images/posts/dongfanglvzhou.jpg"
+      "image": "/images/posts/dongfanglvzhou.webp"
     } ,
   
     {
@@ -870,7 +942,7 @@
       "url"      : "/China-Jiangsu-DianshanLake-Bikepacking",
       "date"     : "Sep 11, 2022",
       "content"  : "",
-      "image": "/images/posts/DianshanLake_Midautumn.jpg"
+      "image": "/images/posts/DianshanLake_Midautumn.webp"
     } ,
   
     {
@@ -879,7 +951,7 @@
       "url"      : "/China-Guangxi-BeihaiCity-Hike",
       "date"     : "Dec 9, 2021",
       "content"  : "",
-      "image": "/images/posts/Beihai.jpg"
+      "image": "/images/posts/Beihai.webp"
     } ,
   
     {
@@ -888,7 +960,7 @@
       "url"      : "/China-Guangxi-YanbianRoad-Bikepacking",
       "date"     : "Nov 15, 2021",
       "content"  : "",
-      "image": "/images/posts/YanbianRoadS325-0-725.jpg"
+      "image": "/images/posts/YanbianRoadS325-0-725.webp"
     } ,
   
     {
@@ -897,7 +969,7 @@
       "url"      : "/China-Sichuan-chuanxixiaohuanxian-Bikepacking",
       "date"     : "Oct 1, 2021",
       "content"  : "作为四川经典的骑行路线，川西小环线浓缩展示了川藏地区的雪山草原、蓝天白云、淳朴藏味，特别是能够欣赏到四姑娘山，亚拉雪山，贡嘎雪山三座雪山的绝美风光。全程接近1000公里，是一处绝佳的骑行圣地。",
-      "image": "/images/posts/chuanxixiaohuanxian.jpg"
+      "image": "/images/posts/chuanxixiaohuanxian.webp"
     } ,
   
     {
@@ -906,7 +978,7 @@
       "url"      : "/China-Zhejiang-Nibong-FengcheRoad-Bikepacking",
       "date"     : "May 21, 2021",
       "content"  : "",
-      "image": "/images/posts/fengche-ningbo.jpg"
+      "image": "/images/posts/fengche-ningbo.webp"
     } ,
   
     {
@@ -915,7 +987,7 @@
       "url"      : "/China-Zhejiang-Lishui-BaishanZu-Bikepacking",
       "date"     : "May 1, 2021",
       "content"  : "序如果有机会，不管骑车，自驾还是徒步，一定要到浙江来一次，“全域旅游”的理念在浙江展现的淋漓尽致，每个村落，每条巷子，每条公路都是一个景点，而丽水就更像一个带着仙气的地方，苍山碧水，山多水多，方言更多，大多时候是我们是听不懂的，甚至有时还因为这份“陌生”，有时还会像两个异域人一样不好沟通。可就是这样一个看上去很“奇怪”的地方，只要你呆上一天或者半天，就会有不想再走的欲望。或许当我不再为生活奔波，为世俗挂念的时候，这里或许会是一个很好的栖居之地。  丽水的“丽”读“lí”（阳平），而非“lì”（去声）。由于丽水方言中，“丽水”的“丽”无论读阳平还是阳去，在连续变调后读音相同。故本地人普通话“丽水”的“丽”多读作常用的“lì”（去声）。行程几年之前，自己还会参加团队活动时，没有有百山祖的行程时，总会阴差阳错的有冲突，所以至今，久负盛名的百山之祖自己还不曾去过一次，这几年，自己比较喜欢solo活动，可以让自己能深入的感受当下的时刻，计划着能把这些年走过的路再以solo的方式全部重走一遍，同样也孕育了不一样的旅行体验。丽水被誉为“浙江绿谷”，境内海拔1000米以上的山峰有3573座，1500米以上山峰244座，其中龙泉市凤阳山黄茅尖海拔1929米，庆元县百山祖海拔1856.7米，分别为浙江省第一、第二高峰。地势由西南向东北倾斜，西南部以中山为主，间有低山、丘陵和山间谷地；东北部以低山为主，间有中山及河谷盆地。最低处为青田县温溪镇，海拔7米。黄茅尖之前去过一次，所以这次借着五一的假期，从东北部的丽水市中心出发向西南方向贯穿，走一遍百山祖，来一次丽水准深度的旅程。",
-      "image": "/images/posts/BaishanZu.jpg"
+      "image": "/images/posts/BaishanZu.webp"
     } ,
   
     {
@@ -924,7 +996,7 @@
       "url"      : "/China-Zhejiang-Wenzhou-YandangMtn-Bikepacking",
       "date"     : "Apr 2, 2021",
       "content"  : "题外话  我冷眼向过去稍稍回顾，只见它曲折灌溉的悲喜都消失在一片亘古的荒漠中，  这才知道，我的全部努力只不过完成了普通的生活。人的一生中不是每一个自主选择都是对的，更何况还有那么多被迫的选择，也许部分的对应该就可以了，短短的一生，何必花费太多的时间去考虑哪个选择是对的，到最后，会发现不管做哪个选择都是错的。与其如此，在生活方式的选择上，用最懒人的方式，选择让自己舒服的，也许是不是性价比最好的呢？然而不同的生活方式，在改变生活本质和问题上也几乎没有太多的帮助，它只不过是在某种程度上让我们更宽容的接受生活，拥有很多去生活的勇气和信念。  飞流直下三千尺，疑是银河落九天一路下来，生活也许一直都是自己的感受，爽痛喜悲都要亲身体验，不是别人的看法，所以不再想着轰轰烈烈，只求能安安心心，不强求算是作为中年人对生活的另一种“开拓(qū fú)”吧。路上等闲若得东风顾，不负春光不负卿。我不喜欢人多的地方，骑单车刚好可以避开这种情况，早起晚归，专挑那深山，乡下人少的地方去，为了不辜负清明三天的小假期，不辜负很久没有爬过山也没有趟过河的单车，就决定来一次”说走就走”的短途旅行，至于目的地，很遗憾还没有形成一套系统性的筛选方法，大多是基于时间和路线比较随机的选择，没有特定的前因后果，所以这次的雁荡山也只是一次偶然的选择。雁荡山，“东南第一山”，山顶汇水蕴湖，茂盛的芦苇结草为荡，南归秋雁多宿于此，故名“雁荡”。形成于一亿二千万年以前，是环太平洋大陆边缘火山带中，主体位于浙江省温州市东北部海滨，还有一小部在台州市温岭南境，整体上分为东、南、西、北、中五座雁荡山，分布在温州境内各个地方，但人们口中所说的雁荡山，基本上指的是北雁荡山，这次的行程范围也主要集中在北雁荡。出发之前本计划沿着虹三线行进的，却误入状元故里梅溪村，这里是南宋一代名臣王十朋的故里。  王十朋是南宋著名诗人，坚定的抗金派人士，前大半生务农、求学和授业，33岁时，王十朋在家乡创办梅溪书院授徒，十余年间六赴太学，由于当时南宋政治腐败，奸臣秦桧专权，科举考场黑暗，每次都名落孙山。秦桧病死后，绍兴二十七年（1157年），46岁的王十朋再次参加科考，应试的主题是“揽权”中兴，被宋高宗赵构亲擢为头名进士（即状元）。因为他力主抗战，遭主和派排斥回归故里。宋孝宗即位后，他先后任对除司员外郎、国子司业、起居舍人、侍御史等职，还曾为孝宗、光宗两朝帝师。他力排和议，并以怀奸、误国等八大罪状弹劾主和派代表、宰相史浩，使之罢职。由于王十朋勤政谋政，虽然从政只有十余年，却声名鹊起遗闻频传，乾道五年（1169年）冬，王十朋卸任泉州。他离开时男女老幼涕泣挡道苦苦挽留，后来干脆仿效饶州百姓挽留王十朋的做法，把他必经的桥梁拆断。王十朋只好绕道离开，大家跟随出境送到仙游县枫亭驿。泉州百姓将桥修复后，用王十朋之号“梅溪”命名为“梅溪桥”。现在村里还保有梅溪草堂，王十朋纪念馆，王十朋故居等  梅溪草堂  王十朋纪念馆离开状元故里，沿着杨岭公路（算是走错路，将错就错吧，不像带着几个人骑行，要不断看导航，生怕走错路，一个人出行就很随意多了，有导航也不太看，就瞎走，哎，就是玩儿，有时候瞎走瞎走着，可能会别有洞天，未知的惊喜总是比惊喜本身更宝贵）前进，因为是清明时节，沿路还可以看到很多的江南地区扫墓祭祖的传统的习俗，村落里也大多设有自己姓氏族群的祠堂，供着自己共同的祖先，大多家族的祖训也基本以孝敬、不忘本为原则，这条路本身和虹三线几乎是并行的，只是比虹三线更偏僻一点，所以机动车也更少一点，当然也少不了漂亮的发卡弯，加上雁荡山脉地区可谓怪石嶙峋，而且每个几乎都气势磅礴，巨石散落，青山绿水，瀑布飞溅……这种自然透漏出来的震撼，和其他地方有着截然不同的感受。上海到温州路上花费4小时，所以今天只计划了下午半天的骑程（原计划虹三线40+km），当天可以早早入住永嘉城区休息。翌日清晨，早早退房，昨天下午只算是在雁荡山山脚边缘地带轮行，今天要正式开进雁荡山腹地。从永嘉城区踏上上下线（路口处有一基督教堂，后来发现温州各处的村落几乎都设有基督教堂，不同的宗教，一样的向往。），压过连续的发卡弯，穿过两三个隧道，清晨阴阴的天空，路边清凉的溪水，使体感温度也极其舒服。也许下坡下的太爽，也许景色太过壮观，又骑“错”路线（这里的错是指和原本草稿画的路线不一致），将错就错，我们目的地不是最重要的，在旅途上的路上更有意思。经过泰石村，在此地gps奇怪的鬼打墙似得看错几次，竟然尝到了永嘉有名的麦饼。和老板了解到，泰石村种有60多亩成片的向日葵地，每年十一左右是最好的观赏季节，村后的泰石山山顶有一草甸，被旅游称作永嘉小武功山。离开泰石村，沿着大楠溪，一路有很多的漂流竹筏，水流清澈，在溪边小憩也是不错的。快到中午时分，终于抵达芙蓉古村，芙蓉村中本无芙蓉，因其西南山上有三座高崖，其色白里透红，状如三朵含苞待放之芙蓉，因而得名，据说这是个宋朝就存在的村落，始建于唐代末年，为陈姓聚居之地。按照“七星八斗”的思想进行规划设计，意为天上星与地上人相对应，星筑台、斗凿池以为象征。  全村略呈正方形，坐西朝东，围以卵石砌成的寨墙，使整个村庄犹如一座小城堡。东面寨墙正中开一寨门，两边稍远处开二小门，寨门内建有樵楼，可观望四方，雄伟壮丽。其余三面开五小门。从寨门进内，是卵石筑成的主街，名“如意街”，寓吉祥如意之义。主街中部南侧，凿一内湖，湖水清冽。湖旁花木繁丽，芳香袭人，湖中建有亭树，石桥缀之。村内沿寨墙、道路引溪水。民宅布置水车众多，以沟通各“斗”形成的流动水系。宅边、道旁清流涓涓，环境优雅。村中民宅大多系木质结构，以参差错落的屋顶，朴实素雅的形态，优美亲切的比例尺度，白墙青瓦的明快色调，兼以家家石砌矮墙，户户绿树成荫，使整个村落构成一种和谐美。而且永嘉还是著名的长寿之乡，当天正好有温州义工厨师队给村里70岁以上老人设宴席表示关爱。在芙蓉古村北边附近还有丽水古街，苍坡古村，都值得一去。苍坡古村，有着极美丽的名字，背依笔架山，面临楠溪江，其最具特色的便是以“文房四宝”为理念布局建造。走进木结构的村落大门，一条直线的石板道纵贯全村，通向笔架山，为笔；石道中间过一桥，砚池和笔街之间几块长长的条石，为墨；呈长方形的村子，为纸；整座村落占地面积最大的为石道两侧的莲池，为砚。笔架山、墨池、砚台、笔街、纸村，整个典雅村落就如同文房四宝，静居山水。苍坡古村村民皆为李姓，始祖李岑为避战乱于福建长溪迁此，五代时期开始营建，至今愈千年，现存的苍坡村是南宋国师李时日设计的。他曾在村寨大门上题联：“四壁青山藏虎豹，双池碧水贮蛟龙”。李氏祠堂匾额上会发现氏字旁边多了一点，有人质疑这是笔误。其实按村人的说法，是因为村中还有几个非李姓氏的人家，这一点表示接纳相容外姓人的意思，这多出来的一点是特地添写的，村人的说法透射出的民风是很值得人们赞赏的。  在村子的东南角有一座望兄亭，初建于1128年。站在亭子里往村外东南方向眺望，对面就是苍坡的“同胞村”方巷村了。方港村头也有一座造型和“望兄亭”一摸一样的亭子，名叫“送弟阁”，两个亭子隔着阡陌纵横的田野遥遥相望。据传兄弟两个感情很好，每每必促膝长谈到深夜，分别时总要想送到村口。常常哥哥离开回家时，弟弟就送哥哥到方港村头，弟弟回来时哥哥又要送弟弟回来，就这样弟弟送哥哥到家，哥哥又送弟弟到村口，弟弟又送哥哥，哥哥又送弟弟，真是 温州 俚语讲的“张郎送李郎，一夜送到大天光。”于是兄弟俩商定在苍坡村和方巷村各建一座亭阁，在亭子里挂上灯笼。每当探望分手后，见到对方亭中灯笼亮灯，就知道对方已平安到家，兄弟俩才各自安然收灯回家歇息。说真的，一个人出行唯一的不便就是吃饭，不敢点多，也不好意思一个人占用店家一张桌子，所以一般都凑合随便吃吃就好，简单补充沿着雁楠公路继续前行，会遇到一个路边的景点，基本都会有很多摩托骑士在此聚集。前方会有分岔路，雁楠公路和石桅岩之路，这种情况下选择辅路是绝对正确的。经过黄坑之后，前方又有岔路，雁楠公路和去往炉山村的无名山路，选择的原则参考之前，这是一条算是村路吧，没太有维护了，有着超多漂亮发卡弯，在落山最尽头确有告示牌，路段危险，禁止同行，怪不得路上见不到一辆机动车，让我独享了一路。完全下完山，正好遇到正在开山修路的施工队，在感叹他们的力量之外，又回忆上次去皖浙天路无意经历的野路，那一次算是很有意思的一次经历。一路下到龙西乡，龙西粉丝应该有所耳闻。这里算是穿越雁荡山，即使在平路上，抬头就可以看到路边壮观的嶙峋怪石。停下车，路边的溪水泡泡脚，体验一把冷泉。到达仙溪镇，镇内拥有雁荡山八大景区中的两大景区——“显胜门风景区”和“仙桥景区”，同时拥有国家级文物保护单位“南阁明代牌楼群”和“北阁古民居”等人文景观。  南阁，已有一千多年历史，为章氏聚居之地，是明代直臣章纶的故里，牌楼群原有七座牌楼，现存五座，纵向排列在村口的一条以红褐色卵石铺成图案。路面的直街上，井然有序，雄伟古仆。这一规模宏大的古建筑群，是为了标榜功名和地位。牌楼火红巨匾上，分别以斗大金字楷书：“世进士”、“思光”、“方伯”、“尚书”、“会魁”。此次雁荡之行，算是比较匆匆，不过还算收获比较多惊喜，一过匆匆，二来再探。",
-      "image": "/images/posts/yandang.jpg"
+      "image": "/images/posts/yandang.webp"
     } ,
   
     {
@@ -933,7 +1005,7 @@
       "url"      : "/China-Anhui-Zhejiang-Tianlu-Bikepacking",
       "date"     : "Mar 14, 2021",
       "content"  : "还记得，那是一方山峦，流淌着春色，牵引着愁绪；难忘却，那是一抔花海，酿满了芬芳，捻碎了情丝。即便还是乍冷初春，也可以来一场随意任性的踏春，可以是春意盎然，或者只是岁月静好。每年三月，正值草长莺飞，江浙沪周边的油菜花开的正旺，骑车赏花跃然成为了这个季节的一堂必修课。去看油菜的地方，无外乎江西婺源，江苏兴化，绩溪家朋，而家朋正好又是皖浙天路（以前称作荆州公路）的起点，让家朋成为了热衷盘山公路的骑士们的唯一不二选择。  家朋乡梅干岭油菜花观景台视角  皖浙天路精华路段，饭甑尖视角那村家朋村原名磡头村，后来引用了家乡抗美援朝英雄的名字许家朋（黄继光式的一名赴朝作战志愿军）改名家朋，村落里拥有着典型的徽派建筑，通常坐北朝南，注重内采光，以砖、木、石为原料，以木构架为主，梁架多用料硕大，且会有很多装饰。然而徽商力在经商而不在建筑，衣锦还乡之后，一般以奢华精致的豪宅园林体现身份，或整修祠堂光大祖宗门面，或亦以牌坊筑立褒奖徽州女人守夫的风骨。堪头村正好为我们展现了所有这些历史，就像电影的序幕，在慢慢为我们翻开“皖浙天路”的画卷。村子里古民居沿溪两岸依山而筑，层层叠叠，错落有致，从村口一眼望去，有六座石拱桥（永安桥、聚顺桥、三德桥、杨川桥、银宫桥、聚秀桥）横贯在磡头村涧溪之上。穿越村子的溪流也叫云川溪，终年流水不断，溪流两岸的两条街道被称为“水街”，是用花岗岩条石铺成的徽州古道，街道随溪流落差而设有台阶，民房沿溪流顺势而建，村落依山旁水自然形成，白墙黑瓦马头墙错落有致。沿着水街向上，来到听泉楼，楼骑街傍溪，长方形，木结构，东靠许氏宗祠，三面凌空。楼下东西置美人靠。有梯登楼，顶歇山式，楼腰飞檐出跳，檐牙高啄，腾蛟起凤，角悬风铃，铃声随风向而易，可预测天气变化。楼上除东向外，三面装隔扇窗。临溪檐下悬“听泉”匾额，并书县令王峻《听泉楼记》。楼上楼下，凭栏眺望，泉声铃声。故名“玉泉鸣佩”。不过这里现在已经是一个杂货铺，不买什么纪念品，只买一些村里人会用到的生活用品，没有过度的商业化，这才应该是古村落应该留给后人的面貌。旁边是许氏宗祠，门前立一牌坊，坐东南朝西北，四柱三门五楼，麻石仿木结构，此坊是明嘉靖丁酉年当朝皇上为表彰村民许保妻章氏守节而立，介绍至今有400余年。古牌坊屹立在许氏宗祠门前，似乎在向人们低低泣诉章氏当年是如何操守妇家之道的。主楼正中置有“恩荣”匾，其下方花板西北方镌有“节妇坊”三字。宗祠在牌坊之后，进享堂面阔七间，进深四间，抬梁硬山顶建造法式，许祠的梁柱构架特别粗矿硕大，梁架高矮比例有如石鸡身体与四肢的感觉相似，显得极为圆浑笨拙，配之梁架间诸如雀替、梁驮、斗拱、叉手等装饰雕琢构件交融为一体，使许祠中进享堂的古韵显得更为浓郁。祠内的白墙黑瓦马头墙除了贴有宗族祖训家谱，还有近代的家乡战斗英雄许家朋的生平简介。祠门口两旁墙壁上的壁画。沿着街道台阶继续向上，可以欣赏到很多保留下来很完整的胡同，私家宅院。看到一处拥有半月形的井水的小院，这里当时会是住的什么样的人家呢？一直走到村后，一条小路直通大山深处。原路返回可以出村，因为主题是看花么，所以可以去附近最出名的摄影点，梅干岭观景台。途中高处可以俯瞰刚才的村落全貌，  上图中左侧小山为平顶山，每到春季油菜花盛开的时候，登上村子东侧的平顶山，花海与古村落交相辉映，大大小小的几个村子点缀其间，加上是典型的徽派建筑，白墙黑瓦，壮美景色一览无遗。  去的当天貌似油菜花还没有完全绽放，下周的时间应该更好那路皖浙天路，其中精华路段就是连接安徽省绩溪县家朋乡与荆州乡的乡村公路，全长30公里，有351个弯道，21个回曲，一路盘旋到最高处山云岭隘口，成为安徽省公路最高点，海拔1158米，与起点高差915米。其实很早之前曾经来这里骑行过三四次，那时它的名字叫荆州公路，路面铺装还不像现在这么好，不过在骑行界已是很有名的盘山道路，除了当地居民，大多还是勇于挑战的骑行者，那时它更有自己狂野的味道，现在知道这里的人多了，那份野确已无处可寻，世上最远的距离，是明明就在彼此身边，却对对方越来越陌生，拥有时，珍惜当下，人生的真谛。道路一年四季各有不同。春回之时，天路沿线尽披墨绿，一片清新盎然。当春风拂过，点缀其中的娇映山红姹紫嫣红。春雨连绵，阳光走出去端时，云海宛如仙境，令路人心旷神怡；盛夏之中，大地更加充郁，满目葱茏，犹如自然空调，给行人带来丝丝凉爽。公路尽头的荆州，每逢夏季，便成为江浙沪地区人们首选的凉都；金秋时节，天路景色更加宜人，处处层林尽染，风霜过后，满山枫叶，如同金海星停留枝头，使大地更加叠翠流金，让人遍赏美景；隆冬天路，体现冷艳之美。此时此刻，雪花纷纷扬扬，飘荡在高山之中，给大地披上层层白装。冬景之中的笔架尖及天路更加峻美，以另种独特的风格欢迎四方宾客的造访。  皖浙天路第一景：笔架峰，豺狗狼尖，因山高林密，经常有豺狗、野狼出没而得名。它属于黄山的余脉，位于老徽州绩溪家朋乡荆州公路山云岭左侧，海拔1300多米，与绩溪第二高峰饭甄尖遥遥相对，峰峦叠嶂，山势陡峭，怪石嶙峋，众多花岗岩巨石在地壳运动的作用下抬升，历经千万年的外力侵蚀，错落有致的构建出一座座巧夺天工的山峰。山峰突兀而起，巍然屹立于蓝天白云之间，人迹难至，却是豺狗、野狼栖息的理想场所，或许这便是豺狗狼尖另一得名之由。皖浙天路地标打卡点, 这里就是公路最高处，前面就垭口，左侧小路上去是五指峰，右侧上去是饭甑尖翻过垭口，一路下坡进入荆州乡，另一个角度留下最后一眼，再相见，也许明年，也许狗年马月。下到荆州乡，基本正好是中午饭点，可以品尝下当地的特色食物，荆州水包，豆腐馅饺子，南瓜馅饺子都是安徽的特色。PS：绩溪家朋除了水包还有一些当地的特色食物，像早上吃的挞馃  网络视频介绍 昨天晚上吃的臭鳜鱼，图上是全部光盘后，又单独点了一份臭鲑鱼。饭饱之后，一路向下，会经过小九华  39米高的巨石立于山溪之中，形似关公的青龙偃月刀，被人们称作“天下第一刀”。从这里过去不久就可以看到安徽浙江两省的分界牌，“安徽欢迎您再来”。离开安徽，进入浙江杭州临安境内，这次比较辛苦的是，从分界牌开始浙江段十几公里都在修路，路况可想而知，也许是浙江段在皖浙天路一词中虽有名份却无特别的亮点，为不甘落后，也要对道路进行修缮，不过后来才发现，和后面的路况想比，这里的正在施工的道路简直是天堂。  皖浙天路常规的后半段路线是沿着倒上线一直到岛石镇住宿，因为这次只有一天的时间还要再返回家朋，所以中途改成沿元卢线去仁里回家朋，这样无意之间就经历一次算是意外好玩刺激off-raod.新路线开始的前一小段海拔500左右的爬坡路况还算不错，只是没有补给，如果有后来人，可以在进入元卢线时做好饮水补充。到达芦塘岭，就要开始off-road,这条路后来了解到应该是当年为了当地的采矿采石场的运输而修建，但后面因为效益不好，这条路只是做了基础修建却没再继续进行铺装维护。路上经过的山洞是唯一的通道。你可以弄脏自己，绝不可以弄脏我的爱车，扛车是骑士必备技能。洞内漆黑一篇，大概纵深有两三百米，在一端只能看到另一端洞口微微的弱光，一个人身处黑暗也许是人类能想到的最恐怖几个场景之一吧。幸好这次第一探路梯队中还有两个小伙伴，三个傻子纯真又好奇的光着脚在黑暗洞中扛着车趟水前行，进入一段时间后，眼睛会慢慢适应黑暗，说说笑笑乱咋呼着自己最后的崛强，这种野趣只有在意外时才能相遇，随意一点，也许另有洞天。重见天日的庆幸，让我们了解自己的能量超乎自己的箱箱。要感谢一起陪伴经历困难的小伙伴们。人生如行路，一路艰辛，一路风景。目光所及，就是人生的境界。践行自己的坚守，或与钟爱同样口味的小伙伴同行，对“在路上”的热爱，会一直像腹泻一样，终将无法控制。",
-      "image": "/images/posts/wanzhe-road.jpg"
+      "image": "/images/posts/wanzhe-road.webp"
     } ,
   
     {
@@ -1176,7 +1248,7 @@
       "url"      : "/China-Shanghai-Hike-withParents",
       "date"     : "May 1, 2011",
       "content"  : "",
-      "image": "/images/posts/shanghai.jpg"
+      "image": "/images/posts/shanghai.webp"
     } ,
   
     {
@@ -1185,7 +1257,7 @@
       "url"      : "/isanfeng_beginning",
       "date"     : "Mar 31, 2010",
       "content"  : "  2012年3月31日我是一个彻底的悲观主义者，但是我没有办法表达我的这种悲观，后来我也放弃了表达，我觉得没有任何的价值！我对这个婆娑世界的认知是，这就是一方烂透了的人间道！我已经做好了一个决定，在我没有想好我接下来干啥之前，那么这段时间，我把这段生命浪费掉就好，所以我是在浪费我的生命，但是浪费生命这件事，我不想让他躺在床上只是在刷着手机或者看个闲书打发过去，我应该找到一种不孤单的，有人在的，甚至我自己理解相对体面的方式，来把我这段时间的生命给浪费掉。因为我彻底的悲观，不是一般的失望，不论是对个体的这个生命，甚至生命的价值，包括对这个世界，以及对这个时代或者这个社会，我没有办法表达我真实的失望和这种悲观。  2011年3月31日我不社交，随着岁月，死的朋友比活着的多。很少有人找我吃饭，我也很少找人吃饭，我不喜欢出门，出门都挑人少的时间和地点才愿意出来，很少外食，因为无法理解人类可以一边大口嚼菜一边大声喧哗，只去熟悉的店从不开发新的餐馆，所以熟店关一家少一家。手机不常接也很少响，尽量较少对手机的接触。总是看已经看过N遍的老电影，有时新片的内容让人看不下去。是不是一个无聊又无趣的人生？别开玩笑了，能避免和人类扯上关系真是太快乐了。  2010年3月31日明天是愚人节，不知怎的莫名的就开了这么一个blog，幻想着能把自己或无聊或有趣的旅行事情和骚动的心情记录下来，因为自己也怀揣着能和很多旅行家一样走出一个不一样的人生的梦想，于是突发奇想的做了一个决定要每年进行1-2次的单车环球旅行。我是一个很普通的人，不免俗得和很多人一样毕业之后成了打工仔，现在依然是个打工仔，没有随兴的时间去完成自己的梦想，只能通过假期来一点点的拼凑，所以就起了一个好听的名字，分时分段环球旅行。人长大到一定年纪，尤其是男孩子，就被认为应该要稳定了，应该要像个大人了，要和大众一起去上演一样的剧本，打工、赚钱、买车、买房，可能结婚、生孩子……是否只有这一条路，是否我可以选择另外一条路呢？要选择另一条被认为“不常规”的道路不是我对现实的逃避，应该是对世界，对自己的进一步认识，当每次发现世界真的很大，我却不知道上帝放我在这个世界里的意义是什么，我也不确定自己不断选择的路是否有意义，是否正确，毕竟人生只有一次，我要怎么用完这一生，我相信人生不只有那么一条路，不管最后我能走多远，坚持到什么时候，我想要看下自己能为梦想，多不顾一起。旅行是探索世界、用心旅行是探索生命、独自旅行是探索自己。发现了生命的无限可能，世界就会变得更精彩。",
-      "image": "/images/posts/beach.jpg"
+      "image": "/images/posts/beach.webp"
     } 
   
 ]

@@ -1,6 +1,19 @@
 $(document).ready(function() {
   'use strict';
 
+  /* =======================
+  // 维护文档入口：仅本地（localhost / 127.0.0.1）显示
+  // 线上（公网域名）保持隐藏，避免维护手册暴露给访客。
+  // 默认 inline style="display:none" 隐藏；本地 host 时移除该 inline 样式使其显示。
+  // 用 inline 样式而非 class，是因为本项目主 CSS 不经 Jekyll 编译进 _site，class 规则不可靠。
+  ======================= */
+  (function () {
+    var h = window.location.hostname;
+    if (h === 'localhost' || h === '127.0.0.1') {
+      $('.nav__item--local-only').css('display', '');
+    }
+  })();
+
   var menuOpenIcon = $(".nav__icon-menu"),
     menuCloseIcon = $(".nav__icon-close"),
     menuList = $(".menu-overlay"),
@@ -172,6 +185,41 @@ $(document).ready(function() {
     });
   })();
 
+  /* =======================
+  // Nav submenu (mobile accordion)
+  // 带子菜单的主项（如 DO）在移动端汉堡里点 ▸ 展开/收起子列表；
+  // 桌面顶栏不渲染 .nav__sub-toggle（走 hover 下拉），故此段对桌面无副作用。
+  ======================= */
+  (function () {
+    // 移动端：独立的 .nav__sub-toggle 与「有子菜单的父按钮」(.mobile-nav .nav__has-sub > .nav__link)
+    // 都能展开/收起 accordion；桌面父按钮(.top-nav ...)不在此选区，桌面走 hover，无 click 处理。
+    var $toggles = $('.nav__sub-toggle, .mobile-nav .nav__has-sub > .nav__link');
+    if (!$toggles.length) return;
+
+    function closeSubs() {
+      $('.nav__has-sub.is-open').removeClass('is-open')
+        .find('.nav__sub-toggle').attr('aria-expanded', 'false');
+    }
+
+    $toggles.on('click', function (e) {
+      e.stopPropagation();
+      var $li = $(this).closest('.nav__has-sub');
+      var open = $li.hasClass('is-open');
+      closeSubs();
+      if (!open) {
+        $li.addClass('is-open');
+        $(this).attr('aria-expanded', 'true');
+      }
+    });
+
+    $(document).on('click', function (e) {
+      if (!$(e.target).closest('.nav__has-sub').length) { closeSubs(); }
+    });
+    $(document).on('keydown', function (e) {
+      if (e.keyCode === 27) { closeSubs(); }
+    });
+  })();
+
 
   /* =======================
   // Animation Load Page
@@ -221,6 +269,14 @@ $(document).ready(function() {
   upgradeToWebP();
 
   function upgradeToWebP() {
+    // 构建期由 head.html 注入的真实 webp 清单（相对站点根，如 images/posts/x.webp）。
+    // 只有清单里确实存在的副本才升级为 <picture>，否则直接用原图：
+    // 优化脚本对"webp 比原图还大"的图会故意跳过，盲目拼出 .webp 地址会 404。
+    var webpSet = Object.create(null);
+    var listed = window.WEBP_FILES || [];
+    for (var k = 0; k < listed.length; k++) webpSet['/' + listed[k].replace(/^\/+/, '')] = true;
+
+    var anchor = document.createElement('a');
     var imgs = document.querySelectorAll('img.lazy');
     for (var i = 0; i < imgs.length; i++) {
       var img = imgs[i];
@@ -228,6 +284,8 @@ $(document).ready(function() {
       var src = img.getAttribute('data-src') || img.getAttribute('src') || '';
       if (!/\.(jpe?g|JPE?G)$/.test(src)) continue;
       var webp = src.replace(/\.(jpe?g|JPE?G)$/, '.webp');
+      anchor.href = webp;
+      if (!webpSet[anchor.pathname]) continue;   // 副本不存在 -> 保持原图，不请求
       var pic = document.createElement('picture');
       var source = document.createElement('source');
       source.setAttribute('type', 'image/webp');
@@ -244,6 +302,62 @@ $(document).ready(function() {
   var lazyLoadInstance = new LazyLoad({
     elements_selector: '.lazy'
   })
+
+
+  /* =======================
+  // Image Fallback（坏图兜底）
+  // 任意 <img> 加载失败（404 / 网络瞬断 / webp 缺失）时：
+  //   1) 首次失败：去掉 <picture> 的 <source>（webp 优先），直接重试 <img> 原始资源，
+  //      兼容“只缺 webp、jpg 还在”或“临时网络抖动”的情况；
+  //   2) 重试仍失败：替换为统一占位图 /images/posts/placeholder.webp；
+  //   3) 真实图片恢复（重新部署 / 网络恢复）后，下次加载自然走真实图，无需手动处理。
+  // 用捕获阶段监听 document 的 error 事件（error 不冒泡，只能捕获），
+  // 覆盖 vanilla-lazyload 异步加载后才失败的图片。
+  ======================= */
+  initImageFallback();
+
+  function initImageFallback() {
+    var PLACEHOLDER = '/images/posts/placeholder.webp';
+
+    // 把 <img> 从 <picture> 中抽出来，避免 <source>（webp）继续抢占
+    function detachFromPicture(img) {
+      var pic = img.parentNode;
+      if (pic && pic.tagName === 'PICTURE') {
+        while (pic.firstChild) pic.removeChild(pic.firstChild);
+        pic.appendChild(img);
+      }
+    }
+
+    document.addEventListener('error', function (e) {
+      var img = e.target;
+      if (!img || img.tagName !== 'IMG') return;
+
+      var cur = img.getAttribute('src') || '';
+      // 已是占位图或已处理过 -> 直接返回，防止死循环
+      if (cur.indexOf('placeholder.webp') !== -1 || img.dataset.fbDone) return;
+
+      // 第一次失败：去掉 webp <source>，重试原始资源（捕瞬断 / 仅缺 webp 的情况）
+      if (!img.dataset.fbRetry) {
+        img.dataset.fbRetry = '1';
+        var orig = img.getAttribute('data-src') || cur;
+        detachFromPicture(img);
+        img.removeAttribute('data-src');
+        img.removeAttribute('data-srcset');
+        img.removeAttribute('data-action');
+        img.src = orig;          // 重新触发加载
+        return;
+      }
+
+      // 重试仍失败：换占位图
+      img.dataset.fbDone = '1';
+      detachFromPicture(img);
+      img.removeAttribute('data-src');
+      img.removeAttribute('data-srcset');
+      img.removeAttribute('data-action');
+      img.classList.remove('lazy');
+      img.src = PLACEHOLDER;
+    }, true);
+  }
 
 
   /* =======================
